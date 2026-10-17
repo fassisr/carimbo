@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Fuilá</string>
+    <string name="title_activity_main">Fuilá</string>
+    <string name="package_name">com.fassisr.fuila</string>
+    <string name="custom_url_scheme">com.fassisr.fuila</string>
+</resources>

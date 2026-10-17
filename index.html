@@ -3,23 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1C2340">
-<title>Carimbo</title>
-<meta name="description" content="Jogo de colecionar lugares: faça check-in em cafés, bares e parques reais perto de você e ganhe carimbos, insígnias e cupons.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<meta name="theme-color" content="#3B2BF5">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/brand/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/brand/icon-192.png">
+<title>Fuilá</title>
+<meta name="description" content="Fuilá: colecione os lugares onde você foi. Faça check-in em cafés, bares e parques reais perto de você e ganhe carimbos, insígnias e cupons.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 600; font-display: swap; src: url("assets/fonts/bricolage-grotesque-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 800; font-display: swap; src: url("assets/fonts/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 400; font-display: swap; src: url("assets/fonts/figtree-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 500; font-display: swap; src: url("assets/fonts/figtree-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 600; font-display: swap; src: url("assets/fonts/figtree-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 700; font-display: swap; src: url("assets/fonts/figtree-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; font-display: swap; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 700; font-display: swap; src: url("assets/fonts/jetbrains-mono-latin-700-normal.woff2") format("woff2"); }
 :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
 html, body { margin: 0; }
 
 /* Layout: one-screen mobile game; stylized street map edge to edge, bottom tabs, sheets slide over the map */
 :root {
-  --bg: #F3F6F2; --surface: #FFFFFF; --surface-2: #EEF2ED; --fg: #15201A; --muted: #5B6A61; --line: #D9E1DA;
-  --ink: #1C2340; --ink-fg: #FFFFFF; --gold: #F2B705; --gold-fg: #2A2000; --ok: #1E8A4C;
-  --ground: #DFE8DB; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
+  --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
+  --ink: #3B2BF5; --ink-fg: #FFFFFF; --gold: #FFC21A; --gold-fg: #241A00; --ok: #1E8A4C;
+  --ground: #E9E7F7; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
   --park: #B8D9A6; --tree: #93C27E; --water: #A7CDE4; --label: #6E7D73;
-  --me: #2F5BEA; --me-ring: #FFFFFF; --range: rgba(47, 91, 234, .10); --range-line: rgba(47, 91, 234, .55);
+  --me: #3B2BF5; --me-ring: #FFFFFF; --range: rgba(59, 43, 245, .10); --range-line: rgba(59, 43, 245, .55);
   --on-pin: #FFFFFF; --shadow: rgba(20, 35, 25, .22);
   --c-cafe: #A0471D; --c-bar: #6A35B0; --c-doce: #D03A78; --c-verde: #23874A; --c-cultura: #1E62C4;
   --f-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
@@ -27,21 +36,21 @@ html, body { margin: 0; }
   --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0E1411; --surface: #171F1B; --surface-2: #1E2823; --fg: #E6EEE8; --muted: #93A49A; --line: #2A3631;
-  --ink: #E6EEE8; --ink-fg: #0E1411; --gold: #F5C434; --gold-fg: #261C00; --ok: #4CC782;
-  --ground: #18221E; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
+  --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
+  --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
-  --me: #6E8FFF; --me-ring: #0E1411; --range: rgba(110, 143, 255, .13); --range-line: rgba(110, 143, 255, .6);
+  --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
   --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA;
   color-scheme: dark;
 } }
 :root[data-theme="dark"] {
-  --bg: #0E1411; --surface: #171F1B; --surface-2: #1E2823; --fg: #E6EEE8; --muted: #93A49A; --line: #2A3631;
-  --ink: #E6EEE8; --ink-fg: #0E1411; --gold: #F5C434; --gold-fg: #261C00; --ok: #4CC782;
-  --ground: #18221E; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
+  --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
+  --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
-  --me: #6E8FFF; --me-ring: #0E1411; --range: rgba(110, 143, 255, .13); --range-line: rgba(110, 143, 255, .6);
+  --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
   --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA;
   color-scheme: dark;
@@ -62,8 +71,8 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--me); o
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   background: var(--surface); border-bottom: 1px solid var(--line); z-index: 5; }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
-.brand svg { width: 34px; height: 34px; color: var(--c-cafe); flex: none; }
-.brand b { font-family: var(--f-display); font-weight: 800; font-size: 21px; letter-spacing: -.01em; display: block; line-height: 1; }
+.brand svg { width: 28px; height: 32px; flex: none; }
+.brand b { font-family: var(--f-display); font-weight: 800; font-size: 25px; letter-spacing: -.03em; display: block; line-height: 1; }
 .brand span { font-size: 12px; color: var(--muted); }
 .xp { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 5px 12px 5px 5px; flex: none; }
 .xp .lv { background: var(--gold); color: var(--gold-fg); font-weight: 700; font-size: 12px; border-radius: 999px; padding: 3px 8px; }
@@ -298,7 +307,12 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 #fabMe { top: 64px; } #fabDemo { top: 116px; }
 .near, .sheet { z-index: 600; }
 .example { font-size: 11px; font-weight: 600; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
-#toast { bottom: auto; top: 12px; }
+#toast { bottom: auto; top: 76px; }
+#splash { position: fixed; inset: 0; z-index: 2000; background: #3B2BF5; color: #fff; display: grid; place-content: center; justify-items: center; gap: 6px; transition: opacity .4s; }
+#splash svg { width: 84px; height: 96px; animation: drop .6s cubic-bezier(.3, 1.5, .5, 1) both; }
+#splash b { font: 800 46px var(--f-display); letter-spacing: -.03em; }
+#splash.out { opacity: 0; pointer-events: none; }
+@keyframes drop { from { transform: translateY(-40px) scale(.8); opacity: 0; } }
 .addr { font-size: 13px; color: var(--muted); margin-top: 8px; }
 </style>
 </head>
@@ -312,11 +326,12 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
     </filter>
   </defs>
 </svg>
+<div id="splash" aria-hidden="true"><svg viewBox="200 180 624 720"><path fill="#FFC21A" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="#3B2BF5" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg><b>fuilá</b></div>
 <div id="app">
   <header class="top">
     <div class="brand">
-      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 20.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <div><b>Carimbo</b><span id="where">Procurando você…</span></div>
+      <svg viewBox="200 180 624 720" aria-hidden="true"><path fill="var(--gold)" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="var(--ink)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg>
+      <div><b>fuilá</b><span id="where">Procurando você…</span></div>
     </div>
     <button class="xp" id="xpPill" type="button" aria-label="Abrir passaporte"></button>
   </header>
@@ -350,7 +365,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 (() => {
-const KEY = 'carimbo-gps-v1';
+const KEY = 'carimbo-gps-v1'; // chave antiga mantida para não perder o progresso
 const R = 60;              // raio de check-in em metros
 const RADIUS_FETCH = 1200; // raio de busca de lugares
 const XP_VISITA = 50, XP_LEVEL = 250;
@@ -435,7 +450,7 @@ function stampSVG(p, ts) {
   const id = 'sp' + (++stampSeq);
   const rot = (hash(p.id) % 31) - 15;
   let nm = p.n.toUpperCase(); if (nm.length > 22) nm = nm.slice(0, 21) + '…';
-  const city = (p.city || 'CARIMBO').toUpperCase().slice(0, 16);
+  const city = (p.city || 'FUILÁ').toUpperCase().slice(0, 16);
   const label = `${nm} · ${city} · `;
   return `<svg class="stamp" viewBox="0 0 200 200" style="color:var(--c-${p.cat})" role="img" aria-label="Carimbo de ${esc(p.n)}">
     <defs><path id="${id}" d="M100,100 m-68,0 a68,68 0 1,1 136,0 a68,68 0 1,1 -136,0"/></defs>
@@ -495,14 +510,19 @@ function refresh() { syncMarkers(); renderNear(); if (openId) renderSheet(); }
 
 // GPS
 function startGPS() {
-  if (!('geolocation' in navigator)) return useFallback('Este navegador não informa a localização.');
+  const onFix = c => { gpsFix = { lat: c.latitude, lng: c.longitude, acc: c.accuracy }; if (!demo) setMe(gpsFix.lat, gpsFix.lng, gpsFix.acc); };
+  const onErr = denied => { if (!me) useFallback(denied ? 'Sem permissão de localização.' : 'Não consegui achar sua localização.'); };
   status('<span class="spin"></span><span>Pedindo sua localização…</span>');
-  navigator.geolocation.watchPosition(pos => {
-    gpsFix = { lat: pos.coords.latitude, lng: pos.coords.longitude, acc: pos.coords.accuracy };
-    if (!demo) setMe(gpsFix.lat, gpsFix.lng, gpsFix.acc);
-  }, err => {
-    if (!me) useFallback(err.code === 1 ? 'Sem permissão de localização.' : 'Não consegui achar sua localização.');
-  }, { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
+  const Geo = window.Capacitor?.isNativePlatform?.() && window.Capacitor.Plugins?.Geolocation;
+  if (Geo) { // dentro do app Android
+    Geo.requestPermissions().then(r => {
+      if (r.location === 'denied') return onErr(true);
+      Geo.watchPosition({ enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 }, (pos, err) => { if (pos) onFix(pos.coords); else if (err) onErr(false); });
+    }).catch(() => onErr(true));
+    return;
+  }
+  if (!('geolocation' in navigator)) return useFallback('Este navegador não informa a localização.');
+  navigator.geolocation.watchPosition(pos => onFix(pos.coords), err => onErr(err.code === 1), { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
 }
 function useFallback(why) {
   demo = true; renderFabs();
@@ -759,7 +779,7 @@ function renderPassport() {
   const slots = (3 - visited.length % 3) % 3 + 3;
   $('#v-passaporte').innerHTML = `
     <div class="pp">
-      <small>Passaporte Carimbo</small>
+      <small>Passaporte Fuilá</small>
       <h2>${TITLES[lv]}</h2>
       <div class="bar"><i style="width:${max ? 100 : into / XP_LEVEL * 100}%"></i></div>
       <div class="pp-row"><span>Nível ${lv + 1}</span><span>${max ? `${st.xp} XP` : `${into}/${XP_LEVEL} XP para o nível ${lv + 2}`}</span></div>
@@ -788,6 +808,7 @@ function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = fal
 
 // ---------- início ----------
 renderChrome(); renderFabs(); show('mapa');
+setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
 startGPS();
 })();
 </script>

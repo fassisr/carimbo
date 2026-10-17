@@ -1,0 +1,6 @@
+{
+  "appId": "com.fassisr.fuila",
+  "appName": "Fuilá",
+  "webDir": "www",
+  "android": { "backgroundColor": "#3B2BF5" }
+}
