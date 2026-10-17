@@ -8994,6 +8994,23 @@
    "id": "d-parque-da-agua-branca-sao-paulo"
   },
   {
+   "n": "Praça Pôr do Sol",
+   "cat": "verde",
+   "end": "Alto de Pinheiros",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "d": "O lugar mais famoso da cidade para ver o pôr do sol, com vista para o skyline.",
+   "busca": [
+    "Praça Coronel Custódio Fernandes Pinheiro"
+   ],
+   "chave": "praca por do sol|sao paulo",
+   "v": 3,
+   "lat": -23.553329,
+   "lng": -46.703494,
+   "geo": "lugar",
+   "id": "d-praca-por-do-sol-sao-paulo"
+  },
+  {
    "n": "Parque da Aclimação",
    "cat": "verde",
    "end": "Rua Muniz de Sousa, Aclimação",
@@ -9203,6 +9220,23 @@
    "lng": -46.699172,
    "geo": "lugar",
    "id": "d-frango-sao-paulo"
+  },
+  {
+   "n": "Bar São Cristóvão",
+   "cat": "bar",
+   "end": "Rua Aspicuelta, Vila Madalena",
+   "cidade": "São Paulo",
+   "uf": "SP",
+   "d": "Boteco temático do futebol, com paredes forradas de camisas e flâmulas.",
+   "busca": [
+    "São Cristóvão"
+   ],
+   "chave": "bar sao cristovao|sao paulo",
+   "v": 3,
+   "lat": -23.535248,
+   "lng": -46.632632,
+   "geo": "lugar",
+   "id": "d-bar-sao-cristovao-sao-paulo"
   },
   {
    "n": "Bar Léo",
