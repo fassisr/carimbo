@@ -1,0 +1,29 @@
+name: Destaques no mapa
+
+on:
+  push:
+    branches: [main]
+    paths: [destaques-fonte.json, scripts/geocode.mjs]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: destaques
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Achar a posição de cada lugar
+        run: node scripts/geocode.mjs
+      - name: Salvar destaques.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add destaques.json
+          git diff --cached --quiet || (git commit -m "Atualiza posições dos destaques" && git push)

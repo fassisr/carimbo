@@ -1,0 +1,461 @@
+{
+ "_comentario": "Lugares em destaque no Fuilá. Edite aqui (nome, categoria, endereço, cidade, descrição). O GitHub completa a posição no mapa sozinho e gera o destaques.json que o app baixa. categoria: cafe, bar, doce, verde ou cultura. Para um parceiro de verdade, use \"parceiro\": true e \"oferta\": \"texto da oferta combinada\".",
+ "lugares": [
+  {
+   "n": "Confeitaria Colombo",
+   "cat": "doce",
+   "end": "Rua Gonçalves Dias, 32, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Confeitaria de 1894 com espelhos belgas e doces portugueses, um clássico do Rio.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Talho Capixaba",
+   "cat": "doce",
+   "end": "Avenida Ataulfo de Paiva, 1022, Leblon",
+   "cidade": "Rio de Janeiro",
+   "d": "Padaria e delicatessen querida do Leblon, ótima para um café da manhã.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Bar Urca",
+   "cat": "bar",
+   "end": "Rua Cândido Gaffrée, 205, Urca",
+   "cidade": "Rio de Janeiro",
+   "d": "Petisco na mão e cerveja na mureta da Urca vendo o pôr do sol na baía.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Bar Luiz",
+   "cat": "bar",
+   "end": "Rua da Carioca, 39, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Funciona desde 1887, famoso pelo chope e pela salada de batata alemã.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Bracarense",
+   "cat": "bar",
+   "end": "Rua José Linhares, 85, Leblon",
+   "cidade": "Rio de Janeiro",
+   "d": "Boteco de calçada cheia, conhecido pelos bolinhos de aipim com camarão.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Jobi",
+   "cat": "bar",
+   "end": "Avenida Ataulfo de Paiva, 1166, Leblon",
+   "cidade": "Rio de Janeiro",
+   "d": "Boteco tradicional do Leblon, aberto até tarde e sempre animado.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Bip Bip",
+   "cat": "bar",
+   "end": "Rua Almirante Gonçalves, 50, Copacabana",
+   "cidade": "Rio de Janeiro",
+   "d": "Pequeno e lendário, com rodas de samba e choro na calçada.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Bar do Mineiro",
+   "cat": "bar",
+   "end": "Rua Paschoal Carlos Magno, 99, Santa Teresa",
+   "cidade": "Rio de Janeiro",
+   "d": "Feijoada e pastéis de feijão no coração boêmio de Santa Teresa.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Café Lamas",
+   "cat": "bar",
+   "end": "Rua Marquês de Abrantes, 18, Flamengo",
+   "cidade": "Rio de Janeiro",
+   "d": "Restaurante e bar de 1874, frequentado por gerações de cariocas.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Jardim Botânico do Rio de Janeiro",
+   "cat": "verde",
+   "end": "Rua Jardim Botânico, 1008, Jardim Botânico",
+   "cidade": "Rio de Janeiro",
+   "d": "A aleia de palmeiras imperiais e milhares de espécies ao pé do Corcovado.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Parque Lage",
+   "cat": "verde",
+   "end": "Rua Jardim Botânico, 414, Jardim Botânico",
+   "cidade": "Rio de Janeiro",
+   "d": "Palacete com café no pátio, cercado de mata e com vista para o Cristo.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Pedra do Arpoador",
+   "cat": "verde",
+   "end": "Arpoador, Ipanema",
+   "cidade": "Rio de Janeiro",
+   "d": "O pôr do sol mais aplaudido do Rio, entre Ipanema e Copacabana.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Mirante Dona Marta",
+   "cat": "verde",
+   "end": "Mirante Dona Marta, Botafogo",
+   "cidade": "Rio de Janeiro",
+   "d": "Vista do Pão de Açúcar, da Baía de Guanabara e do Cristo de perto.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Museu do Amanhã",
+   "cat": "cultura",
+   "end": "Praça Mauá, 1, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Museu de ciências de Santiago Calatrava na beira da baía, no Boulevard Olímpico.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Museu de Arte do Rio",
+   "cat": "cultura",
+   "end": "Praça Mauá, 5, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Arte e história do Rio, com terraço de vista para a Praça Mauá.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Centro Cultural Banco do Brasil",
+   "cat": "cultura",
+   "end": "Rua Primeiro de Março, 66, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Exposições concorridas num prédio histórico com cúpula de vidro.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Real Gabinete Português de Leitura",
+   "cat": "cultura",
+   "end": "Rua Luís de Camões, 30, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Uma das bibliotecas mais bonitas do mundo, com estantes até o teto.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Escadaria Selarón",
+   "cat": "cultura",
+   "end": "Rua Joaquim Silva, Lapa",
+   "cidade": "Rio de Janeiro",
+   "d": "Os 215 degraus de azulejos coloridos entre a Lapa e Santa Teresa.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Theatro Municipal do Rio de Janeiro",
+   "cat": "cultura",
+   "end": "Praça Floriano, Centro",
+   "cidade": "Rio de Janeiro",
+   "d": "Teatro de 1909 inspirado na Ópera de Paris, na Cinelândia.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Livraria da Travessa",
+   "cat": "cultura",
+   "end": "Rua Visconde de Pirajá, 572, Ipanema",
+   "cidade": "Rio de Janeiro",
+   "d": "Livraria carioca querida, boa para passar a tarde folheando.",
+   "uf": "RJ"
+  },
+  {
+   "n": "Pão de Açúcar",
+   "cat": "verde",
+   "end": "Avenida Pasteur, 520, Urca",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "d": "O bondinho mais famoso do Brasil, com vista de toda a Baía de Guanabara."
+  },
+  {
+   "n": "Cristo Redentor",
+   "cat": "cultura",
+   "end": "Parque Nacional da Tijuca, Alto da Boa Vista",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "d": "Uma das sete maravilhas do mundo moderno, no alto do Corcovado."
+  },
+  {
+   "n": "Arcos da Lapa",
+   "cat": "cultura",
+   "end": "Lapa",
+   "cidade": "Rio de Janeiro",
+   "uf": "RJ",
+   "d": "O aqueduto do século 18 que virou símbolo da boemia carioca."
+  },
+  {
+   "n": "Museu de Arte Contemporânea de Niterói",
+   "cat": "cultura",
+   "end": "Mirante da Boa Viagem, Boa Viagem",
+   "cidade": "Niterói",
+   "uf": "RJ",
+   "d": "O disco voador de Niemeyer, com vista para o Rio do outro lado da baía."
+  },
+  {
+   "n": "Parque da Cidade de Niterói",
+   "cat": "verde",
+   "end": "Estrada da Viração, São Francisco",
+   "cidade": "Niterói",
+   "uf": "RJ",
+   "d": "Mirante e rampa de voo livre com uma das vistas mais bonitas do Rio."
+  },
+  {
+   "n": "Praia de Itacoatiara",
+   "cat": "verde",
+   "end": "Itacoatiara",
+   "cidade": "Niterói",
+   "uf": "RJ",
+   "d": "Praia de ondas fortes cercada de montanhas, com a Pedra do Elefante ao lado."
+  },
+  {
+   "n": "Museu Imperial",
+   "cat": "cultura",
+   "end": "Rua da Imperatriz, 220, Centro",
+   "cidade": "Petrópolis",
+   "uf": "RJ",
+   "d": "Palácio de verão de Dom Pedro II, com a coroa imperial em exposição."
+  },
+  {
+   "n": "Palácio de Cristal",
+   "cat": "cultura",
+   "end": "Rua Alfredo Pachá, Centro",
+   "cidade": "Petrópolis",
+   "uf": "RJ",
+   "d": "Estrutura de ferro e vidro de 1884, presente do Conde d'Eu à Princesa Isabel."
+  },
+  {
+   "n": "Casa de Santos Dumont",
+   "cat": "cultura",
+   "end": "Rua do Encanto, 22, Centro",
+   "cidade": "Petrópolis",
+   "uf": "RJ",
+   "d": "A Encantada, casa projetada pelo próprio inventor, cheia de engenhocas."
+  },
+  {
+   "n": "Cervejaria Bohemia",
+   "cat": "bar",
+   "end": "Rua Alfredo Pachá, 166, Centro",
+   "cidade": "Petrópolis",
+   "uf": "RJ",
+   "d": "Museu e bar da cervejaria mais antiga do Brasil, com degustação."
+  },
+  {
+   "n": "Igreja de Santa Rita",
+   "cat": "cultura",
+   "end": "Rua Santa Rita, Centro Histórico",
+   "cidade": "Paraty",
+   "uf": "RJ",
+   "d": "A igrejinha branca à beira-mar, cartão-postal de Paraty."
+  },
+  {
+   "n": "Praia do Jabaquara",
+   "cat": "verde",
+   "end": "Jabaquara",
+   "cidade": "Paraty",
+   "uf": "RJ",
+   "d": "Praia de águas calmas e rasas, ótima para o fim de tarde."
+  },
+  {
+   "n": "Rua das Pedras",
+   "cat": "bar",
+   "end": "Rua das Pedras, Centro",
+   "cidade": "Armação dos Búzios",
+   "uf": "RJ",
+   "d": "A rua de bares, restaurantes e lojas que ferve à noite em Búzios."
+  },
+  {
+   "n": "Orla Bardot",
+   "cat": "verde",
+   "end": "Orla Bardot, Centro",
+   "cidade": "Armação dos Búzios",
+   "uf": "RJ",
+   "d": "Calçadão à beira-mar com a estátua de Brigitte Bardot."
+  },
+  {
+   "n": "Praia de João Fernandes",
+   "cat": "verde",
+   "end": "João Fernandes",
+   "cidade": "Armação dos Búzios",
+   "uf": "RJ",
+   "d": "Água transparente e calma, boa para snorkel."
+  },
+  {
+   "n": "Convento da Penha",
+   "cat": "cultura",
+   "end": "Rua Vasco Coutinho, Prainha",
+   "cidade": "Vila Velha",
+   "uf": "ES",
+   "d": "Santuário de 1558 no alto de um penhasco, com vista de toda a Grande Vitória."
+  },
+  {
+   "n": "Fábrica de Chocolates Garoto",
+   "cat": "doce",
+   "end": "Praça Meyerfreund, 1, Glória",
+   "cidade": "Vila Velha",
+   "uf": "ES",
+   "d": "Visita à fábrica, museu do chocolate e a famosa loja da Garoto."
+  },
+  {
+   "n": "Museu Vale",
+   "cat": "cultura",
+   "end": "Antiga Estação Pedro Nolasco, Argolas",
+   "cidade": "Vila Velha",
+   "uf": "ES",
+   "d": "Antiga estação ferroviária que virou espaço de arte contemporânea."
+  },
+  {
+   "n": "Praia da Costa",
+   "cat": "verde",
+   "end": "Praia da Costa",
+   "cidade": "Vila Velha",
+   "uf": "ES",
+   "d": "Praia urbana com calçadão, quiosques e o Morro do Moreno ao fundo."
+  },
+  {
+   "n": "Parque Moscoso",
+   "cat": "verde",
+   "end": "Parque Moscoso, Centro",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "O parque mais antigo de Vitória, com lago, coreto e árvores centenárias."
+  },
+  {
+   "n": "Palácio Anchieta",
+   "cat": "cultura",
+   "end": "Praça João Clímaco, Centro",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Sede do governo capixaba, com visitas guiadas e o túmulo de José de Anchieta."
+  },
+  {
+   "n": "Catedral Metropolitana de Vitória",
+   "cat": "cultura",
+   "end": "Praça Dom Luiz Scortegagna, Centro",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Catedral neogótica com vitrais coloridos no alto da Cidade Alta."
+  },
+  {
+   "n": "Teatro Carlos Gomes",
+   "cat": "cultura",
+   "end": "Praça Costa Pereira, Centro",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Teatro de 1927 inspirado no Scala de Milão."
+  },
+  {
+   "n": "Galpão das Paneleiras de Goiabeiras",
+   "cat": "cultura",
+   "end": "Rua das Paneleiras, Goiabeiras",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Onde nascem as panelas de barro da moqueca capixaba, patrimônio do Brasil."
+  },
+  {
+   "n": "Parque da Pedra da Cebola",
+   "cat": "verde",
+   "end": "Mata da Praia",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Parque com mirante, lago e a pedra que dá nome ao lugar."
+  },
+  {
+   "n": "Praia de Camburi",
+   "cat": "verde",
+   "end": "Camburi",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "A maior praia de Vitória, com 6 km de orla, ciclovia e quiosques."
+  },
+  {
+   "n": "Kaffa Cafeteria",
+   "cat": "cafe",
+   "end": "Jardim da Penha",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Café especial desde 2010, famoso pelo Hop & Cold, um cold brew lupulado."
+  },
+  {
+   "n": "Clericot Café",
+   "cat": "cafe",
+   "end": "Curva da Jurema",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Café no quiosque da praia, com grãos do Caparaó e drinques no fim da tarde."
+  },
+  {
+   "n": "Make a Coffee",
+   "cat": "cafe",
+   "end": "Santa Lúcia",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Cafeteria de métodos filtrados que também dá curso de barista."
+  },
+  {
+   "n": "Rua da Lama",
+   "cat": "bar",
+   "end": "Avenida Anísio Fernandes Coelho, Jardim da Penha",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "A rua de bares perto da UFES, lotada às sextas."
+  },
+  {
+   "n": "Triângulo das Bermudas",
+   "cat": "bar",
+   "end": "Rua Joaquim Lírio, Praia do Canto",
+   "cidade": "Vitória",
+   "uf": "ES",
+   "d": "Polo de bares e restaurantes da Praia do Canto, cheio no happy hour."
+  },
+  {
+   "n": "Praia do Morro",
+   "cat": "verde",
+   "end": "Praia do Morro",
+   "cidade": "Guarapari",
+   "uf": "ES",
+   "d": "A praia mais movimentada de Guarapari, famosa pela areia monazítica."
+  },
+  {
+   "n": "Enseada Azul",
+   "cat": "verde",
+   "end": "Enseada Azul",
+   "cidade": "Guarapari",
+   "uf": "ES",
+   "d": "Praias de águas azuis e calmas entre pedras e restingas."
+  },
+  {
+   "n": "Parque Estadual da Pedra Azul",
+   "cat": "verde",
+   "end": "Rodovia BR-262, Pedra Azul",
+   "cidade": "Domingos Martins",
+   "uf": "ES",
+   "d": "Trilhas, piscinas naturais e a Pedra Azul que muda de cor ao longo do dia."
+  },
+  {
+   "n": "Igreja Luterana de Domingos Martins",
+   "cat": "cultura",
+   "end": "Centro",
+   "cidade": "Domingos Martins",
+   "uf": "ES",
+   "d": "Templo de 1887 que marca a imigração alemã na serra capixaba."
+  },
+  {
+   "n": "Cervejaria Bello Monti",
+   "cat": "bar",
+   "end": "Pedra Azul",
+   "cidade": "Domingos Martins",
+   "uf": "ES",
+   "d": "Cervejas artesanais com petiscos e vista para as montanhas."
+  },
+  {
+   "n": "Fazenda Carnielli",
+   "cat": "doce",
+   "end": "Venda Nova do Imigrante",
+   "cidade": "Venda Nova do Imigrante",
+   "uf": "ES",
+   "d": "Loja da roça com queijos, socol, geleias e biscoitos da imigração italiana."
+  }
+ ]
+}
