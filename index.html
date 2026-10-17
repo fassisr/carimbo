@@ -110,6 +110,30 @@ main { position: relative; min-height: 0; isolation: isolate; z-index: 0; }
 .me-halo { fill: var(--me); opacity: .25; animation: halo 2.2s ease-out infinite; }
 @keyframes halo { 0% { r: 9; opacity: .4; } 100% { r: 26; opacity: 0; } }
 .me-dot { fill: var(--me); stroke: var(--me-ring); stroke-width: 3.5; }
+.avatar { width: 46px; height: 62px; pointer-events: none; }
+.avatar svg { overflow: visible; display: block; filter: drop-shadow(0 2px 2px rgba(20, 17, 43, .25)); }
+.av-shadow { fill: rgba(20, 17, 43, .28); }
+.av-flip { transition: transform .2s; }
+.avatar.left .av-flip { transform: scaleX(-1); }
+.av-body { fill: #3B2BF5; stroke: #fff; stroke-width: 1.5; }
+.av-pack { fill: #FFC21A; stroke: #fff; stroke-width: 1.5; }
+.av-head { fill: #F3C29C; stroke: #fff; stroke-width: 1.5; }
+.av-cap { fill: #FFC21A; }
+.av-eye { fill: #14112B; }
+.av-leg path, .av-arm path { fill: none; stroke: #14112B; stroke-width: 4.5; stroke-linecap: round; }
+.av-leg .av-shoe { stroke: #14112B; stroke-width: 4; }
+.av-leg-b path, .av-arm-b path { stroke: #3A3560; }
+.av-arm path { stroke: #3B2BF5; stroke-width: 4; }
+.av-arm-b path { stroke: #2A1FC2; }
+.av-leg, .av-arm { transform-box: fill-box; }
+.av-leg { transform-origin: 50% 0; } .av-arm { transform-origin: 50% 0; }
+.avatar .av-bob { animation: breathe 2.4s ease-in-out infinite; }
+.avatar.walking .av-bob { animation: bob .5s ease-in-out infinite; }
+.avatar.walking .av-leg-f, .avatar.walking .av-arm-b { animation: swing .5s ease-in-out infinite alternate; }
+.avatar.walking .av-leg-b, .avatar.walking .av-arm-f { animation: swing .5s ease-in-out infinite alternate-reverse; }
+@keyframes swing { from { transform: rotate(28deg); } to { transform: rotate(-28deg); } }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2.5px); } }
+@keyframes breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1px); } }
 
 .hint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--ink-fg); font-size: 13px; font-weight: 600;
   padding: 8px 14px; border-radius: 999px; display: flex; align-items: center; gap: 8px; white-space: nowrap; box-shadow: 0 6px 18px var(--shadow); pointer-events: none; max-width: calc(100% - 32px); }
@@ -373,7 +397,7 @@ const R = 60;              // raio de check-in em metros
 const RADIUS_FETCH = 1200; // raio de busca de lugares
 const XP_VISITA = 50, XP_LEVEL = 250;
 const FALLBACK = { lat: -23.5566, lng: -46.6905, nome: 'Vila Madalena, São Paulo' };
-const OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
+const OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
 
 const ICONS = {
   cafe: '<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8.5 3.5v2.5M12 3.5v2.5"/>',
@@ -419,7 +443,7 @@ let me = null;          // { lat, lng, acc }
 let demo = false;       // posição simulada (toque no mapa para andar)
 let gpsFix = null;      // última posição real do GPS
 const places = new Map();
-let lastFetch = null, fetching = false;
+let lastFetch = null, fetching = false, lastTry = 0, retryT = 0, fails = 0, lastWhy = '';
 
 // ---------- util ----------
 const $ = s => document.querySelector(s);
@@ -529,9 +553,29 @@ if (map) map.on('load', () => {
   mapReady = true; updateRange();
 });
 const meEl = document.createElement('div');
-meEl.className = 'mewrap';
-meEl.innerHTML = '<svg width="28" height="28" viewBox="-14 -14 28 28"><circle class="me-halo" r="9"/><circle class="me-dot" r="9"/></svg>';
-const meMarker = map && new maplibregl.Marker({ element: meEl });
+meEl.className = 'avatar';
+meEl.innerHTML = `<svg width="46" height="62" viewBox="-23 -56 46 62" aria-hidden="true">
+  <ellipse class="av-shadow" cx="0" cy="1" rx="11" ry="3.5"/>
+  <g class="av-flip"><g class="av-bob">
+    <g class="av-leg av-leg-b"><path d="M2 -15v13"/><path class="av-shoe" d="M1 -2h6"/></g>
+    <g class="av-arm av-arm-b"><path d="M5 -28l2 10"/></g>
+    <path class="av-pack" d="M-12 -30h6v14h-6a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2z"/>
+    <rect class="av-body" x="-8" y="-31" width="16" height="18" rx="7"/>
+    <g class="av-leg av-leg-f"><path d="M-2 -15v13"/><path class="av-shoe" d="M-3 -2h6"/></g>
+    <circle class="av-head" cx="1" cy="-39" r="9"/>
+    <path class="av-cap" d="M-8 -41a9 9 0 0 1 18 0z"/><path class="av-cap" d="M8 -42h7a1.5 1.5 0 0 1 0 3h-7z"/>
+    <circle class="av-eye" cx="5" cy="-38" r="1.3"/>
+    <g class="av-arm av-arm-f"><path d="M-3 -28l-2 10"/></g>
+  </g></g>
+</svg>`;
+const meMarker = map && new maplibregl.Marker({ element: meEl, anchor: 'bottom' });
+let walkT = 0;
+function stepAvatar(from, to) {
+  if (!from || meters(from, to) < 1.5) return;
+  if (Math.abs(to.lng - from.lng) > 1e-7) meEl.classList.toggle('left', to.lng < from.lng);
+  meEl.classList.add('walking');
+  clearTimeout(walkT); walkT = setTimeout(() => meEl.classList.remove('walking'), 1800);
+}
 const markers = new Map();
 
 function pinHTML(p, cls) {
@@ -561,12 +605,14 @@ function syncMarkers() {
 }
 function flyTo(lat, lng, zoom) { if (map) map.easeTo({ center: [lng, lat], zoom: zoom ?? map.getZoom(), duration: reduced ? 0 : 700 }); }
 function setMe(lat, lng, acc) {
-  const first = !me;
+  const first = !me, prev = me;
   me = { lat, lng, acc };
+  stepAvatar(prev, me);
+  if (first && !demo) $('#where').textContent = 'Você está aqui';
   if (meMarker) { meMarker.setLngLat([lng, lat]); if (first) meMarker.addTo(map); }
   updateRange();
   if (first && map) map.jumpTo({ center: [lng, lat], zoom: 17 });
-  if (!lastFetch || meters(lastFetch, me) > RADIUS_FETCH * 0.5) loadPlaces();
+  if (!lastFetch || (meters(lastFetch, me) > RADIUS_FETCH * 0.6 && Date.now() - lastTry > 60000)) loadPlaces();
   refresh();
 }
 function refresh() { syncMarkers(); renderNear(); if (openId) renderSheet(); }
@@ -606,15 +652,15 @@ function categorize(t) {
 }
 async function loadPlaces() {
   if (fetching || !me) return;
-  fetching = true;
+  fetching = true; lastTry = Date.now(); clearTimeout(retryT);
   const c = { lat: me.lat, lng: me.lng };
   const ar = `(around:${RADIUS_FETCH},${c.lat.toFixed(5)},${c.lng.toFixed(5)})`;
-  const q = `[out:json][timeout:25];(
+  const q = `[out:json][timeout:20];(
     nwr${ar}["amenity"~"^(cafe|bar|pub|biergarten|ice_cream|cinema|theatre|library|arts_centre)$"]["name"];
     nwr${ar}["shop"~"^(bakery|confectionery|pastry|chocolate|books|music)$"]["name"];
     nwr${ar}["tourism"~"^(museum|gallery|viewpoint)$"]["name"];
     nwr${ar}["leisure"="park"]["name"];
-  );out center tags 400;`;
+  );out center 400;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
   const ck = `places:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
   let data = null;
@@ -623,14 +669,22 @@ async function loadPlaces() {
     // pergunta aos servidores em paralelo e fica com o primeiro que responder
     const ctrls = OVERPASS.map(() => new AbortController());
     const ask = (url, i) => fetch(url, { method: 'POST', body: 'data=' + encodeURIComponent(q), headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, signal: ctrls[i].signal })
-      .then(r => r.ok ? r.json() : Promise.reject(r.status));
+      .then(r => r.ok ? r.json() : Promise.reject('HTTP ' + r.status));
+    let why = '';
     const timer = setTimeout(() => ctrls.forEach(x => x.abort()), 30000);
-    try { data = await Promise.any(OVERPASS.map(ask)); } catch (e) {}
+    try { data = await Promise.any(OVERPASS.map(ask)); } catch (e) { why = [...new Set((e.errors || []).map(x => typeof x === 'string' ? x : x?.name === 'AbortError' ? 'demorou demais' : 'sem conexão'))].join(', '); }
+    lastWhy = why;
     clearTimeout(timer); ctrls.forEach(x => x.abort());
     if (data) try { localStorage.setItem(ck, JSON.stringify({ t: Date.now(), d: { elements: data.elements } })); } catch (e) {}
   }
   fetching = false;
-  if (!data) { status('<span>Não consegui carregar os lugares agora.</span><button type="button" data-act="retry-places">Tentar de novo</button>'); return; }
+  if (!data) {
+    fails++;
+    status(`<span>Não consegui carregar os lugares (${esc(lastWhy || 'erro')}). Tento de novo sozinho.</span><button type="button" data-act="retry-places">Agora</button>`);
+    retryT = setTimeout(loadPlaces, Math.min(120000, 15000 * fails));
+    return;
+  }
+  fails = 0;
   lastFetch = c;
   let n = 0;
   for (const el of data.elements || []) {
@@ -652,8 +706,28 @@ async function loadPlaces() {
 if (map) map.on('click', e => {
   if (openId) { closeSheet(); return; }
   if (!demo) { toast('Ligue o modo demo (botão do boneco) para andar tocando no mapa'); return; }
-  setMe(e.lngLat.lat, e.lngLat.lng, 0);
+  walkTo(e.lngLat.lat, e.lngLat.lng);
 });
+// modo demo: o avatar caminha até o ponto em vez de teletransportar
+let walkRaf = 0;
+function walkTo(lat, lng) {
+  cancelAnimationFrame(walkRaf);
+  if (!me) return setMe(lat, lng, 0);
+  const from = { ...me }, d = meters(from, { lat, lng });
+  const dur = reduced ? 0 : Math.min(4000, 300 + d * 10);
+  const t0 = performance.now(); let lastRefresh = 0;
+  const step = now => {
+    const t = dur ? Math.min(1, (now - t0) / dur) : 1;
+    const la = from.lat + (lat - from.lat) * t, ln = from.lng + (lng - from.lng) * t;
+    if (t < 1) {
+      const prev = me; me = { lat: la, lng: ln, acc: 0 }; stepAvatar(prev, me);
+      meMarker && meMarker.setLngLat([ln, la]); updateRange();
+      if (now - lastRefresh > 150) { lastRefresh = now; refresh(); }
+      walkRaf = requestAnimationFrame(step);
+    } else setMe(lat, lng, 0);
+  };
+  walkRaf = requestAnimationFrame(step);
+}
 function renderFabs() {
   $('#fabMe').innerHTML = ic('locate');
   $('#fabDemo').innerHTML = ic('walk');
@@ -725,7 +799,7 @@ $('#sheet').addEventListener('click', e => {
   const a = e.target.closest('[data-act]'); if (!a) return;
   const p = getPlace(openId);
   if (a.dataset.act === 'close') closeSheet();
-  if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; setMe(p.lat - off, p.lng, 0); flyTo(p.lat, p.lng); toast('Modo demo ligado: posição simulada'); }
+  if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; walkTo(p.lat - off, p.lng); flyTo(p.lat, p.lng); toast('Modo demo ligado: posição simulada'); }
   if (a.dataset.act === 'scan') openScan(p);
 });
 
