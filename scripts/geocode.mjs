@@ -4,7 +4,21 @@ import { readFile, writeFile } from 'node:fs/promises';
 
 const V = 3; // mude para refazer todas as posições
 const UA = 'Fuila/0.4 (+https://github.com/fassisr/carimbo)';
+import { readdir } from 'node:fs/promises';
 const src = JSON.parse(await readFile('destaques-fonte.json', 'utf8'));
+// listas extras: qualquer arquivo .json dentro da pasta lugares/ (uma lista de lugares no mesmo formato)
+try {
+  for (const f of (await readdir('lugares')).filter(f => f.endsWith('.json')).sort()) {
+    try {
+      const j = JSON.parse(await readFile('lugares/' + f, 'utf8'));
+      const list = Array.isArray(j) ? j : j.lugares || [];
+      src.lugares.push(...list.filter(p => p && p.n && p.cat && p.cidade));
+      console.log(`lugares/${f}: ${list.length} lugares`);
+    } catch (e) { console.log(`lugares/${f}: JSON inválido, ignorado (${e.message})`); }
+  }
+} catch {}
+// sem repetidos (mesmo nome na mesma cidade)
+{ const seen = new Set(), nk = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); src.lugares = src.lugares.filter(p => { const k = nk(`${p.n}|${p.cidade}`); if (seen.has(k)) return false; seen.add(k); return true; }); }
 let old = {};
 try { for (const p of JSON.parse(await readFile('destaques.json', 'utf8')).lugares) old[p.chave] = p; } catch {}
 

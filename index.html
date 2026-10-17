@@ -711,8 +711,10 @@ function pinClass(p) { return 'stop' + (p.dest ? ' dest' : '') + (p.logo ? ' log
 function syncMarkers() {
   if (!map) return;
   for (const p of places.values()) {
-    const cls = pinClass(p);
     let m = markers.get(p.id);
+    // só desenha paradas por perto (os destaques cobrem o Brasil todo)
+    if (me && dist(p) > 5000) { if (m) { m.remove(); markers.delete(p.id); } continue; }
+    const cls = pinClass(p);
     if (!m) {
       const el = document.createElement('button');
       el.type = 'button'; el.className = 'pinbtn'; el.setAttribute('aria-label', p.n);
