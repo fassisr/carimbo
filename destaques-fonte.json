@@ -1,5 +1,5 @@
 {
- "_comentario": "Lugares em destaque no Fuilá. Edite aqui (nome, categoria, endereço, cidade, descrição). O GitHub completa a posição no mapa sozinho e gera o destaques.json que o app baixa. categoria: cafe, bar, doce, verde ou cultura. Para um parceiro de verdade, use \"parceiro\": true e \"oferta\": \"texto da oferta combinada\".",
+ "_comentario": "Lugares em destaque no Fuilá. Edite aqui (nome, categoria, endereço, cidade, descrição). O GitHub completa a posição no mapa sozinho e gera o destaques.json que o app baixa. categoria: cafe, bar, doce, verde ou cultura. Para um parceiro de verdade, use \"parceiro\": true e \"oferta\": \"texto da oferta combinada\". Opcional: \"busca\": [outros nomes] se o lugar não for achado; \"lat\"/\"lng\" para fixar a posição na mão; \"logo\": link da imagem do parceiro, que aparece na moeda da parada.",
  "lugares": [
   {
    "n": "Confeitaria Colombo",
@@ -271,7 +271,11 @@
    "end": "Orla Bardot, Centro",
    "cidade": "Armação dos Búzios",
    "uf": "RJ",
-   "d": "Calçadão à beira-mar com a estátua de Brigitte Bardot."
+   "d": "Calçadão à beira-mar com a estátua de Brigitte Bardot.",
+   "busca": [
+    "Estátua de Brigitte Bardot",
+    "Brigitte Bardot"
+   ]
   },
   {
    "n": "Praia de João Fernandes",
@@ -295,7 +299,11 @@
    "end": "Praça Meyerfreund, 1, Glória",
    "cidade": "Vila Velha",
    "uf": "ES",
-   "d": "Visita à fábrica, museu do chocolate e a famosa loja da Garoto."
+   "d": "Visita à fábrica, museu do chocolate e a famosa loja da Garoto.",
+   "busca": [
+    "Chocolates Garoto",
+    "Garoto"
+   ]
   },
   {
    "n": "Museu Vale",
@@ -351,7 +359,12 @@
    "end": "Rua das Paneleiras, Goiabeiras",
    "cidade": "Vitória",
    "uf": "ES",
-   "d": "Onde nascem as panelas de barro da moqueca capixaba, patrimônio do Brasil."
+   "d": "Onde nascem as panelas de barro da moqueca capixaba, patrimônio do Brasil.",
+   "busca": [
+    "Galpão das Paneleiras",
+    "Associação das Paneleiras de Goiabeiras",
+    "Paneleiras"
+   ]
   },
   {
    "n": "Parque da Pedra da Cebola",
@@ -359,7 +372,11 @@
    "end": "Mata da Praia",
    "cidade": "Vitória",
    "uf": "ES",
-   "d": "Parque com mirante, lago e a pedra que dá nome ao lugar."
+   "d": "Parque com mirante, lago e a pedra que dá nome ao lugar.",
+   "busca": [
+    "Parque Municipal Pedra da Cebola",
+    "Pedra da Cebola"
+   ]
   },
   {
    "n": "Praia de Camburi",
@@ -383,7 +400,10 @@
    "end": "Curva da Jurema",
    "cidade": "Vitória",
    "uf": "ES",
-   "d": "Café no quiosque da praia, com grãos do Caparaó e drinques no fim da tarde."
+   "d": "Café no quiosque da praia, com grãos do Caparaó e drinques no fim da tarde.",
+   "busca": [
+    "Clericot"
+   ]
   },
   {
    "n": "Make a Coffee",
@@ -391,7 +411,10 @@
    "end": "Santa Lúcia",
    "cidade": "Vitória",
    "uf": "ES",
-   "d": "Cafeteria de métodos filtrados que também dá curso de barista."
+   "d": "Cafeteria de métodos filtrados que também dá curso de barista.",
+   "busca": [
+    "Make a Coffee Café"
+   ]
   },
   {
    "n": "Rua da Lama",
@@ -431,7 +454,11 @@
    "end": "Rodovia BR-262, Pedra Azul",
    "cidade": "Domingos Martins",
    "uf": "ES",
-   "d": "Trilhas, piscinas naturais e a Pedra Azul que muda de cor ao longo do dia."
+   "d": "Trilhas, piscinas naturais e a Pedra Azul que muda de cor ao longo do dia.",
+   "busca": [
+    "Parque Estadual Pedra Azul",
+    "Pedra Azul"
+   ]
   },
   {
    "n": "Igreja Luterana de Domingos Martins",
@@ -447,7 +474,10 @@
    "end": "Pedra Azul",
    "cidade": "Domingos Martins",
    "uf": "ES",
-   "d": "Cervejas artesanais com petiscos e vista para as montanhas."
+   "d": "Cervejas artesanais com petiscos e vista para as montanhas.",
+   "busca": [
+    "Bello Monti"
+   ]
   },
   {
    "n": "Fazenda Carnielli",

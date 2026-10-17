@@ -2,7 +2,8 @@
 // e grava destaques.json, que o app baixa ao abrir. Roda no GitHub Actions.
 import { readFile, writeFile } from 'node:fs/promises';
 
-const UA = 'Fuila/0.3 (+https://github.com/fassisr/carimbo)';
+const V = 2; // mude para refazer todas as posições
+const UA = 'Fuila/0.4 (+https://github.com/fassisr/carimbo)';
 const src = JSON.parse(await readFile('destaques-fonte.json', 'utf8'));
 let old = {};
 try { for (const p of JSON.parse(await readFile('destaques.json', 'utf8')).lugares) old[p.chave] = p; } catch {}
@@ -15,34 +16,63 @@ const AREA = new Set(['suburb', 'neighbourhood', 'city_district', 'city', 'town'
 
 async function search(q) {
   await sleep(1100); // limite de 1 pedido por segundo do Nominatim
-  const u = 'https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=5&countrycodes=br&q=' + encodeURIComponent(q);
+  const u = 'https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=10&countrycodes=br&q=' + encodeURIComponent(q);
   const r = await fetch(u, { headers: { 'User-Agent': UA, 'Accept-Language': 'pt-BR' } });
   return r.ok ? r.json() : [];
 }
-// aceita só resultados que são o próprio lugar (nome bate) ou um endereço com número
+// Photon (komoot), outro buscador sobre os mesmos dados do OpenStreetMap; acha nomes que o Nominatim não acha
+async function photon(q) {
+  await sleep(1100);
+  try {
+    const r = await fetch('https://photon.komoot.io/api/?limit=10&q=' + encodeURIComponent(q), { headers: { 'User-Agent': UA } });
+    if (!r.ok) return [];
+    return (await r.json()).features.filter(f => f.properties.countrycode === 'BR').map(f => ({
+      name: f.properties.name || '', display_name: [f.properties.name, f.properties.street, f.properties.city, f.properties.state].filter(Boolean).join(', '),
+      lat: f.geometry.coordinates[1], lon: f.geometry.coordinates[0], addresstype: f.properties.type === 'house' ? 'amenity' : f.properties.type,
+      address: { road: f.properties.street, house_number: f.properties.housenumber, city: f.properties.city || f.properties.county, state: f.properties.state } }));
+  } catch { return []; }
+}
+const UFS = { RJ: 'rio de janeiro', ES: 'espirito santo', SP: 'sao paulo', MG: 'minas gerais' };
+// o resultado precisa estar na cidade (ou ao menos no estado) certo
+function inPlace(r, p) {
+  const all = norm(r.display_name + ' ' + Object.values(r.address || {}).join(' '));
+  return all.includes(norm(p.cidade)) || (UFS[p.uf] && all.includes(UFS[p.uf]) && !p.cidade);
+}
+// aceita só resultados que são o próprio lugar (nome bate) ou um endereço com número;
+// entre vários com o mesmo nome (redes), fica com o da rua informada
 function pick(results, p) {
-  const want = tokens(p.n);
-  for (const r of results) {
+  const want = tokens(p.n), names = (p.busca || []).map(tokens);
+  const street = tokens((p.end || '').split(',')[0]);
+  const ok = results.filter(r => inPlace(r, p));
+  const named = ok.filter(r => {
+    if (AREA.has(r.addresstype)) return false;
     const name = tokens(r.name || r.display_name.split(',')[0]);
-    const hit = want.length ? want.filter(w => name.includes(w)).length / want.length : 0;
-    if (hit >= 0.5 && !AREA.has(r.addresstype)) return { r, how: 'lugar' };
-  }
-  for (const r of results) if (r.address?.house_number) return { r, how: 'endereço' };
+    return [want, ...names].some(w => w.length && w.filter(x => name.includes(x)).length / w.length >= 0.5);
+  });
+  const onStreet = r => street.length && street.some(w => tokens(r.address?.road || '').includes(w));
+  if (named.length) return { r: named.find(onStreet) || named[0], how: 'lugar' };
+  for (const r of ok) if (r.address?.house_number && onStreet(r)) return { r, how: 'endereço' };
   return null;
 }
 
 const out = [], fails = [];
 for (const p of src.lugares) {
   const chave = norm(`${p.n}|${p.cidade}`);
-  if (old[chave] && old[chave].end === p.end && old[chave].n === p.n) { out.push({ ...old[chave], ...p, chave }); continue; }
+  if (p.lat != null && p.lng != null) { out.push({ ...p, chave, geo: 'manual', v: V }); continue; }
+  const o = old[chave];
+  if (o && o.v === V && o.end === p.end && o.n === p.n && o.geo !== 'manual') { out.push({ ...o, ...p, chave }); continue; }
   const uf = p.uf ? `, ${p.uf}` : '';
   let found = null;
-  for (const q of [`${p.n}, ${p.cidade}${uf}`, `${p.n}, ${p.end}, ${p.cidade}${uf}`, `${p.end}, ${p.cidade}${uf}`]) {
-    found = pick(await search(q), p);
-    if (found) break;
-  }
+  const names = [p.n, ...(p.busca || [])];
+  const tries = [
+    ...names.map(n => () => search(`${n}, ${p.cidade}${uf}`)),
+    () => search(`${p.n}, ${p.end}, ${p.cidade}${uf}`),
+    ...names.map(n => () => photon(`${n} ${p.cidade}`)),
+    () => search(`${p.end}, ${p.cidade}${uf}`),
+  ];
+  for (const t of tries) { found = pick(await t(), p); if (found) break; }
   if (!found) { fails.push(`${p.n} (${p.cidade})`); continue; }
-  out.push({ ...p, chave, lat: +(+found.r.lat).toFixed(6), lng: +(+found.r.lon).toFixed(6), geo: found.how });
+  out.push({ ...p, chave, v: V, lat: +(+found.r.lat).toFixed(6), lng: +(+found.r.lon).toFixed(6), geo: found.how });
   console.log(`ok  ${p.n} (${p.cidade}) -> ${found.how}: ${found.r.display_name.slice(0, 90)}`);
 }
 out.forEach((p, i) => { p.id = 'd-' + p.chave.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); });

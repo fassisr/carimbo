@@ -154,6 +154,10 @@ main { position: relative; min-height: 0; isolation: isolate; z-index: 0; }
 .star { color: var(--gold); }
 .tag { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 999px; }
 .tag.in { background: var(--gold); color: var(--gold-fg); }
+.tag.dest { background: color-mix(in srgb, var(--gold) 22%, transparent); color: var(--fg); border: 1px solid var(--gold); }
+.dest-chip { display: inline-flex; align-items: center; gap: 4px; margin-left: 8px; padding: 2px 8px; border-radius: 999px; background: var(--gold); color: var(--gold-fg); font-size: 11px; font-weight: 800; letter-spacing: .04em; vertical-align: middle; }
+.dest-chip .ic { width: 12px; height: 12px; fill: currentColor; }
+.desc { font-size: 14px; line-height: 1.45; margin-top: 8px; }
 .tag.done { background: var(--surface-2); color: var(--ok); border: 1px solid var(--line); }
 
 /* sheet */
@@ -319,6 +323,40 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 .maplibregl-ctrl-bottom-right { bottom: 132px; }
 .maplibregl-marker { cursor: pointer; }
 .pinbtn { background: none; border: 0; padding: 0; }
+/* paradas (estilo Pokéstop): moeda flutuando sobre um poste, com anel no chão */
+.stop { position: relative; width: 56px; height: 80px; --cc: var(--c-cafe); }
+.stop-ring { position: absolute; bottom: 0; left: 50%; width: 46px; height: 17px; margin-left: -23px; border-radius: 50%;
+  border: 2.5px solid #fff; background: color-mix(in srgb, var(--cc) 30%, transparent); box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+.stop-post { position: absolute; bottom: 8px; left: 50%; width: 5px; height: 34px; margin-left: -2.5px; border-radius: 3px;
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--cc) 75%, #000), var(--cc) 40%, color-mix(in srgb, var(--cc) 45%, #fff)); }
+.stop-float { position: absolute; bottom: 34px; left: 50%; width: 40px; height: 40px; margin-left: -20px; perspective: 160px; animation: stopbob 2.6s ease-in-out infinite; }
+.stop-coin { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; color: #fff; overflow: hidden;
+  background: radial-gradient(circle at 34% 28%, color-mix(in srgb, var(--cc) 45%, #fff), var(--cc) 62%, color-mix(in srgb, var(--cc) 80%, #000));
+  border: 3px solid #fff; box-shadow: 0 4px 0 color-mix(in srgb, var(--cc) 55%, #000), 0 8px 12px rgba(0,0,0,.28);
+  animation: coinswing 3.4s ease-in-out infinite alternate; }
+.stop-coin .ic { width: 21px; height: 21px; stroke-width: 2.3; }
+.stop-coin img { width: 100%; height: 100%; object-fit: cover; background: #fff; }
+.stop.logo .stop-coin { background: #fff; }
+.stop.dest { --cc: var(--gold); }
+.stop.dest .stop-coin { color: var(--gold-fg); width: 46px; height: 46px; margin: -3px; }
+.stop.dest .stop-coin .ic { width: 23px; height: 23px; }
+.stop-badge { position: absolute; right: -6px; top: -6px; width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--brand); color: #fff; border: 2px solid #fff; box-shadow: 0 2px 4px rgba(0,0,0,.25); }
+.stop-badge .ic { width: 11px; height: 11px; stroke-width: 3; }
+.stop-badge.star { background: var(--gold); color: var(--gold-fg); }
+.stop-badge.star .ic { fill: currentColor; stroke-width: 1.5; }
+.stop.visited { --cc: var(--brand); }
+.stop.visited .stop-coin { animation: none; }
+.stop.inrange:not(.visited) .stop-coin { animation: coinspin 1.8s linear infinite; }
+.stop.inrange:not(.visited) .stop-ring { animation: ringpulse 1.4s ease-out infinite; border-color: var(--gold); }
+.stop-label { position: absolute; top: calc(100% + 2px); left: 50%; transform: translateX(-50%); width: max-content; max-width: 130px;
+  font: 800 11px/1.15 var(--f-display, inherit); color: #fff; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  text-shadow: 0 0 3px rgba(20,17,43,.9), 0 1px 2px rgba(20,17,43,.9); pointer-events: none; }
+@keyframes stopbob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes coinswing { from { transform: rotateY(-32deg); } to { transform: rotateY(32deg); } }
+@keyframes coinspin { to { transform: rotateY(360deg); } }
+@keyframes ringpulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gold) 80%, transparent); } 100% { box-shadow: 0 0 0 14px transparent; } }
+@media (prefers-reduced-motion: reduce) { .stop-float, .stop-coin, .stop-ring { animation: none !important; } }
 .pinwrap { filter: drop-shadow(0 3px 4px var(--shadow)); }
 .nomap { display: grid; place-items: center; height: 100%; padding: 40px 24px; text-align: center; color: var(--muted); }
 .pinwrap { background: none; border: 0; }
@@ -431,6 +469,8 @@ const ICONS = {
   locate: '<circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/><circle cx="12" cy="12" r="7"/>',
   hand: '<path d="M8 13V6.5a1.5 1.5 0 0 1 3 0V12M11 11V5a1.5 1.5 0 0 1 3 0v6M14 11V6.5a1.5 1.5 0 0 1 3 0V14a6 6 0 0 1-6 6h-.5a5.5 5.5 0 0 1-4.6-2.5L4 14.5a1.5 1.5 0 0 1 2.5-1.6L8 15"/>',
 };
+ICONS.check = '<path d="M5 12.5l4.5 4.5L19 7.5"/>';
+ICONS.star = '<path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6L12 16.8l-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/>';
 const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]}</svg>`;
 
 const CATS = {
@@ -624,15 +664,13 @@ window.addEventListener('avatar3d-ready', () => {
 const markers = new Map();
 
 function pinHTML(p, cls) {
-  return `<svg width="40" height="48" viewBox="-18 -20 36 44">
-    <circle class="pin-pulse" cx="0" cy="22" r="14"/>
-    <ellipse class="pin-shadow" cx="0" cy="22" rx="8" ry="3"/>
-    <path class="pin-body" style="fill:var(--c-${p.cat})" d="M0 22C-4 16-16 11-16-1A16 16 0 1 1 16-1C16 11 4 16 0 22Z"/>
-    <g class="pin-glyph" transform="translate(-9 -10) scale(.75)">${ICONS[p.cat]}</g>
-    ${cls.includes('visited') ? '<g transform="translate(12 -13)"><circle class="pin-check-bg" r="7"/><path class="pin-check" d="M-3 0l2 2 4-4"/></g>' : ''}
-  </svg>`;
+  const coin = p.logo ? `<img src="${esc(p.logo)}" alt="" loading="lazy">` : ic(p.cat);
+  const badge = cls.includes('visited') ? `<span class="stop-badge">${ic('check')}</span>` : p.dest ? `<span class="stop-badge star">${ic('star')}</span>` : '';
+  return `<div class="stop-ring"></div><div class="stop-post"></div>
+    <div class="stop-float"><div class="stop-coin">${coin}</div>${badge}</div>
+    ${p.dest ? `<div class="stop-label">${esc(p.n)}</div>` : ''}`;
 }
-function pinClass(p) { return 'pinwrap' + (st.visits[p.id] ? ' visited' : '') + (dist(p) <= reach() ? ' inrange' : ''); }
+function pinClass(p) { return 'stop' + (p.dest ? ' dest' : '') + (p.logo ? ' logo' : '') + (st.visits[p.id] ? ' visited' : '') + (dist(p) <= reach() ? ' inrange' : ''); }
 function syncMarkers() {
   if (!map) return;
   for (const p of places.values()) {
@@ -642,10 +680,11 @@ function syncMarkers() {
       const el = document.createElement('button');
       el.type = 'button'; el.className = 'pinbtn'; el.setAttribute('aria-label', p.n);
       el.addEventListener('click', ev => { ev.stopPropagation(); openSheet(p.id); });
+      if (p.dest) el.style.zIndex = 2;
       m = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([p.lng, p.lat]).addTo(map);
       m._cls = null; markers.set(p.id, m);
     }
-    if (m._cls !== cls) { m.getElement().innerHTML = `<div class="${cls}">${pinHTML(p, cls)}</div>`; m._cls = cls; }
+    if (m._cls !== cls) { m.getElement().innerHTML = `<div class="${cls}" style="--cc:${p.dest && !st.visits[p.id] ? 'var(--gold)' : st.visits[p.id] ? 'var(--brand)' : `var(--c-${p.cat})`}">${pinHTML(p, cls)}</div>`; m._cls = cls; }
   }
 }
 function flyTo(lat, lng, zoom) { if (map) map.easeTo({ center: [lng, lat], zoom: zoom ?? map.getZoom(), duration: reduced ? 0 : 700 }); }
@@ -737,16 +776,54 @@ async function loadPlaces() {
     const t = el.tags || {}, cat = categorize(t);
     const lat = el.lat ?? el.center?.lat, lng = el.lon ?? el.center?.lon;
     if (!cat || lat == null || !t.name) continue;
+    if (dupOfDest(lat, lng, t.name)) continue;
     const id = el.type[0] + el.id;
     if (!places.has(id)) n++;
     places.set(id, { id, n: t.name, cat, lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
       addr: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(', '), hours: t.opening_hours || '' });
   }
-  if (!demo) $('#where').textContent = `${places.size} ${places.size === 1 ? 'lugar' : 'lugares'} por perto`;
+  updateWhere();
   if (!places.size) status('<span>Não achei cafés, bares ou parques mapeados aqui. Tente andar um pouco ou use o modo demo.</span>');
   else if (!demo || !$('#status').innerHTML.includes('retry-gps')) status(null);
   refresh();
 }
+
+// ---------- destaques Fuilá (lista curada, atualizada pelo GitHub sem precisar de APK novo) ----------
+const DEST_URL = 'https://raw.githubusercontent.com/fassisr/carimbo/main/destaques.json';
+const DEST_KEY = 'fuila-destaques-v1';
+let destaques = [];
+const toks = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/[^a-z0-9]+/).filter(w => w.length > 2);
+function dupOfDest(lat, lng, name) {
+  const nt = toks(name);
+  return destaques.some(d => { const m = meters(d, { lat, lng }); return m < 15 || (m < 120 && nt.some(w => d._t.includes(w))); });
+}
+function applyDestaques(list) {
+  for (const d of destaques) { places.delete(d.id); }
+  destaques = (list || []).filter(d => d.id && d.lat != null && CATS[d.cat]).map(d => ({
+    id: d.id, n: d.n, cat: d.cat, lat: d.lat, lng: d.lng, dest: true, addr: d.end || '', city: d.cidade || '', uf: d.uf || '',
+    desc: d.d || '', parceiro: !!d.parceiro, oferta: d.parceiro ? d.oferta || '' : '', logo: d.logo || '', _t: toks(d.n) }));
+  for (const [id, p] of places) if (!p.dest && dupOfDest(p.lat, p.lng, p.n)) { places.delete(id); markers.get(id)?.remove(); markers.delete(id); }
+  for (const d of destaques) places.set(d.id, d);
+  updateWhere(); refresh();
+}
+async function loadDestaques() {
+  try { const c = JSON.parse(localStorage.getItem(DEST_KEY)); if (c?.lugares) applyDestaques(c.lugares); } catch (e) {}
+  for (const url of [DEST_URL + '?t=' + Math.floor(Date.now() / 600000), 'destaques.json']) {
+    try {
+      const r = await fetch(url, { cache: 'no-store' }); if (!r.ok) continue;
+      const j = await r.json(); if (!Array.isArray(j.lugares) || !j.lugares.length) continue;
+      applyDestaques(j.lugares);
+      try { localStorage.setItem(DEST_KEY, JSON.stringify(j)); } catch (e) {}
+      return;
+    } catch (e) {}
+  }
+}
+function updateWhere() {
+  if (demo || !me) return;
+  const n = [...places.values()].filter(p => dist(p) <= RADIUS_FETCH).length;
+  $('#where').textContent = n ? `${n} ${n === 1 ? 'lugar' : 'lugares'} por perto` : 'Você está aqui';
+}
+const offerOf = p => p.dest ? (p.parceiro && p.oferta) || null : CATS[p.cat].oferta;
 
 // modo demo: tocar no mapa para andar
 if (map) map.on('click', e => {
@@ -795,15 +872,16 @@ $('#status').addEventListener('click', e => {
 function status(html) { const s = $('#status'); if (!html) { s.hidden = true; s.innerHTML = ''; return; } s.innerHTML = html; s.hidden = false; }
 
 function renderNear() {
-  const list = [...places.values()].sort((a, b) => dist(a) - dist(b)).slice(0, 8);
+  const rank = p => dist(p) - (p.dest ? 400 : 0);
+  const list = [...places.values()].filter(p => dist(p) < 50000).sort((a, b) => rank(a) - rank(b)).slice(0, 8);
   const inR = [...places.values()].filter(p => dist(p) <= reach() && !st.visits[p.id]).length;
   $('#near').hidden = !!openId || !list.length;
   $('#near').innerHTML = `<div class="near-h"><b>Perto de você</b><span>${inR ? `${inR} para carimbar agora` : `Raio de check-in: ${R} m`}</span></div>
     <div class="near-track">${list.map(p => {
       const d = dist(p), v = st.visits[p.id];
-      const tag = v ? '<span class="tag done">Carimbado</span>' : d <= reach() ? '<span class="tag in">No raio</span>' : '';
+      const tag = v ? '<span class="tag done">Carimbado</span>' : d <= reach() ? '<span class="tag in">No raio</span>' : p.dest ? '<span class="tag dest">Destaque</span>' : '';
       return `<button class="near-card" type="button" data-open="${p.id}">
-        <span class="nc-ic" style="--cc:var(--c-${p.cat})">${ic(p.cat)}</span>
+        <span class="nc-ic" style="--cc:${p.dest ? 'var(--gold)' : `var(--c-${p.cat})`}">${ic(p.cat)}</span>
         <span class="nc-name">${esc(p.n)}</span>
         <span class="nc-meta"><span>${CATS[p.cat].nome}</span><span>·</span><span>${fmtM(d)}</span>${tag}</span>
       </button>`;
@@ -820,21 +898,23 @@ function renderSheet() {
   const p = getPlace(openId); if (!p) return closeSheet();
   const d = dist(p), v = st.visits[p.id], C = CATS[p.cat];
   const got = Math.min(visitsIn(p.cat), C.meta);
-  const isPublic = !C.oferta;
+  const OF = offerOf(p), isPublic = !OF;
   let action;
-  if (v) action = `<div class="done-row">${stampSVG(p, v.ts)}<div><b>Carimbado em ${fmtD(v.ts)}</b><span>${C.oferta ? 'Seu cupom está na aba Cupons.' : 'Este lugar já está no seu passaporte.'}</span></div></div>`;
+  if (v) action = `<div class="done-row">${stampSVG(p, v.ts)}<div><b>Carimbado em ${fmtD(v.ts)}</b><span>${OF ? 'Seu cupom está na aba Cupons.' : 'Este lugar já está no seu passaporte.'}</span></div></div>`;
   else if (d <= reach()) action = `<button class="cta gold" type="button" data-act="scan">${ic('qr')} ${isPublic ? 'Fazer check-in' : 'Escanear QR no balcão'}</button>`;
   else action = `<button class="cta" type="button" disabled>${ic('walk')} Chegue mais perto · faltam ${fmtM(d - reach())}</button>
     <button class="linkbtn" type="button" data-act="walk">Modo demo: ir até lá</button>`;
   $('#sheet').innerHTML = `
     <div class="sh-grab"></div>
     <button class="sh-close" type="button" data-act="close" aria-label="Fechar">${ic('close')}</button>
-    <span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>
+    <span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>${p.dest ? `<span class="dest-chip">${ic('star')} ${p.parceiro ? 'Parceiro Fuilá' : 'Destaque Fuilá'}</span>` : ''}
     <h2>${esc(p.n)}</h2>
     <div class="rating"><span>${fmtM(d)} de você</span></div>
     <a class="gbtn" href="${gmapsURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${starsHTML(5)} Ver avaliações no Google</a>
-    ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
-    ${C.oferta ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : 'Na primeira visita · oferta de exemplo'}</small><b>${esc(C.oferta)}</b></div>`
+    ${p.desc ? `<div class="desc">${esc(p.desc)}</div>` : ''}
+    ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.dest && p.city, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
+    ${OF ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : p.dest ? 'Parceiro Fuilá · na primeira visita' : 'Na primeira visita · oferta de exemplo'}</small><b>${esc(OF)}</b></div>`
+      : p.dest ? `<div class="offer">${ic('star')}<small>Destaque Fuilá</small><b>Vale carimbo e conta para a coleção</b></div>`
       : `<div class="offer">${ic('verde')}<small>Lugar público</small><b>Vale carimbo e conta para a coleção</b></div>`}
     <div class="prog" style="--cc:var(--c-${p.cat})">
       <div class="prog-row"><b>${C.col}</b><span>${got} de ${C.meta}</span></div>
@@ -874,9 +954,9 @@ const BADGES = [
 function checkin(p) {
   if (st.visits[p.id]) return;
   const now = Date.now();
-  st.visits[p.id] = { ts: now, p: { n: p.n, cat: p.cat, lat: p.lat, lng: p.lng, city: p.city || '', addr: p.addr || '' } };
+  st.visits[p.id] = { ts: now, p: { n: p.n, cat: p.cat, lat: p.lat, lng: p.lng, city: p.city || '', addr: p.addr || '', dest: !!p.dest, parceiro: !!p.parceiro, oferta: p.oferta || '', logo: p.logo || '', desc: p.desc || '' } };
   let gain = XP_VISITA, coupon = null;
-  const of = CATS[p.cat].oferta;
+  const of = offerOf(p);
   if (of) { coupon = { id: p.id, code: code(), at: now, used: 0, of }; st.coupons.unshift(coupon); }
   const earned = BADGES.filter(b => !st.badges[b.id] && b.ok());
   earned.forEach(b => { st.badges[b.id] = now; gain += b.xp; });
@@ -1009,6 +1089,7 @@ function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = fal
 // ---------- início ----------
 renderChrome(); renderFabs(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
+loadDestaques();
 startGPS();
 })();
 </script>
