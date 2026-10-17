@@ -6,7 +6,7 @@ Protótipo em um único `index.html`:
 
 - Localização pelo GPS do navegador, com modo demo (toque no mapa para andar).
 - Lugares do OpenStreetMap via Overpass API; mapa 3D com estilo próprio (MapLibre GL + OpenFreeMap, sem chave de API).
-- Notas e ofertas são de exemplo nesta versão.
+- Avaliações abrem no Google Maps; ofertas são de exemplo nesta versão.
 - Progresso salvo no próprio aparelho (localStorage).
 
 Publicado com GitHub Pages a partir da branch `main`.

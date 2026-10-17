@@ -346,6 +346,8 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 #splash b { font: 800 46px var(--f-display); letter-spacing: -.03em; }
 #splash.out { opacity: 0; pointer-events: none; }
 @keyframes drop { from { transform: translateY(-40px) scale(.8); opacity: 0; } }
+.gbtn { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface-2); color: var(--fg); font-weight: 700; font-size: 13px; text-decoration: none; }
+.gbtn .stars svg { width: 12px; height: 12px; }
 .addr { font-size: 13px; color: var(--muted); margin-top: 8px; }
 </style>
 </head>
@@ -474,9 +476,12 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const CHARS = [{ id: 'rogue', nome: 'Explorador' }, { id: 'rogue_hooded', nome: 'Encapuzado' }, { id: 'mage', nome: 'Mago' }, { id: 'knight', nome: 'Cavaleiro' }, { id: 'barbarian', nome: 'Bárbaro' }];
 const curChar = () => { try { return localStorage.getItem('fuila-char') || 'rogue'; } catch (e) { return 'rogue'; } };
 const TITLES = ['Turista', 'Curioso', 'Explorador', 'Morador', 'Cartógrafo', 'Lenda do bairro'];
-// nota e avaliações são de exemplo: na v1 vêm do Google
-const notaEx = p => 3.8 + (hash(p.id) % 12) / 10;
-const avEx = p => 20 + hash(p.id + 'r') % 900;
+// avaliações reais ficam no Google: o botão abre o lugar no Google Maps (grátis e permitido)
+function gmapsURL(p) {
+  const q = [p.n, p.addr, p.city].filter(Boolean).join(', ');
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.addr || p.city ? q : `${p.n} ${p.lat.toFixed(5)},${p.lng.toFixed(5)}`);
+}
+const native = !!window.Capacitor?.isNativePlatform?.();
 const getPlace = id => places.get(id) || (st.visits[id] && { id, ...st.visits[id].p });
 function starsHTML(n) {
   let s = '<span class="stars" aria-hidden="true">';
@@ -737,7 +742,7 @@ async function loadPlaces() {
     places.set(id, { id, n: t.name, cat, lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
       addr: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(', '), hours: t.opening_hours || '' });
   }
-  if (!demo) $('#where').textContent = `${places.size} lugares por perto`;
+  if (!demo) $('#where').textContent = `${places.size} ${places.size === 1 ? 'lugar' : 'lugares'} por perto`;
   if (!places.size) status('<span>Não achei cafés, bares ou parques mapeados aqui. Tente andar um pouco ou use o modo demo.</span>');
   else if (!demo || !$('#status').innerHTML.includes('retry-gps')) status(null);
   refresh();
@@ -800,7 +805,7 @@ function renderNear() {
       return `<button class="near-card" type="button" data-open="${p.id}">
         <span class="nc-ic" style="--cc:var(--c-${p.cat})">${ic(p.cat)}</span>
         <span class="nc-name">${esc(p.n)}</span>
-        <span class="nc-meta"><span><span class="star">★</span> ${fmtN(notaEx(p))}</span><span>·</span><span>${fmtM(d)}</span>${tag}</span>
+        <span class="nc-meta"><span>${CATS[p.cat].nome}</span><span>·</span><span>${fmtM(d)}</span>${tag}</span>
       </button>`;
     }).join('')}</div>`;
 }
@@ -826,7 +831,8 @@ function renderSheet() {
     <button class="sh-close" type="button" data-act="close" aria-label="Fechar">${ic('close')}</button>
     <span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>
     <h2>${esc(p.n)}</h2>
-    <div class="rating">${starsHTML(notaEx(p))} <b>${fmtN(notaEx(p))}</b> <span>(${avEx(p)})</span> <span class="example">nota de exemplo</span> <span>·</span> <span>${fmtM(d)}</span></div>
+    <div class="rating"><span>${fmtM(d)} de você</span></div>
+    <a class="gbtn" href="${gmapsURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${starsHTML(5)} Ver avaliações no Google</a>
     ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
     ${C.oferta ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : 'Na primeira visita · oferta de exemplo'}</small><b>${esc(C.oferta)}</b></div>`
       : `<div class="offer">${ic('verde')}<small>Lugar público</small><b>Vale carimbo e conta para a coleção</b></div>`}
@@ -981,7 +987,7 @@ function renderPassport() {
     <div class="chars">${CHARS.map(c => `<button type="button" class="charbtn${curChar() === c.id ? ' on' : ''}" data-char="${c.id}" aria-pressed="${curChar() === c.id}"><img src="assets/chars/${c.id}.png" alt="" width="128" height="128"><span>${c.nome}</span></button>`).join('')}</div>
     <h3>Insígnias</h3>
     <div class="badges">${BADGES.map(b => { const g = st.badges[b.id]; return `<div class="badge${g ? '' : ' locked'}"><div class="medal" style="--cc:${b.cc}">${ic(g ? b.icon : 'lock')}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : esc(b.desc)}</span></div>`; }).join('')}</div>
-    <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. Notas e ofertas são de exemplo neste protótipo; na versão de verdade as notas vêm do Google e as ofertas de lojas parceiras, que pagam por cada primeira visita confirmada.</div>
+    <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. As avaliações abrem no Google Maps. As ofertas são de exemplo neste protótipo; na versão de verdade elas vêm de lojas parceiras, que pagam por cada primeira visita confirmada.</div>
     <button class="reset" type="button" id="reset">Recomeçar do zero</button>`;
 }
 $('#v-passaporte').addEventListener('click', e => {
