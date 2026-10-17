@@ -49,9 +49,13 @@ async function photon(q) {
 const UFS = { RJ: 'rio de janeiro', ES: 'espirito santo', SP: 'sao paulo', MG: 'minas gerais' };
 // o resultado precisa estar na cidade (ou ao menos no estado) certo
 function inPlace(r, p) {
-  const all = norm(r.display_name + ' ' + Object.values(r.address || {}).join(' '));
+  const a = r.address || {};
+  const all = norm(r.display_name + ' ' + Object.values(a).join(' '));
   if (UFS[p.uf] && !all.includes(UFS[p.uf])) return false;
-  return !p.cidade || all.includes(norm(p.cidade));
+  if (!p.cidade) return true;
+  // compara com o município do resultado (não com o texto todo: "São Paulo" também é o estado e "Tiradentes" é nome de rua)
+  const muni = [a.city, a.town, a.village, a.municipality, a.city_district].filter(Boolean).map(norm);
+  return muni.length ? muni.includes(norm(p.cidade)) : all.includes(norm(p.cidade));
 }
 // aceita só resultados que são o próprio lugar (nome bate) ou um endereço com número;
 // entre vários com o mesmo nome (redes), fica com o da rua informada

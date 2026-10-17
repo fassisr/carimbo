@@ -4283,20 +4283,6 @@
    "id": "d-piramide-de-sao-thome-das-letras-sao-thome-das-letras"
   },
   {
-   "n": "Igreja Matriz de Santo Antônio",
-   "cat": "cultura",
-   "end": "Rua da Câmara, Centro",
-   "cidade": "Tiradentes",
-   "uf": "MG",
-   "d": "Matriz coberta de ouro, com fachada atribuída a Aleijadinho e vista da serra.",
-   "chave": "igreja matriz de santo antonio|tiradentes",
-   "v": 3,
-   "lat": -19.668319,
-   "lng": -43.689116,
-   "geo": "lugar",
-   "id": "d-igreja-matriz-de-santo-antonio-tiradentes"
-  },
-  {
    "n": "Largo das Forras",
    "cat": "verde",
    "end": "Centro",
@@ -9008,23 +8994,6 @@
    "id": "d-parque-da-agua-branca-sao-paulo"
   },
   {
-   "n": "Praça Pôr do Sol",
-   "cat": "verde",
-   "end": "Alto de Pinheiros",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "d": "O lugar mais famoso da cidade para ver o pôr do sol, com vista para o skyline.",
-   "busca": [
-    "Praça Coronel Custódio Fernandes Pinheiro"
-   ],
-   "chave": "praca por do sol|sao paulo",
-   "v": 3,
-   "lat": -22.992987,
-   "lng": -46.519661,
-   "geo": "lugar",
-   "id": "d-praca-por-do-sol-sao-paulo"
-  },
-  {
    "n": "Parque da Aclimação",
    "cat": "verde",
    "end": "Rua Muniz de Sousa, Aclimação",
@@ -9146,20 +9115,6 @@
    "id": "d-coffee-lab-sao-paulo"
   },
   {
-   "n": "Octavio Café",
-   "cat": "cafe",
-   "end": "Avenida Brigadeiro Faria Lima, Jardim Paulistano",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "d": "Casa ampla dedicada ao café brasileiro, do grão à xícara, com torra própria.",
-   "chave": "octavio cafe|sao paulo",
-   "v": 3,
-   "lat": -23.004444,
-   "lng": -47.14892,
-   "geo": "lugar",
-   "id": "d-octavio-cafe-sao-paulo"
-  },
-  {
    "n": "Santo Grão",
    "cat": "cafe",
    "end": "Rua Oscar Freire, Jardins",
@@ -9248,23 +9203,6 @@
    "lng": -46.699172,
    "geo": "lugar",
    "id": "d-frango-sao-paulo"
-  },
-  {
-   "n": "Bar São Cristóvão",
-   "cat": "bar",
-   "end": "Rua Aspicuelta, Vila Madalena",
-   "cidade": "São Paulo",
-   "uf": "SP",
-   "d": "Boteco temático do futebol, com paredes forradas de camisas e flâmulas.",
-   "busca": [
-    "São Cristóvão"
-   ],
-   "chave": "bar sao cristovao|sao paulo",
-   "v": 3,
-   "lat": -23.76985,
-   "lng": -48.133328,
-   "geo": "lugar",
-   "id": "d-bar-sao-cristovao-sao-paulo"
   },
   {
    "n": "Bar Léo",
@@ -9465,20 +9403,6 @@
    "lng": -47.162625,
    "geo": "lugar",
    "id": "d-morro-do-saboo-sao-roque"
-  },
-  {
-   "n": "Igreja Matriz de São Sebastião",
-   "cat": "cultura",
-   "end": "Praça Major João Fernandes, Centro",
-   "cidade": "São Sebastião",
-   "uf": "SP",
-   "d": "Igreja do século 17 no centro histórico, com casario colonial ao redor.",
-   "chave": "igreja matriz de sao sebastiao|sao sebastiao",
-   "v": 3,
-   "lat": -22.817022,
-   "lng": -46.693712,
-   "geo": "lugar",
-   "id": "d-igreja-matriz-de-sao-sebastiao-sao-sebastiao"
   },
   {
    "n": "Praia de Maresias",
