@@ -5,7 +5,7 @@ Fuilá: colecione os lugares onde você foi. Abra o mapa, veja cafés, bares, pa
 Protótipo em um único `index.html`:
 
 - Localização pelo GPS do navegador, com modo demo (toque no mapa para andar).
-- Lugares do OpenStreetMap via Overpass API, mapa da CARTO com Leaflet.
+- Lugares do OpenStreetMap via Overpass API; mapa 3D com estilo próprio (MapLibre GL + OpenFreeMap, sem chave de API).
 - Notas e ofertas são de exemplo nesta versão.
 - Progresso salvo no próprio aparelho (localStorage).
 

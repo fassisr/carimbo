@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="assets/brand/icon-192.png">
 <title>Fuilá</title>
 <meta name="description" content="Fuilá: colecione os lugares onde você foi. Faça check-in em cafés, bares e parques reais perto de você e ganhe carimbos, insígnias e cupons.">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/vendor/maplibre-gl.css">
 <style>
 @font-face { font-family: "Bricolage Grotesque"; font-weight: 600; font-display: swap; src: url("assets/fonts/bricolage-grotesque-latin-600-normal.woff2") format("woff2"); }
 @font-face { font-family: "Bricolage Grotesque"; font-weight: 800; font-display: swap; src: url("assets/fonts/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); }
@@ -24,7 +24,7 @@ html, body { margin: 0; }
 
 /* Layout: one-screen mobile game; stylized street map edge to edge, bottom tabs, sheets slide over the map */
 :root {
-  --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
+  --brand: #3B2BF5; --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
   --ink: #3B2BF5; --ink-fg: #FFFFFF; --gold: #FFC21A; --gold-fg: #241A00; --ok: #1E8A4C;
   --ground: #E9E7F7; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
   --park: #B8D9A6; --tree: #93C27E; --water: #A7CDE4; --label: #6E7D73;
@@ -36,7 +36,7 @@ html, body { margin: 0; }
   --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
+  --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
   --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
@@ -46,7 +46,7 @@ html, body { margin: 0; }
   color-scheme: dark;
 } }
 :root[data-theme="dark"] {
-  --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
+  --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
   --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
@@ -69,12 +69,12 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--me); o
 /* top bar */
 .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-  background: var(--surface); border-bottom: 1px solid var(--line); z-index: 5; }
+  background: var(--brand); color: #fff; z-index: 5; }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .brand svg { width: 28px; height: 32px; flex: none; }
 .brand b { font-family: var(--f-display); font-weight: 800; font-size: 25px; letter-spacing: -.03em; display: block; line-height: 1; }
-.brand span { font-size: 12px; color: var(--muted); }
-.xp { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 5px 12px 5px 5px; flex: none; }
+.brand span { font-size: 12px; color: rgba(255, 255, 255, .72); }
+.xp { display: flex; align-items: center; gap: 8px; border: 0; background: rgba(255, 255, 255, .14); color: #fff; border-radius: 999px; padding: 5px 12px 5px 5px; flex: none; }
 .xp .lv { background: var(--gold); color: var(--gold-fg); font-weight: 700; font-size: 12px; border-radius: 999px; padding: 3px 8px; }
 .xp .pts { font-family: var(--f-mono); font-size: 12px; font-variant-numeric: tabular-nums; }
 
@@ -284,10 +284,13 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 
 /* mapa real (Leaflet) */
 #map { background: var(--ground); }
-.leaflet-container { font-family: var(--f-body); background: var(--ground); }
-.leaflet-control-attribution { font-size: 10px; background: color-mix(in srgb, var(--surface) 80%, transparent) !important; color: var(--muted); }
-.leaflet-control-attribution a { color: var(--muted); }
-@media (prefers-color-scheme: dark) { .leaflet-tile-pane { filter: saturate(.8); } }
+.maplibregl-map { font-family: var(--f-body); }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+.maplibregl-ctrl-bottom-right { bottom: 132px; }
+.maplibregl-marker { cursor: pointer; }
+.pinbtn { background: none; border: 0; padding: 0; }
+.pinwrap { filter: drop-shadow(0 3px 4px var(--shadow)); }
+.nomap { display: grid; place-items: center; height: 100%; padding: 40px 24px; text-align: center; color: var(--muted); }
 .pinwrap { background: none; border: 0; }
 .pinwrap svg { overflow: visible; display: block; }
 .pinwrap.inrange:not(.visited) .pin-pulse { animation: pulse 1.6s ease-out infinite; }
@@ -295,8 +298,8 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 .mewrap { background: none; border: 0; }
 .mewrap svg { overflow: visible; display: block; }
 .range-circle { fill: var(--range); fill-opacity: 1; stroke: var(--range-line); stroke-width: 1.5; stroke-dasharray: 5 6; }
-.status { position: absolute; top: 12px; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); z-index: 500;
-  display: flex; align-items: center; gap: 10px; background: var(--ink); color: var(--ink-fg); font-size: 13px; font-weight: 600; padding: 9px 12px; border-radius: 14px; box-shadow: 0 6px 18px var(--shadow); }
+.status { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 96px); z-index: 500;
+  display: flex; align-items: center; gap: 10px; background: var(--ink); color: var(--ink-fg); font-size: 13px; font-weight: 600; padding: 8px 14px; border-radius: 999px; box-shadow: 0 6px 18px var(--shadow); }
 .status span { flex: 1; min-width: 0; line-height: 1.35; }
 .status button { flex: none; border: 0; border-radius: 10px; background: var(--gold); color: var(--gold-fg); font-weight: 700; font-size: 12px; padding: 6px 10px; }
 .status .spin { width: 16px; height: 16px; border-radius: 50%; border: 2px solid currentColor; border-right-color: transparent; animation: spin .8s linear infinite; flex: none; }
@@ -330,7 +333,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 <div id="app">
   <header class="top">
     <div class="brand">
-      <svg viewBox="200 180 624 720" aria-hidden="true"><path fill="var(--gold)" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="var(--ink)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg>
+      <svg viewBox="200 180 624 720" aria-hidden="true"><path fill="var(--gold)" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="var(--brand)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg>
       <div><b>fuilá</b><span id="where">Procurando você…</span></div>
     </div>
     <button class="xp" id="xpPill" type="button" aria-label="Abrir passaporte"></button>
@@ -362,7 +365,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
   <div id="toast" hidden></div>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/vendor/maplibre-gl.js"></script>
 <script>
 (() => {
 const KEY = 'carimbo-gps-v1'; // chave antiga mantida para não perder o progresso
@@ -466,18 +469,73 @@ function stampSVG(p, ts) {
 
 // ---------- mapa ----------
 const dark = matchMedia('(prefers-color-scheme: dark)').matches;
-const map = L.map('map', { zoomControl: false, attributionControl: true, minZoom: 13, maxZoom: 19 }).setView([FALLBACK.lat, FALLBACK.lng], 17);
-L.tileLayer(`https://{s}.basemaps.cartocdn.com/${dark ? 'dark_all' : 'rastertiles/voyager'}/{z}/{x}/{y}{r}.png`, {
-  subdomains: 'abcd', maxZoom: 20, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-}).addTo(map);
-map.attributionControl.setPrefix(false);
-const rangeCircle = L.circle([0, 0], { radius: R, className: 'range-circle', interactive: false });
-const meMarker = L.marker([0, 0], { interactive: false, keyboard: false, zIndexOffset: 1000, icon: L.divIcon({ className: 'mewrap', iconSize: [24, 24], iconAnchor: [12, 12],
-  html: '<svg width="24" height="24" viewBox="-12 -12 24 24"><circle class="me-halo" r="9"/><circle class="me-dot" r="8"/></svg>' }) });
+// estilo próprio do Fuilá sobre os dados do OpenStreetMap (OpenFreeMap, sem chave)
+function mapStyle(dk) {
+  const c = dk
+    ? { bg: '#15122A', res: '#1A1731', park: '#1C3A2B', wood: '#1A3527', water: '#1F3A63', bld: '#2B2650', road: '#34305A', casing: '#0F0D20', major: '#5C4A17', majorCase: '#2A2108', path: '#4B4578', label: '#B3AED6', halo: '#15122A', place: '#D8D3FF' }
+    : { bg: '#EFEDF8', res: '#E8E5F5', park: '#CBEBC1', wood: '#B8E0AE', water: '#9CC8F2', bld: '#DCD8F0', road: '#FFFFFF', casing: '#D2CDEA', major: '#FFE39A', majorCase: '#EDC24B', path: '#B4ADDB', label: '#625E86', halo: '#FFFFFF', place: '#3B2BF5' };
+  const cls = (...v) => ['match', ['get', 'class'], v, true, false];
+  const w = (a, b) => ['interpolate', ['exponential', 1.6], ['zoom'], 13, a, 19, b];
+  const MAJOR = cls('motorway', 'trunk', 'primary', 'secondary');
+  const MINOR = cls('tertiary', 'minor', 'service', 'residential', 'unclassified', 'living_street', 'street');
+  return {
+    version: 8,
+    glyphs: 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
+    sources: { omt: { type: 'vector', url: 'https://tiles.openfreemap.org/planet' } },
+    layers: [
+      { id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
+      { id: 'landuse', type: 'fill', source: 'omt', 'source-layer': 'landuse', filter: cls('residential', 'suburb', 'neighbourhood'), paint: { 'fill-color': c.res } },
+      { id: 'grass', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('grass', 'farmland'), paint: { 'fill-color': c.park, 'fill-opacity': .7 } },
+      { id: 'wood', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('wood', 'forest'), paint: { 'fill-color': c.wood } },
+      { id: 'park', type: 'fill', source: 'omt', 'source-layer': 'park', paint: { 'fill-color': c.park } },
+      { id: 'water', type: 'fill', source: 'omt', 'source-layer': 'water', paint: { 'fill-color': c.water } },
+      { id: 'waterway', type: 'line', source: 'omt', 'source-layer': 'waterway', paint: { 'line-color': c.water, 'line-width': w(1, 6) } },
+      { id: 'path', type: 'line', source: 'omt', 'source-layer': 'transportation', minzoom: 15, filter: cls('path', 'track', 'pedestrian'), paint: { 'line-color': c.path, 'line-width': w(.5, 3), 'line-dasharray': [2, 1.5] } },
+      { id: 'minor-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.casing, 'line-width': w(2, 22) } },
+      { id: 'major-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.majorCase, 'line-width': w(3.5, 32) } },
+      { id: 'minor', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.road, 'line-width': w(1.2, 17) } },
+      { id: 'major', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.major, 'line-width': w(2.5, 26) } },
+      { id: 'buildings', type: 'fill-extrusion', source: 'omt', 'source-layer': 'building', minzoom: 15, paint: {
+        'fill-extrusion-color': c.bld, 'fill-extrusion-opacity': .85,
+        'fill-extrusion-height': ['coalesce', ['get', 'render_height'], 8], 'fill-extrusion-base': ['coalesce', ['get', 'render_min_height'], 0] } },
+      { id: 'road-names', type: 'symbol', source: 'omt', 'source-layer': 'transportation_name', minzoom: 15, layout: {
+        'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-max-angle': 30 },
+        paint: { 'text-color': c.label, 'text-halo-color': c.halo, 'text-halo-width': 1.6 } },
+      { id: 'water-names', type: 'symbol', source: 'omt', 'source-layer': 'water_name', layout: { 'text-field': ['get', 'name'], 'text-font': ['Noto Sans Italic'], 'text-size': 12 },
+        paint: { 'text-color': c.label, 'text-halo-color': c.halo, 'text-halo-width': 1.2 } },
+      { id: 'places', type: 'symbol', source: 'omt', 'source-layer': 'place', filter: cls('suburb', 'neighbourhood', 'quarter', 'town', 'city', 'village'), layout: {
+        'text-field': ['get', 'name'], 'text-font': ['Noto Sans Bold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 12, 12, 17, 16], 'text-transform': 'uppercase', 'text-letter-spacing': .12 },
+        paint: { 'text-color': c.place, 'text-halo-color': c.halo, 'text-halo-width': 2, 'text-opacity': .75 } },
+    ],
+  };
+}
+let map = null, mapReady = false;
+try {
+  map = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 17, pitch: 50, maxPitch: 65, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true } });
+} catch (e) {
+  $('#map').innerHTML = '<div class="nomap">Seu celular não conseguiu desenhar o mapa 3D. Os lugares perto de você continuam na lista abaixo.</div>';
+}
+function circle(c, r) {
+  const pts = [], k = r / 111320;
+  for (let i = 0; i <= 64; i++) { const a = i / 64 * 2 * Math.PI; pts.push([c.lng + k * Math.cos(a) / Math.cos(c.lat * Math.PI / 180), c.lat + k * Math.sin(a)]); }
+  return { type: 'Feature', geometry: { type: 'Polygon', coordinates: [pts] } };
+}
+function updateRange() { if (mapReady && me) map.getSource('range').setData(circle(me, reach())); }
+if (map) map.on('load', () => {
+  const css = getComputedStyle(document.documentElement);
+  map.addSource('range', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({ id: 'range-fill', type: 'fill', source: 'range', paint: { 'fill-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'fill-opacity': .12 } }, 'buildings');
+  map.addLayer({ id: 'range-line', type: 'line', source: 'range', paint: { 'line-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'line-width': 2, 'line-dasharray': [2, 2], 'line-opacity': .7 } }, 'buildings');
+  mapReady = true; updateRange();
+});
+const meEl = document.createElement('div');
+meEl.className = 'mewrap';
+meEl.innerHTML = '<svg width="28" height="28" viewBox="-14 -14 28 28"><circle class="me-halo" r="9"/><circle class="me-dot" r="9"/></svg>';
+const meMarker = map && new maplibregl.Marker({ element: meEl });
 const markers = new Map();
 
 function pinHTML(p, cls) {
-  return `<svg width="36" height="44" viewBox="-18 -20 36 44">
+  return `<svg width="40" height="48" viewBox="-18 -20 36 44">
     <circle class="pin-pulse" cx="0" cy="22" r="14"/>
     <ellipse class="pin-shadow" cx="0" cy="22" rx="8" ry="3"/>
     <path class="pin-body" style="fill:var(--c-${p.cat})" d="M0 22C-4 16-16 11-16-1A16 16 0 1 1 16-1C16 11 4 16 0 22Z"/>
@@ -487,22 +545,27 @@ function pinHTML(p, cls) {
 }
 function pinClass(p) { return 'pinwrap' + (st.visits[p.id] ? ' visited' : '') + (dist(p) <= reach() ? ' inrange' : ''); }
 function syncMarkers() {
+  if (!map) return;
   for (const p of places.values()) {
     const cls = pinClass(p);
     let m = markers.get(p.id);
     if (!m) {
-      m = L.marker([p.lat, p.lng], { title: p.n, alt: p.n, riseOnHover: true });
-      m.on('click', () => openSheet(p.id));
-      m.addTo(map); m._cls = null; markers.set(p.id, m);
+      const el = document.createElement('button');
+      el.type = 'button'; el.className = 'pinbtn'; el.setAttribute('aria-label', p.n);
+      el.addEventListener('click', ev => { ev.stopPropagation(); openSheet(p.id); });
+      m = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([p.lng, p.lat]).addTo(map);
+      m._cls = null; markers.set(p.id, m);
     }
-    if (m._cls !== cls) { m.setIcon(L.divIcon({ className: cls, iconSize: [36, 44], iconAnchor: [18, 42], html: pinHTML(p, cls) })); m._cls = cls; }
+    if (m._cls !== cls) { m.getElement().innerHTML = `<div class="${cls}">${pinHTML(p, cls)}</div>`; m._cls = cls; }
   }
 }
+function flyTo(lat, lng, zoom) { if (map) map.easeTo({ center: [lng, lat], zoom: zoom ?? map.getZoom(), duration: reduced ? 0 : 700 }); }
 function setMe(lat, lng, acc) {
   const first = !me;
   me = { lat, lng, acc };
-  meMarker.setLatLng([lat, lng]); rangeCircle.setLatLng([lat, lng]).setRadius(reach());
-  if (first) { meMarker.addTo(map); rangeCircle.addTo(map); map.setView([lat, lng], 17); }
+  if (meMarker) { meMarker.setLngLat([lng, lat]); if (first) meMarker.addTo(map); }
+  updateRange();
+  if (first && map) map.jumpTo({ center: [lng, lat], zoom: 17 });
   if (!lastFetch || meters(lastFetch, me) > RADIUS_FETCH * 0.5) loadPlaces();
   refresh();
 }
@@ -553,12 +616,18 @@ async function loadPlaces() {
     nwr${ar}["leisure"="park"]["name"];
   );out center tags 400;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
+  const ck = `places:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
   let data = null;
-  for (const url of OVERPASS) {
-    try {
-      const r = await fetch(url, { method: 'POST', body: 'data=' + encodeURIComponent(q), headers: { 'Content-Type': 'application/x-www-form-urlencoded' } });
-      if (r.ok) { data = await r.json(); break; }
-    } catch (e) {}
+  try { const hit = JSON.parse(localStorage.getItem(ck)); if (hit && Date.now() - hit.t < 864e5) data = hit.d; } catch (e) {}
+  if (!data) {
+    // pergunta aos servidores em paralelo e fica com o primeiro que responder
+    const ctrls = OVERPASS.map(() => new AbortController());
+    const ask = (url, i) => fetch(url, { method: 'POST', body: 'data=' + encodeURIComponent(q), headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, signal: ctrls[i].signal })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status));
+    const timer = setTimeout(() => ctrls.forEach(x => x.abort()), 30000);
+    try { data = await Promise.any(OVERPASS.map(ask)); } catch (e) {}
+    clearTimeout(timer); ctrls.forEach(x => x.abort());
+    if (data) try { localStorage.setItem(ck, JSON.stringify({ t: Date.now(), d: { elements: data.elements } })); } catch (e) {}
   }
   fetching = false;
   if (!data) { status('<span>Não consegui carregar os lugares agora.</span><button type="button" data-act="retry-places">Tentar de novo</button>'); return; }
@@ -580,23 +649,23 @@ async function loadPlaces() {
 }
 
 // modo demo: tocar no mapa para andar
-map.on('click', e => {
+if (map) map.on('click', e => {
   if (openId) { closeSheet(); return; }
   if (!demo) { toast('Ligue o modo demo (botão do boneco) para andar tocando no mapa'); return; }
-  setMe(e.latlng.lat, e.latlng.lng, 0);
+  setMe(e.lngLat.lat, e.lngLat.lng, 0);
 });
 function renderFabs() {
   $('#fabMe').innerHTML = ic('locate');
   $('#fabDemo').innerHTML = ic('walk');
   $('#fabDemo').classList.toggle('on', demo);
 }
-$('#fabMe').onclick = () => { if (me) map.setView([me.lat, me.lng], Math.max(map.getZoom(), 17)); };
+$('#fabMe').onclick = () => { if (me && map) map.easeTo({ center: [me.lng, me.lat], zoom: Math.max(map.getZoom(), 17), pitch: 50, bearing: 0, duration: reduced ? 0 : 700 }); };
 $('#fabDemo').onclick = () => {
   demo = !demo; renderFabs();
   if (demo) toast('Modo demo: toque no mapa para andar');
-  else if (gpsFix) { setMe(gpsFix.lat, gpsFix.lng, gpsFix.acc); map.setView([gpsFix.lat, gpsFix.lng]); toast('De volta ao GPS'); }
+  else if (gpsFix) { setMe(gpsFix.lat, gpsFix.lng, gpsFix.acc); flyTo(gpsFix.lat, gpsFix.lng); toast('De volta ao GPS'); }
   else { toast('Ainda sem sinal de GPS'); startGPS(); }
-  if (me) rangeCircle.setRadius(reach());
+  updateRange();
 };
 $('#status').addEventListener('click', e => {
   const a = e.target.closest('[data-act]'); if (!a) return;
@@ -624,7 +693,7 @@ $('#near').addEventListener('click', e => { const b = e.target.closest('[data-op
 
 // ---------- ficha do lugar ----------
 let openId = null;
-function openSheet(id) { openId = id; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) map.panTo([p.lat, p.lng]); renderSheet(); renderNear(); }
+function openSheet(id) { openId = id; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
 function closeSheet() { openId = null; $('#sheet').hidden = true; renderNear(); }
 const visitsIn = cat => Object.values(st.visits).filter(v => v.p.cat === cat).length;
 function renderSheet() {
@@ -656,7 +725,7 @@ $('#sheet').addEventListener('click', e => {
   const a = e.target.closest('[data-act]'); if (!a) return;
   const p = getPlace(openId);
   if (a.dataset.act === 'close') closeSheet();
-  if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; setMe(p.lat - off, p.lng, 0); map.panTo([p.lat, p.lng]); toast('Modo demo ligado: posição simulada'); }
+  if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; setMe(p.lat - off, p.lng, 0); flyTo(p.lat, p.lng); toast('Modo demo ligado: posição simulada'); }
   if (a.dataset.act === 'scan') openScan(p);
 });
 
@@ -733,7 +802,7 @@ function show(t) {
   tab = t;
   document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === t)));
   for (const k of Object.keys(TABS)) $('#v-' + k).hidden = k !== t;
-  if (t === 'mapa') setTimeout(() => map.invalidateSize(), 0);
+  if (t === 'mapa' && map) setTimeout(() => map.resize(), 0);
   if (t === 'colecoes') renderCols();
   if (t === 'cupons') renderCoupons();
   if (t === 'passaporte') renderPassport();
