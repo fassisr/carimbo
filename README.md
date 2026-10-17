@@ -20,4 +20,4 @@ O app Android é o mesmo `index.html` empacotado com Capacitor (`android/`), usa
 
 ## Créditos
 
-Personagens 3D: [KayKit Adventurers](https://kaylousberg.com) de Kay Lousberg, licença CC0. Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.
+Personagens 3D: [KayKit Adventurers](https://kaylousberg.com) de Kay Lousberg, licença CC0, recoloridos com o uniforme Fuilá (índigo e amarelo). Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.

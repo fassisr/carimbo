@@ -26,7 +26,7 @@ html, body { margin: 0; }
 :root {
   --brand: #3B2BF5; --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
   --ink: #3B2BF5; --ink-fg: #FFFFFF; --gold: #FFC21A; --gold-fg: #241A00; --ok: #1E8A4C;
-  --ground: #B4E6A0; --sky: #CFEFFF; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
+  --ground: #E6E3FF; --sky: #9C92FF; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
   --park: #B8D9A6; --tree: #93C27E; --water: #A7CDE4; --label: #6E7D73;
   --me: #3B2BF5; --me-ring: #FFFFFF; --range: rgba(59, 43, 245, .10); --range-line: rgba(59, 43, 245, .55);
   --on-pin: #FFFFFF; --shadow: rgba(20, 35, 25, .22);
@@ -38,7 +38,7 @@ html, body { margin: 0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
-  --ground: #1D3A4C; --sky: #0F2233; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --ground: #1A1452; --sky: #0C0930; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
@@ -48,7 +48,7 @@ html, body { margin: 0; }
 :root[data-theme="dark"] {
   --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
-  --ground: #1D3A4C; --sky: #0F2233; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --ground: #1A1452; --sky: #0C0930; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
@@ -349,6 +349,8 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 .stop.visited .stop-coin { animation: none; }
 .stop.inrange:not(.visited) .stop-coin { animation: coinspin 1.8s linear infinite; }
 .stop.inrange:not(.visited) .stop-ring { animation: ringpulse 1.4s ease-out infinite; border-color: var(--gold); }
+.far .stop { transform: scale(.68); transform-origin: 50% 100%; }
+.far .stop-label { display: none; }
 .stop-label { position: absolute; top: calc(100% + 2px); left: 50%; transform: translateX(-50%); width: max-content; max-width: 130px;
   font: 800 11px/1.15 var(--f-display, inherit); color: #fff; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   text-shadow: 0 0 3px rgba(20,17,43,.9), 0 1px 2px rgba(20,17,43,.9); pointer-events: none; }
@@ -550,10 +552,39 @@ function stampSVG(p, ts) {
 // ---------- mapa ----------
 const dark = matchMedia('(prefers-color-scheme: dark)').matches;
 // estilo próprio do Fuilá sobre os dados do OpenStreetMap (OpenFreeMap, sem chave)
+// Estilo de mapa próprio do Fuilá: chão lilás quadriculado como papel de passaporte, avenidas amarelas,
+// parques com arvorezinhas e água com ondas. Os desenhos de repetição são gerados aqui mesmo (canvas).
+const MAPC = {
+  day: { bg: '#E6E3FF', dot: '#C9C2FF', res: '#E0DCFF', park: '#A9EBC0', tree: '#62C98A', treeHi: '#C9F5D7', wood: '#93E0AE', water: '#86D0FF', wave: '#C6EBFF',
+    bld: '#E4E0FF', bldHi: '#ADA2FF', road: '#FFFFFF', casing: '#ADA3FF', major: '#FFD23F', majorCase: '#E5A800', path: '#8D82FF', place: '#3B2BF5', halo: '#F4F2FF',
+    sky: '#9C92FF', horizon: '#E6E3FF', range: '#FFC21A', rangeFill: '#FFFFFF', rangeOp: .35 },
+  night: { bg: '#1A1452', dot: '#2C2585', res: '#1D1757', park: '#18485A', tree: '#2A7A72', treeHi: '#3FA393', wood: '#164052', water: '#13408F', wave: '#2560B8',
+    bld: '#2A2378', bldHi: '#4A40B8', road: '#3D35A3', casing: '#0F0B3A', major: '#F2B51C', majorCase: '#6B4C00', path: '#6E64E8', place: '#FFD23F', halo: '#1A1452',
+    sky: '#0C0930', horizon: '#2A2380', range: '#FFC21A', rangeFill: '#FFC21A', rangeOp: .08 },
+};
+function patterns(c) {
+  const make = (w, h, draw) => {
+    const cv = document.createElement('canvas'); cv.width = w; cv.height = h;
+    const x = cv.getContext('2d'); draw(x, w, h);
+    return { width: w, height: h, data: new Uint8Array(x.getImageData(0, 0, w, h).data.buffer) };
+  };
+  const tree = (x, cx, cy, r) => {
+    x.fillStyle = 'rgba(20,17,43,.12)'; x.beginPath(); x.ellipse(cx + 1, cy + r * .8, r * .9, r * .35, 0, 0, 7); x.fill();
+    x.fillStyle = c.tree; x.beginPath(); x.arc(cx, cy, r, 0, 7); x.fill();
+    x.fillStyle = c.treeHi; x.beginPath(); x.arc(cx - r * .35, cy - r * .35, r * .38, 0, 7); x.fill();
+  };
+  return {
+    'p-ground': () => make(36, 36, (x, w, h) => { x.fillStyle = c.bg; x.fillRect(0, 0, w, h); x.fillStyle = c.dot; x.beginPath(); x.arc(w / 2, h / 2, 2.2, 0, 7); x.fill(); }),
+    'p-park': () => make(72, 72, (x, w, h) => { x.fillStyle = c.park; x.fillRect(0, 0, w, h); tree(x, 18, 18, 9); tree(x, 54, 52, 10); tree(x, 58, 14, 6); }),
+    'p-wood': () => make(56, 56, (x, w, h) => { x.fillStyle = c.wood; x.fillRect(0, 0, w, h); tree(x, 14, 14, 10); tree(x, 42, 40, 11); tree(x, 44, 10, 7); tree(x, 12, 44, 7); }),
+    'p-water': () => make(64, 40, (x, w, h) => {
+      x.fillStyle = c.water; x.fillRect(0, 0, w, h); x.strokeStyle = c.wave; x.lineWidth = 3; x.lineCap = 'round';
+      for (const [ox, oy] of [[8, 12], [40, 30]]) { x.beginPath(); x.moveTo(ox, oy); x.quadraticCurveTo(ox + 5, oy - 5, ox + 10, oy); x.quadraticCurveTo(ox + 15, oy + 5, ox + 20, oy); x.stroke(); }
+    }),
+  };
+}
 function mapStyle(dk) {
-  const c = dk
-    ? { bg: '#1D3A4C', res: '#1F3E51', park: '#1D5546', wood: '#1A4D3F', water: '#245B8C', bld: '#2C5068', road: '#4E7393', casing: '#142B3A', major: '#9C8340', majorCase: '#3C3218', path: '#5E86A6', label: '#D3E6F2', halo: '#1D3A4C', place: '#FFE08A' }
-    : { bg: '#B4E6A0', res: '#AEE39A', park: '#8DD683', wood: '#79C870', water: '#6CC4EF', bld: '#E4F3DC', road: '#FFF7DC', casing: '#D9CB93', major: '#FFE08A', majorCase: '#E0B443', path: '#F4FFF0', label: '#3E5A3C', halo: '#F1FFEC', place: '#2B6B2F' };
+  const c = dk ? MAPC.night : MAPC.day;
   const cls = (...v) => ['match', ['get', 'class'], v, true, false];
   const w = (a, b) => ['interpolate', ['exponential', 1.6], ['zoom'], 13, a, 19, b];
   const MAJOR = cls('motorway', 'trunk', 'primary', 'secondary');
@@ -562,30 +593,29 @@ function mapStyle(dk) {
     version: 8,
     glyphs: 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
     sources: { omt: { type: 'vector', url: 'https://tiles.openfreemap.org/planet' } },
+    sky: { 'sky-color': c.sky, 'horizon-color': c.horizon, 'fog-color': c.horizon, 'sky-horizon-blend': .6, 'horizon-fog-blend': .6, 'fog-ground-blend': .35, 'atmosphere-blend': 0 },
     layers: [
-      { id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
-      { id: 'landuse', type: 'fill', source: 'omt', 'source-layer': 'landuse', filter: cls('residential', 'suburb', 'neighbourhood'), paint: { 'fill-color': c.res } },
-      { id: 'grass', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('grass', 'farmland'), paint: { 'fill-color': c.park, 'fill-opacity': .7 } },
-      { id: 'wood', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('wood', 'forest'), paint: { 'fill-color': c.wood } },
-      { id: 'park', type: 'fill', source: 'omt', 'source-layer': 'park', paint: { 'fill-color': c.park } },
-      { id: 'water', type: 'fill', source: 'omt', 'source-layer': 'water', paint: { 'fill-color': c.water } },
+      { id: 'bg', type: 'background', paint: { 'background-color': c.bg, 'background-pattern': 'p-ground' } },
+      { id: 'landuse', type: 'fill', source: 'omt', 'source-layer': 'landuse', filter: cls('residential', 'suburb', 'neighbourhood'), paint: { 'fill-color': c.res, 'fill-opacity': .6 } },
+      { id: 'grass', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('grass', 'farmland'), paint: { 'fill-pattern': 'p-park', 'fill-opacity': .85 } },
+      { id: 'wood', type: 'fill', source: 'omt', 'source-layer': 'landcover', filter: cls('wood', 'forest'), paint: { 'fill-pattern': 'p-wood' } },
+      { id: 'park', type: 'fill', source: 'omt', 'source-layer': 'park', paint: { 'fill-pattern': 'p-park' } },
+      { id: 'park-edge', type: 'line', source: 'omt', 'source-layer': 'park', minzoom: 14, paint: { 'line-color': c.tree, 'line-width': w(.5, 3), 'line-opacity': .6 } },
+      { id: 'water', type: 'fill', source: 'omt', 'source-layer': 'water', paint: { 'fill-pattern': 'p-water' } },
+      { id: 'water-edge', type: 'line', source: 'omt', 'source-layer': 'water', paint: { 'line-color': c.wave, 'line-width': w(.5, 4) } },
       { id: 'waterway', type: 'line', source: 'omt', 'source-layer': 'waterway', paint: { 'line-color': c.water, 'line-width': w(1, 6) } },
-      { id: 'path', type: 'line', source: 'omt', 'source-layer': 'transportation', minzoom: 15, filter: cls('path', 'track', 'pedestrian'), paint: { 'line-color': c.path, 'line-width': w(.5, 3), 'line-dasharray': [2, 1.5] } },
-      { id: 'minor-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.casing, 'line-width': w(2, 22) } },
-      { id: 'major-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.majorCase, 'line-width': w(3.5, 32) } },
-      { id: 'minor', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.road, 'line-width': w(1.2, 17) } },
-      { id: 'major', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.major, 'line-width': w(2.5, 26) } },
+      { id: 'path', type: 'line', source: 'omt', 'source-layer': 'transportation', minzoom: 15, filter: cls('path', 'track', 'pedestrian'), layout: { 'line-cap': 'round' }, paint: { 'line-color': c.path, 'line-width': w(.6, 4), 'line-dasharray': [.1, 2] } },
+      { id: 'minor-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.casing, 'line-width': w(3, 30) } },
+      { id: 'major-case', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.majorCase, 'line-width': w(4, 34) } },
+      { id: 'minor', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MINOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.road, 'line-width': w(1.8, 22) } },
+      { id: 'major', type: 'line', source: 'omt', 'source-layer': 'transportation', filter: MAJOR, layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': c.major, 'line-width': w(2.6, 26) } },
+      { id: 'major-center', type: 'line', source: 'omt', 'source-layer': 'transportation', minzoom: 16, filter: cls('motorway', 'trunk', 'primary'), paint: { 'line-color': c.road, 'line-width': w(.3, 2.5), 'line-dasharray': [3, 3], 'line-opacity': .8 } },
       { id: 'buildings', type: 'fill-extrusion', source: 'omt', 'source-layer': 'building', minzoom: 15, paint: {
-        'fill-extrusion-color': c.bld, 'fill-extrusion-opacity': .85,
-        'fill-extrusion-height': ['coalesce', ['get', 'render_height'], 8], 'fill-extrusion-base': ['coalesce', ['get', 'render_min_height'], 0] } },
-      { id: 'road-names', type: 'symbol', source: 'omt', 'source-layer': 'transportation_name', minzoom: 15, layout: {
-        'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-max-angle': 30 },
-        paint: { 'text-color': c.label, 'text-halo-color': c.halo, 'text-halo-width': 1.6 } },
-      { id: 'water-names', type: 'symbol', source: 'omt', 'source-layer': 'water_name', layout: { 'text-field': ['get', 'name'], 'text-font': ['Noto Sans Italic'], 'text-size': 12 },
-        paint: { 'text-color': c.label, 'text-halo-color': c.halo, 'text-halo-width': 1.2 } },
+        'fill-extrusion-color': ['interpolate', ['linear'], ['coalesce', ['get', 'render_height'], 8], 4, c.bld, 30, c.bldHi], 'fill-extrusion-opacity': .85, 'fill-extrusion-vertical-gradient': true,
+        'fill-extrusion-height': ['*', .6, ['min', 40, ['coalesce', ['get', 'render_height'], 8]]], 'fill-extrusion-base': ['coalesce', ['get', 'render_min_height'], 0] } },
       { id: 'places', type: 'symbol', source: 'omt', 'source-layer': 'place', filter: cls('suburb', 'neighbourhood', 'quarter', 'town', 'city', 'village'), layout: {
-        'text-field': ['get', 'name'], 'text-font': ['Noto Sans Bold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 12, 12, 17, 16], 'text-transform': 'uppercase', 'text-letter-spacing': .12 },
-        paint: { 'text-color': c.place, 'text-halo-color': c.halo, 'text-halo-width': 2, 'text-opacity': .75 } },
+        'text-field': ['get', 'name'], 'text-font': ['Noto Sans Bold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 12, 12, 17, 15], 'text-transform': 'uppercase', 'text-letter-spacing': .18 },
+        paint: { 'text-color': c.place, 'text-halo-color': c.halo, 'text-halo-width': 2.4, 'text-opacity': .55 } },
     ],
   };
 }
@@ -594,6 +624,12 @@ try {
   map = window.fuilaMap = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 18, pitch: 60, maxPitch: 70, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true } });
 } catch (e) {
   $('#map').innerHTML = '<div class="nomap">Seu celular não conseguiu desenhar o mapa 3D. Os lugares perto de você continuam na lista abaixo.</div>';
+}
+if (map) {
+  const pats = patterns(dark ? MAPC.night : MAPC.day);
+  const addPat = id => { if (pats[id] && !map.hasImage(id)) map.addImage(id, pats[id](), { pixelRatio: 2 }); };
+  map.on('styleimagemissing', e => addPat(e.id));
+  map.on('style.load', () => Object.keys(pats).forEach(addPat));
 }
 function circle(c, r) {
   const pts = [], k = r / 111320;
@@ -604,8 +640,8 @@ function updateRange() { if (mapReady && me) map.getSource('range').setData(circ
 if (map) map.on('load', () => {
   const css = getComputedStyle(document.documentElement);
   map.addSource('range', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-  map.addLayer({ id: 'range-fill', type: 'fill', source: 'range', paint: { 'fill-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'fill-opacity': .08 } }, 'buildings');
-  map.addLayer({ id: 'range-line', type: 'line', source: 'range', paint: { 'line-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'line-width': 2, 'line-dasharray': [2, 2], 'line-opacity': .7 } }, 'buildings');
+  map.addLayer({ id: 'range-fill', type: 'fill', source: 'range', paint: { 'fill-color': (dark ? MAPC.night : MAPC.day).rangeFill, 'fill-opacity': (dark ? MAPC.night : MAPC.day).rangeOp } }, 'buildings');
+  map.addLayer({ id: 'range-line', type: 'line', source: 'range', paint: { 'line-color': (dark ? MAPC.night : MAPC.day).range, 'line-width': 3, 'line-dasharray': [1.5, 1.5], 'line-opacity': .9 } }, 'buildings');
   mapReady = true; updateRange();
 });
 const meEl = document.createElement('div');
@@ -653,6 +689,7 @@ function followCam(instant) {
   instant ? map.jumpTo(opts) : map.easeTo({ ...opts, duration: reduced ? 0 : 900 });
 }
 if (map) map.on('dragstart', () => { follow = false; });
+if (map) { const far = () => map.getContainer().classList.toggle('far', map.getZoom() < 16.3); far(); map.on('zoom', far); }
 // personagem no terço de baixo da tela, com mais horizonte à frente
 if (map) { const pad = () => map.setPadding({ top: Math.round(map.getContainer().clientHeight * 0.28), bottom: 0, left: 0, right: 0 }); pad(); map.on('resize', pad); }
 window.addEventListener('avatar3d-ready', () => {
@@ -693,7 +730,7 @@ function setMe(lat, lng, acc) {
   me = { lat, lng, acc };
   stepAvatar(prev, me);
   if (first && !demo) $('#where').textContent = 'Você está aqui';
-  if (meMarker) { meMarker.setLngLat([lng, lat]); if (first) meMarker.addTo(map); }
+  if (meMarker) { meMarker.setLngLat([lng, lat]); if (first && !use3d) meMarker.addTo(map); }
   updateRange();
   if (first && map) map.jumpTo({ center: [lng, lat], zoom: 18 });
   else followCam();
@@ -765,7 +802,7 @@ async function loadPlaces() {
   fetching = false;
   if (!data) {
     fails++;
-    status(`<span>Não consegui carregar os lugares (${esc(lastWhy || 'erro')}). Tento de novo sozinho.</span><button type="button" data-act="retry-places">Agora</button>`);
+    if (!places.size || fails > 2) status(`<span title="${esc(lastWhy || 'erro')}">Lugares do mapa fora do ar. Tentando de novo…</span><button type="button" data-act="retry-places">Agora</button>`);
     retryT = setTimeout(loadPlaces, Math.min(120000, 15000 * fails));
     return;
   }
