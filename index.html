@@ -290,6 +290,22 @@ main { position: relative; min-height: 0; isolation: isolate; z-index: 0; }
 .scan-txt b { font-family: var(--f-display); font-size: 20px; display: block; margin-bottom: 6px; }
 .scan-txt span { opacity: .7; font-size: 14px; line-height: 1.4; }
 .scan-cancel { display: block; margin: 26px auto 0; background: none; border: 1px solid rgba(234, 240, 236, .3); color: #EAF0EC; border-radius: 999px; padding: 9px 20px; font-weight: 600; }
+.vf video { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: cover; border-radius: 10px; background: #000; }
+.vf.live svg { display: none; }
+.scan-code { display: flex; gap: 8px; justify-content: center; margin: 18px auto 0; max-width: 280px; }
+.scan-code input { flex: 1; min-width: 0; text-transform: uppercase; letter-spacing: .2em; font: 700 16px var(--f-mono, monospace); text-align: center; border-radius: 12px; border: 1px solid rgba(234,240,236,.3); background: rgba(255,255,255,.06); color: #EAF0EC; padding: 10px; }
+.scan-code input::placeholder { letter-spacing: normal; text-transform: none; font-family: var(--f-body); font-weight: 500; }
+.scan-code button { border: 0; border-radius: 12px; background: var(--gold); color: var(--gold-fg); font-weight: 800; padding: 0 16px; }
+.scan-err { color: #FFB4A8; font-weight: 600; font-size: 14px; margin-top: 12px; text-align: center; min-height: 1.4em; }
+.acct { margin-top: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+.acct b { display: block; font-size: 15px; }
+.acct p { margin: 4px 0 10px; font-size: 13px; color: var(--muted); line-height: 1.45; }
+.acct form { display: flex; gap: 8px; }
+.acct input { flex: 1; min-width: 0; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; font: inherit; background: var(--surface-2); color: var(--fg); }
+.acct button { border: 0; border-radius: 12px; background: var(--brand); color: #fff; font-weight: 700; padding: 0 14px; }
+.acct .ghost { background: none; color: var(--muted); border: 1px solid var(--line); padding: 8px 14px; }
+.acct .err { color: var(--c-doce); font-size: 13px; margin-top: 8px; }
+.sync { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
 #reward { background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); overflow-y: auto; }
 .rw { width: 100%; max-width: 380px; background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 22px 20px 20px; text-align: center; box-shadow: 0 20px 50px var(--shadow); }
 .rw-stamp { width: 168px; margin: -4px auto 6px; animation: thump .55s cubic-bezier(.3, 1.6, .5, 1) both; }
@@ -439,6 +455,10 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 </div>
 
 <script src="assets/vendor/maplibre-gl.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/vendor/supabase/supabase.js"></script>
+<script src="assets/cloud.js"></script>
+<script src="assets/scan.js"></script>
 <script type="importmap">{ "imports": { "three": "./assets/vendor/three/three.module.min.js" } }</script>
 <script type="module" src="assets/avatar3d.js"></script>
 <script>
@@ -735,6 +755,7 @@ function setMe(lat, lng, acc) {
   if (meMarker) { meMarker.setLngLat([lng, lat]); if (first && !use3d) meMarker.addTo(map); }
   updateRange();
   if (first && map) map.jumpTo({ center: [lng, lat], zoom: 18 });
+  if (first) handlePendingQR();
   else followCam();
   if (!lastFetch || (meters(lastFetch, me) > RADIUS_FETCH * 0.6 && Date.now() - lastTry > 60000)) loadPlaces();
   refresh();
@@ -862,7 +883,7 @@ function updateWhere() {
   const n = [...places.values()].filter(p => dist(p) <= RADIUS_FETCH).length;
   $('#where').textContent = n ? `${n} ${n === 1 ? 'lugar' : 'lugares'} por perto` : 'Você está aqui';
 }
-const offerOf = p => p.dest ? (p.parceiro && p.oferta) || null : CATS[p.cat].oferta;
+const offerOf = p => (p.parceiro && p.oferta) || null;
 
 // modo demo: tocar no mapa para andar
 if (map) map.on('click', e => {
@@ -940,7 +961,8 @@ function renderSheet() {
   const OF = offerOf(p), isPublic = !OF;
   let action;
   if (v) action = `<div class="done-row">${stampSVG(p, v.ts)}<div><b>Carimbado em ${fmtD(v.ts)}</b><span>${OF ? 'Seu cupom está na aba Cupons.' : 'Este lugar já está no seu passaporte.'}</span></div></div>`;
-  else if (d <= reach()) action = `<button class="cta gold" type="button" data-act="scan">${ic('qr')} ${isPublic ? 'Fazer check-in' : 'Escanear QR no balcão'}</button>`;
+  else if (d <= reach()) action = isPublic ? `<button class="cta gold" type="button" data-act="stamp">${ic('stamp')} Carimbar aqui</button>`
+    : `<button class="cta gold" type="button" data-act="scan">${ic('qr')} Escanear QR no balcão</button>`;
   else action = `<button class="cta" type="button" disabled>${ic('walk')} Chegue mais perto · faltam ${fmtM(d - reach())}</button>
     <button class="linkbtn" type="button" data-act="walk">Modo demo: ir até lá</button>`;
   $('#sheet').innerHTML = `
@@ -952,9 +974,9 @@ function renderSheet() {
     <a class="gbtn" href="${gmapsURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${starsHTML(5)} Ver avaliações no Google</a>
     ${p.desc ? `<div class="desc">${esc(p.desc)}</div>` : ''}
     ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.dest && p.city, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
-    ${OF ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : p.dest ? 'Parceiro Fuilá · na primeira visita' : 'Na primeira visita · oferta de exemplo'}</small><b>${esc(OF)}</b></div>`
+    ${OF ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : 'Parceiro Fuilá · na primeira visita'}</small><b>${esc(OF)}</b></div>`
       : p.dest ? `<div class="offer">${ic('star')}<small>Destaque Fuilá</small><b>Vale carimbo e conta para a coleção</b></div>`
-      : `<div class="offer">${ic('verde')}<small>Lugar público</small><b>Vale carimbo e conta para a coleção</b></div>`}
+      : `<div class="offer">${ic('stamp')}<small>Carimbo por GPS</small><b>Vale carimbo e conta para a coleção</b></div>`}
     <div class="prog" style="--cc:var(--c-${p.cat})">
       <div class="prog-row"><b>${C.col}</b><span>${got} de ${C.meta}</span></div>
       <div class="bar"><i style="width:${got / C.meta * 100}%"></i></div>
@@ -967,19 +989,42 @@ $('#sheet').addEventListener('click', e => {
   if (a.dataset.act === 'close') closeSheet();
   if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; walkTo(p.lat - off, p.lng); flyTo(p.lat, p.lng); toast('Modo demo ligado: posição simulada'); }
   if (a.dataset.act === 'scan') openScan(p);
+  if (a.dataset.act === 'stamp') checkin(p);
 });
 
 // ---------- check-in ----------
-let scanTimer = 0;
+let scanner = null;
+function closeScan() { scanner?.stop(); scanner = null; $('#scan').hidden = true; }
 function openScan(p) {
+  if (demo) { toast('No modo demo não dá para carimbar parceiros: vá até o lugar de verdade'); return; }
+  if (!cloud.on) { toast('Check-in em parceiros precisa de internet e da sua conta'); return; }
   const o = $('#scan');
   o.innerHTML = `<div>
-    <div class="vf"><svg viewBox="0 0 24 24" fill="none" stroke="#EAF0EC" stroke-width="1.2">${ICONS.qr}</svg><div class="beam"></div></div>
-    <div class="scan-txt"><b>Lendo o QR…</b><span>Aponte para o código de ${esc(p.n)}. Neste protótipo a leitura é simulada.</span></div>
+    <div class="vf"><svg viewBox="0 0 24 24" fill="none" stroke="#EAF0EC" stroke-width="1.2">${ICONS.qr}</svg><video></video><div class="beam"></div></div>
+    <div class="scan-txt"><b>Aponte para o QR</b><span>Ele fica no balcão de ${esc(p.n)}.</span></div>
+    <form class="scan-code"><input name="k" maxlength="10" placeholder="ou digite o código" autocomplete="off" autocapitalize="characters"><button>OK</button></form>
+    <div class="scan-err" role="status"></div>
     <button class="scan-cancel" type="button" data-act="cancel">Cancelar</button></div>`;
   o.hidden = false;
-  o.querySelector('[data-act="cancel"]').onclick = () => { clearTimeout(scanTimer); o.hidden = true; };
-  scanTimer = setTimeout(() => { o.hidden = true; checkin(p); }, reduced ? 500 : 1700);
+  const err = o.querySelector('.scan-err');
+  let busy = false;
+  const tryCode = async q => {
+    if (busy) return false;
+    if (!q) { err.textContent = 'Esse QR não é do Fuilá.'; return false; }
+    if (q.p && q.p !== p.id) { err.textContent = 'Esse QR é de outro lugar.'; return false; }
+    busy = true; err.textContent = 'Conferindo…';
+    try {
+      const c = await cloud.checkinPartner(p.id, q.k, me.lat, me.lng);
+      closeScan();
+      checkin(p, { code: c.code, of: c.oferta, at: Date.parse(c.at) || Date.now(), used: c.used_at ? Date.parse(c.used_at) : 0 });
+      return true;
+    } catch (e) { err.textContent = e.message; busy = false; return false; }
+  };
+  o.querySelector('[data-act="cancel"]').onclick = closeScan;
+  o.querySelector('form').onsubmit = ev => { ev.preventDefault(); tryCode(fuilaParseQR(ev.target.k.value)); };
+  scanner = fuilaScanQR(o.querySelector('video'), txt => { tryCode(fuilaParseQR(txt)); return false; });
+  scanner.start().then(() => o.querySelector('.vf').classList.add('live'))
+    .catch(() => { err.textContent = 'Não consegui abrir a câmera. Digite o código que está embaixo do QR.'; });
 }
 function code() { const a = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let s = 'CRB-'; for (let i = 0; i < 4; i++) s += a[Math.floor(Math.random() * a.length)]; return s; }
 const nVisits = () => Object.keys(st.visits).length;
@@ -990,19 +1035,20 @@ const BADGES = [
   ...CAT_IDS.map(c => ({ id: 'col_' + c, nome: CATS[c].badge, desc: `Carimbe ${CATS[c].meta} lugares de ${CATS[c].nome.toLowerCase()}`, icon: c, cc: `var(--c-${c})`, xp: 150, ok: () => visitsIn(c) >= CATS[c].meta })),
   { id: 'all', nome: 'Dono do pedaço', desc: 'Carimbe 30 lugares', icon: 'crown', cc: 'var(--c-doce)', xp: 200, ok: () => nVisits() >= 30 },
 ];
-function checkin(p) {
+function checkin(p, serverCoupon) {
   if (st.visits[p.id]) return;
+  if (p.parceiro && !serverCoupon) return openScan(p);
   const now = Date.now();
   st.visits[p.id] = { ts: now, p: { n: p.n, cat: p.cat, lat: p.lat, lng: p.lng, city: p.city || '', addr: p.addr || '', dest: !!p.dest, parceiro: !!p.parceiro, oferta: p.oferta || '', logo: p.logo || '', desc: p.desc || '' } };
+  if (demo) st.visits[p.id].demo = 1; else if (me) { st.visits[p.id].lat = me.lat; st.visits[p.id].lng = me.lng; }
   let gain = XP_VISITA, coupon = null;
-  const of = offerOf(p);
-  if (of) { coupon = { id: p.id, code: code(), at: now, used: 0, of }; st.coupons.unshift(coupon); }
+  if (serverCoupon) { coupon = { id: p.id, ...serverCoupon }; st.coupons = st.coupons.filter(c => c.id !== p.id); st.coupons.unshift(coupon); }
   const earned = BADGES.filter(b => !st.badges[b.id] && b.ok());
   earned.forEach(b => { st.badges[b.id] = now; gain += b.xp; });
   const lvBefore = level();
   st.xp += gain;
   const up = level() > lvBefore;
-  save(); refresh(); renderChrome();
+  save(); refresh(); renderChrome(); cloudPush();
   window.avatar3d?.cheer();
   showReward(p, now, gain, coupon, earned, up);
 }
@@ -1071,15 +1117,15 @@ $('#v-colecoes').addEventListener('click', e => { const b = e.target.closest('[d
 function renderCoupons() {
   const act = st.coupons.filter(c => !c.used), used = st.coupons.filter(c => c.used);
   $('#v-cupons').innerHTML = `<h1>Cupons</h1>
-    <p class="lede">Cada primeira visita libera um desconto. No protótipo as ofertas são de exemplo: os lugares ainda não são parceiros.</p>
+    <p class="lede">A primeira visita a um parceiro Fuilá libera um desconto. Os parceiros aparecem dourados no mapa, com o selo Parceiro.</p>
     ${st.coupons.length ? `<div class="stack">${act.map(ticketHTML).join('')}</div>
       ${used.length ? `<h3>Já usados</h3><div class="stack">${used.map(ticketHTML).join('')}</div>` : ''}`
-    : `<div class="empty">${ic('ticket')}<b>Nenhum cupom ainda</b>Faça check-in num café, bar ou doceria pela primeira vez e o desconto aparece aqui.</div>`}`;
+    : `<div class="empty">${ic('ticket')}<b>Nenhum cupom ainda</b>Escaneie o QR no balcão de um parceiro Fuilá e o desconto aparece aqui.</div>`}`;
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-use]'); if (!b) return;
   const c = st.coupons.find(x => x.id === b.dataset.use && !x.used); if (!c) return;
-  if (b.dataset.armed) { c.used = Date.now(); save(); renderChrome(); if (tab === 'cupons') renderCoupons(); toast(`Cupom ${c.code} usado`); const rw = b.closest('.rw'); if (rw) b.closest('.ticket').outerHTML = ticketHTML(c); }
+  if (b.dataset.armed) { c.used = Date.now(); save(); if (cloud.on && getPlace(c.id)?.parceiro) cloud.useCoupon(c.id).catch(() => {}); renderChrome(); if (tab === 'cupons') renderCoupons(); toast(`Cupom ${c.code} usado`); const rw = b.closest('.rw'); if (rw) b.closest('.ticket').outerHTML = ticketHTML(c); }
   else { b.dataset.armed = '1'; b.textContent = 'Confirmar'; }
 });
 
@@ -1106,7 +1152,8 @@ function renderPassport() {
     <div class="chars">${CHARS.map(c => `<button type="button" class="charbtn${curChar() === c.id ? ' on' : ''}" data-char="${c.id}" aria-pressed="${curChar() === c.id}"><img src="assets/chars/${c.id}.png" alt="" width="128" height="128"><span>${c.nome}</span></button>`).join('')}</div>
     <h3>Insígnias</h3>
     <div class="badges">${BADGES.map(b => { const g = st.badges[b.id]; return `<div class="badge${g ? '' : ' locked'}"><div class="medal" style="--cc:${b.cc}">${ic(g ? b.icon : 'lock')}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : esc(b.desc)}</span></div>`; }).join('')}</div>
-    <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. As avaliações abrem no Google Maps. As ofertas são de exemplo neste protótipo; na versão de verdade elas vêm de lojas parceiras, que pagam por cada primeira visita confirmada.</div>
+    ${acctHTML()}
+    <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. As avaliações abrem no Google Maps. Cupons só existem em parceiros Fuilá, que confirmam a visita pelo QR do balcão.</div>
     <button class="reset" type="button" id="reset">Recomeçar do zero</button>`;
 }
 $('#v-passaporte').addEventListener('click', e => {
@@ -1120,7 +1167,99 @@ $('#v-passaporte').addEventListener('click', e => {
   const b = e.target.closest('#reset'); if (!b) return;
   if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Toque de novo para apagar todo o progresso'; return; }
   st = fresh(); save(); refresh(); renderChrome(); renderPassport(); toast('Progresso apagado');
+  if (cloud.on && cloud.anon) cloud.signOut().catch(() => {});
 });
+
+// ---------- conta e nuvem ----------
+const cloud = window.fuilaCloud;
+let syncing = false, acctStep = null, acctMail = '', acctErr = '';
+function partnerPlace(x) {
+  return { id: x.id, n: x.n, cat: x.cat, lat: x.lat, lng: x.lng, dest: true, parceiro: true, oferta: x.oferta, logo: x.logo || '',
+    addr: x.endereco || '', city: x.cidade || '', uf: x.uf || '', desc: x.d || '', _t: toks(x.n) };
+}
+let partners = [];
+async function loadPartners() {
+  try {
+    const list = await cloud.partners();
+    for (const p of partners) places.delete(p.id);
+    partners = list.filter(x => CATS[x.cat]).map(partnerPlace);
+    // um parceiro substitui o destaque ou o lugar do mapa que fica no mesmo ponto
+    for (const pt of partners) for (const [id, q] of places) if (!q.parceiro && (meters(pt, q) < 15 || (meters(pt, q) < 120 && toks(q.n).some(w => pt._t.includes(w))))) { places.delete(id); markers.get(id)?.remove(); markers.delete(id); }
+    for (const pt of partners) places.set(pt.id, pt);
+    refresh(); updateWhere(); handlePendingQR();
+  } catch (e) {}
+}
+// traz o progresso da conta e envia o que só existe neste celular
+async function cloudSync() {
+  if (!cloud.on || syncing || !(await cloud.ready)) return;
+  syncing = true;
+  try {
+    const r = await cloud.pull();
+    for (const v of r.visits) if (!st.visits[v.place_id]) st.visits[v.place_id] = { ts: Date.parse(v.ts), p: v.place, synced: 1 }; else st.visits[v.place_id].synced = 1;
+    for (const c of r.coupons) {
+      const cur = st.coupons.find(x => x.id === c.partner_id);
+      const nc = { id: c.partner_id, code: c.code, of: c.oferta, at: Date.parse(c.at), used: c.used_at ? Date.parse(c.used_at) : (cur?.used || 0) };
+      st.coupons = st.coupons.filter(x => x.id !== c.partner_id); st.coupons.push(nc);
+    }
+    // cupons de exemplo das versões antigas não valem mais
+    st.coupons = st.coupons.filter(c => r.coupons.some(x => x.partner_id === c.id) || c.code?.startsWith('FUI-'));
+    if (r.player) { st.xp = Math.max(st.xp, r.player.xp || 0); for (const [k, t] of Object.entries(r.player.badges || {})) if (!st.badges[k]) st.badges[k] = t; }
+    save(); refresh(); renderChrome(); if (tab === 'passaporte') renderPassport(); if (tab === 'cupons') renderCoupons();
+    await cloudPush(true);
+  } catch (e) {} finally { syncing = false; }
+}
+async function cloudPush(inSync) {
+  if (!cloud.on || (!inSync && syncing) || !(await cloud.ready)) return;
+  try {
+    const todo = Object.entries(st.visits).filter(([id, v]) => !v.synced && !v.demo && !v.p?.parceiro).map(([id, v]) => ({ id, ...v }));
+    await cloud.pushVisits(todo);
+    todo.forEach(x => { st.visits[x.id].synced = 1; });
+    await cloud.savePlayer({ xp: st.xp, badges: st.badges, char: curChar() });
+    save();
+  } catch (e) {}
+}
+function acctHTML() {
+  if (!cloud.on) return '';
+  const head = '<h3>Sua conta</h3>';
+  if (!cloud.anon) return `${head}<div class="acct"><b>${esc(cloud.email)}</b><p>Seu passaporte está salvo na nuvem. Entre com este e-mail em outro celular para continuar de onde parou.</p><button type="button" class="ghost" data-acct="out">Sair</button></div>`;
+  if (acctStep === 'code') return `${head}<div class="acct"><b>Confira seu e-mail</b><p>Mandamos um código de 6 dígitos para ${esc(acctMail)}.</p>
+    <form data-acct="verify"><input name="code" inputmode="numeric" maxlength="8" placeholder="Código" autocomplete="one-time-code" required><button>Confirmar</button></form>
+    ${acctErr ? `<div class="err">${esc(acctErr)}</div>` : ''}<p style="margin-top:10px"><button type="button" class="ghost" data-acct="back">Usar outro e-mail</button></p></div>`;
+  return `${head}<div class="acct"><b>Salve seu passaporte</b><p>Hoje ele fica neste celular. Com seu e-mail, você não perde nada se trocar de aparelho, e pode entrar numa conta que já tem.</p>
+    <form data-acct="send"><input name="email" type="email" placeholder="seu@email.com" autocomplete="email" required value="${esc(acctMail)}"><button>Enviar código</button></form>
+    ${acctErr ? `<div class="err">${esc(acctErr)}</div>` : ''}</div>`;
+}
+$('#v-passaporte').addEventListener('submit', async e => {
+  const f = e.target.closest('[data-acct]'); if (!f) return;
+  e.preventDefault();
+  const btn = f.querySelector('button'); btn.disabled = true; acctErr = '';
+  try {
+    if (f.dataset.acct === 'send') { acctMail = f.email.value.trim(); await cloud.sendCode(acctMail); acctStep = 'code'; }
+    else { const mode = await cloud.verifyCode(acctMail, f.code.value); acctStep = null; toast(mode === 'link' ? 'Passaporte salvo na sua conta' : 'Você entrou na sua conta'); cloudSync(); }
+  } catch (err) { acctErr = err.message; }
+  renderPassport();
+});
+$('#v-passaporte').addEventListener('click', async e => {
+  const b = e.target.closest('button[data-acct]'); if (!b) return;
+  if (b.dataset.acct === 'back') { acctStep = null; acctErr = ''; renderPassport(); }
+  if (b.dataset.acct === 'out') { await cloud.signOut(); st = fresh(); save(); refresh(); renderChrome(); renderPassport(); toast('Você saiu da conta'); }
+});
+// QR lido pela câmera do celular abre o site com ?p=ID&k=CODIGO
+let pendingQR = null;
+try { const q = new URLSearchParams(location.search); if (q.get('p') && q.get('k')) { pendingQR = { p: q.get('p'), k: q.get('k') }; history.replaceState(null, '', location.pathname); } } catch (e) {}
+function handlePendingQR() {
+  if (!pendingQR) return;
+  const p = places.get(pendingQR.p); if (!p) return;
+  openSheet(p.id); show('mapa');
+  if (st.visits[p.id]) { pendingQR = null; return; }
+  if (!me || dist(p) > reach() + 150) { toast('Chegue até o lugar para usar o QR'); return; }
+  const k = pendingQR.k; pendingQR = null;
+  cloud.checkinPartner(p.id, k, me.lat, me.lng).then(c => checkin(p, { code: c.code, of: c.oferta, at: Date.parse(c.at) || Date.now(), used: c.used_at ? Date.parse(c.used_at) : 0 })).catch(err => toast(err.message));
+}
+if (cloud.on) {
+  cloud.ready.then(ok => { if (ok) { cloudSync(); loadPartners(); } });
+  cloud.onChange(ev => { if (ev === 'SIGNED_IN' || ev === 'USER_UPDATED') cloudSync(); });
+}
 
 let toastT = 0;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2400); }

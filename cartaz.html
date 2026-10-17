@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartaz do parceiro · Fuilá</title>
+<style>
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 800; src: url("assets/fonts/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 500; src: url("assets/fonts/figtree-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 700; src: url("assets/fonts/figtree-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); }
+:root { --brand: #3B2BF5; --gold: #FFC21A; --ink: #14112B; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #E6E3FF; font-family: Figtree, system-ui, sans-serif; color: var(--ink); display: grid; place-items: center; min-height: 100vh; padding: 16px; }
+.poster { width: 100%; max-width: 420px; background: #fff; border-radius: 28px; overflow: hidden; box-shadow: 0 20px 50px rgba(20, 17, 43, .18); }
+.top { background: var(--brand); color: #fff; padding: 22px 24px 26px; display: flex; align-items: center; gap: 12px; }
+.top img { width: 46px; height: 46px; }
+.top b { font: 800 30px/1 "Bricolage Grotesque", sans-serif; letter-spacing: -.03em; display: block; }
+.top span { font-size: 14px; opacity: .85; }
+.body { padding: 22px 24px 26px; text-align: center; }
+h1 { font: 800 26px/1.1 "Bricolage Grotesque", sans-serif; margin: 0 0 6px; letter-spacing: -.02em; }
+.offer { display: inline-block; background: var(--gold); color: var(--ink); font-weight: 700; border-radius: 999px; padding: 8px 16px; margin: 8px 0 18px; font-size: 15px; }
+.qr { width: 78%; margin: 0 auto; aspect-ratio: 1; }
+.qr svg { width: 100%; height: 100%; display: block; }
+.code { font: 500 15px "JetBrains Mono", monospace; letter-spacing: .25em; margin-top: 10px; color: #5b5873; }
+ol { text-align: left; margin: 20px auto 0; padding-left: 22px; max-width: 300px; font-size: 14px; line-height: 1.6; }
+.err { max-width: 420px; text-align: center; }
+.print { margin: 18px auto 0; display: block; border: 0; background: var(--brand); color: #fff; font: 700 15px Figtree, sans-serif; border-radius: 12px; padding: 12px 22px; }
+@media print { body { background: #fff; padding: 0; } .poster { box-shadow: none; max-width: 105mm; } .print { display: none; } }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="assets/vendor/qrcode.js"></script>
+<script>
+// Cartaz para o balcão de um parceiro: cartaz.html?p=ID&k=CODIGO&n=Nome&o=Oferta
+const q = new URLSearchParams(location.search);
+const p = q.get('p'), k = (q.get('k') || '').toUpperCase(), n = q.get('n') || 'Parceiro Fuilá', o = q.get('o') || '';
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const app = document.getElementById('app');
+if (!p || !k) {
+  app.innerHTML = '<p class="err">Faltam dados no link. Use: cartaz.html?p=ID_DO_PARCEIRO&amp;k=CODIGO&amp;n=Nome&amp;o=Oferta</p>';
+} else {
+  const url = `https://fassisr.github.io/carimbo/?p=${encodeURIComponent(p)}&k=${encodeURIComponent(k)}`;
+  const qr = qrcode(0, 'M'); qr.addData(url); qr.make();
+  app.innerHTML = `<div class="poster">
+    <div class="top"><img src="assets/brand/mark.svg" alt=""><div><b>fuilá</b><span>Colecione os lugares que você visita</span></div></div>
+    <div class="body">
+      <h1>Ganhe seu carimbo no ${esc(n)}</h1>
+      ${o ? `<div class="offer">Primeira visita: ${esc(o)}</div>` : ''}
+      <div class="qr">${qr.createSvgTag({ cellSize: 8, margin: 0, scalable: true })}</div>
+      <div class="code">${esc(k)}</div>
+      <ol><li>Abra o app Fuilá</li><li>Toque no ${esc(n)} no mapa e em <b>Escanear QR no balcão</b></li><li>Pronto: carimbo no passaporte${o ? ' e cupom liberado' : ''}</li></ol>
+    </div>
+  </div>
+  <button class="print" onclick="print()">Imprimir</button>`;
+}
+</script>
+</body>
+</html>
