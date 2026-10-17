@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Praia do Forno",
+    "cat": "verde",
+    "end": "Praia dos Anjos",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Praia de águas cristalinas acessível por trilha ou barco."
+  },
+  {
+    "n": "Prainhas do Pontal do Atalaia",
+    "cat": "verde",
+    "end": "Pontal do Atalaia",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Duas prainhas de areia branca e mar azul-turquesa, com mirante acima."
+  },
+  {
+    "n": "Praia Grande",
+    "cat": "verde",
+    "end": "Praia Grande",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Mar aberto e azul, com pôr do sol entre os mais lindos da região."
+  },
+  {
+    "n": "Praia do Farol",
+    "cat": "verde",
+    "end": "Ilha do Cabo Frio",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Praia na Ilha do Farol, considerada uma das mais belas do Brasil."
+  },
+  {
+    "n": "Gruta Azul",
+    "cat": "verde",
+    "end": "Ilha do Cabo Frio",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Gruta marinha de águas azuis, parada clássica dos passeios de barco."
+  },
+  {
+    "n": "Igreja de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Praia dos Anjos",
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "d": "Igrejinha histórica à beira-mar, uma das mais antigas do país."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "n": "Catedral Metropolitana de Campinas",
+    "cat": "cultura",
+    "end": "Praça José Bonifácio, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Catedral com talhas em madeira de cedro esculpidas à mão, marco do centro histórico.",
+    "busca": [
+      "Catedral Metropolitana Nossa Senhora da Conceição"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de Campinas",
+    "cat": "cultura",
+    "end": "Avenida Benjamin Constant, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Mercadão de 1908 em estilo mourisco, com frutas, temperos e o tradicional pastel.",
+    "busca": [
+      "Mercadão de Campinas"
+    ]
+  },
+  {
+    "n": "Parque Portugal (Lagoa do Taquaral)",
+    "cat": "verde",
+    "end": "Taquaral",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Grande lagoa com pedalinhos, pista de caminhada e réplica de caravela.",
+    "busca": [
+      "Lagoa do Taquaral",
+      "Parque Portugal"
+    ]
+  },
+  {
+    "n": "Bosque dos Jequitibás",
+    "cat": "verde",
+    "end": "Rua Coronel Quirino, Bosque",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bosque centenário com jequitibás enormes, minizoológico e área para crianças."
+  },
+  {
+    "n": "Estação Cultura",
+    "cat": "cultura",
+    "end": "Praça Marechal Floriano Peixoto, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Antiga estação ferroviária da Fepasa, hoje espaço de shows, feiras e exposições.",
+    "busca": [
+      "Estação Fepasa"
+    ]
+  },
+  {
+    "n": "Museu Exploratório de Ciências da Unicamp",
+    "cat": "cultura",
+    "end": "Cidade Universitária, Barão Geraldo",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Museu interativo de ciências no campus da Unicamp, divertido para todas as idades."
+  },
+  {
+    "n": "Torre do Castelo",
+    "cat": "verde",
+    "end": "Jardim Chapadão",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Mirante com vista panorâmica de toda Campinas, especialmente bonito no fim de tarde."
+  },
+  {
+    "n": "Teatro Municipal Castro Mendes",
+    "cat": "cultura",
+    "end": "Rua Conselheiro Gomide, Vila Industrial",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Teatro tradicional da cidade, com programação de música, dança e teatro.",
+    "busca": [
+      "Teatro Castro Mendes"
+    ]
+  },
+  {
+    "n": "Centro de Convivência Cultural",
+    "cat": "cultura",
+    "end": "Praça Imprensa Fluminense, Cambuí",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Teatro de arena modernista no Cambuí, cercado por feira de artesanato aos fins de semana."
+  },
+  {
+    "n": "Palácio dos Azulejos",
+    "cat": "cultura",
+    "end": "Rua Regente Feijó, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Casarão do século 19 revestido de azulejos portugueses, sede do Museu da Imagem e do Som."
+  },
+  {
+    "n": "Bar Giovannetti",
+    "cat": "bar",
+    "end": "Largo do Rosário, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bar tradicional desde 1933, famoso pelo chope e pelos sanduíches em pleno centro.",
+    "busca": [
+      "Giovannetti"
+    ]
+  },
+  {
+    "n": "Parque Ecológico Monsenhor Emílio José Salim",
+    "cat": "verde",
+    "end": "Rodovia Heitor Penteado, Jardim Conceição",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Antiga fazenda de café com lagos, casarão histórico e trilhas.",
+    "busca": [
+      "Parque Ecológico de Campinas"
+    ]
+  },
+  {
+    "n": "Basílica de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Praça Bento Quirino, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Igreja onde Campinas foi fundada, com belos vitrais e arquitetura neogótica.",
+    "busca": [
+      "Basílica do Carmo"
+    ]
+  },
+  {
+    "n": "Observatório Municipal Jean Nicolini",
+    "cat": "cultura",
+    "end": "Joaquim Egídio",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Primeiro observatório municipal do país, com sessões de observação do céu.",
+    "busca": [
+      "Observatório de Capricórnio"
+    ]
+  }
+]

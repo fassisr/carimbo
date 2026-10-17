@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Catedral de São Carlos Borromeu",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Carlos",
+    "uf": "SP",
+    "d": "Catedral com uma das maiores cúpulas do país, marco do centro da cidade."
+  },
+  {
+    "n": "Parque Ecológico de São Carlos",
+    "cat": "verde",
+    "end": "São Carlos",
+    "cidade": "São Carlos",
+    "uf": "SP",
+    "d": "Parque com animais silvestres, trilhas e lagos.",
+    "busca": [
+      "Parque Ecológico Dr. Antonio Teixeira Vianna"
+    ]
+  },
+  {
+    "n": "Observatório Dietrich Schiel",
+    "cat": "cultura",
+    "end": "Campus da USP",
+    "cidade": "São Carlos",
+    "uf": "SP",
+    "d": "Observatório da USP com sessões abertas ao público para ver o céu.",
+    "busca": [
+      "Observatório CDCC"
+    ]
+  },
+  {
+    "n": "Campus da UFSCar",
+    "cat": "verde",
+    "end": "São Carlos",
+    "cidade": "São Carlos",
+    "uf": "SP",
+    "d": "Campus amplo e arborizado com lagos e áreas de cerrado preservado."
+  }
+]

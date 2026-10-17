@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Praça Barão de Campo Belo",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Vassouras",
+    "uf": "RJ",
+    "d": "Praça arborizada e histórica, cercada de casarões do Ciclo do Café."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Praça Barão de Campo Belo, Centro",
+    "cidade": "Vassouras",
+    "uf": "RJ",
+    "d": "Igreja do século XIX que domina a praça principal de Vassouras."
+  },
+  {
+    "n": "Casa da Hera",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vassouras",
+    "uf": "RJ",
+    "d": "Casa-museu de uma família cafeicultora, intacta desde o século XIX.",
+    "busca": [
+      "Museu Casa da Hera"
+    ]
+  },
+  {
+    "n": "Estação Ferroviária de Vassouras",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vassouras",
+    "uf": "RJ",
+    "d": "Estação histórica restaurada, símbolo da época áurea do café."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Praia dos Cavaleiros",
+    "cat": "verde",
+    "end": "Cavaleiros",
+    "cidade": "Macaé",
+    "uf": "RJ",
+    "d": "Praia urbana movimentada, com orla cheia de bares e quiosques."
+  },
+  {
+    "n": "Praia de Imbetiba",
+    "cat": "verde",
+    "end": "Imbetiba",
+    "cidade": "Macaé",
+    "uf": "RJ",
+    "d": "Enseada tranquila próxima ao centro, ótima para caminhadas."
+  },
+  {
+    "n": "Igreja de Sant'Anna",
+    "cat": "cultura",
+    "end": "Morro de Santana",
+    "cidade": "Macaé",
+    "uf": "RJ",
+    "d": "Igreja jesuíta do século XVII no alto do morro, com vista para o mar."
+  }
+]

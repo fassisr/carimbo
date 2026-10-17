@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Pirâmide de São Thomé das Letras",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Thomé das Letras",
+    "uf": "MG",
+    "d": "Pedra empilhada no alto da cidade, o lugar certo para o pôr do sol.",
+    "busca": [
+      "Pirâmide"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de São Tomé",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Thomé das Letras",
+    "uf": "MG",
+    "d": "Igreja de pedra que dá o tom místico à vila."
+  },
+  {
+    "n": "Gruta de São Tomé",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Thomé das Letras",
+    "uf": "MG",
+    "d": "A gruta com inscrições que deram nome à cidade."
+  },
+  {
+    "n": "Cachoeira da Eubiose",
+    "cat": "verde",
+    "end": "São Thomé das Letras",
+    "cidade": "São Thomé das Letras",
+    "uf": "MG",
+    "d": "Cachoeira de fácil acesso com poço para banho."
+  },
+  {
+    "n": "Ladeira do Amendoim",
+    "cat": "verde",
+    "end": "São Thomé das Letras",
+    "cidade": "São Thomé das Letras",
+    "uf": "MG",
+    "d": "Ladeira misteriosa onde os carros parecem subir sozinhos."
+  }
+]

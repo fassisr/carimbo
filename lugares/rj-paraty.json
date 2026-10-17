@@ -1,0 +1,77 @@
+[
+  {
+    "n": "Igreja Matriz de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "A maior igreja do Centro Histórico, cartão-postal da cidade.",
+    "busca": [
+      "Igreja Matriz de Paraty"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário e São Benedito",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Igreja construída por escravizados no século XVIII, singela e cheia de história."
+  },
+  {
+    "n": "Casa da Cultura de Paraty",
+    "cat": "cultura",
+    "end": "Rua Dona Geralda, 177, Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Casarão colonial com exposição sobre a história e a gente de Paraty."
+  },
+  {
+    "n": "Forte Defensor Perpétuo",
+    "cat": "cultura",
+    "end": "Morro da Vila Velha",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Forte do século XVIII com canhões e vista para a baía de Paraty."
+  },
+  {
+    "n": "Piscina Natural do Cachadaço",
+    "cat": "verde",
+    "end": "Trindade",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Piscina natural de águas cristalinas cercada por pedras e mata."
+  },
+  {
+    "n": "Praia do Sono",
+    "cat": "verde",
+    "end": "Praia do Sono",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Praia paradisíaca acessível por trilha, com vila caiçara."
+  },
+  {
+    "n": "Cachoeira do Tobogã",
+    "cat": "verde",
+    "end": "Penha",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Rocha lisa que vira escorregador natural, diversão garantida."
+  },
+  {
+    "n": "Saco do Mamanguá",
+    "cat": "verde",
+    "end": "Saco do Mamanguá",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Único fiorde tropical do Brasil, com águas calmas e mata atlântica."
+  },
+  {
+    "n": "Engenho D'Ouro",
+    "cat": "bar",
+    "end": "Estrada Paraty-Cunha",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Alambique tradicional para conhecer e provar a famosa cachaça de Paraty."
+  }
+]

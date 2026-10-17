@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Vila de Paranapiacaba",
+    "cat": "cultura",
+    "end": "Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Vila ferroviária inglesa do século 19 envolta pela neblina da Serra do Mar.",
+    "busca": [
+      "Paranapiacaba"
+    ]
+  },
+  {
+    "n": "Museu Castelo",
+    "cat": "cultura",
+    "end": "Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Antiga casa do engenheiro-chefe, com vista privilegiada da vila de Paranapiacaba.",
+    "busca": [
+      "Castelinho de Paranapiacaba"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal Nascentes de Paranapiacaba",
+    "cat": "verde",
+    "end": "Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Trilhas guiadas por Mata Atlântica, cachoeiras e nascentes na Serra do Mar."
+  },
+  {
+    "n": "Parque Celso Daniel",
+    "cat": "verde",
+    "end": "Avenida Dom Pedro II, Jardim",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Parque urbano arborizado com lago, ótimo para caminhadas."
+  }
+]

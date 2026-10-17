@@ -1,0 +1,153 @@
+[
+  {
+    "n": "Ilha do Boi",
+    "cat": "verde",
+    "end": "Ilha do Boi",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Ilha com prainhas de águas calmas e vista para a baía e a Terceira Ponte."
+  },
+  {
+    "n": "Curva da Jurema",
+    "cat": "verde",
+    "end": "Avenida Saturnino de Brito, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praia urbana animada com quiosques, águas calmas e pôr do sol na beira da baía."
+  },
+  {
+    "n": "Praça dos Namorados",
+    "cat": "verde",
+    "end": "Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça arborizada à beira-mar com feirinha de artesanato e clima de passeio em família."
+  },
+  {
+    "n": "Praça do Papa",
+    "cat": "verde",
+    "end": "Avenida Américo Buaiz, Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Orla ampla diante da baía, com vista para o Convento da Penha e a Terceira Ponte."
+  },
+  {
+    "n": "Parque Municipal Gruta da Onça",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Pedaço de mata atlântica no Centro, com trilha, gruta e mirante sobre a cidade.",
+    "busca": [
+      "Parque Gruta da Onça"
+    ]
+  },
+  {
+    "n": "Parque Estadual da Fonte Grande",
+    "cat": "verde",
+    "end": "Fonte Grande",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Trilhas na mata e mirantes com a vista mais completa da ilha de Vitória."
+  },
+  {
+    "n": "Praça Costa Pereira",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça histórica do Centro, cercada por casarões e pelo Theatro Carlos Gomes."
+  },
+  {
+    "n": "Ilha das Caieiras",
+    "cat": "verde",
+    "end": "Ilha das Caieiras",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Vila de pescadores e desfiadeiras de siri, com restaurantes de moqueca e pôr do sol."
+  },
+  {
+    "n": "Escadaria Bárbara Lindenberg",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Escadaria histórica que liga a Cidade Alta ao Centro, ao lado do Palácio Anchieta."
+  },
+  {
+    "n": "Capela de Santa Luzia",
+    "cat": "cultura",
+    "end": "Rua José Marcelino, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Pequena capela do século XVI, a construção mais antiga de Vitória."
+  },
+  {
+    "n": "Igreja de São Gonçalo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Igreja do século XVIII com fachada barroca no coração da Cidade Alta."
+  },
+  {
+    "n": "Igreja e Convento de São Francisco",
+    "cat": "cultura",
+    "end": "Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Ruínas e igreja de um convento franciscano fundado no século XVI.",
+    "busca": [
+      "Convento de São Francisco"
+    ]
+  },
+  {
+    "n": "Museu Capixaba do Negro",
+    "cat": "cultura",
+    "end": "Avenida República, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Museu dedicado à história e à cultura afro-capixaba, com exposições e eventos.",
+    "busca": [
+      "MUCANE"
+    ]
+  },
+  {
+    "n": "Museu de Arte do Espírito Santo",
+    "cat": "cultura",
+    "end": "Avenida Jerônimo Monteiro, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Museu de arte em prédio histórico do Centro, com mostras de artistas capixabas.",
+    "busca": [
+      "MAES"
+    ]
+  },
+  {
+    "n": "Museu Solar Monjardim",
+    "cat": "cultura",
+    "end": "Jucutuquara",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Casarão colonial do século XVIII que guarda móveis e objetos da antiga elite capixaba."
+  },
+  {
+    "n": "Biblioteca Pública Estadual do Espírito Santo",
+    "cat": "cultura",
+    "end": "Praia do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Biblioteca pública do estado, com acervo grande e programação cultural.",
+    "busca": [
+      "Biblioteca Pública Estadual"
+    ]
+  },
+  {
+    "n": "Cine Metrópolis",
+    "cat": "cultura",
+    "end": "Campus da UFES, Goiabeiras",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Cinema de rua da UFES, referência em filmes de arte e mostras na cidade."
+  }
+]

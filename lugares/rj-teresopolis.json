@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Parque Nacional da Serra dos Órgãos",
+    "cat": "verde",
+    "end": "Avenida Rotariana, Soberbo",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Trilhas, cachoeiras e picos de granito num dos parques mais antigos do Brasil.",
+    "busca": [
+      "Parnaso"
+    ]
+  },
+  {
+    "n": "Mirante do Soberbo",
+    "cat": "verde",
+    "end": "Soberbo",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Vista clássica do Dedo de Deus e da Baixada na chegada à cidade."
+  },
+  {
+    "n": "Feirinha do Alto",
+    "cat": "cultura",
+    "end": "Praça Higino da Silveira, Alto",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Tradicional feira de artesanato, malhas e comidinhas da serra."
+  },
+  {
+    "n": "Pedra do Sino",
+    "cat": "verde",
+    "end": "Parque Nacional da Serra dos Órgãos",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Ponto culminante da Serra dos Órgãos, com vista de tirar o fôlego."
+  },
+  {
+    "n": "Parque Municipal Montanhas de Teresópolis",
+    "cat": "verde",
+    "end": "Teresópolis",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Área preservada com trilhas e mirantes para a Serra dos Órgãos."
+  },
+  {
+    "n": "Catedral de Santa Teresa",
+    "cat": "cultura",
+    "end": "Várzea",
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "d": "Catedral no centro da cidade, dedicada à padroeira de Teresópolis."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Memorial Getúlio Vargas",
+    "cat": "cultura",
+    "end": "Vila Santa Cecília",
+    "cidade": "Volta Redonda",
+    "uf": "RJ",
+    "d": "Memorial sobre a história da cidade e da Companhia Siderúrgica Nacional."
+  },
+  {
+    "n": "Praça Brasil",
+    "cat": "verde",
+    "end": "Vila Santa Cecília",
+    "cidade": "Volta Redonda",
+    "uf": "RJ",
+    "d": "Praça central e arborizada, ponto de encontro da cidade do aço."
+  },
+  {
+    "n": "Parque Natural Municipal Fazenda Santa Cecília do Ingá",
+    "cat": "verde",
+    "end": "Volta Redonda",
+    "cidade": "Volta Redonda",
+    "uf": "RJ",
+    "d": "Área de mata preservada com trilhas e nascentes."
+  }
+]

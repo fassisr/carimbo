@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Rota do Lagarto",
+    "cat": "verde",
+    "end": "Pedra Azul",
+    "cidade": "Domingos Martins",
+    "uf": "ES",
+    "d": "Estrada cênica de pousadas e mirantes com a melhor vista da Pedra Azul."
+  },
+  {
+    "n": "Casa de Cultura de Domingos Martins",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Domingos Martins",
+    "uf": "ES",
+    "d": "Museu sobre a imigração alemã e a história da região serrana.",
+    "busca": [
+      "Casa da Cultura"
+    ]
+  },
+  {
+    "n": "Rua do Lazer",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Domingos Martins",
+    "uf": "ES",
+    "d": "Rua de pedestres com casas em estilo alemão, cafés e lojas de artesanato."
+  },
+  {
+    "n": "Igreja Luterana de Santa Isabel",
+    "cat": "cultura",
+    "end": "Santa Isabel",
+    "cidade": "Domingos Martins",
+    "uf": "ES",
+    "d": "Templo pioneiro da colonização alemã no Espírito Santo, no distrito de Santa Isabel."
+  }
+]

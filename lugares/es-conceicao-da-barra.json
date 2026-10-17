@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Parque Estadual de Itaúnas",
+    "cat": "verde",
+    "end": "Itaúnas",
+    "cidade": "Conceição da Barra",
+    "uf": "ES",
+    "d": "Dunas gigantes que soterraram a antiga vila, com trilhas, rio e praias selvagens."
+  },
+  {
+    "n": "Forró Buraco do Tatu",
+    "cat": "bar",
+    "end": "Itaúnas",
+    "cidade": "Conceição da Barra",
+    "uf": "ES",
+    "d": "Casa de forró pé de serra tradicional, coração da noite em Itaúnas.",
+    "busca": [
+      "Buraco do Tatu"
+    ]
+  },
+  {
+    "n": "Praia de Guaxindiba",
+    "cat": "verde",
+    "end": "Guaxindiba",
+    "cidade": "Conceição da Barra",
+    "uf": "ES",
+    "d": "Praia urbana com quiosques, ondas tranquilas e foz do rio Cricaré por perto."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Conceição da Barra",
+    "uf": "ES",
+    "d": "Igreja histórica da padroeira, centro das festas de ticumbi e jongo."
+  }
+]

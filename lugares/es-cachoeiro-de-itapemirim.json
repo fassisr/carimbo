@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Casa dos Braga",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Casa onde nasceu o cronista Rubem Braga, hoje centro cultural."
+  },
+  {
+    "n": "Casa de Roberto Carlos",
+    "cat": "cultura",
+    "end": "Recanto",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Casa da infância do Rei Roberto Carlos, transformada em museu."
+  },
+  {
+    "n": "Pico do Itabira",
+    "cat": "verde",
+    "end": "Itabira",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Pico de rocha em forma de dedo, símbolo e mirante natural da cidade."
+  },
+  {
+    "n": "Ilha da Luz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Ilha no rio Itapemirim com área de lazer no meio da cidade."
+  }
+]

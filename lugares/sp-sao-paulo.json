@@ -1,0 +1,621 @@
+[
+  {
+    "n": "Museu de Arte de São Paulo (MASP)",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 1578, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Ícone da Paulista com o vão livre e um dos maiores acervos de arte do Hemisfério Sul.",
+    "busca": [
+      "MASP",
+      "Museu de Arte de São Paulo Assis Chateaubriand"
+    ]
+  },
+  {
+    "n": "Pinacoteca de São Paulo",
+    "cat": "cultura",
+    "end": "Praça da Luz, 2, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu de arte mais antigo da cidade, num belo prédio de tijolos aparentes ao lado do Jardim da Luz.",
+    "busca": [
+      "Pinacoteca do Estado de São Paulo"
+    ]
+  },
+  {
+    "n": "Theatro Municipal de São Paulo",
+    "cat": "cultura",
+    "end": "Praça Ramos de Azevedo, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Palco histórico da Semana de 22, com arquitetura deslumbrante e programação de ópera e dança."
+  },
+  {
+    "n": "Mercado Municipal de São Paulo",
+    "cat": "cultura",
+    "end": "Rua da Cantareira, 306, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "O Mercadão dos vitrais, do sanduíche de mortadela e do pastel de bacalhau.",
+    "busca": [
+      "Mercadão",
+      "Mercado Municipal Paulistano"
+    ]
+  },
+  {
+    "n": "Catedral da Sé",
+    "cat": "cultura",
+    "end": "Praça da Sé, Sé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Imponente catedral neogótica no marco zero da cidade, com cripta aberta à visitação.",
+    "busca": [
+      "Catedral Metropolitana de São Paulo"
+    ]
+  },
+  {
+    "n": "Mosteiro de São Bento",
+    "cat": "cultura",
+    "end": "Largo de São Bento, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mosteiro beneditino com canto gregoriano nas missas e pães e doces feitos pelos monges."
+  },
+  {
+    "n": "Pateo do Collegio",
+    "cat": "cultura",
+    "end": "Praça Pateo do Collegio, 2, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Local onde São Paulo foi fundada em 1554, com museu e café no jardim.",
+    "busca": [
+      "Pátio do Colégio"
+    ]
+  },
+  {
+    "n": "Edifício Copan",
+    "cat": "cultura",
+    "end": "Avenida Ipiranga, 200, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "A onda de concreto de Oscar Niemeyer, um dos símbolos da arquitetura moderna paulistana.",
+    "busca": [
+      "Copan"
+    ]
+  },
+  {
+    "n": "Farol Santander",
+    "cat": "cultura",
+    "end": "Rua João Brícola, 24, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antigo Banespa com exposições e mirante no topo, uma das vistas mais bonitas do centro.",
+    "busca": [
+      "Edifício Altino Arantes",
+      "Edifício Banespa"
+    ]
+  },
+  {
+    "n": "Centro Cultural Banco do Brasil São Paulo",
+    "cat": "cultura",
+    "end": "Rua Álvares Penteado, 112, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Exposições e cinema em prédio histórico restaurado no coração do centro velho.",
+    "busca": [
+      "CCBB São Paulo",
+      "CCBB"
+    ]
+  },
+  {
+    "n": "Sala São Paulo",
+    "cat": "cultura",
+    "end": "Praça Júlio Prestes, 16, Campos Elíseos",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Sede da Osesp numa antiga estação ferroviária, com acústica entre as melhores do mundo.",
+    "busca": [
+      "Estação Júlio Prestes"
+    ]
+  },
+  {
+    "n": "Museu da Língua Portuguesa",
+    "cat": "cultura",
+    "end": "Praça da Luz, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu interativo sobre o nosso idioma, instalado na histórica Estação da Luz.",
+    "busca": [
+      "Estação da Luz"
+    ]
+  },
+  {
+    "n": "Instituto Moreira Salles Paulista",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 2424, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Fotografia, cinema e biblioteca num prédio moderno com vista para a Paulista.",
+    "busca": [
+      "IMS Paulista",
+      "Instituto Moreira Salles"
+    ]
+  },
+  {
+    "n": "Japan House São Paulo",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 52, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Fachada de madeira de Kengo Kuma e exposições sobre o Japão contemporâneo.",
+    "busca": [
+      "Japan House"
+    ]
+  },
+  {
+    "n": "Centro Cultural São Paulo",
+    "cat": "cultura",
+    "end": "Rua Vergueiro, 1000, Paraíso",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Biblioteca, jardins suspensos e programação gratuita num prédio modernista único.",
+    "busca": [
+      "CCSP"
+    ]
+  },
+  {
+    "n": "Museu Afro Brasil Emanoel Araujo",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Acervo enorme sobre a história, a arte e a memória afro-brasileira dentro do Ibirapuera.",
+    "busca": [
+      "Museu Afro Brasil"
+    ]
+  },
+  {
+    "n": "Museu de Arte Moderna de São Paulo (MAM)",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Arte moderna e contemporânea sob a marquise do Ibirapuera, com jardim de esculturas.",
+    "busca": [
+      "MAM São Paulo",
+      "Museu de Arte Moderna"
+    ]
+  },
+  {
+    "n": "Museu do Ipiranga",
+    "cat": "cultura",
+    "end": "Parque da Independência, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Palácio restaurado no local da Independência, com jardins inspirados em Versalhes.",
+    "busca": [
+      "Museu Paulista"
+    ]
+  },
+  {
+    "n": "Beco do Batman",
+    "cat": "cultura",
+    "end": "Rua Gonçalo Afonso, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Galeria de grafite a céu aberto, cartão-postal da arte urbana paulistana."
+  },
+  {
+    "n": "Sesc Pompeia",
+    "cat": "cultura",
+    "end": "Rua Clélia, 93, Pompeia",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga fábrica transformada por Lina Bo Bardi em centro de lazer e cultura.",
+    "busca": [
+      "Sesc Pompéia"
+    ]
+  },
+  {
+    "n": "Museu do Futebol",
+    "cat": "cultura",
+    "end": "Praça Charles Miller, Pacaembu",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu interativo sob as arquibancadas do Pacaembu que conta a história do futebol no Brasil."
+  },
+  {
+    "n": "Instituto Tomie Ohtake",
+    "cat": "cultura",
+    "end": "Avenida Brigadeiro Faria Lima, 201, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Exposições de arte contemporânea num prédio colorido de Ruy Ohtake."
+  },
+  {
+    "n": "Museu da Imigração do Estado de São Paulo",
+    "cat": "cultura",
+    "end": "Rua Visconde de Parnaíba, 1316, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga Hospedaria de Imigrantes que conta a história de quem ajudou a construir São Paulo.",
+    "busca": [
+      "Museu da Imigração",
+      "Hospedaria dos Imigrantes"
+    ]
+  },
+  {
+    "n": "Casa das Rosas",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 37, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casarão de 1935 com roseiral, dedicado à poesia e à literatura em plena Paulista."
+  },
+  {
+    "n": "Feira da Liberdade",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Feira de fim de semana com comidas e artesanato orientais no bairro japonês.",
+    "busca": [
+      "Praça da Liberdade"
+    ]
+  },
+  {
+    "n": "Museu Histórico da Imigração Japonesa no Brasil",
+    "cat": "cultura",
+    "end": "Rua São Joaquim, 381, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Conta a saga da imigração japonesa desde a chegada do navio Kasato Maru, em 1908."
+  },
+  {
+    "n": "Teatro Oficina",
+    "cat": "cultura",
+    "end": "Rua Jaceguai, 520, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro-pista projetado por Lina Bo Bardi, palco lendário de José Celso Martinez Corrêa.",
+    "busca": [
+      "Teat(r)o Oficina"
+    ]
+  },
+  {
+    "n": "Biblioteca Mário de Andrade",
+    "cat": "cultura",
+    "end": "Rua da Consolação, 94, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Segunda maior biblioteca do país, num belo edifício art déco no centro."
+  },
+  {
+    "n": "Memorial da América Latina",
+    "cat": "cultura",
+    "end": "Avenida Auro Soares de Moura Andrade, 664, Barra Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Conjunto de Niemeyer com a escultura da mão sangrando e acervo latino-americano."
+  },
+  {
+    "n": "Museu de Arte Sacra de São Paulo",
+    "cat": "cultura",
+    "end": "Avenida Tiradentes, 676, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Acervo de arte sacra no Mosteiro da Luz, construção colonial do século 18.",
+    "busca": [
+      "Mosteiro da Luz"
+    ]
+  },
+  {
+    "n": "Mercado da Lapa",
+    "cat": "cultura",
+    "end": "Rua Herbart, Lapa",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mercado de bairro tradicional, com frutas, temperos e lanches típicos da zona oeste.",
+    "busca": [
+      "Mercado Municipal da Lapa"
+    ]
+  },
+  {
+    "n": "Parque Ibirapuera",
+    "cat": "verde",
+    "end": "Avenida Pedro Álvares Cabral, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "O parque mais famoso de São Paulo, com lagos, marquise de Niemeyer e muita gente correndo."
+  },
+  {
+    "n": "Parque Trianon",
+    "cat": "verde",
+    "end": "Rua Peixoto Gomide, 949, Cerqueira César",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pedaço de Mata Atlântica bem no meio da Avenida Paulista, em frente ao MASP.",
+    "busca": [
+      "Parque Tenente Siqueira Campos"
+    ]
+  },
+  {
+    "n": "Parque Villa-Lobos",
+    "cat": "verde",
+    "end": "Avenida Professor Fonseca Rodrigues, 2001, Alto de Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Gramados amplos, ciclovia e orquidário, ideal para piquenique no fim de semana."
+  },
+  {
+    "n": "Jardim Botânico de São Paulo",
+    "cat": "verde",
+    "end": "Avenida Miguel Estéfano, 3031, Água Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Estufas históricas, trilhas e lagos num dos maiores refúgios verdes da cidade."
+  },
+  {
+    "n": "Parque da Água Branca",
+    "cat": "verde",
+    "end": "Avenida Francisco Matarazzo, 455, Água Branca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque com galinhas soltas, feira orgânica e casarões em estilo normando.",
+    "busca": [
+      "Parque Fernando Costa"
+    ]
+  },
+  {
+    "n": "Praça Pôr do Sol",
+    "cat": "verde",
+    "end": "Alto de Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "O lugar mais famoso da cidade para ver o pôr do sol, com vista para o skyline.",
+    "busca": [
+      "Praça Coronel Custódio Fernandes Pinheiro"
+    ]
+  },
+  {
+    "n": "Parque da Aclimação",
+    "cat": "verde",
+    "end": "Rua Muniz de Sousa, Aclimação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque com lago e pedalinhos, recanto tranquilo perto da Liberdade."
+  },
+  {
+    "n": "Parque do Povo",
+    "cat": "verde",
+    "end": "Avenida Henrique Chamma, Itaim Bibi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Área verde cercada de prédios, ótima para caminhar e treinar ao ar livre.",
+    "busca": [
+      "Parque Mário Pimenta Camargo"
+    ]
+  },
+  {
+    "n": "Parque Burle Marx",
+    "cat": "verde",
+    "end": "Avenida Dona Helena Pereira de Moraes, 200, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Jardins projetados por Burle Marx e trilhas em Mata Atlântica preservada."
+  },
+  {
+    "n": "Parque da Juventude",
+    "cat": "verde",
+    "end": "Avenida Cruzeiro do Sul, 2630, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antigo Carandiru transformado em parque com biblioteca, quadras e ruínas da muralha."
+  },
+  {
+    "n": "Jardim da Luz",
+    "cat": "verde",
+    "end": "Praça da Luz, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Primeiro jardim público da cidade, com esculturas, coreto e lagos ao lado da Pinacoteca.",
+    "busca": [
+      "Parque Jardim da Luz"
+    ]
+  },
+  {
+    "n": "Parque Augusta",
+    "cat": "verde",
+    "end": "Rua Augusta, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque conquistado pela mobilização dos moradores, um respiro verde entre a Augusta e a Consolação.",
+    "busca": [
+      "Parque Augusta Bruno Covas"
+    ]
+  },
+  {
+    "n": "Café Girondino",
+    "cat": "cafe",
+    "end": "Rua Boa Vista, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Café tradicional do centro velho, com decoração de época e vista para o Pateo do Collegio."
+  },
+  {
+    "n": "Coffee Lab",
+    "cat": "cafe",
+    "end": "Rua Fradique Coutinho, 1340, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Café-escola pioneiro dos cafés especiais em São Paulo, com métodos e grãos de todo o Brasil."
+  },
+  {
+    "n": "Octavio Café",
+    "cat": "cafe",
+    "end": "Avenida Brigadeiro Faria Lima, Jardim Paulistano",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa ampla dedicada ao café brasileiro, do grão à xícara, com torra própria."
+  },
+  {
+    "n": "Santo Grão",
+    "cat": "cafe",
+    "end": "Rua Oscar Freire, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Café de grãos especiais e torra própria, clássico para um brunch nos Jardins."
+  },
+  {
+    "n": "Café Floresta",
+    "cat": "cafe",
+    "end": "Avenida Ipiranga, 200, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Balcão tradicional no térreo do Copan, servindo cafezinho desde os anos 1950."
+  },
+  {
+    "n": "Sofá Café",
+    "cat": "cafe",
+    "end": "Rua Bianchi Bertoldi, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cafeteria de baristas premiados, referência em café especial em Pinheiros."
+  },
+  {
+    "n": "Bar Brahma",
+    "cat": "bar",
+    "end": "Avenida São João, 677, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar histórico na esquina mais famosa da cidade, com samba ao vivo e chope gelado.",
+    "busca": [
+      "Bar Brahma São Paulo"
+    ]
+  },
+  {
+    "n": "Bar da Dona Onça",
+    "cat": "bar",
+    "end": "Avenida Ipiranga, 200, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar de comida brasileira afetiva no térreo do Copan, comandado pela chef Janaína Torres."
+  },
+  {
+    "n": "Frangó",
+    "cat": "bar",
+    "end": "Largo da Matriz de Nossa Senhora do Ó, 168, Freguesia do Ó",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco com centenas de rótulos de cerveja e a famosa coxinha com catupiry.",
+    "busca": [
+      "Bar Frangó"
+    ]
+  },
+  {
+    "n": "Bar São Cristóvão",
+    "cat": "bar",
+    "end": "Rua Aspicuelta, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco temático do futebol, com paredes forradas de camisas e flâmulas.",
+    "busca": [
+      "São Cristóvão"
+    ]
+  },
+  {
+    "n": "Bar Léo",
+    "cat": "bar",
+    "end": "Rua Aurora, Santa Ifigênia",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Desde 1940 servindo um dos chopes mais elogiados da cidade, com petiscos alemães.",
+    "busca": [
+      "Leo Chopp"
+    ]
+  },
+  {
+    "n": "Veloso Bar",
+    "cat": "bar",
+    "end": "Rua Conceição Veloso, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Famoso pelas caipirinhas criativas e pela coxinha premiada.",
+    "busca": [
+      "Veloso"
+    ]
+  },
+  {
+    "n": "Elídio Bar",
+    "cat": "bar",
+    "end": "Rua Isabel Dias, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco raiz da Mooca, templo do futebol e dos petiscos generosos."
+  },
+  {
+    "n": "Bar Original",
+    "cat": "bar",
+    "end": "Rua Graúna, Moema",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar clássico de Moema com chope cremoso e decoração dos anos 1950."
+  },
+  {
+    "n": "Estadão Bar e Lanches",
+    "cat": "bar",
+    "end": "Viaduto Nove de Julho, 193, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Aberto 24 horas e famoso pelo sanduíche de pernil, parada obrigatória da noite paulistana.",
+    "busca": [
+      "Estadão Lanches"
+    ]
+  },
+  {
+    "n": "Ponto Chic",
+    "cat": "bar",
+    "end": "Largo do Paissandu, 27, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Onde nasceu o sanduíche bauru, em 1937, num salão cheio de história."
+  },
+  {
+    "n": "Padaria Bella Paulista",
+    "cat": "doce",
+    "end": "Rua Haddock Lobo, 354, Cerqueira César",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria 24 horas com vitrines de doces, pães e salgados a qualquer hora.",
+    "busca": [
+      "Bella Paulista"
+    ]
+  },
+  {
+    "n": "Galeria dos Pães",
+    "cat": "doce",
+    "end": "Rua Estados Unidos, 1645, Jardim América",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria gourmet 24 horas, famosa pelo café da manhã nos Jardins."
+  },
+  {
+    "n": "Padaria Santa Tereza",
+    "cat": "doce",
+    "end": "Praça Doutor João Mendes, 150, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Uma das padarias mais antigas da cidade, fundada em 1872, ao lado da Catedral da Sé."
+  },
+  {
+    "n": "Di Cunto",
+    "cat": "doce",
+    "end": "Rua Borges de Figueiredo, 61, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Tradicional doceria italiana da Mooca, famosa pelo cannoli e pelo panetone.",
+    "busca": [
+      "Doceria Di Cunto"
+    ]
+  }
+]

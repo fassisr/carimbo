@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Parque Municipal Milton Prates",
+    "cat": "verde",
+    "end": "Montes Claros",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Área verde preferida para caminhar e relaxar no Norte de Minas.",
+    "busca": [
+      "Parque Milton Prates"
+    ]
+  },
+  {
+    "n": "Parque Estadual da Lapa Grande",
+    "cat": "verde",
+    "end": "Montes Claros",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Grutas, pinturas rupestres e trilhas no cerrado norte-mineiro."
+  },
+  {
+    "n": "Centro Cultural Hermes de Paula",
+    "cat": "cultura",
+    "end": "Praça Doutor Chaves, Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Centro cultural no casarão histórico da praça principal."
+  },
+  {
+    "n": "Mercado Municipal de Montes Claros",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Pequi, requeijão e cachaça do sertão mineiro num mercado tradicional."
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Pilar",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Nova Lima",
+    "uf": "MG",
+    "d": "Matriz histórica com talha atribuída a Aleijadinho."
+  },
+  {
+    "n": "São Sebastião das Águas Claras",
+    "cat": "verde",
+    "end": "Macacos",
+    "cidade": "Nova Lima",
+    "uf": "MG",
+    "d": "Vila de Macacos, com cachoeiras, bares e clima de montanha.",
+    "busca": [
+      "Macacos"
+    ]
+  }
+]

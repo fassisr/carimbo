@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Igreja Matriz de São Sebastião",
+    "cat": "cultura",
+    "end": "Praça Major João Fernandes, Centro",
+    "cidade": "São Sebastião",
+    "uf": "SP",
+    "d": "Igreja do século 17 no centro histórico, com casario colonial ao redor."
+  },
+  {
+    "n": "Praia de Maresias",
+    "cat": "verde",
+    "end": "Maresias",
+    "cidade": "São Sebastião",
+    "uf": "SP",
+    "d": "Praia famosa pelo surfe, pela areia clara e pela vida noturna agitada."
+  },
+  {
+    "n": "Praia de Juquehy",
+    "cat": "verde",
+    "end": "Juquehy",
+    "cidade": "São Sebastião",
+    "uf": "SP",
+    "d": "Faixa de areia extensa com mar calmo, ótima para famílias."
+  },
+  {
+    "n": "Praia da Barra do Sahy",
+    "cat": "verde",
+    "end": "Barra do Sahy",
+    "cidade": "São Sebastião",
+    "uf": "SP",
+    "d": "Praia de águas claras e calmas, perfeita para caiaque e stand up paddle.",
+    "busca": [
+      "Barra do Sahy"
+    ]
+  },
+  {
+    "n": "Praia de Camburi",
+    "cat": "verde",
+    "end": "Camburi",
+    "cidade": "São Sebastião",
+    "uf": "SP",
+    "d": "Praia badalada com boas ondas, bares e restaurantes pé na areia."
+  }
+]

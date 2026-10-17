@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Catedral Basílica de Nossa Senhora da Assunção",
+    "cat": "cultura",
+    "end": "Praça Cláudio Manoel, Centro",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Catedral com o famoso órgão alemão Arp Schnitger e concertos regulares.",
+    "busca": [
+      "Catedral da Sé"
+    ]
+  },
+  {
+    "n": "Praça Minas Gerais",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Praça com duas igrejas lado a lado e o pelourinho, cartão-postal de Mariana."
+  },
+  {
+    "n": "Igreja de São Francisco de Assis",
+    "cat": "cultura",
+    "end": "Praça Minas Gerais, Centro",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Igreja onde está sepultado Mestre Ataíde, com talha rococó."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Praça Minas Gerais, Centro",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Belíssima fachada barroca ao lado da São Francisco, na praça mais famosa da cidade."
+  },
+  {
+    "n": "Casa de Câmara e Cadeia",
+    "cat": "cultura",
+    "end": "Praça Minas Gerais, Centro",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Edifício colonial do século XVIII que ainda abriga a Câmara Municipal."
+  },
+  {
+    "n": "Mina da Passagem",
+    "cat": "cultura",
+    "end": "Passagem de Mariana",
+    "cidade": "Mariana",
+    "uf": "MG",
+    "d": "Desça de trolley a uma das maiores minas de ouro abertas à visitação."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "n": "Fortaleza de Santa Cruz da Barra",
+    "cat": "cultura",
+    "end": "Jurujuba",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Fortaleza do século XVI na entrada da baía, com vista para o Pão de Açúcar.",
+    "busca": [
+      "Fortaleza de Santa Cruz"
+    ]
+  },
+  {
+    "n": "Caminho Niemeyer",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Conjunto de obras de Oscar Niemeyer à beira da baía de Guanabara."
+  },
+  {
+    "n": "Praia de Icaraí",
+    "cat": "verde",
+    "end": "Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Principal praia urbana de Niterói, com vista do Rio e da Pedra do Índio."
+  },
+  {
+    "n": "Campo de São Bento",
+    "cat": "verde",
+    "end": "Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Parque arborizado com feirinha, lago e playground no coração de Icaraí."
+  },
+  {
+    "n": "Ilha da Boa Viagem",
+    "cat": "verde",
+    "end": "Boa Viagem",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Ilhota com capela do século XVII e vista linda do MAC e do Rio."
+  },
+  {
+    "n": "Praia de Camboinhas",
+    "cat": "verde",
+    "end": "Camboinhas",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia de águas claras na Região Oceânica, ótima para um fim de tarde."
+  },
+  {
+    "n": "Mercado São Pedro",
+    "cat": "cultura",
+    "end": "Rua Visconde do Rio Branco, Ponta d'Areia",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Mercado de peixes com restaurantes no andar de cima servindo frutos do mar."
+  },
+  {
+    "n": "Solar do Jambeiro",
+    "cat": "cultura",
+    "end": "Rua Presidente Domiciano, 195, Ingá",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Casarão do século XIX com fachada de azulejos, hoje centro cultural."
+  },
+  {
+    "n": "Theatro Municipal João Caetano",
+    "cat": "cultura",
+    "end": "Rua Quinze de Novembro, Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Teatro histórico do Centro de Niterói, um dos mais antigos do país."
+  }
+]

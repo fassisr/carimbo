@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Complexo da Zilda",
+    "cat": "verde",
+    "end": "Carrancas",
+    "cidade": "Carrancas",
+    "uf": "MG",
+    "d": "Cachoeiras e poços para banho num dos complexos mais visitados."
+  },
+  {
+    "n": "Cachoeira da Fumaça",
+    "cat": "verde",
+    "end": "Carrancas",
+    "cidade": "Carrancas",
+    "uf": "MG",
+    "d": "Queda d'água alta cuja névoa dá nome à cachoeira."
+  },
+  {
+    "n": "Complexo da Toca",
+    "cat": "verde",
+    "end": "Carrancas",
+    "cidade": "Carrancas",
+    "uf": "MG",
+    "d": "Poço da Toca e outras quedas de água cristalina.",
+    "busca": [
+      "Cachoeira da Toca"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Carrancas",
+    "uf": "MG",
+    "d": "Matriz colonial com pinturas no forro, orgulho da cidade."
+  }
+]

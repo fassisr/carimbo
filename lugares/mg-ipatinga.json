@@ -1,0 +1,18 @@
+[
+  {
+    "n": "Parque Ipanema",
+    "cat": "verde",
+    "end": "Ipatinga",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Um dos maiores parques urbanos do país, com lagos e ciclovias."
+  },
+  {
+    "n": "Centro Cultural Usiminas",
+    "cat": "cultura",
+    "end": "Avenida Pedro Linhares Gomes",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Teatro, exposições e cinema no Vale do Aço."
+  }
+]

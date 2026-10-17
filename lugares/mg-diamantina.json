@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Casa de Juscelino Kubitschek",
+    "cat": "cultura",
+    "end": "Rua São Francisco, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "A casa simples onde JK passou a infância, hoje museu.",
+    "busca": [
+      "Casa de JK"
+    ]
+  },
+  {
+    "n": "Casa de Chica da Silva",
+    "cat": "cultura",
+    "end": "Praça Lobo de Mesquita, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "Sobrado da lendária Chica da Silva, com sua famosa varanda de muxarabi."
+  },
+  {
+    "n": "Catedral Metropolitana de Santo Antônio",
+    "cat": "cultura",
+    "end": "Praça Correia Rabelo, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "A catedral no topo do centro histórico, Patrimônio da Humanidade."
+  },
+  {
+    "n": "Mercado Velho",
+    "cat": "cultura",
+    "end": "Praça Barão de Guaicuí, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "Antigo mercado dos tropeiros com feira de artesanato e quitutes aos sábados.",
+    "busca": [
+      "Mercado dos Tropeiros"
+    ]
+  },
+  {
+    "n": "Rua da Quitanda",
+    "cat": "bar",
+    "end": "Rua da Quitanda, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "A rua dos bares e das vesperatas, onde a cidade se encontra à noite."
+  },
+  {
+    "n": "Passadiço da Glória",
+    "cat": "cultura",
+    "end": "Rua da Glória, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "A famosa passarela azul que liga dois casarões, símbolo de Diamantina.",
+    "busca": [
+      "Casa da Glória"
+    ]
+  },
+  {
+    "n": "Museu do Diamante",
+    "cat": "cultura",
+    "end": "Rua Direita, Centro",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "A história do garimpo de diamantes na antiga casa do inconfidente Padre Rolim."
+  },
+  {
+    "n": "Parque Estadual do Biribiri",
+    "cat": "verde",
+    "end": "Diamantina",
+    "cidade": "Diamantina",
+    "uf": "MG",
+    "d": "Vila de Biribiri, cachoeiras e cerrado de altitude a poucos km da cidade."
+  }
+]

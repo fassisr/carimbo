@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Parque Nacional da Serra do Cipó",
+    "cat": "verde",
+    "end": "Serra do Cipó",
+    "cidade": "Santana do Riacho",
+    "uf": "MG",
+    "d": "Campos rupestres, cânions e cachoeiras no coração da Serra do Espinhaço.",
+    "busca": [
+      "Serra do Cipó"
+    ]
+  },
+  {
+    "n": "Cachoeira da Farofa",
+    "cat": "verde",
+    "end": "Serra do Cipó",
+    "cidade": "Santana do Riacho",
+    "uf": "MG",
+    "d": "Uma das cachoeiras mais bonitas do parque, ao fim de trilha plana."
+  },
+  {
+    "n": "Cachoeira Véu da Noiva",
+    "cat": "verde",
+    "end": "Serra do Cipó",
+    "cidade": "Santana do Riacho",
+    "uf": "MG",
+    "d": "Queda d'água de fácil acesso, clássica da Serra do Cipó."
+  },
+  {
+    "n": "Cânion das Bandeirinhas",
+    "cat": "verde",
+    "end": "Serra do Cipó",
+    "cidade": "Santana do Riacho",
+    "uf": "MG",
+    "d": "Cânion estreito com poços de água escura e paredões altos."
+  }
+]

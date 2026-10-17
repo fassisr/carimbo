@@ -1,0 +1,104 @@
+[
+  {
+    "n": "Farol de Santa Luzia",
+    "cat": "cultura",
+    "end": "Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Farol do século XIX no alto das pedras, com vista para a baía e a praia."
+  },
+  {
+    "n": "Morro do Moreno",
+    "cat": "verde",
+    "end": "Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Trilha curta até um mirante com vista de Vitória, da Terceira Ponte e do mar."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Uma das igrejas mais antigas do Brasil, erguida no século XVI na Prainha.",
+    "busca": [
+      "Igreja do Rosário"
+    ]
+  },
+  {
+    "n": "Museu Homero Massena",
+    "cat": "cultura",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Casa-ateliê do pintor Homero Massena, com obras e objetos do artista."
+  },
+  {
+    "n": "Casa da Memória de Vila Velha",
+    "cat": "cultura",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Espaço que conta a história da primeira vila do Espírito Santo."
+  },
+  {
+    "n": "Forte de São Francisco Xavier de Piratininga",
+    "cat": "cultura",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Fortaleza colonial na entrada da baía, hoje área do 38º Batalhão de Infantaria.",
+    "busca": [
+      "Forte Piratininga"
+    ]
+  },
+  {
+    "n": "Parque da Prainha",
+    "cat": "verde",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Parque à beira da baía, no sítio histórico onde a colonização capixaba começou."
+  },
+  {
+    "n": "Praia de Itapuã",
+    "cat": "verde",
+    "end": "Itapuã",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia urbana extensa com calçadão, quiosques e boas ondas para esportes."
+  },
+  {
+    "n": "Praia de Itaparica",
+    "cat": "verde",
+    "end": "Itaparica",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia longa e larga com orla movimentada e muitos quiosques."
+  },
+  {
+    "n": "Praia da Sereia",
+    "cat": "verde",
+    "end": "Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Pequena praia entre pedras, com águas calmas e estátua da sereia."
+  },
+  {
+    "n": "Barra do Jucu",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Vila boêmia com praia, encontro do rio com o mar e tradição do congo."
+  },
+  {
+    "n": "Reserva Ecológica de Jacarenema",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restinga e manguezal preservados com trilhas até o rio Jucu."
+  }
+]

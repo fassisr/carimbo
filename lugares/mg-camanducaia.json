@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Pedra Redonda",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Trilha curta até um mirante com vista da Serra da Mantiqueira."
+  },
+  {
+    "n": "Pedra Partida",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Rocha rachada ao meio com vista ampla, uma das trilhas clássicas da vila."
+  },
+  {
+    "n": "Pico do Selado",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "O ponto mais alto de Monte Verde, com visual de 360 graus."
+  },
+  {
+    "n": "Pedra do Chapéu",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Formação rochosa curiosa e mirante cercado de araucárias."
+  }
+]

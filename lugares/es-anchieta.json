@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Santuário Nacional de São José de Anchieta",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Anchieta",
+    "uf": "ES",
+    "d": "Igreja e museu jesuítico do século XVI onde viveu e morreu o padre José de Anchieta."
+  },
+  {
+    "n": "Praia dos Namorados",
+    "cat": "verde",
+    "end": "Iriri",
+    "cidade": "Anchieta",
+    "uf": "ES",
+    "d": "Prainha entre pedras em Iriri, de águas calmas e cristalinas."
+  },
+  {
+    "n": "Praia de Ubu",
+    "cat": "verde",
+    "end": "Ubu",
+    "cidade": "Anchieta",
+    "uf": "ES",
+    "d": "Vila de pescadores com praia tranquila e boas panelas de moqueca."
+  },
+  {
+    "n": "Praia de Castelhanos",
+    "cat": "verde",
+    "end": "Castelhanos",
+    "cidade": "Anchieta",
+    "uf": "ES",
+    "d": "Praia de águas calmas e rasas, ideal para crianças e caminhadas."
+  }
+]

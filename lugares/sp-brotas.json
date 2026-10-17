@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Rio Jacaré-Pepira",
+    "cat": "verde",
+    "end": "Brotas",
+    "cidade": "Brotas",
+    "uf": "SP",
+    "d": "O rio do rafting em Brotas, com corredeiras e águas transparentes."
+  },
+  {
+    "n": "Parque dos Saltos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Brotas",
+    "uf": "SP",
+    "d": "Parque no centro da cidade com quedas do Jacaré-Pepira e passarela sobre o rio."
+  },
+  {
+    "n": "Cachoeira Três Quedas",
+    "cat": "verde",
+    "end": "Brotas",
+    "cidade": "Brotas",
+    "uf": "SP",
+    "d": "Sequência de três cachoeiras com poços para banho no meio da mata."
+  },
+  {
+    "n": "Areia que Canta",
+    "cat": "verde",
+    "end": "Brotas",
+    "cidade": "Brotas",
+    "uf": "SP",
+    "d": "Rio de águas cristalinas com areia que 'canta' quando pisada."
+  }
+]

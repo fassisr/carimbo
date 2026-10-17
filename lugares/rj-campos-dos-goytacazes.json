@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Farol de São Thomé",
+    "cat": "verde",
+    "end": "Farol de São Thomé",
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "d": "Praia com farol de ferro do século XIX, a mais famosa da região."
+  },
+  {
+    "n": "Teatro Trianon",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "d": "Teatro reconstruído no Centro, principal palco cultural do norte fluminense."
+  },
+  {
+    "n": "Museu Histórico de Campos",
+    "cat": "cultura",
+    "end": "Praça São Salvador, Centro",
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "d": "Solar histórico que conta a saga da cana-de-açúcar na região."
+  },
+  {
+    "n": "Catedral Basílica do Santíssimo Salvador",
+    "cat": "cultura",
+    "end": "Praça São Salvador, Centro",
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "d": "Catedral da praça principal, símbolo da cidade."
+  }
+]

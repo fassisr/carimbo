@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Moinho Povos Unidos",
+    "cat": "cultura",
+    "end": "Holambra",
+    "cidade": "Holambra",
+    "uf": "SP",
+    "d": "Moinho holandês de verdade, o maior da América Latina e símbolo da cidade das flores."
+  },
+  {
+    "n": "Museu Histórico e Cultural de Holambra",
+    "cat": "cultura",
+    "end": "Holambra",
+    "cidade": "Holambra",
+    "uf": "SP",
+    "d": "Conta a história da imigração holandesa e da origem do cultivo de flores na região."
+  },
+  {
+    "n": "Deck do Amor",
+    "cat": "verde",
+    "end": "Lago Vitória Régia",
+    "cidade": "Holambra",
+    "uf": "SP",
+    "d": "Deck sobre o lago com cadeados de casais e vista para o moinho.",
+    "busca": [
+      "Lago Vitória Régia"
+    ]
+  },
+  {
+    "n": "Boulevard Holandês",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Holambra",
+    "uf": "SP",
+    "d": "Calçadão florido com casinhas de arquitetura holandesa, lojas e cafés."
+  },
+  {
+    "n": "Portal de Holambra",
+    "cat": "cultura",
+    "end": "Holambra",
+    "cidade": "Holambra",
+    "uf": "SP",
+    "d": "Portal em estilo holandês que dá boas-vindas à cidade das flores."
+  }
+]

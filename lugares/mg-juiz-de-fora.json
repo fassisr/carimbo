@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Museu Mariano Procópio",
+    "cat": "cultura",
+    "end": "Mariano Procópio",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Primeiro museu de Minas, com acervo imperial e parque histórico."
+  },
+  {
+    "n": "Parque Halfeld",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Praça arborizada no centro, ponto de encontro dos juiz-foranos."
+  },
+  {
+    "n": "Morro do Imperador",
+    "cat": "verde",
+    "end": "Morro do Imperador",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Mirante do Cristo Redentor com a melhor vista de Juiz de Fora.",
+    "busca": [
+      "Mirante do Morro do Imperador"
+    ]
+  },
+  {
+    "n": "Cine-Theatro Central",
+    "cat": "cultura",
+    "end": "Praça João Pessoa, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Teatro art déco tombado, um dos mais belos do país."
+  },
+  {
+    "n": "Catedral Metropolitana de Juiz de Fora",
+    "cat": "cultura",
+    "end": "Avenida Barão do Rio Branco, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Catedral com vitrais e pinturas no principal eixo da cidade."
+  },
+  {
+    "n": "Museu de Arte Murilo Mendes",
+    "cat": "cultura",
+    "end": "Rua Benjamin Constant, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Acervo do poeta Murilo Mendes com obras de grandes artistas modernos.",
+    "busca": [
+      "MAMM"
+    ]
+  },
+  {
+    "n": "Centro Cultural Bernardo Mascarenhas",
+    "cat": "cultura",
+    "end": "Avenida Getúlio Vargas, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Antiga fábrica têxtil transformada em centro cultural."
+  },
+  {
+    "n": "Represa Doutor João Penido",
+    "cat": "verde",
+    "end": "Juiz de Fora",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Represa cercada de verde, ótima para passeios e pôr do sol.",
+    "busca": [
+      "Represa João Penido"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Museu de Biologia Professor Mello Leitão",
+    "cat": "cultura",
+    "end": "Avenida José Ruschi, 4, Centro",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Museu e parque criados por Augusto Ruschi, com beija-flores e mata atlântica.",
+    "busca": [
+      "Museu Mello Leitão"
+    ]
+  },
+  {
+    "n": "Casa Lambert",
+    "cat": "cultura",
+    "end": "Valão",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Casa construída por imigrantes italianos no século XIX, hoje museu da colonização."
+  },
+  {
+    "n": "Vale do Canaã",
+    "cat": "verde",
+    "end": "Vale do Canaã",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Vale de montanhas verdes, sítios e cachoeiras que inspirou o romance de Graça Aranha."
+  },
+  {
+    "n": "Reserva Biológica Augusto Ruschi",
+    "cat": "verde",
+    "end": "Nova Lombardia",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Floresta montanhosa protegida, refúgio de aves e orquídeas raras.",
+    "busca": [
+      "Reserva Augusto Ruschi"
+    ]
+  },
+  {
+    "n": "Estação Biológica de Santa Lúcia",
+    "cat": "verde",
+    "end": "Santa Lúcia",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Mata atlântica de altíssima biodiversidade estudada por pesquisadores do mundo todo."
+  },
+  {
+    "n": "Rua do Lazer",
+    "cat": "verde",
+    "end": "Rua Jerônimo Vervloet, Centro",
+    "cidade": "Santa Teresa",
+    "uf": "ES",
+    "d": "Rua calçada no centro, com restaurantes, cafés e clima de cidade serrana italiana."
+  }
+]

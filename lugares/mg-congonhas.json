@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Santuário do Bom Jesus de Matosinhos",
+    "cat": "cultura",
+    "end": "Praça da Basílica, Basílica",
+    "cidade": "Congonhas",
+    "uf": "MG",
+    "d": "Os 12 Profetas de Aleijadinho em pedra-sabão, Patrimônio da Humanidade.",
+    "busca": [
+      "Basílica do Bom Jesus de Matosinhos"
+    ]
+  },
+  {
+    "n": "Museu de Congonhas",
+    "cat": "cultura",
+    "end": "Basílica",
+    "cidade": "Congonhas",
+    "uf": "MG",
+    "d": "Museu moderno que explica o santuário e a obra de Aleijadinho."
+  },
+  {
+    "n": "Espaço Cultural da Romaria",
+    "cat": "cultura",
+    "end": "Basílica",
+    "cidade": "Congonhas",
+    "uf": "MG",
+    "d": "Antigo alojamento de romeiros, hoje centro cultural ao lado do santuário.",
+    "busca": [
+      "Romaria"
+    ]
+  },
+  {
+    "n": "Parque da Cachoeira",
+    "cat": "verde",
+    "end": "Congonhas",
+    "cidade": "Congonhas",
+    "uf": "MG",
+    "d": "Parque municipal com cachoeira e área verde para relaxar."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Mirante do Cristo Redentor",
+    "cat": "verde",
+    "end": "Socorro",
+    "cidade": "Socorro",
+    "uf": "SP",
+    "d": "Mirante com estátua do Cristo e vista panorâmica da cidade e das montanhas.",
+    "busca": [
+      "Cristo Redentor de Socorro"
+    ]
+  },
+  {
+    "n": "Parque dos Sonhos",
+    "cat": "verde",
+    "end": "Socorro",
+    "cidade": "Socorro",
+    "uf": "SP",
+    "d": "Parque de aventura com tirolesas, arvorismo e cachoeiras acessíveis."
+  },
+  {
+    "n": "Rio do Peixe",
+    "cat": "verde",
+    "end": "Socorro",
+    "cidade": "Socorro",
+    "uf": "SP",
+    "d": "Rio de corredeiras famoso pelo rafting e bóia-cross."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora do Perpétuo Socorro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Socorro",
+    "uf": "SP",
+    "d": "Igreja matriz que dá nome à cidade, no coração do centro."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Praia das Castanheiras",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia central com águas calmas, pedras e sombra de castanheiras."
+  },
+  {
+    "n": "Praia da Areia Preta",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia famosa pela areia monazítica escura, tida como medicinal."
+  },
+  {
+    "n": "Parque Estadual Paulo César Vinha",
+    "cat": "verde",
+    "end": "Setiba",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Restinga preservada com lagoas de água escura e praias quase desertas."
+  },
+  {
+    "n": "Praia de Meaípe",
+    "cat": "verde",
+    "end": "Meaípe",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia de pescadores famosa pelas moquecas servidas pertinho do mar."
+  },
+  {
+    "n": "Praia de Setiba",
+    "cat": "verde",
+    "end": "Setiba",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia de águas claras e calmas, ótima para nadar e mergulhar."
+  },
+  {
+    "n": "Praia dos Namorados",
+    "cat": "verde",
+    "end": "Praia do Morro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Pequena enseada entre pedras com águas tranquilas e bom para mergulho."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Ruínas de igreja jesuítica do século XVI no alto do Centro histórico."
+  },
+  {
+    "n": "Radium Hotel",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Prédio histórico que marcou a fama de Guarapari como cidade saúde.",
+    "busca": [
+      "Antigo Radium Hotel"
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "n": "Museu do Café",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, 95, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Antiga Bolsa Oficial de Café com salão do pregão, vitral e a história do grão no Brasil.",
+    "busca": [
+      "Bolsa Oficial de Café"
+    ]
+  },
+  {
+    "n": "Cafeteria do Museu do Café",
+    "cat": "cafe",
+    "end": "Rua XV de Novembro, 95, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Café dentro da antiga Bolsa, servindo grãos especiais e o famoso bolo de café."
+  },
+  {
+    "n": "Museu Pelé",
+    "cat": "cultura",
+    "end": "Largo Marquês de Monte Alegre, Valongo",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Casarão restaurado que conta a trajetória do Rei do Futebol."
+  },
+  {
+    "n": "Memorial das Conquistas do Santos FC",
+    "cat": "cultura",
+    "end": "Rua Princesa Isabel, 77, Vila Belmiro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Museu na Vila Belmiro com troféus e a história do Santos de Pelé.",
+    "busca": [
+      "Estádio Urbano Caldeira",
+      "Vila Belmiro"
+    ]
+  },
+  {
+    "n": "Jardim da Orla de Santos",
+    "cat": "verde",
+    "end": "Avenida Bartolomeu de Gusmão, Boqueirão",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "O maior jardim de praia do mundo, com mais de 5 km de canteiros à beira-mar.",
+    "busca": [
+      "Jardins da Praia de Santos"
+    ]
+  },
+  {
+    "n": "Aquário Municipal de Santos",
+    "cat": "cultura",
+    "end": "Avenida Bartolomeu de Gusmão, Ponta da Praia",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Aquário mais antigo do Brasil em funcionamento, com pinguins, tubarões e leões-marinhos."
+  },
+  {
+    "n": "Monte Serrat",
+    "cat": "verde",
+    "end": "Praça Correia de Mello, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Suba de funicular até o mirante com vista para a cidade, o porto e as praias."
+  },
+  {
+    "n": "Orquidário Municipal de Santos",
+    "cat": "verde",
+    "end": "Praça Washington, José Menino",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Parque-zoológico com orquídeas, aves soltas e lago, perto da praia.",
+    "busca": [
+      "Orquidário de Santos"
+    ]
+  },
+  {
+    "n": "Pinacoteca Benedicto Calixto",
+    "cat": "cultura",
+    "end": "Avenida Bartolomeu de Gusmão, 15, Boqueirão",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Casarão de frente para o mar com obras do pintor que retratou a Santos antiga."
+  },
+  {
+    "n": "Praia do Gonzaga",
+    "cat": "verde",
+    "end": "Gonzaga",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Praia central de Santos, com calçadão, ciclovia e muito movimento."
+  },
+  {
+    "n": "Teatro Coliseu",
+    "cat": "cultura",
+    "end": "Rua Amador Bueno, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Teatro histórico restaurado, com cúpula e decoração do início do século 20."
+  },
+  {
+    "n": "Outeiro de Santa Catarina",
+    "cat": "cultura",
+    "end": "Rua Visconde do Rio Branco, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Marco da fundação de Santos, com capela e vista para o centro histórico."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Praia de Itaipuaçu",
+    "cat": "verde",
+    "end": "Itaipuaçu",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Praia de mar aberto com vista para a Pedra do Elefante."
+  },
+  {
+    "n": "Pedra do Elefante",
+    "cat": "verde",
+    "end": "Itaipuaçu",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Trilha até o topo com vista das praias de Niterói e Maricá."
+  },
+  {
+    "n": "Farol de Ponta Negra",
+    "cat": "verde",
+    "end": "Ponta Negra",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Farol sobre o costão com vista da Praia de Ponta Negra."
+  }
+]

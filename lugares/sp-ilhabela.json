@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Praia do Bonete",
+    "cat": "verde",
+    "end": "Bonete",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Vila caiçara isolada, acessível por trilha ou barco, com uma das praias mais bonitas do Brasil."
+  },
+  {
+    "n": "Praia de Castelhanos",
+    "cat": "verde",
+    "end": "Castelhanos",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Baía selvagem no lado oceânico da ilha, alcançada por estrada de terra ou barco."
+  },
+  {
+    "n": "Cachoeira da Toca",
+    "cat": "verde",
+    "end": "Estrada da Toca",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Complexo de cachoeiras com piscinas naturais e tobogã de pedra no meio da mata."
+  },
+  {
+    "n": "Praia do Jabaquara",
+    "cat": "verde",
+    "end": "Jabaquara",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Praia de mar tranquilo no extremo norte, com rio de água doce e pôr do sol bonito."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora d'Ajuda e Bom Sucesso",
+    "cat": "cultura",
+    "end": "Vila, Centro Histórico",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Igreja do século 18 no alto da Vila, coração do centro histórico de Ilhabela.",
+    "busca": [
+      "Igreja Matriz de Ilhabela"
+    ]
+  },
+  {
+    "n": "Praia do Curral",
+    "cat": "verde",
+    "end": "Curral",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Praia animada com bares pé na areia e vista para o continente."
+  },
+  {
+    "n": "Pico do Baepi",
+    "cat": "verde",
+    "end": "Parque Estadual de Ilhabela",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Trilha puxada até um dos mirantes mais incríveis do litoral norte."
+  },
+  {
+    "n": "Praia da Feiticeira",
+    "cat": "verde",
+    "end": "Feiticeira",
+    "cidade": "Ilhabela",
+    "uf": "SP",
+    "d": "Praia charmosa de águas calmas cercada de lendas caiçaras."
+  }
+]

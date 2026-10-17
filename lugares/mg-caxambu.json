@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Parque das Águas de Caxambu",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Caxambu",
+    "uf": "MG",
+    "d": "Fontes de água mineral e jardins históricos."
+  },
+  {
+    "n": "Igreja de Santa Isabel da Hungria",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Caxambu",
+    "uf": "MG",
+    "d": "Igreja erguida por promessa da Princesa Isabel."
+  },
+  {
+    "n": "Teleférico de Caxambu",
+    "cat": "verde",
+    "end": "Caxambu",
+    "cidade": "Caxambu",
+    "uf": "MG",
+    "d": "Bondinho até o alto do morro, com vista da cidade."
+  }
+]

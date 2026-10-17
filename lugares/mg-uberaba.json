@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Museu dos Dinossauros de Peirópolis",
+    "cat": "cultura",
+    "end": "Peirópolis",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Fósseis de dinossauros encontrados na região, num charmoso vilarejo.",
+    "busca": [
+      "Museu dos Dinossauros"
+    ]
+  },
+  {
+    "n": "Museu do Zebu",
+    "cat": "cultura",
+    "end": "São Benedito",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "A história do gado zebu, que fez a fama de Uberaba."
+  },
+  {
+    "n": "Casa de Chico Xavier",
+    "cat": "cultura",
+    "end": "Rua Dom Pedro I",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "A casa onde viveu o médium Chico Xavier, hoje espaço de memória.",
+    "busca": [
+      "Casa de Memórias e Lembranças Chico Xavier"
+    ]
+  },
+  {
+    "n": "Praça Rui Barbosa",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Praça central arborizada ao lado da catedral."
+  }
+]

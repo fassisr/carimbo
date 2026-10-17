@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Pedra Grande",
+    "cat": "verde",
+    "end": "Atibaia",
+    "cidade": "Atibaia",
+    "uf": "SP",
+    "d": "Formação rochosa com mirante a 1.400 metros e voo livre com vista da região.",
+    "busca": [
+      "Parque Estadual do Itapetinga"
+    ]
+  },
+  {
+    "n": "Parque Edmundo Zanoni",
+    "cat": "verde",
+    "end": "Atibaia",
+    "cidade": "Atibaia",
+    "uf": "SP",
+    "d": "Parque com lago, pedalinhos e muito verde, querido pelas famílias."
+  },
+  {
+    "n": "Lago do Major",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Atibaia",
+    "uf": "SP",
+    "d": "Lago central com pista de caminhada, ótimo para passear no fim de tarde."
+  },
+  {
+    "n": "Igreja Matriz de São João Batista",
+    "cat": "cultura",
+    "end": "Praça Bento Paes, Centro",
+    "cidade": "Atibaia",
+    "uf": "SP",
+    "d": "Igreja matriz do século 18 no centro histórico de Atibaia."
+  },
+  {
+    "n": "Museu Municipal João Batista Conti",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Atibaia",
+    "uf": "SP",
+    "d": "Casarão histórico com acervo sobre a formação de Atibaia."
+  }
+]

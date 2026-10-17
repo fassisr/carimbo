@@ -1,0 +1,145 @@
+[
+  {
+    "n": "Igreja de São Francisco de Assis",
+    "cat": "cultura",
+    "end": "Largo de Coimbra, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Obra-prima de Aleijadinho com forro pintado por Mestre Ataíde."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Pilar",
+    "cat": "cultura",
+    "end": "Praça Monsenhor João Castilho Barbosa, Pilar",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Uma das igrejas mais ricas do Brasil, com quase meia tonelada de ouro na talha.",
+    "busca": [
+      "Matriz do Pilar"
+    ]
+  },
+  {
+    "n": "Museu da Inconfidência",
+    "cat": "cultura",
+    "end": "Praça Tiradentes, 139, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Na antiga Casa de Câmara e Cadeia, guarda a memória da Inconfidência Mineira."
+  },
+  {
+    "n": "Praça Tiradentes",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "O coração de Ouro Preto, entre o museu, a Escola de Minas e as ladeiras de pedra."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição de Antônio Dias",
+    "cat": "cultura",
+    "end": "Antônio Dias",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Matriz onde Aleijadinho está sepultado, com museu dedicado ao mestre.",
+    "busca": [
+      "Matriz de Antônio Dias"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Rua Brigadeiro Musqueira, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Fachada de Aleijadinho e interior rococó ao lado da Praça Tiradentes."
+  },
+  {
+    "n": "Igreja de Santa Efigênia dos Pretos",
+    "cat": "cultura",
+    "end": "Alto da Cruz",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Igreja construída pela irmandade negra, com vista panorâmica da cidade.",
+    "busca": [
+      "Igreja de Santa Efigênia"
+    ]
+  },
+  {
+    "n": "Mina do Chico Rei",
+    "cat": "cultura",
+    "end": "Antônio Dias",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Antiga mina de ouro do século XVIII para explorar por dentro."
+  },
+  {
+    "n": "Casa dos Contos",
+    "cat": "cultura",
+    "end": "Rua São José, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Casarão colonial que foi casa de fundição e prisão de inconfidentes."
+  },
+  {
+    "n": "Museu de Ciência e Técnica da Escola de Minas",
+    "cat": "cultura",
+    "end": "Praça Tiradentes, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Coleção de minerais impressionante no antigo Palácio dos Governadores."
+  },
+  {
+    "n": "Teatro Municipal Casa da Ópera",
+    "cat": "cultura",
+    "end": "Rua Brigadeiro Musqueira, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Um dos teatros em funcionamento mais antigos das Américas, de 1770.",
+    "busca": [
+      "Casa da Ópera"
+    ]
+  },
+  {
+    "n": "Parque Estadual do Itacolomi",
+    "cat": "verde",
+    "end": "Ouro Preto",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Trilhas, cachoeiras e o pico do Itacolomi, guia dos bandeirantes."
+  },
+  {
+    "n": "Lavras Novas",
+    "cat": "verde",
+    "end": "Lavras Novas",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Vilarejo nas montanhas com cachoeiras, mirantes e restaurantes charmosos."
+  },
+  {
+    "n": "Parque Natural Municipal das Andorinhas",
+    "cat": "verde",
+    "end": "Ouro Preto",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Cachoeira das Andorinhas e trilhas na nascente do Rio das Velhas.",
+    "busca": [
+      "Cachoeira das Andorinhas"
+    ]
+  },
+  {
+    "n": "Café Geraes",
+    "cat": "cafe",
+    "end": "Rua Conde de Bobadela, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Café e restaurante aconchegante na Rua Direita, ótimo para uma pausa entre igrejas."
+  },
+  {
+    "n": "Bardobeco",
+    "cat": "bar",
+    "end": "Travessa do Arieira, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Cachaçaria escondida num beco, com centenas de rótulos mineiros."
+  }
+]

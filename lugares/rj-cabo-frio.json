@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Praia do Forte",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "A principal praia da cidade, de areia branquinha e mar azul."
+  },
+  {
+    "n": "Forte São Mateus",
+    "cat": "cultura",
+    "end": "Praia do Forte",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Forte do século XVII na ponta da Praia do Forte, com vista para o mar."
+  },
+  {
+    "n": "Praia das Conchas",
+    "cat": "verde",
+    "end": "Ogiva",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Pequena enseada de águas claras e calmas, cercada por morros."
+  },
+  {
+    "n": "Praia do Peró",
+    "cat": "verde",
+    "end": "Peró",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Praia extensa com dunas, bandeira azul e mar transparente."
+  },
+  {
+    "n": "Ilha do Japonês",
+    "cat": "verde",
+    "end": "Ogiva",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Ilhota de águas rasas e mornas, ótima para passeios de caiaque."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Assunção",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Igreja do século XVII, uma das mais antigas da Região dos Lagos."
+  }
+]

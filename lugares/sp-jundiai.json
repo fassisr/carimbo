@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Serra do Japi",
+    "cat": "verde",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Reserva de Mata Atlântica com trilhas, cachoeiras e mirantes."
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Grande parque com lago, trilhas e áreas de piquenique."
+  },
+  {
+    "n": "Catedral Nossa Senhora do Desterro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Catedral neogótica, principal marco religioso de Jundiaí."
+  },
+  {
+    "n": "Museu da Companhia Paulista",
+    "cat": "cultura",
+    "end": "Vila Arens",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Museu ferroviário em antigos galpões da Companhia Paulista de Estradas de Ferro.",
+    "busca": [
+      "Complexo Fepasa"
+    ]
+  },
+  {
+    "n": "Solar do Barão",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Casarão do século 19 que abriga o Museu Histórico e Cultural de Jundiaí.",
+    "busca": [
+      "Museu Histórico e Cultural de Jundiaí"
+    ]
+  }
+]

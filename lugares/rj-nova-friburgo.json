@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Praça Getúlio Vargas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Praça com eucaliptos centenários, coração da cidade serrana."
+  },
+  {
+    "n": "Pico da Caledônia",
+    "cat": "verde",
+    "end": "Cascatinha",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Escadaria até o topo com vista de 360 graus da região serrana."
+  },
+  {
+    "n": "Parque Estadual dos Três Picos",
+    "cat": "verde",
+    "end": "Três Picos",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Paraíso da escalada, com os picos mais altos da Serra do Mar."
+  },
+  {
+    "n": "Teleférico de Nova Friburgo",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Subida até o Morro da Cruz com vista panorâmica da cidade."
+  },
+  {
+    "n": "Catedral de São João Batista",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Catedral da cidade colonizada por suíços e alemães."
+  },
+  {
+    "n": "Lumiar",
+    "cat": "verde",
+    "end": "Lumiar",
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "d": "Vila serrana com rios cristalinos, poços e cachoeiras."
+  }
+]

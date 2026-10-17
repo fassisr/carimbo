@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Lagoa Central",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Lagoa Santa",
+    "uf": "MG",
+    "d": "Orla para caminhar, pedalar e ver o pôr do sol à beira da lagoa.",
+    "busca": [
+      "Lagoa Santa"
+    ]
+  },
+  {
+    "n": "Gruta da Lapinha",
+    "cat": "verde",
+    "end": "Lapinha",
+    "cidade": "Lagoa Santa",
+    "uf": "MG",
+    "d": "Gruta com formações calcárias na terra de Peter Lund."
+  },
+  {
+    "n": "Museu Arqueológico da Lapinha",
+    "cat": "cultura",
+    "end": "Lapinha",
+    "cidade": "Lagoa Santa",
+    "uf": "MG",
+    "d": "Fósseis e achados arqueológicos da região de Lagoa Santa."
+  }
+]

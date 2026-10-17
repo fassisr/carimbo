@@ -1,0 +1,42 @@
+[
+  {
+    "n": "Igreja de Nossa Senhora do Ó",
+    "cat": "cultura",
+    "end": "Largo de Nossa Senhora do Ó",
+    "cidade": "Sabará",
+    "uf": "MG",
+    "d": "Capelinha com rara decoração chinesa em ouro, uma joia do barroco."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Rua do Carmo, Centro",
+    "cidade": "Sabará",
+    "uf": "MG",
+    "d": "Igreja com obras de Aleijadinho, incluindo os atlantes do coro."
+  },
+  {
+    "n": "Museu do Ouro",
+    "cat": "cultura",
+    "end": "Rua da Intendência, Centro",
+    "cidade": "Sabará",
+    "uf": "MG",
+    "d": "Antiga Casa de Intendência e Fundição que conta o ciclo do ouro."
+  },
+  {
+    "n": "Teatro Municipal de Sabará",
+    "cat": "cultura",
+    "end": "Rua Dom Pedro II, Centro",
+    "cidade": "Sabará",
+    "uf": "MG",
+    "d": "Um dos teatros mais antigos do Brasil, com plateia em ferradura."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Praça Getúlio Vargas, Centro",
+    "cidade": "Sabará",
+    "uf": "MG",
+    "d": "Matriz com talha dourada e influências orientais."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Lagoa do Siri",
+    "cat": "verde",
+    "end": "Lagoa do Siri",
+    "cidade": "Marataízes",
+    "uf": "ES",
+    "d": "Lagoa colada à praia, com água doce e morna e pôr do sol bonito."
+  },
+  {
+    "n": "Praia dos Cações",
+    "cat": "verde",
+    "end": "Cações",
+    "cidade": "Marataízes",
+    "uf": "ES",
+    "d": "Praia de falésias e pedras, com águas boas para banho."
+  },
+  {
+    "n": "Praia Central de Marataízes",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Marataízes",
+    "uf": "ES",
+    "d": "Orla movimentada com calçadão, quiosques e o clima de veraneio do sul capixaba.",
+    "busca": [
+      "Praia Central"
+    ]
+  }
+]

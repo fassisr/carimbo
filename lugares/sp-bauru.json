@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Zoológico Municipal de Bauru",
+    "cat": "verde",
+    "end": "Bauru",
+    "cidade": "Bauru",
+    "uf": "SP",
+    "d": "Zoológico com centenas de animais e mata preservada."
+  },
+  {
+    "n": "Museu Ferroviário Regional de Bauru",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Bauru",
+    "uf": "SP",
+    "d": "Museu na antiga estação que conta a história ferroviária da cidade."
+  },
+  {
+    "n": "Jardim Botânico Municipal de Bauru",
+    "cat": "verde",
+    "end": "Bauru",
+    "cidade": "Bauru",
+    "uf": "SP",
+    "d": "Área de cerrado preservado com trilhas e viveiros."
+  },
+  {
+    "n": "Parque Vitória Régia",
+    "cat": "verde",
+    "end": "Bauru",
+    "cidade": "Bauru",
+    "uf": "SP",
+    "d": "Parque com lago e anfiteatro para shows ao ar livre."
+  }
+]

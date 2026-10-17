@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Praia do Saco",
+    "cat": "verde",
+    "end": "Saco",
+    "cidade": "Mangaratiba",
+    "uf": "RJ",
+    "d": "Praia tranquila de águas calmas, com quiosques e vista para as ilhas."
+  },
+  {
+    "n": "Praia de Muriqui",
+    "cat": "verde",
+    "end": "Muriqui",
+    "cidade": "Mangaratiba",
+    "uf": "RJ",
+    "d": "Praia tradicional com orla movimentada e vista para a baía."
+  },
+  {
+    "n": "Ilha de Itacuruçá",
+    "cat": "verde",
+    "end": "Itacuruçá",
+    "cidade": "Mangaratiba",
+    "uf": "RJ",
+    "d": "Ilha com praias calmas, ponto de partida para passeios de escuna."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Praia dos Padres",
+    "cat": "verde",
+    "end": "Santa Cruz",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia de águas mansas e piscinas naturais formadas por recifes."
+  },
+  {
+    "n": "Praia de Coqueiral",
+    "cat": "verde",
+    "end": "Coqueiral",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia calma com recifes e boa estrutura para famílias."
+  },
+  {
+    "n": "Barra do Sahy",
+    "cat": "verde",
+    "end": "Barra do Sahy",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Vila praiana com foz de rio, águas calmas e clima tranquilo."
+  }
+]

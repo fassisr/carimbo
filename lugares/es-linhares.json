@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Lagoa Juparanã",
+    "cat": "verde",
+    "end": "Lagoa Juparanã",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Maior lagoa de água doce do estado, com praias de rio e pôr do sol."
+  },
+  {
+    "n": "Reserva Natural Vale",
+    "cat": "verde",
+    "end": "Rodovia BR-101",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Grande floresta de tabuleiro preservada, com trilhas e animais da mata atlântica."
+  },
+  {
+    "n": "Vila de Regência",
+    "cat": "verde",
+    "end": "Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Vila na foz do rio Doce, conhecida pelo surfe, pelas tartarugas e pelo congo.",
+    "busca": [
+      "Regência"
+    ]
+  },
+  {
+    "n": "Praia de Pontal do Ipiranga",
+    "cat": "verde",
+    "end": "Pontal do Ipiranga",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Praia tranquila e extensa, refúgio de veraneio no norte capixaba."
+  }
+]

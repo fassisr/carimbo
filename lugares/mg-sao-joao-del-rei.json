@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Igreja de São Francisco de Assis",
+    "cat": "cultura",
+    "end": "Praça Frei Orlando, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Projeto de Aleijadinho com palmeiras imperiais e o túmulo de Tancredo Neves."
+  },
+  {
+    "n": "Catedral Basílica de Nossa Senhora do Pilar",
+    "cat": "cultura",
+    "end": "Rua Getúlio Vargas, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Catedral de interior dourado no coração da cidade dos sinos."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Largo do Carmo, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Igreja barroca com portada esculpida e lindo conjunto colonial."
+  },
+  {
+    "n": "Complexo Ferroviário de São João del-Rei",
+    "cat": "cultura",
+    "end": "Avenida Hermílio Alves, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Museu ferroviário e estação da Maria Fumaça para Tiradentes.",
+    "busca": [
+      "Estação Ferroviária de São João del-Rei"
+    ]
+  },
+  {
+    "n": "Museu Regional de São João del-Rei",
+    "cat": "cultura",
+    "end": "Rua Marechal Deodoro, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Arte sacra e mobiliário colonial num sobrado do século XIX."
+  },
+  {
+    "n": "Memorial Tancredo Neves",
+    "cat": "cultura",
+    "end": "Rua Padre José Maria Xavier, Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Casa que conta a vida do presidente Tancredo Neves."
+  },
+  {
+    "n": "Ponte da Cadeia",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Ponte de pedra do século XVIII sobre o Córrego do Lenheiro."
+  },
+  {
+    "n": "Serra do Lenheiro",
+    "cat": "verde",
+    "end": "São João del-Rei",
+    "cidade": "São João del-Rei",
+    "uf": "MG",
+    "d": "Serra com trilhas, pinturas rupestres e vista da cidade."
+  }
+]

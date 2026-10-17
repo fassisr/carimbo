@@ -1,0 +1,100 @@
+[
+  {
+    "n": "Choperia Pinguim",
+    "cat": "bar",
+    "end": "Rua General Osório, 409, Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "O chope mais famoso do interior, servido desde 1936 no coração de Ribeirão.",
+    "busca": [
+      "Pinguim"
+    ]
+  },
+  {
+    "n": "Theatro Pedro II",
+    "cat": "cultura",
+    "end": "Rua Álvares Cabral, 370, Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Um dos maiores teatros de ópera do país, joia arquitetônica do ciclo do café."
+  },
+  {
+    "n": "Catedral Metropolitana de São Sebastião",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Catedral imponente com pinturas de Benedito Calixto no interior.",
+    "busca": [
+      "Catedral de Ribeirão Preto"
+    ]
+  },
+  {
+    "n": "Praça XV de Novembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Praça central arborizada que forma o Quarteirão Paulista com o teatro e a Pinguim."
+  },
+  {
+    "n": "Museu do Café Coronel Francisco Schmidt",
+    "cat": "cultura",
+    "end": "Campus da USP, Monte Alegre",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Museu sobre o Rei do Café, numa antiga fazenda dentro do campus da USP.",
+    "busca": [
+      "Museu do Café"
+    ]
+  },
+  {
+    "n": "Bosque Municipal Fábio Barreto",
+    "cat": "verde",
+    "end": "Ribeirão Preto",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Bosque com zoológico e mata nativa, refúgio fresco perto do centro.",
+    "busca": [
+      "Bosque e Zoológico Fábio Barreto"
+    ]
+  },
+  {
+    "n": "Parque Curupira",
+    "cat": "verde",
+    "end": "Ribeirão Preto",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Parque arborizado com lagos e pistas de caminhada.",
+    "busca": [
+      "Parque Prefeito Luiz Roberto Jábali"
+    ]
+  },
+  {
+    "n": "Parque Ecológico Maurílio Biagi",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Parque com lago e trilhas, ponto de encontro para atividades ao ar livre."
+  },
+  {
+    "n": "Museu de Arte de Ribeirão Preto (MARP)",
+    "cat": "cultura",
+    "end": "Rua Barão do Amazonas, Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Museu de arte instalado em edifício histórico do centro.",
+    "busca": [
+      "MARP"
+    ]
+  },
+  {
+    "n": "Campus da USP de Ribeirão Preto",
+    "cat": "verde",
+    "end": "Monte Alegre",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "d": "Campus arborizado numa antiga fazenda de café, ótimo para passear e pedalar."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Praia do Félix",
+    "cat": "verde",
+    "end": "Praia do Félix",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Praia de águas verdes cercada de Mata Atlântica, uma das mais bonitas do litoral norte."
+  },
+  {
+    "n": "Praia Vermelha do Norte",
+    "cat": "verde",
+    "end": "Praia Vermelha do Norte",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Praia de areia avermelhada, ondas para surfe e cenário selvagem."
+  },
+  {
+    "n": "Praia de Itamambuca",
+    "cat": "verde",
+    "end": "Itamambuca",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Paraíso do surfe com rio encontrando o mar e natureza preservada."
+  },
+  {
+    "n": "Praia do Lázaro",
+    "cat": "verde",
+    "end": "Praia do Lázaro",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Praia de mar calmo e águas claras, ótima para famílias e passeios de barco."
+  },
+  {
+    "n": "Projeto Tamar Ubatuba",
+    "cat": "cultura",
+    "end": "Rua Antônio Athanásio da Silva, Itaguá",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Centro de visitantes dedicado à proteção das tartarugas marinhas.",
+    "busca": [
+      "Tamar Ubatuba"
+    ]
+  },
+  {
+    "n": "Aquário de Ubatuba",
+    "cat": "cultura",
+    "end": "Rua Guarani, Itaguá",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Aquário com pinguins, tubarões e espécies do litoral paulista."
+  },
+  {
+    "n": "Ilha Anchieta",
+    "cat": "verde",
+    "end": "Parque Estadual da Ilha Anchieta",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Ilha com trilhas, praias de águas cristalinas e ruínas do antigo presídio.",
+    "busca": [
+      "Parque Estadual da Ilha Anchieta"
+    ]
+  },
+  {
+    "n": "Vila de Picinguaba",
+    "cat": "verde",
+    "end": "Picinguaba",
+    "cidade": "Ubatuba",
+    "uf": "SP",
+    "d": "Vila caiçara de pescadores dentro do Parque Estadual da Serra do Mar.",
+    "busca": [
+      "Picinguaba"
+    ]
+  }
+]

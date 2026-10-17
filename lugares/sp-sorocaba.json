@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Parque Zoológico Municipal Quinzinho de Barros",
+    "cat": "verde",
+    "end": "Vila Hortência",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Um dos maiores zoológicos da América Latina, com amplas áreas verdes.",
+    "busca": [
+      "Zoológico de Sorocaba"
+    ]
+  },
+  {
+    "n": "Jardim Botânico Irmãos Villas-Bôas",
+    "cat": "verde",
+    "end": "Sorocaba",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Jardim botânico com estufas, lagos e trilhas para toda a família.",
+    "busca": [
+      "Jardim Botânico de Sorocaba"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Sorocaba",
+    "cat": "cultura",
+    "end": "Praça Coronel Fernando Prestes, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Catedral de Nossa Senhora da Ponte, marco do centro histórico."
+  },
+  {
+    "n": "Mosteiro de São Bento de Sorocaba",
+    "cat": "cultura",
+    "end": "Largo São Bento, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Mosteiro do século 17, ligado à fundação da cidade."
+  },
+  {
+    "n": "Parque das Águas",
+    "cat": "verde",
+    "end": "Sorocaba",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Parque à beira do rio Sorocaba com pista de caminhada e áreas de lazer."
+  },
+  {
+    "n": "Museu Histórico Sorocabano",
+    "cat": "cultura",
+    "end": "Vila Hortência",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Museu em casarão de fazenda que conta a história do tropeirismo e da cidade."
+  }
+]

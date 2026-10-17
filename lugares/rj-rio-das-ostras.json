@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Lagoa de Iriry",
+    "cat": "verde",
+    "end": "Costa Azul",
+    "cidade": "Rio das Ostras",
+    "uf": "RJ",
+    "d": "Lagoa de águas escuras e terapêuticas colada ao mar."
+  },
+  {
+    "n": "Praia Virgem",
+    "cat": "verde",
+    "end": "Rio das Ostras",
+    "cidade": "Rio das Ostras",
+    "uf": "RJ",
+    "d": "Pequena praia cercada de pedras, sossegada e de águas claras."
+  },
+  {
+    "n": "Monumento Natural dos Costões Rochosos",
+    "cat": "verde",
+    "end": "Rio das Ostras",
+    "cidade": "Rio das Ostras",
+    "uf": "RJ",
+    "d": "Costões e piscinas naturais preservados ao longo da orla."
+  }
+]

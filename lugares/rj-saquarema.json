@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Praia de Itaúna",
+    "cat": "verde",
+    "end": "Itaúna",
+    "cidade": "Saquarema",
+    "uf": "RJ",
+    "d": "Capital do surfe brasileiro, palco de etapas do circuito mundial."
+  },
+  {
+    "n": "Igreja de Nossa Senhora de Nazareth",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Saquarema",
+    "uf": "RJ",
+    "d": "Igreja branca no alto do morro, com vista para o mar e a lagoa."
+  },
+  {
+    "n": "Lagoa de Saquarema",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Saquarema",
+    "uf": "RJ",
+    "d": "Lagoa extensa, ótima para caiaque e stand up paddle."
+  },
+  {
+    "n": "Praia da Vila",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Saquarema",
+    "uf": "RJ",
+    "d": "Praia em frente à igreja de Nazareth, com ondas para surfe."
+  }
+]

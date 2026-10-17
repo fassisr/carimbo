@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Parque das Águas de São Lourenço",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Lourenço",
+    "uf": "MG",
+    "d": "Fontes de águas minerais, lago e jardins num parque centenário."
+  },
+  {
+    "n": "Templo da Eubiose",
+    "cat": "cultura",
+    "end": "São Lourenço",
+    "cidade": "São Lourenço",
+    "uf": "MG",
+    "d": "Templo místico e curioso, cercado de jardins."
+  },
+  {
+    "n": "Estação Ferroviária de São Lourenço",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Lourenço",
+    "uf": "MG",
+    "d": "Ponto do Trem das Águas, passeio de Maria Fumaça até Soledade de Minas.",
+    "busca": [
+      "Trem das Águas"
+    ]
+  }
+]

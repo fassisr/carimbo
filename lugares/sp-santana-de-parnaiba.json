@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Centro Histórico de Santana de Parnaíba",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santana de Parnaíba",
+    "uf": "SP",
+    "d": "Um dos maiores conjuntos de casario colonial do estado, com ruas de pedra."
+  },
+  {
+    "n": "Igreja Matriz de Sant'Ana",
+    "cat": "cultura",
+    "end": "Largo da Matriz, Centro",
+    "cidade": "Santana de Parnaíba",
+    "uf": "SP",
+    "d": "Igreja matriz no largo central, palco das tradições da cidade."
+  },
+  {
+    "n": "Museu Casa do Anhanguera",
+    "cat": "cultura",
+    "end": "Largo da Matriz, Centro",
+    "cidade": "Santana de Parnaíba",
+    "uf": "SP",
+    "d": "Casa bandeirista do século 17 com acervo sobre a história paulista."
+  }
+]

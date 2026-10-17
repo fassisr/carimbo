@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Parque Nacional do Caparaó - Portaria Pedra Menina",
+    "cat": "verde",
+    "end": "Pedra Menina",
+    "cidade": "Dores do Rio Preto",
+    "uf": "ES",
+    "d": "Entrada capixaba do Caparaó, com cachoeiras e trilhas de altitude.",
+    "busca": [
+      "Parque Nacional do Caparaó"
+    ]
+  },
+  {
+    "n": "Pico da Bandeira",
+    "cat": "verde",
+    "end": "Parque Nacional do Caparaó",
+    "cidade": "Dores do Rio Preto",
+    "uf": "ES",
+    "d": "Terceiro ponto mais alto do Brasil, com nascer do sol acima das nuvens."
+  }
+]

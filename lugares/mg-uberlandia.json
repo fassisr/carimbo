@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Parque do Sabiá",
+    "cat": "verde",
+    "end": "Tibery",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Grande parque urbano com lagos, trilhas, zoológico e pista de caminhada."
+  },
+  {
+    "n": "Praça Tubal Vilela",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "A praça central da cidade, com fonte e muita sombra."
+  },
+  {
+    "n": "Museu Universitário de Arte",
+    "cat": "cultura",
+    "end": "Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Museu de arte da UFU com exposições contemporâneas no bairro histórico.",
+    "busca": [
+      "MUnA"
+    ]
+  },
+  {
+    "n": "Museu Municipal de Uberlândia",
+    "cat": "cultura",
+    "end": "Praça Clarimundo Carneiro, Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Palacete eclético que conta a história da cidade.",
+    "busca": [
+      "Palácio dos Leões"
+    ]
+  },
+  {
+    "n": "Parque Municipal Victório Siquierolli",
+    "cat": "verde",
+    "end": "Nossa Senhora das Graças",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Reserva de cerrado com trilhas e museu de biodiversidade.",
+    "busca": [
+      "Parque Siquierolli"
+    ]
+  },
+  {
+    "n": "Teatro Municipal de Uberlândia",
+    "cat": "cultura",
+    "end": "Avenida Rondon Pacheco",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Teatro de linhas modernas com projeto inspirado em Niemeyer."
+  },
+  {
+    "n": "Mercado Municipal de Uberlândia",
+    "cat": "cultura",
+    "end": "Rua Olegário Maciel, Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Mercado histórico com queijos, doces e comidinhas mineiras."
+  },
+  {
+    "n": "Oficina Cultural de Uberlândia",
+    "cat": "cultura",
+    "end": "Praça Clarimundo Carneiro, Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Centro cultural com oficinas e exposições no Fundinho."
+  }
+]

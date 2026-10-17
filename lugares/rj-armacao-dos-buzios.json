@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Praia de Geribá",
+    "cat": "verde",
+    "end": "Geribá",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Praia agitada e extensa, preferida dos surfistas e da juventude."
+  },
+  {
+    "n": "Praia da Ferradura",
+    "cat": "verde",
+    "end": "Ferradura",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Enseada em formato de ferradura com águas calmas, ideal para famílias."
+  },
+  {
+    "n": "Praia Azeda",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Pequena praia de águas transparentes acessível por trilha curta.",
+    "busca": [
+      "Praia da Azeda"
+    ]
+  },
+  {
+    "n": "Praia dos Ossos",
+    "cat": "verde",
+    "end": "Ossos",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Praia charmosa com barcos coloridos e vista para a Ilha Feia."
+  },
+  {
+    "n": "Igreja de Sant'Ana",
+    "cat": "cultura",
+    "end": "Praia dos Ossos",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Capelinha branca do século XVIII no alto, com vista para a Praia dos Ossos."
+  },
+  {
+    "n": "Praia Brava",
+    "cat": "verde",
+    "end": "Brava",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Praia de mar aberto e ondas fortes, cercada de costões."
+  }
+]

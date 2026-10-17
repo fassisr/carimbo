@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Academia Militar das Agulhas Negras",
+    "cat": "cultura",
+    "end": "Resende",
+    "cidade": "Resende",
+    "uf": "RJ",
+    "d": "Escola de formação de oficiais do Exército, com prédio histórico imponente.",
+    "busca": [
+      "AMAN"
+    ]
+  },
+  {
+    "n": "Vila de Visconde de Mauá",
+    "cat": "verde",
+    "end": "Visconde de Mauá",
+    "cidade": "Resende",
+    "uf": "RJ",
+    "d": "Vila serrana com rios, cachoeiras e clima de montanha."
+  },
+  {
+    "n": "Pedra Selada",
+    "cat": "verde",
+    "end": "Visconde de Mauá",
+    "cidade": "Resende",
+    "uf": "RJ",
+    "d": "Montanha com trilha até o topo e vista de todo o vale."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "n": "Cânions de Furnas",
+    "cat": "verde",
+    "end": "Lago de Furnas",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "Paredões de pedra no lago, o passeio de lancha mais famoso de Minas.",
+    "busca": [
+      "Cânion de Furnas"
+    ]
+  },
+  {
+    "n": "Mirante dos Cânions",
+    "cat": "verde",
+    "end": "Capitólio",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "Vista do alto dos cânions e do lago verde-esmeralda."
+  },
+  {
+    "n": "Cachoeira Lagoa Azul",
+    "cat": "verde",
+    "end": "Capitólio",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "Poço de água azul cercado de pedras, perfeito para banho."
+  },
+  {
+    "n": "Complexo Paraíso Perdido",
+    "cat": "verde",
+    "end": "Capitólio",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "Sequência de cachoeiras e poços cristalinos numa trilha fácil.",
+    "busca": [
+      "Paraíso Perdido"
+    ]
+  },
+  {
+    "n": "Vale dos Tucanos",
+    "cat": "verde",
+    "end": "Capitólio",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "Complexo de cachoeiras com trilhas e piscinas naturais."
+  },
+  {
+    "n": "Lago de Furnas",
+    "cat": "verde",
+    "end": "Capitólio",
+    "cidade": "Capitólio",
+    "uf": "MG",
+    "d": "O mar de Minas, com praias de água doce e passeios de barco.",
+    "busca": [
+      "Represa de Furnas"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "n": "Palácio Boa Vista",
+    "cat": "cultura",
+    "end": "Avenida Doutor Adhemar de Barros, 3001, Alto da Boa Vista",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Residência de inverno do governador com acervo de arte brasileira aberto à visitação."
+  },
+  {
+    "n": "Museu Felícia Leirner e Auditório Claudio Santoro",
+    "cat": "cultura",
+    "end": "Avenida Doutor Luís Arrobas Martins, 1880, Alto da Boa Vista",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Esculturas a céu aberto entre araucárias e o auditório do Festival de Inverno.",
+    "busca": [
+      "Museu Felícia Leirner"
+    ]
+  },
+  {
+    "n": "Parque Estadual de Campos do Jordão",
+    "cat": "verde",
+    "end": "Horto Florestal",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Trilhas entre araucárias, cachoeiras e rios de água gelada no Horto Florestal.",
+    "busca": [
+      "Horto Florestal de Campos do Jordão"
+    ]
+  },
+  {
+    "n": "Pico do Itapeva",
+    "cat": "verde",
+    "end": "Estrada do Pico do Itapeva",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Mirante a mais de 2.000 metros com vista para o Vale do Paraíba."
+  },
+  {
+    "n": "Morro do Elefante",
+    "cat": "verde",
+    "end": "Capivari",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Mirante com teleférico e vista panorâmica da cidade e das montanhas."
+  },
+  {
+    "n": "Cervejaria Baden Baden",
+    "cat": "bar",
+    "end": "Rua Djalma Forjaz, Capivari",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Choperia clássica de Capivari, berço de uma das cervejas artesanais mais famosas do país.",
+    "busca": [
+      "Choperia Baden Baden",
+      "Baden Baden"
+    ]
+  },
+  {
+    "n": "Ducha de Prata",
+    "cat": "verde",
+    "end": "Vila Inglesa",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Cascata com quedas d'água entre pedras, parada tradicional de quem visita a serra."
+  },
+  {
+    "n": "Jardins Amantikir",
+    "cat": "verde",
+    "end": "Estrada Municipal, Campos do Jordão",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Jardins temáticos inspirados em estilos do mundo inteiro, com vista para a Mantiqueira.",
+    "busca": [
+      "Amantikir"
+    ]
+  },
+  {
+    "n": "Estação Emílio Ribas",
+    "cat": "cultura",
+    "end": "Capivari",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Estação histórica da Estrada de Ferro Campos do Jordão, ponto de partida do bondinho."
+  },
+  {
+    "n": "Parque Capivari",
+    "cat": "verde",
+    "end": "Capivari",
+    "cidade": "Campos do Jordão",
+    "uf": "SP",
+    "d": "Lago com pedalinhos e brinquedos no coração do bairro mais charmoso da cidade."
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Catedral de São Pedro de Alcântara",
+    "cat": "cultura",
+    "end": "Rua São Pedro de Alcântara, 60, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Catedral neogótica onde repousam Dom Pedro II e a Princesa Isabel.",
+    "busca": [
+      "Catedral de Petrópolis"
+    ]
+  },
+  {
+    "n": "Palácio Quitandinha",
+    "cat": "cultura",
+    "end": "Avenida Joaquim Rolla, 2, Quitandinha",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Antigo hotel-cassino monumental, com lago em forma de mapa do Brasil."
+  },
+  {
+    "n": "Palácio Rio Negro",
+    "cat": "cultura",
+    "end": "Avenida Koeler, 255, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Antiga residência de verão dos presidentes da República."
+  },
+  {
+    "n": "Casa da Princesa Isabel",
+    "cat": "cultura",
+    "end": "Avenida Koeler, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Casa onde viveu a princesa, na avenida mais bonita da cidade."
+  },
+  {
+    "n": "Praça da Liberdade",
+    "cat": "verde",
+    "end": "Avenida Roberto Silveira, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Praça arborizada e tradicional, com passeios de charrete e feirinha."
+  },
+  {
+    "n": "Casa do Alemão",
+    "cat": "doce",
+    "end": "Quitandinha",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Parada clássica na serra para croquetes, strudel e chocolates."
+  }
+]

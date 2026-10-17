@@ -1,0 +1,59 @@
+[
+  {
+    "n": "Rua do Porto",
+    "cat": "verde",
+    "end": "Rua do Porto, Centro",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Beira-rio com casarões e restaurantes de peixe às margens do rio Piracicaba."
+  },
+  {
+    "n": "Engenho Central",
+    "cat": "cultura",
+    "end": "Vila Rezende",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Antigo engenho de açúcar à beira do rio, hoje parque e centro cultural.",
+    "busca": [
+      "Parque do Engenho Central"
+    ]
+  },
+  {
+    "n": "Parque do Mirante",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Mirante com vista para o salto do rio Piracicaba, um dos cartões-postais da cidade.",
+    "busca": [
+      "Mirante do Rio Piracicaba"
+    ]
+  },
+  {
+    "n": "ESALQ/USP",
+    "cat": "verde",
+    "end": "Agronomia",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Campus arborizado da Escola Superior de Agricultura, ótimo para passear.",
+    "busca": [
+      "Escola Superior de Agricultura Luiz de Queiroz"
+    ]
+  },
+  {
+    "n": "Catedral de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Catedral imponente na praça central de Piracicaba."
+  },
+  {
+    "n": "Casa do Povoador",
+    "cat": "cultura",
+    "end": "Rua do Porto, Centro",
+    "cidade": "Piracicaba",
+    "uf": "SP",
+    "d": "Casa de taipa do século 18 às margens do rio, berço da cidade."
+  }
+]

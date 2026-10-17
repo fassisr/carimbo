@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Fortaleza da Barra Grande",
+    "cat": "cultura",
+    "end": "Santa Cruz dos Navegantes",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "Forte do século 16 na entrada do porto de Santos, com vista para o canal.",
+    "busca": [
+      "Fortaleza de Santo Amaro da Barra Grande"
+    ]
+  },
+  {
+    "n": "Praia de Pernambuco",
+    "cat": "verde",
+    "end": "Pernambuco",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "Uma das praias mais bonitas e tranquilas do Guarujá, com mar calmo e casas à beira-mar."
+  },
+  {
+    "n": "Praia do Tombo",
+    "cat": "verde",
+    "end": "Tombo",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "Praia com selo Bandeira Azul, ondas boas para surfe e paisagem preservada."
+  },
+  {
+    "n": "Praia da Enseada",
+    "cat": "verde",
+    "end": "Enseada",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "A maior praia do Guarujá, com orla movimentada, quiosques e esportes náuticos."
+  },
+  {
+    "n": "Praia de Pitangueiras",
+    "cat": "verde",
+    "end": "Pitangueiras",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "Praia central e animada, com calçadão, hotéis e a famosa Pedra do Sapo."
+  },
+  {
+    "n": "Morro do Maluf",
+    "cat": "verde",
+    "end": "Pitangueiras",
+    "cidade": "Guarujá",
+    "uf": "SP",
+    "d": "Mirante entre Pitangueiras e Astúrias com vista panorâmica do litoral.",
+    "busca": [
+      "Mirante do Morro do Maluf"
+    ]
+  }
+]

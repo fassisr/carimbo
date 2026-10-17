@@ -1,0 +1,32 @@
+[
+  {
+    "n": "Parque Dr. Octávio de Moura Andrade",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Águas de São Pedro",
+    "uf": "SP",
+    "d": "Parque com bosque e fontes de águas minerais medicinais, como a Fonte Juventude.",
+    "busca": [
+      "Parque das Águas"
+    ]
+  },
+  {
+    "n": "Balneário Municipal Dr. Octávio de Moura Andrade",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Águas de São Pedro",
+    "uf": "SP",
+    "d": "Balneário histórico com banhos de águas sulfurosas, tradição da estância.",
+    "busca": [
+      "Balneário de Águas de São Pedro"
+    ]
+  },
+  {
+    "n": "Grande Hotel São Pedro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Águas de São Pedro",
+    "uf": "SP",
+    "d": "Hotel histórico dos anos 1940, hoje hotel-escola, cercado por um grande parque."
+  }
+]

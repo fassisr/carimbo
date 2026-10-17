@@ -1,0 +1,525 @@
+[
+  {
+    "n": "Estádio do Maracanã",
+    "cat": "cultura",
+    "end": "Avenida Presidente Castelo Branco, Maracanã",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "O templo do futebol brasileiro, com tour pelos vestiários e pelo gramado.",
+    "busca": [
+      "Maracanã",
+      "Estádio Jornalista Mário Filho"
+    ]
+  },
+  {
+    "n": "Parque Nacional da Tijuca",
+    "cat": "verde",
+    "end": "Estrada da Cascatinha, Alto da Boa Vista",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Uma das maiores florestas urbanas do mundo, com trilhas, cachoeiras e mirantes.",
+    "busca": [
+      "Floresta da Tijuca"
+    ]
+  },
+  {
+    "n": "Vista Chinesa",
+    "cat": "verde",
+    "end": "Estrada da Vista Chinesa, Alto da Boa Vista",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mirante com pavilhão oriental e vista deslumbrante da Lagoa e da Zona Sul."
+  },
+  {
+    "n": "Prainha",
+    "cat": "verde",
+    "end": "Recreio dos Bandeirantes",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praia selvagem cercada de mata, queridinha dos surfistas cariocas."
+  },
+  {
+    "n": "Praia de Grumari",
+    "cat": "verde",
+    "end": "Grumari",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Areia avermelhada e natureza preservada, longe da agitação da cidade."
+  },
+  {
+    "n": "Feira de São Cristóvão",
+    "cat": "cultura",
+    "end": "Campo de São Cristóvão, São Cristóvão",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "O Nordeste no Rio: forró, comidas típicas e artesanato num só lugar.",
+    "busca": [
+      "Centro Municipal Luiz Gonzaga de Tradições Nordestinas",
+      "Feira dos Paraíbas"
+    ]
+  },
+  {
+    "n": "Museu Nacional de Belas Artes",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, 199, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Grande acervo de arte brasileira do século XIX num prédio eclético da Cinelândia."
+  },
+  {
+    "n": "Instituto Moreira Salles",
+    "cat": "cultura",
+    "end": "Rua Marquês de São Vicente, 476, Gávea",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa modernista com jardins de Burle Marx, exposições de fotografia e um ótimo café.",
+    "busca": [
+      "IMS Rio"
+    ]
+  },
+  {
+    "n": "Parque Madureira",
+    "cat": "verde",
+    "end": "Madureira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Grande parque da Zona Norte com lagos, pista de skate e muito verde.",
+    "busca": [
+      "Parque Madureira Rio+20"
+    ]
+  },
+  {
+    "n": "Bar Brasil",
+    "cat": "bar",
+    "end": "Avenida Mem de Sá, 90, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Clássico boteco alemão da Lapa, famoso pelo chope e pelo kassler."
+  },
+  {
+    "n": "Museu Histórico Nacional",
+    "cat": "cultura",
+    "end": "Praça Marechal Âncora, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Enorme acervo sobre a história do Brasil num antigo complexo colonial."
+  },
+  {
+    "n": "Paço Imperial",
+    "cat": "cultura",
+    "end": "Praça XV de Novembro, 48, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antiga sede do governo colonial e imperial, hoje centro cultural."
+  },
+  {
+    "n": "Mosteiro de São Bento",
+    "cat": "cultura",
+    "end": "Rua Dom Gerardo, 68, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Joia do barroco brasileiro, com interior todo dourado e canto gregoriano."
+  },
+  {
+    "n": "Igreja da Candelária",
+    "cat": "cultura",
+    "end": "Praça Pio X, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Imponente igreja do Centro, com cúpula de mármore e vitrais belíssimos.",
+    "busca": [
+      "Igreja de Nossa Senhora da Candelária"
+    ]
+  },
+  {
+    "n": "Biblioteca Nacional",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, 219, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Maior biblioteca da América Latina, com visitas guiadas ao prédio histórico.",
+    "busca": [
+      "Fundação Biblioteca Nacional"
+    ]
+  },
+  {
+    "n": "Casa França-Brasil",
+    "cat": "cultura",
+    "end": "Rua Visconde de Itaboraí, 78, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Centro cultural num belo prédio neoclássico projetado por Grandjean de Montigny."
+  },
+  {
+    "n": "Parque das Ruínas",
+    "cat": "cultura",
+    "end": "Rua Murtinho Nobre, 169, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Ruínas de um antigo casarão transformadas em centro cultural com vista da baía."
+  },
+  {
+    "n": "Museu Chácara do Céu",
+    "cat": "cultura",
+    "end": "Rua Murtinho Nobre, 93, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa-museu em Santa Teresa com arte moderna e jardim com vista para o Centro."
+  },
+  {
+    "n": "Bar do Gomez",
+    "cat": "bar",
+    "end": "Rua Áurea, 26, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Armazém centenário de Santa Teresa, ótimo para um chope com petiscos.",
+    "busca": [
+      "Armazém São Thiago"
+    ]
+  },
+  {
+    "n": "Lagoa Rodrigo de Freitas",
+    "cat": "verde",
+    "end": "Lagoa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cartão-postal com ciclovia, pedalinhos e quiosques ao pé do Cristo.",
+    "busca": [
+      "Lagoa"
+    ]
+  },
+  {
+    "n": "Parque do Flamengo",
+    "cat": "verde",
+    "end": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "O Aterro: jardins de Burle Marx à beira da baía, perfeitos para caminhar.",
+    "busca": [
+      "Aterro do Flamengo"
+    ]
+  },
+  {
+    "n": "Museu de Arte Moderna do Rio de Janeiro",
+    "cat": "cultura",
+    "end": "Avenida Infante Dom Henrique, 85, Parque do Flamengo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Ícone da arquitetura moderna com exposições e jardins de Burle Marx.",
+    "busca": [
+      "MAM Rio"
+    ]
+  },
+  {
+    "n": "Pedra Bonita",
+    "cat": "verde",
+    "end": "São Conrado",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Trilha curta até a rampa de voo livre, com vista incrível de São Conrado."
+  },
+  {
+    "n": "Morro Dois Irmãos",
+    "cat": "verde",
+    "end": "Vidigal",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Trilha que começa no Vidigal e termina numa das vistas mais lindas do Rio."
+  },
+  {
+    "n": "Praia de Copacabana",
+    "cat": "verde",
+    "end": "Avenida Atlântica, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "A praia mais famosa do Brasil, com o calçadão de ondas de Burle Marx."
+  },
+  {
+    "n": "Praia de Ipanema",
+    "cat": "verde",
+    "end": "Avenida Vieira Souto, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praia icônica da bossa nova, com o pôr do sol aplaudido no Arpoador."
+  },
+  {
+    "n": "Forte de Copacabana",
+    "cat": "cultura",
+    "end": "Praça Coronel Eugênio Franco, 1, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Forte histórico com museu e vista privilegiada da orla de Copacabana."
+  },
+  {
+    "n": "Bar Lagoa",
+    "cat": "bar",
+    "end": "Avenida Epitácio Pessoa, 1674, Lagoa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar art déco de 1934 à beira da Lagoa, com garçons tradicionais e chope gelado."
+  },
+  {
+    "n": "Adega Pérola",
+    "cat": "bar",
+    "end": "Rua Siqueira Campos, 138, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco português com balcão repleto de petiscos e conservas."
+  },
+  {
+    "n": "Cervantes",
+    "cat": "bar",
+    "end": "Avenida Prado Júnior, 335, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Lendário na madrugada carioca pelo sanduíche com abacaxi."
+  },
+  {
+    "n": "Bar Garota de Ipanema",
+    "cat": "bar",
+    "end": "Rua Vinícius de Moraes, 49, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "O antigo Veloso, onde Tom e Vinicius compuseram Garota de Ipanema.",
+    "busca": [
+      "Garota de Ipanema"
+    ]
+  },
+  {
+    "n": "Academia da Cachaça",
+    "cat": "bar",
+    "end": "Rua Conde de Bernadotte, 26, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Referência em cachaças no Leblon, famosa pela feijoada e pela caipirinha."
+  },
+  {
+    "n": "Pavão Azul",
+    "cat": "bar",
+    "end": "Rua Hilário de Gouveia, 71, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco raiz de Copacabana, famoso pelas pataniscas de bacalhau."
+  },
+  {
+    "n": "Armazém do Senado",
+    "cat": "bar",
+    "end": "Avenida Gomes Freire, 256, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antigo armazém que virou bar, com prateleiras de época e chope bem tirado."
+  },
+  {
+    "n": "Casa Paladino",
+    "cat": "bar",
+    "end": "Rua Uruguaiana, 224, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Armazém-bar de 1906 no Centro, conhecido pelas omeletes e sanduíches."
+  },
+  {
+    "n": "Aconchego Carioca",
+    "cat": "bar",
+    "end": "Rua Barão de Iguatemi, 379, Praça da Bandeira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco premiado, famoso pelo bolinho de feijoada e pelas cervejas especiais."
+  },
+  {
+    "n": "Bar Adonis",
+    "cat": "bar",
+    "end": "Rua São Luiz Gonzaga, Benfica",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Tradicional boteco da Zona Norte, famoso pelo bolinho de bacalhau."
+  },
+  {
+    "n": "Confeitaria Cavé",
+    "cat": "doce",
+    "end": "Rua Sete de Setembro, 137, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Confeitaria de 1860, uma das mais antigas do Rio, com doces portugueses.",
+    "busca": [
+      "Casa Cavé"
+    ]
+  },
+  {
+    "n": "Café Gaúcho",
+    "cat": "cafe",
+    "end": "Rua São José, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Balcão tradicional do Centro, há décadas servindo cafezinho e sanduíches."
+  },
+  {
+    "n": "Livraria Leonardo da Vinci",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, 185, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Livraria histórica no subsolo de um edifício do Centro, cheia de raridades."
+  },
+  {
+    "n": "Livraria Argumento",
+    "cat": "cultura",
+    "end": "Rua Dias Ferreira, 417, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Livraria charmosa do Leblon com café e muitos lançamentos."
+  },
+  {
+    "n": "Museu da República",
+    "cat": "cultura",
+    "end": "Rua do Catete, 153, Catete",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antigo palácio presidencial com jardins abertos ao público.",
+    "busca": [
+      "Palácio do Catete"
+    ]
+  },
+  {
+    "n": "Quinta da Boa Vista",
+    "cat": "verde",
+    "end": "São Cristóvão",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Parque histórico da família imperial, com lagos, grutas e o Museu Nacional."
+  },
+  {
+    "n": "Ilha Fiscal",
+    "cat": "cultura",
+    "end": "Avenida Alfred Agache, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Palácio neogótico na baía, palco do último baile do Império."
+  },
+  {
+    "n": "Cidade das Artes",
+    "cat": "cultura",
+    "end": "Avenida das Américas, 5300, Barra da Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Monumental complexo cultural com sala de concertos e arquitetura arrojada."
+  },
+  {
+    "n": "Bosque da Barra",
+    "cat": "verde",
+    "end": "Avenida das Américas, Barra da Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Área verde com trilhas, ciclovia e lagoas no coração da Barra.",
+    "busca": [
+      "Parque Natural Municipal Bosque da Barra"
+    ]
+  },
+  {
+    "n": "Pedra do Telégrafo",
+    "cat": "verde",
+    "end": "Barra de Guaratiba",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Trilha curta famosa pela foto que parece estar pendurada no abismo."
+  },
+  {
+    "n": "Sítio Roberto Burle Marx",
+    "cat": "cultura",
+    "end": "Estrada Roberto Burle Marx, 2019, Barra de Guaratiba",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antiga casa do paisagista, com coleção de plantas tropicais e arte.",
+    "busca": [
+      "Sítio Burle Marx"
+    ]
+  },
+  {
+    "n": "Pista Cláudio Coutinho",
+    "cat": "verde",
+    "end": "Avenida Pasteur, Urca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Caminhada à beira-mar ao pé do Pão de Açúcar, com micos e mata."
+  },
+  {
+    "n": "Praia Vermelha",
+    "cat": "verde",
+    "end": "Urca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Pequena praia de águas calmas aos pés do Pão de Açúcar."
+  },
+  {
+    "n": "Sala Cecília Meireles",
+    "cat": "cultura",
+    "end": "Largo da Lapa, 47, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Sala de concertos dedicada à música de câmara, com acústica excelente."
+  },
+  {
+    "n": "Circo Voador",
+    "cat": "cultura",
+    "end": "Rua dos Arcos, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Lona lendária da Lapa, palco de shows históricos da música brasileira."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Penha",
+    "cat": "cultura",
+    "end": "Largo da Penha, Penha",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Santuário no alto de uma pedra, com escadaria de 382 degraus e vista da Zona Norte.",
+    "busca": [
+      "Santuário da Penha"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Glória do Outeiro",
+    "cat": "cultura",
+    "end": "Praça Nossa Senhora da Glória, Glória",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Igrejinha barroca no alto do outeiro, com azulejos portugueses do século XVIII.",
+    "busca": [
+      "Igreja da Glória"
+    ]
+  },
+  {
+    "n": "Cais do Valongo",
+    "cat": "cultura",
+    "end": "Avenida Barão de Tefé, Saúde",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Patrimônio Mundial da UNESCO, memória da chegada de africanos escravizados."
+  },
+  {
+    "n": "Pedra do Sal",
+    "cat": "cultura",
+    "end": "Rua Argemiro Bulcão, Saúde",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Berço do samba carioca, com rodas animadas na Pequena África."
+  },
+  {
+    "n": "Mirante do Leblon",
+    "cat": "verde",
+    "end": "Avenida Niemeyer, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mirante no fim do Leblon com vista de toda a orla até o Arpoador."
+  },
+  {
+    "n": "Planetário da Gávea",
+    "cat": "cultura",
+    "end": "Rua Vice-Governador Rubens Berardo, 100, Gávea",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cúpulas de projeção e museu interativo para explorar o céu.",
+    "busca": [
+      "Planetário do Rio"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Forte São João",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Bertioga",
+    "uf": "SP",
+    "d": "Um dos fortes mais antigos do Brasil, de frente para o canal de Bertioga.",
+    "busca": [
+      "Forte de São João da Bertioga"
+    ]
+  },
+  {
+    "n": "Praia da Riviera de São Lourenço",
+    "cat": "verde",
+    "end": "Riviera de São Lourenço",
+    "cidade": "Bertioga",
+    "uf": "SP",
+    "d": "Praia extensa e organizada, com areia clara e mar tranquilo.",
+    "busca": [
+      "Riviera de São Lourenço"
+    ]
+  },
+  {
+    "n": "Praia da Enseada",
+    "cat": "verde",
+    "end": "Enseada",
+    "cidade": "Bertioga",
+    "uf": "SP",
+    "d": "Praia central de Bertioga, ampla e perfeita para caminhadas à beira-mar."
+  },
+  {
+    "n": "Praia de Itaguaré",
+    "cat": "verde",
+    "end": "Itaguaré",
+    "cidade": "Bertioga",
+    "uf": "SP",
+    "d": "Praia selvagem com rio e restinga preservada, ótima para quem busca sossego."
+  }
+]

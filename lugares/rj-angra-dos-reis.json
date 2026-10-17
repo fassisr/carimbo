@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Vila do Abraão",
+    "cat": "cultura",
+    "end": "Abraão, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Charmosa vila da Ilha Grande, ponto de partida para trilhas e passeios."
+  },
+  {
+    "n": "Praia de Lopes Mendes",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Uma das praias mais bonitas do Brasil, de areia fina e mar verde."
+  },
+  {
+    "n": "Lagoa Azul",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Águas transparentes cheias de peixinhos, perfeitas para mergulho."
+  },
+  {
+    "n": "Lagoa Verde",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Piscina natural esverdeada, ótima para snorkel em meio aos peixes."
+  },
+  {
+    "n": "Pico do Papagaio",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Trilha desafiadora até um dos mirantes mais altos da Ilha Grande."
+  },
+  {
+    "n": "Aqueduto do Abraão",
+    "cat": "cultura",
+    "end": "Abraão, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Ruínas de aqueduto do século XIX em meio à mata, perto do Lazareto.",
+    "busca": [
+      "Aqueduto da Ilha Grande"
+    ]
+  },
+  {
+    "n": "Cachoeira da Feiticeira",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Queda d'água de 15 metros acessível por trilha a partir do Abraão."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Igreja colonial do século XVII no centro histórico de Angra."
+  }
+]

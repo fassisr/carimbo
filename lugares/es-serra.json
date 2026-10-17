@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Igreja dos Reis Magos",
+    "cat": "cultura",
+    "end": "Nova Almeida",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Igreja e residência jesuítica do século XVI com vista para o mar de Nova Almeida."
+  },
+  {
+    "n": "Praia de Manguinhos",
+    "cat": "verde",
+    "end": "Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Vila de pescadores charmosa, com praia tranquila e bons restaurantes de frutos do mar."
+  },
+  {
+    "n": "Praia de Jacaraípe",
+    "cat": "verde",
+    "end": "Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia popular com ondas, pista de skate e orla agitada nos fins de semana."
+  },
+  {
+    "n": "Mestre Álvaro",
+    "cat": "verde",
+    "end": "Serra Sede",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Maciço de mais de 800 metros que domina a paisagem, com trilhas até o topo.",
+    "busca": [
+      "APA do Mestre Álvaro"
+    ]
+  },
+  {
+    "n": "Lagoa Jacuném",
+    "cat": "verde",
+    "end": "Jacuném",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Uma das maiores lagoas da Grande Vitória, boa para observar aves e pôr do sol."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Serra Sede",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Igreja histórica da sede do município, ponto central das festas tradicionais."
+  }
+]

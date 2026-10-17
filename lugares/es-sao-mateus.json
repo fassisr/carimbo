@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Sítio Histórico Porto de São Mateus",
+    "cat": "cultura",
+    "end": "Porto",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Casario colonial à beira do rio Cricaré, antigo porto de escravizados e farinha.",
+    "busca": [
+      "Porto de São Mateus"
+    ]
+  },
+  {
+    "n": "Igreja Velha",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Ruínas de igreja do século XVIII no centro, um dos símbolos de São Mateus."
+  },
+  {
+    "n": "Praia de Guriri",
+    "cat": "verde",
+    "end": "Guriri",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Ilha com praia extensa, lagoas e quiosques animados no verão."
+  }
+]

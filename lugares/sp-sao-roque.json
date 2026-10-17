@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Estrada do Vinho",
+    "cat": "verde",
+    "end": "Canguera",
+    "cidade": "São Roque",
+    "uf": "SP",
+    "d": "Roteiro de vinícolas, adegas e restaurantes entre colinas e parreirais.",
+    "busca": [
+      "Roteiro do Vinho"
+    ]
+  },
+  {
+    "n": "Vinícola Góes",
+    "cat": "bar",
+    "end": "Estrada do Vinho, Canguera",
+    "cidade": "São Roque",
+    "uf": "SP",
+    "d": "Vinícola tradicional com degustação, loja e passeio pelos vinhedos."
+  },
+  {
+    "n": "Ski Mountain Park",
+    "cat": "verde",
+    "end": "São Roque",
+    "cidade": "São Roque",
+    "uf": "SP",
+    "d": "Parque com pista de esqui artificial, tirolesa e vista das montanhas."
+  },
+  {
+    "n": "Morro do Saboó",
+    "cat": "verde",
+    "end": "São Roque",
+    "cidade": "São Roque",
+    "uf": "SP",
+    "d": "Mirante com vista panorâmica da cidade e trilha para caminhadas."
+  },
+  {
+    "n": "Igreja Matriz de São Roque",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Roque",
+    "uf": "SP",
+    "d": "Igreja matriz no centro histórico da terra do vinho."
+  }
+]

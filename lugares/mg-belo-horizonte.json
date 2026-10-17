@@ -1,0 +1,448 @@
+[
+  {
+    "n": "Igreja de São Francisco de Assis da Pampulha",
+    "cat": "cultura",
+    "end": "Avenida Otacílio Negrão de Lima, 3000, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "A igrejinha de Niemeyer com painéis de Portinari, cartão-postal da Pampulha.",
+    "busca": [
+      "Igrejinha da Pampulha"
+    ]
+  },
+  {
+    "n": "Museu de Arte da Pampulha",
+    "cat": "cultura",
+    "end": "Avenida Otacílio Negrão de Lima, 16585, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O antigo cassino de Niemeyer virou museu de arte com jardins de Burle Marx à beira da lagoa.",
+    "busca": [
+      "MAP"
+    ]
+  },
+  {
+    "n": "Casa do Baile",
+    "cat": "cultura",
+    "end": "Avenida Otacílio Negrão de Lima, 751, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Joia curvilínea de Niemeyer numa ilhota da lagoa, hoje centro de arquitetura e design."
+  },
+  {
+    "n": "Lagoa da Pampulha",
+    "cat": "verde",
+    "end": "Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Orla de 18 km para pedalar e caminhar entre as obras do Conjunto Moderno, Patrimônio da Humanidade."
+  },
+  {
+    "n": "Estádio Mineirão",
+    "cat": "cultura",
+    "end": "Avenida Antônio Abrahão Caram, 1001, São José",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O Gigante da Pampulha, palco do futebol mineiro, com museu e esplanada aberta ao público.",
+    "busca": [
+      "Mineirão",
+      "Estádio Governador Magalhães Pinto"
+    ]
+  },
+  {
+    "n": "Parque Ecológico da Pampulha",
+    "cat": "verde",
+    "end": "Avenida Otacílio Negrão de Lima, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Gramados e trilhas numa península da lagoa, com vista linda para a igrejinha.",
+    "busca": [
+      "Parque Ecológico Promotor Francisco Lins do Rego"
+    ]
+  },
+  {
+    "n": "Jardim Zoológico de Belo Horizonte",
+    "cat": "verde",
+    "end": "Avenida Otacílio Negrão de Lima, 8000, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Zoológico, jardim botânico e aquário do Rio São Francisco num só passeio.",
+    "busca": [
+      "Zoológico de Belo Horizonte",
+      "Fundação Zoo-Botânica"
+    ]
+  },
+  {
+    "n": "Mercado Central",
+    "cat": "cultura",
+    "end": "Avenida Augusto de Lima, 744, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O coração gastronômico de BH: queijos, cachaças, doces e o fígado com jiló nos botecos.",
+    "busca": [
+      "Mercado Central de Belo Horizonte"
+    ]
+  },
+  {
+    "n": "Praça da Liberdade",
+    "cat": "verde",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Jardins, palmeiras imperiais e palacetes que viraram o maior circuito cultural de BH."
+  },
+  {
+    "n": "Memorial Minas Gerais Vale",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Museu interativo que conta a história e a cultura mineira com muita tecnologia."
+  },
+  {
+    "n": "Museu de Artes e Ofícios",
+    "cat": "cultura",
+    "end": "Praça Rui Barbosa, 600, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Na antiga estação ferroviária, um acervo encantador sobre os ofícios do Brasil pré-industrial.",
+    "busca": [
+      "MAO"
+    ]
+  },
+  {
+    "n": "Centro Cultural Banco do Brasil Belo Horizonte",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, 450, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Exposições, teatro e cinema num prédio histórico da Praça da Liberdade.",
+    "busca": [
+      "CCBB BH",
+      "CCBB Belo Horizonte"
+    ]
+  },
+  {
+    "n": "Palácio das Artes",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, 1537, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O maior centro de produção cultural de Minas, com grande teatro, galerias e cinema."
+  },
+  {
+    "n": "Parque Municipal Américo Renné Giannetti",
+    "cat": "verde",
+    "end": "Avenida Afonso Pena, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Oásis centenário no meio do Centro, com lagos, alamedas e árvores gigantes.",
+    "busca": [
+      "Parque Municipal"
+    ]
+  },
+  {
+    "n": "Praça do Papa",
+    "cat": "verde",
+    "end": "Avenida Agulhas Negras, Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mirante aos pés da Serra do Curral com a vista mais famosa de Belo Horizonte.",
+    "busca": [
+      "Praça Israel Pinheiro"
+    ]
+  },
+  {
+    "n": "Parque das Mangabeiras",
+    "cat": "verde",
+    "end": "Avenida José do Patrocínio Pontes, 580, Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Grande parque na Serra do Curral com trilhas, mirantes e nascentes.",
+    "busca": [
+      "Parque Municipal das Mangabeiras"
+    ]
+  },
+  {
+    "n": "Igreja São José",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Uma das igrejas mais antigas da capital, com jardins no meio do agito do Centro.",
+    "busca": [
+      "Igreja de São José"
+    ]
+  },
+  {
+    "n": "Catedral de Nossa Senhora da Boa Viagem",
+    "cat": "cultura",
+    "end": "Rua Sergipe, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Catedral neogótica erguida onde ficava a capela do antigo Curral del-Rei.",
+    "busca": [
+      "Catedral da Boa Viagem"
+    ]
+  },
+  {
+    "n": "Museu Mineiro",
+    "cat": "cultura",
+    "end": "Avenida João Pinheiro, 342, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Arte sacra e pintura mineira num casarão do fim do século XIX."
+  },
+  {
+    "n": "Museu Histórico Abílio Barreto",
+    "cat": "cultura",
+    "end": "Avenida Prudente de Morais, 202, Cidade Jardim",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "A última fazenda do Curral del-Rei guarda a memória da fundação de BH."
+  },
+  {
+    "n": "MM Gerdau – Museu das Minas e do Metal",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Museu interativo sobre mineração e metalurgia no belo Prédio Rosa da praça.",
+    "busca": [
+      "Museu das Minas e do Metal"
+    ]
+  },
+  {
+    "n": "Biblioteca Pública Estadual Luiz de Bessa",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, 21, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Biblioteca em prédio projetado por Niemeyer, aberta a leitores e curiosos.",
+    "busca": [
+      "Biblioteca Pública Estadual"
+    ]
+  },
+  {
+    "n": "Viaduto Santa Tereza",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Arcos art déco sobre a linha férrea, símbolo da cidade e palco da cultura de rua."
+  },
+  {
+    "n": "Praça da Estação",
+    "cat": "verde",
+    "end": "Praça Rui Barbosa, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Grande esplanada diante da antiga estação, ponto de shows e do Carnaval de BH.",
+    "busca": [
+      "Praça Rui Barbosa"
+    ]
+  },
+  {
+    "n": "Restaurante Bolão",
+    "cat": "bar",
+    "end": "Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco tradicional de Santa Tereza, famoso pelo macarrão na madrugada desde 1961.",
+    "busca": [
+      "Bolão"
+    ]
+  },
+  {
+    "n": "Café com Letras",
+    "cat": "cafe",
+    "end": "Rua Antônio de Albuquerque, 781, Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Café, livraria e música ao vivo, ponto de encontro clássico da Savassi."
+  },
+  {
+    "n": "Café Nice",
+    "cat": "cafe",
+    "end": "Avenida Afonso Pena, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cafezinho de balcão servido desde 1939, uma instituição do Centro de BH."
+  },
+  {
+    "n": "Café Palhares",
+    "cat": "bar",
+    "end": "Rua Tupinambás, 638, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco histórico, berço do lendário Kaol: cachaça, arroz, ovo e linguiça.",
+    "busca": [
+      "Palhares"
+    ]
+  },
+  {
+    "n": "Livraria Quixote",
+    "cat": "cultura",
+    "end": "Rua Fernandes Tourinho, 274, Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Livraria independente querida pelos leitores, com curadoria afiada e cafezinho."
+  },
+  {
+    "n": "Edifício Maletta",
+    "cat": "cultura",
+    "end": "Rua da Bahia, 1148, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Prédio boêmio dos anos 60 com sebos, bares e varandas sobre a Rua da Bahia.",
+    "busca": [
+      "Maletta"
+    ]
+  },
+  {
+    "n": "Cantina do Lucas",
+    "cat": "bar",
+    "end": "Rua da Bahia, 1148, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante boêmio do Maletta desde 1962, reduto de artistas e jornalistas."
+  },
+  {
+    "n": "Esquina do Clube da Esquina",
+    "cat": "cultura",
+    "end": "Rua Divinópolis com Rua Paraisópolis, Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "A esquina onde Milton Nascimento e Lô Borges deram nome ao Clube da Esquina."
+  },
+  {
+    "n": "Bar do Museu Clube da Esquina",
+    "cat": "bar",
+    "end": "Rua Paraisópolis, 738, Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar-museu com música ao vivo celebrando o movimento musical mineiro."
+  },
+  {
+    "n": "Mercado Novo",
+    "cat": "cultura",
+    "end": "Avenida Olegário Maciel, 742, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Antigo mercado que renasceu com cervejarias, cafés e gráficas no terceiro andar."
+  },
+  {
+    "n": "Bonomi",
+    "cat": "doce",
+    "end": "Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Padaria e confeitaria tradicional, famosa pelos pães italianos e doces finos.",
+    "busca": [
+      "Bonomi Panificadora"
+    ]
+  },
+  {
+    "n": "Praça Duque de Caxias",
+    "cat": "verde",
+    "end": "Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O coração do bairro boêmio de Santa Tereza, cercado de botecos e música."
+  },
+  {
+    "n": "Parque Municipal Fazenda Lagoa do Nado",
+    "cat": "verde",
+    "end": "Planalto",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Antiga fazenda com lagoa, mata e gramados, refúgio verde da região norte.",
+    "busca": [
+      "Parque Lagoa do Nado"
+    ]
+  },
+  {
+    "n": "Praça Sete de Setembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O marco zero do Centro, com o Pirulito comemorativo do centenário da Independência.",
+    "busca": [
+      "Praça Sete"
+    ]
+  },
+  {
+    "n": "Museu de História Natural e Jardim Botânico da UFMG",
+    "cat": "cultura",
+    "end": "Rua Gustavo da Silveira, 1035, Santa Inês",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mata urbana, presépio do Pipiripau e acervo de história natural."
+  },
+  {
+    "n": "Cine Theatro Brasil Vallourec",
+    "cat": "cultura",
+    "end": "Avenida Amazonas, 315, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Ícone art déco da Praça Sete restaurado como centro cultural.",
+    "busca": [
+      "Cine Theatro Brasil"
+    ]
+  },
+  {
+    "n": "Casa Fiat de Cultura",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Grandes exposições de arte no circuito da Praça da Liberdade."
+  },
+  {
+    "n": "Palácio da Liberdade",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Antiga sede do governo mineiro, com salões e jardins abertos à visitação."
+  },
+  {
+    "n": "Basílica de Nossa Senhora de Lourdes",
+    "cat": "cultura",
+    "end": "Rua da Bahia, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Basílica neogótica que deu nome ao bairro de Lourdes.",
+    "busca": [
+      "Basílica de Lourdes"
+    ]
+  },
+  {
+    "n": "Rua Sapucaí",
+    "cat": "verde",
+    "end": "Rua Sapucaí, Floresta",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mirante urbano sobre a linha do trem, com bares e vista do skyline do Centro."
+  },
+  {
+    "n": "Sesc Palladium",
+    "cat": "cultura",
+    "end": "Avenida Augusto de Lima, 420, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Teatro, cinema e exposições no antigo Cine Palladium."
+  },
+  {
+    "n": "Cervejaria Wäls",
+    "cat": "bar",
+    "end": "Rua Padre Leopoldo Mertens, São Francisco",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cervejaria premiada de BH com bar e chopes fresquinhos direto da fábrica.",
+    "busca": [
+      "Wäls"
+    ]
+  }
+]

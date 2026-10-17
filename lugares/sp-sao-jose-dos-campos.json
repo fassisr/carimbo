@@ -1,0 +1,59 @@
+[
+  {
+    "n": "Parque da Cidade Roberto Burle Marx",
+    "cat": "verde",
+    "end": "Avenida Olivo Gomes, 100, Santana",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Antiga fazenda com jardins de Burle Marx, lagos e grandes gramados.",
+    "busca": [
+      "Parque da Cidade"
+    ]
+  },
+  {
+    "n": "Parque Vicentina Aranha",
+    "cat": "verde",
+    "end": "Vila Adyana",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Antigo sanatório transformado em parque cultural, com pavilhões históricos."
+  },
+  {
+    "n": "Parque Natural Municipal do Banhado",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Grande área de várzea com vista panorâmica, o cartão-postal da cidade.",
+    "busca": [
+      "Banhado"
+    ]
+  },
+  {
+    "n": "Memorial Aeroespacial Brasileiro",
+    "cat": "cultura",
+    "end": "Avenida Brigadeiro Faria Lima, Putim",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Aviões e foguetes que contam a história da indústria aeroespacial brasileira.",
+    "busca": [
+      "MAB"
+    ]
+  },
+  {
+    "n": "Parque Santos Dumont",
+    "cat": "verde",
+    "end": "Jardim São Dimas",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Parque central arborizado com lago, réplica do 14-Bis e espaço para crianças."
+  },
+  {
+    "n": "Igreja Matriz de São José",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "d": "Igreja matriz no coração do centro histórico de São José dos Campos."
+  }
+]

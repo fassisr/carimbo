@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Santuário do Caraça",
+    "cat": "cultura",
+    "end": "Serra do Caraça",
+    "cidade": "Catas Altas",
+    "uf": "MG",
+    "d": "Antigo colégio e santuário onde lobos-guará vêm comer à noite.",
+    "busca": [
+      "Caraça"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Catas Altas",
+    "uf": "MG",
+    "d": "Matriz barroca do século XVIII com rica talha dourada."
+  },
+  {
+    "n": "Cascatona",
+    "cat": "verde",
+    "end": "Serra do Caraça",
+    "cidade": "Catas Altas",
+    "uf": "MG",
+    "d": "Cachoeira alta no meio da mata da Reserva do Caraça."
+  }
+]

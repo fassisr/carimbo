@@ -1,0 +1,85 @@
+[
+  {
+    "n": "Igreja Matriz de Santo Antônio",
+    "cat": "cultura",
+    "end": "Rua da Câmara, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Matriz coberta de ouro, com fachada atribuída a Aleijadinho e vista da serra."
+  },
+  {
+    "n": "Largo das Forras",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "A praça arborizada que é ponto de partida de todo passeio por Tiradentes."
+  },
+  {
+    "n": "Chafariz de São José",
+    "cat": "cultura",
+    "end": "Largo do Chafariz, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Chafariz de pedra de 1749 que ainda jorra água da Serra de São José."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário dos Pretos",
+    "cat": "cultura",
+    "end": "Rua Direita, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Igreja de pedra erguida por escravizados, uma das mais antigas da cidade."
+  },
+  {
+    "n": "Museu de Sant'Ana",
+    "cat": "cultura",
+    "end": "Rua Direita, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Acervo único de imagens de Sant'Ana na antiga Cadeia Pública."
+  },
+  {
+    "n": "Serra de São José",
+    "cat": "verde",
+    "end": "Tiradentes",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Paredão de pedra que emoldura a cidade, com trilhas e cachoeiras."
+  },
+  {
+    "n": "Estação Ferroviária de Tiradentes",
+    "cat": "cultura",
+    "end": "Tiradentes",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Ponto da Maria Fumaça que liga Tiradentes a São João del-Rei.",
+    "busca": [
+      "Maria Fumaça"
+    ]
+  },
+  {
+    "n": "Museu Casa do Padre Toledo",
+    "cat": "cultura",
+    "end": "Rua Padre Toledo, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Casa do inconfidente Padre Toledo, com forros pintados do século XVIII."
+  },
+  {
+    "n": "Igreja de São João Evangelista",
+    "cat": "cultura",
+    "end": "Largo do Sol, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Igrejinha singela no Largo do Sol, cercada de casario colonial."
+  },
+  {
+    "n": "Centro Cultural Yves Alves",
+    "cat": "cultura",
+    "end": "Rua Direita, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Espaço cultural com exposições, cinema e eventos no centro histórico."
+  }
+]

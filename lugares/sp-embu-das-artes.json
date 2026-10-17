@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Feira de Artes e Artesanato do Embu",
+    "cat": "cultura",
+    "end": "Largo dos Jesuítas, Centro",
+    "cidade": "Embu das Artes",
+    "uf": "SP",
+    "d": "Feira tradicional de fim de semana com artesanato, móveis rústicos e arte popular.",
+    "busca": [
+      "Feira do Embu"
+    ]
+  },
+  {
+    "n": "Igreja Nossa Senhora do Rosário e Museu de Arte Sacra dos Jesuítas",
+    "cat": "cultura",
+    "end": "Largo dos Jesuítas, Centro",
+    "cidade": "Embu das Artes",
+    "uf": "SP",
+    "d": "Conjunto jesuítico do século 17 com rica arte sacra barroca.",
+    "busca": [
+      "Museu de Arte Sacra dos Jesuítas"
+    ]
+  },
+  {
+    "n": "Centro Histórico de Embu das Artes",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Embu das Artes",
+    "uf": "SP",
+    "d": "Ruas de casario colonial repletas de ateliês, galerias e lojas de decoração."
+  },
+  {
+    "n": "Parque do Lago Francisco Rizzo",
+    "cat": "verde",
+    "end": "Embu das Artes",
+    "cidade": "Embu das Artes",
+    "uf": "SP",
+    "d": "Parque com lago, trilhas e área de lazer cercado de mata."
+  },
+  {
+    "n": "Memorial Sakai do Embu",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Embu das Artes",
+    "uf": "SP",
+    "d": "Museu dedicado ao ceramista Kenjiro Sakai e à arte japonesa no Embu."
+  }
+]

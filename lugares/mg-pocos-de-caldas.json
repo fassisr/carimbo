@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Thermas Antônio Carlos",
+    "cat": "cultura",
+    "end": "Praça Pedro Sanches, Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Termas históricas de 1931 com banhos de águas sulfurosas."
+  },
+  {
+    "n": "Palace Casino",
+    "cat": "cultura",
+    "end": "Praça Pedro Sanches, Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Antigo cassino dos anos 30, joia arquitetônica da cidade."
+  },
+  {
+    "n": "Serra de São Domingos",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Mirante do Cristo Redentor com vista de toda a cidade.",
+    "busca": [
+      "Cristo Redentor de Poços de Caldas"
+    ]
+  },
+  {
+    "n": "Recanto Japonês",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Jardim japonês com lagos, pontes e templo."
+  },
+  {
+    "n": "Fonte dos Amores",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Cascata romântica com escultura e lenda de amor."
+  },
+  {
+    "n": "Cascata das Antas",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Queda d'água em meio à natureza, perto do centro."
+  },
+  {
+    "n": "Parque José Affonso Junqueira",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Jardins centrais com fontes e os pavilhões históricos ao redor."
+  },
+  {
+    "n": "Teleférico de Poços de Caldas",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Bondinho que sobe até o Cristo com vista panorâmica."
+  }
+]

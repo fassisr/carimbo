@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Parque Estadual do Ibitipoca",
+    "cat": "verde",
+    "end": "Conceição de Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Grutas, cachoeiras e picos num dos parques mais visitados de Minas.",
+    "busca": [
+      "Ibitipoca"
+    ]
+  },
+  {
+    "n": "Janela do Céu",
+    "cat": "verde",
+    "end": "Conceição de Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Cachoeira em mirante natural, a trilha mais famosa de Ibitipoca."
+  },
+  {
+    "n": "Conceição de Ibitipoca",
+    "cat": "cultura",
+    "end": "Conceição de Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Vilarejo colonial com ruas de pedra e clima de montanha."
+  }
+]

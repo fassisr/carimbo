@@ -1,0 +1,58 @@
+[
+  {
+    "n": "Parque Nacional do Itatiaia",
+    "cat": "verde",
+    "end": "Estrada Parque",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Primeiro parque nacional do Brasil, com cachoeiras e picos de altitude."
+  },
+  {
+    "n": "Pico das Agulhas Negras",
+    "cat": "verde",
+    "end": "Parque Nacional do Itatiaia",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Um dos picos mais altos do país, com escalada inesquecível."
+  },
+  {
+    "n": "Pedra do Altar",
+    "cat": "verde",
+    "end": "Parque Nacional do Itatiaia",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Formação rochosa na parte alta do parque, com vista para as Prateleiras."
+  },
+  {
+    "n": "Cachoeira Véu da Noiva",
+    "cat": "verde",
+    "end": "Parque Nacional do Itatiaia",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Queda d'água de 40 metros na parte baixa do parque nacional."
+  },
+  {
+    "n": "Lago Azul",
+    "cat": "verde",
+    "end": "Parque Nacional do Itatiaia",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Poço de águas azuladas cercado por mata, ótimo para um mergulho."
+  },
+  {
+    "n": "Pequena Finlândia",
+    "cat": "cultura",
+    "end": "Penedo",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Vila com casinhas de inspiração finlandesa, lojas e a Casa do Papai Noel."
+  },
+  {
+    "n": "Cachoeira de Deus",
+    "cat": "verde",
+    "end": "Penedo",
+    "cidade": "Itatiaia",
+    "uf": "RJ",
+    "d": "Cachoeira com poços para banho a poucos minutos do centro de Penedo."
+  }
+]
