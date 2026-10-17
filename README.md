@@ -17,3 +17,7 @@ A cada push na `main`, o GitHub Actions gera um APK de teste e publica numa rele
 https://github.com/fassisr/carimbo/releases/latest/download/fuila.apk
 
 O app Android é o mesmo `index.html` empacotado com Capacitor (`android/`), usando o GPS nativo.
+
+## Créditos
+
+Personagens 3D: [KayKit Adventurers](https://kaylousberg.com) de Kay Lousberg, licença CC0. Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.

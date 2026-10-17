@@ -26,7 +26,7 @@ html, body { margin: 0; }
 :root {
   --brand: #3B2BF5; --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
   --ink: #3B2BF5; --ink-fg: #FFFFFF; --gold: #FFC21A; --gold-fg: #241A00; --ok: #1E8A4C;
-  --ground: #E9E7F7; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
+  --ground: #B4E6A0; --sky: #CFEFFF; --outside: #D3DECF; --street: #FFFFFF; --casing: #C6D2C2; --avenue: #FFF3D1; --avenue-casing: #E6CF8E;
   --park: #B8D9A6; --tree: #93C27E; --water: #A7CDE4; --label: #6E7D73;
   --me: #3B2BF5; --me-ring: #FFFFFF; --range: rgba(59, 43, 245, .10); --range-line: rgba(59, 43, 245, .55);
   --on-pin: #FFFFFF; --shadow: rgba(20, 35, 25, .22);
@@ -38,7 +38,7 @@ html, body { margin: 0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
-  --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --ground: #1D3A4C; --sky: #0F2233; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
@@ -48,7 +48,7 @@ html, body { margin: 0; }
 :root[data-theme="dark"] {
   --brand: #2B1FD0; --bg: #0D0B1C; --surface: #17142B; --surface-2: #201C3A; --fg: #EDEBFF; --muted: #9C98BD; --line: #2D2950;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
-  --ground: #16132A; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
+  --ground: #1D3A4C; --sky: #0F2233; --outside: #121a17; --street: #2B3833; --casing: #0F1613; --avenue: #4A4026; --avenue-casing: #1B170C;
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
@@ -254,6 +254,10 @@ main { position: relative; min-height: 0; isolation: isolate; z-index: 0; }
 .badge span { font-size: 11px; color: var(--muted); display: block; margin-top: 3px; line-height: 1.3; }
 .badge.locked .medal { background: var(--surface-2); color: var(--muted); box-shadow: 0 0 0 2px var(--line); }
 .badge.locked b { color: var(--muted); }
+.chars { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.charbtn { background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 4px 2px 8px; display: grid; justify-items: center; gap: 2px; font-size: 11px; font-weight: 700; color: var(--muted); min-width: 0; }
+.charbtn img { width: 100%; height: auto; display: block; }
+.charbtn.on { border-color: var(--ink); color: var(--fg); background: var(--surface-2); }
 .biz { margin-top: 26px; background: var(--surface-2); border-radius: 16px; padding: 14px; font-size: 13px; color: var(--muted); line-height: 1.5; }
 .biz b { color: var(--fg); }
 .reset { margin-top: 18px; width: 100%; background: none; border: 1px solid var(--line); border-radius: 12px; padding: 11px; color: var(--muted); font-weight: 600; }
@@ -308,6 +312,8 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 
 /* mapa real (Leaflet) */
 #map { background: var(--ground); }
+.sky { position: absolute; left: 0; right: 0; top: 0; height: 26%; pointer-events: none; z-index: 1;
+  background: linear-gradient(to bottom, var(--sky) 0%, var(--sky) 18%, color-mix(in srgb, var(--sky) 55%, transparent) 55%, transparent 100%); }
 .maplibregl-map { font-family: var(--f-body); }
 .maplibregl-ctrl-attrib { font-size: 10px; }
 .maplibregl-ctrl-bottom-right { bottom: 132px; }
@@ -366,6 +372,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
   <main>
     <section class="view" id="v-mapa" aria-label="Mapa">
       <div id="map"></div>
+      <div class="sky" aria-hidden="true"></div>
       <div class="status" id="status" hidden></div>
       <button class="fab" id="fabMe" type="button" aria-label="Centralizar em mim"></button>
       <button class="fab" id="fabDemo" type="button" aria-label="Modo demo: tocar no mapa para andar"></button>
@@ -390,6 +397,8 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 </div>
 
 <script src="assets/vendor/maplibre-gl.js"></script>
+<script type="importmap">{ "imports": { "three": "./assets/vendor/three/three.module.min.js" } }</script>
+<script type="module" src="assets/avatar3d.js"></script>
 <script>
 (() => {
 const KEY = 'carimbo-gps-v1'; // chave antiga mantida para não perder o progresso
@@ -462,6 +471,8 @@ const fmtN = n => n.toFixed(1).replace('.', ',');
 const fmtD = ts => { const d = new Date(ts); return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}`; };
 const level = () => Math.min(Math.floor(st.xp / XP_LEVEL), TITLES.length - 1);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const CHARS = [{ id: 'rogue', nome: 'Explorador' }, { id: 'rogue_hooded', nome: 'Encapuzado' }, { id: 'mage', nome: 'Mago' }, { id: 'knight', nome: 'Cavaleiro' }, { id: 'barbarian', nome: 'Bárbaro' }];
+const curChar = () => { try { return localStorage.getItem('fuila-char') || 'rogue'; } catch (e) { return 'rogue'; } };
 const TITLES = ['Turista', 'Curioso', 'Explorador', 'Morador', 'Cartógrafo', 'Lenda do bairro'];
 // nota e avaliações são de exemplo: na v1 vêm do Google
 const notaEx = p => 3.8 + (hash(p.id) % 12) / 10;
@@ -496,8 +507,8 @@ const dark = matchMedia('(prefers-color-scheme: dark)').matches;
 // estilo próprio do Fuilá sobre os dados do OpenStreetMap (OpenFreeMap, sem chave)
 function mapStyle(dk) {
   const c = dk
-    ? { bg: '#15122A', res: '#1A1731', park: '#1C3A2B', wood: '#1A3527', water: '#1F3A63', bld: '#2B2650', road: '#34305A', casing: '#0F0D20', major: '#5C4A17', majorCase: '#2A2108', path: '#4B4578', label: '#B3AED6', halo: '#15122A', place: '#D8D3FF' }
-    : { bg: '#EFEDF8', res: '#E8E5F5', park: '#CBEBC1', wood: '#B8E0AE', water: '#9CC8F2', bld: '#DCD8F0', road: '#FFFFFF', casing: '#D2CDEA', major: '#FFE39A', majorCase: '#EDC24B', path: '#B4ADDB', label: '#625E86', halo: '#FFFFFF', place: '#3B2BF5' };
+    ? { bg: '#1D3A4C', res: '#1F3E51', park: '#1D5546', wood: '#1A4D3F', water: '#245B8C', bld: '#2C5068', road: '#4E7393', casing: '#142B3A', major: '#9C8340', majorCase: '#3C3218', path: '#5E86A6', label: '#D3E6F2', halo: '#1D3A4C', place: '#FFE08A' }
+    : { bg: '#B4E6A0', res: '#AEE39A', park: '#8DD683', wood: '#79C870', water: '#6CC4EF', bld: '#E4F3DC', road: '#FFF7DC', casing: '#D9CB93', major: '#FFE08A', majorCase: '#E0B443', path: '#F4FFF0', label: '#3E5A3C', halo: '#F1FFEC', place: '#2B6B2F' };
   const cls = (...v) => ['match', ['get', 'class'], v, true, false];
   const w = (a, b) => ['interpolate', ['exponential', 1.6], ['zoom'], 13, a, 19, b];
   const MAJOR = cls('motorway', 'trunk', 'primary', 'secondary');
@@ -535,7 +546,7 @@ function mapStyle(dk) {
 }
 let map = null, mapReady = false;
 try {
-  map = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 17, pitch: 50, maxPitch: 65, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true } });
+  map = window.fuilaMap = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 18, pitch: 60, maxPitch: 70, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true } });
 } catch (e) {
   $('#map').innerHTML = '<div class="nomap">Seu celular não conseguiu desenhar o mapa 3D. Os lugares perto de você continuam na lista abaixo.</div>';
 }
@@ -548,7 +559,7 @@ function updateRange() { if (mapReady && me) map.getSource('range').setData(circ
 if (map) map.on('load', () => {
   const css = getComputedStyle(document.documentElement);
   map.addSource('range', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-  map.addLayer({ id: 'range-fill', type: 'fill', source: 'range', paint: { 'fill-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'fill-opacity': .12 } }, 'buildings');
+  map.addLayer({ id: 'range-fill', type: 'fill', source: 'range', paint: { 'fill-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'fill-opacity': .08 } }, 'buildings');
   map.addLayer({ id: 'range-line', type: 'line', source: 'range', paint: { 'line-color': css.getPropertyValue('--me').trim() || '#3B2BF5', 'line-width': 2, 'line-dasharray': [2, 2], 'line-opacity': .7 } }, 'buildings');
   mapReady = true; updateRange();
 });
@@ -570,12 +581,41 @@ meEl.innerHTML = `<svg width="46" height="62" viewBox="-23 -56 46 62" aria-hidde
 </svg>`;
 const meMarker = map && new maplibregl.Marker({ element: meEl, anchor: 'bottom' });
 let walkT = 0;
-function stepAvatar(from, to) {
+let use3d = false, follow = true, heading = 0, lastStep = null;
+function bearing(a, b) {
+  const r = Math.PI / 180, y = Math.sin((b.lng - a.lng) * r) * Math.cos(b.lat * r);
+  const x = Math.cos(a.lat * r) * Math.sin(b.lat * r) - Math.sin(a.lat * r) * Math.cos(b.lat * r) * Math.cos((b.lng - a.lng) * r);
+  return (Math.atan2(y, x) / r + 360) % 360;
+}
+// anima o avatar: direção, andar/correr e parar; forced = 'run' no modo demo
+function stepAvatar(from, to, forced) {
+  window.avatar3d?.setPos(to.lat, to.lng);
   if (!from || meters(from, to) < 1.5) return;
+  const now = performance.now();
+  const speed = lastStep ? meters(lastStep.p, to) / Math.max(0.2, (now - lastStep.t) / 1000) : 1;
+  lastStep = { p: { ...to }, t: now };
+  heading = bearing(from, to);
   if (Math.abs(to.lng - from.lng) > 1e-7) meEl.classList.toggle('left', to.lng < from.lng);
   meEl.classList.add('walking');
-  clearTimeout(walkT); walkT = setTimeout(() => meEl.classList.remove('walking'), 1800);
+  window.avatar3d?.setHeading(heading);
+  window.avatar3d?.setMotion(forced || (speed > 2.2 ? 'run' : 'walk'));
+  clearTimeout(walkT); walkT = setTimeout(() => { meEl.classList.remove('walking'); window.avatar3d?.setMotion('idle'); lastStep = null; }, 1800);
 }
+// câmera atrás do personagem, como nos jogos de mapa
+function followCam(instant) {
+  if (!map || !follow || !me) return;
+  const opts = { center: [me.lng, me.lat], bearing: heading };
+  instant ? map.jumpTo(opts) : map.easeTo({ ...opts, duration: reduced ? 0 : 900 });
+}
+if (map) map.on('dragstart', () => { follow = false; });
+// personagem no terço de baixo da tela, com mais horizonte à frente
+if (map) { const pad = () => map.setPadding({ top: Math.round(map.getContainer().clientHeight * 0.28), bottom: 0, left: 0, right: 0 }); pad(); map.on('resize', pad); }
+window.addEventListener('avatar3d-ready', () => {
+  use3d = true;
+  if (meMarker) meMarker.remove();
+  if (me) window.avatar3d.setPos(me.lat, me.lng);
+  window.avatar3d.setHeading(heading);
+});
 const markers = new Map();
 
 function pinHTML(p, cls) {
@@ -611,7 +651,8 @@ function setMe(lat, lng, acc) {
   if (first && !demo) $('#where').textContent = 'Você está aqui';
   if (meMarker) { meMarker.setLngLat([lng, lat]); if (first) meMarker.addTo(map); }
   updateRange();
-  if (first && map) map.jumpTo({ center: [lng, lat], zoom: 17 });
+  if (first && map) map.jumpTo({ center: [lng, lat], zoom: 18 });
+  else followCam();
   if (!lastFetch || (meters(lastFetch, me) > RADIUS_FETCH * 0.6 && Date.now() - lastTry > 60000)) loadPlaces();
   refresh();
 }
@@ -721,7 +762,7 @@ function walkTo(lat, lng) {
     const la = from.lat + (lat - from.lat) * t, ln = from.lng + (lng - from.lng) * t;
     if (t < 1) {
       const prev = me; me = { lat: la, lng: ln, acc: 0 }; stepAvatar(prev, me);
-      meMarker && meMarker.setLngLat([ln, la]); updateRange();
+      meMarker && meMarker.setLngLat([ln, la]); updateRange(); followCam(true);
       if (now - lastRefresh > 150) { lastRefresh = now; refresh(); }
       walkRaf = requestAnimationFrame(step);
     } else setMe(lat, lng, 0);
@@ -733,7 +774,7 @@ function renderFabs() {
   $('#fabDemo').innerHTML = ic('walk');
   $('#fabDemo').classList.toggle('on', demo);
 }
-$('#fabMe').onclick = () => { if (me && map) map.easeTo({ center: [me.lng, me.lat], zoom: Math.max(map.getZoom(), 17), pitch: 50, bearing: 0, duration: reduced ? 0 : 700 }); };
+$('#fabMe').onclick = () => { follow = true; if (me && map) map.easeTo({ center: [me.lng, me.lat], zoom: 18, pitch: 60, bearing: heading, duration: reduced ? 0 : 700 }); };
 $('#fabDemo').onclick = () => {
   demo = !demo; renderFabs();
   if (demo) toast('Modo demo: toque no mapa para andar');
@@ -767,8 +808,8 @@ $('#near').addEventListener('click', e => { const b = e.target.closest('[data-op
 
 // ---------- ficha do lugar ----------
 let openId = null;
-function openSheet(id) { openId = id; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
-function closeSheet() { openId = null; $('#sheet').hidden = true; renderNear(); }
+function openSheet(id) { openId = id; follow = false; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
+function closeSheet() { openId = null; $('#sheet').hidden = true; renderNear(); follow = true; followCam(); }
 const visitsIn = cat => Object.values(st.visits).filter(v => v.p.cat === cat).length;
 function renderSheet() {
   const p = getPlace(openId); if (!p) return closeSheet();
@@ -837,6 +878,7 @@ function checkin(p) {
   st.xp += gain;
   const up = level() > lvBefore;
   save(); refresh(); renderChrome();
+  window.avatar3d?.cheer();
   showReward(p, now, gain, coupon, earned, up);
 }
 function ticketHTML(c) {
@@ -935,12 +977,21 @@ function renderPassport() {
     <h3>Carimbos</h3>
     ${visited.length ? `<div class="page">${visited.map(([id, v]) => stampSVG({ id, ...v.p }, v.ts)).join('')}${Array.from({ length: slots }, () => '<div class="slot">?</div>').join('')}</div>`
       : `<div class="empty">${ic('stamp')}<b>Seu passaporte está em branco</b>Chegue a ${R} m de um café, bar, padaria ou parque e faça o check-in para ganhar o primeiro carimbo.</div>`}
+    <h3>Seu personagem</h3>
+    <div class="chars">${CHARS.map(c => `<button type="button" class="charbtn${curChar() === c.id ? ' on' : ''}" data-char="${c.id}" aria-pressed="${curChar() === c.id}"><img src="assets/chars/${c.id}.png" alt="" width="128" height="128"><span>${c.nome}</span></button>`).join('')}</div>
     <h3>Insígnias</h3>
     <div class="badges">${BADGES.map(b => { const g = st.badges[b.id]; return `<div class="badge${g ? '' : ' locked'}"><div class="medal" style="--cc:${b.cc}">${ic(g ? b.icon : 'lock')}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : esc(b.desc)}</span></div>`; }).join('')}</div>
     <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. Notas e ofertas são de exemplo neste protótipo; na versão de verdade as notas vêm do Google e as ofertas de lojas parceiras, que pagam por cada primeira visita confirmada.</div>
     <button class="reset" type="button" id="reset">Recomeçar do zero</button>`;
 }
 $('#v-passaporte').addEventListener('click', e => {
+  const cb = e.target.closest('[data-char]');
+  if (cb) {
+    try { localStorage.setItem('fuila-char', cb.dataset.char); } catch (err) {}
+    window.avatar3d?.setChar(cb.dataset.char);
+    renderPassport(); toast(`${CHARS.find(c => c.id === cb.dataset.char).nome} escolhido`);
+    return;
+  }
   const b = e.target.closest('#reset'); if (!b) return;
   if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Toque de novo para apagar todo o progresso'; return; }
   st = fresh(); save(); refresh(); renderChrome(); renderPassport(); toast('Progresso apagado');

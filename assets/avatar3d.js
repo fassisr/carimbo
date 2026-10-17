@@ -1,0 +1,123 @@
+// Personagem 3D do jogador, desenhado dentro do mapa (camada customizada do MapLibre com three.js).
+// Personagens: KayKit Adventurers (CC0), de Kay Lousberg.
+import * as THREE from 'three';
+import { GLTFLoader } from './vendor/three/loaders/GLTFLoader.js';
+
+export const CHARS = [
+  { id: 'rogue', nome: 'Explorador' },
+  { id: 'rogue_hooded', nome: 'Encapuzado' },
+  { id: 'mage', nome: 'Mago' },
+  { id: 'knight', nome: 'Cavaleiro' },
+  { id: 'barbarian', nome: 'Bárbaro' },
+];
+const CLIPS = { idle: 'Idle', walk: 'Walking_A', run: 'Running_A', cheer: 'Cheer' };
+const SIZE = 24;         // altura do personagem em metros no zoom 18 (exagerado, como nos jogos)
+
+function waitFor(fn) {
+  return new Promise(res => { const t = () => { const v = fn(); v ? res(v) : setTimeout(t, 50); }; t(); });
+}
+
+const map = await waitFor(() => window.fuilaMap);
+if (!map.isStyleLoaded()) await new Promise(r => map.once('load', r));
+
+const st = { lat: null, lng: null, yaw: Math.PI, targetYaw: Math.PI, motion: 'idle', cheering: false };
+const scene = new THREE.Scene();
+const camera = new THREE.Camera();
+scene.add(new THREE.HemisphereLight(0xffffff, 0x8a83c9, 2.4));
+const sun = new THREE.DirectionalLight(0xffffff, 2.4);
+sun.position.set(-3, 8, 4);
+scene.add(sun);
+const shadow = new THREE.Mesh(new THREE.CircleGeometry(0.3, 40), new THREE.MeshBasicMaterial({ color: 0x14112b, transparent: true, opacity: 0.3, depthWrite: false }));
+shadow.rotation.x = -Math.PI / 2;
+shadow.position.y = 0.005;
+scene.add(shadow);
+const ring = new THREE.Mesh(new THREE.RingGeometry(0.34, 0.4, 48), new THREE.MeshBasicMaterial({ color: 0xffc21a, transparent: true, opacity: 0.9, depthWrite: false, side: THREE.DoubleSide }));
+ring.rotation.x = -Math.PI / 2;
+ring.position.y = 0.006;
+scene.add(ring);
+const holder = new THREE.Group();
+scene.add(holder);
+
+const loader = new GLTFLoader();
+let mixer = null, actions = {}, current = null, charId = null;
+
+function play(name, fade = 0.25) {
+  const a = actions[name];
+  if (!a || a === current) return;
+  a.reset().fadeIn(fade).play();
+  if (current) current.fadeOut(fade);
+  current = a;
+}
+function applyMotion() { if (!st.cheering) play(CLIPS[st.motion] || 'Idle'); }
+
+function loadChar(id) {
+  if (id === charId) return Promise.resolve();
+  charId = id;
+  return new Promise((res, rej) => loader.load(`assets/chars/${id}.glb`, gltf => {
+    if (id !== charId) return res();
+    holder.clear();
+    const model = gltf.scene;
+    model.scale.setScalar(1 / 2.3); // todos os personagens KayKit usam o mesmo esqueleto e escala
+    holder.add(model);
+    mixer = new THREE.AnimationMixer(model);
+    actions = {}; current = null;
+    for (const clip of gltf.animations) actions[clip.name] = mixer.clipAction(clip);
+    mixer.addEventListener('finished', () => { st.cheering = false; applyMotion(); });
+    applyMotion();
+    map.triggerRepaint();
+    res();
+  }, undefined, rej));
+}
+
+let renderer = null, last = performance.now();
+const X = new THREE.Vector3(1, 0, 0), Y = new THREE.Vector3(0, 1, 0);
+map.addLayer({
+  id: 'avatar3d', type: 'custom', renderingMode: '3d',
+  onAdd(m, gl) {
+    renderer = new THREE.WebGLRenderer({ canvas: m.getCanvas(), context: gl, antialias: true });
+    renderer.autoClear = false;
+  },
+  render(gl, matrix) {
+    const now = performance.now(), dt = Math.min(0.1, (now - last) / 1000);
+    last = now;
+    if (st.lat == null) return;
+    if (mixer) mixer.update(dt);
+    // gira suavemente até a direção em que está andando
+    let d = st.targetYaw - st.yaw;
+    d = Math.atan2(Math.sin(d), Math.cos(d));
+    st.yaw += d * Math.min(1, dt * 8);
+    const pulse = 1 + 0.08 * Math.sin(now / 300);
+    ring.scale.setScalar(pulse);
+    const merc = maplibregl.MercatorCoordinate.fromLngLat([st.lng, st.lat], 0);
+    const metres = SIZE * Math.pow(2, Math.max(-1.5, Math.min(2.5, 18 - map.getZoom())));
+    const s = merc.meterInMercatorCoordinateUnits() * metres;
+    holder.rotation.y = st.yaw;
+    const l = new THREE.Matrix4().makeTranslation(merc.x, merc.y, merc.z)
+      .scale(new THREE.Vector3(s, -s, s))
+      .multiply(new THREE.Matrix4().makeRotationAxis(X, Math.PI / 2));
+    camera.projectionMatrix = new THREE.Matrix4().fromArray(matrix).multiply(l);
+    renderer.resetState();
+    renderer.render(scene, camera);
+    map.triggerRepaint();
+  },
+});
+
+window.avatar3d = {
+  CHARS,
+  get char() { return charId; },
+  setPos(lat, lng) { st.lat = lat; st.lng = lng; map.triggerRepaint(); },
+  // rumo em graus, 0 = norte, sentido horário
+  setHeading(deg) { st.targetYaw = Math.PI - deg * Math.PI / 180; },
+  setMotion(m) { if (m !== st.motion) { st.motion = m; applyMotion(); } },
+  cheer() {
+    const a = actions[CLIPS.cheer]; if (!a) return;
+    st.cheering = true; a.setLoop(THREE.LoopOnce, 1); a.clampWhenFinished = false;
+    play(CLIPS.cheer, 0.15);
+  },
+  setChar(id) { return loadChar(id); },
+};
+
+let saved = 'rogue';
+try { saved = localStorage.getItem('fuila-char') || 'rogue'; } catch (e) {}
+await loadChar(CHARS.some(c => c.id === saved) ? saved : 'rogue');
+window.dispatchEvent(new Event('avatar3d-ready'));
