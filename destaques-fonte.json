@@ -31,7 +31,9 @@
    "end": "Rua da Carioca, 39, Centro",
    "cidade": "Rio de Janeiro",
    "d": "Funciona desde 1887, famoso pelo chope e pela salada de batata alemã.",
-   "uf": "RJ"
+   "uf": "RJ",
+   "lat": -22.9066,
+   "lng": -43.1803
   },
   {
    "n": "Bracarense",
@@ -159,7 +161,9 @@
    "end": "Rua Visconde de Pirajá, 572, Ipanema",
    "cidade": "Rio de Janeiro",
    "d": "Livraria carioca querida, boa para passar a tarde folheando.",
-   "uf": "RJ"
+   "uf": "RJ",
+   "lat": -22.9844,
+   "lng": -43.2097
   },
   {
    "n": "Pão de Açúcar",

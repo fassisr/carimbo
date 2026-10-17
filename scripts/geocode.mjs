@@ -2,7 +2,7 @@
 // e grava destaques.json, que o app baixa ao abrir. Roda no GitHub Actions.
 import { readFile, writeFile } from 'node:fs/promises';
 
-const V = 2; // mude para refazer todas as posições
+const V = 3; // mude para refazer todas as posições
 const UA = 'Fuila/0.4 (+https://github.com/fassisr/carimbo)';
 const src = JSON.parse(await readFile('destaques-fonte.json', 'utf8'));
 let old = {};
@@ -36,7 +36,8 @@ const UFS = { RJ: 'rio de janeiro', ES: 'espirito santo', SP: 'sao paulo', MG: '
 // o resultado precisa estar na cidade (ou ao menos no estado) certo
 function inPlace(r, p) {
   const all = norm(r.display_name + ' ' + Object.values(r.address || {}).join(' '));
-  return all.includes(norm(p.cidade)) || (UFS[p.uf] && all.includes(UFS[p.uf]) && !p.cidade);
+  if (UFS[p.uf] && !all.includes(UFS[p.uf])) return false;
+  return !p.cidade || all.includes(norm(p.cidade));
 }
 // aceita só resultados que são o próprio lugar (nome bate) ou um endereço com número;
 // entre vários com o mesmo nome (redes), fica com o da rua informada
