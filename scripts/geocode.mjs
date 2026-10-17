@@ -71,6 +71,13 @@ function pick(results, p) {
 }
 
 const out = [], fails = [];
+// grava aos poucos: se o GitHub cortar uma rodada longa, a próxima continua de onde parou
+async function save() {
+  out.forEach(p => { p.id = 'd-' + p.chave.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); });
+  const keep = Object.values(old).filter(o => !out.some(p => p.chave === o.chave) && src.lugares.some(p => norm(`${p.n}|${p.cidade}`) === o.chave));
+  await writeFile('destaques.json', JSON.stringify({ atualizado: new Date().toISOString().slice(0, 10), lugares: [...out, ...keep] }, null, 1) + '\n');
+}
+let fresh = 0;
 for (const p of src.lugares) {
   const chave = norm(`${p.n}|${p.cidade}`);
   if (p.lat != null && p.lng != null) { out.push({ ...p, chave, geo: 'manual', v: V }); continue; }
@@ -89,8 +96,8 @@ for (const p of src.lugares) {
   if (!found) { fails.push(`${p.n} (${p.cidade})`); continue; }
   out.push({ ...p, chave, v: V, lat: +(+found.r.lat).toFixed(6), lng: +(+found.r.lon).toFixed(6), geo: found.how });
   console.log(`ok  ${p.n} (${p.cidade}) -> ${found.how}: ${found.r.display_name.slice(0, 90)}`);
+  if (++fresh % 25 === 0) await save();
 }
-out.forEach((p, i) => { p.id = 'd-' + p.chave.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); });
-await writeFile('destaques.json', JSON.stringify({ atualizado: new Date().toISOString().slice(0, 10), lugares: out }, null, 1) + '\n');
+await save();
 console.log(`\n${out.length} lugares com posição; ${fails.length} sem posição encontrada:`);
 for (const f of fails) console.log('  -', f);
