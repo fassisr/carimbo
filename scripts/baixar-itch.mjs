@@ -18,7 +18,14 @@ for (const slug of process.argv.slice(2)) try {
   console.log('download page', du.url);
   const key = du.url.match(/download\/([^/?]+)/)?.[1];
   const dl = await (await req(du.url)).text();
-  const ups = [...dl.matchAll(/data-upload_id="(\d+)"[\s\S]*?class="name"[^>]*title="([^"]+)"[\s\S]*?class="file_size"[^>]*><span>([^<]+)/g)].map(m => ({ id: m[1], name: m[2], size: m[3] }));
+  const ups = [];
+  for (const m of dl.matchAll(/data-upload_id="(\d+)"/g)) {
+    const seg = dl.slice(m.index, m.index + 1500);
+    const name = seg.match(/class="name"[^>]*title="([^"]+)"/)?.[1] || seg.match(/<strong class="name"[^>]*>([^<]+)/)?.[1] || ('arquivo-' + m[1]);
+    const size = seg.match(/class="file_size"[^>]*>(?:<span>)?([^<]+)/)?.[1] || '';
+    if (!ups.some(u => u.id === m[1])) ups.push({ id: m[1], name, size });
+  }
+  const i0 = dl.indexOf('upload'); console.log('trecho', dl.slice(i0 - 200, i0 + 1200).replace(/\s+/g, ' '));
   console.log('uploads', JSON.stringify(ups));
   if (!ups.length) console.log('pagina', dl.replace(/\s+/g, ' ').slice(0, 3000));
   mkdirSync(`itch/${slug}`, { recursive: true });
