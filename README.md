@@ -20,4 +20,6 @@ O app Android é o mesmo `index.html` empacotado com Capacitor (`android/`), usa
 
 ## Créditos
 
+Rotas a pé: [OSRM](https://project-osrm.org) mantido pela [FOSSGIS](https://routing.openstreetmap.de), com dados do OpenStreetMap.
+
 Personagens 3D: corpos, cabelos, capuz e animações da [Quaternius](https://quaternius.com) (Universal Base Characters, Universal Animation Library e Modular Character Outfits), licença CC0. Roupas, bonés, chapéus, mochila e capa são gerados pelo próprio app. Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.

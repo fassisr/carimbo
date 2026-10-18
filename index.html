@@ -205,6 +205,24 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 @keyframes fade { from { opacity: 0; } }
 
 /* status e avisos */
+/* navegação "Ir até lá": cartão da próxima instrução no topo */
+.nav { position: absolute; top: 12px; left: var(--safe-l); right: var(--safe-r); z-index: 530; display: grid; grid-template-columns: 64px 1fr; gap: 0 12px; align-items: center;
+  background: var(--ink); color: var(--ink-fg); border-radius: var(--r-lg); padding: 12px 12px 10px; box-shadow: 0 5px 0 var(--ink-edge), var(--float); animation: toastin var(--d-mid) var(--bounce); }
+.nav-arrow { grid-row: span 2; width: 64px; height: 64px; border-radius: 18px; background: rgba(255,255,255,.14); display: grid; place-items: center; }
+.nav-arrow svg { width: 44px; height: 44px; }
+.nav .spin { width: 26px; height: 26px; border-radius: 50%; border: 4px solid #fff; border-right-color: transparent; animation: spin .8s linear infinite; }
+.nav-dist { font: 800 28px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+.nav-txt { font-weight: 700; font-size: var(--t-sm); line-height: 1.25; opacity: .92; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.nav-foot { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,.18); font-size: var(--t-sm); font-weight: 700; }
+.nav-foot .to { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav-foot .to b { font-family: var(--f-display); font-variant-numeric: tabular-nums; }
+.nav-foot button { border: 0; border-radius: 999px; min-height: 40px; padding: 0 14px; font-weight: 800; font-size: var(--t-sm); background: rgba(255,255,255,.16); color: inherit; }
+.nav-foot button.end { background: var(--gold); color: var(--gold-fg); }
+.nav.off { background: #C8232C; box-shadow: 0 5px 0 #8E141B, var(--float); }
+.navigating .hud-me, .navigating #status, .navigating #near { display: none; }
+.navigating .hud { top: 176px; justify-content: flex-end; }
+.sh-go { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.sh-go .gbtn { justify-content: center; margin: 0; }
 .status { position: absolute; top: 88px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 32px); z-index: 520;
   display: flex; align-items: center; gap: 10px; background: var(--surface); color: var(--fg); font-size: var(--t-sm); font-weight: 600; padding: 8px 8px 8px 14px; border-radius: var(--r-md); box-shadow: 0 4px 0 var(--edge), var(--float); }
 .status span { flex: 1; min-width: 0; line-height: 1.35; }
@@ -741,6 +759,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
         </div>
       </div>
       <div class="status" id="status" hidden></div>
+      <div class="nav" id="nav" role="status" aria-live="polite" hidden></div>
       <div class="near" id="near" hidden></div>
       <div class="menu" id="menu" hidden></div>
       <div class="dock">
@@ -1101,7 +1120,7 @@ function setMe(lat, lng, acc) {
   if (!lastFetch || (meters(lastFetch, me) > RADIUS_FETCH * 0.6 && Date.now() - lastTry > 60000)) loadPlaces();
   refresh();
 }
-function refresh() { syncMarkers(); renderNear(); if (openId) renderSheet(); }
+function refresh() { syncMarkers(); renderNear(); if (openId) renderSheet(); navTick(); }
 
 // GPS
 function startGPS() {
@@ -1277,6 +1296,7 @@ function renderFabs() {
   $('#fabMe').innerHTML = ic('locate');
   $('#fabDemo').innerHTML = ic('walk');
   $('#fabDemo').classList.toggle('on', demo);
+  if (nav) renderNav();
   $('#fabFilter').innerHTML = ic('filter') + (filt.size ? `<span class="count">${filt.size}</span>` : '');
   $('#fabFilter').classList.toggle('on', !!filt.size);
   renderMisFab();
@@ -1375,6 +1395,180 @@ function closeSheet() {
   else { sh.classList.add('leaving'); setTimeout(() => { if (!openId) { sh.hidden = true; sh.className = 'sheet'; } }, 170); }
   renderNear(); follow = true; followCam();
 }
+// ---------- navegação "Ir até lá": rota a pé com a próxima instrução ----------
+// rota do OSRM a pé mantido pela FOSSGIS (dados do OpenStreetMap, grátis com uso moderado)
+const ROUTER = 'https://routing.openstreetmap.de/routed-foot/route/v1/foot/';
+const WALK_MS = 1.3; // velocidade média a pé (m/s)
+let nav = null; // { p, coords, cum, steps, total, along, off, offN, fetchedAt, alerted, loading }
+const wazeURL = p => `https://waze.com/ul?ll=${p.lat.toFixed(6)},${p.lng.toFixed(6)}&navigate=yes`;
+const gdirURL = p => `https://www.google.com/maps/dir/?api=1&destination=${p.lat.toFixed(6)},${p.lng.toFixed(6)}&travelmode=walking`;
+// "na Rua X", "no Largo Y"
+const naRua = n => n ? ` ${/^(rua|r\.|avenida|av\.?|travessa|praça|estrada|rodovia|ladeira|alameda|via|passarela|escadaria|calçada|orla|ponte|trilha|servidão|vila)\b/i.test(n) ? 'na' : 'no'} ${n}` : '';
+const TURN = { uturn: 'Faça o retorno', 'sharp right': 'Vire bem à direita', right: 'Vire à direita', 'slight right': 'Mantenha-se à direita', straight: 'Siga em frente', 'slight left': 'Mantenha-se à esquerda', left: 'Vire à esquerda', 'sharp left': 'Vire bem à esquerda' };
+const ANG = { uturn: 180, 'sharp right': 135, right: 90, 'slight right': 45, straight: 0, 'slight left': -45, left: -90, 'sharp left': -135 };
+function stepText(s, p) {
+  const m = s.maneuver || {}, mod = m.modifier || 'straight', n = s.name;
+  if (m.type === 'depart') return n ? `Siga${naRua(n)}` : `Siga em direção a ${p.n}`;
+  if (m.type === 'arrive') return `Chegue em ${p.n}`;
+  if (m.type === 'roundabout' || m.type === 'rotary') return `Na rotatória, pegue a ${m.exit || 1}ª saída${naRua(n)}`;
+  if (m.type === 'continue' || m.type === 'new name') return mod === 'straight' ? `Continue${naRua(n) || ' em frente'}` : `${TURN[mod]}${naRua(n)}`;
+  return `${TURN[mod] || 'Siga em frente'}${naRua(n)}`;
+}
+function arrowSVG(s) {
+  const m = s?.maneuver || {};
+  if (m.type === 'arrive') return `<svg viewBox="200 180 624 720" aria-hidden="true"><path fill="#FFC21A" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="#3B2BF5" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg>`;
+  const mod = m.modifier || 'straight';
+  if (mod === 'uturn') return `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M30 42V20a8 8 0 0 0-16 0v6"/><path d="M8 20l6 7 6-7"/></svg>`;
+  const a = ANG[mod] ?? 0, curve = Math.abs(a) >= 45;
+  // seta que sai de baixo e dobra para o lado da curva
+  return `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${curve
+    ? `<g transform="${a < 0 ? 'translate(48 0) scale(-1 1)' : ''}"><path d="M18 44V${Math.abs(a) > 100 ? 18 : 24}${Math.abs(a) > 100 ? 'a8 8 0 0 1 14 -5l6 9' : Math.abs(a) > 60 ? 'a8 8 0 0 1 8-8h12' : 'l12-12'}"/>${Math.abs(a) > 100 ? '<path d="M31 32l7 3 1-8"/>' : Math.abs(a) > 60 ? '<path d="M32 9l7 7-7 7"/>' : '<path d="M22 8h10v10"/>'}</g>`
+    : '<path d="M24 44V8M14 18l10-10 10 10"/>'}</svg>`;
+}
+// coordenadas planas em metros em volta de um ponto (precisão de sobra para alguns km)
+const flat = (o, q) => { const k = Math.cos(o.lat * Math.PI / 180); return [(q.lng - o.lng) * 111320 * k, (q.lat - o.lat) * 110540]; };
+// ponto da rota mais perto de mim: distância percorrida e distância até a linha
+function project(pt) {
+  let best = { d: Infinity, along: 0, i: 0 };
+  for (let i = 0; i < nav.coords.length - 1; i++) {
+    const a = flat(pt, nav.coords[i]), b = flat(pt, nav.coords[i + 1]);
+    const dx = b[0] - a[0], dy = b[1] - a[1], L2 = dx * dx + dy * dy || 1;
+    const t = Math.max(0, Math.min(1, -(a[0] * dx + a[1] * dy) / L2));
+    const d = Math.hypot(a[0] + dx * t, a[1] + dy * t);
+    if (d < best.d) best = { d, along: nav.cum[i] + Math.sqrt(L2) * t, i, t };
+  }
+  return best;
+}
+function setRoute(coords, steps) {
+  const cum = [0];
+  for (let i = 1; i < coords.length; i++) cum.push(cum[i - 1] + meters(coords[i - 1], coords[i]));
+  let acc = 0; for (const s of steps) { s.at = acc; acc += s.distance || 0; }
+  // as distâncias dos passos e da linha podem diferir um pouco: reescala para a linha
+  const k = acc ? cum[cum.length - 1] / acc : 1; for (const s of steps) s.at *= k;
+  Object.assign(nav, { coords, cum, steps, total: cum[cum.length - 1], fetchedAt: Date.now(), off: false, offN: 0, alerted: -1, loading: false });
+}
+async function fetchRoute() {
+  const p = nav.p, from = { ...me }, my = nav;
+  nav.loading = true; renderNav();
+  try {
+    const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 9000);
+    const r = await fetch(`${ROUTER}${from.lng},${from.lat};${p.lng},${p.lat}?overview=full&geometries=geojson&steps=true`, { signal: ctl.signal });
+    clearTimeout(t);
+    const j = await r.json(); if (nav !== my) return;
+    const rt = j.routes?.[0]; if (!rt) throw new Error(j.code || 'sem rota');
+    const coords = rt.geometry.coordinates.map(([lng, lat]) => ({ lat, lng }));
+    coords.unshift(from); coords.push({ lat: p.lat, lng: p.lng });
+    setRoute(coords, rt.legs.flatMap(l => l.steps));
+  } catch (e) {
+    if (nav !== my) return;
+    // sem internet ou sem rota: linha reta com a direção, e tenta de novo depois
+    setRoute([from, { lat: p.lat, lng: p.lng }], [{ maneuver: { type: 'depart' }, distance: meters(from, p) }, { maneuver: { type: 'arrive' }, distance: 0 }]);
+    nav.straight = true; nav.fetchedAt = Date.now() - 20000;
+    toast('Sem rota agora: mostrando a direção do lugar');
+  }
+  navTick();
+}
+function navLayers() {
+  if (!map || !mapReady) return;
+  if (!map.getSource('nav')) {
+    map.addSource('nav', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+    const before = map.getLayer('avatar3d') ? 'avatar3d' : undefined;
+    map.addLayer({ id: 'nav-case', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#FFFFFF', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 6, 19, 18], 'line-opacity': .95 } }, before);
+    map.addLayer({ id: 'nav-line', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': dark ? '#8C80FF' : '#3B2BF5', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 3.5, 19, 11] } }, before);
+    map.addLayer({ id: 'nav-dots', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#FFC21A', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 1.5, 19, 4], 'line-dasharray': [0.1, 2.4] } }, before);
+  }
+}
+function drawRoute(pr) {
+  if (!map || !mapReady) return;
+  navLayers();
+  let line = [];
+  if (nav && nav.coords) {
+    // só o que falta andar
+    const a = nav.coords[pr.i], b = nav.coords[pr.i + 1];
+    const here = { lat: a.lat + (b.lat - a.lat) * pr.t, lng: a.lng + (b.lng - a.lng) * pr.t };
+    line = [here, ...nav.coords.slice(pr.i + 1)].map(q => [q.lng, q.lat]);
+  }
+  map.getSource('nav').setData({ type: 'FeatureCollection', features: line.length > 1 ? [{ type: 'Feature', geometry: { type: 'LineString', coordinates: line }, properties: {} }] : [] });
+}
+function startNav(p) {
+  if (!me) { toast('Ainda procurando sua localização'); return; }
+  nav = { p }; closeSheet(); closeMenu();
+  $('#v-mapa').classList.add('navigating');
+  follow = true; if (map) map.easeTo({ center: [me.lng, me.lat], zoom: Math.max(map.getZoom(), 18), pitch: 60, duration: reduced ? 0 : 700 });
+  buzz('MEDIUM');
+  fetchRoute();
+}
+function stopNav(arrived) {
+  const p = nav?.p; nav = null; cancelAnimationFrame(walkRaf);
+  $('#nav').hidden = true; $('#v-mapa').classList.remove('navigating');
+  drawRoute(null);
+  if (arrived && p) { buzz('HEAVY'); som('badge'); toast(`Você chegou em ${p.n}!`); openSheet(p.id); }
+}
+function navTick() {
+  if (!nav || !nav.coords || !me) return renderNav();
+  const p = nav.p;
+  if (dist(p) <= reach()) return stopNav(true);
+  const pr = project(me);
+  nav.along = pr.along; nav.pr = pr;
+  // fora da rota: duas leituras seguidas longe da linha
+  const tol = 30 + Math.min(me.acc || 0, 30);
+  nav.offN = pr.d > tol ? nav.offN + 1 : 0;
+  nav.off = nav.offN >= 2;
+  if ((nav.off || nav.straight) && !nav.loading && Date.now() - nav.fetchedAt > 12000) { if (nav.off) toast('Recalculando a rota…'); fetchRoute(); return; }
+  // próxima manobra: o primeiro passo que ainda está à frente
+  let k = nav.steps.findIndex((s, i) => i > 0 && s.at > pr.along + 3);
+  if (k < 0) k = nav.steps.length - 1;
+  nav.next = k;
+  const toNext = Math.max(0, nav.steps[k].at - pr.along);
+  if (toNext < 20 && nav.alerted !== k && k < nav.steps.length - 1) { nav.alerted = k; buzz('MEDIUM'); }
+  drawRoute(pr);
+  renderNav();
+}
+function renderNav() {
+  const el = $('#nav');
+  if (!nav) { el.hidden = true; return; }
+  el.hidden = false;
+  const p = nav.p;
+  if (!nav.coords) {
+    el.className = 'nav';
+    el.innerHTML = `<div class="nav-arrow"><span class="spin"></span></div><div class="nav-dist">Calculando</div><div class="nav-txt">Rota a pé até ${esc(p.n)}</div>
+      <div class="nav-foot"><span class="to">${fmtM(dist(p))}</span><button type="button" class="end" data-nav="end">Encerrar</button></div>`;
+    return;
+  }
+  const s = nav.steps[nav.next ?? 1] || nav.steps[nav.steps.length - 1];
+  const toNext = Math.max(0, s.at - (nav.along || 0)), left = Math.max(0, nav.total - (nav.along || 0));
+  const min = Math.max(1, Math.round(left / WALK_MS / 60)), eta = new Date(Date.now() + left / WALK_MS * 1000);
+  let txt = stepText(s, p), arrow = arrowSVG(s);
+  if (nav.straight) { txt = `Siga em direção a ${p.n}`; const rel = Math.round(((bearing(me, p) - heading) + 540) % 360 - 180); arrow = `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="transform:rotate(${rel}deg)"><path d="M24 44V8M14 18l10-10 10 10"/></svg>`; }
+  if (nav.off) txt = 'Você saiu da rota. Recalculando…';
+  el.className = 'nav' + (nav.off ? ' off' : '');
+  el.innerHTML = `<div class="nav-arrow">${arrow}</div><div class="nav-dist">${nav.straight ? fmtM(dist(p)) : fmtM(toNext)}</div><div class="nav-txt">${esc(txt)}</div>
+    <div class="nav-foot"><span class="to"><b>${min} min</b> · ${fmtM(left)} · chega ${String(eta.getHours()).padStart(2, '0')}:${String(eta.getMinutes()).padStart(2, '0')}</span>${demo ? '<button type="button" data-nav="sim">Andar (demo)</button>' : ''}<button type="button" class="end" data-nav="end">Encerrar</button></div>`;
+}
+// modo demo: o avatar percorre a rota sozinho
+function walkRoute() {
+  if (!nav?.coords) return;
+  cancelAnimationFrame(walkRaf);
+  const start = nav.along || 0, total = nav.total, speed = Math.max(12, (total - start) / 25);
+  const t0 = performance.now(); let last = 0;
+  const at = d => { let i = nav.cum.findIndex(c => c >= d); if (i <= 0) return nav.coords[Math.max(0, i)]; const a = nav.coords[i - 1], b = nav.coords[i], t = (d - nav.cum[i - 1]) / ((nav.cum[i] - nav.cum[i - 1]) || 1); return { lat: a.lat + (b.lat - a.lat) * t, lng: a.lng + (b.lng - a.lng) * t }; };
+  const step = now => {
+    if (!nav?.coords) return;
+    const d = Math.min(total, start + (now - t0) / 1000 * speed), q = at(d);
+    const prev = me; me = { lat: q.lat, lng: q.lng, acc: 0 }; stepAvatar(prev, me, 'run');
+    meMarker && meMarker.setLngLat([q.lng, q.lat]); updateRange(); followCam(true);
+    if (now - last > 150) { last = now; refresh(); }
+    if (nav && d < total) walkRaf = requestAnimationFrame(step); else if (nav) setMe(q.lat, q.lng, 0);
+  };
+  walkRaf = requestAnimationFrame(step);
+}
+$('#nav').addEventListener('click', e => {
+  const b = e.target.closest('[data-nav]'); if (!b) return;
+  buzz();
+  if (b.dataset.nav === 'end') stopNav(false);
+  if (b.dataset.nav === 'sim') walkRoute();
+});
+
 const visitsIn = cat => Object.values(st.visits).filter(v => v.p.cat === cat).length;
 function renderSheet() {
   const p = getPlace(openId); if (!p) return closeSheet();
@@ -1386,7 +1580,8 @@ function renderSheet() {
   if (v) action = `<div class="done-row">${stampSVG(p, v.ts)}<div><b>Carimbado em ${fmtD(v.ts)}</b><span>${OF ? 'Seu cupom está em Cupons, no botão central.' : 'Este lugar já está no seu passaporte.'}</span></div></div>`;
   else if (inR) action = isPublic ? `<button class="cta gold" type="button" data-act="stamp">${ic('stamp')} Carimbar aqui</button>`
     : `<button class="cta gold" type="button" data-act="scan">${ic('qr')} Escanear QR no balcão</button>`;
-  else action = `<button class="cta" type="button" disabled>${ic('walk')} Chegue mais perto · faltam ${fmtM(d - reach())}</button>
+  else action = `<button class="cta" type="button" data-act="go">${ic('walk')} Ir até lá · ${fmtM(d)}</button>
+    <div class="sh-go"><a class="gbtn" href="${wazeURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${ic('ext')} Waze</a><a class="gbtn" href="${gdirURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${ic('ext')} Rota no Google</a></div>
     <button class="linkbtn" type="button" data-act="walk">Modo demo: ir até lá</button>`;
   const coin = p.logo ? `<img src="${esc(p.logo)}" alt="">` : ic(p.cat);
   $('#sheet').className = 'sheet hero';
@@ -1417,6 +1612,7 @@ $('#sheet').addEventListener('click', e => {
   const p = getPlace(openId);
   if (a.dataset.act === 'close') closeSheet();
   if (a.dataset.act === 'walk') { demo = true; renderFabs(); const off = 0.00025; walkTo(p.lat - off, p.lng); flyTo(p.lat, p.lng); toast('Modo demo ligado: posição simulada'); }
+  if (a.dataset.act === 'go') startNav(p);
   if (a.dataset.act === 'scan') openScan(p);
   if (a.dataset.act === 'stamp') checkin(p);
 });
