@@ -2,7 +2,7 @@
 # Descompacta os pacotes, converte cada .gltf para .glb com texturas de no máximo 1024 px e lista tudo.
 npm i -g @gltf-transform/cli@4 >/dev/null 2>&1
 mkdir -p saida bruto
-for z in itch/*/*.zip; do unzip -q -o "$z" -d "bruto/$(basename "$(dirname "$z")")" || true; done
+for z in itch/*/*; do case "$z" in *.txt) continue;; esac; unzip -q -o "$z" -d "bruto/$(basename "$(dirname "$z")")" || true; done
 find bruto -type f | sed 's|^bruto/||' | sort > saida/LISTA.txt
 du -sh bruto/* >> saida/LISTA.txt || true
 find bruto \( -iname '*.gltf' -o -iname '*.glb' \) | while read -r f; do

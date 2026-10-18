@@ -21,7 +21,7 @@ for (const slug of process.argv.slice(2)) try {
   const ups = [];
   for (const m of dl.matchAll(/data-upload_id="(\d+)"/g)) {
     const seg = dl.slice(m.index, m.index + 1500);
-    const name = seg.match(/class="name"[^>]*title="([^"]+)"/)?.[1] || seg.match(/<strong class="name"[^>]*>([^<]+)/)?.[1] || ('arquivo-' + m[1]);
+    const name = seg.match(/title="([^"]+\.zip)"/)?.[1] || seg.match(/class="name"[^>]*title="([^"]+)"/)?.[1] || seg.match(/<strong class="name"[^>]*>([^<]+)/)?.[1] || ('arquivo-' + m[1]); 
     const size = seg.match(/class="file_size"[^>]*>(?:<span>)?([^<]+)/)?.[1] || '';
     if (!ups.some(u => u.id === m[1])) ups.push({ id: m[1], name, size });
   }
