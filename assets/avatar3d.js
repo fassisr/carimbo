@@ -1,9 +1,9 @@
 // Personagem 3D do jogador, desenhado dentro do mapa (camada customizada do MapLibre com three.js).
-// Boneco único com itens trocáveis (assets/boneco.js), sobre o esqueleto KayKit Adventurers (CC0).
+// Boneco humano com itens trocáveis (assets/boneco.js), corpos e animações da Quaternius (CC0).
 import * as THREE from 'three';
 import { createBoneco, savedOutfit } from './boneco.js';
 
-const CLIPS = { idle: 'Idle', walk: 'Walking_A', run: 'Running_A', cheer: 'Cheer' };
+const CLIPS = { idle: 'Idle', walk: 'Walk', run: 'Run', cheer: 'Cheer' };
 const SIZE = 24;         // altura do personagem em metros no zoom 18 (exagerado, como nos jogos)
 
 function waitFor(fn) {
@@ -31,24 +31,15 @@ scene.add(ring);
 const holder = new THREE.Group();
 scene.add(holder);
 
-let mixer = null, actions = {}, current = null, boneco = null;
+let boneco = null;
 
-function play(name, fade = 0.25) {
-  const a = actions[name];
-  if (!a || a === current) return;
-  a.reset().fadeIn(fade).play();
-  if (current) current.fadeOut(fade);
-  current = a;
-}
-function applyMotion() { if (!st.cheering) play(CLIPS[st.motion] || 'Idle'); }
+function applyMotion() { if (!st.cheering) boneco?.play(CLIPS[st.motion] || 'Idle'); }
 
 async function loadBoneco() {
   boneco = await createBoneco();
-  boneco.wear(savedOutfit());
+  await boneco.wear(savedOutfit());
   holder.add(boneco.model);
-  mixer = new THREE.AnimationMixer(boneco.model);
-  for (const clip of boneco.animations) actions[clip.name] = mixer.clipAction(clip);
-  mixer.addEventListener('finished', () => { st.cheering = false; applyMotion(); });
+  boneco.onFinished = () => { st.cheering = false; applyMotion(); };
   applyMotion();
   map.triggerRepaint();
 }
@@ -65,7 +56,7 @@ map.addLayer({
     const now = performance.now(), dt = Math.min(0.1, (now - last) / 1000);
     last = now;
     if (st.lat == null) return;
-    if (mixer) mixer.update(dt);
+    boneco?.update(dt);
     // gira suavemente até a direção em que está andando
     let d = st.targetYaw - st.yaw;
     d = Math.atan2(Math.sin(d), Math.cos(d));
@@ -93,11 +84,10 @@ window.avatar3d = {
   setHeading(deg) { st.targetYaw = Math.PI - deg * Math.PI / 180; },
   setMotion(m) { if (m !== st.motion) { st.motion = m; applyMotion(); } },
   cheer() {
-    const a = actions[CLIPS.cheer]; if (!a) return;
-    st.cheering = true; a.setLoop(THREE.LoopOnce, 1); a.clampWhenFinished = false;
-    play(CLIPS.cheer, 0.15);
+    if (!boneco) return;
+    st.cheering = true; boneco.play(CLIPS.cheer, { once: true, fade: 0.15 });
   },
-  wear(o) { boneco?.wear(o); map.triggerRepaint(); },
+  wear(o) { boneco?.wear(o).then(() => { applyMotion(); map.triggerRepaint(); }); },
   resume() { map.triggerRepaint(); },
 };
 

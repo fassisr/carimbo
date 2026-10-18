@@ -1,6 +1,7 @@
 // Catálogo do visual do boneco. Por enquanto tudo está liberado; depois cada item pode ganhar uma regra de como obter.
 window.FUILA_ITENS = {
   slots: [
+    { id: 'corpo', nome: 'Corpo' },
     { id: 'chapeu', nome: 'Chapéu' },
     { id: 'camisa', nome: 'Camisa' },
     { id: 'calca', nome: 'Calça' },
@@ -11,6 +12,10 @@ window.FUILA_ITENS = {
     { id: 'pele', nome: 'Pele' },
   ],
   itens: {
+    corpo: [
+      { id: 'masculino', nome: 'Masculino', tipo: 'm' },
+      { id: 'feminino', nome: 'Feminino', tipo: 'f' },
+    ],
     chapeu: [
       { id: 'nenhum', nome: 'Sem chapéu' },
       { id: 'bone-fuila', nome: 'Boné Fuilá', tipo: 'bone', cores: ['#3B2BF5', '#FFC21A'], logo: true },
@@ -55,9 +60,11 @@ window.FUILA_ITENS = {
       { id: 'capa-vermelha', nome: 'Capa vermelha', tipo: 'capa', cores: ['#C8232C'] },
     ],
     cabelo: [
-      { id: 'topete', nome: 'Topete' },
-      { id: 'chanel', nome: 'Chanel' },
-      { id: 'rabo', nome: 'Rabo de cavalo' },
+      { id: 'topete', nome: 'Repartido' },
+      { id: 'chanel', nome: 'Longo' },
+      { id: 'rabo', nome: 'Coque' },
+      { id: 'raspado', nome: 'Raspado' },
+      { id: 'barba', nome: 'Raspado com barba' },
       { id: 'careca', nome: 'Careca com barba' },
     ],
     corCabelo: [
@@ -75,5 +82,5 @@ window.FUILA_ITENS = {
       { id: 'escura', nome: 'Escura', cores: ['#7A4A2C'] },
     ],
   },
-  padrao: { chapeu: 'bone-fuila', camisa: 'indigo', calca: 'jeans', tenis: 'branco', costas: 'nada', cabelo: 'topete', corCabelo: 'castanho', pele: 'media' },
+  padrao: { corpo: 'masculino', chapeu: 'bone-fuila', camisa: 'indigo', calca: 'jeans', tenis: 'branco', costas: 'nada', cabelo: 'topete', corCabelo: 'castanho', pele: 'media' },
 };

@@ -20,4 +20,4 @@ O app Android é o mesmo `index.html` empacotado com Capacitor (`android/`), usa
 
 ## Créditos
 
-Personagens 3D: [KayKit Adventurers](https://kaylousberg.com) de Kay Lousberg, licença CC0, recoloridos com o uniforme Fuilá (índigo e amarelo). Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.
+Personagens 3D: corpos, cabelos, capuz e animações da [Quaternius](https://quaternius.com) (Universal Base Characters, Universal Animation Library e Modular Character Outfits), licença CC0. Roupas, bonés, chapéus, mochila e capa são gerados pelo próprio app. Mapa: © OpenStreetMap, OpenFreeMap, OpenMapTiles.

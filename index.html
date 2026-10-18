@@ -1623,7 +1623,7 @@ function claimMissions(now = Date.now()) {
   return { list, xp, chests };
 }
 // inventário do boneco: o que vem de fábrica e o que saiu dos baús
-const FREE_SLOTS = ['cabelo', 'corCabelo', 'pele'], FREE_IDS = ['nenhum', 'nada'];
+const FREE_SLOTS = ['corpo', 'cabelo', 'corCabelo', 'pele'], FREE_IDS = ['nenhum', 'nada'];
 const itemKey = (slot, id) => slot + ':' + id;
 function ensureInv() {
   if (Array.isArray(st.inv)) return;
@@ -1948,7 +1948,7 @@ $('#v-passaporte').addEventListener('click', e => {
 });
 
 // ---------- visual do boneco ----------
-// um boneco só; os itens vêm de assets/itens.js (por enquanto todos liberados)
+// boneco humano (masculino ou feminino); os itens vêm de assets/itens.js
 const hasOutfit = () => { try { return !!localStorage.getItem('fuila-visual'); } catch (e) { return false; } };
 let outfit = (() => { let o = {}; try { o = JSON.parse(localStorage.getItem('fuila-visual')) || {}; } catch (e) {} const out = { ...ITENS.padrao }; for (const k of Object.keys(out)) if (ITENS.itens[k].some(i => i.id === o[k])) out[k] = o[k]; return out; })();
 let closetSlot = 'chapeu', closetStage = null, thumbStage = null, portrait = '';
@@ -1977,7 +1977,7 @@ async function updatePortrait() {
 }
 window.addEventListener('boneco-ready', updatePortrait);
 if (window.fuilaBoneco) updatePortrait();
-const SNAP_OF = { chapeu: { framing: 'face', yaw: 0.45 }, cabelo: { framing: 'face', yaw: 0.6 }, costas: { framing: 'back', yaw: Math.PI + 0.6 } };
+const SNAP_OF = { corpo: { framing: 'full', yaw: 0.4 }, chapeu: { framing: 'face', yaw: 0.45 }, cabelo: { framing: 'face', yaw: 0.6 }, costas: { framing: 'back', yaw: Math.PI + 0.6 } };
 function renderVisual() {
   const v = $('#v-visual');
   if (!v.querySelector('.closet-stage')) {
@@ -1999,7 +1999,8 @@ function renderVisual() {
     return `<button type="button" class="cl-item${lk ? ' locked' : ''}" data-item="${it.id}" aria-pressed="${on}"${lk ? ' aria-label="' + esc(it.nome) + ', bloqueado"' : ''}>${pic}${it.nome}${it.raro ? '<span class="raro">Raro</span>' : ''}${on ? `<span class="on-mark">${ic('check')}</span>` : ''}${lk ? `<span class="lk-mark">${ic('lock')}</span>` : ''}</button>`;
   }).join('');
   if (so) for (const it of list) {
-    const o = { ...outfit, [closetSlot]: it.id }, k = JSON.stringify(o) + closetSlot;
+    // cabelo aparece sem chapéu na miniatura
+    const o = { ...outfit, ...(closetSlot === 'cabelo' ? { chapeu: 'nenhum' } : {}), [closetSlot]: it.id }, k = JSON.stringify(o) + closetSlot;
     const put = url => { const el = v.querySelector(`[data-thumb="${it.id}"]`); if (el && url) el.style.backgroundImage = `url(${url})`; };
     if (thumbs.has(k)) put(thumbs.get(k)); else snap(o, so).then(url => { if (url) thumbs.set(k, url); put(url); });
   }
