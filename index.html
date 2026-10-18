@@ -399,6 +399,28 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
   background-image: repeating-linear-gradient(0deg, transparent 0 27px, var(--surface-2) 27px 28px); }
 .page svg.stamp { width: 100%; height: auto; display: block; }
 .slot { aspect-ratio: 1; max-width: 100%; border-radius: 50%; border: 2.5px dashed var(--line); display: grid; place-items: center; color: var(--muted); font: 800 var(--t-md) var(--f-display); margin: 10%; }
+/* apresentação (primeira vez) */
+#intro { position: fixed; inset: 0; z-index: 1500; background: var(--bg); display: flex; flex-direction: column; padding: max(14px, env(safe-area-inset-top)) 0 max(18px, env(safe-area-inset-bottom)); animation: fade var(--d-mid) var(--ease); }
+#intro .in-skip { align-self: flex-end; margin: 0 16px; border: 0; background: none; color: var(--muted); font-weight: 800; font-size: var(--t-sm); padding: 8px; }
+.in-track { flex: 1; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.in-track::-webkit-scrollbar { display: none; }
+.in-slide { flex: 0 0 100%; scroll-snap-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 28px; }
+.in-art { width: min(100%, 360px); aspect-ratio: 4 / 3; display: grid; place-items: center; position: relative; }
+.in-art svg.ilu { width: 100%; height: auto; }
+.in-art canvas { width: 100%; height: 100%; touch-action: pan-y; }
+.in-art.me { aspect-ratio: 1; width: min(100%, 340px); margin: -30px 0 -20px; }
+.in-art.me .in-floor { bottom: 9%; }
+.in-art .in-floor { position: absolute; left: 22%; right: 22%; bottom: 6%; height: 16%; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--brand) 22%, transparent), transparent); }
+.in-slide h2 { font: 800 var(--t-2xl) var(--f-display); margin: 18px 0 8px; letter-spacing: -.02em; }
+.in-slide p { color: var(--muted); line-height: 1.5; margin: 0; max-width: 34ch; font-size: var(--t-md); }
+.in-slide .in-art { animation: none; }
+.in-slide.on .in-art { animation: rise var(--d-party) var(--bounce); }
+.in-foot { padding: 0 20px; display: grid; gap: 14px; }
+.in-foot .dots { margin: 0; }
+.in-foot .cta { width: 100%; }
+.in-later { border: 0; background: none; color: var(--muted); font-weight: 700; font-size: var(--t-sm); padding: 4px; }
+/* telas vazias ilustradas */
+.empty .ilu { width: min(220px, 70%); height: auto; display: block; margin: -6px auto 6px; }
 /* passaporte como livrinho */
 .ppc { position: relative; overflow: hidden; color: #fff; border-radius: 10px var(--r-lg) var(--r-lg) 10px; padding: 18px 18px 16px 30px;
   background: radial-gradient(circle at 90% 0%, #5A4BFF, transparent 60%), linear-gradient(90deg, #1E1590 0 12px, #2B1FCF 12px 14px, var(--brand) 14px); box-shadow: 0 5px 0 var(--ink-edge); }
@@ -604,10 +626,14 @@ svg.stamp .ring { fill: none; stroke: currentColor; }
 svg.stamp text { fill: currentColor; }
 svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 
-#splash { position: fixed; inset: 0; z-index: 2000; background: radial-gradient(circle at 50% 40%, #5A4BFF, #3B2BF5 60%, #2A1CD0); color: #fff; display: grid; place-content: center; justify-items: center; gap: 6px; transition: opacity .4s; }
-#splash svg { width: 84px; height: 96px; animation: drop .6s cubic-bezier(.3, 1.5, .5, 1) both; }
-#splash b { font: 800 46px var(--f-display); letter-spacing: -.03em; }
+#splash { position: fixed; inset: 0; z-index: 2000; background: radial-gradient(circle at 50% 42%, #5A4BFF, #3B2BF5 55%, #2416C9); color: #fff; display: grid; place-items: center; transition: opacity .4s; }
+#splash > div { position: relative; margin-top: -4vh; line-height: 0; }
+#splash p { position: absolute; left: 50%; top: 92%; transform: translateX(-50%); margin: 0; display: grid; justify-items: center; white-space: nowrap; line-height: 1.2; }
+#splash img { width: min(42vw, 42vh); animation: pulse 1.2s var(--ease) .1s both; }
+#splash b { font: 800 44px var(--f-display); letter-spacing: -.03em; animation: up .5s var(--bounce) .15s both; }
+#splash small { font-weight: 700; opacity: .8; animation: up .5s var(--bounce) .3s both; }
 #splash.out { opacity: 0; pointer-events: none; }
+@keyframes pulse { 40% { transform: scale(1.06); } }
 @keyframes drop { from { transform: translateY(-40px) scale(.8); opacity: 0; } }
 
 @media (prefers-reduced-motion: reduce) {
@@ -625,7 +651,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
     </filter>
   </defs>
 </svg>
-<div id="splash" aria-hidden="true"><svg viewBox="200 180 624 720"><path fill="#FFC21A" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><path fill="none" stroke="#3B2BF5" stroke-width="68" stroke-linecap="round" stroke-linejoin="round" d="M402 452l80 80 148-150"/></svg><b>fuilá</b></div>
+<div id="splash" aria-hidden="true"><div><img src="assets/brand/pin.svg" alt=""><p><b>fuilá</b><small>Colecione lugares de verdade</small></p></div></div>
 <div id="app">
   <main>
     <section class="view" id="v-mapa" aria-label="Mapa">
@@ -665,10 +691,12 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
   <div class="overlay" id="scan" hidden></div>
   <div class="overlay" id="reward" hidden></div>
   <div id="toast" hidden></div>
+  <div id="intro" hidden></div>
 </div>
 
 <script src="assets/vendor/maplibre-gl.js"></script>
 <script src="assets/itens.js"></script>
+<script src="assets/ilustras.js"></script>
 <script src="assets/config.js"></script>
 <script src="assets/vendor/supabase/supabase.js"></script>
 <script src="assets/cloud.js"></script>
@@ -771,7 +799,7 @@ const fmtN = n => n.toFixed(1).replace('.', ',');
 const fmtD = ts => { const d = new Date(ts); return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}`; };
 const level = () => Math.min(Math.floor(st.xp / XP_LEVEL), TITLES.length - 1);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const ITENS = window.FUILA_ITENS;
+const ITENS = window.FUILA_ITENS, ILU = window.FUILA_ILU || {};
 const TITLES = ['Turista', 'Curioso', 'Explorador', 'Morador', 'Cartógrafo', 'Lenda do bairro'];
 // avaliações reais ficam no Google: o botão abre o lugar no Google Maps (grátis e permitido)
 function gmapsURL(p) {
@@ -1493,6 +1521,7 @@ $('#vclose').onclick = () => show('mapa');
 $('#hudMe').addEventListener('click', () => show('passaporte'));
 // botão voltar do Android fecha o que estiver aberto, um nível por vez
 window.Capacitor?.Plugins?.App?.addListener?.('backButton', () => {
+  if (!$('#intro').hidden) return;
   if (!$('#reward').hidden) $('#reward').hidden = true;
   else if (!$('#scan').hidden) closeScan();
   else if (tab !== 'mapa') show('mapa');
@@ -1525,7 +1554,7 @@ function renderCoupons() {
     <p class="lede">A primeira visita a um parceiro Fuilá libera um desconto. Os parceiros aparecem dourados no mapa, com o selo Parceiro.</p>
     ${st.coupons.length ? `<div class="stack">${act.map(ticketHTML).join('')}</div>
       ${used.length ? `<h3>Já usados</h3><div class="stack">${used.map(ticketHTML).join('')}</div>` : ''}`
-    : `<div class="empty">${ic('ticket')}<b>Nenhum cupom ainda</b>Escaneie o QR no balcão de um parceiro Fuilá e o desconto aparece aqui.</div>`}`;
+    : `<div class="empty">${ILU.cupom}<b>Nenhum cupom ainda</b>Escaneie o QR no balcão de um parceiro Fuilá e o desconto aparece aqui.</div>`}`;
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-use]'); if (!b) return;
@@ -1585,7 +1614,7 @@ function renderPassport() {
     <div class="dots">${leaves.map((_, i) => `<i${i === leafAt ? ' class="on"' : ''}></i>`).join('')}</div>
     <h3>Cidades</h3>
     ${cities.length ? `<p class="lede">Quanto você já conhece dos lugares escolhidos pelo Fuilá em cada cidade.</p><div class="stack">${cities.map((c, i) => cityCard(c, i === 0)).join('')}</div>`
-      : `<div class="empty">${ic('ext')}<b>Nenhuma cidade ainda</b>Quando você estiver perto de uma cidade com lugares do Fuilá, a porcentagem aparece aqui.</div>`}
+      : `<div class="empty">${ILU.cidade}<b>Nenhuma cidade ainda</b>Quando você estiver perto de uma cidade com lugares do Fuilá, a porcentagem aparece aqui.</div>`}
     <h3>Álbum de insígnias <small class="h-count">${nb} de ${BADGES.length}</small></h3>
     <div class="album">${BADGES.map(b => { const g = st.badges[b.id], n = Math.min(b.n(), b.goal); return `<button type="button" class="badge${g ? '' : ' locked'}" data-badge="${b.id}" style="--cc:${b.cc};--bp:${n / b.goal * 100}">
       <div class="medal">${ic(b.icon)}${g ? '' : `<span class="lk">${ic('lock')}</span>`}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : `${n}/${b.goal}`}</span></button>`; }).join('')}</div>
@@ -1780,11 +1809,49 @@ if (cloud.on) {
 let toastT = 0;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = true; void t.offsetWidth; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2400); }
 
+
+// ---------- apresentação na primeira vez ----------
+const INTRO_KEY = 'fuila-intro';
+const seenIntro = () => { try { return !!localStorage.getItem(INTRO_KEY); } catch (e) { return true; } };
+let introStage = null;
+function showIntro() {
+  const SL = [
+    { me: 1, art: '<div class="in-floor"></div><canvas width="360" height="360"></canvas>', h: 'Esse é você', p: 'No Fuilá você explora a sua cidade de verdade. Depois dá para trocar boné, roupa e tênis do boneco.' },
+    { art: ILU.mapa, h: 'Ande até um lugar', p: `Cafés, bares, parques e museus aparecem no mapa. Chegue a ${R} m de um deles e toque em Carimbar.` },
+    { art: ILU.carimbo, h: 'Encha o passaporte', p: 'Cada visita vira um carimbo. Complete coleções, ganhe insígnias e veja quanto da cidade você já conhece.' },
+    { art: ILU.cupom, h: 'Ganhe descontos', p: 'Os parceiros Fuilá dão um cupom na primeira visita. É só escanear o QR no balcão.' },
+  ];
+  const o = $('#intro');
+  o.innerHTML = `<button type="button" class="in-skip" data-in="skip">Pular</button>
+    <div class="in-track">${SL.map((x, i) => `<section class="in-slide${i ? '' : ' on'}"><div class="in-art${x.me ? ' me' : ''}">${x.art}</div><h2>${x.h}</h2><p>${x.p}</p></section>`).join('')}</div>
+    <div class="in-foot"><div class="dots">${SL.map((_, i) => `<i${i ? '' : ' class="on"'}></i>`).join('')}</div>
+      <button type="button" class="cta" data-in="next">Próximo</button><button type="button" class="in-later" data-in="skip" hidden>Agora não</button></div>`;
+  o.hidden = false; window.fuilaPaused = true;
+  const tr = o.querySelector('.in-track'), cta = o.querySelector('[data-in="next"]'), later = o.querySelector('.in-later'), last = SL.length - 1;
+  let at = 0;
+  const go = i => tr.scrollTo({ left: i * tr.clientWidth, behavior: reduced ? 'auto' : 'smooth' });
+  tr.addEventListener('scroll', () => {
+    const i = Math.round(tr.scrollLeft / tr.clientWidth); if (i === at) return; at = i;
+    o.querySelectorAll('.in-slide').forEach((s, k) => s.classList.toggle('on', k === i));
+    o.querySelectorAll('.dots i').forEach((d, k) => d.classList.toggle('on', k === i));
+    cta.textContent = i === last ? 'Ativar localização e começar' : 'Próximo'; later.hidden = i !== last;
+    if (i === 0) introStage?.start(); else introStage?.stop();
+  }, { passive: true });
+  const done = () => {
+    try { localStorage.setItem(INTRO_KEY, '1'); } catch (e) {}
+    introStage?.stop(); introStage = null; o.hidden = true; o.innerHTML = ''; window.fuilaPaused = false; window.avatar3d?.resume();
+    startGPS();
+  };
+  o.onclick = e => { const b = e.target.closest('[data-in]'); if (!b) return; buzz(); if (b.dataset.in === 'skip') done(); else if (at < last) go(at + 1); else done(); };
+  const boot = () => { const cv = o.querySelector('canvas'); if (!cv || introStage || !window.fuilaBoneco) return; introStage = window.fuilaBoneco.stage(cv); introStage.wear?.(outfit); introStage.ready?.then(() => introStage?.cheer?.()); introStage.start?.(); };
+  boot(); window.addEventListener('boneco-ready', boot, { once: true });
+}
+
 // ---------- início ----------
 renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
 loadDestaques(); loadFotos();
-startGPS();
+if (seenIntro()) startGPS(); else setTimeout(showIntro, reduced ? 100 : 900);
 })();
 </script>
 </body>
