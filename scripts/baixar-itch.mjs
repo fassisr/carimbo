@@ -25,12 +25,16 @@ for (const slug of process.argv.slice(2)) try {
     const size = seg.match(/class="file_size"[^>]*>(?:<span>)?([^<]+)/)?.[1] || '';
     if (!ups.some(u => u.id === m[1])) ups.push({ id: m[1], name, size });
   }
-  const i0 = dl.indexOf('upload'); console.log('trecho', dl.slice(i0 - 200, i0 + 1200).replace(/\s+/g, ' '));
+  const i1 = dl.indexOf('data-upload_id'); console.log('botao', dl.slice(i1 - 600, i1 + 600).replace(/\s+/g, ' '));
+  for (const m of dl.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)) if (/key|upload/i.test(m[1]) && m[1].length < 4000) console.log('script', m[1].replace(/\s+/g, ' '));
+  const keyJs = dl.match(/"key":"([^"]+)"/)?.[1] || dl.match(/key:\s*"([^"]+)"/)?.[1];
+  if (keyJs) console.log('keyJs', keyJs);
   console.log('uploads', JSON.stringify(ups));
   if (!ups.length) console.log('pagina', dl.replace(/\s+/g, ' ').slice(0, 3000));
   mkdirSync(`itch/${slug}`, { recursive: true });
   for (const u of ups) {
-    const j = await (await req(`${base}/file/${u.id}?source=game_download&key=${key}`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'XMLHttpRequest' }, body: new URLSearchParams({ csrf_token: csrf }) })).json();
+    const kk = (dl.match(/"key":"([^"]+)"/)?.[1]) || decodeURIComponent(key);
+    const j = await (await req(`${base}/file/${u.id}?source=game_download&key=${encodeURIComponent(kk)}`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'XMLHttpRequest' }, body: new URLSearchParams({ csrf_token: csrf }) })).json();
     if (!j.url) { console.log('sem url', u.name, JSON.stringify(j)); continue; }
     const r = await fetch(j.url, { headers: { 'User-Agent': UA } });
     const buf = Buffer.from(await r.arrayBuffer());
