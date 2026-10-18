@@ -1,0 +1,26 @@
+itch:
+total 28
+drwxr-xr-x  5 runner runner 4096 Oct 18 15:04 .
+drwxr-xr-x 13 runner runner 4096 Oct 18 15:04 ..
+-rw-r--r--  1 runner runner 6561 Oct 18 15:04 log.txt
+drwxr-xr-x  2 runner runner 4096 Oct 18 15:04 modular-character-outfits-fantasy
+drwxr-xr-x  2 runner runner 4096 Oct 18 15:04 universal-animation-library
+drwxr-xr-x  2 runner runner 4096 Oct 18 15:04 universal-base-characters
+
+itch/modular-character-outfits-fantasy:
+total 287464
+drwxr-xr-x 2 runner runner      4096 Oct 18 15:04 .
+drwxr-xr-x 5 runner runner      4096 Oct 18 15:04 ..
+-rw-r--r-- 1 runner runner 294347394 Oct 18 15:04 Modular Character Outfits - Fantasy[Standard].zip
+
+itch/universal-animation-library:
+total 15544
+drwxr-xr-x 2 runner runner     4096 Oct 18 15:04 .
+drwxr-xr-x 5 runner runner     4096 Oct 18 15:04 ..
+-rw-r--r-- 1 runner runner 15904933 Oct 18 15:04 Universal Animation Library[Standard].zip
+
+itch/universal-base-characters:
+total 125960
+drwxr-xr-x 2 runner runner      4096 Oct 18 15:04 .
+drwxr-xr-x 5 runner runner      4096 Oct 18 15:04 ..
+-rw-r--r-- 1 runner runner 128968391 Oct 18 15:04 Universal Base Characters[Standard].zip

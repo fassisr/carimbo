@@ -1,0 +1,247 @@
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Peasant_Arms.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Peasant_Body.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Peasant_Feet.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Peasant_Legs.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Acc_Pauldrons.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Arms.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Body.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Feet.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Head_Hood.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Female_Ranger_Legs.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Peasant_Arms.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Peasant_Body.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Peasant_Feet.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Peasant_Legs.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Acc_Pauldron.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Arms.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Body.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Feet_Boots.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Head_Hood.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Modular Parts/Male_Ranger_Legs.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Outfits/Female_Peasant.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Outfits/Female_Ranger.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Outfits/Male_Peasant.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/FBX (Unity)/Outfits/Male_Ranger.fbx
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Arms.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Arms.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Body.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Body.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Feet.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Feet.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Legs.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Legs.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Acc_Pauldrons.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Acc_Pauldrons.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Arms.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Arms.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Body.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Body.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Feet.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Feet.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Head_Hood.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Head_Hood.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Legs.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Legs.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Arms.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Arms.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Body.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Body.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Feet.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Feet.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Legs.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Peasant_Legs.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Acc_Pauldron.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Acc_Pauldron.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Arms.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Arms.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Body.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Body.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Feet_Boots.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Feet_Boots.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Head_Hood.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Head_Hood.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Legs.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Male_Ranger_Legs.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Peasant_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Peasant_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Peasant_ORM.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Ranger_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Ranger_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Ranger_ORM.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Female_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Female_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Female_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Male_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Male_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/T_Regular_Male_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Female_Peasant.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Female_Peasant.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Female_Ranger.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Female_Ranger.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Peasant.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Peasant.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Ranger.bin
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/Male_Ranger.gltf
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Peasant_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Peasant_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Peasant_ORM.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Ranger_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Ranger_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Ranger_ORM.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Female_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Female_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Female_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Male_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Male_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Outfits/T_Regular_Male_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/License_Standard.txt
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Preview.jpg
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Readme.txt
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Female_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Female_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Female_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Male_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Male_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Base/T_Regular_Male_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Peasant/Normals-UnrealEngine/T_Peasant_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Peasant/T_Peasant_2_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Peasant/T_Peasant_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Peasant/T_Peasant_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Peasant/T_Peasant_ORM.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Female_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Female_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Female_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Male_Dark_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Male_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Base Chars/T_Regular_Male_Roughness.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/Normals-UnrealEngine/T_Ranger_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/T_Ranger_3_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/T_Ranger_BaseColor.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/T_Ranger_Normal.png
+modular-character-outfits-fantasy/Modular Character Outfits - Fantasy[Standard]/Textures/Ranger/T_Ranger_ORM.png
+universal-animation-library/Universal Animation Library[Standard]/Godot_Setup.png
+universal-animation-library/Universal Animation Library[Standard]/License.txt
+universal-animation-library/Universal Animation Library[Standard]/README.txt
+universal-animation-library/Universal Animation Library[Standard]/Unity/UAL1_Standard.fbx
+universal-animation-library/Universal Animation Library[Standard]/Unity/UAL1_Standard_RM.fbx
+universal-animation-library/Universal Animation Library[Standard]/Unity_Setup.png
+universal-animation-library/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb
+universal-animation-library/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard_RM.glb
+universal-animation-library/Universal Animation Library[Standard]/Unreal_Setup.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.bin
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.bin
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Brown.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Eye_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_BaseColor_png.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_BaseColor_png.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Dark_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Female_Roughness.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Dark.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/T_Superhero_Male_Roughness.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Eye_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Superhero_Female_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/Normals Unity - Godot/T_Superhero_Male_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Eye_Brown.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Eye_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_1_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_2_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Dark_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Light_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Female_Roughness.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Dark.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Ligh.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Textures/T_Superhero_Male_Roughness.png
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Unity/Superhero_Female_FullBody.fbx
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Unity/Superhero_Male_FullBody.fbx
+universal-base-characters/Universal Base Characters[Standard]/Base Characters/Unreal-Engine-README.txt
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Eyebrows_Female.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Eyebrows_Regular.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Beard.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Buns.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Buzzed.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_BuzzedFemale.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_Long.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unity)/Hair_SimpleParted.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Eyebrows_Female.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Eyebrows_Regular.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Beard.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Buns.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Buzzed.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_BuzzedFemale.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_Long.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/FBX (Unreal Engine)/Hair_SimpleParted.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Female.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Eyebrows_Regular.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Beard.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buns.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Buzzed.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_BuzzedFemale.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_Long.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/Hair_SimpleParted.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Origin at 0/glTF (Godot)/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Eyebrows_Female.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Eyebrows_Regular.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Beard.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Buns.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Buzzed.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_BuzzedFemale.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_Long.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/FBX (Unity)/Hair_SimpleParted.fbx
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Regular.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Beard.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buzzed.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_BuzzedFemale.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Long.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.bin
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_SimpleParted.gltf
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/Normals Unity - Godot/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/Normals Unity - Godot/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_1_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_1_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_2_BaseColor.png
+universal-base-characters/Universal Base Characters[Standard]/Hairstyles/Textures/T_Hair_2_Normal.png
+universal-base-characters/Universal Base Characters[Standard]/License_Standard.txt
+universal-base-characters/Universal Base Characters[Standard]/Preview.png
+293M	bruto/modular-character-outfits-fantasy
+61M	bruto/universal-animation-library
+127M	bruto/universal-base-characters
+falhou universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf
+falhou universal-base-characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Male_FullBody.gltf
