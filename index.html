@@ -24,7 +24,7 @@ html, body { margin: 0; }
    Cores por função, escala curta de tipo (Bricolage para títulos e números, Figtree para texto),
    espaços em múltiplos de 4, três raios, sombra sólida embaixo ("apertável") e três tempos de movimento. */
 :root {
-  --brand: #3B2BF5; --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
+  --paper: #FFFBEF; --paper-line: rgba(59, 43, 245, .08); --brand: #3B2BF5; --bg: #F6F5FF; --surface: #FFFFFF; --surface-2: #EFEDFC; --fg: #14112B; --muted: #5D5A78; --line: #DEDBF3;
   --ink: #3B2BF5; --ink-fg: #FFFFFF; --gold: #FFC21A; --gold-fg: #241A00; --ok: #1E8A4C;
   --edge: #D4CFF6; --ink-edge: #2112C4; --gold-edge: #D99B00; --scrim: rgba(20, 17, 43, .45);
   --sky: #9C92FF; --ground: #E6E3FF;
@@ -40,7 +40,7 @@ html, body { margin: 0; }
   --safe-l: max(16px, env(safe-area-inset-left, 0px)); --safe-r: max(16px, env(safe-area-inset-right, 0px));
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --brand: #3B2BF5; --bg: #0D0B1C; --surface: #1B1733; --surface-2: #252046; --fg: #EDEBFF; --muted: #A29EC4; --line: #332E5C;
+  --paper: #221D3E; --paper-line: rgba(255, 255, 255, .06); --brand: #3B2BF5; --bg: #0D0B1C; --surface: #1B1733; --surface-2: #252046; --fg: #EDEBFF; --muted: #A29EC4; --line: #332E5C;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
   --edge: #07060F; --ink-edge: #5B4FE0; --gold-edge: #B37D00; --scrim: rgba(5, 4, 15, .6);
   --sky: #0C0930; --ground: #1A1452; --me: #8C80FF; --shadow: rgba(0, 0, 0, .5);
@@ -48,7 +48,7 @@ html, body { margin: 0; }
   color-scheme: dark;
 } }
 :root[data-theme="dark"] {
-  --brand: #3B2BF5; --bg: #0D0B1C; --surface: #1B1733; --surface-2: #252046; --fg: #EDEBFF; --muted: #A29EC4; --line: #332E5C;
+  --paper: #221D3E; --paper-line: rgba(255, 255, 255, .06); --brand: #3B2BF5; --bg: #0D0B1C; --surface: #1B1733; --surface-2: #252046; --fg: #EDEBFF; --muted: #A29EC4; --line: #332E5C;
   --ink: #8C80FF; --ink-fg: #0D0B1C; --gold: #FFC93D; --gold-fg: #241A00; --ok: #4CC782;
   --edge: #07060F; --ink-edge: #5B4FE0; --gold-edge: #B37D00; --scrim: rgba(5, 4, 15, .6);
   --sky: #0C0930; --ground: #1A1452; --me: #8C80FF; --shadow: rgba(0, 0, 0, .5);
@@ -399,6 +399,88 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
   background-image: repeating-linear-gradient(0deg, transparent 0 27px, var(--surface-2) 27px 28px); }
 .page svg.stamp { width: 100%; height: auto; display: block; }
 .slot { aspect-ratio: 1; max-width: 100%; border-radius: 50%; border: 2.5px dashed var(--line); display: grid; place-items: center; color: var(--muted); font: 800 var(--t-md) var(--f-display); margin: 10%; }
+/* passaporte como livrinho */
+.ppc { position: relative; overflow: hidden; color: #fff; border-radius: 10px var(--r-lg) var(--r-lg) 10px; padding: 18px 18px 16px 30px;
+  background: radial-gradient(circle at 90% 0%, #5A4BFF, transparent 60%), linear-gradient(90deg, #1E1590 0 12px, #2B1FCF 12px 14px, var(--brand) 14px); box-shadow: 0 5px 0 var(--ink-edge); }
+.ppc::after { content: ""; position: absolute; inset: 0; background: repeating-radial-gradient(circle at 110% 120%, transparent 0 14px, rgba(255, 255, 255, .05) 14px 15px); pointer-events: none; }
+.ppc-top { display: flex; align-items: center; gap: 10px; color: var(--gold); }
+.ppc-top small { display: block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; font-weight: 700; }
+.ppc-top b { font: 800 var(--t-md) var(--f-display); letter-spacing: .14em; }
+.ppc-emb { width: 38px; height: 38px; border-radius: 50%; border: 2px solid var(--gold); display: grid; place-items: center; flex: none; }
+.ppc-emb .ic { width: 22px; height: 22px; }
+.ppc-emb .ic .du { opacity: .5; }
+.ppc-me { display: flex; align-items: center; gap: 14px; margin: 16px 0 14px; position: relative; z-index: 1; }
+.ppc-me img { width: 72px; height: 72px; border-radius: 14px; background: rgba(255, 255, 255, .14); border: 3px solid rgba(255, 255, 255, .85); object-fit: cover; flex: none; }
+.ppc-me small { font-size: var(--t-xs); font-weight: 700; opacity: .8; display: block; }
+.ppc-me h2 { font: 800 var(--t-2xl) var(--f-display); margin: 0; line-height: 1.05; }
+.ppc .bar { background: rgba(255, 255, 255, .18); box-shadow: none; position: relative; z-index: 1; }
+.ppc .bar i { background: var(--gold); }
+.ppc-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 14px; position: relative; z-index: 1; }
+.ppc-stats span { font-size: 11px; font-weight: 700; opacity: .85; text-align: center; }
+.ppc-stats span + span { border-left: 1px solid rgba(255, 255, 255, .2); }
+.ppc-stats b { display: block; font: 800 var(--t-lg) var(--f-display); font-variant-numeric: tabular-nums; opacity: 1; }
+.book { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; gap: 0; border-radius: var(--r-md); outline: none; }
+.book::-webkit-scrollbar { display: none; }
+.leaf { flex: 0 0 100%; scroll-snap-align: start; padding: 14px 16px 16px; position: relative; background: var(--paper);
+  background-image: repeating-linear-gradient(0deg, transparent 0 23px, var(--paper-line) 23px 24px); border-radius: var(--r-md); box-shadow: inset 10px 0 14px -10px rgba(40, 20, 90, .25), 0 4px 0 var(--edge); }
+.leaf header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px dashed var(--paper-line); padding-bottom: 8px; margin-bottom: 6px; }
+.leaf header b { font: 800 var(--t-md) var(--f-display); }
+.leaf header span { font: 700 var(--t-xs) var(--f-display); color: var(--muted); }
+.leaf-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.leaf-st { border: 0; background: none; padding: 0; transform: rotate(var(--r)) translateX(var(--x)); }
+.leaf-st svg.stamp { width: 100%; height: auto; display: block; }
+.leaf .slot { opacity: .7; }
+.leaf .slot .ic { width: 26px; height: 26px; }
+.leaf-note { color: var(--muted); font-size: var(--t-sm); text-align: center; margin: 6px 0 0; }
+.dots { display: flex; justify-content: center; gap: 6px; margin-top: 12px; }
+.dots i { width: 7px; height: 7px; border-radius: 4px; background: var(--line); transition: all var(--d-fast) var(--ease); }
+.dots i.on { width: 20px; background: var(--brand); }
+/* cidades */
+details.city { background: var(--surface); border-radius: var(--r-md); box-shadow: 0 4px 0 var(--edge); }
+details.city summary { list-style: none; display: flex; align-items: center; gap: 12px; padding: 12px 14px; cursor: pointer; }
+details.city summary::-webkit-details-marker { display: none; }
+details.city summary > div { flex: 1; min-width: 0; }
+details.city summary > div b { display: block; font: 800 var(--t-md) var(--f-display); }
+details.city summary > div span { font-size: var(--t-xs); color: var(--muted); font-weight: 600; }
+details.city summary > .ic { width: 22px; height: 22px; color: var(--muted); transition: transform var(--d-fast) var(--ease); }
+details.city[open] summary > .ic { transform: rotate(180deg); }
+.city-ring { width: 54px; height: 54px; border-radius: 50%; flex: none; display: grid; place-items: center; background: conic-gradient(var(--brand) calc(var(--pct) * 1%), var(--surface-2) 0); }
+.city-ring b { width: 42px; height: 42px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font: 800 var(--t-sm) var(--f-display); font-variant-numeric: tabular-nums; }
+.city-cats { padding: 2px 14px 14px; display: grid; gap: 10px; }
+.cc-row { display: grid; grid-template-columns: 34px 1fr 40px; align-items: center; gap: 10px; }
+.cc-ic { width: 34px; height: 34px; border-radius: 10px; background: var(--cc); color: #fff; display: grid; place-items: center; }
+.cc-ic .ic { width: 20px; height: 20px; }
+.cc-ic .ic .du { opacity: .35; }
+.cc-top { display: flex; justify-content: space-between; font-size: var(--t-sm); margin-bottom: 5px; }
+.cc-top span { color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; }
+.cc-row .bar i { background: var(--cc); }
+.cc-row em { font: 800 var(--t-sm) var(--f-display); font-style: normal; text-align: right; font-variant-numeric: tabular-nums; }
+/* álbum de insígnias */
+.h-count { font: 700 var(--t-sm) var(--f-body, inherit); color: var(--muted); margin-left: 6px; }
+.album { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.album .badge { border: 0; font: inherit; color: inherit; cursor: pointer; transition: transform var(--d-fast) var(--bounce); }
+.album .badge:active { transform: scale(.95); }
+.album .badge.sel { box-shadow: 0 0 0 3px var(--cc), 0 4px 0 var(--edge); }
+.album .medal { background: var(--cc); position: relative; box-shadow: 0 0 0 4px #fff, 0 0 0 6px var(--gold), 0 5px 0 4px var(--gold-edge); margin-bottom: 14px; }
+.album .medal::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: linear-gradient(135deg, rgba(255, 255, 255, .45), transparent 45%); }
+.album .badge.locked .medal { background: var(--surface-2); color: var(--muted); box-shadow: none; }
+.album .badge.locked .medal::after { inset: -5px; background: conic-gradient(var(--cc) calc(var(--bp) * 1%), var(--line) 0); -webkit-mask: radial-gradient(circle, transparent 31px, #000 32px); mask: radial-gradient(circle, transparent 31px, #000 32px); }
+.album .badge.locked .medal > .ic { opacity: .35; }
+.album .lk { position: absolute; right: -6px; bottom: -6px; width: 22px; height: 22px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; box-shadow: 0 0 0 2px var(--line); z-index: 1; }
+.album .lk .ic { width: 13px; height: 13px; }
+.album .badge.locked span { font-weight: 800; font-variant-numeric: tabular-nums; }
+.badge-info { display: flex; gap: 14px; align-items: center; margin-top: 12px; background: var(--surface); border-radius: var(--r-md); padding: 14px; box-shadow: 0 4px 0 var(--edge); animation: rise var(--d-mid) var(--bounce); }
+.badge-info .medal { margin: 0; flex: none; background: var(--cc); }
+.badge-info .medal.off { background: var(--surface-2); color: var(--muted); box-shadow: 0 0 0 3px var(--line); }
+.album .badge:last-child:nth-child(3n+1) { grid-column: 1 / -1; display: flex; align-items: center; gap: 16px; text-align: left; padding: 14px 18px; }
+.album .badge:last-child:nth-child(3n+1) .medal { margin: 6px 4px; flex: none; }
+.album .badge:last-child:nth-child(3n+1) b { font-size: var(--t-md); margin: 0; }
+.album .badge:last-child:nth-child(3n+1) span { margin: 0 0 0 auto; font-size: var(--t-sm); }
+.badge-info > div:last-child { flex: 1; }
+.badge-info b { display: block; font: 800 var(--t-md) var(--f-display); }
+.badge-info span { font-size: var(--t-sm); color: var(--muted); display: block; margin: 2px 0 8px; }
+.badge-info em { font-style: normal; font-weight: 800; font-size: var(--t-xs); display: block; margin-top: 6px; }
+.badge-info .bar i { background: var(--cc); }
 .badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; }
 .badge { text-align: center; background: var(--surface); border-radius: var(--r-md); padding: 12px 8px; box-shadow: 0 4px 0 var(--edge); }
 .medal { width: 56px; height: 56px; margin: 0 auto 8px; border-radius: 50%; display: grid; place-items: center; color: var(--on-pin);
@@ -633,6 +715,7 @@ ICONS.hanger = '<path d="M12 7.5a2 2 0 1 1 2-2"/><path d="M12 7.5v1.2L3.6 15a1.5
 ICONS.party = '<path d="M4 20l4.5-12 7.5 7.5z"/><path d="M14 4.5l.5 2M19.5 9.5l-2 .5M17 3.5l-1 3M20.5 5.5l-3 1.5"/>';
 ICONS.filter = '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>';
 ICONS.radar = '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12l6.2-6.2"/>';
+ICONS.chev = '<path d="M8 10l4 4 4-4"/>';
 ICONS.ext = '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>';
 // segunda cor dos ícones: formas cheias por baixo do contorno
 const DUO = {
@@ -1262,11 +1345,11 @@ function openScan(p) {
 function code() { const a = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let s = 'CRB-'; for (let i = 0; i < 4; i++) s += a[Math.floor(Math.random() * a.length)]; return s; }
 const nVisits = () => Object.keys(st.visits).length;
 const BADGES = [
-  { id: 'first', nome: 'Primeiro carimbo', desc: 'Faça o primeiro check-in', icon: 'stamp', cc: 'var(--c-cafe)', xp: 100, ok: () => nVisits() >= 1 },
-  { id: 'five', nome: 'Andarilho', desc: 'Carimbe 5 lugares', icon: 'flag', cc: 'var(--c-cultura)', xp: 100, ok: () => nVisits() >= 5 },
-  { id: 'ten', nome: 'Explorador', desc: 'Carimbe 10 lugares', icon: 'compass', cc: 'var(--c-bar)', xp: 100, ok: () => nVisits() >= 10 },
-  ...CAT_IDS.map(c => ({ id: 'col_' + c, nome: CATS[c].badge, desc: `Carimbe ${CATS[c].meta} lugares de ${CATS[c].nome.toLowerCase()}`, icon: c, cc: `var(--c-${c})`, xp: 150, ok: () => visitsIn(c) >= CATS[c].meta })),
-  { id: 'all', nome: 'Dono do pedaço', desc: 'Carimbe 30 lugares', icon: 'crown', cc: 'var(--c-doce)', xp: 200, ok: () => nVisits() >= 30 },
+  { id: 'first', nome: 'Primeiro carimbo', desc: 'Faça o primeiro check-in', icon: 'stamp', cc: 'var(--c-cafe)', xp: 100, goal: 1, n: nVisits, ok: () => nVisits() >= 1 },
+  { id: 'five', nome: 'Andarilho', desc: 'Carimbe 5 lugares', icon: 'flag', cc: 'var(--c-cultura)', xp: 100, goal: 5, n: nVisits, ok: () => nVisits() >= 5 },
+  { id: 'ten', nome: 'Explorador', desc: 'Carimbe 10 lugares', icon: 'compass', cc: 'var(--c-bar)', xp: 100, goal: 10, n: nVisits, ok: () => nVisits() >= 10 },
+  ...CAT_IDS.map(c => ({ id: 'col_' + c, nome: CATS[c].badge, desc: `Carimbe ${CATS[c].meta} lugares de ${CATS[c].nome.toLowerCase()}`, icon: c, cc: `var(--c-${c})`, xp: 150, goal: CATS[c].meta, n: () => visitsIn(c), ok: () => visitsIn(c) >= CATS[c].meta })),
+  { id: 'all', nome: 'Dono do pedaço', desc: 'Carimbe 30 lugares', icon: 'crown', cc: 'var(--c-doce)', xp: 200, goal: 30, n: nVisits, ok: () => nVisits() >= 30 },
 ];
 function checkin(p, serverCoupon) {
   if (st.visits[p.id]) return;
@@ -1451,36 +1534,86 @@ document.addEventListener('click', e => {
   else { b.dataset.armed = '1'; b.textContent = 'Confirmar'; }
 });
 
+// cidade de um carimbo: a do próprio lugar ou a do destaque mais perto (até 30 km)
+function cityOf(p) {
+  if (p.city) return p.city;
+  let best = null, bm = 30000;
+  for (const d of destaques) { if (!d.city) continue; const m = meters(d, p); if (m < bm) { bm = m; best = d.city; } }
+  return best || 'Outros lugares';
+}
+// progresso por cidade, contando só os lugares escolhidos do Fuilá (lista finita)
+function cityProgress(city) {
+  const list = destaques.filter(d => d.city === city), by = {};
+  for (const d of list) { const c = by[d.cat] ??= { tot: 0, got: 0 }; c.tot++; if (st.visits[d.id]) c.got++; }
+  const got = list.filter(d => st.visits[d.id]).length;
+  return { city, uf: list[0]?.uf || '', tot: list.length, got, pct: list.length ? Math.round(got / list.length * 100) : 0, by };
+}
+function cityCard(c, open) {
+  const cats = CAT_IDS.filter(k => c.by[k]);
+  return `<details class="city"${open ? ' open' : ''} style="--pct:${c.pct}">
+    <summary><span class="city-ring"><b>${c.pct}%</b></span><div><b>${esc(c.city)}</b><span>${c.got} de ${c.tot} lugares do Fuilá${c.uf ? ` · ${esc(c.uf)}` : ''}</span></div>${ic('chev')}</summary>
+    <div class="city-cats">${cats.map(k => { const x = c.by[k], pc = Math.round(x.got / x.tot * 100); return `<div class="cc-row" style="--cc:var(--c-${k})"><span class="cc-ic">${ic(k)}</span><div><div class="cc-top"><b>${CATS[k].nome}</b><span>${x.got}/${x.tot}</span></div><div class="bar"><i style="width:${pc}%"></i></div></div><em>${pc}%</em></div>`; }).join('')}</div>
+  </details>`;
+}
+let leafAt = 0;
 function renderPassport() {
   const lv = level(), into = st.xp - lv * XP_LEVEL, max = lv === TITLES.length - 1;
   const visited = Object.entries(st.visits).sort((a, b) => a[1].ts - b[1].ts);
-  const slots = (3 - visited.length % 3) % 3 + 3;
+  // livrinho: uma ou mais páginas por cidade, 6 carimbos por página
+  const groups = new Map();
+  for (const [id, v] of visited) { const c = cityOf(v.p); if (!groups.has(c)) groups.set(c, []); groups.get(c).push([id, v]); }
+  const leaves = [];
+  for (const [c, arr] of groups) for (let i = 0; i < arr.length; i += 6) leaves.push({ c, items: arr.slice(i, i + 6) });
+  if (!leaves.length || leaves[leaves.length - 1].items.length === 6) leaves.push({ c: leaves.length ? 'Próxima parada' : 'Primeira página', items: [] });
+  const total = leaves.length; leafAt = Math.min(leafAt, total - 1);
+  // cidades: a de agora primeiro, depois as que já têm carimbo
+  const near = me ? destaques.reduce((b, d) => { const m = meters(d, me); return d.city && m < (b?.m ?? 30000) ? { m, city: d.city } : b; }, null)?.city : null;
+  const cities = [...new Set([near, ...[...groups.keys()]].filter(c => c && c !== 'Outros lugares'))].map(cityProgress).filter(c => c.tot);
+  const nb = Object.keys(st.badges).length;
   $('#v-passaporte').innerHTML = `<h1>Passaporte</h1>
-    <div class="pp">
-      <small>Passaporte Fuilá</small>
-      <h2>${TITLES[lv]}</h2>
+    <div class="ppc">
+      <div class="ppc-top"><span class="ppc-emb">${ic('ext')}</span><div><small>República dos Exploradores</small><b>PASSAPORTE FUILÁ</b></div></div>
+      <div class="ppc-me"><img src="${portrait || 'assets/brand/icon-192.png'}" alt=""><div><small>Título</small><h2>${TITLES[lv]}</h2><small>Nível ${lv + 1}${max ? '' : ` · faltam ${XP_LEVEL - into} XP`}</small></div></div>
       <div class="bar"><i style="width:${max ? 100 : into / XP_LEVEL * 100}%"></i></div>
-      <div class="pp-row"><span>Nível ${lv + 1}</span><span>${max ? `${st.xp} XP` : `${into}/${XP_LEVEL} XP para o nível ${lv + 2}`}</span></div>
-    </div>
-    <div class="stats">
-      <div class="stat"><b>${visited.length}</b><span>Carimbos</span></div>
-      <div class="stat"><b>${st.coupons.filter(c => !c.used).length}</b><span>Cupons ativos</span></div>
-      <div class="stat"><b>${Object.keys(st.badges).length}/${BADGES.length}</b><span>Insígnias</span></div>
+      <div class="ppc-stats"><span><b>${visited.length}</b>carimbos</span><span><b>${groups.size}</b>${groups.size === 1 ? 'cidade' : 'cidades'}</span><span><b>${nb}/${BADGES.length}</b>insígnias</span><span><b>${st.coupons.filter(c => !c.used).length}</b>cupons</span></div>
     </div>
     <h3>Carimbos</h3>
-    ${visited.length ? `<div class="page">${visited.map(([id, v]) => stampSVG({ id, ...v.p }, v.ts)).join('')}${Array.from({ length: slots }, () => '<div class="slot">?</div>').join('')}</div>`
-      : `<div class="empty">${ic('stamp')}<b>Seu passaporte está em branco</b>Chegue a ${R} m de um café, bar, padaria ou parque e faça o check-in para ganhar o primeiro carimbo.</div>`}
+    <div class="book" tabindex="0" aria-label="Páginas do passaporte">${leaves.map((l, i) => `<section class="leaf"><header><b>${esc(l.c)}</b><span>${i + 1}/${total}</span></header>
+      <div class="leaf-grid">${l.items.map(([id, v]) => `<button type="button" class="leaf-st" data-goto="${id}" style="--r:${(hash(id) % 13) - 6}deg;--x:${(hash(id + 'x') % 11) - 5}px">${stampSVG({ id, ...v.p }, v.ts)}</button>`).join('')}${Array.from({ length: 6 - l.items.length }, (_, k) => `<div class="slot">${k === 0 && !visited.length ? ic('stamp') : ''}</div>`).join('')}</div>
+      ${!visited.length ? `<p class="leaf-note">Chegue a ${R} m de um lugar e faça o check-in para ganhar o primeiro carimbo.</p>` : ''}
+    </section>`).join('')}</div>
+    <div class="dots">${leaves.map((_, i) => `<i${i === leafAt ? ' class="on"' : ''}></i>`).join('')}</div>
+    <h3>Cidades</h3>
+    ${cities.length ? `<p class="lede">Quanto você já conhece dos lugares escolhidos pelo Fuilá em cada cidade.</p><div class="stack">${cities.map((c, i) => cityCard(c, i === 0)).join('')}</div>`
+      : `<div class="empty">${ic('ext')}<b>Nenhuma cidade ainda</b>Quando você estiver perto de uma cidade com lugares do Fuilá, a porcentagem aparece aqui.</div>`}
+    <h3>Álbum de insígnias <small class="h-count">${nb} de ${BADGES.length}</small></h3>
+    <div class="album">${BADGES.map(b => { const g = st.badges[b.id], n = Math.min(b.n(), b.goal); return `<button type="button" class="badge${g ? '' : ' locked'}" data-badge="${b.id}" style="--cc:${b.cc};--bp:${n / b.goal * 100}">
+      <div class="medal">${ic(b.icon)}${g ? '' : `<span class="lk">${ic('lock')}</span>`}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : `${n}/${b.goal}`}</span></button>`; }).join('')}</div>
+    <div class="badge-info" id="badgeInfo" hidden></div>
     <h3>Seu boneco</h3>
     <button type="button" class="me-card" data-goto-visual><img src="${portrait || 'assets/brand/icon-192.png'}" alt=""><div><b>Trocar visual</b><span>Boné, camisa, calça, tênis e mais</span></div>${ic('hanger')}</button>
-    <h3>Insígnias</h3>
-    <div class="badges">${BADGES.map(b => { const g = st.badges[b.id]; return `<div class="badge${g ? '' : ' locked'}"><div class="medal" style="--cc:${b.cc}">${ic(g ? b.icon : 'lock')}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : esc(b.desc)}</span></div>`; }).join('')}</div>
     ${acctHTML()}
     <div class="biz"><b>Sobre os dados:</b> lugares e mapa vêm do OpenStreetMap. As avaliações abrem no Google Maps. Cupons só existem em parceiros Fuilá, que confirmam a visita pelo QR do balcão.</div>
     <div class="snd"><span>Sons do jogo</span><button type="button" data-som aria-pressed="${somOn}" aria-label="Sons do jogo"></button></div>
     <button class="reset" type="button" id="reset">Recomeçar do zero</button>`;
+  const book = $('#v-passaporte .book');
+  book.scrollLeft = leafAt * book.clientWidth;
+  book.addEventListener('scroll', () => { const i = Math.round(book.scrollLeft / book.clientWidth); if (i === leafAt) return; leafAt = i; book.nextElementSibling.querySelectorAll('i').forEach((d, k) => d.classList.toggle('on', k === i)); }, { passive: true });
 }
 $('#v-passaporte').addEventListener('click', e => {
   if (e.target.closest('[data-goto-visual]')) return show('visual');
+  const st0 = e.target.closest('.leaf-st[data-goto]'); if (st0) { show('mapa'); return openSheet(st0.dataset.goto); }
+  const bd = e.target.closest('[data-badge]');
+  if (bd) {
+    const b = BADGES.find(x => x.id === bd.dataset.badge), g = st.badges[b.id], info = $('#badgeInfo'), n = Math.min(b.n(), b.goal);
+    const same = !info.hidden && info.dataset.id === b.id;
+    document.querySelectorAll('.album .badge.sel').forEach(x => x.classList.remove('sel'));
+    if (same) { info.hidden = true; return; }
+    bd.classList.add('sel'); info.dataset.id = b.id; info.hidden = false;
+    info.style.setProperty('--cc', b.cc);
+    info.innerHTML = `<div class="medal${g ? '' : ' off'}">${ic(b.icon)}</div><div><b>${esc(b.nome)}</b><span>${esc(b.desc)} · +${b.xp} XP</span>${g ? `<em>Conquistada em ${fmtD(g)}</em>` : `<div class="bar"><i style="width:${n / b.goal * 100}%"></i></div><em>${n} de ${b.goal}</em>`}</div>`;
+    return;
+  }
   const sb = e.target.closest('[data-som]');
   if (sb) { somOn = !somOn; try { localStorage.setItem('fuila-som', somOn ? '1' : '0'); } catch (err) {} sb.setAttribute('aria-pressed', String(somOn)); if (somOn) som('badge'); return; }
   const b = e.target.closest('#reset'); if (!b) return;
