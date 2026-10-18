@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17",
+ "atualizado": "2026-10-18",
  "lugares": [
   {
    "n": "Confeitaria Colombo",
@@ -13,7 +13,8 @@
    "lat": -22.90517,
    "lng": -43.178744,
    "geo": "lugar",
-   "id": "d-confeitaria-colombo-rio-de-janeiro"
+   "id": "d-confeitaria-colombo-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Talho Capixaba",
@@ -27,7 +28,8 @@
    "lat": -22.984918,
    "lng": -43.225574,
    "geo": "lugar",
-   "id": "d-talho-capixaba-rio-de-janeiro"
+   "id": "d-talho-capixaba-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Urca",
@@ -41,7 +43,8 @@
    "lat": -22.943511,
    "lng": -43.160203,
    "geo": "lugar",
-   "id": "d-bar-urca-rio-de-janeiro"
+   "id": "d-bar-urca-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Luiz",
@@ -55,6 +58,7 @@
    "chave": "bar luiz|rio de janeiro",
    "geo": "manual",
    "v": 3,
+   "top": false,
    "id": "d-bar-luiz-rio-de-janeiro"
   },
   {
@@ -69,7 +73,8 @@
    "lat": -22.983749,
    "lng": -43.221756,
    "geo": "lugar",
-   "id": "d-bracarense-rio-de-janeiro"
+   "id": "d-bracarense-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Jobi",
@@ -83,7 +88,8 @@
    "lat": -22.985374,
    "lng": -43.226912,
    "geo": "lugar",
-   "id": "d-jobi-rio-de-janeiro"
+   "id": "d-jobi-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bip Bip",
@@ -97,7 +103,8 @@
    "lat": -22.979849,
    "lng": -43.190506,
    "geo": "lugar",
-   "id": "d-bip-bip-rio-de-janeiro"
+   "id": "d-bip-bip-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar do Mineiro",
@@ -111,7 +118,8 @@
    "lat": -22.921097,
    "lng": -43.186917,
    "geo": "lugar",
-   "id": "d-bar-do-mineiro-rio-de-janeiro"
+   "id": "d-bar-do-mineiro-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Café Lamas",
@@ -125,7 +133,8 @@
    "lat": -22.933975,
    "lng": -43.177415,
    "geo": "lugar",
-   "id": "d-cafe-lamas-rio-de-janeiro"
+   "id": "d-cafe-lamas-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Jardim Botânico do Rio de Janeiro",
@@ -139,7 +148,8 @@
    "lat": -22.96786,
    "lng": -43.225119,
    "geo": "lugar",
-   "id": "d-jardim-botanico-do-rio-de-janeiro-rio-de-janeiro"
+   "id": "d-jardim-botanico-do-rio-de-janeiro-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Parque Lage",
@@ -153,7 +163,8 @@
    "lat": -22.959415,
    "lng": -43.211889,
    "geo": "lugar",
-   "id": "d-parque-lage-rio-de-janeiro"
+   "id": "d-parque-lage-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Pedra do Arpoador",
@@ -167,7 +178,8 @@
    "lat": -22.990394,
    "lng": -43.190408,
    "geo": "lugar",
-   "id": "d-pedra-do-arpoador-rio-de-janeiro"
+   "id": "d-pedra-do-arpoador-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Mirante Dona Marta",
@@ -181,7 +193,8 @@
    "lat": -22.945136,
    "lng": -43.196429,
    "geo": "lugar",
-   "id": "d-mirante-dona-marta-rio-de-janeiro"
+   "id": "d-mirante-dona-marta-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu do Amanhã",
@@ -195,7 +208,8 @@
    "lat": -22.894068,
    "lng": -43.179404,
    "geo": "lugar",
-   "id": "d-museu-do-amanha-rio-de-janeiro"
+   "id": "d-museu-do-amanha-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Museu de Arte do Rio",
@@ -209,7 +223,8 @@
    "lat": -22.896449,
    "lng": -43.181841,
    "geo": "lugar",
-   "id": "d-museu-de-arte-do-rio-rio-de-janeiro"
+   "id": "d-museu-de-arte-do-rio-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Centro Cultural Banco do Brasil",
@@ -223,7 +238,8 @@
    "lat": -22.901052,
    "lng": -43.176287,
    "geo": "lugar",
-   "id": "d-centro-cultural-banco-do-brasil-rio-de-janeiro"
+   "id": "d-centro-cultural-banco-do-brasil-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Real Gabinete Português de Leitura",
@@ -237,7 +253,8 @@
    "lat": -22.905369,
    "lng": -43.182209,
    "geo": "lugar",
-   "id": "d-real-gabinete-portugues-de-leitura-rio-de-janeiro"
+   "id": "d-real-gabinete-portugues-de-leitura-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Escadaria Selarón",
@@ -251,7 +268,8 @@
    "lat": -22.915445,
    "lng": -43.179455,
    "geo": "lugar",
-   "id": "d-escadaria-selaron-rio-de-janeiro"
+   "id": "d-escadaria-selaron-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Theatro Municipal do Rio de Janeiro",
@@ -265,7 +283,8 @@
    "lat": -22.908992,
    "lng": -43.176677,
    "geo": "lugar",
-   "id": "d-theatro-municipal-do-rio-de-janeiro-rio-de-janeiro"
+   "id": "d-theatro-municipal-do-rio-de-janeiro-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Livraria da Travessa",
@@ -279,6 +298,7 @@
    "chave": "livraria da travessa|rio de janeiro",
    "geo": "manual",
    "v": 3,
+   "top": false,
    "id": "d-livraria-da-travessa-rio-de-janeiro"
   },
   {
@@ -293,7 +313,8 @@
    "lat": -22.949489,
    "lng": -43.156157,
    "geo": "lugar",
-   "id": "d-pao-de-acucar-rio-de-janeiro"
+   "id": "d-pao-de-acucar-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Cristo Redentor",
@@ -307,7 +328,8 @@
    "lat": -22.951917,
    "lng": -43.210459,
    "geo": "lugar",
-   "id": "d-cristo-redentor-rio-de-janeiro"
+   "id": "d-cristo-redentor-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Arcos da Lapa",
@@ -321,7 +343,8 @@
    "lat": -22.915943,
    "lng": -43.17782,
    "geo": "lugar",
-   "id": "d-arcos-da-lapa-rio-de-janeiro"
+   "id": "d-arcos-da-lapa-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Museu de Arte Contemporânea de Niterói",
@@ -335,7 +358,8 @@
    "lat": -22.907922,
    "lng": -43.125869,
    "geo": "lugar",
-   "id": "d-museu-de-arte-contemporanea-de-niteroi-niteroi"
+   "id": "d-museu-de-arte-contemporanea-de-niteroi-niteroi",
+   "top": true
   },
   {
    "n": "Parque da Cidade de Niterói",
@@ -349,7 +373,8 @@
    "lat": -22.929707,
    "lng": -43.087584,
    "geo": "lugar",
-   "id": "d-parque-da-cidade-de-niteroi-niteroi"
+   "id": "d-parque-da-cidade-de-niteroi-niteroi",
+   "top": true
   },
   {
    "n": "Praia de Itacoatiara",
@@ -363,7 +388,8 @@
    "lat": -22.974856,
    "lng": -43.031957,
    "geo": "lugar",
-   "id": "d-praia-de-itacoatiara-niteroi"
+   "id": "d-praia-de-itacoatiara-niteroi",
+   "top": true
   },
   {
    "n": "Museu Imperial",
@@ -377,7 +403,8 @@
    "lat": -22.507715,
    "lng": -43.175668,
    "geo": "lugar",
-   "id": "d-museu-imperial-petropolis"
+   "id": "d-museu-imperial-petropolis",
+   "top": true
   },
   {
    "n": "Palácio de Cristal",
@@ -391,7 +418,8 @@
    "lat": -22.505435,
    "lng": -43.183084,
    "geo": "lugar",
-   "id": "d-palacio-de-cristal-petropolis"
+   "id": "d-palacio-de-cristal-petropolis",
+   "top": true
   },
   {
    "n": "Casa de Santos Dumont",
@@ -405,7 +433,8 @@
    "lat": -22.510353,
    "lng": -43.18425,
    "geo": "lugar",
-   "id": "d-casa-de-santos-dumont-petropolis"
+   "id": "d-casa-de-santos-dumont-petropolis",
+   "top": true
   },
   {
    "n": "Cervejaria Bohemia",
@@ -419,7 +448,8 @@
    "lat": -22.506338,
    "lng": -43.184666,
    "geo": "lugar",
-   "id": "d-cervejaria-bohemia-petropolis"
+   "id": "d-cervejaria-bohemia-petropolis",
+   "top": false
   },
   {
    "n": "Igreja de Santa Rita",
@@ -433,7 +463,8 @@
    "lat": -23.220542,
    "lng": -44.713219,
    "geo": "lugar",
-   "id": "d-igreja-de-santa-rita-paraty"
+   "id": "d-igreja-de-santa-rita-paraty",
+   "top": true
   },
   {
    "n": "Praia do Jabaquara",
@@ -447,7 +478,8 @@
    "lat": -23.213119,
    "lng": -44.714613,
    "geo": "lugar",
-   "id": "d-praia-do-jabaquara-paraty"
+   "id": "d-praia-do-jabaquara-paraty",
+   "top": false
   },
   {
    "n": "Rua das Pedras",
@@ -461,7 +493,8 @@
    "lat": -22.755335,
    "lng": -41.887442,
    "geo": "lugar",
-   "id": "d-rua-das-pedras-armacao-dos-buzios"
+   "id": "d-rua-das-pedras-armacao-dos-buzios",
+   "top": true
   },
   {
    "n": "Orla Bardot",
@@ -479,7 +512,8 @@
    "lat": -22.75266,
    "lng": -41.884237,
    "geo": "lugar",
-   "id": "d-orla-bardot-armacao-dos-buzios"
+   "id": "d-orla-bardot-armacao-dos-buzios",
+   "top": true
   },
   {
    "n": "Praia de João Fernandes",
@@ -493,7 +527,8 @@
    "lat": -22.742399,
    "lng": -41.875876,
    "geo": "lugar",
-   "id": "d-praia-de-joao-fernandes-armacao-dos-buzios"
+   "id": "d-praia-de-joao-fernandes-armacao-dos-buzios",
+   "top": true
   },
   {
    "n": "Convento da Penha",
@@ -507,7 +542,8 @@
    "lat": -20.329322,
    "lng": -40.287073,
    "geo": "lugar",
-   "id": "d-convento-da-penha-vila-velha"
+   "id": "d-convento-da-penha-vila-velha",
+   "top": true
   },
   {
    "n": "Fábrica de Chocolates Garoto",
@@ -525,7 +561,8 @@
    "lat": -20.339034,
    "lng": -40.308726,
    "geo": "lugar",
-   "id": "d-fabrica-de-chocolates-garoto-vila-velha"
+   "id": "d-fabrica-de-chocolates-garoto-vila-velha",
+   "top": true
   },
   {
    "n": "Museu Vale",
@@ -539,7 +576,8 @@
    "lat": -20.32661,
    "lng": -40.345055,
    "geo": "lugar",
-   "id": "d-museu-vale-vila-velha"
+   "id": "d-museu-vale-vila-velha",
+   "top": false
   },
   {
    "n": "Praia da Costa",
@@ -553,7 +591,8 @@
    "lat": -20.339461,
    "lng": -40.282372,
    "geo": "lugar",
-   "id": "d-praia-da-costa-vila-velha"
+   "id": "d-praia-da-costa-vila-velha",
+   "top": false
   },
   {
    "n": "Parque Moscoso",
@@ -567,7 +606,8 @@
    "lat": -20.319273,
    "lng": -40.341935,
    "geo": "lugar",
-   "id": "d-parque-moscoso-vitoria"
+   "id": "d-parque-moscoso-vitoria",
+   "top": false
   },
   {
    "n": "Palácio Anchieta",
@@ -581,7 +621,8 @@
    "lat": -20.321276,
    "lng": -40.339798,
    "geo": "lugar",
-   "id": "d-palacio-anchieta-vitoria"
+   "id": "d-palacio-anchieta-vitoria",
+   "top": true
   },
   {
    "n": "Catedral Metropolitana de Vitória",
@@ -595,7 +636,8 @@
    "lat": -20.31995,
    "lng": -40.337103,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-vitoria-vitoria"
+   "id": "d-catedral-metropolitana-de-vitoria-vitoria",
+   "top": true
   },
   {
    "n": "Teatro Carlos Gomes",
@@ -609,7 +651,8 @@
    "lat": -20.319538,
    "lng": -40.335023,
    "geo": "lugar",
-   "id": "d-teatro-carlos-gomes-vitoria"
+   "id": "d-teatro-carlos-gomes-vitoria",
+   "top": true
   },
   {
    "n": "Galpão das Paneleiras de Goiabeiras",
@@ -628,7 +671,8 @@
    "lat": -20.248003,
    "lng": -40.284641,
    "geo": "lugar",
-   "id": "d-galpao-das-paneleiras-de-goiabeiras-vitoria"
+   "id": "d-galpao-das-paneleiras-de-goiabeiras-vitoria",
+   "top": true
   },
   {
    "n": "Parque da Pedra da Cebola",
@@ -646,7 +690,8 @@
    "lat": -20.275499,
    "lng": -40.298408,
    "geo": "lugar",
-   "id": "d-parque-da-pedra-da-cebola-vitoria"
+   "id": "d-parque-da-pedra-da-cebola-vitoria",
+   "top": true
   },
   {
    "n": "Praia de Camburi",
@@ -660,7 +705,8 @@
    "lat": -20.267443,
    "lng": -40.268669,
    "geo": "lugar",
-   "id": "d-praia-de-camburi-vitoria"
+   "id": "d-praia-de-camburi-vitoria",
+   "top": true
   },
   {
    "n": "Kaffa Cafeteria",
@@ -674,7 +720,8 @@
    "lat": -20.278718,
    "lng": -40.300781,
    "geo": "lugar",
-   "id": "d-kaffa-cafeteria-vitoria"
+   "id": "d-kaffa-cafeteria-vitoria",
+   "top": false
   },
   {
    "n": "Rua da Lama",
@@ -688,7 +735,8 @@
    "lat": -20.279736,
    "lng": -40.300469,
    "geo": "lugar",
-   "id": "d-rua-da-lama-vitoria"
+   "id": "d-rua-da-lama-vitoria",
+   "top": false
   },
   {
    "n": "Triângulo das Bermudas",
@@ -702,7 +750,8 @@
    "lat": -20.295936,
    "lng": -40.291449,
    "geo": "lugar",
-   "id": "d-triangulo-das-bermudas-vitoria"
+   "id": "d-triangulo-das-bermudas-vitoria",
+   "top": false
   },
   {
    "n": "Praia do Morro",
@@ -716,7 +765,8 @@
    "lat": -20.652246,
    "lng": -40.478828,
    "geo": "lugar",
-   "id": "d-praia-do-morro-guarapari"
+   "id": "d-praia-do-morro-guarapari",
+   "top": true
   },
   {
    "n": "Enseada Azul",
@@ -730,7 +780,8 @@
    "lat": -20.722396,
    "lng": -40.524165,
    "geo": "lugar",
-   "id": "d-enseada-azul-guarapari"
+   "id": "d-enseada-azul-guarapari",
+   "top": true
   },
   {
    "n": "Parque Estadual da Pedra Azul",
@@ -748,7 +799,8 @@
    "lat": -20.416476,
    "lng": -41.004969,
    "geo": "lugar",
-   "id": "d-parque-estadual-da-pedra-azul-domingos-martins"
+   "id": "d-parque-estadual-da-pedra-azul-domingos-martins",
+   "top": true
   },
   {
    "n": "Igreja Luterana de Domingos Martins",
@@ -762,7 +814,8 @@
    "lat": -20.361215,
    "lng": -40.661315,
    "geo": "lugar",
-   "id": "d-igreja-luterana-de-domingos-martins-domingos-martins"
+   "id": "d-igreja-luterana-de-domingos-martins-domingos-martins",
+   "top": false
   },
   {
    "n": "Fazenda Carnielli",
@@ -776,7 +829,8 @@
    "lat": -20.365236,
    "lng": -41.125469,
    "geo": "lugar",
-   "id": "d-fazenda-carnielli-venda-nova-do-imigrante"
+   "id": "d-fazenda-carnielli-venda-nova-do-imigrante",
+   "top": false
   },
   {
    "n": "Três Pontões",
@@ -793,7 +847,8 @@
    "lat": -20.064881,
    "lng": -41.053226,
    "geo": "lugar",
-   "id": "d-tres-pontoes-afonso-claudio"
+   "id": "d-tres-pontoes-afonso-claudio",
+   "top": false
   },
   {
    "n": "Parque Estadual da Cachoeira da Fumaça",
@@ -810,7 +865,8 @@
    "lat": -20.628494,
    "lng": -41.603936,
    "geo": "lugar",
-   "id": "d-parque-estadual-da-cachoeira-da-fumaca-alegre"
+   "id": "d-parque-estadual-da-cachoeira-da-fumaca-alegre",
+   "top": false
   },
   {
    "n": "Santuário Nacional de São José de Anchieta",
@@ -824,7 +880,8 @@
    "lat": -20.804274,
    "lng": -40.653632,
    "geo": "lugar",
-   "id": "d-santuario-nacional-de-sao-jose-de-anchieta-anchieta"
+   "id": "d-santuario-nacional-de-sao-jose-de-anchieta-anchieta",
+   "top": true
   },
   {
    "n": "Praia dos Namorados",
@@ -838,7 +895,8 @@
    "lat": -20.828659,
    "lng": -40.691037,
    "geo": "lugar",
-   "id": "d-praia-dos-namorados-anchieta"
+   "id": "d-praia-dos-namorados-anchieta",
+   "top": false
   },
   {
    "n": "Praia de Ubu",
@@ -852,7 +910,8 @@
    "lat": -20.802876,
    "lng": -40.594997,
    "geo": "lugar",
-   "id": "d-praia-de-ubu-anchieta"
+   "id": "d-praia-de-ubu-anchieta",
+   "top": false
   },
   {
    "n": "Praia de Castelhanos",
@@ -866,7 +925,8 @@
    "lat": -20.830599,
    "lng": -40.621824,
    "geo": "lugar",
-   "id": "d-praia-de-castelhanos-anchieta"
+   "id": "d-praia-de-castelhanos-anchieta",
+   "top": true
   },
   {
    "n": "Praia dos Padres",
@@ -880,7 +940,8 @@
    "lat": -19.930258,
    "lng": -40.12275,
    "geo": "lugar",
-   "id": "d-praia-dos-padres-aracruz"
+   "id": "d-praia-dos-padres-aracruz",
+   "top": true
   },
   {
    "n": "Praia de Coqueiral",
@@ -894,7 +955,8 @@
    "lat": -19.944837,
    "lng": -40.149014,
    "geo": "lugar",
-   "id": "d-praia-de-coqueiral-aracruz"
+   "id": "d-praia-de-coqueiral-aracruz",
+   "top": false
   },
   {
    "n": "Barra do Sahy",
@@ -908,7 +970,8 @@
    "lat": -19.879716,
    "lng": -40.086396,
    "geo": "lugar",
-   "id": "d-barra-do-sahy-aracruz"
+   "id": "d-barra-do-sahy-aracruz",
+   "top": true
   },
   {
    "n": "Casa dos Braga",
@@ -922,7 +985,8 @@
    "lat": -20.844413,
    "lng": -41.155648,
    "geo": "lugar",
-   "id": "d-casa-dos-braga-cachoeiro-de-itapemirim"
+   "id": "d-casa-dos-braga-cachoeiro-de-itapemirim",
+   "top": false
   },
   {
    "n": "Casa de Roberto Carlos",
@@ -936,7 +1000,8 @@
    "lat": -20.849128,
    "lng": -41.116897,
    "geo": "lugar",
-   "id": "d-casa-de-roberto-carlos-cachoeiro-de-itapemirim"
+   "id": "d-casa-de-roberto-carlos-cachoeiro-de-itapemirim",
+   "top": true
   },
   {
    "n": "Pico do Itabira",
@@ -950,7 +1015,8 @@
    "lat": -20.84037,
    "lng": -41.064755,
    "geo": "lugar",
-   "id": "d-pico-do-itabira-cachoeiro-de-itapemirim"
+   "id": "d-pico-do-itabira-cachoeiro-de-itapemirim",
+   "top": true
   },
   {
    "n": "Ilha da Luz",
@@ -964,7 +1030,8 @@
    "lat": -20.837241,
    "lng": -41.121068,
    "geo": "lugar",
-   "id": "d-ilha-da-luz-cachoeiro-de-itapemirim"
+   "id": "d-ilha-da-luz-cachoeiro-de-itapemirim",
+   "top": false
   },
   {
    "n": "Monte Mochuara",
@@ -981,7 +1048,8 @@
    "lat": -20.29517,
    "lng": -40.439342,
    "geo": "lugar",
-   "id": "d-monte-mochuara-cariacica"
+   "id": "d-monte-mochuara-cariacica",
+   "top": false
   },
   {
    "n": "Reserva Biológica de Duas Bocas",
@@ -995,7 +1063,8 @@
    "lat": -20.271966,
    "lng": -40.502231,
    "geo": "lugar",
-   "id": "d-reserva-biologica-de-duas-bocas-cariacica"
+   "id": "d-reserva-biologica-de-duas-bocas-cariacica",
+   "top": false
   },
   {
    "n": "Ponte Florentino Avidos",
@@ -1009,7 +1078,8 @@
    "lat": -19.531157,
    "lng": -40.631122,
    "geo": "lugar",
-   "id": "d-ponte-florentino-avidos-colatina"
+   "id": "d-ponte-florentino-avidos-colatina",
+   "top": false
   },
   {
    "n": "Parque Estadual de Itaúnas",
@@ -1023,7 +1093,8 @@
    "lat": -18.454199,
    "lng": -39.714702,
    "geo": "lugar",
-   "id": "d-parque-estadual-de-itaunas-conceicao-da-barra"
+   "id": "d-parque-estadual-de-itaunas-conceicao-da-barra",
+   "top": true
   },
   {
    "n": "Forró Buraco do Tatu",
@@ -1040,7 +1111,8 @@
    "lat": -18.418573,
    "lng": -39.709611,
    "geo": "lugar",
-   "id": "d-forro-buraco-do-tatu-conceicao-da-barra"
+   "id": "d-forro-buraco-do-tatu-conceicao-da-barra",
+   "top": true
   },
   {
    "n": "Praia de Guaxindiba",
@@ -1054,7 +1126,8 @@
    "lat": -18.589921,
    "lng": -39.729263,
    "geo": "lugar",
-   "id": "d-praia-de-guaxindiba-conceicao-da-barra"
+   "id": "d-praia-de-guaxindiba-conceicao-da-barra",
+   "top": false
   },
   {
    "n": "Casa de Cultura de Domingos Martins",
@@ -1071,7 +1144,8 @@
    "lat": -20.363003,
    "lng": -40.658648,
    "geo": "lugar",
-   "id": "d-casa-de-cultura-de-domingos-martins-domingos-martins"
+   "id": "d-casa-de-cultura-de-domingos-martins-domingos-martins",
+   "top": false
   },
   {
    "n": "Rua do Lazer",
@@ -1085,7 +1159,8 @@
    "lat": -20.362693,
    "lng": -40.659376,
    "geo": "lugar",
-   "id": "d-rua-do-lazer-domingos-martins"
+   "id": "d-rua-do-lazer-domingos-martins",
+   "top": true
   },
   {
    "n": "Igreja Luterana de Santa Isabel",
@@ -1099,7 +1174,8 @@
    "lat": -20.361215,
    "lng": -40.661315,
    "geo": "lugar",
-   "id": "d-igreja-luterana-de-santa-isabel-domingos-martins"
+   "id": "d-igreja-luterana-de-santa-isabel-domingos-martins",
+   "top": false
   },
   {
    "n": "Parque Nacional do Caparaó - Portaria Pedra Menina",
@@ -1116,7 +1192,8 @@
    "lat": -20.503586,
    "lng": -41.818961,
    "geo": "lugar",
-   "id": "d-parque-nacional-do-caparao-portaria-pedra-menina-dores-do-rio-preto"
+   "id": "d-parque-nacional-do-caparao-portaria-pedra-menina-dores-do-rio-preto",
+   "top": false
   },
   {
    "n": "Pico da Bandeira",
@@ -1130,7 +1207,8 @@
    "lat": -20.689962,
    "lng": -41.848961,
    "geo": "lugar",
-   "id": "d-pico-da-bandeira-dores-do-rio-preto"
+   "id": "d-pico-da-bandeira-dores-do-rio-preto",
+   "top": true
   },
   {
    "n": "Praia das Castanheiras",
@@ -1144,7 +1222,8 @@
    "lat": -20.67233,
    "lng": -40.49693,
    "geo": "lugar",
-   "id": "d-praia-das-castanheiras-guarapari"
+   "id": "d-praia-das-castanheiras-guarapari",
+   "top": true
   },
   {
    "n": "Praia da Areia Preta",
@@ -1158,7 +1237,8 @@
    "lat": -20.675569,
    "lng": -40.500976,
    "geo": "lugar",
-   "id": "d-praia-da-areia-preta-guarapari"
+   "id": "d-praia-da-areia-preta-guarapari",
+   "top": false
   },
   {
    "n": "Parque Estadual Paulo César Vinha",
@@ -1172,7 +1252,8 @@
    "lat": -20.583085,
    "lng": -40.411033,
    "geo": "lugar",
-   "id": "d-parque-estadual-paulo-cesar-vinha-guarapari"
+   "id": "d-parque-estadual-paulo-cesar-vinha-guarapari",
+   "top": true
   },
   {
    "n": "Praia de Meaípe",
@@ -1186,7 +1267,8 @@
    "lat": -20.73962,
    "lng": -40.547033,
    "geo": "lugar",
-   "id": "d-praia-de-meaipe-guarapari"
+   "id": "d-praia-de-meaipe-guarapari",
+   "top": false
   },
   {
    "n": "Praia de Setiba",
@@ -1200,7 +1282,8 @@
    "lat": -20.635313,
    "lng": -40.435072,
    "geo": "lugar",
-   "id": "d-praia-de-setiba-guarapari"
+   "id": "d-praia-de-setiba-guarapari",
+   "top": false
   },
   {
    "n": "Praia dos Namorados",
@@ -1214,7 +1297,8 @@
    "lat": -20.671441,
    "lng": -40.495259,
    "geo": "lugar",
-   "id": "d-praia-dos-namorados-guarapari"
+   "id": "d-praia-dos-namorados-guarapari",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora da Conceição",
@@ -1228,7 +1312,8 @@
    "lat": -20.66816,
    "lng": -40.494913,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-da-conceicao-guarapari"
+   "id": "d-igreja-de-nossa-senhora-da-conceicao-guarapari",
+   "top": false
   },
   {
    "n": "Radium Hotel",
@@ -1245,7 +1330,8 @@
    "lat": -20.674337,
    "lng": -40.49952,
    "geo": "lugar",
-   "id": "d-radium-hotel-guarapari"
+   "id": "d-radium-hotel-guarapari",
+   "top": false
   },
   {
    "n": "Mosteiro Zen Morro da Vargem",
@@ -1262,7 +1348,8 @@
    "lat": -19.886608,
    "lng": -40.377925,
    "geo": "lugar",
-   "id": "d-mosteiro-zen-morro-da-vargem-ibiracu"
+   "id": "d-mosteiro-zen-morro-da-vargem-ibiracu",
+   "top": true
   },
   {
    "n": "Lagoa Juparanã",
@@ -1276,7 +1363,8 @@
    "lat": -19.261641,
    "lng": -40.149625,
    "geo": "lugar",
-   "id": "d-lagoa-juparana-linhares"
+   "id": "d-lagoa-juparana-linhares",
+   "top": false
   },
   {
    "n": "Reserva Natural Vale",
@@ -1290,7 +1378,8 @@
    "lat": -19.152014,
    "lng": -40.070475,
    "geo": "lugar",
-   "id": "d-reserva-natural-vale-linhares"
+   "id": "d-reserva-natural-vale-linhares",
+   "top": true
   },
   {
    "n": "Vila de Regência",
@@ -1307,7 +1396,8 @@
    "lat": -19.646509,
    "lng": -39.827133,
    "geo": "lugar",
-   "id": "d-vila-de-regencia-linhares"
+   "id": "d-vila-de-regencia-linhares",
+   "top": true
   },
   {
    "n": "Lagoa do Siri",
@@ -1321,7 +1411,8 @@
    "lat": -21.105448,
    "lng": -40.851598,
    "geo": "lugar",
-   "id": "d-lagoa-do-siri-marataizes"
+   "id": "d-lagoa-do-siri-marataizes",
+   "top": true
   },
   {
    "n": "Praia dos Cações",
@@ -1335,7 +1426,8 @@
    "lat": -21.133069,
    "lng": -40.869065,
    "geo": "lugar",
-   "id": "d-praia-dos-cacoes-marataizes"
+   "id": "d-praia-dos-cacoes-marataizes",
+   "top": true
   },
   {
    "n": "Praia Central de Marataízes",
@@ -1352,7 +1444,8 @@
    "lat": -21.045912,
    "lng": -40.828323,
    "geo": "lugar",
-   "id": "d-praia-central-de-marataizes-marataizes"
+   "id": "d-praia-central-de-marataizes-marataizes",
+   "top": false
   },
   {
    "n": "Ilha do Gambá",
@@ -1366,7 +1459,8 @@
    "lat": -20.844658,
    "lng": -40.7215,
    "geo": "lugar",
-   "id": "d-ilha-do-gamba-piuma"
+   "id": "d-ilha-do-gamba-piuma",
+   "top": false
   },
   {
    "n": "Monte Aghá",
@@ -1380,7 +1474,8 @@
    "lat": -20.869204,
    "lng": -40.768641,
    "geo": "lugar",
-   "id": "d-monte-agha-piuma"
+   "id": "d-monte-agha-piuma",
+   "top": false
   },
   {
    "n": "Museu de Biologia Professor Mello Leitão",
@@ -1397,7 +1492,8 @@
    "lat": -19.935622,
    "lng": -40.59976,
    "geo": "lugar",
-   "id": "d-museu-de-biologia-professor-mello-leitao-santa-teresa"
+   "id": "d-museu-de-biologia-professor-mello-leitao-santa-teresa",
+   "top": true
   },
   {
    "n": "Casa Lambert",
@@ -1411,7 +1507,8 @@
    "lat": -19.933468,
    "lng": -40.604544,
    "geo": "lugar",
-   "id": "d-casa-lambert-santa-teresa"
+   "id": "d-casa-lambert-santa-teresa",
+   "top": true
   },
   {
    "n": "Vale do Canaã",
@@ -1425,7 +1522,8 @@
    "lat": -19.865275,
    "lng": -40.616277,
    "geo": "lugar",
-   "id": "d-vale-do-canaa-santa-teresa"
+   "id": "d-vale-do-canaa-santa-teresa",
+   "top": true
   },
   {
    "n": "Reserva Biológica Augusto Ruschi",
@@ -1442,7 +1540,8 @@
    "lat": -19.888023,
    "lng": -40.551214,
    "geo": "lugar",
-   "id": "d-reserva-biologica-augusto-ruschi-santa-teresa"
+   "id": "d-reserva-biologica-augusto-ruschi-santa-teresa",
+   "top": true
   },
   {
    "n": "Estação Biológica de Santa Lúcia",
@@ -1456,7 +1555,8 @@
    "lat": -19.969292,
    "lng": -40.534525,
    "geo": "lugar",
-   "id": "d-estacao-biologica-de-santa-lucia-santa-teresa"
+   "id": "d-estacao-biologica-de-santa-lucia-santa-teresa",
+   "top": false
   },
   {
    "n": "Rua do Lazer",
@@ -1470,7 +1570,8 @@
    "lat": -19.931704,
    "lng": -40.600778,
    "geo": "lugar",
-   "id": "d-rua-do-lazer-santa-teresa"
+   "id": "d-rua-do-lazer-santa-teresa",
+   "top": false
   },
   {
    "n": "Sítio Histórico Porto de São Mateus",
@@ -1487,7 +1588,8 @@
    "lat": -18.714234,
    "lng": -39.856495,
    "geo": "lugar",
-   "id": "d-sitio-historico-porto-de-sao-mateus-sao-mateus"
+   "id": "d-sitio-historico-porto-de-sao-mateus-sao-mateus",
+   "top": true
   },
   {
    "n": "Igreja Velha",
@@ -1501,7 +1603,8 @@
    "lat": -18.715551,
    "lng": -39.858159,
    "geo": "lugar",
-   "id": "d-igreja-velha-sao-mateus"
+   "id": "d-igreja-velha-sao-mateus",
+   "top": false
   },
   {
    "n": "Praia de Guriri",
@@ -1515,7 +1618,8 @@
    "lat": -18.738726,
    "lng": -39.746518,
    "geo": "lugar",
-   "id": "d-praia-de-guriri-sao-mateus"
+   "id": "d-praia-de-guriri-sao-mateus",
+   "top": true
   },
   {
    "n": "Igreja dos Reis Magos",
@@ -1529,7 +1633,8 @@
    "lat": -20.058334,
    "lng": -40.192334,
    "geo": "lugar",
-   "id": "d-igreja-dos-reis-magos-serra"
+   "id": "d-igreja-dos-reis-magos-serra",
+   "top": true
   },
   {
    "n": "Praia de Manguinhos",
@@ -1543,7 +1648,8 @@
    "lat": -20.198289,
    "lng": -40.192276,
    "geo": "lugar",
-   "id": "d-praia-de-manguinhos-serra"
+   "id": "d-praia-de-manguinhos-serra",
+   "top": true
   },
   {
    "n": "Praia de Jacaraípe",
@@ -1557,7 +1663,8 @@
    "lat": -20.135132,
    "lng": -40.181734,
    "geo": "lugar",
-   "id": "d-praia-de-jacaraipe-serra"
+   "id": "d-praia-de-jacaraipe-serra",
+   "top": false
   },
   {
    "n": "Mestre Álvaro",
@@ -1574,7 +1681,8 @@
    "lat": -20.169923,
    "lng": -40.313922,
    "geo": "lugar",
-   "id": "d-mestre-alvaro-serra"
+   "id": "d-mestre-alvaro-serra",
+   "top": false
   },
   {
    "n": "Lagoa Jacuném",
@@ -1588,7 +1696,8 @@
    "lat": -20.154409,
    "lng": -40.201759,
    "geo": "lugar",
-   "id": "d-lagoa-jacunem-serra"
+   "id": "d-lagoa-jacunem-serra",
+   "top": false
   },
   {
    "n": "Sítio Lorenção",
@@ -1602,7 +1711,8 @@
    "lat": -20.381247,
    "lng": -41.172155,
    "geo": "lugar",
-   "id": "d-sitio-lorencao-venda-nova-do-imigrante"
+   "id": "d-sitio-lorencao-venda-nova-do-imigrante",
+   "top": false
   },
   {
    "n": "Farol de Santa Luzia",
@@ -1616,7 +1726,8 @@
    "lat": -20.324448,
    "lng": -40.267568,
    "geo": "lugar",
-   "id": "d-farol-de-santa-luzia-vila-velha"
+   "id": "d-farol-de-santa-luzia-vila-velha",
+   "top": true
   },
   {
    "n": "Morro do Moreno",
@@ -1630,7 +1741,8 @@
    "lat": -20.325867,
    "lng": -40.277163,
    "geo": "lugar",
-   "id": "d-morro-do-moreno-vila-velha"
+   "id": "d-morro-do-moreno-vila-velha",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora do Rosário",
@@ -1647,7 +1759,8 @@
    "lat": -20.330686,
    "lng": -40.292054,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-rosario-vila-velha"
+   "id": "d-igreja-de-nossa-senhora-do-rosario-vila-velha",
+   "top": false
   },
   {
    "n": "Museu Homero Massena",
@@ -1661,7 +1774,8 @@
    "lat": -20.329413,
    "lng": -40.292581,
    "geo": "lugar",
-   "id": "d-museu-homero-massena-vila-velha"
+   "id": "d-museu-homero-massena-vila-velha",
+   "top": false
   },
   {
    "n": "Casa da Memória de Vila Velha",
@@ -1675,7 +1789,8 @@
    "lat": -20.329433,
    "lng": -40.29219,
    "geo": "lugar",
-   "id": "d-casa-da-memoria-de-vila-velha-vila-velha"
+   "id": "d-casa-da-memoria-de-vila-velha-vila-velha",
+   "top": false
   },
   {
    "n": "Forte de São Francisco Xavier de Piratininga",
@@ -1692,7 +1807,8 @@
    "lat": -20.32375,
    "lng": -40.286831,
    "geo": "lugar",
-   "id": "d-forte-de-sao-francisco-xavier-de-piratininga-vila-velha"
+   "id": "d-forte-de-sao-francisco-xavier-de-piratininga-vila-velha",
+   "top": false
   },
   {
    "n": "Parque da Prainha",
@@ -1706,7 +1822,8 @@
    "lat": -20.327406,
    "lng": -40.292071,
    "geo": "lugar",
-   "id": "d-parque-da-prainha-vila-velha"
+   "id": "d-parque-da-prainha-vila-velha",
+   "top": false
   },
   {
    "n": "Praia de Itapuã",
@@ -1720,7 +1837,8 @@
    "lat": -20.352746,
    "lng": -40.283518,
    "geo": "lugar",
-   "id": "d-praia-de-itapua-vila-velha"
+   "id": "d-praia-de-itapua-vila-velha",
+   "top": false
   },
   {
    "n": "Praia de Itaparica",
@@ -1734,7 +1852,8 @@
    "lat": -20.37151,
    "lng": -40.302599,
    "geo": "lugar",
-   "id": "d-praia-de-itaparica-vila-velha"
+   "id": "d-praia-de-itaparica-vila-velha",
+   "top": false
   },
   {
    "n": "Praia da Sereia",
@@ -1748,7 +1867,8 @@
    "lat": -20.331019,
    "lng": -40.273632,
    "geo": "lugar",
-   "id": "d-praia-da-sereia-vila-velha"
+   "id": "d-praia-da-sereia-vila-velha",
+   "top": false
   },
   {
    "n": "Barra do Jucu",
@@ -1762,7 +1882,8 @@
    "lat": -20.428512,
    "lng": -40.325185,
    "geo": "lugar",
-   "id": "d-barra-do-jucu-vila-velha"
+   "id": "d-barra-do-jucu-vila-velha",
+   "top": false
   },
   {
    "n": "Ilha do Boi",
@@ -1776,7 +1897,8 @@
    "lat": -20.310544,
    "lng": -40.280725,
    "geo": "lugar",
-   "id": "d-ilha-do-boi-vitoria"
+   "id": "d-ilha-do-boi-vitoria",
+   "top": true
   },
   {
    "n": "Curva da Jurema",
@@ -1790,7 +1912,8 @@
    "lat": -20.310096,
    "lng": -40.287257,
    "geo": "lugar",
-   "id": "d-curva-da-jurema-vitoria"
+   "id": "d-curva-da-jurema-vitoria",
+   "top": true
   },
   {
    "n": "Praça dos Namorados",
@@ -1804,7 +1927,8 @@
    "lat": -20.29978,
    "lng": -40.291404,
    "geo": "lugar",
-   "id": "d-praca-dos-namorados-vitoria"
+   "id": "d-praca-dos-namorados-vitoria",
+   "top": false
   },
   {
    "n": "Praça do Papa",
@@ -1818,7 +1942,8 @@
    "lat": -20.316287,
    "lng": -40.294599,
    "geo": "lugar",
-   "id": "d-praca-do-papa-vitoria"
+   "id": "d-praca-do-papa-vitoria",
+   "top": true
   },
   {
    "n": "Parque Municipal Gruta da Onça",
@@ -1835,7 +1960,8 @@
    "lat": -20.317029,
    "lng": -40.328417,
    "geo": "lugar",
-   "id": "d-parque-municipal-gruta-da-onca-vitoria"
+   "id": "d-parque-municipal-gruta-da-onca-vitoria",
+   "top": false
   },
   {
    "n": "Parque Estadual da Fonte Grande",
@@ -1849,7 +1975,8 @@
    "lat": -20.30484,
    "lng": -40.338026,
    "geo": "lugar",
-   "id": "d-parque-estadual-da-fonte-grande-vitoria"
+   "id": "d-parque-estadual-da-fonte-grande-vitoria",
+   "top": false
   },
   {
    "n": "Praça Costa Pereira",
@@ -1863,7 +1990,8 @@
    "lat": -20.320019,
    "lng": -40.335463,
    "geo": "lugar",
-   "id": "d-praca-costa-pereira-vitoria"
+   "id": "d-praca-costa-pereira-vitoria",
+   "top": false
   },
   {
    "n": "Ilha das Caieiras",
@@ -1877,7 +2005,8 @@
    "lat": -20.278212,
    "lng": -40.334747,
    "geo": "lugar",
-   "id": "d-ilha-das-caieiras-vitoria"
+   "id": "d-ilha-das-caieiras-vitoria",
+   "top": true
   },
   {
    "n": "Escadaria Bárbara Lindenberg",
@@ -1891,7 +2020,8 @@
    "lat": -20.321353,
    "lng": -40.339332,
    "geo": "lugar",
-   "id": "d-escadaria-barbara-lindenberg-vitoria"
+   "id": "d-escadaria-barbara-lindenberg-vitoria",
+   "top": false
   },
   {
    "n": "Capela de Santa Luzia",
@@ -1905,7 +2035,8 @@
    "lat": -20.319545,
    "lng": -40.338334,
    "geo": "lugar",
-   "id": "d-capela-de-santa-luzia-vitoria"
+   "id": "d-capela-de-santa-luzia-vitoria",
+   "top": false
   },
   {
    "n": "Igreja de São Gonçalo",
@@ -1919,7 +2050,8 @@
    "lat": -20.320143,
    "lng": -40.339388,
    "geo": "lugar",
-   "id": "d-igreja-de-sao-goncalo-vitoria"
+   "id": "d-igreja-de-sao-goncalo-vitoria",
+   "top": false
   },
   {
    "n": "Igreja e Convento de São Francisco",
@@ -1936,7 +2068,8 @@
    "lat": -20.318837,
    "lng": -40.33935,
    "geo": "lugar",
-   "id": "d-igreja-e-convento-de-sao-francisco-vitoria"
+   "id": "d-igreja-e-convento-de-sao-francisco-vitoria",
+   "top": false
   },
   {
    "n": "Museu Capixaba do Negro",
@@ -1953,7 +2086,8 @@
    "lat": -20.32094,
    "lng": -40.341469,
    "geo": "lugar",
-   "id": "d-museu-capixaba-do-negro-vitoria"
+   "id": "d-museu-capixaba-do-negro-vitoria",
+   "top": false
   },
   {
    "n": "Museu de Arte do Espírito Santo",
@@ -1970,7 +2104,8 @@
    "lat": -20.320015,
    "lng": -40.334408,
    "geo": "lugar",
-   "id": "d-museu-de-arte-do-espirito-santo-vitoria"
+   "id": "d-museu-de-arte-do-espirito-santo-vitoria",
+   "top": false
   },
   {
    "n": "Museu Solar Monjardim",
@@ -1984,7 +2119,8 @@
    "lat": -20.305839,
    "lng": -40.321904,
    "geo": "lugar",
-   "id": "d-museu-solar-monjardim-vitoria"
+   "id": "d-museu-solar-monjardim-vitoria",
+   "top": false
   },
   {
    "n": "Biblioteca Pública Estadual do Espírito Santo",
@@ -2001,7 +2137,8 @@
    "lat": -20.315033,
    "lng": -40.299366,
    "geo": "lugar",
-   "id": "d-biblioteca-publica-estadual-do-espirito-santo-vitoria"
+   "id": "d-biblioteca-publica-estadual-do-espirito-santo-vitoria",
+   "top": false
   },
   {
    "n": "Cine Metrópolis",
@@ -2015,7 +2152,8 @@
    "lat": -20.277806,
    "lng": -40.302345,
    "geo": "lugar",
-   "id": "d-cine-metropolis-vitoria"
+   "id": "d-cine-metropolis-vitoria",
+   "top": false
   },
   {
    "n": "Igreja de São Francisco de Assis da Pampulha",
@@ -2032,7 +2170,8 @@
    "lat": -19.858323,
    "lng": -43.978962,
    "geo": "lugar",
-   "id": "d-igreja-de-sao-francisco-de-assis-da-pampulha-belo-horizonte"
+   "id": "d-igreja-de-sao-francisco-de-assis-da-pampulha-belo-horizonte",
+   "top": true
   },
   {
    "n": "Museu de Arte da Pampulha",
@@ -2049,7 +2188,8 @@
    "lat": -19.851866,
    "lng": -43.973641,
    "geo": "lugar",
-   "id": "d-museu-de-arte-da-pampulha-belo-horizonte"
+   "id": "d-museu-de-arte-da-pampulha-belo-horizonte",
+   "top": false
   },
   {
    "n": "Casa do Baile",
@@ -2063,7 +2203,8 @@
    "lat": -19.854516,
    "lng": -43.97011,
    "geo": "lugar",
-   "id": "d-casa-do-baile-belo-horizonte"
+   "id": "d-casa-do-baile-belo-horizonte",
+   "top": false
   },
   {
    "n": "Lagoa da Pampulha",
@@ -2077,7 +2218,8 @@
    "lat": -19.853209,
    "lng": -43.977749,
    "geo": "lugar",
-   "id": "d-lagoa-da-pampulha-belo-horizonte"
+   "id": "d-lagoa-da-pampulha-belo-horizonte",
+   "top": true
   },
   {
    "n": "Estádio Mineirão",
@@ -2095,7 +2237,8 @@
    "lat": -19.865962,
    "lng": -43.971124,
    "geo": "lugar",
-   "id": "d-estadio-mineirao-belo-horizonte"
+   "id": "d-estadio-mineirao-belo-horizonte",
+   "top": true
   },
   {
    "n": "Parque Ecológico da Pampulha",
@@ -2112,7 +2255,8 @@
    "lat": -19.852763,
    "lng": -43.995713,
    "geo": "lugar",
-   "id": "d-parque-ecologico-da-pampulha-belo-horizonte"
+   "id": "d-parque-ecologico-da-pampulha-belo-horizonte",
+   "top": false
   },
   {
    "n": "Jardim Zoológico de Belo Horizonte",
@@ -2130,7 +2274,8 @@
    "lat": -19.860875,
    "lng": -44.008891,
    "geo": "lugar",
-   "id": "d-jardim-zoologico-de-belo-horizonte-belo-horizonte"
+   "id": "d-jardim-zoologico-de-belo-horizonte-belo-horizonte",
+   "top": false
   },
   {
    "n": "Mercado Central",
@@ -2147,7 +2292,8 @@
    "lat": -19.922581,
    "lng": -43.943024,
    "geo": "lugar",
-   "id": "d-mercado-central-belo-horizonte"
+   "id": "d-mercado-central-belo-horizonte",
+   "top": true
   },
   {
    "n": "Praça da Liberdade",
@@ -2161,7 +2307,8 @@
    "lat": -19.931836,
    "lng": -43.93867,
    "geo": "lugar",
-   "id": "d-praca-da-liberdade-belo-horizonte"
+   "id": "d-praca-da-liberdade-belo-horizonte",
+   "top": true
   },
   {
    "n": "Memorial Minas Gerais Vale",
@@ -2175,7 +2322,8 @@
    "lat": -19.931184,
    "lng": -43.938625,
    "geo": "lugar",
-   "id": "d-memorial-minas-gerais-vale-belo-horizonte"
+   "id": "d-memorial-minas-gerais-vale-belo-horizonte",
+   "top": true
   },
   {
    "n": "Museu de Artes e Ofícios",
@@ -2192,7 +2340,8 @@
    "lat": -19.916315,
    "lng": -43.933199,
    "geo": "lugar",
-   "id": "d-museu-de-artes-e-oficios-belo-horizonte"
+   "id": "d-museu-de-artes-e-oficios-belo-horizonte",
+   "top": true
   },
   {
    "n": "Centro Cultural Banco do Brasil Belo Horizonte",
@@ -2210,7 +2359,8 @@
    "lat": -19.932167,
    "lng": -43.937059,
    "geo": "lugar",
-   "id": "d-centro-cultural-banco-do-brasil-belo-horizonte-belo-horizonte"
+   "id": "d-centro-cultural-banco-do-brasil-belo-horizonte-belo-horizonte",
+   "top": false
   },
   {
    "n": "Palácio das Artes",
@@ -2224,7 +2374,8 @@
    "lat": -19.925852,
    "lng": -43.933524,
    "geo": "lugar",
-   "id": "d-palacio-das-artes-belo-horizonte"
+   "id": "d-palacio-das-artes-belo-horizonte",
+   "top": false
   },
   {
    "n": "Parque Municipal Américo Renné Giannetti",
@@ -2241,7 +2392,8 @@
    "lat": -19.958254,
    "lng": -43.930277,
    "geo": "lugar",
-   "id": "d-parque-municipal-americo-renne-giannetti-belo-horizonte"
+   "id": "d-parque-municipal-americo-renne-giannetti-belo-horizonte",
+   "top": true
   },
   {
    "n": "Praça do Papa",
@@ -2258,7 +2410,8 @@
    "lat": -19.957466,
    "lng": -43.914607,
    "geo": "lugar",
-   "id": "d-praca-do-papa-belo-horizonte"
+   "id": "d-praca-do-papa-belo-horizonte",
+   "top": true
   },
   {
    "n": "Parque das Mangabeiras",
@@ -2275,7 +2428,8 @@
    "lat": -19.94771,
    "lng": -43.904299,
    "geo": "lugar",
-   "id": "d-parque-das-mangabeiras-belo-horizonte"
+   "id": "d-parque-das-mangabeiras-belo-horizonte",
+   "top": true
   },
   {
    "n": "Igreja São José",
@@ -2292,7 +2446,8 @@
    "lat": -19.96653,
    "lng": -43.980611,
    "geo": "lugar",
-   "id": "d-igreja-sao-jose-belo-horizonte"
+   "id": "d-igreja-sao-jose-belo-horizonte",
+   "top": false
   },
   {
    "n": "Catedral de Nossa Senhora da Boa Viagem",
@@ -2309,7 +2464,8 @@
    "lat": -19.928548,
    "lng": -43.934908,
    "geo": "lugar",
-   "id": "d-catedral-de-nossa-senhora-da-boa-viagem-belo-horizonte"
+   "id": "d-catedral-de-nossa-senhora-da-boa-viagem-belo-horizonte",
+   "top": false
   },
   {
    "n": "Museu Mineiro",
@@ -2323,7 +2479,8 @@
    "lat": -19.927969,
    "lng": -43.937248,
    "geo": "lugar",
-   "id": "d-museu-mineiro-belo-horizonte"
+   "id": "d-museu-mineiro-belo-horizonte",
+   "top": false
   },
   {
    "n": "Museu Histórico Abílio Barreto",
@@ -2337,7 +2494,8 @@
    "lat": -19.936552,
    "lng": -43.9479,
    "geo": "lugar",
-   "id": "d-museu-historico-abilio-barreto-belo-horizonte"
+   "id": "d-museu-historico-abilio-barreto-belo-horizonte",
+   "top": false
   },
   {
    "n": "MM Gerdau – Museu das Minas e do Metal",
@@ -2354,7 +2512,8 @@
    "lat": -19.931731,
    "lng": -43.938868,
    "geo": "lugar",
-   "id": "d-mm-gerdau-museu-das-minas-e-do-metal-belo-horizonte"
+   "id": "d-mm-gerdau-museu-das-minas-e-do-metal-belo-horizonte",
+   "top": false
   },
   {
    "n": "Biblioteca Pública Estadual Luiz de Bessa",
@@ -2371,7 +2530,8 @@
    "lat": -19.932868,
    "lng": -43.939261,
    "geo": "lugar",
-   "id": "d-biblioteca-publica-estadual-luiz-de-bessa-belo-horizonte"
+   "id": "d-biblioteca-publica-estadual-luiz-de-bessa-belo-horizonte",
+   "top": false
   },
   {
    "n": "Viaduto Santa Tereza",
@@ -2385,7 +2545,8 @@
    "lat": -19.920939,
    "lng": -43.936239,
    "geo": "lugar",
-   "id": "d-viaduto-santa-tereza-belo-horizonte"
+   "id": "d-viaduto-santa-tereza-belo-horizonte",
+   "top": false
   },
   {
    "n": "Praça da Estação",
@@ -2402,7 +2563,8 @@
    "lat": -19.916874,
    "lng": -43.933798,
    "geo": "lugar",
-   "id": "d-praca-da-estacao-belo-horizonte"
+   "id": "d-praca-da-estacao-belo-horizonte",
+   "top": false
   },
   {
    "n": "Restaurante Bolão",
@@ -2419,7 +2581,8 @@
    "lat": -19.946312,
    "lng": -43.939168,
    "geo": "lugar",
-   "id": "d-restaurante-bolao-belo-horizonte"
+   "id": "d-restaurante-bolao-belo-horizonte",
+   "top": false
   },
   {
    "n": "Café com Letras",
@@ -2433,7 +2596,8 @@
    "lat": -19.937786,
    "lng": -43.937884,
    "geo": "lugar",
-   "id": "d-cafe-com-letras-belo-horizonte"
+   "id": "d-cafe-com-letras-belo-horizonte",
+   "top": false
   },
   {
    "n": "Café Nice",
@@ -2447,7 +2611,8 @@
    "lat": -19.919516,
    "lng": -43.938072,
    "geo": "lugar",
-   "id": "d-cafe-nice-belo-horizonte"
+   "id": "d-cafe-nice-belo-horizonte",
+   "top": false
   },
   {
    "n": "Café Palhares",
@@ -2464,7 +2629,8 @@
    "lat": -19.800621,
    "lng": -43.957543,
    "geo": "lugar",
-   "id": "d-cafe-palhares-belo-horizonte"
+   "id": "d-cafe-palhares-belo-horizonte",
+   "top": false
   },
   {
    "n": "Livraria Quixote",
@@ -2478,7 +2644,8 @@
    "lat": -19.939122,
    "lng": -43.936443,
    "geo": "lugar",
-   "id": "d-livraria-quixote-belo-horizonte"
+   "id": "d-livraria-quixote-belo-horizonte",
+   "top": false
   },
   {
    "n": "Edifício Maletta",
@@ -2495,7 +2662,8 @@
    "lat": -19.924889,
    "lng": -43.937806,
    "geo": "lugar",
-   "id": "d-edificio-maletta-belo-horizonte"
+   "id": "d-edificio-maletta-belo-horizonte",
+   "top": false
   },
   {
    "n": "Cantina do Lucas",
@@ -2509,7 +2677,8 @@
    "lat": -19.924811,
    "lng": -43.937578,
    "geo": "lugar",
-   "id": "d-cantina-do-lucas-belo-horizonte"
+   "id": "d-cantina-do-lucas-belo-horizonte",
+   "top": false
   },
   {
    "n": "Esquina do Clube da Esquina",
@@ -2523,7 +2692,8 @@
    "lat": -19.91573,
    "lng": -43.912581,
    "geo": "lugar",
-   "id": "d-esquina-do-clube-da-esquina-belo-horizonte"
+   "id": "d-esquina-do-clube-da-esquina-belo-horizonte",
+   "top": false
   },
   {
    "n": "Bar do Museu Clube da Esquina",
@@ -2537,7 +2707,8 @@
    "lat": -19.915419,
    "lng": -43.912734,
    "geo": "lugar",
-   "id": "d-bar-do-museu-clube-da-esquina-belo-horizonte"
+   "id": "d-bar-do-museu-clube-da-esquina-belo-horizonte",
+   "top": false
   },
   {
    "n": "Mercado Novo",
@@ -2551,7 +2722,8 @@
    "lat": -19.920551,
    "lng": -43.945277,
    "geo": "lugar",
-   "id": "d-mercado-novo-belo-horizonte"
+   "id": "d-mercado-novo-belo-horizonte",
+   "top": false
   },
   {
    "n": "Bonomi",
@@ -2568,7 +2740,8 @@
    "lat": -19.934307,
    "lng": -43.929476,
    "geo": "lugar",
-   "id": "d-bonomi-belo-horizonte"
+   "id": "d-bonomi-belo-horizonte",
+   "top": false
   },
   {
    "n": "Praça Duque de Caxias",
@@ -2582,7 +2755,8 @@
    "lat": -19.915979,
    "lng": -43.917674,
    "geo": "lugar",
-   "id": "d-praca-duque-de-caxias-belo-horizonte"
+   "id": "d-praca-duque-de-caxias-belo-horizonte",
+   "top": false
   },
   {
    "n": "Parque Municipal Fazenda Lagoa do Nado",
@@ -2599,7 +2773,8 @@
    "lat": -19.835602,
    "lng": -43.959037,
    "geo": "lugar",
-   "id": "d-parque-municipal-fazenda-lagoa-do-nado-belo-horizonte"
+   "id": "d-parque-municipal-fazenda-lagoa-do-nado-belo-horizonte",
+   "top": false
   },
   {
    "n": "Praça Sete de Setembro",
@@ -2616,7 +2791,8 @@
    "lat": -19.919102,
    "lng": -43.938585,
    "geo": "lugar",
-   "id": "d-praca-sete-de-setembro-belo-horizonte"
+   "id": "d-praca-sete-de-setembro-belo-horizonte",
+   "top": false
   },
   {
    "n": "Museu de História Natural e Jardim Botânico da UFMG",
@@ -2630,7 +2806,8 @@
    "lat": -19.895156,
    "lng": -43.914539,
    "geo": "lugar",
-   "id": "d-museu-de-historia-natural-e-jardim-botanico-da-ufmg-belo-horizonte"
+   "id": "d-museu-de-historia-natural-e-jardim-botanico-da-ufmg-belo-horizonte",
+   "top": false
   },
   {
    "n": "Cine Theatro Brasil Vallourec",
@@ -2647,7 +2824,8 @@
    "lat": -19.919046,
    "lng": -43.937969,
    "geo": "lugar",
-   "id": "d-cine-theatro-brasil-vallourec-belo-horizonte"
+   "id": "d-cine-theatro-brasil-vallourec-belo-horizonte",
+   "top": false
   },
   {
    "n": "Casa Fiat de Cultura",
@@ -2661,7 +2839,8 @@
    "lat": -19.934452,
    "lng": -43.939608,
    "geo": "lugar",
-   "id": "d-casa-fiat-de-cultura-belo-horizonte"
+   "id": "d-casa-fiat-de-cultura-belo-horizonte",
+   "top": false
   },
   {
    "n": "Palácio da Liberdade",
@@ -2675,7 +2854,8 @@
    "lat": -19.933736,
    "lng": -43.938518,
    "geo": "lugar",
-   "id": "d-palacio-da-liberdade-belo-horizonte"
+   "id": "d-palacio-da-liberdade-belo-horizonte",
+   "top": false
   },
   {
    "n": "Basílica de Nossa Senhora de Lourdes",
@@ -2692,7 +2872,8 @@
    "lat": -19.92893,
    "lng": -43.938582,
    "geo": "lugar",
-   "id": "d-basilica-de-nossa-senhora-de-lourdes-belo-horizonte"
+   "id": "d-basilica-de-nossa-senhora-de-lourdes-belo-horizonte",
+   "top": false
   },
   {
    "n": "Rua Sapucaí",
@@ -2706,7 +2887,8 @@
    "lat": -19.916742,
    "lng": -43.932403,
    "geo": "lugar",
-   "id": "d-rua-sapucai-belo-horizonte"
+   "id": "d-rua-sapucai-belo-horizonte",
+   "top": false
   },
   {
    "n": "Sesc Palladium",
@@ -2720,7 +2902,8 @@
    "lat": -19.923567,
    "lng": -43.939986,
    "geo": "lugar",
-   "id": "d-sesc-palladium-belo-horizonte"
+   "id": "d-sesc-palladium-belo-horizonte",
+   "top": false
   },
   {
    "n": "Cervejaria Wäls",
@@ -2737,7 +2920,8 @@
    "lat": -19.879593,
    "lng": -43.962652,
    "geo": "lugar",
-   "id": "d-cervejaria-wals-belo-horizonte"
+   "id": "d-cervejaria-wals-belo-horizonte",
+   "top": false
   },
   {
    "n": "Instituto Inhotim",
@@ -2754,7 +2938,8 @@
    "lat": -20.124332,
    "lng": -44.218674,
    "geo": "lugar",
-   "id": "d-instituto-inhotim-brumadinho"
+   "id": "d-instituto-inhotim-brumadinho",
+   "top": true
   },
   {
    "n": "Topo do Mundo",
@@ -2768,7 +2953,8 @@
    "lat": -20.199948,
    "lng": -43.978323,
    "geo": "lugar",
-   "id": "d-topo-do-mundo-brumadinho"
+   "id": "d-topo-do-mundo-brumadinho",
+   "top": false
   },
   {
    "n": "Santuário de Nossa Senhora da Piedade",
@@ -2785,7 +2971,8 @@
    "lat": -19.82281,
    "lng": -43.675497,
    "geo": "lugar",
-   "id": "d-santuario-de-nossa-senhora-da-piedade-caete"
+   "id": "d-santuario-de-nossa-senhora-da-piedade-caete",
+   "top": false
   },
   {
    "n": "Pedra Redonda",
@@ -2799,7 +2986,8 @@
    "lat": -22.886177,
    "lng": -46.022448,
    "geo": "lugar",
-   "id": "d-pedra-redonda-camanducaia"
+   "id": "d-pedra-redonda-camanducaia",
+   "top": true
   },
   {
    "n": "Pedra Partida",
@@ -2813,7 +3001,8 @@
    "lat": -22.886191,
    "lng": -46.013714,
    "geo": "lugar",
-   "id": "d-pedra-partida-camanducaia"
+   "id": "d-pedra-partida-camanducaia",
+   "top": true
   },
   {
    "n": "Pico do Selado",
@@ -2827,7 +3016,8 @@
    "lat": -22.890611,
    "lng": -46.042541,
    "geo": "lugar",
-   "id": "d-pico-do-selado-camanducaia"
+   "id": "d-pico-do-selado-camanducaia",
+   "top": false
   },
   {
    "n": "Pedra do Chapéu",
@@ -2841,7 +3031,8 @@
    "lat": -22.852155,
    "lng": -46.058952,
    "geo": "lugar",
-   "id": "d-pedra-do-chapeu-camanducaia"
+   "id": "d-pedra-do-chapeu-camanducaia",
+   "top": false
   },
   {
    "n": "Cânions de Furnas",
@@ -2858,7 +3049,8 @@
    "lat": -20.646001,
    "lng": -46.266024,
    "geo": "lugar",
-   "id": "d-canions-de-furnas-capitolio"
+   "id": "d-canions-de-furnas-capitolio",
+   "top": true
   },
   {
    "n": "Mirante dos Cânions",
@@ -2872,7 +3064,8 @@
    "lat": -20.646102,
    "lng": -46.265754,
    "geo": "lugar",
-   "id": "d-mirante-dos-canions-capitolio"
+   "id": "d-mirante-dos-canions-capitolio",
+   "top": true
   },
   {
    "n": "Cachoeira Lagoa Azul",
@@ -2886,7 +3079,8 @@
    "lat": -20.64771,
    "lng": -46.258328,
    "geo": "lugar",
-   "id": "d-cachoeira-lagoa-azul-capitolio"
+   "id": "d-cachoeira-lagoa-azul-capitolio",
+   "top": false
   },
   {
    "n": "Lago de Furnas",
@@ -2903,7 +3097,8 @@
    "lat": -20.646001,
    "lng": -46.266024,
    "geo": "lugar",
-   "id": "d-lago-de-furnas-capitolio"
+   "id": "d-lago-de-furnas-capitolio",
+   "top": false
   },
   {
    "n": "Complexo da Zilda",
@@ -2917,7 +3112,8 @@
    "lat": -21.556559,
    "lng": -44.637237,
    "geo": "lugar",
-   "id": "d-complexo-da-zilda-carrancas"
+   "id": "d-complexo-da-zilda-carrancas",
+   "top": true
   },
   {
    "n": "Cachoeira da Fumaça",
@@ -2931,7 +3127,8 @@
    "lat": -21.471776,
    "lng": -44.679839,
    "geo": "lugar",
-   "id": "d-cachoeira-da-fumaca-carrancas"
+   "id": "d-cachoeira-da-fumaca-carrancas",
+   "top": true
   },
   {
    "n": "Complexo da Toca",
@@ -2948,7 +3145,8 @@
    "lat": -21.475821,
    "lng": -44.66621,
    "geo": "lugar",
-   "id": "d-complexo-da-toca-carrancas"
+   "id": "d-complexo-da-toca-carrancas",
+   "top": false
   },
   {
    "n": "Igreja Matriz de Nossa Senhora da Conceição",
@@ -2962,7 +3160,8 @@
    "lat": -21.488052,
    "lng": -44.642178,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-carrancas"
+   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-carrancas",
+   "top": false
   },
   {
    "n": "Santuário do Caraça",
@@ -2979,7 +3178,8 @@
    "lat": -20.098103,
    "lng": -43.487693,
    "geo": "lugar",
-   "id": "d-santuario-do-caraca-catas-altas"
+   "id": "d-santuario-do-caraca-catas-altas",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Nossa Senhora da Conceição",
@@ -2993,7 +3193,8 @@
    "lat": -20.074703,
    "lng": -43.408137,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-catas-altas"
+   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-catas-altas",
+   "top": false
   },
   {
    "n": "Cascatona",
@@ -3007,7 +3208,8 @@
    "lat": -20.070728,
    "lng": -43.4891,
    "geo": "lugar",
-   "id": "d-cascatona-catas-altas"
+   "id": "d-cascatona-catas-altas",
+   "top": true
   },
   {
    "n": "Parque das Águas de Caxambu",
@@ -3021,7 +3223,8 @@
    "lat": -21.985932,
    "lng": -44.943103,
    "geo": "lugar",
-   "id": "d-parque-das-aguas-de-caxambu-caxambu"
+   "id": "d-parque-das-aguas-de-caxambu-caxambu",
+   "top": true
   },
   {
    "n": "Igreja de Santa Isabel da Hungria",
@@ -3035,7 +3238,8 @@
    "lat": -21.977527,
    "lng": -44.93634,
    "geo": "lugar",
-   "id": "d-igreja-de-santa-isabel-da-hungria-caxambu"
+   "id": "d-igreja-de-santa-isabel-da-hungria-caxambu",
+   "top": false
   },
   {
    "n": "Teleférico de Caxambu",
@@ -3049,7 +3253,8 @@
    "lat": -21.982985,
    "lng": -44.939535,
    "geo": "lugar",
-   "id": "d-teleferico-de-caxambu-caxambu"
+   "id": "d-teleferico-de-caxambu-caxambu",
+   "top": true
   },
   {
    "n": "Santuário do Bom Jesus de Matosinhos",
@@ -3066,7 +3271,8 @@
    "lat": -20.50753,
    "lng": -43.86053,
    "geo": "lugar",
-   "id": "d-santuario-do-bom-jesus-de-matosinhos-congonhas"
+   "id": "d-santuario-do-bom-jesus-de-matosinhos-congonhas",
+   "top": true
   },
   {
    "n": "Museu de Congonhas",
@@ -3080,7 +3286,8 @@
    "lat": -20.507365,
    "lng": -43.861398,
    "geo": "lugar",
-   "id": "d-museu-de-congonhas-congonhas"
+   "id": "d-museu-de-congonhas-congonhas",
+   "top": true
   },
   {
    "n": "Espaço Cultural da Romaria",
@@ -3097,7 +3304,8 @@
    "lat": -20.506609,
    "lng": -43.862839,
    "geo": "lugar",
-   "id": "d-espaco-cultural-da-romaria-congonhas"
+   "id": "d-espaco-cultural-da-romaria-congonhas",
+   "top": false
   },
   {
    "n": "Parque da Cachoeira",
@@ -3111,7 +3319,8 @@
    "lat": -20.46123,
    "lng": -43.864673,
    "geo": "lugar",
-   "id": "d-parque-da-cachoeira-congonhas"
+   "id": "d-parque-da-cachoeira-congonhas",
+   "top": false
   },
   {
    "n": "Casa de Juscelino Kubitschek",
@@ -3128,7 +3337,8 @@
    "lat": -18.244914,
    "lng": -43.600272,
    "geo": "lugar",
-   "id": "d-casa-de-juscelino-kubitschek-diamantina"
+   "id": "d-casa-de-juscelino-kubitschek-diamantina",
+   "top": true
   },
   {
    "n": "Casa de Chica da Silva",
@@ -3142,7 +3352,8 @@
    "lat": -18.246727,
    "lng": -43.59679,
    "geo": "lugar",
-   "id": "d-casa-de-chica-da-silva-diamantina"
+   "id": "d-casa-de-chica-da-silva-diamantina",
+   "top": true
   },
   {
    "n": "Catedral Metropolitana de Santo Antônio",
@@ -3156,7 +3367,8 @@
    "lat": -18.244684,
    "lng": -43.597495,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-santo-antonio-diamantina"
+   "id": "d-catedral-metropolitana-de-santo-antonio-diamantina",
+   "top": false
   },
   {
    "n": "Mercado Velho",
@@ -3173,7 +3385,8 @@
    "lat": -18.243953,
    "lng": -43.596453,
    "geo": "lugar",
-   "id": "d-mercado-velho-diamantina"
+   "id": "d-mercado-velho-diamantina",
+   "top": true
   },
   {
    "n": "Rua da Quitanda",
@@ -3187,7 +3400,8 @@
    "lat": -18.24526,
    "lng": -43.596728,
    "geo": "lugar",
-   "id": "d-rua-da-quitanda-diamantina"
+   "id": "d-rua-da-quitanda-diamantina",
+   "top": false
   },
   {
    "n": "Passadiço da Glória",
@@ -3204,7 +3418,8 @@
    "lat": -18.241585,
    "lng": -43.601651,
    "geo": "lugar",
-   "id": "d-passadico-da-gloria-diamantina"
+   "id": "d-passadico-da-gloria-diamantina",
+   "top": true
   },
   {
    "n": "Museu do Diamante",
@@ -3218,7 +3433,8 @@
    "lat": -18.245763,
    "lng": -43.596934,
    "geo": "lugar",
-   "id": "d-museu-do-diamante-diamantina"
+   "id": "d-museu-do-diamante-diamantina",
+   "top": false
   },
   {
    "n": "Parque Estadual do Biribiri",
@@ -3232,7 +3448,8 @@
    "lat": -18.135081,
    "lng": -43.574051,
    "geo": "lugar",
-   "id": "d-parque-estadual-do-biribiri-diamantina"
+   "id": "d-parque-estadual-do-biribiri-diamantina",
+   "top": false
   },
   {
    "n": "Pedra Chanfrada",
@@ -3246,7 +3463,8 @@
    "lat": -22.725349,
    "lng": -45.852244,
    "geo": "lugar",
-   "id": "d-pedra-chanfrada-goncalves"
+   "id": "d-pedra-chanfrada-goncalves",
+   "top": false
   },
   {
    "n": "Parque Ipanema",
@@ -3260,7 +3478,8 @@
    "lat": -19.469389,
    "lng": -42.54295,
    "geo": "lugar",
-   "id": "d-parque-ipanema-ipatinga"
+   "id": "d-parque-ipanema-ipatinga",
+   "top": false
   },
   {
    "n": "Centro Cultural Usiminas",
@@ -3274,7 +3493,8 @@
    "lat": -19.469511,
    "lng": -42.53547,
    "geo": "lugar",
-   "id": "d-centro-cultural-usiminas-ipatinga"
+   "id": "d-centro-cultural-usiminas-ipatinga",
+   "top": false
   },
   {
    "n": "Museu Mariano Procópio",
@@ -3288,7 +3508,8 @@
    "lat": -21.746143,
    "lng": -43.360017,
    "geo": "lugar",
-   "id": "d-museu-mariano-procopio-juiz-de-fora"
+   "id": "d-museu-mariano-procopio-juiz-de-fora",
+   "top": true
   },
   {
    "n": "Parque Halfeld",
@@ -3302,7 +3523,8 @@
    "lat": -21.761095,
    "lng": -43.350549,
    "geo": "lugar",
-   "id": "d-parque-halfeld-juiz-de-fora"
+   "id": "d-parque-halfeld-juiz-de-fora",
+   "top": false
   },
   {
    "n": "Morro do Imperador",
@@ -3319,7 +3541,8 @@
    "lat": -21.763662,
    "lng": -43.357576,
    "geo": "lugar",
-   "id": "d-morro-do-imperador-juiz-de-fora"
+   "id": "d-morro-do-imperador-juiz-de-fora",
+   "top": true
   },
   {
    "n": "Cine-Theatro Central",
@@ -3333,7 +3556,8 @@
    "lat": -21.761578,
    "lng": -43.347892,
    "geo": "lugar",
-   "id": "d-cine-theatro-central-juiz-de-fora"
+   "id": "d-cine-theatro-central-juiz-de-fora",
+   "top": true
   },
   {
    "n": "Catedral Metropolitana de Juiz de Fora",
@@ -3347,7 +3571,8 @@
    "lat": -21.764006,
    "lng": -43.350121,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-juiz-de-fora-juiz-de-fora"
+   "id": "d-catedral-metropolitana-de-juiz-de-fora-juiz-de-fora",
+   "top": false
   },
   {
    "n": "Museu de Arte Murilo Mendes",
@@ -3364,7 +3589,8 @@
    "lat": -21.756051,
    "lng": -43.352021,
    "geo": "lugar",
-   "id": "d-museu-de-arte-murilo-mendes-juiz-de-fora"
+   "id": "d-museu-de-arte-murilo-mendes-juiz-de-fora",
+   "top": true
   },
   {
    "n": "Centro Cultural Bernardo Mascarenhas",
@@ -3378,7 +3604,8 @@
    "lat": -21.761388,
    "lng": -43.344608,
    "geo": "lugar",
-   "id": "d-centro-cultural-bernardo-mascarenhas-juiz-de-fora"
+   "id": "d-centro-cultural-bernardo-mascarenhas-juiz-de-fora",
+   "top": false
   },
   {
    "n": "Represa Doutor João Penido",
@@ -3395,7 +3622,8 @@
    "lat": -21.660011,
    "lng": -43.388429,
    "geo": "lugar",
-   "id": "d-represa-doutor-joao-penido-juiz-de-fora"
+   "id": "d-represa-doutor-joao-penido-juiz-de-fora",
+   "top": false
   },
   {
    "n": "Lagoa Central",
@@ -3412,7 +3640,8 @@
    "lat": -19.637152,
    "lng": -43.89415,
    "geo": "lugar",
-   "id": "d-lagoa-central-lagoa-santa"
+   "id": "d-lagoa-central-lagoa-santa",
+   "top": true
   },
   {
    "n": "Gruta da Lapinha",
@@ -3426,7 +3655,8 @@
    "lat": -19.561979,
    "lng": -43.959305,
    "geo": "lugar",
-   "id": "d-gruta-da-lapinha-lagoa-santa"
+   "id": "d-gruta-da-lapinha-lagoa-santa",
+   "top": true
   },
   {
    "n": "Museu Arqueológico da Lapinha",
@@ -3440,7 +3670,8 @@
    "lat": -19.561312,
    "lng": -43.960079,
    "geo": "lugar",
-   "id": "d-museu-arqueologico-da-lapinha-lagoa-santa"
+   "id": "d-museu-arqueologico-da-lapinha-lagoa-santa",
+   "top": false
   },
   {
    "n": "Parque Estadual do Ibitipoca",
@@ -3457,7 +3688,8 @@
    "lat": -21.696092,
    "lng": -43.88608,
    "geo": "lugar",
-   "id": "d-parque-estadual-do-ibitipoca-lima-duarte"
+   "id": "d-parque-estadual-do-ibitipoca-lima-duarte",
+   "top": true
   },
   {
    "n": "Janela do Céu",
@@ -3471,7 +3703,8 @@
    "lat": -21.717006,
    "lng": -43.926256,
    "geo": "lugar",
-   "id": "d-janela-do-ceu-lima-duarte"
+   "id": "d-janela-do-ceu-lima-duarte",
+   "top": true
   },
   {
    "n": "Conceição de Ibitipoca",
@@ -3485,7 +3718,8 @@
    "lat": -21.716963,
    "lng": -43.925977,
    "geo": "lugar",
-   "id": "d-conceicao-de-ibitipoca-lima-duarte"
+   "id": "d-conceicao-de-ibitipoca-lima-duarte",
+   "top": false
   },
   {
    "n": "Catedral Basílica de Nossa Senhora da Assunção",
@@ -3502,7 +3736,8 @@
    "lat": -20.378294,
    "lng": -43.416438,
    "geo": "lugar",
-   "id": "d-catedral-basilica-de-nossa-senhora-da-assuncao-mariana"
+   "id": "d-catedral-basilica-de-nossa-senhora-da-assuncao-mariana",
+   "top": true
   },
   {
    "n": "Praça Minas Gerais",
@@ -3516,7 +3751,8 @@
    "lat": -20.378117,
    "lng": -43.418133,
    "geo": "lugar",
-   "id": "d-praca-minas-gerais-mariana"
+   "id": "d-praca-minas-gerais-mariana",
+   "top": true
   },
   {
    "n": "Igreja de São Francisco de Assis",
@@ -3530,7 +3766,8 @@
    "lat": -20.378422,
    "lng": -43.417617,
    "geo": "lugar",
-   "id": "d-igreja-de-sao-francisco-de-assis-mariana"
+   "id": "d-igreja-de-sao-francisco-de-assis-mariana",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora do Carmo",
@@ -3544,7 +3781,8 @@
    "lat": -20.378701,
    "lng": -43.418103,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-carmo-mariana"
+   "id": "d-igreja-de-nossa-senhora-do-carmo-mariana",
+   "top": false
   },
   {
    "n": "Casa de Câmara e Cadeia",
@@ -3558,7 +3796,8 @@
    "lat": -20.378081,
    "lng": -43.418298,
    "geo": "lugar",
-   "id": "d-casa-de-camara-e-cadeia-mariana"
+   "id": "d-casa-de-camara-e-cadeia-mariana",
+   "top": false
   },
   {
    "n": "Mina da Passagem",
@@ -3572,7 +3811,8 @@
    "lat": -20.391366,
    "lng": -43.43861,
    "geo": "lugar",
-   "id": "d-mina-da-passagem-mariana"
+   "id": "d-mina-da-passagem-mariana",
+   "top": true
   },
   {
    "n": "Parque Municipal Milton Prates",
@@ -3589,7 +3829,8 @@
    "lat": -16.754573,
    "lng": -43.884733,
    "geo": "lugar",
-   "id": "d-parque-municipal-milton-prates-montes-claros"
+   "id": "d-parque-municipal-milton-prates-montes-claros",
+   "top": true
   },
   {
    "n": "Parque Estadual da Lapa Grande",
@@ -3603,7 +3844,8 @@
    "lat": -16.726232,
    "lng": -43.955407,
    "geo": "lugar",
-   "id": "d-parque-estadual-da-lapa-grande-montes-claros"
+   "id": "d-parque-estadual-da-lapa-grande-montes-claros",
+   "top": true
   },
   {
    "n": "Centro Cultural Hermes de Paula",
@@ -3617,7 +3859,8 @@
    "lat": -16.720411,
    "lng": -43.866494,
    "geo": "lugar",
-   "id": "d-centro-cultural-hermes-de-paula-montes-claros"
+   "id": "d-centro-cultural-hermes-de-paula-montes-claros",
+   "top": false
   },
   {
    "n": "Mercado Municipal de Montes Claros",
@@ -3631,7 +3874,8 @@
    "lat": -16.717362,
    "lng": -43.865347,
    "geo": "lugar",
-   "id": "d-mercado-municipal-de-montes-claros-montes-claros"
+   "id": "d-mercado-municipal-de-montes-claros-montes-claros",
+   "top": false
   },
   {
    "n": "Igreja Matriz de Nossa Senhora do Pilar",
@@ -3645,7 +3889,8 @@
    "lat": -19.985132,
    "lng": -43.84709,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-do-pilar-nova-lima"
+   "id": "d-igreja-matriz-de-nossa-senhora-do-pilar-nova-lima",
+   "top": false
   },
   {
    "n": "São Sebastião das Águas Claras",
@@ -3662,7 +3907,8 @@
    "lat": -20.043485,
    "lng": -43.914939,
    "geo": "lugar",
-   "id": "d-sao-sebastiao-das-aguas-claras-nova-lima"
+   "id": "d-sao-sebastiao-das-aguas-claras-nova-lima",
+   "top": false
   },
   {
    "n": "Igreja de São Francisco de Assis",
@@ -3676,7 +3922,8 @@
    "lat": -20.386869,
    "lng": -43.502784,
    "geo": "lugar",
-   "id": "d-igreja-de-sao-francisco-de-assis-ouro-preto"
+   "id": "d-igreja-de-sao-francisco-de-assis-ouro-preto",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Nossa Senhora do Pilar",
@@ -3693,7 +3940,8 @@
    "lat": -20.386802,
    "lng": -43.507506,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-do-pilar-ouro-preto"
+   "id": "d-igreja-matriz-de-nossa-senhora-do-pilar-ouro-preto",
+   "top": true
   },
   {
    "n": "Museu da Inconfidência",
@@ -3707,7 +3955,8 @@
    "lat": -20.386192,
    "lng": -43.503814,
    "geo": "lugar",
-   "id": "d-museu-da-inconfidencia-ouro-preto"
+   "id": "d-museu-da-inconfidencia-ouro-preto",
+   "top": true
   },
   {
    "n": "Praça Tiradentes",
@@ -3721,7 +3970,8 @@
    "lat": -20.385772,
    "lng": -43.503625,
    "geo": "lugar",
-   "id": "d-praca-tiradentes-ouro-preto"
+   "id": "d-praca-tiradentes-ouro-preto",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Nossa Senhora da Conceição de Antônio Dias",
@@ -3738,7 +3988,8 @@
    "lat": -20.386224,
    "lng": -43.501167,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-de-antonio-dias-ouro-preto"
+   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-de-antonio-dias-ouro-preto",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora do Carmo",
@@ -3752,7 +4003,8 @@
    "lat": -20.386118,
    "lng": -43.50423,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-carmo-ouro-preto"
+   "id": "d-igreja-de-nossa-senhora-do-carmo-ouro-preto",
+   "top": false
   },
   {
    "n": "Igreja de Santa Efigênia dos Pretos",
@@ -3769,7 +4021,8 @@
    "lat": -20.388103,
    "lng": -43.495459,
    "geo": "lugar",
-   "id": "d-igreja-de-santa-efigenia-dos-pretos-ouro-preto"
+   "id": "d-igreja-de-santa-efigenia-dos-pretos-ouro-preto",
+   "top": false
   },
   {
    "n": "Mina do Chico Rei",
@@ -3783,7 +4036,8 @@
    "lat": -20.385904,
    "lng": -43.499357,
    "geo": "lugar",
-   "id": "d-mina-do-chico-rei-ouro-preto"
+   "id": "d-mina-do-chico-rei-ouro-preto",
+   "top": false
   },
   {
    "n": "Casa dos Contos",
@@ -3797,7 +4051,8 @@
    "lat": -20.384338,
    "lng": -43.506038,
    "geo": "lugar",
-   "id": "d-casa-dos-contos-ouro-preto"
+   "id": "d-casa-dos-contos-ouro-preto",
+   "top": false
   },
   {
    "n": "Museu de Ciência e Técnica da Escola de Minas",
@@ -3811,7 +4066,8 @@
    "lat": -20.384381,
    "lng": -43.503619,
    "geo": "lugar",
-   "id": "d-museu-de-ciencia-e-tecnica-da-escola-de-minas-ouro-preto"
+   "id": "d-museu-de-ciencia-e-tecnica-da-escola-de-minas-ouro-preto",
+   "top": false
   },
   {
    "n": "Teatro Municipal Casa da Ópera",
@@ -3828,7 +4084,8 @@
    "lat": -20.385732,
    "lng": -43.504956,
    "geo": "lugar",
-   "id": "d-teatro-municipal-casa-da-opera-ouro-preto"
+   "id": "d-teatro-municipal-casa-da-opera-ouro-preto",
+   "top": false
   },
   {
    "n": "Lavras Novas",
@@ -3842,7 +4099,8 @@
    "lat": -20.475003,
    "lng": -43.522071,
    "geo": "lugar",
-   "id": "d-lavras-novas-ouro-preto"
+   "id": "d-lavras-novas-ouro-preto",
+   "top": false
   },
   {
    "n": "Parque Natural Municipal das Andorinhas",
@@ -3859,7 +4117,8 @@
    "lat": -20.369202,
    "lng": -43.498236,
    "geo": "lugar",
-   "id": "d-parque-natural-municipal-das-andorinhas-ouro-preto"
+   "id": "d-parque-natural-municipal-das-andorinhas-ouro-preto",
+   "top": false
   },
   {
    "n": "Café Geraes",
@@ -3873,7 +4132,8 @@
    "lat": -20.385142,
    "lng": -43.504912,
    "geo": "lugar",
-   "id": "d-cafe-geraes-ouro-preto"
+   "id": "d-cafe-geraes-ouro-preto",
+   "top": false
   },
   {
    "n": "Thermas Antônio Carlos",
@@ -3887,7 +4147,8 @@
    "lat": -21.787776,
    "lng": -46.568751,
    "geo": "lugar",
-   "id": "d-thermas-antonio-carlos-pocos-de-caldas"
+   "id": "d-thermas-antonio-carlos-pocos-de-caldas",
+   "top": true
   },
   {
    "n": "Palace Casino",
@@ -3901,7 +4162,8 @@
    "lat": -21.785581,
    "lng": -46.569795,
    "geo": "lugar",
-   "id": "d-palace-casino-pocos-de-caldas"
+   "id": "d-palace-casino-pocos-de-caldas",
+   "top": true
   },
   {
    "n": "Serra de São Domingos",
@@ -3918,7 +4180,8 @@
    "lat": -21.774832,
    "lng": -46.549445,
    "geo": "lugar",
-   "id": "d-serra-de-sao-domingos-pocos-de-caldas"
+   "id": "d-serra-de-sao-domingos-pocos-de-caldas",
+   "top": true
   },
   {
    "n": "Recanto Japonês",
@@ -3932,7 +4195,8 @@
    "lat": -21.775531,
    "lng": -46.556435,
    "geo": "lugar",
-   "id": "d-recanto-japones-pocos-de-caldas"
+   "id": "d-recanto-japones-pocos-de-caldas",
+   "top": true
   },
   {
    "n": "Fonte dos Amores",
@@ -3946,7 +4210,8 @@
    "lat": -21.778914,
    "lng": -46.570386,
    "geo": "lugar",
-   "id": "d-fonte-dos-amores-pocos-de-caldas"
+   "id": "d-fonte-dos-amores-pocos-de-caldas",
+   "top": false
   },
   {
    "n": "Cascata das Antas",
@@ -3960,7 +4225,8 @@
    "lat": -21.764935,
    "lng": -46.606749,
    "geo": "lugar",
-   "id": "d-cascata-das-antas-pocos-de-caldas"
+   "id": "d-cascata-das-antas-pocos-de-caldas",
+   "top": false
   },
   {
    "n": "Parque José Affonso Junqueira",
@@ -3974,7 +4240,8 @@
    "lat": -21.786244,
    "lng": -46.570538,
    "geo": "lugar",
-   "id": "d-parque-jose-affonso-junqueira-pocos-de-caldas"
+   "id": "d-parque-jose-affonso-junqueira-pocos-de-caldas",
+   "top": false
   },
   {
    "n": "Teleférico de Poços de Caldas",
@@ -3988,7 +4255,8 @@
    "lat": -21.778897,
    "lng": -46.569115,
    "geo": "lugar",
-   "id": "d-teleferico-de-pocos-de-caldas-pocos-de-caldas"
+   "id": "d-teleferico-de-pocos-de-caldas-pocos-de-caldas",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora do Ó",
@@ -4002,7 +4270,8 @@
    "lat": -19.884852,
    "lng": -43.796023,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-o-sabara"
+   "id": "d-igreja-de-nossa-senhora-do-o-sabara",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora do Carmo",
@@ -4016,7 +4285,8 @@
    "lat": -19.889718,
    "lng": -43.806839,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-carmo-sabara"
+   "id": "d-igreja-de-nossa-senhora-do-carmo-sabara",
+   "top": false
   },
   {
    "n": "Museu do Ouro",
@@ -4030,7 +4300,8 @@
    "lat": -19.88876,
    "lng": -43.807273,
    "geo": "lugar",
-   "id": "d-museu-do-ouro-sabara"
+   "id": "d-museu-do-ouro-sabara",
+   "top": true
   },
   {
    "n": "Teatro Municipal de Sabará",
@@ -4044,7 +4315,8 @@
    "lat": -19.89105,
    "lng": -43.810445,
    "geo": "lugar",
-   "id": "d-teatro-municipal-de-sabara-sabara"
+   "id": "d-teatro-municipal-de-sabara-sabara",
+   "top": false
   },
   {
    "n": "Igreja Matriz de Nossa Senhora da Conceição",
@@ -4058,7 +4330,8 @@
    "lat": -19.787294,
    "lng": -43.753014,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-sabara"
+   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-sabara",
+   "top": false
   },
   {
    "n": "Parque Nacional da Serra do Cipó",
@@ -4075,7 +4348,8 @@
    "lat": -19.335554,
    "lng": -43.625595,
    "geo": "lugar",
-   "id": "d-parque-nacional-da-serra-do-cipo-santana-do-riacho"
+   "id": "d-parque-nacional-da-serra-do-cipo-santana-do-riacho",
+   "top": true
   },
   {
    "n": "Cachoeira da Farofa",
@@ -4089,7 +4363,8 @@
    "lat": -19.241301,
    "lng": -43.582342,
    "geo": "lugar",
-   "id": "d-cachoeira-da-farofa-santana-do-riacho"
+   "id": "d-cachoeira-da-farofa-santana-do-riacho",
+   "top": false
   },
   {
    "n": "Cachoeira Véu da Noiva",
@@ -4103,7 +4378,8 @@
    "lat": -19.315701,
    "lng": -43.605573,
    "geo": "lugar",
-   "id": "d-cachoeira-veu-da-noiva-santana-do-riacho"
+   "id": "d-cachoeira-veu-da-noiva-santana-do-riacho",
+   "top": true
   },
   {
    "n": "Igreja de São Francisco de Assis",
@@ -4117,7 +4393,8 @@
    "lat": -21.138898,
    "lng": -44.260045,
    "geo": "lugar",
-   "id": "d-igreja-de-sao-francisco-de-assis-sao-joao-del-rei"
+   "id": "d-igreja-de-sao-francisco-de-assis-sao-joao-del-rei",
+   "top": true
   },
   {
    "n": "Catedral Basílica de Nossa Senhora do Pilar",
@@ -4131,7 +4408,8 @@
    "lat": -21.135095,
    "lng": -44.262112,
    "geo": "lugar",
-   "id": "d-catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei"
+   "id": "d-catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora do Carmo",
@@ -4145,7 +4423,8 @@
    "lat": -21.133306,
    "lng": -44.260639,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei"
+   "id": "d-igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei",
+   "top": true
   },
   {
    "n": "Complexo Ferroviário de São João del-Rei",
@@ -4162,7 +4441,8 @@
    "lat": -21.133384,
    "lng": -44.257489,
    "geo": "lugar",
-   "id": "d-complexo-ferroviario-de-sao-joao-del-rei-sao-joao-del-rei"
+   "id": "d-complexo-ferroviario-de-sao-joao-del-rei-sao-joao-del-rei",
+   "top": true
   },
   {
    "n": "Museu Regional de São João del-Rei",
@@ -4176,7 +4456,8 @@
    "lat": -21.135895,
    "lng": -44.261295,
    "geo": "lugar",
-   "id": "d-museu-regional-de-sao-joao-del-rei-sao-joao-del-rei"
+   "id": "d-museu-regional-de-sao-joao-del-rei-sao-joao-del-rei",
+   "top": false
   },
   {
    "n": "Memorial Tancredo Neves",
@@ -4190,7 +4471,8 @@
    "lat": -21.137359,
    "lng": -44.262162,
    "geo": "lugar",
-   "id": "d-memorial-tancredo-neves-sao-joao-del-rei"
+   "id": "d-memorial-tancredo-neves-sao-joao-del-rei",
+   "top": false
   },
   {
    "n": "Ponte da Cadeia",
@@ -4204,7 +4486,8 @@
    "lat": -21.13561,
    "lng": -44.260073,
    "geo": "lugar",
-   "id": "d-ponte-da-cadeia-sao-joao-del-rei"
+   "id": "d-ponte-da-cadeia-sao-joao-del-rei",
+   "top": false
   },
   {
    "n": "Serra do Lenheiro",
@@ -4218,7 +4501,8 @@
    "lat": -21.154021,
    "lng": -44.306292,
    "geo": "lugar",
-   "id": "d-serra-do-lenheiro-sao-joao-del-rei"
+   "id": "d-serra-do-lenheiro-sao-joao-del-rei",
+   "top": false
   },
   {
    "n": "Parque das Águas de São Lourenço",
@@ -4232,7 +4516,8 @@
    "lat": -22.112529,
    "lng": -45.054929,
    "geo": "lugar",
-   "id": "d-parque-das-aguas-de-sao-lourenco-sao-lourenco"
+   "id": "d-parque-das-aguas-de-sao-lourenco-sao-lourenco",
+   "top": true
   },
   {
    "n": "Templo da Eubiose",
@@ -4246,7 +4531,8 @@
    "lat": -22.105861,
    "lng": -45.054083,
    "geo": "lugar",
-   "id": "d-templo-da-eubiose-sao-lourenco"
+   "id": "d-templo-da-eubiose-sao-lourenco",
+   "top": true
   },
   {
    "n": "Estação Ferroviária de São Lourenço",
@@ -4263,7 +4549,8 @@
    "lat": -22.112529,
    "lng": -45.054929,
    "geo": "lugar",
-   "id": "d-estacao-ferroviaria-de-sao-lourenco-sao-lourenco"
+   "id": "d-estacao-ferroviaria-de-sao-lourenco-sao-lourenco",
+   "top": false
   },
   {
    "n": "Pirâmide de São Thomé das Letras",
@@ -4280,7 +4567,8 @@
    "lat": -21.723108,
    "lng": -44.981228,
    "geo": "lugar",
-   "id": "d-piramide-de-sao-thome-das-letras-sao-thome-das-letras"
+   "id": "d-piramide-de-sao-thome-das-letras-sao-thome-das-letras",
+   "top": true
   },
   {
    "n": "Largo das Forras",
@@ -4294,7 +4582,8 @@
    "lat": -21.110427,
    "lng": -44.173912,
    "geo": "lugar",
-   "id": "d-largo-das-forras-tiradentes"
+   "id": "d-largo-das-forras-tiradentes",
+   "top": true
   },
   {
    "n": "Chafariz de São José",
@@ -4308,7 +4597,8 @@
    "lat": -21.107426,
    "lng": -44.17651,
    "geo": "lugar",
-   "id": "d-chafariz-de-sao-jose-tiradentes"
+   "id": "d-chafariz-de-sao-jose-tiradentes",
+   "top": true
   },
   {
    "n": "Museu de Sant'Ana",
@@ -4322,7 +4612,8 @@
    "lat": -21.109263,
    "lng": -44.176344,
    "geo": "lugar",
-   "id": "d-museu-de-sant-ana-tiradentes"
+   "id": "d-museu-de-sant-ana-tiradentes",
+   "top": false
   },
   {
    "n": "Serra de São José",
@@ -4336,7 +4627,8 @@
    "lat": -21.081899,
    "lng": -44.161234,
    "geo": "lugar",
-   "id": "d-serra-de-sao-jose-tiradentes"
+   "id": "d-serra-de-sao-jose-tiradentes",
+   "top": false
   },
   {
    "n": "Museu Casa do Padre Toledo",
@@ -4350,7 +4642,8 @@
    "lat": -21.111027,
    "lng": -44.176524,
    "geo": "lugar",
-   "id": "d-museu-casa-do-padre-toledo-tiradentes"
+   "id": "d-museu-casa-do-padre-toledo-tiradentes",
+   "top": false
   },
   {
    "n": "Museu dos Dinossauros de Peirópolis",
@@ -4367,7 +4660,8 @@
    "lat": -19.74429,
    "lng": -47.742446,
    "geo": "lugar",
-   "id": "d-museu-dos-dinossauros-de-peiropolis-uberaba"
+   "id": "d-museu-dos-dinossauros-de-peiropolis-uberaba",
+   "top": true
   },
   {
    "n": "Museu do Zebu",
@@ -4381,7 +4675,8 @@
    "lat": -19.758241,
    "lng": -47.942686,
    "geo": "lugar",
-   "id": "d-museu-do-zebu-uberaba"
+   "id": "d-museu-do-zebu-uberaba",
+   "top": false
   },
   {
    "n": "Casa de Chico Xavier",
@@ -4398,7 +4693,8 @@
    "lat": -19.710599,
    "lng": -47.983032,
    "geo": "lugar",
-   "id": "d-casa-de-chico-xavier-uberaba"
+   "id": "d-casa-de-chico-xavier-uberaba",
+   "top": true
   },
   {
    "n": "Praça Rui Barbosa",
@@ -4412,7 +4708,8 @@
    "lat": -19.750104,
    "lng": -47.936528,
    "geo": "lugar",
-   "id": "d-praca-rui-barbosa-uberaba"
+   "id": "d-praca-rui-barbosa-uberaba",
+   "top": false
   },
   {
    "n": "Parque do Sabiá",
@@ -4426,7 +4723,8 @@
    "lat": -18.913087,
    "lng": -48.232994,
    "geo": "lugar",
-   "id": "d-parque-do-sabia-uberlandia"
+   "id": "d-parque-do-sabia-uberlandia",
+   "top": true
   },
   {
    "n": "Praça Tubal Vilela",
@@ -4440,7 +4738,8 @@
    "lat": -18.920735,
    "lng": -48.277815,
    "geo": "lugar",
-   "id": "d-praca-tubal-vilela-uberlandia"
+   "id": "d-praca-tubal-vilela-uberlandia",
+   "top": true
   },
   {
    "n": "Museu Universitário de Arte",
@@ -4457,7 +4756,8 @@
    "lat": -18.924382,
    "lng": -48.284279,
    "geo": "lugar",
-   "id": "d-museu-universitario-de-arte-uberlandia"
+   "id": "d-museu-universitario-de-arte-uberlandia",
+   "top": true
   },
   {
    "n": "Museu Municipal de Uberlândia",
@@ -4474,7 +4774,8 @@
    "lat": -18.923289,
    "lng": -48.281614,
    "geo": "lugar",
-   "id": "d-museu-municipal-de-uberlandia-uberlandia"
+   "id": "d-museu-municipal-de-uberlandia-uberlandia",
+   "top": false
   },
   {
    "n": "Parque Municipal Victório Siquierolli",
@@ -4491,7 +4792,8 @@
    "lat": -18.874349,
    "lng": -48.286558,
    "geo": "lugar",
-   "id": "d-parque-municipal-victorio-siquierolli-uberlandia"
+   "id": "d-parque-municipal-victorio-siquierolli-uberlandia",
+   "top": false
   },
   {
    "n": "Teatro Municipal de Uberlândia",
@@ -4505,7 +4807,8 @@
    "lat": -18.89546,
    "lng": -48.252572,
    "geo": "lugar",
-   "id": "d-teatro-municipal-de-uberlandia-uberlandia"
+   "id": "d-teatro-municipal-de-uberlandia-uberlandia",
+   "top": false
   },
   {
    "n": "Mercado Municipal de Uberlândia",
@@ -4519,7 +4822,8 @@
    "lat": -18.918361,
    "lng": -48.281884,
    "geo": "lugar",
-   "id": "d-mercado-municipal-de-uberlandia-uberlandia"
+   "id": "d-mercado-municipal-de-uberlandia-uberlandia",
+   "top": true
   },
   {
    "n": "Oficina Cultural de Uberlândia",
@@ -4533,7 +4837,8 @@
    "lat": -18.923259,
    "lng": -48.28247,
    "geo": "lugar",
-   "id": "d-oficina-cultural-de-uberlandia-uberlandia"
+   "id": "d-oficina-cultural-de-uberlandia-uberlandia",
+   "top": false
   },
   {
    "n": "Lagoa Azul",
@@ -4547,7 +4852,8 @@
    "lat": -23.083144,
    "lng": -44.229128,
    "geo": "lugar",
-   "id": "d-lagoa-azul-angra-dos-reis"
+   "id": "d-lagoa-azul-angra-dos-reis",
+   "top": true
   },
   {
    "n": "Lagoa Verde",
@@ -4561,7 +4867,8 @@
    "lat": -23.141012,
    "lng": -44.318064,
    "geo": "lugar",
-   "id": "d-lagoa-verde-angra-dos-reis"
+   "id": "d-lagoa-verde-angra-dos-reis",
+   "top": true
   },
   {
    "n": "Pico do Papagaio",
@@ -4575,7 +4882,8 @@
    "lat": -23.155062,
    "lng": -44.196806,
    "geo": "lugar",
-   "id": "d-pico-do-papagaio-angra-dos-reis"
+   "id": "d-pico-do-papagaio-angra-dos-reis",
+   "top": true
   },
   {
    "n": "Aqueduto do Abraão",
@@ -4592,7 +4900,8 @@
    "lat": -23.139852,
    "lng": -44.201677,
    "geo": "lugar",
-   "id": "d-aqueduto-do-abraao-angra-dos-reis"
+   "id": "d-aqueduto-do-abraao-angra-dos-reis",
+   "top": true
   },
   {
    "n": "Cachoeira da Feiticeira",
@@ -4606,7 +4915,8 @@
    "lat": -23.128195,
    "lng": -44.188863,
    "geo": "lugar",
-   "id": "d-cachoeira-da-feiticeira-angra-dos-reis"
+   "id": "d-cachoeira-da-feiticeira-angra-dos-reis",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora do Carmo",
@@ -4620,7 +4930,8 @@
    "lat": -23.010108,
    "lng": -44.318817,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-carmo-angra-dos-reis"
+   "id": "d-igreja-de-nossa-senhora-do-carmo-angra-dos-reis",
+   "top": false
   },
   {
    "n": "Praia de Geribá",
@@ -4634,7 +4945,8 @@
    "lat": -22.780361,
    "lng": -41.913629,
    "geo": "lugar",
-   "id": "d-praia-de-geriba-armacao-dos-buzios"
+   "id": "d-praia-de-geriba-armacao-dos-buzios",
+   "top": false
   },
   {
    "n": "Praia da Ferradura",
@@ -4648,7 +4960,8 @@
    "lat": -22.77165,
    "lng": -41.889046,
    "geo": "lugar",
-   "id": "d-praia-da-ferradura-armacao-dos-buzios"
+   "id": "d-praia-da-ferradura-armacao-dos-buzios",
+   "top": true
   },
   {
    "n": "Praia Azeda",
@@ -4665,7 +4978,8 @@
    "lat": -22.742211,
    "lng": -41.881757,
    "geo": "lugar",
-   "id": "d-praia-azeda-armacao-dos-buzios"
+   "id": "d-praia-azeda-armacao-dos-buzios",
+   "top": false
   },
   {
    "n": "Praia dos Ossos",
@@ -4679,7 +4993,8 @@
    "lat": -22.746015,
    "lng": -41.88141,
    "geo": "lugar",
-   "id": "d-praia-dos-ossos-armacao-dos-buzios"
+   "id": "d-praia-dos-ossos-armacao-dos-buzios",
+   "top": false
   },
   {
    "n": "Igreja de Sant'Ana",
@@ -4693,7 +5008,8 @@
    "lat": -22.747174,
    "lng": -41.881808,
    "geo": "lugar",
-   "id": "d-igreja-de-sant-ana-armacao-dos-buzios"
+   "id": "d-igreja-de-sant-ana-armacao-dos-buzios",
+   "top": false
   },
   {
    "n": "Praia Brava",
@@ -4707,7 +5023,8 @@
    "lat": -22.754833,
    "lng": -41.872187,
    "geo": "lugar",
-   "id": "d-praia-brava-armacao-dos-buzios"
+   "id": "d-praia-brava-armacao-dos-buzios",
+   "top": false
   },
   {
    "n": "Praia do Forno",
@@ -4721,7 +5038,8 @@
    "lat": -22.966123,
    "lng": -42.015394,
    "geo": "lugar",
-   "id": "d-praia-do-forno-arraial-do-cabo"
+   "id": "d-praia-do-forno-arraial-do-cabo",
+   "top": true
   },
   {
    "n": "Prainhas do Pontal do Atalaia",
@@ -4735,7 +5053,8 @@
    "lat": -22.988332,
    "lng": -42.012912,
    "geo": "lugar",
-   "id": "d-prainhas-do-pontal-do-atalaia-arraial-do-cabo"
+   "id": "d-prainhas-do-pontal-do-atalaia-arraial-do-cabo",
+   "top": true
   },
   {
    "n": "Praia Grande",
@@ -4749,7 +5068,8 @@
    "lat": -22.970699,
    "lng": -42.033255,
    "geo": "lugar",
-   "id": "d-praia-grande-arraial-do-cabo"
+   "id": "d-praia-grande-arraial-do-cabo",
+   "top": false
   },
   {
    "n": "Praia do Farol",
@@ -4763,7 +5083,8 @@
    "lat": -23.001453,
    "lng": -42.003808,
    "geo": "lugar",
-   "id": "d-praia-do-farol-arraial-do-cabo"
+   "id": "d-praia-do-farol-arraial-do-cabo",
+   "top": true
   },
   {
    "n": "Gruta Azul",
@@ -4777,7 +5098,8 @@
    "lat": -23.002117,
    "lng": -42.010869,
    "geo": "lugar",
-   "id": "d-gruta-azul-arraial-do-cabo"
+   "id": "d-gruta-azul-arraial-do-cabo",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora dos Remédios",
@@ -4791,7 +5113,8 @@
    "lat": -22.969571,
    "lng": -42.019948,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-dos-remedios-arraial-do-cabo"
+   "id": "d-igreja-de-nossa-senhora-dos-remedios-arraial-do-cabo",
+   "top": false
   },
   {
    "n": "Praia do Forte",
@@ -4805,7 +5128,8 @@
    "lat": -22.886567,
    "lng": -42.018183,
    "geo": "lugar",
-   "id": "d-praia-do-forte-cabo-frio"
+   "id": "d-praia-do-forte-cabo-frio",
+   "top": true
   },
   {
    "n": "Forte São Mateus",
@@ -4819,7 +5143,8 @@
    "lat": -22.885357,
    "lng": -42.008094,
    "geo": "lugar",
-   "id": "d-forte-sao-mateus-cabo-frio"
+   "id": "d-forte-sao-mateus-cabo-frio",
+   "top": false
   },
   {
    "n": "Praia das Conchas",
@@ -4833,7 +5158,8 @@
    "lat": -22.869687,
    "lng": -41.983102,
    "geo": "lugar",
-   "id": "d-praia-das-conchas-cabo-frio"
+   "id": "d-praia-das-conchas-cabo-frio",
+   "top": false
   },
   {
    "n": "Praia do Peró",
@@ -4847,7 +5173,8 @@
    "lat": -22.845032,
    "lng": -41.983885,
    "geo": "lugar",
-   "id": "d-praia-do-pero-cabo-frio"
+   "id": "d-praia-do-pero-cabo-frio",
+   "top": false
   },
   {
    "n": "Ilha do Japonês",
@@ -4861,7 +5188,8 @@
    "lat": -22.881399,
    "lng": -42.004919,
    "geo": "lugar",
-   "id": "d-ilha-do-japones-cabo-frio"
+   "id": "d-ilha-do-japones-cabo-frio",
+   "top": true
   },
   {
    "n": "Farol de São Thomé",
@@ -4875,7 +5203,8 @@
    "lat": -22.041083,
    "lng": -41.052064,
    "geo": "lugar",
-   "id": "d-farol-de-sao-thome-campos-dos-goytacazes"
+   "id": "d-farol-de-sao-thome-campos-dos-goytacazes",
+   "top": true
   },
   {
    "n": "Teatro Trianon",
@@ -4889,7 +5218,8 @@
    "lat": -21.762628,
    "lng": -41.319837,
    "geo": "lugar",
-   "id": "d-teatro-trianon-campos-dos-goytacazes"
+   "id": "d-teatro-trianon-campos-dos-goytacazes",
+   "top": true
   },
   {
    "n": "Museu Histórico de Campos",
@@ -4903,7 +5233,8 @@
    "lat": -21.755933,
    "lng": -41.324024,
    "geo": "lugar",
-   "id": "d-museu-historico-de-campos-campos-dos-goytacazes"
+   "id": "d-museu-historico-de-campos-campos-dos-goytacazes",
+   "top": false
   },
   {
    "n": "Catedral Basílica do Santíssimo Salvador",
@@ -4917,7 +5248,8 @@
    "lat": -21.756937,
    "lng": -41.323803,
    "geo": "lugar",
-   "id": "d-catedral-basilica-do-santissimo-salvador-campos-dos-goytacazes"
+   "id": "d-catedral-basilica-do-santissimo-salvador-campos-dos-goytacazes",
+   "top": false
   },
   {
    "n": "Parque Nacional do Itatiaia",
@@ -4931,7 +5263,8 @@
    "lat": -22.33373,
    "lng": -44.578441,
    "geo": "lugar",
-   "id": "d-parque-nacional-do-itatiaia-itatiaia"
+   "id": "d-parque-nacional-do-itatiaia-itatiaia",
+   "top": true
   },
   {
    "n": "Pico das Agulhas Negras",
@@ -4945,7 +5278,8 @@
    "lat": -22.443704,
    "lng": -44.611296,
    "geo": "lugar",
-   "id": "d-pico-das-agulhas-negras-itatiaia"
+   "id": "d-pico-das-agulhas-negras-itatiaia",
+   "top": true
   },
   {
    "n": "Pedra do Altar",
@@ -4959,7 +5293,8 @@
    "lat": -22.409486,
    "lng": -44.600262,
    "geo": "lugar",
-   "id": "d-pedra-do-altar-itatiaia"
+   "id": "d-pedra-do-altar-itatiaia",
+   "top": false
   },
   {
    "n": "Cachoeira Véu da Noiva",
@@ -4973,7 +5308,8 @@
    "lat": -22.426852,
    "lng": -44.618018,
    "geo": "lugar",
-   "id": "d-cachoeira-veu-da-noiva-itatiaia"
+   "id": "d-cachoeira-veu-da-noiva-itatiaia",
+   "top": true
   },
   {
    "n": "Lago Azul",
@@ -4987,7 +5323,8 @@
    "lat": -22.450857,
    "lng": -44.613718,
    "geo": "lugar",
-   "id": "d-lago-azul-itatiaia"
+   "id": "d-lago-azul-itatiaia",
+   "top": true
   },
   {
    "n": "Pequena Finlândia",
@@ -5001,7 +5338,8 @@
    "lat": -22.438754,
    "lng": -44.525986,
    "geo": "lugar",
-   "id": "d-pequena-finlandia-itatiaia"
+   "id": "d-pequena-finlandia-itatiaia",
+   "top": false
   },
   {
    "n": "Cachoeira de Deus",
@@ -5015,7 +5353,8 @@
    "lat": -22.41657,
    "lng": -44.547169,
    "geo": "lugar",
-   "id": "d-cachoeira-de-deus-itatiaia"
+   "id": "d-cachoeira-de-deus-itatiaia",
+   "top": false
   },
   {
    "n": "Praia dos Cavaleiros",
@@ -5029,7 +5368,8 @@
    "lat": -22.407123,
    "lng": -41.800575,
    "geo": "lugar",
-   "id": "d-praia-dos-cavaleiros-macae"
+   "id": "d-praia-dos-cavaleiros-macae",
+   "top": false
   },
   {
    "n": "Praia de Imbetiba",
@@ -5043,7 +5383,8 @@
    "lat": -22.382249,
    "lng": -41.770626,
    "geo": "lugar",
-   "id": "d-praia-de-imbetiba-macae"
+   "id": "d-praia-de-imbetiba-macae",
+   "top": false
   },
   {
    "n": "Praia do Saco",
@@ -5057,7 +5398,8 @@
    "lat": -22.946789,
    "lng": -44.041405,
    "geo": "lugar",
-   "id": "d-praia-do-saco-mangaratiba"
+   "id": "d-praia-do-saco-mangaratiba",
+   "top": true
   },
   {
    "n": "Praia de Muriqui",
@@ -5071,7 +5413,8 @@
    "lat": -22.928114,
    "lng": -43.945281,
    "geo": "lugar",
-   "id": "d-praia-de-muriqui-mangaratiba"
+   "id": "d-praia-de-muriqui-mangaratiba",
+   "top": false
   },
   {
    "n": "Ilha de Itacuruçá",
@@ -5085,7 +5428,8 @@
    "lat": -22.941623,
    "lng": -43.894473,
    "geo": "lugar",
-   "id": "d-ilha-de-itacuruca-mangaratiba"
+   "id": "d-ilha-de-itacuruca-mangaratiba",
+   "top": true
   },
   {
    "n": "Praia de Itaipuaçu",
@@ -5099,7 +5443,8 @@
    "lat": -22.965441,
    "lng": -42.86965,
    "geo": "lugar",
-   "id": "d-praia-de-itaipuacu-marica"
+   "id": "d-praia-de-itaipuacu-marica",
+   "top": true
   },
   {
    "n": "Pedra do Elefante",
@@ -5113,7 +5458,8 @@
    "lat": -22.973596,
    "lng": -43.019051,
    "geo": "lugar",
-   "id": "d-pedra-do-elefante-marica"
+   "id": "d-pedra-do-elefante-marica",
+   "top": true
   },
   {
    "n": "Farol de Ponta Negra",
@@ -5127,7 +5473,8 @@
    "lat": -22.959389,
    "lng": -42.693338,
    "geo": "lugar",
-   "id": "d-farol-de-ponta-negra-marica"
+   "id": "d-farol-de-ponta-negra-marica",
+   "top": false
   },
   {
    "n": "Fortaleza de Santa Cruz da Barra",
@@ -5144,7 +5491,8 @@
    "lat": -22.938016,
    "lng": -43.133822,
    "geo": "lugar",
-   "id": "d-fortaleza-de-santa-cruz-da-barra-niteroi"
+   "id": "d-fortaleza-de-santa-cruz-da-barra-niteroi",
+   "top": true
   },
   {
    "n": "Caminho Niemeyer",
@@ -5158,7 +5506,8 @@
    "lat": -22.889488,
    "lng": -43.128252,
    "geo": "lugar",
-   "id": "d-caminho-niemeyer-niteroi"
+   "id": "d-caminho-niemeyer-niteroi",
+   "top": false
   },
   {
    "n": "Praia de Icaraí",
@@ -5172,7 +5521,8 @@
    "lat": -22.905981,
    "lng": -43.113799,
    "geo": "lugar",
-   "id": "d-praia-de-icarai-niteroi"
+   "id": "d-praia-de-icarai-niteroi",
+   "top": false
   },
   {
    "n": "Campo de São Bento",
@@ -5186,7 +5536,8 @@
    "lat": -22.904385,
    "lng": -43.106942,
    "geo": "lugar",
-   "id": "d-campo-de-sao-bento-niteroi"
+   "id": "d-campo-de-sao-bento-niteroi",
+   "top": false
   },
   {
    "n": "Ilha da Boa Viagem",
@@ -5200,7 +5551,8 @@
    "lat": -22.910255,
    "lng": -43.130463,
    "geo": "lugar",
-   "id": "d-ilha-da-boa-viagem-niteroi"
+   "id": "d-ilha-da-boa-viagem-niteroi",
+   "top": false
   },
   {
    "n": "Praia de Camboinhas",
@@ -5214,7 +5566,8 @@
    "lat": -22.963092,
    "lng": -43.052925,
    "geo": "lugar",
-   "id": "d-praia-de-camboinhas-niteroi"
+   "id": "d-praia-de-camboinhas-niteroi",
+   "top": false
   },
   {
    "n": "Mercado São Pedro",
@@ -5228,7 +5581,8 @@
    "lat": -22.885368,
    "lng": -43.124963,
    "geo": "lugar",
-   "id": "d-mercado-sao-pedro-niteroi"
+   "id": "d-mercado-sao-pedro-niteroi",
+   "top": false
   },
   {
    "n": "Solar do Jambeiro",
@@ -5242,7 +5596,8 @@
    "lat": -22.903225,
    "lng": -43.128051,
    "geo": "lugar",
-   "id": "d-solar-do-jambeiro-niteroi"
+   "id": "d-solar-do-jambeiro-niteroi",
+   "top": false
   },
   {
    "n": "Theatro Municipal João Caetano",
@@ -5256,7 +5611,8 @@
    "lat": -22.895852,
    "lng": -43.12326,
    "geo": "lugar",
-   "id": "d-theatro-municipal-joao-caetano-niteroi"
+   "id": "d-theatro-municipal-joao-caetano-niteroi",
+   "top": false
   },
   {
    "n": "Praça Getúlio Vargas",
@@ -5270,7 +5626,8 @@
    "lat": -22.280345,
    "lng": -42.532844,
    "geo": "lugar",
-   "id": "d-praca-getulio-vargas-nova-friburgo"
+   "id": "d-praca-getulio-vargas-nova-friburgo",
+   "top": false
   },
   {
    "n": "Pico da Caledônia",
@@ -5284,7 +5641,8 @@
    "lat": -22.353533,
    "lng": -42.58707,
    "geo": "lugar",
-   "id": "d-pico-da-caledonia-nova-friburgo"
+   "id": "d-pico-da-caledonia-nova-friburgo",
+   "top": true
   },
   {
    "n": "Teleférico de Nova Friburgo",
@@ -5298,7 +5656,8 @@
    "lat": -22.275971,
    "lng": -42.540326,
    "geo": "lugar",
-   "id": "d-teleferico-de-nova-friburgo-nova-friburgo"
+   "id": "d-teleferico-de-nova-friburgo-nova-friburgo",
+   "top": false
   },
   {
    "n": "Catedral de São João Batista",
@@ -5312,7 +5671,8 @@
    "lat": -22.281587,
    "lng": -42.53085,
    "geo": "lugar",
-   "id": "d-catedral-de-sao-joao-batista-nova-friburgo"
+   "id": "d-catedral-de-sao-joao-batista-nova-friburgo",
+   "top": false
   },
   {
    "n": "Lumiar",
@@ -5326,7 +5686,8 @@
    "lat": -22.3481,
    "lng": -42.3239,
    "geo": "lugar",
-   "id": "d-lumiar-nova-friburgo"
+   "id": "d-lumiar-nova-friburgo",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Nossa Senhora dos Remédios",
@@ -5343,7 +5704,8 @@
    "lat": -23.217912,
    "lng": -44.713677,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-dos-remedios-paraty"
+   "id": "d-igreja-matriz-de-nossa-senhora-dos-remedios-paraty",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora do Rosário e São Benedito",
@@ -5357,7 +5719,8 @@
    "lat": -23.218869,
    "lng": -44.71423,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-do-rosario-e-sao-benedito-paraty"
+   "id": "d-igreja-de-nossa-senhora-do-rosario-e-sao-benedito-paraty",
+   "top": false
   },
   {
    "n": "Casa da Cultura de Paraty",
@@ -5371,7 +5734,8 @@
    "lat": -23.218841,
    "lng": -44.712113,
    "geo": "lugar",
-   "id": "d-casa-da-cultura-de-paraty-paraty"
+   "id": "d-casa-da-cultura-de-paraty-paraty",
+   "top": false
   },
   {
    "n": "Forte Defensor Perpétuo",
@@ -5385,7 +5749,8 @@
    "lat": -23.211798,
    "lng": -44.711451,
    "geo": "lugar",
-   "id": "d-forte-defensor-perpetuo-paraty"
+   "id": "d-forte-defensor-perpetuo-paraty",
+   "top": false
   },
   {
    "n": "Piscina Natural do Cachadaço",
@@ -5399,7 +5764,8 @@
    "lat": -23.362422,
    "lng": -44.731202,
    "geo": "lugar",
-   "id": "d-piscina-natural-do-cachadaco-paraty"
+   "id": "d-piscina-natural-do-cachadaco-paraty",
+   "top": true
   },
   {
    "n": "Praia do Sono",
@@ -5413,7 +5779,8 @@
    "lat": -23.334217,
    "lng": -44.632609,
    "geo": "lugar",
-   "id": "d-praia-do-sono-paraty"
+   "id": "d-praia-do-sono-paraty",
+   "top": true
   },
   {
    "n": "Cachoeira do Tobogã",
@@ -5427,7 +5794,8 @@
    "lat": -23.212549,
    "lng": -44.792316,
    "geo": "lugar",
-   "id": "d-cachoeira-do-toboga-paraty"
+   "id": "d-cachoeira-do-toboga-paraty",
+   "top": false
   },
   {
    "n": "Saco do Mamanguá",
@@ -5441,7 +5809,8 @@
    "lat": -23.294021,
    "lng": -44.640928,
    "geo": "lugar",
-   "id": "d-saco-do-mamangua-paraty"
+   "id": "d-saco-do-mamangua-paraty",
+   "top": true
   },
   {
    "n": "Engenho D'Ouro",
@@ -5455,7 +5824,8 @@
    "lat": -23.214097,
    "lng": -44.792944,
    "geo": "lugar",
-   "id": "d-engenho-d-ouro-paraty"
+   "id": "d-engenho-d-ouro-paraty",
+   "top": false
   },
   {
    "n": "Catedral de São Pedro de Alcântara",
@@ -5472,7 +5842,8 @@
    "lat": -22.50563,
    "lng": -43.179074,
    "geo": "lugar",
-   "id": "d-catedral-de-sao-pedro-de-alcantara-petropolis"
+   "id": "d-catedral-de-sao-pedro-de-alcantara-petropolis",
+   "top": false
   },
   {
    "n": "Palácio Quitandinha",
@@ -5486,7 +5857,8 @@
    "lat": -22.5272,
    "lng": -43.212531,
    "geo": "lugar",
-   "id": "d-palacio-quitandinha-petropolis"
+   "id": "d-palacio-quitandinha-petropolis",
+   "top": true
   },
   {
    "n": "Palácio Rio Negro",
@@ -5500,7 +5872,8 @@
    "lat": -22.508756,
    "lng": -43.180971,
    "geo": "lugar",
-   "id": "d-palacio-rio-negro-petropolis"
+   "id": "d-palacio-rio-negro-petropolis",
+   "top": false
   },
   {
    "n": "Casa da Princesa Isabel",
@@ -5514,7 +5887,8 @@
    "lat": -22.506369,
    "lng": -43.180441,
    "geo": "lugar",
-   "id": "d-casa-da-princesa-isabel-petropolis"
+   "id": "d-casa-da-princesa-isabel-petropolis",
+   "top": false
   },
   {
    "n": "Praça da Liberdade",
@@ -5528,7 +5902,8 @@
    "lat": -22.509435,
    "lng": -43.182771,
    "geo": "lugar",
-   "id": "d-praca-da-liberdade-petropolis"
+   "id": "d-praca-da-liberdade-petropolis",
+   "top": false
   },
   {
    "n": "Casa do Alemão",
@@ -5542,7 +5917,8 @@
    "lat": -22.534744,
    "lng": -43.219948,
    "geo": "lugar",
-   "id": "d-casa-do-alemao-petropolis"
+   "id": "d-casa-do-alemao-petropolis",
+   "top": false
   },
   {
    "n": "Academia Militar das Agulhas Negras",
@@ -5559,7 +5935,8 @@
    "lat": -22.472423,
    "lng": -44.426384,
    "geo": "lugar",
-   "id": "d-academia-militar-das-agulhas-negras-resende"
+   "id": "d-academia-militar-das-agulhas-negras-resende",
+   "top": true
   },
   {
    "n": "Vila de Visconde de Mauá",
@@ -5573,7 +5950,8 @@
    "lat": -22.330804,
    "lng": -44.537678,
    "geo": "lugar",
-   "id": "d-vila-de-visconde-de-maua-resende"
+   "id": "d-vila-de-visconde-de-maua-resende",
+   "top": true
   },
   {
    "n": "Pedra Selada",
@@ -5587,7 +5965,8 @@
    "lat": -22.3386,
    "lng": -44.3964,
    "geo": "lugar",
-   "id": "d-pedra-selada-resende"
+   "id": "d-pedra-selada-resende",
+   "top": false
   },
   {
    "n": "Lagoa de Iriry",
@@ -5601,7 +5980,8 @@
    "lat": -22.507507,
    "lng": -41.912214,
    "geo": "lugar",
-   "id": "d-lagoa-de-iriry-rio-das-ostras"
+   "id": "d-lagoa-de-iriry-rio-das-ostras",
+   "top": false
   },
   {
    "n": "Praia Virgem",
@@ -5615,7 +5995,8 @@
    "lat": -22.534239,
    "lng": -41.930755,
    "geo": "lugar",
-   "id": "d-praia-virgem-rio-das-ostras"
+   "id": "d-praia-virgem-rio-das-ostras",
+   "top": true
   },
   {
    "n": "Monumento Natural dos Costões Rochosos",
@@ -5629,7 +6010,8 @@
    "lat": -22.528567,
    "lng": -41.92274,
    "geo": "lugar",
-   "id": "d-monumento-natural-dos-costoes-rochosos-rio-das-ostras"
+   "id": "d-monumento-natural-dos-costoes-rochosos-rio-das-ostras",
+   "top": true
   },
   {
    "n": "Estádio do Maracanã",
@@ -5647,7 +6029,8 @@
    "lat": -22.912162,
    "lng": -43.231186,
    "geo": "lugar",
-   "id": "d-estadio-do-maracana-rio-de-janeiro"
+   "id": "d-estadio-do-maracana-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Parque Nacional da Tijuca",
@@ -5664,7 +6047,8 @@
    "lat": -22.960648,
    "lng": -43.250593,
    "geo": "lugar",
-   "id": "d-parque-nacional-da-tijuca-rio-de-janeiro"
+   "id": "d-parque-nacional-da-tijuca-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Vista Chinesa",
@@ -5678,7 +6062,8 @@
    "lat": -22.973256,
    "lng": -43.249468,
    "geo": "lugar",
-   "id": "d-vista-chinesa-rio-de-janeiro"
+   "id": "d-vista-chinesa-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Prainha",
@@ -5692,7 +6077,8 @@
    "lat": -23.041307,
    "lng": -43.505922,
    "geo": "lugar",
-   "id": "d-prainha-rio-de-janeiro"
+   "id": "d-prainha-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Praia de Grumari",
@@ -5706,7 +6092,8 @@
    "lat": -23.048909,
    "lng": -43.530688,
    "geo": "lugar",
-   "id": "d-praia-de-grumari-rio-de-janeiro"
+   "id": "d-praia-de-grumari-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Feira de São Cristóvão",
@@ -5724,7 +6111,8 @@
    "lat": -22.897398,
    "lng": -43.220405,
    "geo": "lugar",
-   "id": "d-feira-de-sao-cristovao-rio-de-janeiro"
+   "id": "d-feira-de-sao-cristovao-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu Nacional de Belas Artes",
@@ -5738,7 +6126,8 @@
    "lat": -22.908728,
    "lng": -43.175951,
    "geo": "lugar",
-   "id": "d-museu-nacional-de-belas-artes-rio-de-janeiro"
+   "id": "d-museu-nacional-de-belas-artes-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Instituto Moreira Salles",
@@ -5755,7 +6144,8 @@
    "lat": -22.981622,
    "lng": -43.239347,
    "geo": "lugar",
-   "id": "d-instituto-moreira-salles-rio-de-janeiro"
+   "id": "d-instituto-moreira-salles-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Parque Madureira",
@@ -5772,7 +6162,8 @@
    "lat": -22.857887,
    "lng": -43.350207,
    "geo": "lugar",
-   "id": "d-parque-madureira-rio-de-janeiro"
+   "id": "d-parque-madureira-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Brasil",
@@ -5786,7 +6177,8 @@
    "lat": -22.912878,
    "lng": -43.182139,
    "geo": "lugar",
-   "id": "d-bar-brasil-rio-de-janeiro"
+   "id": "d-bar-brasil-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu Histórico Nacional",
@@ -5800,7 +6192,8 @@
    "lat": -22.90579,
    "lng": -43.169685,
    "geo": "lugar",
-   "id": "d-museu-historico-nacional-rio-de-janeiro"
+   "id": "d-museu-historico-nacional-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Paço Imperial",
@@ -5814,7 +6207,8 @@
    "lat": -22.903589,
    "lng": -43.174169,
    "geo": "lugar",
-   "id": "d-paco-imperial-rio-de-janeiro"
+   "id": "d-paco-imperial-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Mosteiro de São Bento",
@@ -5828,7 +6222,8 @@
    "lat": -22.89791,
    "lng": -43.179795,
    "geo": "lugar",
-   "id": "d-mosteiro-de-sao-bento-rio-de-janeiro"
+   "id": "d-mosteiro-de-sao-bento-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Igreja da Candelária",
@@ -5845,7 +6240,8 @@
    "lat": -22.900849,
    "lng": -43.177794,
    "geo": "lugar",
-   "id": "d-igreja-da-candelaria-rio-de-janeiro"
+   "id": "d-igreja-da-candelaria-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Biblioteca Nacional",
@@ -5862,7 +6258,8 @@
    "lat": -22.909703,
    "lng": -43.175377,
    "geo": "lugar",
-   "id": "d-biblioteca-nacional-rio-de-janeiro"
+   "id": "d-biblioteca-nacional-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Casa França-Brasil",
@@ -5876,7 +6273,8 @@
    "lat": -22.900557,
    "lng": -43.175937,
    "geo": "lugar",
-   "id": "d-casa-franca-brasil-rio-de-janeiro"
+   "id": "d-casa-franca-brasil-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Parque das Ruínas",
@@ -5890,7 +6288,8 @@
    "lat": -22.917827,
    "lng": -43.182477,
    "geo": "lugar",
-   "id": "d-parque-das-ruinas-rio-de-janeiro"
+   "id": "d-parque-das-ruinas-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu Chácara do Céu",
@@ -5904,7 +6303,8 @@
    "lat": -22.917941,
    "lng": -43.182969,
    "geo": "lugar",
-   "id": "d-museu-chacara-do-ceu-rio-de-janeiro"
+   "id": "d-museu-chacara-do-ceu-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar do Gomez",
@@ -5921,7 +6321,8 @@
    "lat": -22.9213,
    "lng": -43.189495,
    "geo": "lugar",
-   "id": "d-bar-do-gomez-rio-de-janeiro"
+   "id": "d-bar-do-gomez-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Lagoa Rodrigo de Freitas",
@@ -5938,7 +6339,8 @@
    "lat": -22.971627,
    "lng": -43.212059,
    "geo": "lugar",
-   "id": "d-lagoa-rodrigo-de-freitas-rio-de-janeiro"
+   "id": "d-lagoa-rodrigo-de-freitas-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Parque do Flamengo",
@@ -5955,7 +6357,8 @@
    "lat": -22.926849,
    "lng": -43.173649,
    "geo": "lugar",
-   "id": "d-parque-do-flamengo-rio-de-janeiro"
+   "id": "d-parque-do-flamengo-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu de Arte Moderna do Rio de Janeiro",
@@ -5972,7 +6375,8 @@
    "lat": -22.913995,
    "lng": -43.172831,
    "geo": "lugar",
-   "id": "d-museu-de-arte-moderna-do-rio-de-janeiro-rio-de-janeiro"
+   "id": "d-museu-de-arte-moderna-do-rio-de-janeiro-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Pedra Bonita",
@@ -5986,7 +6390,8 @@
    "lat": -22.989182,
    "lng": -43.284091,
    "geo": "lugar",
-   "id": "d-pedra-bonita-rio-de-janeiro"
+   "id": "d-pedra-bonita-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Morro Dois Irmãos",
@@ -6000,7 +6405,8 @@
    "lat": -22.99494,
    "lng": -43.248908,
    "geo": "lugar",
-   "id": "d-morro-dois-irmaos-rio-de-janeiro"
+   "id": "d-morro-dois-irmaos-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Praia de Copacabana",
@@ -6014,7 +6420,8 @@
    "lat": -22.9757,
    "lng": -43.186616,
    "geo": "lugar",
-   "id": "d-praia-de-copacabana-rio-de-janeiro"
+   "id": "d-praia-de-copacabana-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Praia de Ipanema",
@@ -6028,7 +6435,8 @@
    "lat": -22.987311,
    "lng": -43.202126,
    "geo": "lugar",
-   "id": "d-praia-de-ipanema-rio-de-janeiro"
+   "id": "d-praia-de-ipanema-rio-de-janeiro",
+   "top": true
   },
   {
    "n": "Forte de Copacabana",
@@ -6042,7 +6450,8 @@
    "lat": -22.986439,
    "lng": -43.1872,
    "geo": "lugar",
-   "id": "d-forte-de-copacabana-rio-de-janeiro"
+   "id": "d-forte-de-copacabana-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Lagoa",
@@ -6056,7 +6465,8 @@
    "lat": -22.979998,
    "lng": -43.203307,
    "geo": "lugar",
-   "id": "d-bar-lagoa-rio-de-janeiro"
+   "id": "d-bar-lagoa-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Adega Pérola",
@@ -6070,7 +6480,8 @@
    "lat": -22.966183,
    "lng": -43.187326,
    "geo": "lugar",
-   "id": "d-adega-perola-rio-de-janeiro"
+   "id": "d-adega-perola-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Cervantes",
@@ -6084,7 +6495,8 @@
    "lat": -22.962503,
    "lng": -43.175737,
    "geo": "lugar",
-   "id": "d-cervantes-rio-de-janeiro"
+   "id": "d-cervantes-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Garota de Ipanema",
@@ -6101,7 +6513,8 @@
    "lat": -22.985238,
    "lng": -43.202981,
    "geo": "lugar",
-   "id": "d-bar-garota-de-ipanema-rio-de-janeiro"
+   "id": "d-bar-garota-de-ipanema-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Academia da Cachaça",
@@ -6115,7 +6528,8 @@
    "lat": -23.005395,
    "lng": -43.312884,
    "geo": "lugar",
-   "id": "d-academia-da-cachaca-rio-de-janeiro"
+   "id": "d-academia-da-cachaca-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Pavão Azul",
@@ -6129,7 +6543,8 @@
    "lat": -22.967711,
    "lng": -43.184589,
    "geo": "lugar",
-   "id": "d-pavao-azul-rio-de-janeiro"
+   "id": "d-pavao-azul-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Armazém do Senado",
@@ -6143,7 +6558,8 @@
    "lat": -22.909189,
    "lng": -43.184614,
    "geo": "lugar",
-   "id": "d-armazem-do-senado-rio-de-janeiro"
+   "id": "d-armazem-do-senado-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Casa Paladino",
@@ -6157,7 +6573,8 @@
    "lat": -22.900998,
    "lng": -43.181948,
    "geo": "lugar",
-   "id": "d-casa-paladino-rio-de-janeiro"
+   "id": "d-casa-paladino-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Aconchego Carioca",
@@ -6171,7 +6588,8 @@
    "lat": -22.912934,
    "lng": -43.214112,
    "geo": "lugar",
-   "id": "d-aconchego-carioca-rio-de-janeiro"
+   "id": "d-aconchego-carioca-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bar Adonis",
@@ -6185,7 +6603,8 @@
    "lat": -22.890613,
    "lng": -43.255351,
    "geo": "lugar",
-   "id": "d-bar-adonis-rio-de-janeiro"
+   "id": "d-bar-adonis-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Confeitaria Cavé",
@@ -6202,7 +6621,8 @@
    "lat": -22.905911,
    "lng": -43.179239,
    "geo": "lugar",
-   "id": "d-confeitaria-cave-rio-de-janeiro"
+   "id": "d-confeitaria-cave-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Café Gaúcho",
@@ -6216,7 +6636,8 @@
    "lat": -22.905904,
    "lng": -43.176582,
    "geo": "lugar",
-   "id": "d-cafe-gaucho-rio-de-janeiro"
+   "id": "d-cafe-gaucho-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Livraria Leonardo da Vinci",
@@ -6230,7 +6651,8 @@
    "lat": -22.907556,
    "lng": -43.176398,
    "geo": "lugar",
-   "id": "d-livraria-leonardo-da-vinci-rio-de-janeiro"
+   "id": "d-livraria-leonardo-da-vinci-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Livraria Argumento",
@@ -6244,7 +6666,8 @@
    "lat": -22.982994,
    "lng": -43.2263,
    "geo": "lugar",
-   "id": "d-livraria-argumento-rio-de-janeiro"
+   "id": "d-livraria-argumento-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Museu da República",
@@ -6261,7 +6684,8 @@
    "lat": -22.925899,
    "lng": -43.176215,
    "geo": "lugar",
-   "id": "d-museu-da-republica-rio-de-janeiro"
+   "id": "d-museu-da-republica-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Quinta da Boa Vista",
@@ -6275,7 +6699,8 @@
    "lat": -22.905471,
    "lng": -43.226306,
    "geo": "lugar",
-   "id": "d-quinta-da-boa-vista-rio-de-janeiro"
+   "id": "d-quinta-da-boa-vista-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Ilha Fiscal",
@@ -6289,7 +6714,8 @@
    "lat": -22.896898,
    "lng": -43.166308,
    "geo": "lugar",
-   "id": "d-ilha-fiscal-rio-de-janeiro"
+   "id": "d-ilha-fiscal-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Cidade das Artes",
@@ -6303,7 +6729,8 @@
    "lat": -22.999076,
    "lng": -43.365829,
    "geo": "lugar",
-   "id": "d-cidade-das-artes-rio-de-janeiro"
+   "id": "d-cidade-das-artes-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Bosque da Barra",
@@ -6320,7 +6747,8 @@
    "lat": -22.996593,
    "lng": -43.370922,
    "geo": "lugar",
-   "id": "d-bosque-da-barra-rio-de-janeiro"
+   "id": "d-bosque-da-barra-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Pedra do Telégrafo",
@@ -6334,7 +6762,8 @@
    "lat": -23.068317,
    "lng": -43.558205,
    "geo": "lugar",
-   "id": "d-pedra-do-telegrafo-rio-de-janeiro"
+   "id": "d-pedra-do-telegrafo-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Sítio Roberto Burle Marx",
@@ -6351,7 +6780,8 @@
    "lat": -23.023872,
    "lng": -43.544707,
    "geo": "lugar",
-   "id": "d-sitio-roberto-burle-marx-rio-de-janeiro"
+   "id": "d-sitio-roberto-burle-marx-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Pista Cláudio Coutinho",
@@ -6365,7 +6795,8 @@
    "lat": -22.953002,
    "lng": -43.15838,
    "geo": "lugar",
-   "id": "d-pista-claudio-coutinho-rio-de-janeiro"
+   "id": "d-pista-claudio-coutinho-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Praia Vermelha",
@@ -6379,7 +6810,8 @@
    "lat": -22.955257,
    "lng": -43.164718,
    "geo": "lugar",
-   "id": "d-praia-vermelha-rio-de-janeiro"
+   "id": "d-praia-vermelha-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Sala Cecília Meireles",
@@ -6393,7 +6825,8 @@
    "lat": -22.914603,
    "lng": -43.178539,
    "geo": "lugar",
-   "id": "d-sala-cecilia-meireles-rio-de-janeiro"
+   "id": "d-sala-cecilia-meireles-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Circo Voador",
@@ -6407,7 +6840,8 @@
    "lat": -22.912939,
    "lng": -43.180322,
    "geo": "lugar",
-   "id": "d-circo-voador-rio-de-janeiro"
+   "id": "d-circo-voador-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora da Penha",
@@ -6424,7 +6858,8 @@
    "lat": -22.844309,
    "lng": -43.275075,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-da-penha-rio-de-janeiro"
+   "id": "d-igreja-de-nossa-senhora-da-penha-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Igreja de Nossa Senhora da Glória do Outeiro",
@@ -6441,7 +6876,8 @@
    "lat": -22.921496,
    "lng": -43.175382,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-da-gloria-do-outeiro-rio-de-janeiro"
+   "id": "d-igreja-de-nossa-senhora-da-gloria-do-outeiro-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Cais do Valongo",
@@ -6455,7 +6891,8 @@
    "lat": -22.896888,
    "lng": -43.187466,
    "geo": "lugar",
-   "id": "d-cais-do-valongo-rio-de-janeiro"
+   "id": "d-cais-do-valongo-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Pedra do Sal",
@@ -6469,7 +6906,8 @@
    "lat": -22.898042,
    "lng": -43.185406,
    "geo": "lugar",
-   "id": "d-pedra-do-sal-rio-de-janeiro"
+   "id": "d-pedra-do-sal-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Mirante do Leblon",
@@ -6483,7 +6921,8 @@
    "lat": -22.989935,
    "lng": -43.227309,
    "geo": "lugar",
-   "id": "d-mirante-do-leblon-rio-de-janeiro"
+   "id": "d-mirante-do-leblon-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Planetário da Gávea",
@@ -6500,7 +6939,8 @@
    "lat": -22.978195,
    "lng": -43.230257,
    "geo": "lugar",
-   "id": "d-planetario-da-gavea-rio-de-janeiro"
+   "id": "d-planetario-da-gavea-rio-de-janeiro",
+   "top": false
   },
   {
    "n": "Praia de Itaúna",
@@ -6514,7 +6954,8 @@
    "lat": -22.935982,
    "lng": -42.482546,
    "geo": "lugar",
-   "id": "d-praia-de-itauna-saquarema"
+   "id": "d-praia-de-itauna-saquarema",
+   "top": true
   },
   {
    "n": "Igreja de Nossa Senhora de Nazareth",
@@ -6528,7 +6969,8 @@
    "lat": -22.936729,
    "lng": -42.492438,
    "geo": "lugar",
-   "id": "d-igreja-de-nossa-senhora-de-nazareth-saquarema"
+   "id": "d-igreja-de-nossa-senhora-de-nazareth-saquarema",
+   "top": true
   },
   {
    "n": "Lagoa de Saquarema",
@@ -6542,7 +6984,8 @@
    "lat": -22.907207,
    "lng": -42.570692,
    "geo": "lugar",
-   "id": "d-lagoa-de-saquarema-saquarema"
+   "id": "d-lagoa-de-saquarema-saquarema",
+   "top": false
   },
   {
    "n": "Praia da Vila",
@@ -6556,7 +6999,8 @@
    "lat": -22.934535,
    "lng": -42.4988,
    "geo": "lugar",
-   "id": "d-praia-da-vila-saquarema"
+   "id": "d-praia-da-vila-saquarema",
+   "top": false
   },
   {
    "n": "Parque Nacional da Serra dos Órgãos",
@@ -6573,7 +7017,8 @@
    "lat": -22.449008,
    "lng": -42.98486,
    "geo": "lugar",
-   "id": "d-parque-nacional-da-serra-dos-orgaos-teresopolis"
+   "id": "d-parque-nacional-da-serra-dos-orgaos-teresopolis",
+   "top": true
   },
   {
    "n": "Mirante do Soberbo",
@@ -6587,7 +7032,8 @@
    "lat": -22.461611,
    "lng": -42.995272,
    "geo": "lugar",
-   "id": "d-mirante-do-soberbo-teresopolis"
+   "id": "d-mirante-do-soberbo-teresopolis",
+   "top": false
   },
   {
    "n": "Feirinha do Alto",
@@ -6601,7 +7047,8 @@
    "lat": -22.442643,
    "lng": -42.979899,
    "geo": "lugar",
-   "id": "d-feirinha-do-alto-teresopolis"
+   "id": "d-feirinha-do-alto-teresopolis",
+   "top": false
   },
   {
    "n": "Pedra do Sino",
@@ -6615,7 +7062,8 @@
    "lat": -22.306217,
    "lng": -42.720485,
    "geo": "lugar",
-   "id": "d-pedra-do-sino-teresopolis"
+   "id": "d-pedra-do-sino-teresopolis",
+   "top": true
   },
   {
    "n": "Parque Municipal Montanhas de Teresópolis",
@@ -6629,7 +7077,8 @@
    "lat": -22.333396,
    "lng": -42.984556,
    "geo": "lugar",
-   "id": "d-parque-municipal-montanhas-de-teresopolis-teresopolis"
+   "id": "d-parque-municipal-montanhas-de-teresopolis-teresopolis",
+   "top": false
   },
   {
    "n": "Túnel que Chora",
@@ -6643,7 +7092,8 @@
    "lat": -22.291502,
    "lng": -43.925604,
    "geo": "lugar",
-   "id": "d-tunel-que-chora-valenca"
+   "id": "d-tunel-que-chora-valenca",
+   "top": false
   },
   {
    "n": "Catedral de Nossa Senhora da Glória",
@@ -6657,7 +7107,8 @@
    "lat": -22.246176,
    "lng": -43.700863,
    "geo": "lugar",
-   "id": "d-catedral-de-nossa-senhora-da-gloria-valenca"
+   "id": "d-catedral-de-nossa-senhora-da-gloria-valenca",
+   "top": false
   },
   {
    "n": "Praça Barão de Campo Belo",
@@ -6671,7 +7122,8 @@
    "lat": -22.409566,
    "lng": -43.661111,
    "geo": "lugar",
-   "id": "d-praca-barao-de-campo-belo-vassouras"
+   "id": "d-praca-barao-de-campo-belo-vassouras",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Nossa Senhora da Conceição",
@@ -6685,7 +7137,8 @@
    "lat": -22.410356,
    "lng": -43.661709,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-vassouras"
+   "id": "d-igreja-matriz-de-nossa-senhora-da-conceicao-vassouras",
+   "top": false
   },
   {
    "n": "Casa da Hera",
@@ -6702,7 +7155,8 @@
    "lat": -22.407203,
    "lng": -43.658547,
    "geo": "lugar",
-   "id": "d-casa-da-hera-vassouras"
+   "id": "d-casa-da-hera-vassouras",
+   "top": true
   },
   {
    "n": "Memorial Getúlio Vargas",
@@ -6716,7 +7170,8 @@
    "lat": -22.516609,
    "lng": -44.104028,
    "geo": "lugar",
-   "id": "d-memorial-getulio-vargas-volta-redonda"
+   "id": "d-memorial-getulio-vargas-volta-redonda",
+   "top": false
   },
   {
    "n": "Praça Brasil",
@@ -6730,7 +7185,8 @@
    "lat": -22.516649,
    "lng": -44.104089,
    "geo": "lugar",
-   "id": "d-praca-brasil-volta-redonda"
+   "id": "d-praca-brasil-volta-redonda",
+   "top": false
   },
   {
    "n": "Parque Dr. Octávio de Moura Andrade",
@@ -6747,7 +7203,8 @@
    "lat": -22.602836,
    "lng": -47.868274,
    "geo": "lugar",
-   "id": "d-parque-dr-octavio-de-moura-andrade-aguas-de-sao-pedro"
+   "id": "d-parque-dr-octavio-de-moura-andrade-aguas-de-sao-pedro",
+   "top": true
   },
   {
    "n": "Balneário Municipal Dr. Octávio de Moura Andrade",
@@ -6764,7 +7221,8 @@
    "lat": -22.598718,
    "lng": -47.878535,
    "geo": "lugar",
-   "id": "d-balneario-municipal-dr-octavio-de-moura-andrade-aguas-de-sao-pedro"
+   "id": "d-balneario-municipal-dr-octavio-de-moura-andrade-aguas-de-sao-pedro",
+   "top": false
   },
   {
    "n": "Grande Hotel São Pedro",
@@ -6778,7 +7236,8 @@
    "lat": -22.598845,
    "lng": -47.881082,
    "geo": "lugar",
-   "id": "d-grande-hotel-sao-pedro-aguas-de-sao-pedro"
+   "id": "d-grande-hotel-sao-pedro-aguas-de-sao-pedro",
+   "top": true
   },
   {
    "n": "Pedra Grande",
@@ -6795,7 +7254,8 @@
    "lat": -23.169539,
    "lng": -46.529754,
    "geo": "lugar",
-   "id": "d-pedra-grande-atibaia"
+   "id": "d-pedra-grande-atibaia",
+   "top": true
   },
   {
    "n": "Parque Edmundo Zanoni",
@@ -6809,7 +7269,8 @@
    "lat": -23.11763,
    "lng": -46.536269,
    "geo": "lugar",
-   "id": "d-parque-edmundo-zanoni-atibaia"
+   "id": "d-parque-edmundo-zanoni-atibaia",
+   "top": false
   },
   {
    "n": "Lago do Major",
@@ -6823,7 +7284,8 @@
    "lat": -23.120212,
    "lng": -46.550391,
    "geo": "lugar",
-   "id": "d-lago-do-major-atibaia"
+   "id": "d-lago-do-major-atibaia",
+   "top": true
   },
   {
    "n": "Zoológico Municipal de Bauru",
@@ -6837,7 +7299,8 @@
    "lat": -22.341211,
    "lng": -49.019763,
    "geo": "lugar",
-   "id": "d-zoologico-municipal-de-bauru-bauru"
+   "id": "d-zoologico-municipal-de-bauru-bauru",
+   "top": true
   },
   {
    "n": "Museu Ferroviário Regional de Bauru",
@@ -6851,7 +7314,8 @@
    "lat": -22.322362,
    "lng": -49.077708,
    "geo": "lugar",
-   "id": "d-museu-ferroviario-regional-de-bauru-bauru"
+   "id": "d-museu-ferroviario-regional-de-bauru-bauru",
+   "top": true
   },
   {
    "n": "Jardim Botânico Municipal de Bauru",
@@ -6865,7 +7329,8 @@
    "lat": -22.344729,
    "lng": -49.017105,
    "geo": "lugar",
-   "id": "d-jardim-botanico-municipal-de-bauru-bauru"
+   "id": "d-jardim-botanico-municipal-de-bauru-bauru",
+   "top": false
   },
   {
    "n": "Parque Vitória Régia",
@@ -6879,7 +7344,8 @@
    "lat": -22.331524,
    "lng": -49.058357,
    "geo": "lugar",
-   "id": "d-parque-vitoria-regia-bauru"
+   "id": "d-parque-vitoria-regia-bauru",
+   "top": false
   },
   {
    "n": "Forte São João",
@@ -6896,7 +7362,8 @@
    "lat": -23.855069,
    "lng": -46.134751,
    "geo": "lugar",
-   "id": "d-forte-sao-joao-bertioga"
+   "id": "d-forte-sao-joao-bertioga",
+   "top": false
   },
   {
    "n": "Praia da Riviera de São Lourenço",
@@ -6913,7 +7380,8 @@
    "lat": -23.788804,
    "lng": -46.027392,
    "geo": "lugar",
-   "id": "d-praia-da-riviera-de-sao-lourenco-bertioga"
+   "id": "d-praia-da-riviera-de-sao-lourenco-bertioga",
+   "top": true
   },
   {
    "n": "Praia da Enseada",
@@ -6927,7 +7395,8 @@
    "lat": -23.846837,
    "lng": -46.131969,
    "geo": "lugar",
-   "id": "d-praia-da-enseada-bertioga"
+   "id": "d-praia-da-enseada-bertioga",
+   "top": false
   },
   {
    "n": "Praia de Itaguaré",
@@ -6941,7 +7410,8 @@
    "lat": -23.788801,
    "lng": -45.984628,
    "geo": "lugar",
-   "id": "d-praia-de-itaguare-bertioga"
+   "id": "d-praia-de-itaguare-bertioga",
+   "top": true
   },
   {
    "n": "Rio Jacaré-Pepira",
@@ -6955,7 +7425,8 @@
    "lat": -22.442772,
    "lng": -48.002067,
    "geo": "lugar",
-   "id": "d-rio-jacare-pepira-brotas"
+   "id": "d-rio-jacare-pepira-brotas",
+   "top": true
   },
   {
    "n": "Parque dos Saltos",
@@ -6969,7 +7440,8 @@
    "lat": -22.291551,
    "lng": -48.131434,
    "geo": "lugar",
-   "id": "d-parque-dos-saltos-brotas"
+   "id": "d-parque-dos-saltos-brotas",
+   "top": true
   },
   {
    "n": "Areia que Canta",
@@ -6983,7 +7455,8 @@
    "lat": -22.313039,
    "lng": -48.050809,
    "geo": "lugar",
-   "id": "d-areia-que-canta-brotas"
+   "id": "d-areia-que-canta-brotas",
+   "top": false
   },
   {
    "n": "Catedral Metropolitana de Campinas",
@@ -7000,7 +7473,8 @@
    "lat": -22.906008,
    "lng": -47.060391,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-campinas-campinas"
+   "id": "d-catedral-metropolitana-de-campinas-campinas",
+   "top": true
   },
   {
    "n": "Mercado Municipal de Campinas",
@@ -7017,7 +7491,8 @@
    "lat": -22.903377,
    "lng": -47.06365,
    "geo": "lugar",
-   "id": "d-mercado-municipal-de-campinas-campinas"
+   "id": "d-mercado-municipal-de-campinas-campinas",
+   "top": true
   },
   {
    "n": "Parque Portugal (Lagoa do Taquaral)",
@@ -7035,7 +7510,8 @@
    "lat": -22.874427,
    "lng": -47.048845,
    "geo": "lugar",
-   "id": "d-parque-portugal-lagoa-do-taquaral-campinas"
+   "id": "d-parque-portugal-lagoa-do-taquaral-campinas",
+   "top": true
   },
   {
    "n": "Bosque dos Jequitibás",
@@ -7049,7 +7525,8 @@
    "lat": -22.908215,
    "lng": -47.04934,
    "geo": "lugar",
-   "id": "d-bosque-dos-jequitibas-campinas"
+   "id": "d-bosque-dos-jequitibas-campinas",
+   "top": true
   },
   {
    "n": "Estação Cultura",
@@ -7066,7 +7543,8 @@
    "lat": -22.908612,
    "lng": -47.067431,
    "geo": "lugar",
-   "id": "d-estacao-cultura-campinas"
+   "id": "d-estacao-cultura-campinas",
+   "top": false
   },
   {
    "n": "Museu Exploratório de Ciências da Unicamp",
@@ -7080,7 +7558,8 @@
    "lat": -22.814771,
    "lng": -47.057496,
    "geo": "lugar",
-   "id": "d-museu-exploratorio-de-ciencias-da-unicamp-campinas"
+   "id": "d-museu-exploratorio-de-ciencias-da-unicamp-campinas",
+   "top": false
   },
   {
    "n": "Torre do Castelo",
@@ -7094,7 +7573,8 @@
    "lat": -22.890066,
    "lng": -47.076873,
    "geo": "lugar",
-   "id": "d-torre-do-castelo-campinas"
+   "id": "d-torre-do-castelo-campinas",
+   "top": false
   },
   {
    "n": "Teatro Municipal Castro Mendes",
@@ -7111,7 +7591,8 @@
    "lat": -22.911013,
    "lng": -47.065321,
    "geo": "lugar",
-   "id": "d-teatro-municipal-castro-mendes-campinas"
+   "id": "d-teatro-municipal-castro-mendes-campinas",
+   "top": false
   },
   {
    "n": "Centro de Convivência Cultural",
@@ -7125,7 +7606,8 @@
    "lat": -22.85994,
    "lng": -47.155624,
    "geo": "lugar",
-   "id": "d-centro-de-convivencia-cultural-campinas"
+   "id": "d-centro-de-convivencia-cultural-campinas",
+   "top": false
   },
   {
    "n": "Palácio dos Azulejos",
@@ -7139,7 +7621,8 @@
    "lat": -22.900912,
    "lng": -47.057271,
    "geo": "lugar",
-   "id": "d-palacio-dos-azulejos-campinas"
+   "id": "d-palacio-dos-azulejos-campinas",
+   "top": false
   },
   {
    "n": "Bar Giovannetti",
@@ -7156,7 +7639,8 @@
    "lat": -22.943064,
    "lng": -47.166655,
    "geo": "lugar",
-   "id": "d-bar-giovannetti-campinas"
+   "id": "d-bar-giovannetti-campinas",
+   "top": false
   },
   {
    "n": "Parque Ecológico Monsenhor Emílio José Salim",
@@ -7173,7 +7657,8 @@
    "lat": -22.909589,
    "lng": -47.018831,
    "geo": "lugar",
-   "id": "d-parque-ecologico-monsenhor-emilio-jose-salim-campinas"
+   "id": "d-parque-ecologico-monsenhor-emilio-jose-salim-campinas",
+   "top": false
   },
   {
    "n": "Basílica de Nossa Senhora do Carmo",
@@ -7190,7 +7675,8 @@
    "lat": -22.901547,
    "lng": -47.060347,
    "geo": "lugar",
-   "id": "d-basilica-de-nossa-senhora-do-carmo-campinas"
+   "id": "d-basilica-de-nossa-senhora-do-carmo-campinas",
+   "top": false
   },
   {
    "n": "Observatório Municipal Jean Nicolini",
@@ -7207,7 +7693,8 @@
    "lat": -22.901821,
    "lng": -46.827621,
    "geo": "lugar",
-   "id": "d-observatorio-municipal-jean-nicolini-campinas"
+   "id": "d-observatorio-municipal-jean-nicolini-campinas",
+   "top": false
   },
   {
    "n": "Palácio Boa Vista",
@@ -7221,7 +7708,8 @@
    "lat": -22.73499,
    "lng": -45.606766,
    "geo": "lugar",
-   "id": "d-palacio-boa-vista-campos-do-jordao"
+   "id": "d-palacio-boa-vista-campos-do-jordao",
+   "top": true
   },
   {
    "n": "Museu Felícia Leirner e Auditório Claudio Santoro",
@@ -7238,7 +7726,8 @@
    "lat": -22.742716,
    "lng": -45.634224,
    "geo": "lugar",
-   "id": "d-museu-felicia-leirner-e-auditorio-claudio-santoro-campos-do-jordao"
+   "id": "d-museu-felicia-leirner-e-auditorio-claudio-santoro-campos-do-jordao",
+   "top": false
   },
   {
    "n": "Parque Estadual de Campos do Jordão",
@@ -7255,7 +7744,8 @@
    "lat": -22.684058,
    "lng": -45.454916,
    "geo": "lugar",
-   "id": "d-parque-estadual-de-campos-do-jordao-campos-do-jordao"
+   "id": "d-parque-estadual-de-campos-do-jordao-campos-do-jordao",
+   "top": false
   },
   {
    "n": "Pico do Itapeva",
@@ -7269,7 +7759,8 @@
    "lat": -22.763886,
    "lng": -45.539837,
    "geo": "lugar",
-   "id": "d-pico-do-itapeva-campos-do-jordao"
+   "id": "d-pico-do-itapeva-campos-do-jordao",
+   "top": true
   },
   {
    "n": "Morro do Elefante",
@@ -7283,7 +7774,8 @@
    "lat": -22.713304,
    "lng": -45.566185,
    "geo": "lugar",
-   "id": "d-morro-do-elefante-campos-do-jordao"
+   "id": "d-morro-do-elefante-campos-do-jordao",
+   "top": false
   },
   {
    "n": "Cervejaria Baden Baden",
@@ -7301,7 +7793,8 @@
    "lat": -22.748058,
    "lng": -45.620193,
    "geo": "lugar",
-   "id": "d-cervejaria-baden-baden-campos-do-jordao"
+   "id": "d-cervejaria-baden-baden-campos-do-jordao",
+   "top": true
   },
   {
    "n": "Ducha de Prata",
@@ -7315,7 +7808,8 @@
    "lat": -22.737954,
    "lng": -45.569406,
    "geo": "lugar",
-   "id": "d-ducha-de-prata-campos-do-jordao"
+   "id": "d-ducha-de-prata-campos-do-jordao",
+   "top": false
   },
   {
    "n": "Jardins Amantikir",
@@ -7332,7 +7826,8 @@
    "lat": -22.783724,
    "lng": -45.607609,
    "geo": "lugar",
-   "id": "d-jardins-amantikir-campos-do-jordao"
+   "id": "d-jardins-amantikir-campos-do-jordao",
+   "top": true
   },
   {
    "n": "Estação Emílio Ribas",
@@ -7346,7 +7841,8 @@
    "lat": -22.723828,
    "lng": -45.575558,
    "geo": "lugar",
-   "id": "d-estacao-emilio-ribas-campos-do-jordao"
+   "id": "d-estacao-emilio-ribas-campos-do-jordao",
+   "top": false
   },
   {
    "n": "Feira de Artes e Artesanato do Embu",
@@ -7363,7 +7859,8 @@
    "lat": -23.649206,
    "lng": -46.852716,
    "geo": "lugar",
-   "id": "d-feira-de-artes-e-artesanato-do-embu-embu-das-artes"
+   "id": "d-feira-de-artes-e-artesanato-do-embu-embu-das-artes",
+   "top": true
   },
   {
    "n": "Igreja Nossa Senhora do Rosário e Museu de Arte Sacra dos Jesuítas",
@@ -7380,7 +7877,8 @@
    "lat": -23.649501,
    "lng": -46.851635,
    "geo": "lugar",
-   "id": "d-igreja-nossa-senhora-do-rosario-e-museu-de-arte-sacra-dos-jesuitas-embu-das-artes"
+   "id": "d-igreja-nossa-senhora-do-rosario-e-museu-de-arte-sacra-dos-jesuitas-embu-das-artes",
+   "top": false
   },
   {
    "n": "Centro Histórico de Embu das Artes",
@@ -7394,7 +7892,8 @@
    "lat": -23.649527,
    "lng": -46.852856,
    "geo": "lugar",
-   "id": "d-centro-historico-de-embu-das-artes-embu-das-artes"
+   "id": "d-centro-historico-de-embu-das-artes-embu-das-artes",
+   "top": true
   },
   {
    "n": "Parque do Lago Francisco Rizzo",
@@ -7408,7 +7907,8 @@
    "lat": -23.659891,
    "lng": -46.85621,
    "geo": "lugar",
-   "id": "d-parque-do-lago-francisco-rizzo-embu-das-artes"
+   "id": "d-parque-do-lago-francisco-rizzo-embu-das-artes",
+   "top": false
   },
   {
    "n": "Fortaleza da Barra Grande",
@@ -7425,7 +7925,8 @@
    "lat": -23.994725,
    "lng": -46.306955,
    "geo": "lugar",
-   "id": "d-fortaleza-da-barra-grande-guaruja"
+   "id": "d-fortaleza-da-barra-grande-guaruja",
+   "top": true
   },
   {
    "n": "Praia de Pernambuco",
@@ -7439,7 +7940,8 @@
    "lat": -23.96629,
    "lng": -46.185549,
    "geo": "lugar",
-   "id": "d-praia-de-pernambuco-guaruja"
+   "id": "d-praia-de-pernambuco-guaruja",
+   "top": true
   },
   {
    "n": "Praia do Tombo",
@@ -7453,7 +7955,8 @@
    "lat": -24.014368,
    "lng": -46.273277,
    "geo": "lugar",
-   "id": "d-praia-do-tombo-guaruja"
+   "id": "d-praia-do-tombo-guaruja",
+   "top": true
   },
   {
    "n": "Praia da Enseada",
@@ -7467,7 +7970,8 @@
    "lat": -23.989283,
    "lng": -46.237362,
    "geo": "lugar",
-   "id": "d-praia-da-enseada-guaruja"
+   "id": "d-praia-da-enseada-guaruja",
+   "top": false
   },
   {
    "n": "Praia de Pitangueiras",
@@ -7481,7 +7985,8 @@
    "lat": -23.999275,
    "lng": -46.259447,
    "geo": "lugar",
-   "id": "d-praia-de-pitangueiras-guaruja"
+   "id": "d-praia-de-pitangueiras-guaruja",
+   "top": false
   },
   {
    "n": "Morro do Maluf",
@@ -7498,7 +8003,8 @@
    "lat": -23.994582,
    "lng": -46.248979,
    "geo": "lugar",
-   "id": "d-morro-do-maluf-guaruja"
+   "id": "d-morro-do-maluf-guaruja",
+   "top": true
   },
   {
    "n": "Moinho Povos Unidos",
@@ -7512,7 +8018,8 @@
    "lat": -22.623208,
    "lng": -47.060176,
    "geo": "lugar",
-   "id": "d-moinho-povos-unidos-holambra"
+   "id": "d-moinho-povos-unidos-holambra",
+   "top": true
   },
   {
    "n": "Deck do Amor",
@@ -7529,7 +8036,8 @@
    "lat": -22.631431,
    "lng": -47.057731,
    "geo": "lugar",
-   "id": "d-deck-do-amor-holambra"
+   "id": "d-deck-do-amor-holambra",
+   "top": false
   },
   {
    "n": "Boulevard Holandês",
@@ -7543,7 +8051,8 @@
    "lat": -22.637746,
    "lng": -47.04877,
    "geo": "lugar",
-   "id": "d-boulevard-holandes-holambra"
+   "id": "d-boulevard-holandes-holambra",
+   "top": true
   },
   {
    "n": "Portal de Holambra",
@@ -7557,7 +8066,8 @@
    "lat": -22.63218,
    "lng": -47.036896,
    "geo": "lugar",
-   "id": "d-portal-de-holambra-holambra"
+   "id": "d-portal-de-holambra-holambra",
+   "top": false
   },
   {
    "n": "Praia do Bonete",
@@ -7571,7 +8081,8 @@
    "lat": -23.918081,
    "lng": -45.344223,
    "geo": "lugar",
-   "id": "d-praia-do-bonete-ilhabela"
+   "id": "d-praia-do-bonete-ilhabela",
+   "top": true
   },
   {
    "n": "Praia de Castelhanos",
@@ -7585,7 +8096,8 @@
    "lat": -23.855721,
    "lng": -45.288665,
    "geo": "lugar",
-   "id": "d-praia-de-castelhanos-ilhabela"
+   "id": "d-praia-de-castelhanos-ilhabela",
+   "top": true
   },
   {
    "n": "Cachoeira da Toca",
@@ -7599,7 +8111,8 @@
    "lat": -23.932626,
    "lng": -45.408972,
    "geo": "lugar",
-   "id": "d-cachoeira-da-toca-ilhabela"
+   "id": "d-cachoeira-da-toca-ilhabela",
+   "top": true
   },
   {
    "n": "Praia do Jabaquara",
@@ -7613,7 +8126,8 @@
    "lat": -23.736256,
    "lng": -45.292929,
    "geo": "lugar",
-   "id": "d-praia-do-jabaquara-ilhabela"
+   "id": "d-praia-do-jabaquara-ilhabela",
+   "top": false
   },
   {
    "n": "Praia do Curral",
@@ -7627,7 +8141,8 @@
    "lat": -23.86636,
    "lng": -45.431849,
    "geo": "lugar",
-   "id": "d-praia-do-curral-ilhabela"
+   "id": "d-praia-do-curral-ilhabela",
+   "top": false
   },
   {
    "n": "Pico do Baepi",
@@ -7641,7 +8156,8 @@
    "lat": -23.789998,
    "lng": -45.33389,
    "geo": "lugar",
-   "id": "d-pico-do-baepi-ilhabela"
+   "id": "d-pico-do-baepi-ilhabela",
+   "top": true
   },
   {
    "n": "Praia da Feiticeira",
@@ -7655,7 +8171,8 @@
    "lat": -23.845373,
    "lng": -45.408825,
    "geo": "lugar",
-   "id": "d-praia-da-feiticeira-ilhabela"
+   "id": "d-praia-da-feiticeira-ilhabela",
+   "top": false
   },
   {
    "n": "Serra do Japi",
@@ -7669,7 +8186,8 @@
    "lat": -23.299128,
    "lng": -46.965261,
    "geo": "lugar",
-   "id": "d-serra-do-japi-jundiai"
+   "id": "d-serra-do-japi-jundiai",
+   "top": true
   },
   {
    "n": "Parque da Cidade",
@@ -7683,7 +8201,8 @@
    "lat": -23.153027,
    "lng": -46.883366,
    "geo": "lugar",
-   "id": "d-parque-da-cidade-jundiai"
+   "id": "d-parque-da-cidade-jundiai",
+   "top": false
   },
   {
    "n": "Catedral Nossa Senhora do Desterro",
@@ -7697,7 +8216,8 @@
    "lat": -23.189181,
    "lng": -46.884217,
    "geo": "lugar",
-   "id": "d-catedral-nossa-senhora-do-desterro-jundiai"
+   "id": "d-catedral-nossa-senhora-do-desterro-jundiai",
+   "top": false
   },
   {
    "n": "Museu da Companhia Paulista",
@@ -7714,7 +8234,8 @@
    "lat": -23.181962,
    "lng": -46.881902,
    "geo": "lugar",
-   "id": "d-museu-da-companhia-paulista-jundiai"
+   "id": "d-museu-da-companhia-paulista-jundiai",
+   "top": true
   },
   {
    "n": "Solar do Barão",
@@ -7731,7 +8252,8 @@
    "lat": -23.188199,
    "lng": -46.884308,
    "geo": "lugar",
-   "id": "d-solar-do-barao-jundiai"
+   "id": "d-solar-do-barao-jundiai",
+   "top": false
   },
   {
    "n": "Rua do Porto",
@@ -7745,7 +8267,8 @@
    "lat": -22.725758,
    "lng": -47.661811,
    "geo": "lugar",
-   "id": "d-rua-do-porto-piracicaba"
+   "id": "d-rua-do-porto-piracicaba",
+   "top": true
   },
   {
    "n": "Engenho Central",
@@ -7762,7 +8285,8 @@
    "lat": -22.720352,
    "lng": -47.656775,
    "geo": "lugar",
-   "id": "d-engenho-central-piracicaba"
+   "id": "d-engenho-central-piracicaba",
+   "top": true
   },
   {
    "n": "Parque do Mirante",
@@ -7779,7 +8303,8 @@
    "lat": -22.715211,
    "lng": -47.653149,
    "geo": "lugar",
-   "id": "d-parque-do-mirante-piracicaba"
+   "id": "d-parque-do-mirante-piracicaba",
+   "top": true
   },
   {
    "n": "ESALQ/USP",
@@ -7796,7 +8321,8 @@
    "lat": -22.707561,
    "lng": -47.628636,
    "geo": "lugar",
-   "id": "d-esalq-usp-piracicaba"
+   "id": "d-esalq-usp-piracicaba",
+   "top": true
   },
   {
    "n": "Catedral de Santo Antônio",
@@ -7810,7 +8336,8 @@
    "lat": -22.725599,
    "lng": -47.649577,
    "geo": "lugar",
-   "id": "d-catedral-de-santo-antonio-piracicaba"
+   "id": "d-catedral-de-santo-antonio-piracicaba",
+   "top": false
   },
   {
    "n": "Casa do Povoador",
@@ -7824,7 +8351,8 @@
    "lat": -22.73749,
    "lng": -47.509811,
    "geo": "lugar",
-   "id": "d-casa-do-povoador-piracicaba"
+   "id": "d-casa-do-povoador-piracicaba",
+   "top": false
   },
   {
    "n": "Choperia Pinguim",
@@ -7841,7 +8369,8 @@
    "lat": -21.174669,
    "lng": -47.809878,
    "geo": "lugar",
-   "id": "d-choperia-pinguim-ribeirao-preto"
+   "id": "d-choperia-pinguim-ribeirao-preto",
+   "top": true
   },
   {
    "n": "Theatro Pedro II",
@@ -7855,7 +8384,8 @@
    "lat": -21.174361,
    "lng": -47.809806,
    "geo": "lugar",
-   "id": "d-theatro-pedro-ii-ribeirao-preto"
+   "id": "d-theatro-pedro-ii-ribeirao-preto",
+   "top": true
   },
   {
    "n": "Catedral Metropolitana de São Sebastião",
@@ -7872,7 +8402,8 @@
    "lat": -21.178191,
    "lng": -47.810862,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-sao-sebastiao-ribeirao-preto"
+   "id": "d-catedral-metropolitana-de-sao-sebastiao-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Praça XV de Novembro",
@@ -7886,7 +8417,8 @@
    "lat": -21.175152,
    "lng": -47.808732,
    "geo": "lugar",
-   "id": "d-praca-xv-de-novembro-ribeirao-preto"
+   "id": "d-praca-xv-de-novembro-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Museu do Café Coronel Francisco Schmidt",
@@ -7903,7 +8435,8 @@
    "lat": -21.170571,
    "lng": -47.84955,
    "geo": "lugar",
-   "id": "d-museu-do-cafe-coronel-francisco-schmidt-ribeirao-preto"
+   "id": "d-museu-do-cafe-coronel-francisco-schmidt-ribeirao-preto",
+   "top": true
   },
   {
    "n": "Bosque Municipal Fábio Barreto",
@@ -7920,7 +8453,8 @@
    "lat": -21.172997,
    "lng": -47.800637,
    "geo": "lugar",
-   "id": "d-bosque-municipal-fabio-barreto-ribeirao-preto"
+   "id": "d-bosque-municipal-fabio-barreto-ribeirao-preto",
+   "top": true
   },
   {
    "n": "Parque Curupira",
@@ -7937,7 +8471,8 @@
    "lat": -21.196124,
    "lng": -47.793171,
    "geo": "lugar",
-   "id": "d-parque-curupira-ribeirao-preto"
+   "id": "d-parque-curupira-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Parque Ecológico Maurílio Biagi",
@@ -7951,7 +8486,8 @@
    "lat": -21.176049,
    "lng": -47.817588,
    "geo": "lugar",
-   "id": "d-parque-ecologico-maurilio-biagi-ribeirao-preto"
+   "id": "d-parque-ecologico-maurilio-biagi-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Museu de Arte de Ribeirão Preto (MARP)",
@@ -7968,7 +8504,8 @@
    "lat": -21.176229,
    "lng": -47.80686,
    "geo": "lugar",
-   "id": "d-museu-de-arte-de-ribeirao-preto-marp-ribeirao-preto"
+   "id": "d-museu-de-arte-de-ribeirao-preto-marp-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Campus da USP de Ribeirão Preto",
@@ -7982,7 +8519,8 @@
    "lat": -21.164396,
    "lng": -47.857836,
    "geo": "lugar",
-   "id": "d-campus-da-usp-de-ribeirao-preto-ribeirao-preto"
+   "id": "d-campus-da-usp-de-ribeirao-preto-ribeirao-preto",
+   "top": false
   },
   {
    "n": "Centro Histórico de Santana de Parnaíba",
@@ -7996,7 +8534,8 @@
    "lat": -23.445706,
    "lng": -46.91477,
    "geo": "lugar",
-   "id": "d-centro-historico-de-santana-de-parnaiba-santana-de-parnaiba"
+   "id": "d-centro-historico-de-santana-de-parnaiba-santana-de-parnaiba",
+   "top": true
   },
   {
    "n": "Igreja Matriz de Sant'Ana",
@@ -8010,7 +8549,8 @@
    "lat": -23.445858,
    "lng": -46.914011,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-sant-ana-santana-de-parnaiba"
+   "id": "d-igreja-matriz-de-sant-ana-santana-de-parnaiba",
+   "top": false
   },
   {
    "n": "Museu Casa do Anhanguera",
@@ -8024,7 +8564,8 @@
    "lat": -23.445658,
    "lng": -46.914235,
    "geo": "lugar",
-   "id": "d-museu-casa-do-anhanguera-santana-de-parnaiba"
+   "id": "d-museu-casa-do-anhanguera-santana-de-parnaiba",
+   "top": true
   },
   {
    "n": "Vila de Paranapiacaba",
@@ -8041,7 +8582,8 @@
    "lat": -23.777847,
    "lng": -46.301291,
    "geo": "lugar",
-   "id": "d-vila-de-paranapiacaba-santo-andre"
+   "id": "d-vila-de-paranapiacaba-santo-andre",
+   "top": true
   },
   {
    "n": "Museu Castelo",
@@ -8058,7 +8600,8 @@
    "lat": -23.77806,
    "lng": -46.300806,
    "geo": "lugar",
-   "id": "d-museu-castelo-santo-andre"
+   "id": "d-museu-castelo-santo-andre",
+   "top": false
   },
   {
    "n": "Parque Natural Municipal Nascentes de Paranapiacaba",
@@ -8072,7 +8615,8 @@
    "lat": -23.774414,
    "lng": -46.290076,
    "geo": "lugar",
-   "id": "d-parque-natural-municipal-nascentes-de-paranapiacaba-santo-andre"
+   "id": "d-parque-natural-municipal-nascentes-de-paranapiacaba-santo-andre",
+   "top": true
   },
   {
    "n": "Parque Celso Daniel",
@@ -8086,7 +8630,8 @@
    "lat": -23.647524,
    "lng": -46.535902,
    "geo": "lugar",
-   "id": "d-parque-celso-daniel-santo-andre"
+   "id": "d-parque-celso-daniel-santo-andre",
+   "top": false
   },
   {
    "n": "Museu do Café",
@@ -8103,7 +8648,8 @@
    "lat": -23.932232,
    "lng": -46.330052,
    "geo": "endereço",
-   "id": "d-museu-do-cafe-santos"
+   "id": "d-museu-do-cafe-santos",
+   "top": true
   },
   {
    "n": "Cafeteria do Museu do Café",
@@ -8117,7 +8663,8 @@
    "lat": -23.932484,
    "lng": -46.330009,
    "geo": "lugar",
-   "id": "d-cafeteria-do-museu-do-cafe-santos"
+   "id": "d-cafeteria-do-museu-do-cafe-santos",
+   "top": false
   },
   {
    "n": "Museu Pelé",
@@ -8131,7 +8678,8 @@
    "lat": -23.931401,
    "lng": -46.33313,
    "geo": "lugar",
-   "id": "d-museu-pele-santos"
+   "id": "d-museu-pele-santos",
+   "top": true
   },
   {
    "n": "Memorial das Conquistas do Santos FC",
@@ -8149,7 +8697,8 @@
    "lat": -23.951116,
    "lng": -46.338991,
    "geo": "lugar",
-   "id": "d-memorial-das-conquistas-do-santos-fc-santos"
+   "id": "d-memorial-das-conquistas-do-santos-fc-santos",
+   "top": false
   },
   {
    "n": "Jardim da Orla de Santos",
@@ -8166,7 +8715,8 @@
    "lat": -23.978291,
    "lng": -46.315638,
    "geo": "lugar",
-   "id": "d-jardim-da-orla-de-santos-santos"
+   "id": "d-jardim-da-orla-de-santos-santos",
+   "top": true
   },
   {
    "n": "Aquário Municipal de Santos",
@@ -8180,7 +8730,8 @@
    "lat": -23.986274,
    "lng": -46.308375,
    "geo": "lugar",
-   "id": "d-aquario-municipal-de-santos-santos"
+   "id": "d-aquario-municipal-de-santos-santos",
+   "top": false
   },
   {
    "n": "Monte Serrat",
@@ -8194,7 +8745,8 @@
    "lat": -23.939688,
    "lng": -46.330513,
    "geo": "lugar",
-   "id": "d-monte-serrat-santos"
+   "id": "d-monte-serrat-santos",
+   "top": true
   },
   {
    "n": "Orquidário Municipal de Santos",
@@ -8211,7 +8763,8 @@
    "lat": -23.965891,
    "lng": -46.349648,
    "geo": "lugar",
-   "id": "d-orquidario-municipal-de-santos-santos"
+   "id": "d-orquidario-municipal-de-santos-santos",
+   "top": false
   },
   {
    "n": "Pinacoteca Benedicto Calixto",
@@ -8225,7 +8778,8 @@
    "lat": -23.973244,
    "lng": -46.322211,
    "geo": "lugar",
-   "id": "d-pinacoteca-benedicto-calixto-santos"
+   "id": "d-pinacoteca-benedicto-calixto-santos",
+   "top": false
   },
   {
    "n": "Praia do Gonzaga",
@@ -8239,7 +8793,8 @@
    "lat": -23.970543,
    "lng": -46.335465,
    "geo": "lugar",
-   "id": "d-praia-do-gonzaga-santos"
+   "id": "d-praia-do-gonzaga-santos",
+   "top": false
   },
   {
    "n": "Teatro Coliseu",
@@ -8253,7 +8808,8 @@
    "lat": -23.936045,
    "lng": -46.324362,
    "geo": "lugar",
-   "id": "d-teatro-coliseu-santos"
+   "id": "d-teatro-coliseu-santos",
+   "top": false
   },
   {
    "n": "Catedral de São Carlos Borromeu",
@@ -8267,7 +8823,8 @@
    "lat": -22.018317,
    "lng": -47.891249,
    "geo": "lugar",
-   "id": "d-catedral-de-sao-carlos-borromeu-sao-carlos"
+   "id": "d-catedral-de-sao-carlos-borromeu-sao-carlos",
+   "top": false
   },
   {
    "n": "Parque Ecológico de São Carlos",
@@ -8284,7 +8841,8 @@
    "lat": -21.984807,
    "lng": -47.874449,
    "geo": "lugar",
-   "id": "d-parque-ecologico-de-sao-carlos-sao-carlos"
+   "id": "d-parque-ecologico-de-sao-carlos-sao-carlos",
+   "top": true
   },
   {
    "n": "Observatório Dietrich Schiel",
@@ -8301,7 +8859,8 @@
    "lat": -22.011109,
    "lng": -47.89656,
    "geo": "lugar",
-   "id": "d-observatorio-dietrich-schiel-sao-carlos"
+   "id": "d-observatorio-dietrich-schiel-sao-carlos",
+   "top": true
   },
   {
    "n": "Campus da UFSCar",
@@ -8315,7 +8874,8 @@
    "lat": -21.961852,
    "lng": -47.877591,
    "geo": "lugar",
-   "id": "d-campus-da-ufscar-sao-carlos"
+   "id": "d-campus-da-ufscar-sao-carlos",
+   "top": false
   },
   {
    "n": "Parque da Cidade Roberto Burle Marx",
@@ -8332,7 +8892,8 @@
    "lat": -23.164767,
    "lng": -45.885294,
    "geo": "lugar",
-   "id": "d-parque-da-cidade-roberto-burle-marx-sao-jose-dos-campos"
+   "id": "d-parque-da-cidade-roberto-burle-marx-sao-jose-dos-campos",
+   "top": true
   },
   {
    "n": "Parque Vicentina Aranha",
@@ -8346,7 +8907,8 @@
    "lat": -23.198256,
    "lng": -45.895341,
    "geo": "lugar",
-   "id": "d-parque-vicentina-aranha-sao-jose-dos-campos"
+   "id": "d-parque-vicentina-aranha-sao-jose-dos-campos",
+   "top": true
   },
   {
    "n": "Parque Natural Municipal do Banhado",
@@ -8363,7 +8925,8 @@
    "lat": -23.180644,
    "lng": -45.902024,
    "geo": "lugar",
-   "id": "d-parque-natural-municipal-do-banhado-sao-jose-dos-campos"
+   "id": "d-parque-natural-municipal-do-banhado-sao-jose-dos-campos",
+   "top": true
   },
   {
    "n": "Memorial Aeroespacial Brasileiro",
@@ -8380,7 +8943,8 @@
    "lat": -23.22268,
    "lng": -45.859941,
    "geo": "lugar",
-   "id": "d-memorial-aeroespacial-brasileiro-sao-jose-dos-campos"
+   "id": "d-memorial-aeroespacial-brasileiro-sao-jose-dos-campos",
+   "top": true
   },
   {
    "n": "Parque Santos Dumont",
@@ -8394,7 +8958,8 @@
    "lat": -23.200068,
    "lng": -45.890913,
    "geo": "lugar",
-   "id": "d-parque-santos-dumont-sao-jose-dos-campos"
+   "id": "d-parque-santos-dumont-sao-jose-dos-campos",
+   "top": false
   },
   {
    "n": "Igreja Matriz de São José",
@@ -8408,7 +8973,8 @@
    "lat": -23.180279,
    "lng": -45.887918,
    "geo": "lugar",
-   "id": "d-igreja-matriz-de-sao-jose-sao-jose-dos-campos"
+   "id": "d-igreja-matriz-de-sao-jose-sao-jose-dos-campos",
+   "top": false
   },
   {
    "n": "Museu de Arte de São Paulo (MASP)",
@@ -8426,7 +8992,8 @@
    "lat": -23.561496,
    "lng": -46.655968,
    "geo": "lugar",
-   "id": "d-museu-de-arte-de-sao-paulo-masp-sao-paulo"
+   "id": "d-museu-de-arte-de-sao-paulo-masp-sao-paulo",
+   "top": true
   },
   {
    "n": "Pinacoteca de São Paulo",
@@ -8443,7 +9010,8 @@
    "lat": -23.534274,
    "lng": -46.633916,
    "geo": "lugar",
-   "id": "d-pinacoteca-de-sao-paulo-sao-paulo"
+   "id": "d-pinacoteca-de-sao-paulo-sao-paulo",
+   "top": true
   },
   {
    "n": "Theatro Municipal de São Paulo",
@@ -8457,7 +9025,8 @@
    "lat": -23.54528,
    "lng": -46.638638,
    "geo": "lugar",
-   "id": "d-theatro-municipal-de-sao-paulo-sao-paulo"
+   "id": "d-theatro-municipal-de-sao-paulo-sao-paulo",
+   "top": true
   },
   {
    "n": "Mercado Municipal de São Paulo",
@@ -8475,7 +9044,8 @@
    "lat": -23.541733,
    "lng": -46.629524,
    "geo": "lugar",
-   "id": "d-mercado-municipal-de-sao-paulo-sao-paulo"
+   "id": "d-mercado-municipal-de-sao-paulo-sao-paulo",
+   "top": true
   },
   {
    "n": "Catedral da Sé",
@@ -8492,7 +9062,8 @@
    "lat": -23.551269,
    "lng": -46.634371,
    "geo": "lugar",
-   "id": "d-catedral-da-se-sao-paulo"
+   "id": "d-catedral-da-se-sao-paulo",
+   "top": true
   },
   {
    "n": "Mosteiro de São Bento",
@@ -8506,7 +9077,8 @@
    "lat": -23.543433,
    "lng": -46.634129,
    "geo": "lugar",
-   "id": "d-mosteiro-de-sao-bento-sao-paulo"
+   "id": "d-mosteiro-de-sao-bento-sao-paulo",
+   "top": true
   },
   {
    "n": "Pateo do Collegio",
@@ -8523,7 +9095,8 @@
    "lat": -23.54802,
    "lng": -46.633023,
    "geo": "lugar",
-   "id": "d-pateo-do-collegio-sao-paulo"
+   "id": "d-pateo-do-collegio-sao-paulo",
+   "top": false
   },
   {
    "n": "Edifício Copan",
@@ -8540,7 +9113,8 @@
    "lat": -23.546594,
    "lng": -46.644533,
    "geo": "lugar",
-   "id": "d-edificio-copan-sao-paulo"
+   "id": "d-edificio-copan-sao-paulo",
+   "top": true
   },
   {
    "n": "Farol Santander",
@@ -8558,7 +9132,8 @@
    "lat": -23.545776,
    "lng": -46.634099,
    "geo": "lugar",
-   "id": "d-farol-santander-sao-paulo"
+   "id": "d-farol-santander-sao-paulo",
+   "top": true
   },
   {
    "n": "Centro Cultural Banco do Brasil São Paulo",
@@ -8576,7 +9151,8 @@
    "lat": -23.547555,
    "lng": -46.634687,
    "geo": "lugar",
-   "id": "d-centro-cultural-banco-do-brasil-sao-paulo-sao-paulo"
+   "id": "d-centro-cultural-banco-do-brasil-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Sala São Paulo",
@@ -8593,7 +9169,8 @@
    "lat": -23.534215,
    "lng": -46.639834,
    "geo": "lugar",
-   "id": "d-sala-sao-paulo-sao-paulo"
+   "id": "d-sala-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu da Língua Portuguesa",
@@ -8610,7 +9187,8 @@
    "lat": -23.534965,
    "lng": -46.635099,
    "geo": "lugar",
-   "id": "d-museu-da-lingua-portuguesa-sao-paulo"
+   "id": "d-museu-da-lingua-portuguesa-sao-paulo",
+   "top": true
   },
   {
    "n": "Instituto Moreira Salles Paulista",
@@ -8628,7 +9206,8 @@
    "lat": -23.556072,
    "lng": -46.661935,
    "geo": "lugar",
-   "id": "d-instituto-moreira-salles-paulista-sao-paulo"
+   "id": "d-instituto-moreira-salles-paulista-sao-paulo",
+   "top": false
   },
   {
    "n": "Japan House São Paulo",
@@ -8645,7 +9224,8 @@
    "lat": -23.570664,
    "lng": -46.644607,
    "geo": "lugar",
-   "id": "d-japan-house-sao-paulo-sao-paulo"
+   "id": "d-japan-house-sao-paulo-sao-paulo",
+   "top": true
   },
   {
    "n": "Centro Cultural São Paulo",
@@ -8662,7 +9242,8 @@
    "lat": -23.571544,
    "lng": -46.640011,
    "geo": "lugar",
-   "id": "d-centro-cultural-sao-paulo-sao-paulo"
+   "id": "d-centro-cultural-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu Afro Brasil Emanoel Araujo",
@@ -8679,7 +9260,8 @@
    "lat": -23.583894,
    "lng": -46.659193,
    "geo": "lugar",
-   "id": "d-museu-afro-brasil-emanoel-araujo-sao-paulo"
+   "id": "d-museu-afro-brasil-emanoel-araujo-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu de Arte Moderna de São Paulo (MAM)",
@@ -8697,7 +9279,8 @@
    "lat": -23.588016,
    "lng": -46.655484,
    "geo": "lugar",
-   "id": "d-museu-de-arte-moderna-de-sao-paulo-mam-sao-paulo"
+   "id": "d-museu-de-arte-moderna-de-sao-paulo-mam-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu do Ipiranga",
@@ -8714,7 +9297,8 @@
    "lat": -23.585581,
    "lng": -46.609716,
    "geo": "lugar",
-   "id": "d-museu-do-ipiranga-sao-paulo"
+   "id": "d-museu-do-ipiranga-sao-paulo",
+   "top": true
   },
   {
    "n": "Beco do Batman",
@@ -8728,7 +9312,8 @@
    "lat": -23.556492,
    "lng": -46.686666,
    "geo": "lugar",
-   "id": "d-beco-do-batman-sao-paulo"
+   "id": "d-beco-do-batman-sao-paulo",
+   "top": true
   },
   {
    "n": "Sesc Pompeia",
@@ -8745,7 +9330,8 @@
    "lat": -23.525809,
    "lng": -46.683498,
    "geo": "lugar",
-   "id": "d-sesc-pompeia-sao-paulo"
+   "id": "d-sesc-pompeia-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu do Futebol",
@@ -8759,7 +9345,8 @@
    "lat": -23.547423,
    "lng": -46.66547,
    "geo": "lugar",
-   "id": "d-museu-do-futebol-sao-paulo"
+   "id": "d-museu-do-futebol-sao-paulo",
+   "top": true
   },
   {
    "n": "Instituto Tomie Ohtake",
@@ -8773,7 +9360,8 @@
    "lat": -23.56113,
    "lng": -46.69414,
    "geo": "lugar",
-   "id": "d-instituto-tomie-ohtake-sao-paulo"
+   "id": "d-instituto-tomie-ohtake-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu da Imigração do Estado de São Paulo",
@@ -8791,7 +9379,8 @@
    "lat": -23.549595,
    "lng": -46.612754,
    "geo": "lugar",
-   "id": "d-museu-da-imigracao-do-estado-de-sao-paulo-sao-paulo"
+   "id": "d-museu-da-imigracao-do-estado-de-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Casa das Rosas",
@@ -8805,7 +9394,8 @@
    "lat": -23.571099,
    "lng": -46.645175,
    "geo": "lugar",
-   "id": "d-casa-das-rosas-sao-paulo"
+   "id": "d-casa-das-rosas-sao-paulo",
+   "top": false
   },
   {
    "n": "Feira da Liberdade",
@@ -8822,7 +9412,8 @@
    "lat": -23.554974,
    "lng": -46.635495,
    "geo": "lugar",
-   "id": "d-feira-da-liberdade-sao-paulo"
+   "id": "d-feira-da-liberdade-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu Histórico da Imigração Japonesa no Brasil",
@@ -8836,7 +9427,8 @@
    "lat": -23.561196,
    "lng": -46.635078,
    "geo": "lugar",
-   "id": "d-museu-historico-da-imigracao-japonesa-no-brasil-sao-paulo"
+   "id": "d-museu-historico-da-imigracao-japonesa-no-brasil-sao-paulo",
+   "top": false
   },
   {
    "n": "Teatro Oficina",
@@ -8853,7 +9445,8 @@
    "lat": -23.555193,
    "lng": -46.641248,
    "geo": "lugar",
-   "id": "d-teatro-oficina-sao-paulo"
+   "id": "d-teatro-oficina-sao-paulo",
+   "top": false
   },
   {
    "n": "Biblioteca Mário de Andrade",
@@ -8867,7 +9460,8 @@
    "lat": -23.54739,
    "lng": -46.642105,
    "geo": "lugar",
-   "id": "d-biblioteca-mario-de-andrade-sao-paulo"
+   "id": "d-biblioteca-mario-de-andrade-sao-paulo",
+   "top": false
   },
   {
    "n": "Memorial da América Latina",
@@ -8881,7 +9475,8 @@
    "lat": -23.527541,
    "lng": -46.66544,
    "geo": "lugar",
-   "id": "d-memorial-da-america-latina-sao-paulo"
+   "id": "d-memorial-da-america-latina-sao-paulo",
+   "top": false
   },
   {
    "n": "Museu de Arte Sacra de São Paulo",
@@ -8898,7 +9493,8 @@
    "lat": -23.530296,
    "lng": -46.631314,
    "geo": "lugar",
-   "id": "d-museu-de-arte-sacra-de-sao-paulo-sao-paulo"
+   "id": "d-museu-de-arte-sacra-de-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Mercado da Lapa",
@@ -8915,7 +9511,8 @@
    "lat": -23.519349,
    "lng": -46.701653,
    "geo": "lugar",
-   "id": "d-mercado-da-lapa-sao-paulo"
+   "id": "d-mercado-da-lapa-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque Ibirapuera",
@@ -8929,7 +9526,8 @@
    "lat": -23.587713,
    "lng": -46.658521,
    "geo": "lugar",
-   "id": "d-parque-ibirapuera-sao-paulo"
+   "id": "d-parque-ibirapuera-sao-paulo",
+   "top": true
   },
   {
    "n": "Parque Trianon",
@@ -8946,7 +9544,8 @@
    "lat": -23.562798,
    "lng": -46.657835,
    "geo": "lugar",
-   "id": "d-parque-trianon-sao-paulo"
+   "id": "d-parque-trianon-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque Villa-Lobos",
@@ -8960,7 +9559,8 @@
    "lat": -23.546284,
    "lng": -46.723728,
    "geo": "lugar",
-   "id": "d-parque-villa-lobos-sao-paulo"
+   "id": "d-parque-villa-lobos-sao-paulo",
+   "top": false
   },
   {
    "n": "Jardim Botânico de São Paulo",
@@ -8974,7 +9574,8 @@
    "lat": -23.641497,
    "lng": -46.625662,
    "geo": "lugar",
-   "id": "d-jardim-botanico-de-sao-paulo-sao-paulo"
+   "id": "d-jardim-botanico-de-sao-paulo-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque da Água Branca",
@@ -8991,7 +9592,8 @@
    "lat": -23.530418,
    "lng": -46.669476,
    "geo": "lugar",
-   "id": "d-parque-da-agua-branca-sao-paulo"
+   "id": "d-parque-da-agua-branca-sao-paulo",
+   "top": false
   },
   {
    "n": "Praça Pôr do Sol",
@@ -9008,7 +9610,8 @@
    "lat": -23.553329,
    "lng": -46.703494,
    "geo": "lugar",
-   "id": "d-praca-por-do-sol-sao-paulo"
+   "id": "d-praca-por-do-sol-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque da Aclimação",
@@ -9022,7 +9625,8 @@
    "lat": -23.574591,
    "lng": -46.628843,
    "geo": "lugar",
-   "id": "d-parque-da-aclimacao-sao-paulo"
+   "id": "d-parque-da-aclimacao-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque do Povo",
@@ -9039,7 +9643,8 @@
    "lat": -23.587986,
    "lng": -46.688281,
    "geo": "lugar",
-   "id": "d-parque-do-povo-sao-paulo"
+   "id": "d-parque-do-povo-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque Burle Marx",
@@ -9053,7 +9658,8 @@
    "lat": -23.632223,
    "lng": -46.7215,
    "geo": "lugar",
-   "id": "d-parque-burle-marx-sao-paulo"
+   "id": "d-parque-burle-marx-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque da Juventude",
@@ -9067,7 +9673,8 @@
    "lat": -23.50736,
    "lng": -46.621704,
    "geo": "lugar",
-   "id": "d-parque-da-juventude-sao-paulo"
+   "id": "d-parque-da-juventude-sao-paulo",
+   "top": false
   },
   {
    "n": "Jardim da Luz",
@@ -9084,7 +9691,8 @@
    "lat": -23.532905,
    "lng": -46.634982,
    "geo": "lugar",
-   "id": "d-jardim-da-luz-sao-paulo"
+   "id": "d-jardim-da-luz-sao-paulo",
+   "top": false
   },
   {
    "n": "Parque Augusta",
@@ -9101,7 +9709,8 @@
    "lat": -23.549927,
    "lng": -46.649157,
    "geo": "lugar",
-   "id": "d-parque-augusta-sao-paulo"
+   "id": "d-parque-augusta-sao-paulo",
+   "top": false
   },
   {
    "n": "Café Girondino",
@@ -9115,7 +9724,8 @@
    "lat": -23.544522,
    "lng": -46.634112,
    "geo": "lugar",
-   "id": "d-cafe-girondino-sao-paulo"
+   "id": "d-cafe-girondino-sao-paulo",
+   "top": false
   },
   {
    "n": "Coffee Lab",
@@ -9129,7 +9739,8 @@
    "lat": -23.556021,
    "lng": -46.691423,
    "geo": "lugar",
-   "id": "d-coffee-lab-sao-paulo"
+   "id": "d-coffee-lab-sao-paulo",
+   "top": false
   },
   {
    "n": "Santo Grão",
@@ -9143,7 +9754,8 @@
    "lat": -23.624959,
    "lng": -46.701679,
    "geo": "lugar",
-   "id": "d-santo-grao-sao-paulo"
+   "id": "d-santo-grao-sao-paulo",
+   "top": false
   },
   {
    "n": "Café Floresta",
@@ -9157,7 +9769,8 @@
    "lat": -23.685853,
    "lng": -46.54666,
    "geo": "lugar",
-   "id": "d-cafe-floresta-sao-paulo"
+   "id": "d-cafe-floresta-sao-paulo",
+   "top": false
   },
   {
    "n": "Sofá Café",
@@ -9171,7 +9784,8 @@
    "lat": -23.568654,
    "lng": -46.690919,
    "geo": "lugar",
-   "id": "d-sofa-cafe-sao-paulo"
+   "id": "d-sofa-cafe-sao-paulo",
+   "top": false
   },
   {
    "n": "Bar Brahma",
@@ -9188,7 +9802,8 @@
    "lat": -23.542335,
    "lng": -46.640595,
    "geo": "lugar",
-   "id": "d-bar-brahma-sao-paulo"
+   "id": "d-bar-brahma-sao-paulo",
+   "top": true
   },
   {
    "n": "Bar da Dona Onça",
@@ -9202,7 +9817,8 @@
    "lat": -23.546556,
    "lng": -46.644848,
    "geo": "lugar",
-   "id": "d-bar-da-dona-onca-sao-paulo"
+   "id": "d-bar-da-dona-onca-sao-paulo",
+   "top": false
   },
   {
    "n": "Frangó",
@@ -9219,7 +9835,8 @@
    "lat": -23.501238,
    "lng": -46.699172,
    "geo": "lugar",
-   "id": "d-frango-sao-paulo"
+   "id": "d-frango-sao-paulo",
+   "top": false
   },
   {
    "n": "Bar São Cristóvão",
@@ -9236,7 +9853,8 @@
    "lat": -23.535248,
    "lng": -46.632632,
    "geo": "lugar",
-   "id": "d-bar-sao-cristovao-sao-paulo"
+   "id": "d-bar-sao-cristovao-sao-paulo",
+   "top": false
   },
   {
    "n": "Bar Léo",
@@ -9253,7 +9871,8 @@
    "lat": -23.538335,
    "lng": -46.637856,
    "geo": "lugar",
-   "id": "d-bar-leo-sao-paulo"
+   "id": "d-bar-leo-sao-paulo",
+   "top": false
   },
   {
    "n": "Veloso Bar",
@@ -9270,7 +9889,8 @@
    "lat": -23.58512,
    "lng": -46.635178,
    "geo": "lugar",
-   "id": "d-veloso-bar-sao-paulo"
+   "id": "d-veloso-bar-sao-paulo",
+   "top": false
   },
   {
    "n": "Elídio Bar",
@@ -9284,7 +9904,8 @@
    "lat": -23.541987,
    "lng": -46.62937,
    "geo": "lugar",
-   "id": "d-elidio-bar-sao-paulo"
+   "id": "d-elidio-bar-sao-paulo",
+   "top": false
   },
   {
    "n": "Bar Original",
@@ -9298,7 +9919,8 @@
    "lat": -23.600002,
    "lng": -46.672809,
    "geo": "lugar",
-   "id": "d-bar-original-sao-paulo"
+   "id": "d-bar-original-sao-paulo",
+   "top": false
   },
   {
    "n": "Estadão Bar e Lanches",
@@ -9315,7 +9937,8 @@
    "lat": -23.54875,
    "lng": -46.642632,
    "geo": "lugar",
-   "id": "d-estadao-bar-e-lanches-sao-paulo"
+   "id": "d-estadao-bar-e-lanches-sao-paulo",
+   "top": false
   },
   {
    "n": "Ponto Chic",
@@ -9329,7 +9952,8 @@
    "lat": -23.531561,
    "lng": -46.663633,
    "geo": "lugar",
-   "id": "d-ponto-chic-sao-paulo"
+   "id": "d-ponto-chic-sao-paulo",
+   "top": false
   },
   {
    "n": "Padaria Bella Paulista",
@@ -9346,7 +9970,8 @@
    "lat": -23.556921,
    "lng": -46.66183,
    "geo": "lugar",
-   "id": "d-padaria-bella-paulista-sao-paulo"
+   "id": "d-padaria-bella-paulista-sao-paulo",
+   "top": false
   },
   {
    "n": "Galeria dos Pães",
@@ -9360,7 +9985,8 @@
    "lat": -23.566026,
    "lng": -46.669913,
    "geo": "lugar",
-   "id": "d-galeria-dos-paes-sao-paulo"
+   "id": "d-galeria-dos-paes-sao-paulo",
+   "top": false
   },
   {
    "n": "Di Cunto",
@@ -9377,7 +10003,8 @@
    "lat": -23.555484,
    "lng": -46.607279,
    "geo": "lugar",
-   "id": "d-di-cunto-sao-paulo"
+   "id": "d-di-cunto-sao-paulo",
+   "top": false
   },
   {
    "n": "Estrada do Vinho",
@@ -9394,7 +10021,8 @@
    "lat": -23.578302,
    "lng": -47.139438,
    "geo": "lugar",
-   "id": "d-estrada-do-vinho-sao-roque"
+   "id": "d-estrada-do-vinho-sao-roque",
+   "top": true
   },
   {
    "n": "Vinícola Góes",
@@ -9408,7 +10036,8 @@
    "lat": -23.610336,
    "lng": -47.16052,
    "geo": "lugar",
-   "id": "d-vinicola-goes-sao-roque"
+   "id": "d-vinicola-goes-sao-roque",
+   "top": true
   },
   {
    "n": "Ski Mountain Park",
@@ -9422,7 +10051,8 @@
    "lat": -23.505415,
    "lng": -47.117646,
    "geo": "lugar",
-   "id": "d-ski-mountain-park-sao-roque"
+   "id": "d-ski-mountain-park-sao-roque",
+   "top": false
   },
   {
    "n": "Morro do Saboó",
@@ -9436,7 +10066,8 @@
    "lat": -23.474739,
    "lng": -47.162625,
    "geo": "lugar",
-   "id": "d-morro-do-saboo-sao-roque"
+   "id": "d-morro-do-saboo-sao-roque",
+   "top": false
   },
   {
    "n": "Praia de Maresias",
@@ -9450,7 +10081,8 @@
    "lat": -23.793114,
    "lng": -45.557212,
    "geo": "lugar",
-   "id": "d-praia-de-maresias-sao-sebastiao"
+   "id": "d-praia-de-maresias-sao-sebastiao",
+   "top": true
   },
   {
    "n": "Praia de Juquehy",
@@ -9464,7 +10096,8 @@
    "lat": -23.765229,
    "lng": -45.724679,
    "geo": "lugar",
-   "id": "d-praia-de-juquehy-sao-sebastiao"
+   "id": "d-praia-de-juquehy-sao-sebastiao",
+   "top": false
   },
   {
    "n": "Praia da Barra do Sahy",
@@ -9481,7 +10114,8 @@
    "lat": -23.770494,
    "lng": -45.692109,
    "geo": "lugar",
-   "id": "d-praia-da-barra-do-sahy-sao-sebastiao"
+   "id": "d-praia-da-barra-do-sahy-sao-sebastiao",
+   "top": false
   },
   {
    "n": "Praia de Camburi",
@@ -9495,7 +10129,8 @@
    "lat": -23.778035,
    "lng": -45.653175,
    "geo": "lugar",
-   "id": "d-praia-de-camburi-sao-sebastiao"
+   "id": "d-praia-de-camburi-sao-sebastiao",
+   "top": true
   },
   {
    "n": "Mirante do Cristo Redentor",
@@ -9512,7 +10147,8 @@
    "lat": -22.592039,
    "lng": -46.536081,
    "geo": "lugar",
-   "id": "d-mirante-do-cristo-redentor-socorro"
+   "id": "d-mirante-do-cristo-redentor-socorro",
+   "top": true
   },
   {
    "n": "Rio do Peixe",
@@ -9526,7 +10162,8 @@
    "lat": -22.58394,
    "lng": -46.525763,
    "geo": "lugar",
-   "id": "d-rio-do-peixe-socorro"
+   "id": "d-rio-do-peixe-socorro",
+   "top": true
   },
   {
    "n": "Igreja Matriz Nossa Senhora do Perpétuo Socorro",
@@ -9540,7 +10177,8 @@
    "lat": -22.592135,
    "lng": -46.529442,
    "geo": "lugar",
-   "id": "d-igreja-matriz-nossa-senhora-do-perpetuo-socorro-socorro"
+   "id": "d-igreja-matriz-nossa-senhora-do-perpetuo-socorro-socorro",
+   "top": false
   },
   {
    "n": "Parque Zoológico Municipal Quinzinho de Barros",
@@ -9557,7 +10195,8 @@
    "lat": -23.505437,
    "lng": -47.43704,
    "geo": "lugar",
-   "id": "d-parque-zoologico-municipal-quinzinho-de-barros-sorocaba"
+   "id": "d-parque-zoologico-municipal-quinzinho-de-barros-sorocaba",
+   "top": true
   },
   {
    "n": "Jardim Botânico Irmãos Villas-Bôas",
@@ -9574,7 +10213,8 @@
    "lat": -23.46449,
    "lng": -47.437654,
    "geo": "lugar",
-   "id": "d-jardim-botanico-irmaos-villas-boas-sorocaba"
+   "id": "d-jardim-botanico-irmaos-villas-boas-sorocaba",
+   "top": true
   },
   {
    "n": "Catedral Metropolitana de Sorocaba",
@@ -9588,7 +10228,8 @@
    "lat": -23.500333,
    "lng": -47.458563,
    "geo": "lugar",
-   "id": "d-catedral-metropolitana-de-sorocaba-sorocaba"
+   "id": "d-catedral-metropolitana-de-sorocaba-sorocaba",
+   "top": true
   },
   {
    "n": "Mosteiro de São Bento de Sorocaba",
@@ -9602,7 +10243,8 @@
    "lat": -23.502161,
    "lng": -47.459774,
    "geo": "lugar",
-   "id": "d-mosteiro-de-sao-bento-de-sorocaba-sorocaba"
+   "id": "d-mosteiro-de-sao-bento-de-sorocaba-sorocaba",
+   "top": true
   },
   {
    "n": "Parque das Águas",
@@ -9616,7 +10258,8 @@
    "lat": -23.470174,
    "lng": -47.447245,
    "geo": "lugar",
-   "id": "d-parque-das-aguas-sorocaba"
+   "id": "d-parque-das-aguas-sorocaba",
+   "top": false
   },
   {
    "n": "Museu Histórico Sorocabano",
@@ -9630,7 +10273,8 @@
    "lat": -23.506795,
    "lng": -47.437648,
    "geo": "lugar",
-   "id": "d-museu-historico-sorocabano-sorocaba"
+   "id": "d-museu-historico-sorocabano-sorocaba",
+   "top": false
   },
   {
    "n": "Praia do Félix",
@@ -9644,7 +10288,8 @@
    "lat": -23.389311,
    "lng": -44.971569,
    "geo": "lugar",
-   "id": "d-praia-do-felix-ubatuba"
+   "id": "d-praia-do-felix-ubatuba",
+   "top": true
   },
   {
    "n": "Praia Vermelha do Norte",
@@ -9658,7 +10303,8 @@
    "lat": -23.417662,
    "lng": -45.037223,
    "geo": "lugar",
-   "id": "d-praia-vermelha-do-norte-ubatuba"
+   "id": "d-praia-vermelha-do-norte-ubatuba",
+   "top": false
   },
   {
    "n": "Praia de Itamambuca",
@@ -9672,7 +10318,8 @@
    "lat": -23.401147,
    "lng": -45.001301,
    "geo": "lugar",
-   "id": "d-praia-de-itamambuca-ubatuba"
+   "id": "d-praia-de-itamambuca-ubatuba",
+   "top": false
   },
   {
    "n": "Praia do Lázaro",
@@ -9686,7 +10333,8 @@
    "lat": -23.50411,
    "lng": -45.134936,
    "geo": "lugar",
-   "id": "d-praia-do-lazaro-ubatuba"
+   "id": "d-praia-do-lazaro-ubatuba",
+   "top": false
   },
   {
    "n": "Projeto Tamar Ubatuba",
@@ -9703,7 +10351,8 @@
    "lat": -23.452031,
    "lng": -45.070318,
    "geo": "lugar",
-   "id": "d-projeto-tamar-ubatuba-ubatuba"
+   "id": "d-projeto-tamar-ubatuba-ubatuba",
+   "top": true
   },
   {
    "n": "Aquário de Ubatuba",
@@ -9717,7 +10366,8 @@
    "lat": -23.446481,
    "lng": -45.068048,
    "geo": "lugar",
-   "id": "d-aquario-de-ubatuba-ubatuba"
+   "id": "d-aquario-de-ubatuba-ubatuba",
+   "top": false
   },
   {
    "n": "Ilha Anchieta",
@@ -9734,7 +10384,8 @@
    "lat": -23.543561,
    "lng": -45.063313,
    "geo": "lugar",
-   "id": "d-ilha-anchieta-ubatuba"
+   "id": "d-ilha-anchieta-ubatuba",
+   "top": true
   },
   {
    "n": "Vila de Picinguaba",
@@ -9751,7 +10402,8 @@
    "lat": -23.340931,
    "lng": -44.884062,
    "geo": "lugar",
-   "id": "d-vila-de-picinguaba-ubatuba"
+   "id": "d-vila-de-picinguaba-ubatuba",
+   "top": true
   }
  ]
 }
