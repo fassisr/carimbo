@@ -9,6 +9,9 @@ find bruto \( -iname '*.gltf' -o -iname '*.glb' \) | while read -r f; do
   rel="${f#bruto/}"; out="saida/glb/${rel%.*}.glb"; mkdir -p "$(dirname "$out")"
   gltf-transform resize "$f" /tmp/r.glb --width 1024 --height 1024 >/dev/null 2>&1 && gltf-transform copy /tmp/r.glb "$out" >/dev/null 2>&1 || echo "falhou $rel" >> saida/LISTA.txt
 done
+# corpos base: guarda os arquivos brutos e o erro da conversão
+mkdir -p saida/base; cp -r bruto/universal-base-characters/*/"Base Characters/Godot - UE"/. saida/base/ 2>/dev/null || true
+for f in saida/base/*.gltf; do gltf-transform inspect "$f" > "${f%.gltf}.inspect.txt" 2>&1 || true; done
 mkdir -p saida/glb; find saida/glb -name '*.glb' -size +40M -delete
 ( cd saida && find glb -name '*.glb' -exec ls -la {} \; | awk '{print $5, $9}' | sort -k2 ) > saida/GLB.txt
 cp itch/log.txt saida/ 2>/dev/null; ls -laR itch > saida/ITCH.txt 2>&1
