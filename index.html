@@ -244,7 +244,7 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
   animation: up var(--d-mid) var(--ease); }
 @keyframes up { from { transform: translateY(40%); opacity: 0; } to { transform: none; opacity: 1; } }
 .sh-grab { width: 44px; height: 5px; border-radius: 5px; background: var(--line); margin: 0 auto 12px; }
-.sh-close { position: absolute; top: 14px; right: var(--safe-r); width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--surface-2); color: var(--muted); display: grid; place-items: center; }
+.sh-close { position: absolute; top: 12px; right: var(--safe-r); width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--surface-2); color: var(--muted); display: grid; place-items: center; }
 .sh-close .ic { width: 18px; height: 18px; stroke-width: 2.8; }
 .sheet h2 { font: 800 var(--t-xl)/1.1 var(--f-display); letter-spacing: -.01em; margin: 10px 0 4px; text-wrap: balance; padding-right: 44px; }
 .chiprow { display: flex; flex-wrap: wrap; gap: 6px; padding-right: 44px; }
@@ -256,7 +256,7 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .rating { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: var(--t-sm); color: var(--muted); font-variant-numeric: tabular-nums; }
 .desc { font-size: var(--t-md); line-height: 1.5; margin-top: 10px; }
 .addr { font-size: var(--t-sm); color: var(--muted); margin-top: 6px; line-height: 1.4; }
-.gbtn { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 7px 12px 7px 9px; border-radius: 999px; background: var(--surface-2); color: var(--fg); font-weight: 700; font-size: var(--t-sm); text-decoration: none; }
+.gbtn { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 7px 14px 7px 11px; min-height: 42px; border-radius: 999px; background: var(--surface-2); color: var(--fg); font-weight: 700; font-size: var(--t-sm); text-decoration: none; }
 .gbtn .ic { width: 16px; height: 16px; color: var(--ink); }
 .offer { display: flex; align-items: center; gap: 12px; border-radius: var(--r-md); padding: 12px 14px; margin: 14px 0 12px; background: color-mix(in srgb, var(--gold) 15%, var(--surface)); }
 .offer > .ic { width: 40px; height: 40px; padding: 8px; border-radius: 50%; background: var(--gold); color: var(--gold-fg); box-shadow: 0 3px 0 var(--gold-edge); }
@@ -298,6 +298,7 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .sheet.hero .sh-close { top: 14px; z-index: 3; background: rgba(255, 255, 255, .92); color: #14112B; box-shadow: 0 3px 0 rgba(0, 0, 0, .15); }
 .hero-chips { position: absolute; left: var(--safe-l); bottom: 12px; z-index: 2; display: flex; flex-wrap: wrap; gap: 6px; padding-right: 120px; }
 .hero-chips .cat-chip { background: rgba(255, 255, 255, .95); }
+.sh-hero.photo .hero-coin, .sh-hero:not(.photo) .hero-credit { display: none; }
 .hero-credit { position: absolute; left: 14px; top: 12px; text-shadow: 0 1px 3px rgba(0, 0, 0, .6); z-index: 2; font-size: 10px; color: rgba(255, 255, 255, .85); text-decoration: none; }
 .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-size: var(--t-sm); color: var(--muted); margin-top: 2px; }
 .meta .dist { display: inline-flex; align-items: center; gap: 4px; font: 800 var(--t-sm) var(--f-display); color: var(--fg); background: var(--surface-2); padding: 4px 10px 4px 7px; border-radius: 999px; }
@@ -340,6 +341,13 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .sh-sub { color: var(--muted); font-size: var(--t-sm); margin: 0; }
 
 /* ===== telas (passaporte, coleções, cupons) ===== */
+.near-card.skel { pointer-events: none; }
+.near-card.skel .nc-ic { background: var(--surface-2); box-shadow: none; }
+.sk { display: block; height: 12px; border-radius: 6px; margin: 4px 0; background: linear-gradient(90deg, var(--surface-2) 30%, var(--line) 50%, var(--surface-2) 70%) 0 0 / 300% 100%; animation: shimmer 1.2s linear infinite; width: 80%; }
+.sk.short { width: 50%; }
+@keyframes shimmer { to { background-position: -150% 0; } }
+.list.leaving, .sheet.leaving { animation: down var(--d-fast) var(--ease) forwards; pointer-events: none; }
+@keyframes down { to { transform: translateY(24%); opacity: 0; } }
 .list { z-index: 800; background: var(--bg); overflow-y: auto; padding: 20px var(--safe-r) calc(env(safe-area-inset-bottom, 0px) + 32px) var(--safe-l); animation: up var(--d-mid) var(--ease); }
 .vclose { position: absolute; top: 16px; right: var(--safe-r); z-index: 850; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--surface); color: var(--fg); display: grid; place-items: center; box-shadow: 0 4px 0 var(--edge); }
 .vclose .ic { stroke-width: 2.8; }
@@ -350,15 +358,15 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .stack { display: grid; gap: 14px; }
 .card { background: var(--surface); border-radius: var(--r-md); padding: 14px; box-shadow: 0 4px 0 var(--edge); }
 .col-top { display: flex; gap: 12px; align-items: center; }
-.col-ic { width: 48px; height: 48px; border-radius: 14px; background: var(--cc); color: var(--on-pin); display: grid; place-items: center; flex: none; box-shadow: 0 3px 0 color-mix(in srgb, var(--cc) 60%, #000); }
+.col-ic { width: 48px; height: 48px; border-radius: 14px; background: var(--cc); color: #fff; display: grid; place-items: center; flex: none; box-shadow: 0 3px 0 color-mix(in srgb, var(--cc) 60%, #000); }
 .col-ic .ic { width: 26px; height: 26px; }
 .col-ic .ic .du { opacity: .35; }
 .col-top div { min-width: 0; flex: 1; }
 .col-top b { font: 800 var(--t-lg) var(--f-display); display: block; }
 .col-top span { font-size: var(--t-sm); color: var(--muted); }
 .col-count { font: 800 var(--t-lg) var(--f-display); font-variant-numeric: tabular-nums; flex: none !important; color: var(--fg) !important; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-.chip { border: 0; background: var(--surface-2); border-radius: 999px; padding: 6px 11px; font-size: var(--t-sm); font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip { border: 0; background: var(--surface-2); border-radius: 999px; padding: 6px 12px; min-height: 38px; color: var(--fg); font-size: var(--t-sm); font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
 .chip.on { background: var(--cc); color: var(--on-pin); }
 .chip .ic { width: 15px; height: 15px; }
 .col-reward { display: flex; align-items: center; gap: 8px; margin-top: 12px; padding-top: 12px; border-top: 2px solid var(--surface-2); font-size: var(--t-sm); color: var(--muted); }
@@ -525,11 +533,11 @@ details.city[open] summary > .ic { transform: rotate(180deg); }
   background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--ink) 18%, var(--bg)), var(--bg) 70%); }
 .closet-stage::before { content: ""; position: absolute; left: 50%; bottom: 34px; width: 170px; height: 38px; margin-left: -85px; border-radius: 50%; background: color-mix(in srgb, var(--gold) 40%, transparent); box-shadow: 0 0 0 8px color-mix(in srgb, var(--gold) 16%, transparent); }
 .closet-stage canvas { width: 100%; height: 100%; display: block; cursor: grab; }
-.closet-stage .cheer { position: absolute; right: var(--safe-r); bottom: 12px; width: auto; padding: 10px 14px; font-size: var(--t-sm); }
+.closet-stage .cheer { position: absolute; right: var(--safe-r); bottom: 12px; width: auto; padding: 10px 14px; min-height: 44px; font-size: var(--t-sm); }
 .closet-stage .cheer .ic { width: 18px; height: 18px; }
 .slot-tabs { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 8px calc(-1 * var(--safe-r)) 14px calc(-1 * var(--safe-l)); padding: 2px var(--safe-r) 6px var(--safe-l); }
 .slot-tabs::-webkit-scrollbar { display: none; }
-.slot-tabs button { flex: none; border: 0; border-radius: 999px; padding: 9px 14px; font-weight: 800; font-size: var(--t-sm); background: var(--surface); color: var(--muted); box-shadow: 0 3px 0 var(--edge); }
+.slot-tabs button { flex: none; border: 0; border-radius: 999px; padding: 9px 14px; min-height: 42px; font-weight: 800; font-size: var(--t-sm); background: var(--surface); color: var(--muted); box-shadow: 0 3px 0 var(--edge); }
 .slot-tabs button[aria-selected="true"] { background: var(--ink); color: var(--ink-fg); box-shadow: 0 3px 0 var(--ink-edge); }
 .closet { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .cl-item { position: relative; display: grid; justify-items: center; gap: 6px; border: 3px solid transparent; background: var(--surface); border-radius: var(--r-md); padding: 8px 4px 10px; font-size: var(--t-xs); font-weight: 800; color: var(--fg); box-shadow: 0 4px 0 var(--edge); min-width: 0; line-height: 1.2; text-align: center; }
@@ -614,6 +622,7 @@ canvas.confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-
 #reward.dark { background: radial-gradient(circle at 50% 35%, #4A3BFF, #2A1CD0 55%, #140C6E); backdrop-filter: none; }
 .snd { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 18px; background: var(--surface); border-radius: var(--r-md); padding: 12px 14px; box-shadow: 0 4px 0 var(--edge); font-weight: 700; }
 .snd button { width: 52px; height: 30px; border-radius: 999px; border: 0; background: var(--line); position: relative; flex: none; }
+.snd button::before { content: ""; position: absolute; inset: -8px; }
 .snd button::after { content: ""; position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%; background: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, .2); transition: transform var(--d-fast) var(--ease); }
 .snd button[aria-pressed="true"] { background: var(--ok); }
 .snd button[aria-pressed="true"]::after { transform: translateX(22px); }
@@ -799,6 +808,8 @@ const fmtN = n => n.toFixed(1).replace('.', ',');
 const fmtD = ts => { const d = new Date(ts); return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}`; };
 const level = () => Math.min(Math.floor(st.xp / XP_LEVEL), TITLES.length - 1);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// celular simples: menos pixels no mapa e menos confete
+const LOW = (navigator.deviceMemory || 8) <= 3 || (navigator.hardwareConcurrency || 8) <= 4;
 const ITENS = window.FUILA_ITENS, ILU = window.FUILA_ILU || {};
 const TITLES = ['Turista', 'Curioso', 'Explorador', 'Morador', 'Cartógrafo', 'Lenda do bairro'];
 // avaliações reais ficam no Google: o botão abre o lugar no Google Maps (grátis e permitido)
@@ -903,7 +914,7 @@ function mapStyle(dk) {
 }
 let map = null, mapReady = false;
 try {
-  map = window.fuilaMap = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 18, pitch: 60, maxPitch: 70, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true } });
+  map = window.fuilaMap = new maplibregl.Map({ container: 'map', style: mapStyle(dark), center: [FALLBACK.lng, FALLBACK.lat], zoom: 18, pitch: 60, maxPitch: 70, minZoom: 12, maxZoom: 19.5, attributionControl: { compact: true }, ...(LOW ? { pixelRatio: Math.min(devicePixelRatio || 1, 1.5), fadeDuration: 0 } : {}) });
 } catch (e) {
   $('#map').innerHTML = '<div class="nomap">Seu celular não conseguiu desenhar o mapa 3D. Os lugares perto de você continuam na lista abaixo.</div>';
 }
@@ -1268,7 +1279,7 @@ function renderNear() {
     $('#near').innerHTML = `<div class="near-empty"><b>Nada desse tipo por perto.</b> Tente outro filtro ou toque em Tudo.</div>`;
     return;
   }
-  if (!list.length) { $('#near').hidden = false; $('#near').innerHTML = `<div class="near-empty"><b>Procurando lugares…</b> Eles aparecem aqui assim que o mapa carregar.</div>`; return; }
+  if (!list.length) { $('#near').hidden = false; $('#near').innerHTML = `<div class="near-h"><b>Procurando lugares…</b><span>Já já eles aparecem</span></div><div class="near-track">${'<div class="near-card skel"><span class="nc-ic"></span><span class="sk"></span><span class="sk short"></span></div>'.repeat(3)}</div>`; return; }
   $('#near').hidden = false;
   $('#near').innerHTML = `<div class="near-h"><b>Perto de você</b><span>${inR ? `${inR} para carimbar agora` : `Raio de check-in: ${R} m`}</span></div>
     <div class="near-track">${list.map(p => {
@@ -1289,7 +1300,12 @@ $('#fabRadar').onclick = () => { radar = !radar; try { localStorage.setItem('fui
 // ---------- ficha do lugar ----------
 let openId = null;
 function openSheet(id) { closeMenu(); closeFilters(); openId = id; follow = false; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
-function closeSheet() { openId = null; $('#sheet').hidden = true; $('#sheet').className = 'sheet'; renderNear(); follow = true; followCam(); }
+function closeSheet() {
+  openId = null; const sh = $('#sheet');
+  if (reduced || sh.hidden) { sh.hidden = true; sh.className = 'sheet'; }
+  else { sh.classList.add('leaving'); setTimeout(() => { if (!openId) { sh.hidden = true; sh.className = 'sheet'; } }, 170); }
+  renderNear(); follow = true; followCam();
+}
 const visitsIn = cat => Object.values(st.visits).filter(v => v.p.cat === cat).length;
 function renderSheet() {
   const p = getPlace(openId); if (!p) return closeSheet();
@@ -1309,7 +1325,7 @@ function renderSheet() {
     <div class="sh-hero${foto ? ' photo' : ''}" style="--cc:${cc}">
       ${foto ? `<img src="${esc(foto.url)}" alt="" onerror="this.parentNode.classList.remove('photo');this.remove()">` : ''}
       <div class="sh-grab"></div>
-      ${foto ? '' : `<div class="hero-coin">${coin}</div>`}
+      <div class="hero-coin">${coin}</div>
       <div class="hero-chips"><span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>${p.dest ? `<span class="dest-chip">${ic('star')} ${p.parceiro ? 'Parceiro Fuilá' : 'Destaque Fuilá'}</span>` : ''}</div>
       ${foto ? `<a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(foto.arquivo)}"${native ? '' : ' target="_blank" rel="noopener"'}>Foto: Wikimedia Commons</a>` : ''}
     </div>
@@ -1424,6 +1440,7 @@ function som(kind) {
 // confete em canvas por cima de tudo
 function confetti(n = 140) {
   if (reduced) return;
+  if (LOW) n = Math.round(n / 2);
   const cv = document.createElement('canvas'); cv.className = 'confetti'; document.body.appendChild(cv);
   const dpr = Math.min(2, devicePixelRatio || 1), W = cv.width = innerWidth * dpr, H = cv.height = innerHeight * dpr, x = cv.getContext('2d');
   const COLS = ['#FFC21A', '#3B2BF5', '#EC5E96', '#2E9E5B', '#4C8BEA', '#FFFFFF'];
@@ -1507,7 +1524,14 @@ $('#menu').addEventListener('click', e => { const b = e.target.closest('[data-ta
 // as telas sobem por cima do mapa, que continua vivo embaixo
 function show(t) {
   tab = t; closeMenu();
-  for (const k of Object.keys(TABS)) $('#v-' + k).hidden = k !== t;
+  for (const k of Object.keys(TABS)) {
+    const v = $('#v-' + k), keep = k === t;
+    v.classList.remove('leaving');
+    if (keep || v.hidden) { v.hidden = !keep; continue; }
+    // a tela que fecha desce antes de sumir
+    if (reduced) { v.hidden = true; continue; }
+    v.classList.add('leaving'); setTimeout(() => { if (tab !== k) { v.hidden = true; } v.classList.remove('leaving'); }, 170);
+  }
   $('#vclose').hidden = t === 'mapa';
   window.fuilaPaused = t !== 'mapa'; if (t === 'mapa') window.avatar3d?.resume();
   if (t === 'colecoes') renderCols();
@@ -1537,7 +1561,7 @@ function renderCols() {
     <div class="stack">${CAT_IDS.map(c => {
       const C = CATS[c], done = Object.entries(st.visits).filter(([, v]) => v.p.cat === c);
       const got = Math.min(done.length, C.meta);
-      const sug = [...places.values()].filter(p => p.cat === c && !st.visits[p.id]).sort((a, b) => dist(a) - dist(b)).slice(0, Math.max(0, C.meta - done.length + 1));
+      const sug = [...places.values()].filter(p => p.cat === c && !st.visits[p.id] && dist(p) < 25000).sort((a, b) => dist(a) - dist(b)).slice(0, Math.max(0, C.meta - done.length + 1));
       return `<div class="card" style="--cc:var(--c-${c})">
         <div class="col-top"><span class="col-ic">${ic(c)}</span><div><b>${C.col}</b><span>${C.nome} · meta de ${C.meta}</span></div><span class="col-count">${got}/${C.meta}</span></div>
         <div class="bar" style="margin-top:12px"><i style="width:${got / C.meta * 100}%"></i></div>
@@ -1847,6 +1871,11 @@ function showIntro() {
   boot(); window.addEventListener('boneco-ready', boot, { once: true });
 }
 
+// app em segundo plano: para de desenhar o boneco no mapa
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { window.fuilaPaused = true; return; }
+  if (tab === 'mapa' && $('#intro').hidden) { window.fuilaPaused = false; window.avatar3d?.resume(); }
+});
 // ---------- início ----------
 renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
