@@ -9,9 +9,6 @@ async function req(url, opt = {}) {
   for (const c of r.headers.getSetCookie?.() || []) { const [kv] = c.split(';'); const i = kv.indexOf('='); cookies[kv.slice(0, i)] = kv.slice(i + 1); }
   return r;
 }
-for (const f of ['lib', 'bundle', 'react', 'extern']) { const b = await (await fetch(`https://static.itch.io/${f}.min.js`, { headers: { 'User-Agent': UA } })).text();
-  console.log('js', f, b.length);
-  for (const w of ['download_btn', '"/file/"', '/file/', 'upload_id']) { let i = -1, n = 0; while ((i = b.indexOf(w, i + 1)) >= 0 && n++ < 3) console.log('bundle', f, w, b.slice(Math.max(0, i - 500), i + 600).replace(/\s+/g, ' ')); } }
 for (const slug of process.argv.slice(2)) try {
   const base = `https://quaternius.itch.io/${slug}`;
   const page = await (await req(base)).text();
@@ -37,7 +34,7 @@ for (const slug of process.argv.slice(2)) try {
   mkdirSync(`itch/${slug}`, { recursive: true });
   for (const u of ups) {
     const kk = (dl.match(/"key":"([^"]+)"/)?.[1]) || decodeURIComponent(key);
-    const j = await (await req(`${base}/file/${u.id}?source=game_download&key=${encodeURIComponent(kk)}`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'XMLHttpRequest' }, body: new URLSearchParams({ csrf_token: csrf }) })).json();
+    const j = await (await req(`${base}/file/${u.id}?source=game_download`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'XMLHttpRequest' }, body: new URLSearchParams({ csrf_token: csrf }) })).json();
     if (!j.url) { console.log('sem url', u.name, JSON.stringify(j)); continue; }
     const r = await fetch(j.url, { headers: { 'User-Agent': UA } });
     const buf = Buffer.from(await r.arrayBuffer());
