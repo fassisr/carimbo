@@ -1,0 +1,32 @@
+name: Fotos dos destaques (Wikimedia)
+
+on:
+  push:
+    branches: [main]
+    paths: ['destaques.json', 'scripts/fotos.mjs']
+  schedule:
+    - cron: '0 7 15 * *'   # todo dia 15
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: fotos
+
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Buscar fotos
+        run: node scripts/fotos.mjs
+      - name: Salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fotos.json
+          git diff --cached --quiet || (git commit -m "Fotos dos destaques" && git pull --rebase -X theirs origin main && git push)
