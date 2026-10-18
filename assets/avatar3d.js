@@ -1,15 +1,8 @@
 // Personagem 3D do jogador, desenhado dentro do mapa (camada customizada do MapLibre com three.js).
-// Personagens: KayKit Adventurers (CC0), de Kay Lousberg.
+// Boneco único com itens trocáveis (assets/boneco.js), sobre o esqueleto KayKit Adventurers (CC0).
 import * as THREE from 'three';
-import { GLTFLoader } from './vendor/three/loaders/GLTFLoader.js';
+import { createBoneco, savedOutfit } from './boneco.js';
 
-export const CHARS = [
-  { id: 'rogue', nome: 'Explorador' },
-  { id: 'rogue_hooded', nome: 'Encapuzado' },
-  { id: 'mage', nome: 'Mago' },
-  { id: 'knight', nome: 'Cavaleiro' },
-  { id: 'barbarian', nome: 'Bárbaro' },
-];
 const CLIPS = { idle: 'Idle', walk: 'Walking_A', run: 'Running_A', cheer: 'Cheer' };
 const SIZE = 24;         // altura do personagem em metros no zoom 18 (exagerado, como nos jogos)
 
@@ -38,8 +31,7 @@ scene.add(ring);
 const holder = new THREE.Group();
 scene.add(holder);
 
-const loader = new GLTFLoader();
-let mixer = null, actions = {}, current = null, charId = null;
+let mixer = null, actions = {}, current = null, boneco = null;
 
 function play(name, fade = 0.25) {
   const a = actions[name];
@@ -50,23 +42,15 @@ function play(name, fade = 0.25) {
 }
 function applyMotion() { if (!st.cheering) play(CLIPS[st.motion] || 'Idle'); }
 
-function loadChar(id) {
-  if (id === charId) return Promise.resolve();
-  charId = id;
-  return new Promise((res, rej) => loader.load(`assets/chars/${id}.glb`, gltf => {
-    if (id !== charId) return res();
-    holder.clear();
-    const model = gltf.scene;
-    model.scale.setScalar(1 / 2.3); // todos os personagens KayKit usam o mesmo esqueleto e escala
-    holder.add(model);
-    mixer = new THREE.AnimationMixer(model);
-    actions = {}; current = null;
-    for (const clip of gltf.animations) actions[clip.name] = mixer.clipAction(clip);
-    mixer.addEventListener('finished', () => { st.cheering = false; applyMotion(); });
-    applyMotion();
-    map.triggerRepaint();
-    res();
-  }, undefined, rej));
+async function loadBoneco() {
+  boneco = await createBoneco();
+  boneco.wear(savedOutfit());
+  holder.add(boneco.model);
+  mixer = new THREE.AnimationMixer(boneco.model);
+  for (const clip of boneco.animations) actions[clip.name] = mixer.clipAction(clip);
+  mixer.addEventListener('finished', () => { st.cheering = false; applyMotion(); });
+  applyMotion();
+  map.triggerRepaint();
 }
 
 let renderer = null, last = performance.now();
@@ -98,13 +82,12 @@ map.addLayer({
     camera.projectionMatrix = new THREE.Matrix4().fromArray(matrix).multiply(l);
     renderer.resetState();
     renderer.render(scene, camera);
-    map.triggerRepaint();
+    // com uma tela aberta por cima, o mapa não precisa ficar se redesenhando
+    if (!window.fuilaPaused) map.triggerRepaint();
   },
 });
 
 window.avatar3d = {
-  CHARS,
-  get char() { return charId; },
   setPos(lat, lng) { st.lat = lat; st.lng = lng; map.triggerRepaint(); },
   // rumo em graus, 0 = norte, sentido horário
   setHeading(deg) { st.targetYaw = Math.PI - deg * Math.PI / 180; },
@@ -114,10 +97,9 @@ window.avatar3d = {
     st.cheering = true; a.setLoop(THREE.LoopOnce, 1); a.clampWhenFinished = false;
     play(CLIPS.cheer, 0.15);
   },
-  setChar(id) { return loadChar(id); },
+  wear(o) { boneco?.wear(o); map.triggerRepaint(); },
+  resume() { map.triggerRepaint(); },
 };
 
-let saved = 'rogue';
-try { saved = localStorage.getItem('fuila-char') || 'rogue'; } catch (e) {}
-await loadChar(CHARS.some(c => c.id === saved) ? saved : 'rogue');
+await loadBoneco();
 window.dispatchEvent(new Event('avatar3d-ready'));

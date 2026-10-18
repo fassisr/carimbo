@@ -156,7 +156,7 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .portrait { position: relative; width: 60px; height: 60px; flex: none; border-radius: 50%; padding: 4px; z-index: 1;
   background: conic-gradient(var(--gold) calc(var(--p, 0) * 1%), color-mix(in srgb, var(--surface) 70%, var(--line)) 0); box-shadow: 0 4px 0 var(--ink-edge), var(--float); }
 .portrait i { display: block; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 50% 30%, #8C80FF, var(--brand)); border: 3px solid var(--surface); }
-.portrait img { width: 180%; margin: -6% 0 0 -40%; display: block; }
+.portrait img { width: 100%; height: 100%; display: block; }
 .lvl { position: absolute; right: -4px; bottom: -4px; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 13px; display: grid; place-items: center;
   background: var(--gold); color: var(--gold-fg); border: 3px solid var(--surface); font: 800 13px var(--f-display); }
 .hud-pill { margin-left: -14px; padding: 6px 14px 7px 22px; background: var(--surface); border-radius: 0 var(--r-md) var(--r-md) 0; box-shadow: 0 4px 0 var(--edge), var(--float); min-width: 0; max-width: 58vw; }
@@ -192,10 +192,10 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 /* menu do botão central */
 .menu { position: absolute; inset: 0; z-index: 640; background: linear-gradient(to top, var(--scrim), color-mix(in srgb, var(--scrim) 40%, transparent) 55%, transparent);
   animation: fade var(--d-mid) var(--ease); }
-.menu-row { position: absolute; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom, 0px) + 112px); display: flex; justify-content: center; align-items: flex-end; gap: 18px; }
+.menu-row { position: absolute; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom, 0px) + 112px); display: flex; justify-content: center; align-items: flex-end; gap: 12px; }
 .mtile { display: grid; justify-items: center; gap: 8px; border: 0; background: none; padding: 0; color: #fff; font: 800 var(--t-sm) var(--f-display); animation: rise var(--d-mid) var(--bounce) both; }
-.mtile:nth-child(2) { margin-bottom: 26px; animation-delay: 40ms; } .mtile:nth-child(3) { animation-delay: 80ms; }
-.mtile i { position: relative; width: 70px; height: 70px; border-radius: 50%; display: grid; place-items: center; border: 4px solid #fff; color: #fff;
+.mtile:nth-child(2), .mtile:nth-child(3) { margin-bottom: 26px; } .mtile:nth-child(2) { animation-delay: 40ms; } .mtile:nth-child(3) { animation-delay: 80ms; } .mtile:nth-child(4) { animation-delay: 120ms; }
+.mtile i { position: relative; width: 66px; height: 66px; border-radius: 50%; display: grid; place-items: center; border: 4px solid #fff; color: #fff;
   background: radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--cc) 55%, #fff), var(--cc) 65%); box-shadow: 0 5px 0 color-mix(in srgb, var(--cc) 55%, #000), var(--float); }
 .mtile i .ic { width: 32px; height: 32px; }
 .mtile i .ic .du { opacity: .4; }
@@ -365,9 +365,32 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .badge.locked .medal { background: var(--surface-2); color: var(--muted); box-shadow: 0 0 0 3px var(--line); }
 .badge.locked b { color: var(--muted); }
 .chars { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
-.charbtn { background: var(--surface); border: 3px solid transparent; border-radius: var(--r-md); padding: 4px 2px 8px; display: grid; justify-items: center; gap: 2px; font-size: 11px; font-weight: 800; color: var(--muted); min-width: 0; box-shadow: 0 4px 0 var(--edge); }
-.charbtn img { width: 100%; height: auto; display: block; }
-.charbtn.on { border-color: var(--gold); color: var(--fg); box-shadow: 0 4px 0 var(--gold-edge); }
+.me-card { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; border: 0; background: var(--surface); border-radius: var(--r-md); padding: 10px 14px 10px 10px; box-shadow: 0 4px 0 var(--edge); }
+.me-card:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--edge); }
+.me-card img { width: 72px; height: 72px; border-radius: 50%; background: radial-gradient(circle at 50% 30%, #8C80FF, var(--brand)); flex: none; }
+.me-card b { display: block; font: 800 var(--t-lg) var(--f-display); }
+.me-card span { font-size: var(--t-sm); color: var(--muted); }
+.me-card .ic { margin-left: auto; color: var(--muted); }
+/* tela de Visual */
+.closet-stage { position: relative; height: 300px; margin: 0 calc(-1 * var(--safe-r)) 4px calc(-1 * var(--safe-l));
+  background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--ink) 18%, var(--bg)), var(--bg) 70%); }
+.closet-stage::before { content: ""; position: absolute; left: 50%; bottom: 34px; width: 170px; height: 38px; margin-left: -85px; border-radius: 50%; background: color-mix(in srgb, var(--gold) 40%, transparent); box-shadow: 0 0 0 8px color-mix(in srgb, var(--gold) 16%, transparent); }
+.closet-stage canvas { width: 100%; height: 100%; display: block; cursor: grab; }
+.closet-stage .cheer { position: absolute; right: var(--safe-r); bottom: 12px; width: auto; padding: 10px 14px; font-size: var(--t-sm); }
+.closet-stage .cheer .ic { width: 18px; height: 18px; }
+.slot-tabs { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 8px calc(-1 * var(--safe-r)) 14px calc(-1 * var(--safe-l)); padding: 2px var(--safe-r) 6px var(--safe-l); }
+.slot-tabs::-webkit-scrollbar { display: none; }
+.slot-tabs button { flex: none; border: 0; border-radius: 999px; padding: 9px 14px; font-weight: 800; font-size: var(--t-sm); background: var(--surface); color: var(--muted); box-shadow: 0 3px 0 var(--edge); }
+.slot-tabs button[aria-selected="true"] { background: var(--ink); color: var(--ink-fg); box-shadow: 0 3px 0 var(--ink-edge); }
+.closet { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.cl-item { position: relative; display: grid; justify-items: center; gap: 6px; border: 3px solid transparent; background: var(--surface); border-radius: var(--r-md); padding: 8px 4px 10px; font-size: var(--t-xs); font-weight: 800; color: var(--fg); box-shadow: 0 4px 0 var(--edge); min-width: 0; line-height: 1.2; text-align: center; }
+.cl-item:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--edge); }
+.cl-item[aria-pressed="true"] { border-color: var(--gold); box-shadow: 0 4px 0 var(--gold-edge); }
+.cl-item .th { width: 100%; aspect-ratio: 1; border-radius: 12px; background: color-mix(in srgb, var(--ink) 10%, var(--surface-2)) center / cover no-repeat; display: block; }
+.cl-sw { width: 64px; height: 64px; margin: 6px 0 2px; border-radius: 50%; border: 4px solid var(--surface); box-shadow: 0 0 0 2px var(--line), 0 4px 0 2px var(--edge); }
+.cl-item .raro { position: absolute; top: 6px; left: 6px; background: var(--c-bar); color: #fff; border-radius: 999px; padding: 2px 7px; font-size: 10px; }
+.cl-item .on-mark { position: absolute; top: 4px; right: 4px; width: 24px; height: 24px; border-radius: 50%; background: var(--gold); color: var(--gold-fg); display: grid; place-items: center; }
+.cl-item .on-mark .ic { width: 14px; height: 14px; stroke-width: 3.2; }
 .biz { margin-top: 26px; background: var(--surface-2); border-radius: var(--r-md); padding: 14px; font-size: var(--t-sm); color: var(--muted); line-height: 1.5; }
 .biz b { color: var(--fg); }
 .reset { margin-top: 18px; width: 100%; background: none; border: 2px solid var(--line); border-radius: var(--r-md); padding: 12px; color: var(--muted); font-weight: 700; }
@@ -453,7 +476,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
       <div class="sky" aria-hidden="true"></div>
       <div class="hud">
         <button class="hud-me" id="hudMe" type="button" aria-label="Abrir passaporte">
-          <span class="portrait"><i><img id="hudImg" src="assets/chars/rogue.png" alt=""></i><span class="lvl" id="hudLv">1</span></span>
+          <span class="portrait"><i><img id="hudImg" src="" alt="" hidden></i><span class="lvl" id="hudLv">1</span></span>
           <span class="hud-pill"><b><span id="hudTitle">Turista</span><small id="hudXp">0 XP</small></b><span id="where">Procurando você…</span></span>
         </button>
         <div class="hud-side">
@@ -478,6 +501,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
     <section class="view list" id="v-colecoes" hidden></section>
     <section class="view list" id="v-cupons" hidden></section>
     <section class="view list" id="v-passaporte" hidden></section>
+    <section class="view list" id="v-visual" hidden></section>
     <button class="vclose" id="vclose" type="button" aria-label="Voltar ao mapa" hidden></button>
   </main>
 
@@ -487,11 +511,13 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 </div>
 
 <script src="assets/vendor/maplibre-gl.js"></script>
+<script src="assets/itens.js"></script>
 <script src="assets/config.js"></script>
 <script src="assets/vendor/supabase/supabase.js"></script>
 <script src="assets/cloud.js"></script>
 <script src="assets/scan.js"></script>
 <script type="importmap">{ "imports": { "three": "./assets/vendor/three/three.module.min.js" } }</script>
+<script type="module" src="assets/boneco.js"></script>
 <script type="module" src="assets/avatar3d.js"></script>
 <script>
 (() => {
@@ -528,6 +554,8 @@ const ICONS = {
 };
 ICONS.check = '<path d="M5 12.5l4.5 4.5L19 7.5"/>';
 ICONS.star = '<path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6L12 16.8l-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/>';
+ICONS.hanger = '<path d="M12 7.5a2 2 0 1 1 2-2"/><path d="M12 7.5v1.2L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7L12 8.7"/>';
+ICONS.party = '<path d="M4 20l4.5-12 7.5 7.5z"/><path d="M14 4.5l.5 2M19.5 9.5l-2 .5M17 3.5l-1 3M20.5 5.5l-3 1.5"/>';
 ICONS.filter = '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>';
 ICONS.radar = '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12l6.2-6.2"/>';
 ICONS.ext = '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>';
@@ -540,7 +568,7 @@ const DUO = {
   ticket: '<path d="M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z"/>', passport: '<rect x="5" y="3" width="14" height="18" rx="2"/>', qr: '<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/>',
   stamp: '<path d="M9.5 3h5v5.5l3.5 3V14H6v-2.5l3.5-3z"/>', flag: '<path d="M5 4h11l-2 4 2 4H5z"/>', crown: '<path d="M4 8l4.5 4L12 5l3.5 7L20 8l-2 8H6z"/>', compass: '<circle cx="12" cy="12" r="9"/>',
   lock: '<rect x="5" y="11" width="14" height="10" rx="2"/>', locate: '<circle cx="12" cy="12" r="7"/>', star: ICONS.star, walk: '<circle cx="13" cy="4.5" r="1.8"/>',
-  filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
+  filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', hanger: '<path d="M12 8.7L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7z"/>', party: '<path d="M4 20l4.5-12 7.5 7.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
 };
 const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${DUO[n] ? `<g class="du">${DUO[n]}</g>` : ''}${ICONS[n]}</svg>`;
 
@@ -585,8 +613,7 @@ const fmtN = n => n.toFixed(1).replace('.', ',');
 const fmtD = ts => { const d = new Date(ts); return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}`; };
 const level = () => Math.min(Math.floor(st.xp / XP_LEVEL), TITLES.length - 1);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const CHARS = [{ id: 'rogue', nome: 'Explorador' }, { id: 'rogue_hooded', nome: 'Encapuzado' }, { id: 'mage', nome: 'Mago' }, { id: 'knight', nome: 'Cavaleiro' }, { id: 'barbarian', nome: 'Bárbaro' }];
-const curChar = () => { try { return localStorage.getItem('fuila-char') || 'rogue'; } catch (e) { return 'rogue'; } };
+const ITENS = window.FUILA_ITENS;
 const TITLES = ['Turista', 'Curioso', 'Explorador', 'Morador', 'Cartógrafo', 'Lenda do bairro'];
 // avaliações reais ficam no Google: o botão abre o lugar no Google Maps (grátis e permitido)
 function gmapsURL(p) {
@@ -1185,14 +1212,13 @@ function showReward(p, ts, gain, coupon, earned, up) {
 
 // ---------- HUD, botão central e telas ----------
 let tab = 'mapa';
-const TABS = { passaporte: ['passport', 'Passaporte', 'var(--brand)'], colecoes: ['grid', 'Coleções', 'var(--c-verde)'], cupons: ['ticket', 'Cupons', 'var(--c-doce)'] };
+const TABS = { passaporte: ['passport', 'Passaporte', 'var(--brand)'], colecoes: ['grid', 'Coleções', 'var(--c-verde)'], visual: ['hanger', 'Visual', 'var(--c-cafe)'], cupons: ['ticket', 'Cupons', 'var(--c-doce)'] };
 function renderChrome() {
   const lv = level(), max = lv === TITLES.length - 1;
   $('#hudLv').textContent = lv + 1;
   $('#hudTitle').textContent = TITLES[lv];
   $('#hudXp').textContent = `${st.xp} XP`;
   $('.portrait').style.setProperty('--p', max ? 100 : Math.round((st.xp - lv * XP_LEVEL) / XP_LEVEL * 100));
-  $('#hudImg').src = `assets/chars/${curChar()}.png`;
   const active = st.coupons.filter(c => !c.used).length;
   $('#orbCount').hidden = !active; $('#orbCount').textContent = active;
   if (!$('#menu').hidden) renderMenu();
@@ -1211,9 +1237,11 @@ function show(t) {
   tab = t; closeMenu();
   for (const k of Object.keys(TABS)) $('#v-' + k).hidden = k !== t;
   $('#vclose').hidden = t === 'mapa';
+  window.fuilaPaused = t !== 'mapa'; if (t === 'mapa') window.avatar3d?.resume();
   if (t === 'colecoes') renderCols();
   if (t === 'cupons') renderCoupons();
   if (t === 'passaporte') renderPassport();
+  if (t === 'visual') renderVisual(); else closetStage?.stop();
   if (t !== 'mapa') $('#v-' + t).scrollTop = 0;
 }
 $('#vclose').innerHTML = ic('close');
@@ -1281,8 +1309,8 @@ function renderPassport() {
     <h3>Carimbos</h3>
     ${visited.length ? `<div class="page">${visited.map(([id, v]) => stampSVG({ id, ...v.p }, v.ts)).join('')}${Array.from({ length: slots }, () => '<div class="slot">?</div>').join('')}</div>`
       : `<div class="empty">${ic('stamp')}<b>Seu passaporte está em branco</b>Chegue a ${R} m de um café, bar, padaria ou parque e faça o check-in para ganhar o primeiro carimbo.</div>`}
-    <h3>Seu personagem</h3>
-    <div class="chars">${CHARS.map(c => `<button type="button" class="charbtn${curChar() === c.id ? ' on' : ''}" data-char="${c.id}" aria-pressed="${curChar() === c.id}"><img src="assets/chars/${c.id}.png" alt="" width="128" height="128"><span>${c.nome}</span></button>`).join('')}</div>
+    <h3>Seu boneco</h3>
+    <button type="button" class="me-card" data-goto-visual><img src="${portrait || 'assets/brand/icon-192.png'}" alt=""><div><b>Trocar visual</b><span>Boné, camisa, calça, tênis e mais</span></div>${ic('hanger')}</button>
     <h3>Insígnias</h3>
     <div class="badges">${BADGES.map(b => { const g = st.badges[b.id]; return `<div class="badge${g ? '' : ' locked'}"><div class="medal" style="--cc:${b.cc}">${ic(g ? b.icon : 'lock')}</div><b>${esc(b.nome)}</b><span>${g ? `Conquistada ${fmtD(g)}` : esc(b.desc)}</span></div>`; }).join('')}</div>
     ${acctHTML()}
@@ -1290,17 +1318,74 @@ function renderPassport() {
     <button class="reset" type="button" id="reset">Recomeçar do zero</button>`;
 }
 $('#v-passaporte').addEventListener('click', e => {
-  const cb = e.target.closest('[data-char]');
-  if (cb) {
-    try { localStorage.setItem('fuila-char', cb.dataset.char); } catch (err) {}
-    window.avatar3d?.setChar(cb.dataset.char);
-    renderPassport(); renderChrome(); toast(`${CHARS.find(c => c.id === cb.dataset.char).nome} escolhido`);
-    return;
-  }
+  if (e.target.closest('[data-goto-visual]')) return show('visual');
   const b = e.target.closest('#reset'); if (!b) return;
   if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Toque de novo para apagar todo o progresso'; return; }
   st = fresh(); save(); refresh(); renderChrome(); renderPassport(); toast('Progresso apagado');
   if (cloud.on && cloud.anon) cloud.signOut().catch(() => {});
+});
+
+// ---------- visual do boneco ----------
+// um boneco só; os itens vêm de assets/itens.js (por enquanto todos liberados)
+const hasOutfit = () => { try { return !!localStorage.getItem('fuila-visual'); } catch (e) { return false; } };
+let outfit = (() => { let o = {}; try { o = JSON.parse(localStorage.getItem('fuila-visual')) || {}; } catch (e) {} const out = { ...ITENS.padrao }; for (const k of Object.keys(out)) if (ITENS.itens[k].some(i => i.id === o[k])) out[k] = o[k]; return out; })();
+let closetSlot = 'chapeu', closetStage = null, thumbStage = null, portrait = '';
+const thumbs = new Map();
+function setOutfit(o, fromCloud) {
+  outfit = { ...outfit, ...o };
+  try { localStorage.setItem('fuila-visual', JSON.stringify(outfit)); } catch (e) {}
+  window.avatar3d?.wear(outfit); closetStage?.wear(outfit);
+  updatePortrait();
+  if (!fromCloud) cloudPush();
+}
+function thumbStageGet() {
+  if (!thumbStage && window.fuilaBoneco) { const cv = document.createElement('canvas'); cv.width = cv.height = 192; thumbStage = window.fuilaBoneco.stage(cv, { rotate: false }); }
+  return thumbStage;
+}
+// fila de fotos: uma de cada vez no mesmo palco
+let snapQ = Promise.resolve();
+const snap = (o, opts) => (snapQ = snapQ.then(() => thumbStageGet()?.snap(o, opts)).catch(() => ''));
+async function updatePortrait() {
+  if (!window.fuilaBoneco) return;
+  const url = await snap(outfit, { framing: 'face', yaw: 0.25 });
+  if (!url) return;
+  portrait = url; $('#hudImg').src = url; $('#hudImg').hidden = false;
+  const mc = document.querySelector('.me-card img'); if (mc) mc.src = url;
+}
+window.addEventListener('boneco-ready', updatePortrait);
+if (window.fuilaBoneco) updatePortrait();
+const SNAP_OF = { chapeu: { framing: 'face', yaw: 0.45 }, cabelo: { framing: 'face', yaw: 0.6 }, costas: { framing: 'back', yaw: Math.PI + 0.6 } };
+function renderVisual() {
+  const v = $('#v-visual');
+  if (!v.querySelector('.closet-stage')) {
+    v.innerHTML = `<h1>Visual</h1>
+      <div class="closet-stage"><canvas aria-label="Seu boneco. Arraste para girar."></canvas><button type="button" class="cta soft cheer" data-cheer>${ic('party')} Comemorar</button></div>
+      <div class="slot-tabs" role="tablist"></div>
+      <div class="closet"></div>
+      <p class="lede" style="margin-top:18px">Por enquanto todos os itens estão liberados. Em breve você ganha itens novos explorando.</p>`;
+  }
+  if (window.fuilaBoneco && !closetStage) closetStage = window.fuilaBoneco.stage(v.querySelector('canvas'));
+  if (closetStage) { closetStage.wear(outfit); closetStage.start(); }
+  v.querySelector('.slot-tabs').innerHTML = ITENS.slots.map(sl => `<button type="button" role="tab" data-slot="${sl.id}" aria-selected="${sl.id === closetSlot}">${sl.nome}</button>`).join('');
+  const list = ITENS.itens[closetSlot], so = SNAP_OF[closetSlot];
+  v.querySelector('.closet').innerHTML = list.map(it => {
+    const on = outfit[closetSlot] === it.id;
+    const pic = so ? `<span class="th" data-thumb="${it.id}"></span>` : it.cores ? `<span class="cl-sw" style="background:${it.cores[1] ? `linear-gradient(135deg, ${it.cores[0]} 0 60%, ${it.cores[1]} 60%)` : it.cores[0]}"></span>` : '';
+    return `<button type="button" class="cl-item" data-item="${it.id}" aria-pressed="${on}">${pic}${it.nome}${it.raro ? '<span class="raro">Raro</span>' : ''}${on ? `<span class="on-mark">${ic('check')}</span>` : ''}</button>`;
+  }).join('');
+  if (so) for (const it of list) {
+    const o = { ...outfit, [closetSlot]: it.id }, k = JSON.stringify(o) + closetSlot;
+    const put = url => { const el = v.querySelector(`[data-thumb="${it.id}"]`); if (el && url) el.style.backgroundImage = `url(${url})`; };
+    if (thumbs.has(k)) put(thumbs.get(k)); else snap(o, so).then(url => { if (url) thumbs.set(k, url); put(url); });
+  }
+}
+window.addEventListener('boneco-ready', () => { if (tab === 'visual') renderVisual(); });
+$('#v-visual').addEventListener('click', e => {
+  const t = e.target.closest('[data-slot]'); if (t) { closetSlot = t.dataset.slot; renderVisual(); t.scrollIntoView?.({ inline: 'nearest', block: 'nearest' }); return; }
+  if (e.target.closest('[data-cheer]')) { closetStage?.cheer(); buzz('MEDIUM'); return; }
+  const b = e.target.closest('[data-item]'); if (!b) return;
+  setOutfit({ [closetSlot]: b.dataset.item });
+  renderVisual();
 });
 
 // ---------- conta e nuvem ----------
@@ -1336,6 +1421,7 @@ async function cloudSync() {
     }
     // cupons de exemplo das versões antigas não valem mais
     st.coupons = st.coupons.filter(c => r.coupons.some(x => x.partner_id === c.id) || c.code?.startsWith('FUI-'));
+    if (r.player?.char?.startsWith('{') && !hasOutfit()) try { setOutfit(JSON.parse(r.player.char), true); } catch (e) {}
     if (r.player) { st.xp = Math.max(st.xp, r.player.xp || 0); for (const [k, t] of Object.entries(r.player.badges || {})) if (!st.badges[k]) st.badges[k] = t; }
     save(); refresh(); renderChrome(); if (tab === 'passaporte') renderPassport(); if (tab === 'cupons') renderCoupons();
     await cloudPush(true);
@@ -1347,7 +1433,7 @@ async function cloudPush(inSync) {
     const todo = Object.entries(st.visits).filter(([id, v]) => !v.synced && !v.demo && !v.p?.parceiro).map(([id, v]) => ({ id, ...v }));
     await cloud.pushVisits(todo);
     todo.forEach(x => { st.visits[x.id].synced = 1; });
-    await cloud.savePlayer({ xp: st.xp, badges: st.badges, char: curChar() });
+    await cloud.savePlayer({ xp: st.xp, badges: st.badges, char: JSON.stringify(outfit) });
     save();
   } catch (e) {}
 }
