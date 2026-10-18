@@ -26,7 +26,7 @@ for (const slug of process.argv.slice(2)) try {
     if (!ups.some(u => u.id === m[1])) ups.push({ id: m[1], name, size });
   }
   const i1 = dl.indexOf('data-upload_id'); console.log('botao', dl.slice(i1 - 600, i1 + 600).replace(/\s+/g, ' '));
-  for (const m of dl.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)) if (/key|upload/i.test(m[1]) && m[1].length < 4000) console.log('script', m[1].replace(/\s+/g, ' '));
+  for (const m of dl.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)) { const t = m[1]; for (const w of ['GameDownload', 'UploadList', 'download_key', 'key']) { const i = t.indexOf(w); if (i >= 0) { console.log('script', w, t.slice(Math.max(0, i - 300), i + 700).replace(/\s+/g, ' ')); break; } } }
   const keyJs = dl.match(/"key":"([^"]+)"/)?.[1] || dl.match(/key:\s*"([^"]+)"/)?.[1];
   if (keyJs) console.log('keyJs', keyJs);
   console.log('uploads', JSON.stringify(ups));
