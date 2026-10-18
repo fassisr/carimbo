@@ -9,9 +9,9 @@ async function req(url, opt = {}) {
   for (const c of r.headers.getSetCookie?.() || []) { const [kv] = c.split(';'); const i = kv.indexOf('='); cookies[kv.slice(0, i)] = kv.slice(i + 1); }
   return r;
 }
-{ const b = await (await fetch('https://static.itch.io/bundle.min.js', { headers: { 'User-Agent': UA } })).text();
-  for (const m of b.matchAll(/\/file\//g)) console.log('bundle', b.slice(m.index - 700, m.index + 500).replace(/\s+/g, ' '));
-  const g = b.indexOf('GameDownload'); console.log('bundleGD', b.slice(g, g + 2500).replace(/\s+/g, ' ')); }
+for (const f of ['lib', 'bundle', 'react', 'extern']) { const b = await (await fetch(`https://static.itch.io/${f}.min.js`, { headers: { 'User-Agent': UA } })).text();
+  console.log('js', f, b.length);
+  for (const w of ['download_btn', '"/file/"', '/file/', 'upload_id']) { let i = -1, n = 0; while ((i = b.indexOf(w, i + 1)) >= 0 && n++ < 3) console.log('bundle', f, w, b.slice(Math.max(0, i - 500), i + 600).replace(/\s+/g, ' ')); } }
 for (const slug of process.argv.slice(2)) try {
   const base = `https://quaternius.itch.io/${slug}`;
   const page = await (await req(base)).text();
