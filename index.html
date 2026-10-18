@@ -429,6 +429,69 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .in-later { border: 0; background: none; color: var(--muted); font-weight: 700; font-size: var(--t-sm); padding: 4px; }
 /* telas vazias ilustradas */
 .empty .ilu { width: min(220px, 70%); height: auto; display: block; margin: -6px auto 6px; }
+/* missões, sequência e baús */
+.streak { display: inline-flex; align-items: center; gap: 1px; font: 800 var(--t-xs) var(--f-display); font-style: normal; color: #F2792B; }
+.streak .ic { width: 15px; height: 15px; }
+.streak .ic .du { opacity: .5; }
+.streak.cold { color: var(--muted); }
+.streak-card, .chest-card { background: var(--surface); border-radius: var(--r-lg); padding: 16px; box-shadow: 0 4px 0 var(--edge); }
+.streak-card { background: linear-gradient(135deg, #FF9A3C, #F2552B); color: #fff; box-shadow: 0 5px 0 #B8391A; }
+.streak-card.cold { background: linear-gradient(135deg, #8C88A8, #5D5A78); box-shadow: 0 5px 0 #3E3B57; }
+.sc-top { display: flex; gap: 12px; align-items: center; }
+.sc-flame { width: 56px; height: 56px; border-radius: 50%; background: rgba(255, 255, 255, .22); display: grid; place-items: center; flex: none; }
+.sc-flame .ic { width: 34px; height: 34px; }
+.sc-flame .ic .du { opacity: .6; }
+.sc-top b { display: block; font: 800 var(--t-xl) var(--f-display); }
+.sc-top span { font-size: var(--t-sm); opacity: .92; }
+.sc-week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin-top: 14px; text-align: center; font: 800 11px var(--f-display); }
+.sc-week i { display: grid; place-items: center; width: 32px; height: 32px; margin: 0 auto 4px; border-radius: 50%; background: rgba(255, 255, 255, .2); }
+.sc-week .on i { background: #fff; color: #F2552B; }
+.sc-week .ic { width: 16px; height: 16px; stroke-width: 3; }
+.sc-next { display: flex; align-items: center; gap: 6px; margin-top: 12px; font-weight: 700; opacity: .95; }
+.sc-next .ic { width: 16px; height: 16px; }
+.chest-card { display: flex; gap: 14px; align-items: center; margin-top: 14px; }
+.chest-card svg.chest { width: 96px; flex: none; }
+.chest-card b { display: block; font: 800 var(--t-lg) var(--f-display); }
+.chest-card span { display: block; font-size: var(--t-sm); color: var(--muted); margin: 2px 0 10px; }
+.chest-card .cta { padding: 10px 16px; min-height: 44px; }
+.mis { display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center; background: var(--surface); border-radius: var(--r-md); padding: 12px 14px; box-shadow: 0 4px 0 var(--edge); }
+.mis-ic { width: 40px; height: 40px; border-radius: 12px; background: var(--surface-2); color: var(--ink); display: grid; place-items: center; }
+.mis-ic .ic { width: 22px; height: 22px; }
+.mis b { display: block; font-size: var(--t-sm); margin-bottom: 6px; }
+.mis > div > span { font-size: var(--t-xs); color: var(--muted); }
+.mis em { font: 800 var(--t-sm) var(--f-display); font-style: normal; text-align: right; font-variant-numeric: tabular-nums; }
+.mis em small { display: block; font: 700 11px var(--f-body, inherit); color: var(--muted); }
+.mis.ok .mis-ic { background: var(--ok); color: #fff; }
+.mis.ok .bar i { background: var(--ok); }
+.mis.ok em { color: var(--ok); }
+.mis.bonus { background: color-mix(in srgb, var(--gold) 16%, var(--surface)); }
+.mis.bonus .mis-ic { background: var(--gold); color: var(--gold-fg); }
+.rw-mis { display: flex; align-items: center; gap: 8px; text-align: left; font-size: var(--t-sm); background: var(--surface-2); border-radius: var(--r-sm); padding: 8px 12px; margin-top: 8px; }
+.rw-mis .ic { width: 18px; height: 18px; color: var(--ok); stroke-width: 3; }
+.rw-mis span { flex: 1; } .rw-mis b { font-family: var(--f-display); }
+.rw-chest { display: flex; align-items: center; gap: 12px; text-align: left; margin-top: 10px; background: color-mix(in srgb, var(--gold) 18%, var(--surface)); border-radius: var(--r-md); padding: 10px 14px; animation: rise var(--d-party) var(--bounce) .5s both; }
+.rw-chest svg.chest { width: 54px; flex: none; }
+.rw-chest small { font-size: var(--t-xs); font-weight: 800; color: var(--muted); display: block; }
+.rw-chest b { font-family: var(--f-display); }
+.chest-open .co-box { width: 200px; margin: 0 auto 10px; animation: wobble 1.4s var(--ease) infinite; }
+.chest-open .co-box svg { width: 100%; overflow: visible; }
+.chest-open .co-box .lid { transform-origin: 14px 46px; transition: transform .45s var(--bounce); }
+.chest-open .co-box.opening { animation: none; }
+.chest-open .co-box.opening .lid { transform: translate(-8px, -30px) rotate(-28deg); }
+@keyframes wobble { 0%, 60%, 100% { transform: none; } 66% { transform: rotate(-5deg); } 74% { transform: rotate(5deg); } 82% { transform: rotate(-3deg); } 90% { transform: rotate(2deg); } }
+.co-item { width: 200px; height: 200px; margin: 0 auto 16px; border-radius: 36px; background: #fff; padding: 8px; box-shadow: 0 0 0 6px var(--gold), 0 10px 0 6px var(--gold-edge), 0 0 60px rgba(255, 194, 26, .5); animation: medal var(--d-party) var(--bounce) both; }
+.co-item.raro { box-shadow: 0 0 0 6px #A86BFF, 0 10px 0 6px #6B2FD0, 0 0 80px rgba(168, 107, 255, .8); }
+.co-item { position: relative; }
+.co-sw { position: absolute; right: -10px; bottom: -10px; width: 56px; height: 56px; border-radius: 50%; border: 5px solid #fff; box-shadow: 0 4px 0 rgba(0, 0, 0, .2); }
+.co-item .th { display: block; width: 100%; height: 100%; border-radius: 28px; background: var(--surface-2) center / cover no-repeat; }
+.chest-open .in-later { color: rgba(255, 255, 255, .8); margin-top: 10px; display: block; width: 100%; min-height: 44px; }
+.cl-item.locked .th, .cl-item.locked .cl-sw { filter: grayscale(1) brightness(.75); opacity: .55; }
+.cl-item.locked { color: var(--muted); }
+.lk-mark { position: absolute; top: 6px; right: 6px; width: 26px; height: 26px; border-radius: 50%; background: var(--surface); box-shadow: 0 0 0 2px var(--line); display: grid; place-items: center; }
+.lk-mark .ic { width: 14px; height: 14px; }
+.rbtn#fabMis.on { background: var(--gold); color: var(--gold-fg); --e: var(--gold-edge); }
+.ppc-share { position: absolute; top: 14px; right: 14px; z-index: 2; width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .16); color: #fff; display: grid; place-items: center; }
+.ppc-share .ic { width: 22px; height: 22px; }
 /* passaporte como livrinho */
 .ppc { position: relative; overflow: hidden; color: #fff; border-radius: 10px var(--r-lg) var(--r-lg) 10px; padding: 18px 18px 16px 30px;
   background: radial-gradient(circle at 90% 0%, #5A4BFF, transparent 60%), linear-gradient(90deg, #1E1590 0 12px, #2B1FCF 12px 14px, var(--brand) 14px); box-shadow: 0 5px 0 var(--ink-edge); }
@@ -669,11 +732,12 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
       <div class="hud">
         <button class="hud-me" id="hudMe" type="button" aria-label="Abrir passaporte">
           <span class="portrait"><i><img id="hudImg" src="" alt="" hidden></i><span class="lvl" id="hudLv">1</span></span>
-          <span class="hud-pill"><b><span id="hudTitle">Turista</span><small id="hudXp">0 XP</small></b><span id="where">Procurando você…</span></span>
+          <span class="hud-pill"><b><span id="hudTitle">Turista</span><small id="hudXp">0 XP</small><em class="streak" id="hudStreak" hidden></em></b><span id="where">Procurando você…</span></span>
         </button>
         <div class="hud-side">
           <button class="rbtn" id="fabFilter" type="button" aria-label="Filtrar lugares"></button>
           <button class="rbtn" id="fabDemo" type="button" aria-label="Modo demo: tocar no mapa para andar"></button>
+          <button class="rbtn" id="fabMis" type="button" aria-label="Missões e baús"></button>
         </div>
       </div>
       <div class="status" id="status" hidden></div>
@@ -694,6 +758,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
     <section class="view list" id="v-cupons" hidden></section>
     <section class="view list" id="v-passaporte" hidden></section>
     <section class="view list" id="v-visual" hidden></section>
+    <section class="view list" id="v-missoes" hidden></section>
     <button class="vclose" id="vclose" type="button" aria-label="Voltar ao mapa" hidden></button>
   </main>
 
@@ -753,6 +818,9 @@ ICONS.party = '<path d="M4 20l4.5-12 7.5 7.5z"/><path d="M14 4.5l.5 2M19.5 9.5l-
 ICONS.filter = '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>';
 ICONS.radar = '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12l6.2-6.2"/>';
 ICONS.chev = '<path d="M8 10l4 4 4-4"/>';
+ICONS.flame = '<path d="M12 21c-3.9 0-6.5-2.6-6.5-6.2 0-3.4 2.4-5.4 3.6-8.3.9 1.6 1.9 2.5 3 2.9-.2-2.4.6-4.6 2.4-6.4.4 3.4 4 5.8 4 10.3 0 4.3-2.7 7.7-6.5 7.7z"/>';
+ICONS.chest = '<rect x="3.5" y="10" width="17" height="10" rx="1.8"/><path d="M3.5 10V8.5A4.5 4.5 0 0 1 8 4h8a4.5 4.5 0 0 1 4.5 4.5V10"/><rect x="10" y="9" width="4" height="5" rx="1"/>';
+ICONS.share = '<circle cx="6" cy="12" r="2.6"/><circle cx="17.5" cy="6" r="2.6"/><circle cx="17.5" cy="18" r="2.6"/><path d="M8.3 10.8l7-3.6M8.3 13.2l7 3.6"/>';
 ICONS.ext = '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>';
 // segunda cor dos ícones: formas cheias por baixo do contorno
 const DUO = {
@@ -778,7 +846,7 @@ const CATS = {
 const CAT_IDS = Object.keys(CATS);
 
 // ---------- estado ----------
-const fresh = () => ({ visits: {}, coupons: [], xp: 0, badges: {} });
+const fresh = () => ({ visits: {}, coupons: [], xp: 0, badges: {}, mis: {}, chests: 0, inv: null });
 let st = (() => {
   try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && typeof s === 'object' && s.visits) return Object.assign(fresh(), s); } catch (e) {}
   return fresh();
@@ -1211,6 +1279,7 @@ function renderFabs() {
   $('#fabDemo').classList.toggle('on', demo);
   $('#fabFilter').innerHTML = ic('filter') + (filt.size ? `<span class="count">${filt.size}</span>` : '');
   $('#fabFilter').classList.toggle('on', !!filt.size);
+  renderMisFab();
   $('#orbX').innerHTML = ic('close');
 }
 $('#fabMe').onclick = () => { follow = true; if (me && map) map.easeTo({ center: [me.lng, me.lat], zoom: 18, pitch: 60, bearing: heading, duration: reduced ? 0 : 700 }); };
@@ -1405,12 +1474,17 @@ function checkin(p, serverCoupon) {
   if (serverCoupon) { coupon = { id: p.id, ...serverCoupon }; st.coupons = st.coupons.filter(c => c.id !== p.id); st.coupons.unshift(coupon); }
   const earned = BADGES.filter(b => !st.badges[b.id] && b.ok());
   earned.forEach(b => { st.badges[b.id] = now; gain += b.xp; });
+  const done = claimMissions(now);
+  let chests = done.chests + earned.filter(b => b.id.startsWith('col_')).length;
+  gain += done.xp;
   const lvBefore = level();
   st.xp += gain;
   const up = level() > lvBefore;
-  save(); refresh(); renderChrome(); cloudPush();
+  if (up) chests += level() - lvBefore;
+  st.chests = (st.chests || 0) + chests;
+  save(); refresh(); renderChrome(); renderFabs(); cloudPush();
   window.avatar3d?.cheer();
-  showReward(p, now, gain, coupon, earned, up);
+  showReward(p, now, gain, coupon, earned, up, done.list, chests);
 }
 function ticketHTML(c) {
   const p = getPlace(c.id) || { n: 'Lugar', cat: 'cafe' };
@@ -1460,7 +1534,7 @@ function countUp(el, to, ms = 900) {
   const f = now => { const k = Math.min(1, (now - t0) / ms); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(f); };
   requestAnimationFrame(f);
 }
-function showReward(p, ts, gain, coupon, earned, up) {
+function showReward(p, ts, gain, coupon, earned, up, misDone = [], chests = 0) {
   const o = $('#reward');
   const xpBefore = st.xp - gain, lvB = Math.min(Math.floor(xpBefore / XP_LEVEL), TITLES.length - 1), lv = level(), max = lv === TITLES.length - 1;
   const pctB = up ? 0 : (xpBefore - lvB * XP_LEVEL) / XP_LEVEL * 100, pct = max ? 100 : (st.xp - lv * XP_LEVEL) / XP_LEVEL * 100;
@@ -1474,6 +1548,8 @@ function showReward(p, ts, gain, coupon, earned, up) {
     <div class="rw-lv"><span>Nível ${lv + 1}</span><div class="bar"><i style="width:${pctB}%"></i></div><span>${max ? `${st.xp} XP` : `${st.xp - lv * XP_LEVEL}/${XP_LEVEL}`}</span></div>
     ${coupon ? ticketHTML(coupon) : ''}
     ${earned.map(b => `<div class="rw-badge"><div class="medal" style="--cc:${b.cc}">${ic(b.icon)}</div><div><small>Nova insígnia · +${b.xp} XP</small><b>${esc(b.nome)}</b></div></div>`).join('')}
+    ${misDone.map(m => `<div class="rw-mis">${ic('check')}<span>${esc(m.nome)}</span><b>${m.xp ? `+${m.xp} XP` : '+ baú'}</b></div>`).join('')}
+    ${chests ? `<div class="rw-chest">${CHEST_SVG}<div><small>${chests > 1 ? `${chests} baús ganhos` : 'Baú ganho'}</small><b>Abra em Missões e ganhe um item</b></div></div>` : ''}
     <button class="cta" type="button" data-act="ok">${up ? 'Continuar' : 'Continuar explorando'}</button>
   </div>`;
   o.hidden = false;
@@ -1499,9 +1575,202 @@ function showLevelUp(lv) {
   o.querySelector('[data-act="ok"]').onclick = () => { o.hidden = true; o.classList.remove('dark'); };
 }
 
+
+// ---------- missões, sequência de dias e baús ----------
+const startOfDay = ts => { const d = new Date(ts); d.setHours(0, 0, 0, 0); return d.getTime(); };
+const dayKey = ts => { const d = new Date(ts); return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`; };
+const startOfWeek = ts => { const d = new Date(startOfDay(ts)); d.setDate(d.getDate() - (d.getDay() + 6) % 7); return d.getTime(); };
+const seeded = k => { let h = hash(k) || 1; return () => (h = (h * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff; };
+const visitsSince = t0 => Object.values(st.visits).filter(v => v.ts >= t0);
+const CAT_UM = { cafe: 'um café', bar: 'um bar', doce: 'uma doceria ou padaria', verde: 'um parque ou praça', cultura: 'um lugar de cultura', comida: 'um restaurante' };
+const MIS_XP = 30, WEEK_GOAL = 5, WEEK_XP = 100, STREAK_CHEST = [3, 7, 14, 30];
+// três missões por dia, iguais para todo mundo naquele dia
+function dailyMissions(now = Date.now()) {
+  const k = dayKey(now), rnd = seeded('d' + k), vs = visitsSince(startOfDay(now));
+  const cats = [...CAT_IDS].map(c => [rnd(), c]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
+  const pool = [
+    { id: 'dois', nome: 'Carimbe 2 lugares', icon: 'stamp', goal: 2, n: vs.length },
+    { id: 'dest', nome: 'Carimbe um Destaque Fuilá', icon: 'star', goal: 1, n: vs.filter(v => v.p.dest).length },
+    ...cats.slice(0, 3).map(c => ({ id: 'cat-' + c, nome: `Carimbe ${CAT_UM[c]}`, icon: c, goal: 1, n: vs.filter(v => v.p.cat === c).length })),
+  ].map(m => [rnd(), m]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
+  return [{ id: 'um', nome: 'Carimbe 1 lugar', icon: 'stamp', goal: 1, n: vs.length }, ...pool.slice(0, 2)]
+    .map(m => ({ ...m, key: `d:${k}:${m.id}`, xp: MIS_XP, ok: m.n >= m.goal }));
+}
+function weeklyMission(now = Date.now()) {
+  const w = startOfWeek(now), n = visitsSince(w).length;
+  return { key: 'w:' + dayKey(w), nome: `Carimbe ${WEEK_GOAL} lugares nesta semana`, icon: 'flag', goal: WEEK_GOAL, n, xp: WEEK_XP, ok: n >= WEEK_GOAL };
+}
+function streakInfo(now = Date.now()) {
+  const days = new Set(Object.values(st.visits).map(v => dayKey(v.ts)));
+  const d = new Date(startOfDay(now)), today = days.has(dayKey(d.getTime()));
+  if (!today) d.setDate(d.getDate() - 1);
+  let n = 0; while (days.has(dayKey(d.getTime()))) { n++; d.setDate(d.getDate() - 1); }
+  const week = Array.from({ length: 7 }, (_, i) => { const x = new Date(startOfDay(now)); x.setDate(x.getDate() - 6 + i); return { on: days.has(dayKey(x.getTime())), d: x }; });
+  return { n, today, week, next: STREAK_CHEST.find(x => x > n) };
+}
+// confere missões e sequência depois de um carimbo; devolve XP e baús novos
+function claimMissions(now = Date.now()) {
+  st.mis ??= {}; const list = []; let xp = 0, chests = 0;
+  const day = dailyMissions(now), wk = weeklyMission(now);
+  for (const m of [...day, wk]) if (m.ok && !st.mis[m.key]) { st.mis[m.key] = now; list.push(m); xp += m.xp; if (m === wk) chests++; }
+  const dk = 'dall:' + dayKey(now);
+  if (day.every(m => m.ok) && !st.mis[dk]) { st.mis[dk] = now; chests++; list.push({ nome: 'Todas as missões de hoje', xp: 0 }); }
+  // baú nas marcas da sequência (uma vez por sequência)
+  const sk = streakInfo(now).n, ini = new Date(startOfDay(now)); ini.setDate(ini.getDate() - sk + 1);
+  for (const g of STREAK_CHEST) { const key = `streak:${g}:${dayKey(ini.getTime())}`; if (sk >= g && !st.mis[key]) { st.mis[key] = now; chests++; list.push({ nome: `${g} dias seguidos`, xp: 0 }); } }
+  // guarda só o último mês de registros
+  for (const k of Object.keys(st.mis)) if (now - st.mis[k] > 40 * 864e5) delete st.mis[k];
+  return { list, xp, chests };
+}
+// inventário do boneco: o que vem de fábrica e o que saiu dos baús
+const FREE_SLOTS = ['cabelo', 'corCabelo', 'pele'], FREE_IDS = ['nenhum', 'nada'];
+const itemKey = (slot, id) => slot + ':' + id;
+function ensureInv() {
+  if (Array.isArray(st.inv)) return;
+  st.inv = Object.entries(ITENS.padrao).map(([k, v]) => itemKey(k, v));
+  for (const [k, v] of Object.entries(outfit)) if (!st.inv.includes(itemKey(k, v))) st.inv.push(itemKey(k, v));
+  st.chests = (st.chests || 0) + 3; // baús de boas-vindas
+  save();
+}
+const owns = (slot, id) => FREE_SLOTS.includes(slot) || FREE_IDS.includes(id) || (st.inv || []).includes(itemKey(slot, id));
+const grant = (slot, id) => { ensureInv(); if (!owns(slot, id)) st.inv.push(itemKey(slot, id)); };
+const lockable = () => ITENS.slots.flatMap(sl => ITENS.itens[sl.id].filter(it => !owns(sl.id, it.id)).map(it => ({ slot: sl.id, it })));
+const ownedCount = () => ITENS.slots.reduce((n, sl) => n + ITENS.itens[sl.id].filter(it => owns(sl.id, it.id)).length, 0);
+function renderMisFab() {
+  const day = dailyMissions(), left = day.filter(m => !m.ok).length, ch = st.chests || 0;
+  $('#fabMis').innerHTML = ic('flag') + (ch ? `<span class="count gold">${ch}</span>` : left ? `<span class="count">${left}</span>` : '');
+  $('#fabMis').classList.toggle('on', !!ch);
+  const s = streakInfo(), el = $('#hudStreak');
+  el.hidden = !s.n; el.classList.toggle('cold', !s.today); el.innerHTML = `${ic('flame')}${s.n}`;
+}
+$('#fabMis').onclick = () => show('missoes');
+const CHEST_SVG = `<svg class="chest" viewBox="0 0 120 100" aria-hidden="true">
+  <ellipse cx="60" cy="92" rx="44" ry="6" fill="#14112B" opacity=".18"/>
+  <rect x="14" y="44" width="92" height="46" rx="8" fill="#B5651D"/><rect x="14" y="44" width="92" height="46" rx="8" fill="none" stroke="#7A3E0E" stroke-width="4"/>
+  <path d="M14 58h92" stroke="#7A3E0E" stroke-width="4"/>
+  <g class="lid"><path d="M14 46V36a22 22 0 0 1 22-22h48a22 22 0 0 1 22 22v10z" fill="#D9822B"/><path d="M14 46V36a22 22 0 0 1 22-22h48a22 22 0 0 1 22 22v10z" fill="none" stroke="#7A3E0E" stroke-width="4"/>
+  <path d="M30 16v30M90 16v30" stroke="#FFC21A" stroke-width="7"/></g>
+  <path d="M30 44v46M90 44v46" stroke="#FFC21A" stroke-width="7"/>
+  <rect x="50" y="38" width="20" height="24" rx="4" fill="#FFC21A" stroke="#7A3E0E" stroke-width="3"/><circle cx="60" cy="49" r="3.5" fill="#7A3E0E"/>
+</svg>`;
+function renderMissoes() {
+  const day = dailyMissions(), wk = weeklyMission(), s = streakInfo(), ch = st.chests || 0;
+  const left = startOfDay(Date.now()) + 864e5 - Date.now(), h = Math.floor(left / 36e5), mi = Math.floor(left % 36e5 / 6e4);
+  const row = m => `<div class="mis${m.ok ? ' ok' : ''}"><span class="mis-ic">${ic(m.ok ? 'check' : m.icon)}</span><div><b>${esc(m.nome)}</b><div class="bar"><i style="width:${Math.min(1, m.n / m.goal) * 100}%"></i></div></div><em>${m.ok ? 'Feita' : `${Math.min(m.n, m.goal)}/${m.goal}`}<small>+${m.xp} XP</small></em></div>`;
+  const WD = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+  $('#v-missoes').innerHTML = `<h1>Missões</h1>
+    <div class="streak-card${s.today ? '' : ' cold'}">
+      <div class="sc-top"><span class="sc-flame">${ic('flame')}</span><div><b>${s.n} ${s.n === 1 ? 'dia seguido' : 'dias seguidos'}</b><span>${s.today ? 'Hoje já conta. Volte amanhã!' : s.n ? 'Carimbe um lugar hoje para não perder a sequência.' : 'Carimbe um lugar por dia para começar uma sequência.'}</span></div></div>
+      <div class="sc-week">${s.week.map(x => `<span class="${x.on ? 'on' : ''}"><i>${x.on ? ic('check') : ''}</i>${WD[x.d.getDay()]}</span>`).join('')}</div>
+      ${s.next ? `<small class="sc-next">${ic('chest')} Baú ao chegar em ${s.next} dias</small>` : ''}
+    </div>
+    <div class="chest-card">
+      ${CHEST_SVG}
+      <div><b>${ch ? `Você tem ${ch} ${ch === 1 ? 'baú' : 'baús'}` : 'Nenhum baú agora'}</b><span>Cada baú traz um item para o seu boneco. ${lockable().length ? `Faltam ${lockable().length} itens para completar o armário.` : 'Você já tem todos os itens!'}</span>
+      <button type="button" class="cta gold" data-chest ${ch ? '' : 'disabled'}>${ic('chest')} Abrir baú</button></div>
+    </div>
+    <h3>De hoje <small class="h-count">renovam em ${h} h ${mi} min</small></h3>
+    <div class="stack">${day.map(row).join('')}
+      <div class="mis bonus${day.every(m => m.ok) ? ' ok' : ''}"><span class="mis-ic">${ic('chest')}</span><div><b>Complete as 3</b><span>Ganhe um baú</span></div><em>${day.filter(m => m.ok).length}/3</em></div></div>
+    <h3>Da semana</h3>
+    <div class="stack">${row(wk).replace('</em></div>', '<small>+ baú</small></em></div>')}</div>
+    <h3>Como ganhar baús</h3>
+    <div class="biz">Subindo de nível, fechando uma coleção, completando as 3 missões do dia ou a da semana, e chegando a 3, 7, 14 e 30 dias seguidos.</div>`;
+}
+$('#v-missoes').addEventListener('click', e => { if (e.target.closest('[data-chest]')) openChest(); });
+// sorteio: itens raros saem bem menos
+function pickItem() {
+  const all = lockable(); if (!all.length) return null;
+  const w = all.map(x => x.it.raro ? 1 : 6), tot = w.reduce((a, b) => a + b, 0);
+  let r = Math.random() * tot; for (let i = 0; i < all.length; i++) { r -= w[i]; if (r <= 0) return all[i]; }
+  return all[all.length - 1];
+}
+function openChest() {
+  if (!(st.chests > 0)) return;
+  ensureInv();
+  const o = $('#reward');
+  o.classList.remove('dark'); o.classList.add('dark');
+  o.innerHTML = `<div class="lvup chest-open" role="dialog" aria-label="Abrir baú"><div class="co-box">${CHEST_SVG}</div><small>BAÚ</small><h2>Toque para abrir</h2><p>Um item novo para o seu boneco está aqui dentro.</p><button class="cta gold" type="button" data-act="open">Abrir</button></div>`;
+  o.hidden = false; buzz('MEDIUM');
+  const reveal = async () => {
+    const got = pickItem();
+    st.chests--; let xp = 0;
+    if (got) grant(got.slot, got.it.id); else { xp = 100; st.xp += xp; }
+    save(); renderChrome(); renderFabs(); cloudPush();
+    o.querySelector('.co-box').classList.add('opening'); buzz('HEAVY'); som(got?.it.raro ? 'level' : 'badge');
+    await new Promise(r => setTimeout(r, reduced ? 0 : 650));
+    confetti(got?.it.raro ? 200 : 90);
+    const slotName = got && ITENS.slots.find(x => x.id === got.slot).nome;
+    const so = got && (SNAP_OF[got.slot] || { framing: got.slot === 'tenis' || got.slot === 'calca' ? 'full' : 'face', yaw: 0.4 });
+    o.innerHTML = got ? `<div class="lvup chest-open" role="dialog" aria-label="Item novo">
+        <div class="co-item${got.it.raro ? ' raro' : ''}"><span class="th"></span>${got.it.cores && !SNAP_OF[got.slot] ? `<i class="co-sw" style="background:${got.it.cores[1] ? `linear-gradient(135deg, ${got.it.cores[0]} 0 60%, ${got.it.cores[1]} 60%)` : got.it.cores[0]}"></i>` : ''}</div>
+        <small>${got.it.raro ? 'ITEM RARO!' : 'ITEM NOVO'} · ${esc(slotName)}</small><h2>${esc(got.it.nome)}</h2>
+        <p>${st.chests ? `Você ainda tem ${st.chests} ${st.chests === 1 ? 'baú' : 'baús'}.` : 'Ganhe mais baús com missões, coleções e níveis.'}</p>
+        <button class="cta gold" type="button" data-act="wear">Vestir agora</button>
+        <button class="in-later" type="button" data-act="${st.chests ? 'again' : 'close'}">${st.chests ? 'Abrir outro baú' : 'Guardar no armário'}</button></div>`
+      : `<div class="lvup chest-open" role="dialog"><div class="co-box opening">${CHEST_SVG}</div><small>ARMÁRIO COMPLETO</small><h2>+100 XP</h2><p>Você já tem todos os itens, então o baú virou XP.</p><button class="cta gold" type="button" data-act="close">Boa!</button></div>`;
+    if (got) snap({ ...outfit, [got.slot]: got.it.id }, so).then(url => { const t = o.querySelector('.co-item .th'); if (t && url) t.style.backgroundImage = `url(${url})`; });
+  };
+  const handler = e => {
+    const b = e.target.closest('[data-act]'); if (!b) return;
+    const a = b.dataset.act;
+    if (a === 'open') { b.disabled = true; reveal(); }
+    else if (a === 'wear') { const it = lastItem(); if (it) { setOutfit({ [it.slot]: it.id }); closetSlot = it.slot; } close(); show('visual'); }
+    else if (a === 'again') openChest();
+    else if (a === 'close') close();
+  };
+  const close = () => { o.hidden = true; o.classList.remove('dark'); o.onclick = null; if (tab === 'missoes') renderMissoes(); };
+  o.onclick = handler;
+}
+const lastItem = () => { const k = (st.inv || [])[st.inv.length - 1]; if (!k) return null; const [slot, id] = k.split(':'); return { slot, id }; };
+// cartão do passaporte para mandar no WhatsApp ou Instagram
+let shareStage = null;
+async function shareCard() {
+  toast('Preparando o cartão…');
+  try {
+    const W = 1080, H = 1350, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+    const x = cv.getContext('2d');
+    await document.fonts?.ready;
+    const g = x.createRadialGradient(W / 2, H * .3, 50, W / 2, H * .4, H * .8); g.addColorStop(0, '#5A4BFF'); g.addColorStop(.55, '#3B2BF5'); g.addColorStop(1, '#2416C9');
+    x.fillStyle = g; x.fillRect(0, 0, W, H);
+    x.fillStyle = 'rgba(255,255,255,.07)'; for (let yy = 30; yy < H; yy += 44) for (let xx = (yy / 44 % 2) * 22 + 20; xx < W; xx += 44) { x.beginPath(); x.arc(xx, yy, 3, 0, 7); x.fill(); }
+    const img = src => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.onerror = () => r(null); i.src = src; });
+    const pin = await img('assets/brand/pin.svg');
+    if (pin) x.drawImage(pin, 70, 60, 110, 110);
+    x.fillStyle = '#fff'; x.font = '800 72px "Bricolage Grotesque"'; x.textBaseline = 'middle'; x.fillText('fuilá', 190, 118);
+    x.fillStyle = '#FFC21A'; x.font = '800 30px "Bricolage Grotesque"'; x.textAlign = 'right'; x.fillText('PASSAPORTE', W - 70, 118); x.textAlign = 'left';
+    // boneco grande
+    if (window.fuilaBoneco) {
+      if (!shareStage) { const c2 = document.createElement('canvas'); c2.width = c2.height = 640; shareStage = window.fuilaBoneco.stage(c2, { rotate: false }); }
+      const url = await shareStage.snap(outfit, { framing: 'full', yaw: 0.35 }); const b = url && await img(url);
+      x.fillStyle = 'rgba(255,255,255,.12)'; x.beginPath(); x.ellipse(W / 2, 655, 200, 36, 0, 0, 7); x.fill();
+      if (b) x.drawImage(b, W / 2 - 330, 140, 660, 660);
+    }
+    const lv = level(), vis = Object.values(st.visits), cities = new Set(vis.map(v => cityOf(v.p)).filter(c => c !== 'Outros lugares'));
+    x.textAlign = 'center'; x.fillStyle = '#FFC21A'; x.font = '800 34px "Bricolage Grotesque"'; x.fillText(`NÍVEL ${lv + 1}`, W / 2, 850);
+    x.fillStyle = '#fff'; x.font = '800 96px "Bricolage Grotesque"'; x.fillText(TITLES[lv], W / 2, 930);
+    const stats = [[vis.length, vis.length === 1 ? 'carimbo' : 'carimbos'], [cities.size, cities.size === 1 ? 'cidade' : 'cidades'], [Object.keys(st.badges).length, Object.keys(st.badges).length === 1 ? 'insígnia' : 'insígnias']];
+    stats.forEach(([n, l], i) => { const cx = W / 2 + (i - 1) * 300; x.fillStyle = 'rgba(255,255,255,.12)'; x.beginPath(); x.roundRect(cx - 130, 1000, 260, 150, 32); x.fill(); x.fillStyle = '#fff'; x.font = '800 70px "Bricolage Grotesque"'; x.fillText(String(n), cx, 1060); x.font = '600 30px Figtree'; x.fillStyle = 'rgba(255,255,255,.8)'; x.fillText(l, cx, 1115); });
+    const top = [...cities].map(cityProgress).filter(c => c.tot).sort((a, b) => b.pct - a.pct)[0];
+    x.font = '600 34px Figtree'; x.fillStyle = '#fff';
+    x.fillText(top ? `${top.city}: ${top.pct}% dos lugares do Fuilá` : 'Colecionando lugares de verdade', W / 2, 1215);
+    x.fillStyle = 'rgba(255,255,255,.6)'; x.font = '600 28px Figtree'; x.fillText('fassisr.github.io/carimbo', W / 2, 1290);
+    const data = cv.toDataURL('image/png'), text = `Meu passaporte no Fuilá: ${TITLES[lv]}, ${vis.length} carimbos. Bora colecionar lugares?`;
+    const P = window.Capacitor?.Plugins;
+    if (native && P?.Share && P?.Filesystem) {
+      const f = await P.Filesystem.writeFile({ path: 'fuila-passaporte.png', data: data.split(',')[1], directory: 'CACHE' });
+      await P.Share.share({ title: 'Meu passaporte Fuilá', text, files: [f.uri], dialogTitle: 'Compartilhar passaporte' });
+      return;
+    }
+    const blob = await (await fetch(data)).blob(), file = new File([blob], 'fuila-passaporte.png', { type: 'image/png' });
+    if (navigator.canShare?.({ files: [file] })) { await navigator.share({ files: [file], text }); return; }
+    const a = document.createElement('a'); a.href = data; a.download = 'fuila-passaporte.png'; a.click(); toast('Cartão salvo');
+  } catch (err) { if (err?.name !== 'AbortError' && !/cancel/i.test(err?.message || '')) toast('Não deu para compartilhar agora'); }
+}
+
 // ---------- HUD, botão central e telas ----------
 let tab = 'mapa';
-const TABS = { passaporte: ['passport', 'Passaporte', 'var(--brand)'], colecoes: ['grid', 'Coleções', 'var(--c-verde)'], visual: ['hanger', 'Visual', 'var(--c-cafe)'], cupons: ['ticket', 'Cupons', 'var(--c-doce)'] };
+const TABS = { missoes: ['flag', 'Missões', 'var(--c-verde)'], passaporte: ['passport', 'Passaporte', 'var(--brand)'], colecoes: ['grid', 'Coleções', 'var(--c-verde)'], visual: ['hanger', 'Visual', 'var(--c-cafe)'], cupons: ['ticket', 'Cupons', 'var(--c-doce)'] };
 function renderChrome() {
   const lv = level(), max = lv === TITLES.length - 1;
   $('#hudLv').textContent = lv + 1;
@@ -1514,7 +1783,7 @@ function renderChrome() {
 }
 function renderMenu() {
   const active = st.coupons.filter(c => !c.used).length;
-  $('#menu').innerHTML = `<div class="menu-row">${Object.entries(TABS).map(([k, [i, l, cc]]) =>
+  $('#menu').innerHTML = `<div class="menu-row">${Object.entries(TABS).filter(([k]) => k !== 'missoes').map(([k, [i, l, cc]]) =>
     `<button type="button" class="mtile" data-tab="${k}" style="--cc:${cc}"><i>${ic(i)}${k === 'cupons' && active ? `<span class="count gold">${active}</span>` : ''}</i><span>${l}</span></button>`).join('')}</div>`;
 }
 function openMenu() { if (openId) closeSheet(); closeFilters(); renderMenu(); $('#near').hidden = true; $('#menu').hidden = false; $('#orb').classList.add('open'); $('#orb').setAttribute('aria-expanded', 'true'); }
@@ -1537,6 +1806,7 @@ function show(t) {
   if (t === 'colecoes') renderCols();
   if (t === 'cupons') renderCoupons();
   if (t === 'passaporte') renderPassport();
+  if (t === 'missoes') renderMissoes();
   if (t === 'visual') renderVisual(); else closetStage?.stop();
   if (t !== 'mapa') $('#v-' + t).scrollTop = 0;
 }
@@ -1628,6 +1898,7 @@ function renderPassport() {
       <div class="ppc-top"><span class="ppc-emb">${ic('ext')}</span><div><small>República dos Exploradores</small><b>PASSAPORTE FUILÁ</b></div></div>
       <div class="ppc-me"><img src="${portrait || 'assets/brand/icon-192.png'}" alt=""><div><small>Título</small><h2>${TITLES[lv]}</h2><small>Nível ${lv + 1}${max ? '' : ` · faltam ${XP_LEVEL - into} XP`}</small></div></div>
       <div class="bar"><i style="width:${max ? 100 : into / XP_LEVEL * 100}%"></i></div>
+      <button type="button" class="ppc-share" data-share aria-label="Compartilhar passaporte">${ic('share')}</button>
       <div class="ppc-stats"><span><b>${visited.length}</b>carimbos</span><span><b>${groups.size}</b>${groups.size === 1 ? 'cidade' : 'cidades'}</span><span><b>${nb}/${BADGES.length}</b>insígnias</span><span><b>${st.coupons.filter(c => !c.used).length}</b>cupons</span></div>
     </div>
     <h3>Carimbos</h3>
@@ -1655,6 +1926,7 @@ function renderPassport() {
 }
 $('#v-passaporte').addEventListener('click', e => {
   if (e.target.closest('[data-goto-visual]')) return show('visual');
+  if (e.target.closest('[data-share]')) return shareCard();
   const st0 = e.target.closest('.leaf-st[data-goto]'); if (st0) { show('mapa'); return openSheet(st0.dataset.goto); }
   const bd = e.target.closest('[data-badge]');
   if (bd) {
@@ -1671,7 +1943,7 @@ $('#v-passaporte').addEventListener('click', e => {
   if (sb) { somOn = !somOn; try { localStorage.setItem('fuila-som', somOn ? '1' : '0'); } catch (err) {} sb.setAttribute('aria-pressed', String(somOn)); if (somOn) som('badge'); return; }
   const b = e.target.closest('#reset'); if (!b) return;
   if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Toque de novo para apagar todo o progresso'; return; }
-  st = fresh(); save(); refresh(); renderChrome(); renderPassport(); toast('Progresso apagado');
+  st = fresh(); ensureInv(); save(); refresh(); renderChrome(); renderFabs(); renderPassport(); toast('Progresso apagado');
   if (cloud.on && cloud.anon) cloud.signOut().catch(() => {});
 });
 
@@ -1683,6 +1955,7 @@ let closetSlot = 'chapeu', closetStage = null, thumbStage = null, portrait = '';
 const thumbs = new Map();
 function setOutfit(o, fromCloud) {
   outfit = { ...outfit, ...o };
+  if (fromCloud) { for (const [k, v] of Object.entries(o)) grant(k, v); save(); }
   try { localStorage.setItem('fuila-visual', JSON.stringify(outfit)); } catch (e) {}
   window.avatar3d?.wear(outfit); closetStage?.wear(outfit);
   updatePortrait();
@@ -1712,16 +1985,18 @@ function renderVisual() {
       <div class="closet-stage"><canvas aria-label="Seu boneco. Arraste para girar."></canvas><button type="button" class="cta soft cheer" data-cheer>${ic('party')} Comemorar</button></div>
       <div class="slot-tabs" role="tablist"></div>
       <div class="closet"></div>
-      <p class="lede" style="margin-top:18px">Por enquanto todos os itens estão liberados. Em breve você ganha itens novos explorando.</p>`;
+      <p class="lede closet-note" style="margin-top:18px"></p>`;
   }
+  const tot = lockable().length + ownedCount(), own = ownedCount();
+  v.querySelector('.closet-note').innerHTML = `Você tem <b>${own} de ${tot}</b> itens. Os outros saem dos baús, que você ganha subindo de nível, fechando coleções e completando missões.`;
   if (window.fuilaBoneco && !closetStage) closetStage = window.fuilaBoneco.stage(v.querySelector('canvas'));
   if (closetStage) { closetStage.wear(outfit); closetStage.start(); }
   v.querySelector('.slot-tabs').innerHTML = ITENS.slots.map(sl => `<button type="button" role="tab" data-slot="${sl.id}" aria-selected="${sl.id === closetSlot}">${sl.nome}</button>`).join('');
   const list = ITENS.itens[closetSlot], so = SNAP_OF[closetSlot];
   v.querySelector('.closet').innerHTML = list.map(it => {
-    const on = outfit[closetSlot] === it.id;
+    const on = outfit[closetSlot] === it.id, lk = !owns(closetSlot, it.id);
     const pic = so ? `<span class="th" data-thumb="${it.id}"></span>` : it.cores ? `<span class="cl-sw" style="background:${it.cores[1] ? `linear-gradient(135deg, ${it.cores[0]} 0 60%, ${it.cores[1]} 60%)` : it.cores[0]}"></span>` : '';
-    return `<button type="button" class="cl-item" data-item="${it.id}" aria-pressed="${on}">${pic}${it.nome}${it.raro ? '<span class="raro">Raro</span>' : ''}${on ? `<span class="on-mark">${ic('check')}</span>` : ''}</button>`;
+    return `<button type="button" class="cl-item${lk ? ' locked' : ''}" data-item="${it.id}" aria-pressed="${on}"${lk ? ' aria-label="' + esc(it.nome) + ', bloqueado"' : ''}>${pic}${it.nome}${it.raro ? '<span class="raro">Raro</span>' : ''}${on ? `<span class="on-mark">${ic('check')}</span>` : ''}${lk ? `<span class="lk-mark">${ic('lock')}</span>` : ''}</button>`;
   }).join('');
   if (so) for (const it of list) {
     const o = { ...outfit, [closetSlot]: it.id }, k = JSON.stringify(o) + closetSlot;
@@ -1734,6 +2009,7 @@ $('#v-visual').addEventListener('click', e => {
   const t = e.target.closest('[data-slot]'); if (t) { closetSlot = t.dataset.slot; renderVisual(); t.scrollIntoView?.({ inline: 'nearest', block: 'nearest' }); return; }
   if (e.target.closest('[data-cheer]')) { closetStage?.cheer(); buzz('MEDIUM'); return; }
   const b = e.target.closest('[data-item]'); if (!b) return;
+  if (!owns(closetSlot, b.dataset.item)) { toast('Item bloqueado: ganhe abrindo baús'); buzz(); return; }
   setOutfit({ [closetSlot]: b.dataset.item });
   renderVisual();
 });
@@ -1877,7 +2153,7 @@ document.addEventListener('visibilitychange', () => {
   if (tab === 'mapa' && $('#intro').hidden) { window.fuilaPaused = false; window.avatar3d?.resume(); }
 });
 // ---------- início ----------
-renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
+ensureInv(); renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
 loadDestaques(); loadFotos();
 if (seenIntro()) startGPS(); else setTimeout(showIntro, reduced ? 100 : 900);
