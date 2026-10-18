@@ -1,0 +1,31 @@
+name: Baixar personagens (Quaternius, CC0)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/baixar-itch.mjs', 'scripts/preparar-personagens.sh', '.github/workflows/personagens.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Baixar do itch.io
+        run: node scripts/baixar-itch.mjs universal-base-characters universal-animation-library modular-character-outfits-fantasy
+      - name: Preparar e listar
+        run: bash scripts/preparar-personagens.sh
+      - name: Publicar no ramo fontes-personagens
+        run: |
+          cd saida
+          git init -q && git checkout -q -b fontes-personagens
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "Personagens Quaternius (CC0) convertidos"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" fontes-personagens
