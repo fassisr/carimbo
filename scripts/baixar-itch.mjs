@@ -9,6 +9,9 @@ async function req(url, opt = {}) {
   for (const c of r.headers.getSetCookie?.() || []) { const [kv] = c.split(';'); const i = kv.indexOf('='); cookies[kv.slice(0, i)] = kv.slice(i + 1); }
   return r;
 }
+{ const b = await (await fetch('https://static.itch.io/bundle.min.js', { headers: { 'User-Agent': UA } })).text();
+  for (const m of b.matchAll(/\/file\//g)) console.log('bundle', b.slice(m.index - 700, m.index + 500).replace(/\s+/g, ' '));
+  const g = b.indexOf('GameDownload'); console.log('bundleGD', b.slice(g, g + 2500).replace(/\s+/g, ' ')); }
 for (const slug of process.argv.slice(2)) try {
   const base = `https://quaternius.itch.io/${slug}`;
   const page = await (await req(base)).text();
