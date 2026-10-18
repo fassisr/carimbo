@@ -9,7 +9,7 @@ async function req(url, opt = {}) {
   for (const c of r.headers.getSetCookie?.() || []) { const [kv] = c.split(';'); const i = kv.indexOf('='); cookies[kv.slice(0, i)] = kv.slice(i + 1); }
   return r;
 }
-for (const slug of process.argv.slice(2)) {
+for (const slug of process.argv.slice(2)) try {
   const base = `https://quaternius.itch.io/${slug}`;
   const page = await (await req(base)).text();
   const csrf = page.match(/name="csrf_token" value="([^"]+)"/)?.[1];
@@ -20,6 +20,7 @@ for (const slug of process.argv.slice(2)) {
   const dl = await (await req(du.url)).text();
   const ups = [...dl.matchAll(/data-upload_id="(\d+)"[\s\S]*?class="name"[^>]*title="([^"]+)"[\s\S]*?class="file_size"[^>]*><span>([^<]+)/g)].map(m => ({ id: m[1], name: m[2], size: m[3] }));
   console.log('uploads', JSON.stringify(ups));
+  if (!ups.length) console.log('pagina', dl.replace(/\s+/g, ' ').slice(0, 3000));
   mkdirSync(`itch/${slug}`, { recursive: true });
   for (const u of ups) {
     const j = await (await req(`${base}/file/${u.id}?source=game_download&key=${key}`, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-Requested-With': 'XMLHttpRequest' }, body: new URLSearchParams({ csrf_token: csrf }) })).json();
@@ -29,4 +30,4 @@ for (const slug of process.argv.slice(2)) {
     writeFileSync(`itch/${slug}/${u.name}`, buf);
     console.log('baixou', u.name, buf.length);
   }
-}
+} catch (e) { console.log('erro', slug, e.message); }

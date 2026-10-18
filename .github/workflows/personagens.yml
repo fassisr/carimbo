@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 22
       - name: Baixar do itch.io
-        run: node scripts/baixar-itch.mjs universal-base-characters universal-animation-library modular-character-outfits-fantasy
+        run: mkdir -p itch && node scripts/baixar-itch.mjs universal-base-characters universal-animation-library modular-character-outfits-fantasy 2>&1 | tee itch/log.txt
       - name: Preparar e listar
         run: bash scripts/preparar-personagens.sh
       - name: Publicar no ramo fontes-personagens
