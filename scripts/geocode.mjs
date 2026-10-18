@@ -76,7 +76,11 @@ function pick(results, p) {
 
 const out = [], fails = [];
 // grava aos poucos: se o GitHub cortar uma rodada longa, a próxima continua de onde parou
+// quais viram Destaque Fuilá (dourados): lista em destaques-top.json (curadoria ou nota do Google)
+let top = null;
+try { top = new Set(JSON.parse(await readFile('destaques-top.json', 'utf8')).chaves); } catch {}
 async function save() {
+  out.forEach(p => { if (top) p.top = top.has(p.chave); else delete p.top; });
   out.forEach(p => { p.id = 'd-' + p.chave.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); });
   const keep = Object.values(old).filter(o => !out.some(p => p.chave === o.chave) && src.lugares.some(p => norm(`${p.n}|${p.cidade}`) === o.chave));
   await writeFile('destaques.json', JSON.stringify({ atualizado: new Date().toISOString().slice(0, 10), lugares: [...out, ...keep] }, null, 1) + '\n');

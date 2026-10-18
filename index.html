@@ -878,10 +878,12 @@ function dupOfDest(lat, lng, name) {
 }
 function applyDestaques(list) {
   for (const d of destaques) { places.delete(d.id); }
+  // só os escolhidos (top) ficam dourados; os outros lugares curados viram paradas comuns
+  const anyTop = (list || []).some(d => 'top' in d);
   destaques = (list || []).filter(d => d.id && d.lat != null && CATS[d.cat]).map(d => ({
-    id: d.id, n: d.n, cat: d.cat, lat: d.lat, lng: d.lng, dest: true, addr: d.end || '', city: d.cidade || '', uf: d.uf || '',
+    id: d.id, n: d.n, cat: d.cat, lat: d.lat, lng: d.lng, dest: anyTop ? !!d.top : true, curado: true, addr: d.end || '', city: d.cidade || '', uf: d.uf || '',
     desc: d.d || '', parceiro: !!d.parceiro, oferta: d.parceiro ? d.oferta || '' : '', logo: d.logo || '', _t: toks(d.n) }));
-  for (const [id, p] of places) if (!p.dest && dupOfDest(p.lat, p.lng, p.n)) { places.delete(id); markers.get(id)?.remove(); markers.delete(id); }
+  for (const [id, p] of places) if (!p.dest && !p.curado && dupOfDest(p.lat, p.lng, p.n)) { places.delete(id); markers.get(id)?.remove(); markers.delete(id); }
   for (const d of destaques) places.set(d.id, d);
   updateWhere(); refresh();
 }
@@ -1023,7 +1025,7 @@ function renderSheet() {
     <div class="rating"><span>${fmtM(d)} de você</span></div>
     <a class="gbtn" href="${gmapsURL(p)}"${native ? '' : ' target="_blank" rel="noopener"'}>${starsHTML(5)} Ver avaliações no Google</a>
     ${p.desc ? `<div class="desc">${esc(p.desc)}</div>` : ''}
-    ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.dest && p.city, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
+    ${p.addr || p.hours ? `<div class="addr">${esc([p.addr, p.curado && p.city, p.hours && 'Horário: ' + p.hours].filter(Boolean).join(' · '))}</div>` : ''}
     ${OF ? `<div class="offer${v ? ' used' : ''}">${ic('ticket')}<small>${v ? 'Cupom liberado' : 'Parceiro Fuilá · na primeira visita'}</small><b>${esc(OF)}</b></div>`
       : p.dest ? `<div class="offer">${ic('star')}<small>Destaque Fuilá</small><b>Vale carimbo e conta para a coleção</b></div>`
       : `<div class="offer">${ic('stamp')}<small>Carimbo por GPS</small><b>Vale carimbo e conta para a coleção</b></div>`}

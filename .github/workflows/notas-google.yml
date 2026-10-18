@@ -1,0 +1,33 @@
+name: Destaques pela nota do Google
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # todo dia 1, às 3h de Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: destaques
+
+jobs:
+  notas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Escolher destaques pela nota
+        env:
+          GOOGLE_MAPS_KEY: ${{ secrets.GOOGLE_MAPS_KEY }}
+        run: node scripts/notas-google.mjs
+      - name: Atualizar destaques.json
+        run: node scripts/geocode.mjs
+      - name: Salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add destaques-top.json destaques.json
+          git diff --cached --quiet || (git commit -m "Destaques pela nota do Google" && git pull --rebase -X theirs origin main && git push)

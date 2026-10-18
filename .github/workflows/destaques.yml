@@ -3,7 +3,7 @@ name: Destaques no mapa
 on:
   push:
     branches: [main]
-    paths: [destaques-fonte.json, "lugares/**", scripts/geocode.mjs]
+    paths: [destaques-fonte.json, destaques-top.json, "lugares/**", scripts/geocode.mjs]
   workflow_dispatch:
 
 permissions:
