@@ -30,7 +30,7 @@ html, body { margin: 0; }
   --park: #B8D9A6; --tree: #93C27E; --water: #A7CDE4; --label: #6E7D73;
   --me: #3B2BF5; --me-ring: #FFFFFF; --range: rgba(59, 43, 245, .10); --range-line: rgba(59, 43, 245, .55);
   --on-pin: #FFFFFF; --shadow: rgba(20, 35, 25, .22);
-  --c-cafe: #A0471D; --c-bar: #6A35B0; --c-doce: #D03A78; --c-verde: #23874A; --c-cultura: #1E62C4;
+  --c-cafe: #A0471D; --c-bar: #6A35B0; --c-doce: #D03A78; --c-verde: #23874A; --c-cultura: #1E62C4; --c-comida: #0E7F84;
   --f-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
   --f-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -42,7 +42,7 @@ html, body { margin: 0; }
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
-  --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA;
+  --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA; --c-comida: #2DB3B8;
   color-scheme: dark;
 } }
 :root[data-theme="dark"] {
@@ -52,7 +52,7 @@ html, body { margin: 0; }
   --park: #1E3727; --tree: #285237; --water: #1A3448; --label: #7E9187;
   --me: #8C80FF; --me-ring: #0D0B1C; --range: rgba(140, 128, 255, .14); --range-line: rgba(140, 128, 255, .6);
   --on-pin: #FFFFFF; --shadow: rgba(0, 0, 0, .5);
-  --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA;
+  --c-cafe: #D06A39; --c-bar: #9566DB; --c-doce: #EC5E96; --c-verde: #3DAE69; --c-cultura: #4C8BEA; --c-comida: #2DB3B8;
   color-scheme: dark;
 }
 [hidden] { display: none !important; }
@@ -384,7 +384,18 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
 .mewrap { background: none; border: 0; }
 .mewrap svg { overflow: visible; display: block; }
 .range-circle { fill: var(--range); fill-opacity: 1; stroke: var(--range-line); stroke-width: 1.5; stroke-dasharray: 5 6; }
-.status { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 96px); z-index: 500;
+.filters { position: absolute; top: 10px; left: 0; right: 0; z-index: 510; display: flex; gap: 8px; overflow-x: auto; padding: 2px max(12px, env(safe-area-inset-left, 0px)) 6px; scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 24px), transparent); }
+.filters::-webkit-scrollbar { display: none; }
+.fchip { flex: none; display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px;
+  padding: 7px 12px 7px 9px; font: 700 13px var(--f-body); box-shadow: 0 3px 10px var(--shadow); white-space: nowrap; }
+.fchip .ic { width: 16px; height: 16px; color: var(--cc, var(--brand)); stroke-width: 2.2; }
+.fchip[aria-pressed="true"] { background: var(--cc, var(--brand)); border-color: var(--cc, var(--brand)); color: #fff; }
+.fchip[aria-pressed="true"] .ic { color: #fff; }
+.fchip.all { padding-left: 12px; }
+.near-empty { margin: 0 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; font-size: 14px; color: var(--muted); box-shadow: 0 6px 18px var(--shadow); }
+.near-empty b { color: var(--fg); }
+.status { position: absolute; top: 58px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 96px); z-index: 500;
   display: flex; align-items: center; gap: 10px; background: var(--ink); color: var(--ink-fg); font-size: 13px; font-weight: 600; padding: 8px 14px; border-radius: 999px; box-shadow: 0 6px 18px var(--shadow); }
 .status span { flex: 1; min-width: 0; line-height: 1.35; }
 .status button { flex: none; border: 0; border-radius: 10px; background: var(--gold); color: var(--gold-fg); font-weight: 700; font-size: 12px; padding: 6px 10px; }
@@ -431,6 +442,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
     <section class="view" id="v-mapa" aria-label="Mapa">
       <div id="map"></div>
       <div class="sky" aria-hidden="true"></div>
+      <div class="filters" id="filters" role="group" aria-label="Filtrar lugares"></div>
       <div class="status" id="status" hidden></div>
       <button class="fab" id="fabMe" type="button" aria-label="Centralizar em mim"></button>
       <button class="fab" id="fabDemo" type="button" aria-label="Modo demo: tocar no mapa para andar"></button>
@@ -475,6 +487,9 @@ const ICONS = {
   bar: '<path d="M5.5 4h13L12 12z"/><path d="M12 12v7.5M8 20h8"/>',
   doce: '<path d="M7 10a5 5 0 0 1 10 0z"/><path d="M7.5 10l4.5 11 4.5-11"/>',
   verde: '<path d="M12 3c3.6 0 6 2.8 6 6.2S15.6 15 12 15s-6-2.4-6-5.8S8.4 3 12 3z"/><path d="M12 15v6M9 21h6M12 11l2.5-2.5"/>',
+  comida: '<path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10"/><path d="M17 21V3c-2 1-3 3.5-3 7v3h3"/>',
+  manha: '<path d="M3 18h18M7 18a5 5 0 0 1 10 0"/><path d="M12 6v3M5.6 9.6l1.8 1.8M18.4 9.6l-1.8 1.8"/>',
+  museu: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
   cultura: '<path d="M3.5 5.5A1.5 1.5 0 0 1 5 4h6v16H5a1.5 1.5 0 0 0-1.5 1.5z"/><path d="M20.5 5.5A1.5 1.5 0 0 0 19 4h-6v16h6a1.5 1.5 0 0 1 1.5 1.5z"/>',
   map: '<path d="M3 6.5l6-2.5 6 2.5 6-2.5v13.5l-6 2.5-6-2.5-6 2.5z"/><path d="M9 4v13.5M15 6.5V20"/>',
   grid: '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
@@ -501,6 +516,7 @@ const CATS = {
   doce:    { nome: 'Doces e padarias', col: 'Doce Vida', badge: 'Formiguinha', meta: 5, oferta: 'Um doce grátis na primeira visita' },
   verde:   { nome: 'Ao ar livre', col: 'Pulmão Verde', badge: 'Respira fundo', meta: 3, oferta: null },
   cultura: { nome: 'Cultura', col: 'Cultura de Bairro', badge: 'Rato de sebo', meta: 3, oferta: '10% na primeira compra ou ingresso' },
+  comida:  { nome: 'Restaurante', col: 'Bom de Garfo', badge: 'Garfo de ouro', meta: 5, oferta: null },
 };
 const CAT_IDS = Object.keys(CATS);
 
@@ -733,7 +749,7 @@ function syncMarkers() {
   for (const p of places.values()) {
     let m = markers.get(p.id);
     // só desenha paradas por perto (os destaques cobrem o Brasil todo)
-    if (me && dist(p) > 5000) { if (m) { m.remove(); markers.delete(p.id); } continue; }
+    if ((me && dist(p) > 5000) || !shown(p)) { if (m) { m.remove(); markers.delete(p.id); } continue; }
     const cls = pinClass(p);
     if (!m) {
       const el = document.createElement('button');
@@ -789,9 +805,10 @@ function useFallback(why) {
 function categorize(t) {
   const a = t.amenity, s = t.shop, tr = t.tourism, l = t.leisure;
   if (a === 'cafe') return 'cafe';
+  if (a === 'restaurant') return 'comida';
   if (a === 'bar' || a === 'pub' || a === 'biergarten') return 'bar';
   if (a === 'ice_cream' || ['bakery', 'confectionery', 'pastry', 'chocolate'].includes(s)) return 'doce';
-  if (l === 'park' || tr === 'viewpoint') return 'verde';
+  if (l === 'park' || tr === 'viewpoint' || t.natural === 'beach') return 'verde';
   if (['cinema', 'theatre', 'library', 'arts_centre'].includes(a) || ['books', 'music'].includes(s) || ['museum', 'gallery'].includes(tr)) return 'cultura';
   return null;
 }
@@ -805,9 +822,11 @@ async function loadPlaces() {
     nwr${ar}["shop"~"^(bakery|confectionery|pastry|chocolate|books|music)$"]["name"];
     nwr${ar}["tourism"~"^(museum|gallery|viewpoint)$"]["name"];
     nwr${ar}["leisure"="park"]["name"];
-  );out center 400;`;
+    nwr${ar}["natural"="beach"]["name"];
+    nwr${ar}["amenity"="restaurant"]["name"];
+  );out center 700;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
-  const ck = `places:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
+  const ck = `places2:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
   let data = null;
   try { const hit = JSON.parse(localStorage.getItem(ck)); if (hit && Date.now() - hit.t < 864e5) data = hit.d; } catch (e) {}
   if (!data) {
@@ -839,7 +858,7 @@ async function loadPlaces() {
     if (dupOfDest(lat, lng, t.name)) continue;
     const id = el.type[0] + el.id;
     if (!places.has(id)) n++;
-    places.set(id, { id, n: t.name, cat, lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
+    places.set(id, { id, n: t.name, cat, kind: t.amenity || t.shop || t.tourism || t.leisure || t.natural || '', lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
       addr: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(', '), hours: t.opening_hours || '' });
   }
   updateWhere();
@@ -880,7 +899,7 @@ async function loadDestaques() {
 }
 function updateWhere() {
   if (demo || !me) return;
-  const n = [...places.values()].filter(p => dist(p) <= RADIUS_FETCH).length;
+  const n = [...places.values()].filter(p => dist(p) <= RADIUS_FETCH && shown(p)).length;
   $('#where').textContent = n ? `${n} ${n === 1 ? 'lugar' : 'lugares'} por perto` : 'Você está aqui';
 }
 const offerOf = p => (p.parceiro && p.oferta) || null;
@@ -931,10 +950,41 @@ $('#status').addEventListener('click', e => {
 });
 function status(html) { const s = $('#status'); if (!html) { s.hidden = true; s.innerHTML = ''; return; } s.innerHTML = html; s.hidden = false; }
 
+// ---------- filtros por tipo ----------
+const FILTERS = [
+  { id: 'cafe', nome: 'Cafés', ic: 'cafe', cc: 'var(--c-cafe)', ok: p => p.cat === 'cafe' },
+  { id: 'manha', nome: 'Café da manhã', ic: 'manha', cc: 'var(--c-cafe)', ok: p => p.cat === 'cafe' || ['bakery', 'pastry'].includes(p.kind) || /padaria|panifica|confeitaria|empório/i.test(p.n) },
+  { id: 'comida', nome: 'Restaurantes', ic: 'comida', cc: 'var(--c-comida)', ok: p => p.cat === 'comida' },
+  { id: 'bar', nome: 'Bares', ic: 'bar', cc: 'var(--c-bar)', ok: p => p.cat === 'bar' },
+  { id: 'doce', nome: 'Doces e sorvetes', ic: 'doce', cc: 'var(--c-doce)', ok: p => p.cat === 'doce' },
+  { id: 'livro', nome: 'Livrarias', ic: 'cultura', cc: 'var(--c-cultura)', ok: p => p.kind === 'books' || /livrari|sebo\b/i.test(p.n) },
+  { id: 'cultura', nome: 'Museus e cultura', ic: 'museu', cc: 'var(--c-cultura)', ok: p => p.cat === 'cultura' && p.kind !== 'books' && !/livrari|sebo\b/i.test(p.n) },
+  { id: 'verde', nome: 'Parques e praias', ic: 'verde', cc: 'var(--c-verde)', ok: p => p.cat === 'verde' },
+  { id: 'dest', nome: 'Destaques', ic: 'star', cc: 'var(--gold)', ok: p => !!p.dest },
+];
+let filt = new Set();
+try { filt = new Set(JSON.parse(localStorage.getItem('fuila-filtros') || '[]').filter(id => FILTERS.some(f => f.id === id))); } catch (e) {}
+const shown = p => !filt.size || FILTERS.some(f => filt.has(f.id) && f.ok(p));
+function renderFilters() {
+  $('#filters').innerHTML = `<button type="button" class="fchip all" data-f="" aria-pressed="${!filt.size}">Tudo</button>` +
+    FILTERS.map(f => `<button type="button" class="fchip" data-f="${f.id}" style="--cc:${f.cc}" aria-pressed="${filt.has(f.id)}">${ic(f.ic)}${f.nome}</button>`).join('');
+}
+$('#filters').addEventListener('click', e => {
+  const b = e.target.closest('[data-f]'); if (!b) return;
+  const id = b.dataset.f;
+  if (!id) filt.clear(); else filt.has(id) ? filt.delete(id) : filt.add(id);
+  try { localStorage.setItem('fuila-filtros', JSON.stringify([...filt])); } catch (err) {}
+  renderFilters(); refresh(); updateWhere();
+});
 function renderNear() {
   const rank = p => dist(p) - (p.dest ? 400 : 0);
-  const list = [...places.values()].filter(p => dist(p) < 50000).sort((a, b) => rank(a) - rank(b)).slice(0, 8);
-  const inR = [...places.values()].filter(p => dist(p) <= reach() && !st.visits[p.id]).length;
+  const list = [...places.values()].filter(p => dist(p) < 50000 && shown(p)).sort((a, b) => rank(a) - rank(b)).slice(0, 8);
+  const inR = [...places.values()].filter(p => shown(p) && dist(p) <= reach() && !st.visits[p.id]).length;
+  if (!list.length && filt.size && !openId && places.size) {
+    $('#near').hidden = false;
+    $('#near').innerHTML = `<div class="near-empty"><b>Nada desse tipo por perto.</b> Tente outro filtro ou toque em Tudo.</div>`;
+    return;
+  }
   $('#near').hidden = !!openId || !list.length;
   $('#near').innerHTML = `<div class="near-h"><b>Perto de você</b><span>${inR ? `${inR} para carimbar agora` : `Raio de check-in: ${R} m`}</span></div>
     <div class="near-track">${list.map(p => {
@@ -1265,7 +1315,7 @@ let toastT = 0;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, 2400); }
 
 // ---------- início ----------
-renderChrome(); renderFabs(); show('mapa');
+renderChrome(); renderFabs(); renderFilters(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
 loadDestaques();
 startGPS();

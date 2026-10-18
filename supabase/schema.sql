@@ -25,7 +25,7 @@ create table if not exists public.visits (
 create table if not exists public.partners (
   id text primary key default ('p-' || substr(md5(random()::text), 1, 8)),
   n text not null,
-  cat text not null check (cat in ('cafe', 'bar', 'doce', 'verde', 'cultura')),
+  cat text not null check (cat in ('cafe', 'bar', 'doce', 'verde', 'cultura', 'comida')),
   lat double precision not null,
   lng double precision not null,
   endereco text,
