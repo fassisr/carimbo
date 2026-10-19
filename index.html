@@ -1221,8 +1221,8 @@ async function loadPlaces() {
     nwr${ar}["leisure"~"^(water_park|trampoline_park)$"]["name"];
   );out center 1500;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
-  const ck = `places3:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
-  try { for (const k of Object.keys(localStorage)) if (k.startsWith('places2:')) localStorage.removeItem(k); } catch (e) {}
+  const ck = `places4:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
+  try { for (const k of Object.keys(localStorage)) if (/^places[23]:/.test(k)) localStorage.removeItem(k); } catch (e) {}
   let data = null;
   try { const hit = JSON.parse(localStorage.getItem(ck)); if (hit && Date.now() - hit.t < 864e5) data = hit.d; } catch (e) {}
   if (!data) {
