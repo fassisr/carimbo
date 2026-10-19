@@ -295,6 +295,7 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .cta.gold { background: var(--gold); color: var(--gold-fg); --e: var(--gold-edge); }
 .cta.soft { background: var(--surface-2); color: var(--fg); --e: var(--edge); }
 .cta[disabled] { background: var(--surface-2); color: var(--muted); box-shadow: none; cursor: default; font-size: var(--t-md); }
+.linkbtn.inline { display: inline; margin: 0; padding: 0; font-size: inherit; }
 .linkbtn { display: block; margin: 12px auto 0; background: none; border: 0; color: var(--ink); font-weight: 700; font-size: var(--t-sm); text-decoration: underline; text-underline-offset: 3px; }
 /* ficha do lugar: cabeçalho com foto ou com a cor e o ícone da categoria */
 .sheet.hero { padding-top: 0; }
@@ -357,6 +358,19 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .ftile[aria-pressed="true"] i { background: var(--cc); color: #fff; }
 .ftile[aria-pressed="true"] i .du { opacity: .35; }
 .sh-sub { color: var(--muted); font-size: var(--t-sm); margin: 0; }
+.afield { display: grid; gap: 6px; margin-top: 14px; font-weight: 800; font-size: var(--t-sm); }
+.afield small { font-weight: 600; color: var(--muted); }
+.afield input { border: 2px solid var(--line); border-radius: var(--r-sm); padding: 12px; font: 600 16px var(--f-body, inherit); background: var(--surface-2); color: var(--fg); min-height: 48px; }
+.afield input:focus { outline: none; border-color: var(--ink); }
+.fgrid.tight { margin: 8px 0 0; }
+.a-dup { display: flex; align-items: center; gap: 10px; width: 100%; margin-top: 8px; border: 2px dashed var(--gold); background: color-mix(in srgb, var(--gold) 12%, var(--surface)); color: var(--fg); border-radius: var(--r-sm); padding: 10px 12px; text-align: left; font-size: var(--t-sm); min-height: 48px; }
+.a-dup .ic { width: 20px; height: 20px; color: var(--ink); flex: none; }
+#asheet .cta { margin-top: 18px; }
+#asheet .cta[disabled] { opacity: .5; }
+.a-note { color: var(--muted); font-size: var(--t-xs); text-align: center; margin: 10px 0 0; }
+.near-card.add { border: 2px dashed var(--ink); background: color-mix(in srgb, var(--ink) 6%, var(--surface)); }
+.near-card.add .nc-ic { background: var(--ink); color: var(--ink-fg); }
+.sug-chip { background: var(--surface-2); color: var(--fg); }
 
 /* ===== telas (passaporte, coleções, cupons) ===== */
 .near-card.skel { pointer-events: none; }
@@ -772,6 +786,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
       </div>
       <div class="sheet" id="sheet" hidden></div>
       <div class="sheet" id="fsheet" role="dialog" aria-label="Filtrar lugares" hidden></div>
+      <div class="sheet" id="asheet" role="dialog" aria-label="Cadastrar lugar" hidden></div>
     </section>
     <section class="view list" id="v-colecoes" hidden></section>
     <section class="view list" id="v-cupons" hidden></section>
@@ -850,7 +865,7 @@ const DUO = {
   ticket: '<path d="M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z"/>', passport: '<rect x="5" y="3" width="14" height="18" rx="2"/>', qr: '<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/>',
   stamp: '<path d="M9.5 3h5v5.5l3.5 3V14H6v-2.5l3.5-3z"/>', flag: '<path d="M5 4h11l-2 4 2 4H5z"/>', crown: '<path d="M4 8l4.5 4L12 5l3.5 7L20 8l-2 8H6z"/>', compass: '<circle cx="12" cy="12" r="9"/>',
   lock: '<rect x="5" y="11" width="14" height="10" rx="2"/>', locate: '<circle cx="12" cy="12" r="7"/>', star: ICONS.star, walk: '<circle cx="13" cy="4.5" r="1.8"/>',
-  filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', hanger: '<path d="M12 8.7L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7z"/>', party: '<path d="M4 20l4.5-12 7.5 7.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
+  filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', plus: '<path d="M12 5v14M5 12h14"/>', hanger: '<path d="M12 8.7L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7z"/>', party: '<path d="M4 20l4.5-12 7.5 7.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
 };
 const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${DUO[n] ? `<g class="du">${DUO[n]}</g>` : ''}${ICONS[n]}</svg>`;
 
@@ -865,7 +880,7 @@ const CATS = {
 const CAT_IDS = Object.keys(CATS);
 
 // ---------- estado ----------
-const fresh = () => ({ visits: {}, coupons: [], xp: 0, badges: {}, mis: {}, chests: 0, inv: null });
+const fresh = () => ({ visits: {}, coupons: [], xp: 0, badges: {}, mis: {}, chests: 0, inv: null, mine: [] });
 let st = (() => {
   try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && typeof s === 'object' && s.visits) return Object.assign(fresh(), s); } catch (e) {}
   return fresh();
@@ -1206,7 +1221,7 @@ async function loadPlaces() {
       addr: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(', '), hours: t.opening_hours || '' });
   }
   updateWhere();
-  if (!places.size) status('<span>Não achei cafés, bares ou parques mapeados aqui. Tente andar um pouco ou use o modo demo.</span>');
+  if (!places.size) status('<span>Não achei cafés, bares ou parques mapeados aqui.</span><button type="button" data-act="add-place">Cadastrar</button>');
   else if (!demo || !$('#status').innerHTML.includes('retry-gps')) status(null);
   refresh();
 }
@@ -1269,6 +1284,7 @@ const offerOf = p => (p.parceiro && p.oferta) || null;
 if (map) map.on('click', e => {
   if (openId) { closeSheet(); return; }
   if (!$('#fsheet').hidden) { closeFilters(); return; }
+  if (!$('#asheet').hidden) { closeAdd(); return; }
   if (!demo) { toast('Ligue o modo demo (botão do boneco) para andar tocando no mapa'); return; }
   walkTo(e.lngLat.lat, e.lngLat.lng);
 });
@@ -1313,6 +1329,7 @@ $('#fabDemo').onclick = () => {
 $('#status').addEventListener('click', e => {
   const a = e.target.closest('[data-act]'); if (!a) return;
   if (a.dataset.act === 'retry-places') loadPlaces();
+  if (a.dataset.act === 'add-place') openAdd();
   if (a.dataset.act === 'retry-gps') { demo = false; renderFabs(); me = null; startGPS(); }
 });
 function status(html) { const s = $('#status'); if (!html) { s.hidden = true; s.innerHTML = ''; return; } s.innerHTML = html; s.hidden = false; }
@@ -1365,7 +1382,7 @@ function renderNear() {
   if (!radar || openId) { $('#near').hidden = true; return; }
   if (!list.length && filt.size && places.size) {
     $('#near').hidden = false;
-    $('#near').innerHTML = `<div class="near-empty"><b>Nada desse tipo por perto.</b> Tente outro filtro ou toque em Tudo.</div>`;
+    $('#near').innerHTML = `<div class="near-empty"><b>Nada desse tipo por perto.</b> Tente outro filtro ou <button type="button" class="linkbtn inline" data-add>cadastre um lugar</button>.</div>`;
     return;
   }
   if (!list.length) { $('#near').hidden = false; $('#near').innerHTML = `<div class="near-h"><b>Procurando lugares…</b><span>Já já eles aparecem</span></div><div class="near-track">${'<div class="near-card skel"><span class="nc-ic"></span><span class="sk"></span><span class="sk short"></span></div>'.repeat(3)}</div>`; return; }
@@ -1379,9 +1396,9 @@ function renderNear() {
         <span class="nc-name">${esc(p.n)}</span>
         <span class="nc-meta"><span>${CATS[p.cat].nome}</span><span>·</span><span>${fmtM(d)}</span>${tag}</span>
       </button>`;
-    }).join('')}</div>`;
+    }).join('')}<button class="near-card add" type="button" data-add><span class="nc-ic">${ic('plus')}</span><span class="nc-name">Cadastrar lugar</span><span class="nc-meta"><span>Falta um lugar aqui?</span></span></button></div>`;
 }
-$('#near').addEventListener('click', e => { const b = e.target.closest('[data-open]'); if (b) openSheet(b.dataset.open); });
+$('#near').addEventListener('click', e => { if (e.target.closest('[data-add]')) return openAdd(); const b = e.target.closest('[data-open]'); if (b) openSheet(b.dataset.open); });
 let radar = false;
 try { radar = localStorage.getItem('fuila-radar') === '1'; } catch (e) {}
 $('#fabRadar').onclick = () => { radar = !radar; try { localStorage.setItem('fuila-radar', radar ? '1' : '0'); } catch (e) {} closeMenu(); closeFilters(); if (openId) closeSheet(); else renderNear(); };
@@ -1395,6 +1412,80 @@ function closeSheet() {
   else { sh.classList.add('leaving'); setTimeout(() => { if (!openId) { sh.hidden = true; sh.className = 'sheet'; } }, 170); }
   renderNear(); follow = true; followCam();
 }
+// ---------- cadastrar lugar: quem está num lugar que falta no mapa pode criá-lo ----------
+const MAX_NEW_DAY = 3;
+let addDraft = { n: '', cat: '', d: '' };
+const minePlace = x => ({ id: x.id, n: x.n, cat: x.cat, lat: x.lat, lng: x.lng, desc: x.d || '', mine: true, sug: x.status || 'pendente' });
+function applyMine() { for (const x of st.mine || []) places.set(x.id, minePlace(x)); }
+const newToday = () => (st.mine || []).filter(x => x.at >= startOfDay(Date.now())).length;
+// lugar parecido já no mapa: mesmo nome perto, ou qualquer lugar colado
+function lookalike(name) {
+  const t = toks(name);
+  return [...places.values()].filter(p => { const m = dist(p); return m < 12 || (m < 80 && t.some(w => toks(p.n).includes(w))); }).sort((a, b) => dist(a) - dist(b))[0];
+}
+function openAdd() {
+  closeMenu(); closeFilters(); if (openId) closeSheet();
+  if (!me) { toast('Ainda procurando sua localização'); return; }
+  $('#asheet').hidden = false; renderAdd();
+}
+function closeAdd() { $('#asheet').hidden = true; }
+function renderAdd() {
+  const el = $('#asheet'); if (el.hidden) return;
+  const acc = Math.round(me?.acc || 0), left = MAX_NEW_DAY - newToday(), dup = addDraft.n.trim().length > 2 && lookalike(addDraft.n);
+  const ok = addDraft.n.trim().length >= 2 && addDraft.cat && left > 0;
+  el.innerHTML = `<div class="sh-grab"></div>
+    <button class="sh-close" type="button" data-a="close" aria-label="Fechar">${ic('close')}</button>
+    <h2>Cadastrar lugar</h2>
+    <p class="sh-sub">O lugar fica no ponto onde você está agora${acc > 25 && !demo ? ` (GPS com ±${acc} m: chegue perto da porta)` : ''}.</p>
+    <label class="afield"><span>Nome do lugar</span><input name="n" maxlength="60" placeholder="Ex.: Bar do Zé" autocomplete="off" value="${esc(addDraft.n)}"></label>
+    ${dup ? `<button type="button" class="a-dup" data-a="dup" data-id="${dup.id}">${ic(dup.cat)}<span><b>Já está no mapa?</b> ${esc(dup.n)} · ${fmtM(dist(dup))}</span></button>` : ''}
+    <div class="afield"><span>Tipo</span></div>
+    <div class="fgrid tight">${CAT_IDS.map(c => `<button type="button" class="ftile" data-cat="${c}" style="--cc:var(--c-${c})" aria-pressed="${addDraft.cat === c}"><i>${ic(c)}</i>${CATS[c].nome}</button>`).join('')}</div>
+    <label class="afield"><span>O que tem de bom? <small>(opcional)</small></span><input name="d" maxlength="120" placeholder="Ex.: pastel de feira e caldo de cana" autocomplete="off" value="${esc(addDraft.d)}"></label>
+    <button type="button" class="cta gold" data-a="save"${ok ? '' : ' disabled'}>${ic('plus')} ${left > 0 ? 'Cadastrar e carimbar' : 'Limite de hoje atingido'}</button>
+    <p class="a-note">${left > 0 ? `Você pode cadastrar mais ${left} ${left === 1 ? 'lugar' : 'lugares'} hoje.` : `São ${MAX_NEW_DAY} lugares novos por dia. Volte amanhã!`} Ele aparece para você na hora${cloud.on ? ' e para todos depois que a equipe Fuilá aprovar' : ''}.</p>`;
+}
+$('#asheet').addEventListener('input', e => {
+  const f = e.target.name; if (!f) return;
+  addDraft[f] = e.target.value;
+  // atualiza só o que depende do texto, sem perder o foco do campo
+  const dup = addDraft.n.trim().length > 2 && lookalike(addDraft.n), box = $('#asheet .a-dup');
+  if (f === 'n' && (!!dup !== !!box || (dup && box.dataset.id !== dup.id))) { const pos = e.target.selectionStart; renderAdd(); const i = $('#asheet input[name="n"]'); i.focus(); i.setSelectionRange(pos, pos); return; }
+  $('#asheet [data-a="save"]').disabled = !(addDraft.n.trim().length >= 2 && addDraft.cat && newToday() < MAX_NEW_DAY);
+});
+$('#asheet').addEventListener('click', e => {
+  const c = e.target.closest('[data-cat]'); if (c) { addDraft.cat = c.dataset.cat; buzz(); return renderAdd(); }
+  const b = e.target.closest('[data-a]'); if (!b) return;
+  if (b.dataset.a === 'close') return closeAdd();
+  if (b.dataset.a === 'dup') { closeAdd(); return openSheet(b.dataset.id); }
+  if (b.dataset.a === 'save') saveAdd();
+});
+function saveAdd() {
+  const n = addDraft.n.trim().replace(/\s+/g, ' ');
+  if (n.length < 2 || !addDraft.cat || !me || newToday() >= MAX_NEW_DAY) return;
+  const x = { id: 'u-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6), n, cat: addDraft.cat, d: addDraft.d.trim(), lat: +me.lat.toFixed(6), lng: +me.lng.toFixed(6), acc: Math.round(me.acc || 0), at: Date.now(), status: 'pendente' };
+  (st.mine ||= []).push(x); save();
+  places.set(x.id, minePlace(x));
+  addDraft = { n: '', cat: '', d: '' };
+  closeAdd(); buzz('MEDIUM'); toast('Lugar cadastrado! Agora é só carimbar.');
+  refresh(); updateWhere(); openSheet(x.id);
+  if (cloud.on) cloud.suggest(x).then(() => { x.synced = 1; save(); }).catch(() => {});
+}
+// cadastros que ainda não foram para a nuvem, e os aprovados de outros jogadores
+async function syncMine() {
+  if (!cloud.on) return;
+  for (const x of st.mine || []) if (!x.synced) try { await cloud.suggest(x); x.synced = 1; } catch (e) {}
+  try {
+    const list = await cloud.approved();
+    for (const s of list) {
+      const own = (st.mine || []).find(x => x.id === s.id);
+      if (own) { own.status = s.status; places.set(own.id, minePlace(own)); continue; }
+      if (s.status === 'aprovado' && CATS[s.cat] && !places.has(s.id)) places.set(s.id, { id: s.id, n: s.n, cat: s.cat, lat: s.lat, lng: s.lng, desc: s.nota || '', sug: 'aprovado' });
+    }
+  } catch (e) {}
+  save(); refresh();
+}
+
 // ---------- navegação "Ir até lá": rota a pé com a próxima instrução ----------
 // rota do OSRM a pé mantido pela FOSSGIS (dados do OpenStreetMap, grátis com uso moderado)
 const ROUTER = 'https://routing.openstreetmap.de/routed-foot/route/v1/foot/';
@@ -1590,7 +1681,7 @@ function renderSheet() {
       ${foto ? `<img src="${esc(foto.url)}" alt="" onerror="this.parentNode.classList.remove('photo');this.remove()">` : ''}
       <div class="sh-grab"></div>
       <div class="hero-coin">${coin}</div>
-      <div class="hero-chips"><span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>${p.dest ? `<span class="dest-chip">${ic('star')} ${p.parceiro ? 'Parceiro Fuilá' : 'Destaque Fuilá'}</span>` : ''}</div>
+      <div class="hero-chips"><span class="cat-chip" style="--cc:var(--c-${p.cat})">${ic(p.cat)} ${C.nome}</span>${p.dest ? `<span class="dest-chip">${ic('star')} ${p.parceiro ? 'Parceiro Fuilá' : 'Destaque Fuilá'}</span>` : ''}${p.mine ? `<span class="dest-chip sug-chip">${ic('plus')} ${p.sug === 'aprovado' ? 'Cadastrado por você · aprovado' : 'Cadastrado por você'}</span>` : p.sug ? `<span class="dest-chip sug-chip">${ic('plus')} Cadastrado por jogador</span>` : ''}</div>
       ${foto ? `<a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(foto.arquivo)}"${native ? '' : ' target="_blank" rel="noopener"'}>Foto: Wikimedia Commons</a>` : ''}
     </div>
     <button class="sh-close" type="button" data-act="close" aria-label="Fechar">${ic('close')}</button>
@@ -2299,7 +2390,7 @@ function handlePendingQR() {
   cloud.checkinPartner(p.id, k, me.lat, me.lng).then(c => checkin(p, { code: c.code, of: c.oferta, at: Date.parse(c.at) || Date.now(), used: c.used_at ? Date.parse(c.used_at) : 0 })).catch(err => toast(err.message));
 }
 if (cloud.on) {
-  cloud.ready.then(ok => { if (ok) { cloudSync(); loadPartners(); } });
+  cloud.ready.then(ok => { if (ok) { cloudSync(); loadPartners(); syncMine(); } });
   cloud.onChange(ev => { if (ev === 'SIGNED_IN' || ev === 'USER_UPDATED') cloudSync(); });
 }
 
@@ -2350,7 +2441,7 @@ document.addEventListener('visibilitychange', () => {
   if (tab === 'mapa' && $('#intro').hidden) { window.fuilaPaused = false; window.avatar3d?.resume(); }
 });
 // ---------- início ----------
-ensureInv(); renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
+ensureInv(); applyMine(); renderChrome(); renderFabs(); renderFilters(); renderNear(); show('mapa');
 setTimeout(() => { const sp = $('#splash'); sp.classList.add('out'); setTimeout(() => sp.remove(), 450); }, reduced ? 100 : 900);
 loadDestaques(); loadFotos();
 if (seenIntro()) startGPS(); else setTimeout(showIntro, reduced ? 100 : 900);

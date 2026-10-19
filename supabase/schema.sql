@@ -114,3 +114,27 @@ create or replace view public.visitas_por_parceiro as
   from public.partners p left join public.visits v on v.place_id = p.id
   group by p.id, p.n, p.cidade;
 revoke all on public.visitas_por_parceiro from anon, authenticated;
+
+-- Lugares cadastrados pelos jogadores. Cada um vê os seus; os aprovados aparecem para todos.
+-- Para aprovar: Table Editor > sugestoes > mude status para 'aprovado' (ou 'recusado').
+create table if not exists public.sugestoes (
+  id text primary key,
+  user_id uuid not null references auth.users on delete cascade default auth.uid(),
+  n text not null check (char_length(n) between 2 and 60),
+  cat text not null check (cat in ('cafe', 'bar', 'doce', 'verde', 'cultura', 'comida')),
+  nota text check (nota is null or char_length(nota) <= 120),
+  lat double precision not null,
+  lng double precision not null,
+  precisao int,
+  status text not null default 'pendente' check (status in ('pendente', 'aprovado', 'recusado')),
+  criado timestamptz not null default now()
+);
+alter table public.sugestoes enable row level security;
+drop policy if exists "ver os meus e os aprovados" on public.sugestoes;
+create policy "ver os meus e os aprovados" on public.sugestoes for select using (user_id = auth.uid() or status = 'aprovado');
+drop policy if exists "sugerir" on public.sugestoes;
+-- até 3 por dia por jogador, e sempre como pendente
+create policy "sugerir" on public.sugestoes for insert with check (
+  user_id = auth.uid() and status = 'pendente'
+  and (select count(*) from public.sugestoes s where s.user_id = auth.uid() and s.criado > now() - interval '1 day') < 3
+);

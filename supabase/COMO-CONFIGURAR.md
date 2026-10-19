@@ -18,3 +18,7 @@ Para imprimir o QR do balcão, abra:
 ## Ver quantas visitas novas cada parceiro recebeu
 
 No **SQL Editor**: `select * from visitas_por_parceiro order by visitas_novas desc;`
+
+## Lugares cadastrados pelos jogadores
+
+Quando alguém cadastra um lugar que falta no mapa, ele aparece na hora só para essa pessoa e vai para a tabela `sugestoes` com status `pendente`. Para liberar para todo mundo, abra **Table Editor > sugestoes** e troque o status para `aprovado` (ou `recusado`). Cada jogador pode cadastrar até 3 lugares por dia.

@@ -62,6 +62,16 @@
     if (error) fail(error);
     return data;
   };
+  // lugares cadastrados por jogadores: cada um manda os seus; os aprovados aparecem para todos
+  C.suggest = async x => {
+    const { error } = await sb.from('sugestoes').upsert({ id: x.id, n: x.n, cat: x.cat, nota: x.d || null, lat: x.lat, lng: x.lng, precisao: x.acc ?? null, criado: new Date(x.at).toISOString() }, { onConflict: 'id', ignoreDuplicates: true });
+    if (error) fail(error);
+  };
+  C.approved = async () => {
+    const { data, error } = await sb.from('sugestoes').select('id, n, cat, nota, lat, lng, status');
+    if (error) fail(error);
+    return data || [];
+  };
   C.useCoupon = async id => { const { error } = await sb.rpc('usar_cupom', { p_id: id }); if (error) fail(error); };
 
   // salvar a conta com e-mail (código de 6 dígitos) ou entrar numa conta que já existe
