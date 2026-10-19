@@ -371,6 +371,27 @@ main { position: absolute; inset: 0; isolation: isolate; z-index: 0; }
 .near-card.add { border: 2px dashed var(--ink); background: color-mix(in srgb, var(--ink) 6%, var(--surface)); }
 .near-card.add .nc-ic { background: var(--ink); color: var(--ink-fg); }
 .sug-chip { background: var(--surface-2); color: var(--fg); }
+#ssheet { top: max(12px, env(safe-area-inset-top)); bottom: auto; max-height: calc(100% - 24px); border-radius: var(--r-lg); margin: 0 10px; animation: sdrop .22s ease-out; }
+@keyframes sdrop { from { transform: translateY(-14px); opacity: 0; } }
+.sbox { position: relative; margin-top: 4px; }
+.sbox .ic { position: absolute; left: 14px; top: 50%; translate: 0 -50%; width: 22px; height: 22px; color: var(--muted); pointer-events: none; }
+.sbox input { width: 100%; box-sizing: border-box; border: 2px solid var(--line); border-radius: 999px; padding: 12px 16px 12px 46px; font: 600 16px var(--f-body, inherit); background: var(--surface-2); color: var(--fg); min-height: 52px; }
+.sbox input:focus { outline: none; border-color: var(--ink); }
+.s-sec { margin: 14px 2px 4px; font-size: var(--t-xs); font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.s-row { display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; align-items: center; width: 100%; border: 0; background: none; color: var(--fg); text-align: left; padding: 9px 4px; border-radius: var(--r-sm); min-height: 56px; }
+.s-row:active { background: var(--surface-2); }
+.s-row + .s-row { border-top: 1px solid var(--line); }
+.s-row .s-ic { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--cc) 16%, transparent); color: var(--cc); }
+.s-row .s-ic .ic { width: 22px; height: 22px; }
+.s-row b { display: block; font-size: var(--t-md, 16px); line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.s-row small { display: block; color: var(--muted); font-size: var(--t-xs); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.s-row > span:nth-child(2) { min-width: 0; }
+.s-row em { font-style: normal; font-weight: 800; font-size: var(--t-xs); color: var(--ink); font-variant-numeric: tabular-nums; }
+.s-empty { color: var(--muted); font-size: var(--t-sm); text-align: center; padding: 18px 8px 8px; margin: 0; }
+.s-empty .spin { vertical-align: middle; margin-right: 6px; }
+.dest-pin { width: 40px; height: 46px; filter: drop-shadow(0 4px 4px rgba(20,10,80,.35)); animation: pinpop .45s cubic-bezier(.3,1.6,.5,1); transform-origin: bottom center; }
+@keyframes pinpop { from { transform: scale(.2) translateY(-30px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { #ssheet, .dest-pin { animation: none; } }
 
 /* ===== telas (passaporte, coleções, cupons) ===== */
 .near-card.skel { pointer-events: none; }
@@ -767,6 +788,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
           <span class="hud-pill"><b><span id="hudTitle">Turista</span><small id="hudXp">0 XP</small><em class="streak" id="hudStreak" hidden></em></b><span id="where">Procurando você…</span></span>
         </button>
         <div class="hud-side">
+          <button class="rbtn" id="fabSearch" type="button" aria-label="Buscar lugar"></button>
           <button class="rbtn" id="fabFilter" type="button" aria-label="Filtrar lugares"></button>
           <button class="rbtn" id="fabDemo" type="button" aria-label="Modo demo: tocar no mapa para andar"></button>
           <button class="rbtn" id="fabMis" type="button" aria-label="Missões e baús"></button>
@@ -786,6 +808,7 @@ svg.stamp .st-ic { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-l
       </div>
       <div class="sheet" id="sheet" hidden></div>
       <div class="sheet" id="fsheet" role="dialog" aria-label="Filtrar lugares" hidden></div>
+      <div class="sheet" id="ssheet" role="dialog" aria-label="Buscar lugar" hidden></div>
       <div class="sheet" id="asheet" role="dialog" aria-label="Cadastrar lugar" hidden></div>
     </section>
     <section class="view list" id="v-colecoes" hidden></section>
@@ -822,6 +845,7 @@ const FALLBACK = { lat: -23.5566, lng: -46.6905, nome: 'Vila Madalena, São Paul
 const OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
 
 const ICONS = {
+  search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20.5 20.5"/>',
   cafe: '<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8.5 3.5v2.5M12 3.5v2.5"/>',
   bar: '<path d="M5.5 4h13L12 12z"/><path d="M12 12v7.5M8 20h8"/>',
   doce: '<path d="M7 10a5 5 0 0 1 10 0z"/><path d="M7.5 10l4.5 11 4.5-11"/>',
@@ -865,7 +889,7 @@ const DUO = {
   ticket: '<path d="M3 7h18v3a2 2 0 0 0 0 4v3H3v-3a2 2 0 0 0 0-4z"/>', passport: '<rect x="5" y="3" width="14" height="18" rx="2"/>', qr: '<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/>',
   stamp: '<path d="M9.5 3h5v5.5l3.5 3V14H6v-2.5l3.5-3z"/>', flag: '<path d="M5 4h11l-2 4 2 4H5z"/>', crown: '<path d="M4 8l4.5 4L12 5l3.5 7L20 8l-2 8H6z"/>', compass: '<circle cx="12" cy="12" r="9"/>',
   lock: '<rect x="5" y="11" width="14" height="10" rx="2"/>', locate: '<circle cx="12" cy="12" r="7"/>', star: ICONS.star, walk: '<circle cx="13" cy="4.5" r="1.8"/>',
-  filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', plus: '<path d="M12 5v14M5 12h14"/>', hanger: '<path d="M12 8.7L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7z"/>', party: '<path d="M4 20l4.5-12 7.5 7.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
+  search: '<circle cx="10.5" cy="10.5" r="6.5"/>', filter: '<path d="M4 5h16l-6 7.5V19l-4 2v-8.5z"/>', plus: '<path d="M12 5v14M5 12h14"/>', hanger: '<path d="M12 8.7L3.6 15a1.5 1.5 0 0 0 .9 2.7h15a1.5 1.5 0 0 0 .9-2.7z"/>', party: '<path d="M4 20l4.5-12 7.5 7.5z"/>', radar: '<circle cx="12" cy="12" r="9"/>', ext: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>',
 };
 const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${DUO[n] ? `<g class="du">${DUO[n]}</g>` : ''}${ICONS[n]}</svg>`;
 
@@ -1295,6 +1319,7 @@ if (map) map.on('click', e => {
   if (openId) { closeSheet(); return; }
   if (!$('#fsheet').hidden) { closeFilters(); return; }
   if (!$('#asheet').hidden) { closeAdd(); return; }
+  if (!$('#ssheet').hidden) { closeSearch(); return; }
   if (!demo) { toast('Ligue o modo demo (botão do boneco) para andar tocando no mapa'); return; }
   walkTo(e.lngLat.lat, e.lngLat.lng);
 });
@@ -1323,6 +1348,7 @@ function renderFabs() {
   $('#fabDemo').innerHTML = ic('walk');
   $('#fabDemo').classList.toggle('on', demo);
   if (nav) renderNav();
+  $('#fabSearch').innerHTML = ic('search');
   $('#fabFilter').innerHTML = ic('filter') + (filt.size ? `<span class="count">${filt.size}</span>` : '');
   $('#fabFilter').classList.toggle('on', !!filt.size);
   renderMisFab();
@@ -1371,7 +1397,7 @@ function renderFilters() {
     <div class="fgrid">${FILTERS.map(f => `<button type="button" class="ftile" data-f="${f.id}" style="--cc:${f.cc}" aria-pressed="${filt.has(f.id)}"><i>${ic(f.ic)}</i>${f.nome}</button>`).join('')}</div>
     <button type="button" class="cta ${filt.size ? 'soft' : ''}" data-f="">${filt.size ? 'Mostrar tudo de novo' : 'Ver no mapa'}</button>`;
 }
-function openFilters() { closeMenu(); if (openId) closeSheet(); $('#fsheet').hidden = false; renderFilters(); }
+function openFilters() { closeMenu(); closeSearch(); if (openId) closeSheet(); $('#fsheet').hidden = false; renderFilters(); }
 function closeFilters() { $('#fsheet').hidden = true; }
 $('#fabFilter').onclick = () => $('#fsheet').hidden ? openFilters() : closeFilters();
 $('#fsheet').addEventListener('click', e => {
@@ -1415,7 +1441,7 @@ $('#fabRadar').onclick = () => { radar = !radar; try { localStorage.setItem('fui
 
 // ---------- ficha do lugar ----------
 let openId = null;
-function openSheet(id) { closeMenu(); closeFilters(); openId = id; follow = false; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
+function openSheet(id) { closeMenu(); closeFilters(); closeSearch(); openId = id; follow = false; $('#sheet').hidden = false; const p = getPlace(id); if (p && places.has(id)) flyTo(p.lat, p.lng); renderSheet(); renderNear(); }
 function closeSheet() {
   openId = null; const sh = $('#sheet');
   if (reduced || sh.hidden) { sh.hidden = true; sh.className = 'sheet'; }
@@ -1496,6 +1522,103 @@ async function syncMine() {
   save(); refresh();
 }
 
+// ---------- busca: acha um lugar (do jogo ou qualquer endereço) e já traça a rota ----------
+const PHOTON = 'https://photon.komoot.io/api/';
+const nrm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+let sq = '', sWeb = [], sWebQ = '', sLoading = false, sT = 0, sCtl = null;
+let sRecent = [];
+try { sRecent = JSON.parse(localStorage.getItem('fuila-busca') || '[]').filter(x => x && x.n && x.lat != null).slice(0, 5); } catch (e) {}
+function openSearch() {
+  closeMenu(); closeFilters(); closeAdd(); if (openId) closeSheet();
+  const el = $('#ssheet'); el.hidden = false;
+  el.innerHTML = `<button class="sh-close" type="button" data-s-close aria-label="Fechar">${ic('close')}</button>
+    <h2>Para onde?</h2>
+    <label class="sbox">${ic('search')}<input type="search" enterkeyhint="search" autocomplete="off" placeholder="Nome do lugar ou endereço" aria-label="Buscar lugar" value="${esc(sq)}"></label>
+    <div class="sres" aria-live="polite"></div>`;
+  renderSearch();
+  setTimeout(() => el.querySelector('input')?.focus(), 60);
+}
+function closeSearch() { const el = $('#ssheet'); if (el.hidden) return; el.hidden = true; el.innerHTML = ''; }
+// lugares do jogo: todas as palavras digitadas precisam começar alguma palavra do nome (ou da cidade)
+function searchLocal(q) {
+  const qs = nrm(q).split(/[^a-z0-9]+/).filter(Boolean); if (!qs.length) return [];
+  const out = [];
+  for (const p of places.values()) {
+    const ws = nrm(p.n).split(/[^a-z0-9]+/), cw = nrm(p.city || '').split(/[^a-z0-9]+/);
+    if (!qs.every(w => ws.some(x => x.startsWith(w)) || cw.some(x => x.startsWith(w)))) continue;
+    const exact = nrm(p.n).startsWith(nrm(q).trim()) ? 0 : 1;
+    out.push({ p, k: exact * 1e7 + (me ? dist(p) : 0) });
+  }
+  return out.sort((a, b) => a.k - b.k).slice(0, 8).map(x => x.p);
+}
+async function searchWeb(q) {
+  sCtl?.abort(); sCtl = new AbortController();
+  sLoading = true; renderSearch();
+  const c = me || FALLBACK;
+  try {
+    const r = await fetch(`${PHOTON}?limit=8&lat=${c.lat.toFixed(4)}&lon=${c.lng.toFixed(4)}&q=${encodeURIComponent(q)}`, { signal: sCtl.signal });
+    const j = await r.json();
+    sWeb = (j.features || []).map(f => {
+      const pr = f.properties || {}, [lng, lat] = f.geometry.coordinates;
+      const street = [pr.street, pr.housenumber].filter(Boolean).join(', ');
+      return { id: 'busca-' + (pr.osm_type || '') + (pr.osm_id || lat + ',' + lng), n: pr.name || street || pr.city || q, lat, lng, ext: true,
+        sub: [pr.name ? street : '', pr.district || pr.locality, pr.city || pr.county, pr.state].filter(Boolean).filter((x, i, a) => a.indexOf(x) === i).join(' · ') };
+    });
+    sWebQ = q;
+  } catch (e) { if (e.name === 'AbortError') return; sWeb = []; sWebQ = q; }
+  sLoading = false; renderSearch();
+}
+function sRow(p, i) {
+  const cc = p.ext ? 'var(--ink)' : p.dest ? 'var(--gold)' : `var(--c-${p.cat})`;
+  const sub = p.ext ? p.sub : [CATS[p.cat]?.nome, p.city].filter(Boolean).join(' · ');
+  return `<button type="button" class="s-row" data-s="${i}" style="--cc:${cc}"><span class="s-ic">${ic(p.ext ? 'ext' : p.dest ? 'star' : p.cat)}</span>
+    <span><b>${esc(p.n)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span><em>${me ? fmtM(meters(me, p)) : ''}</em></button>`;
+}
+let sList = [];
+function renderSearch() {
+  const box = $('#ssheet .sres'); if (!box) return;
+  const q = sq.trim();
+  let html = '';
+  sList = [];
+  if (!q) {
+    const near = [...places.values()].filter(p => shown(p) && dist(p) < 3000 && !st.visits[p.id]).sort((a, b) => dist(a) - dist(b)).slice(0, 4);
+    if (sRecent.length) { html += `<div class="s-sec">Buscas recentes</div>`; for (const p of sRecent) { html += sRow(p, sList.length); sList.push(p); } }
+    if (near.length) { html += `<div class="s-sec">Ainda sem carimbo, perto de você</div>`; for (const p of near) { html += sRow(p, sList.length); sList.push(p); } }
+    if (!html) html = `<p class="s-empty">Digite o nome de um lugar, de um bairro ou um endereço.</p>`;
+  } else {
+    const loc = searchLocal(q);
+    const web = sWebQ === q ? sWeb.filter(w => !loc.some(p => meters(p, w) < 60)) : [];
+    if (loc.length) { html += `<div class="s-sec">No Fuilá</div>`; for (const p of loc) { html += sRow(p, sList.length); sList.push(p); } }
+    if (web.length) { html += `<div class="s-sec">Endereços e outros lugares</div>`; for (const p of web) { html += sRow(p, sList.length); sList.push(p); } }
+    if (sLoading && !web.length) html += `<p class="s-empty"><span class="spin"></span>Procurando…</p>`;
+    else if (!html && q.length >= 3 && sWebQ === q) html = `<p class="s-empty">Nada encontrado para “${esc(q)}”.</p>`;
+  }
+  box.innerHTML = html;
+}
+$('#ssheet').addEventListener('input', e => {
+  if (!e.target.matches('input')) return;
+  sq = e.target.value; clearTimeout(sT);
+  if (sq.trim().length >= 3) sT = setTimeout(() => searchWeb(sq.trim()), 380); else { sCtl?.abort(); sLoading = false; }
+  renderSearch();
+});
+$('#ssheet').addEventListener('keydown', e => { if (e.key === 'Enter' && sList[0]) { e.preventDefault(); pickSearch(sList[0]); } });
+$('#ssheet').addEventListener('click', e => {
+  if (e.target.closest('[data-s-close]')) return closeSearch();
+  const b = e.target.closest('[data-s]'); if (b && sList[+b.dataset.s]) pickSearch(sList[+b.dataset.s]);
+});
+function pickSearch(p) {
+  buzz();
+  const keep = { id: p.id, n: p.n, lat: p.lat, lng: p.lng, cat: p.cat, dest: p.dest, city: p.city, ext: p.ext, sub: p.sub };
+  sRecent = [keep, ...sRecent.filter(x => x.id !== p.id)].slice(0, 5);
+  try { localStorage.setItem('fuila-busca', JSON.stringify(sRecent)); } catch (e) {}
+  closeSearch(); document.activeElement?.blur?.();
+  const g = !p.ext && getPlace(p.id);
+  if (g && dist(g) <= reach()) return openSheet(g.id);
+  if (nav) stopNav(false);
+  startNav(g || keep);
+}
+$('#fabSearch').onclick = () => $('#ssheet').hidden ? openSearch() : closeSearch();
+
 // ---------- navegação "Ir até lá": rota a pé com a próxima instrução ----------
 // rota do OSRM a pé mantido pela FOSSGIS (dados do OpenStreetMap, grátis com uso moderado)
 const ROUTER = 'https://routing.openstreetmap.de/routed-foot/route/v1/foot/';
@@ -1560,11 +1683,13 @@ async function fetchRoute() {
     const coords = rt.geometry.coordinates.map(([lng, lat]) => ({ lat, lng }));
     coords.unshift(from); coords.push({ lat: p.lat, lng: p.lng });
     setRoute(coords, rt.legs.flatMap(l => l.steps));
+    if (!my.introDone) { introRoute(); navTick(); return; }
   } catch (e) {
     if (nav !== my) return;
     // sem internet ou sem rota: linha reta com a direção, e tenta de novo depois
     setRoute([from, { lat: p.lat, lng: p.lng }], [{ maneuver: { type: 'depart' }, distance: meters(from, p) }, { maneuver: { type: 'arrive' }, distance: 0 }]);
     nav.straight = true; nav.fetchedAt = Date.now() - 20000;
+    if (!my.introDone) { introRoute(); navTick(); return; }
     toast('Sem rota agora: mostrando a direção do lugar');
   }
   navTick();
@@ -1572,12 +1697,59 @@ async function fetchRoute() {
 function navLayers() {
   if (!map || !mapReady) return;
   if (!map.getSource('nav')) {
-    map.addSource('nav', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+    map.addSource('nav', { type: 'geojson', lineMetrics: true, data: { type: 'FeatureCollection', features: [] } });
     const before = map.getLayer('avatar3d') ? 'avatar3d' : undefined;
     map.addLayer({ id: 'nav-case', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#FFFFFF', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 6, 19, 18], 'line-opacity': .95 } }, before);
     map.addLayer({ id: 'nav-line', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': dark ? '#8C80FF' : '#3B2BF5', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 3.5, 19, 11] } }, before);
     map.addLayer({ id: 'nav-dots', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#FFC21A', 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 1.5, 19, 4], 'line-dasharray': [0.1, 2.4] } }, before);
+    // brilho que corre de você até o destino
+    map.addLayer({ id: 'nav-pulse', type: 'line', source: 'nav', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 5, 19, 15], 'line-blur': 2, 'line-gradient': pulseGrad(-1) } }, before);
   }
+}
+const pulseGrad = t => {
+  const c0 = 'rgba(255,226,120,0)', c1 = 'rgba(255,240,170,.95)', a = Math.max(0.001, t - 0.12), b = Math.min(0.998, Math.max(a + 0.001, t)), e = Math.min(0.999, b + 0.001);
+  return t < 0 ? ['interpolate', ['linear'], ['line-progress'], 0, c0, 1, c0] : ['interpolate', ['linear'], ['line-progress'], 0, c0, a, c0, b, c1, e, c0, 1, c0];
+};
+let pulseRaf = 0;
+function pulseLoop() {
+  cancelAnimationFrame(pulseRaf);
+  if (reduced || !map) return;
+  let last = 0; const t0 = performance.now(), every = LOW ? 66 : 33;
+  const f = now => {
+    if (!nav?.coords || !map.getLayer('nav-pulse')) { map.getLayer('nav-pulse') && map.setPaintProperty('nav-pulse', 'line-gradient', pulseGrad(-1)); return; }
+    if (now - last >= every && !window.fuilaPaused) {
+      last = now;
+      // uma passada a cada ~2,4 s, com uma pausa curta no fim
+      const k = ((now - t0) % 2400) / 2000;
+      map.setPaintProperty('nav-pulse', 'line-gradient', pulseGrad(k <= 1 ? 1 - Math.pow(1 - k, 2) : -1));
+    }
+    pulseRaf = requestAnimationFrame(f);
+  };
+  pulseRaf = requestAnimationFrame(f);
+}
+// ao achar a rota: a linha se desenha de você até o lugar, a câmera mostra o caminho todo e volta para você
+function introRoute() {
+  nav.introDone = true;
+  if (!map || !me) return;
+  const b = new maplibregl.LngLatBounds([me.lng, me.lat], [me.lng, me.lat]);
+  for (const q of nav.coords) b.extend([q.lng, q.lat]);
+  follow = false;
+  const my = nav;
+  if (!reduced) {
+    nav.reveal = 0;
+    const t0 = performance.now(), D = 1200;
+    const f = now => {
+      if (nav !== my || !nav.coords) return;
+      const k = Math.min(1, (now - t0) / D);
+      nav.reveal = 1 - Math.pow(1 - k, 3);
+      drawRoute(nav.pr || project(me));
+      if (k < 1) requestAnimationFrame(f); else pulseLoop();
+    };
+    requestAnimationFrame(f);
+  }
+  map.fitBounds(b, { padding: { top: 60, bottom: 150, left: 60, right: 60 }, pitch: 35, bearing: 0, maxZoom: 18, duration: reduced ? 0 : 1000 });
+  clearTimeout(nav.backT);
+  nav.backT = setTimeout(() => { if (nav !== my || !me) return; follow = true; map.easeTo({ center: [me.lng, me.lat], zoom: 18, pitch: 60, bearing: heading, duration: reduced ? 0 : 1100 }); }, 3200);
 }
 function drawRoute(pr) {
   if (!map || !mapReady) return;
@@ -1588,22 +1760,41 @@ function drawRoute(pr) {
     const a = nav.coords[pr.i], b = nav.coords[pr.i + 1];
     const here = { lat: a.lat + (b.lat - a.lat) * pr.t, lng: a.lng + (b.lng - a.lng) * pr.t };
     line = [here, ...nav.coords.slice(pr.i + 1)].map(q => [q.lng, q.lat]);
+    if (nav.reveal != null && nav.reveal < 1) {
+      // desenhando: só até onde a animação chegou
+      const lim = pr.along + (nav.total - pr.along) * nav.reveal;
+      const j = nav.cum.findIndex(c => c >= lim);
+      if (j > pr.i + 1) {
+        const a2 = nav.coords[j - 1], b2 = nav.coords[j], t2 = (lim - nav.cum[j - 1]) / ((nav.cum[j] - nav.cum[j - 1]) || 1);
+        line = [here, ...nav.coords.slice(pr.i + 1, j), { lat: a2.lat + (b2.lat - a2.lat) * t2, lng: a2.lng + (b2.lng - a2.lng) * t2 }].map(q => [q.lng, q.lat]);
+      } else {
+        const t2 = nav.cum[pr.i + 1] > pr.along ? (lim - pr.along) / (nav.cum[pr.i + 1] - pr.along) : 1;
+        line = [here, { lat: here.lat + (b.lat - here.lat) * t2, lng: here.lng + (b.lng - here.lng) * t2 }].map(q => [q.lng, q.lat]);
+      }
+    }
   }
   map.getSource('nav').setData({ type: 'FeatureCollection', features: line.length > 1 ? [{ type: 'Feature', geometry: { type: 'LineString', coordinates: line }, properties: {} }] : [] });
 }
 function startNav(p) {
   if (!me) { toast('Ainda procurando sua localização'); return; }
-  nav = { p }; closeSheet(); closeMenu();
+  if (nav) stopNav(false);
+  nav = { p }; closeSheet(); closeMenu(); closeSearch();
+  if (map && p.ext) {
+    const el = document.createElement('div'); el.className = 'dest-pin';
+    el.innerHTML = '<svg viewBox="200 180 624 720" width="40" height="46" aria-hidden="true"><path fill="#FFC21A" stroke="#3B2BF5" stroke-width="40" d="M512 872C468 800 282 650 282 446a230 230 0 1 1 460 0c0 204-186 354-230 426z"/><circle cx="512" cy="446" r="80" fill="#3B2BF5"/></svg>';
+    nav.pin = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([p.lng, p.lat]).addTo(map);
+  }
   $('#v-mapa').classList.add('navigating');
   follow = true; if (map) map.easeTo({ center: [me.lng, me.lat], zoom: Math.max(map.getZoom(), 18), pitch: 60, duration: reduced ? 0 : 700 });
   buzz('MEDIUM');
   fetchRoute();
 }
 function stopNav(arrived) {
-  const p = nav?.p; nav = null; cancelAnimationFrame(walkRaf);
+  const p = nav?.p; nav?.pin?.remove(); clearTimeout(nav?.backT); nav = null; cancelAnimationFrame(walkRaf); cancelAnimationFrame(pulseRaf);
+  if (map?.getLayer('nav-pulse')) map.setPaintProperty('nav-pulse', 'line-gradient', pulseGrad(-1));
   $('#nav').hidden = true; $('#v-mapa').classList.remove('navigating');
   drawRoute(null);
-  if (arrived && p) { buzz('HEAVY'); som('badge'); toast(`Você chegou em ${p.n}!`); openSheet(p.id); }
+  if (arrived && p) { buzz('HEAVY'); som('badge'); toast(`Você chegou em ${p.n}!`); if (!p.ext) openSheet(p.id); }
 }
 function navTick() {
   if (!nav || !nav.coords || !me) return renderNav();
