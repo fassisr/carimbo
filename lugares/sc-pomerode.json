@@ -1,0 +1,81 @@
+[
+  {
+    "n": "Portal Turístico de Pomerode",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Portal em estilo enxaimel na entrada da cidade mais alemã do Brasil.",
+    "busca": [
+      "Portal Pomerode"
+    ]
+  },
+  {
+    "n": "Rota do Enxaimel",
+    "cat": "verde",
+    "end": "Testo Alto",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Estrada rural com a maior concentração de casas enxaimel fora da Europa."
+  },
+  {
+    "n": "Museu Pomerano",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Museu sobre a imigração pomerana e a vida dos colonos."
+  },
+  {
+    "n": "Zoo Pomerode",
+    "cat": "verde",
+    "end": "Rua Hermann Weege, Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Zoológico tradicional com grande variedade de animais.",
+    "busca": [
+      "Zoológico de Pomerode"
+    ]
+  },
+  {
+    "n": "Torten Paradies",
+    "cat": "doce",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Confeitaria famosa pelas tortas alemãs e café colonial."
+  },
+  {
+    "n": "Cervejaria Schornstein",
+    "cat": "bar",
+    "end": "Rua Hermann Weege, Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Cervejaria artesanal com bar e chope fresco.",
+    "busca": [
+      "Schornstein"
+    ]
+  },
+  {
+    "n": "Igreja Evangélica Luterana de Pomerode",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Igreja luterana histórica no centro da cidade.",
+    "busca": [
+      "Igreja Luterana Pomerode"
+    ]
+  },
+  {
+    "n": "Museu Histórico de Pomerode Carl Weege",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Pomerode",
+    "uf": "SC",
+    "d": "Casa enxaimel que guarda a memória dos colonizadores alemães.",
+    "busca": [
+      "Museu Carl Weege"
+    ]
+  }
+]

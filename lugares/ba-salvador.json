@@ -1,0 +1,268 @@
+[
+  {
+    "n": "Elevador Lacerda",
+    "cat": "cultura",
+    "end": "Praça Tomé de Souza, Centro Histórico",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Elevador art déco que liga a Cidade Alta à Cidade Baixa, com vista da Baía de Todos-os-Santos."
+  },
+  {
+    "n": "Mercado Modelo",
+    "cat": "cultura",
+    "end": "Praça Visconde de Cayru, 250, Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Mercado histórico cheio de artesanato baiano, bem em frente à baía."
+  },
+  {
+    "n": "Largo do Pelourinho",
+    "cat": "cultura",
+    "end": "Pelourinho, Centro Histórico",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Coração do centro histórico, com casarões coloridos e ladeiras de pedra.",
+    "busca": [
+      "Pelourinho"
+    ]
+  },
+  {
+    "n": "Igreja e Convento de São Francisco",
+    "cat": "cultura",
+    "end": "Largo do Cruzeiro de São Francisco, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Igreja barroca revestida de ouro, uma das mais impressionantes do Brasil."
+  },
+  {
+    "n": "Catedral Basílica de Salvador",
+    "cat": "cultura",
+    "end": "Terreiro de Jesus, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Antiga igreja dos jesuítas, com altares dourados e sacristia belíssima."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário dos Pretos",
+    "cat": "cultura",
+    "end": "Largo do Pelourinho, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Igreja azul construída por irmandade negra, famosa pela missa com tambores."
+  },
+  {
+    "n": "Fundação Casa de Jorge Amado",
+    "cat": "cultura",
+    "end": "Largo do Pelourinho, 51, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Casarão azul dedicado à obra e à memória de Jorge Amado."
+  },
+  {
+    "n": "Igreja de Nosso Senhor do Bonfim",
+    "cat": "cultura",
+    "end": "Largo do Bonfim, Bonfim",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Basílica das fitinhas, símbolo da fé baiana e da famosa Lavagem do Bonfim.",
+    "busca": [
+      "Basílica do Senhor do Bonfim"
+    ]
+  },
+  {
+    "n": "Forte de Santo Antônio da Barra",
+    "cat": "cultura",
+    "end": "Largo do Farol da Barra, Barra",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "O Farol da Barra, com museu náutico e o pôr do sol mais famoso da cidade.",
+    "busca": [
+      "Farol da Barra"
+    ]
+  },
+  {
+    "n": "Forte de Santo Antônio Além do Carmo",
+    "cat": "cultura",
+    "end": "Largo de Santo Antônio, Santo Antônio Além do Carmo",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Forte restaurado que virou casa da capoeira, com vista linda da baía."
+  },
+  {
+    "n": "Museu de Arte Moderna da Bahia",
+    "cat": "cultura",
+    "end": "Avenida Contorno, Solar do Unhão, Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu num solar colonial à beira-mar, com jardim de esculturas e pôr do sol.",
+    "busca": [
+      "Solar do Unhão",
+      "MAM Bahia"
+    ]
+  },
+  {
+    "n": "Museu de Arte da Bahia",
+    "cat": "cultura",
+    "end": "Avenida Sete de Setembro, 2340, Corredor da Vitória",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu mais antigo da Bahia, com mobiliário, pintura e arte sacra."
+  },
+  {
+    "n": "Teatro Castro Alves",
+    "cat": "cultura",
+    "end": "Praça Dois de Julho, Campo Grande",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Principal teatro da Bahia, com concha acústica para shows ao ar livre."
+  },
+  {
+    "n": "Porto da Barra",
+    "cat": "verde",
+    "end": "Avenida Sete de Setembro, Barra",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Praia de águas calmas dentro da cidade, queridinha dos soteropolitanos.",
+    "busca": [
+      "Praia do Porto da Barra"
+    ]
+  },
+  {
+    "n": "Dique do Tororó",
+    "cat": "verde",
+    "end": "Avenida Vasco da Gama, Tororó",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Lagoa com as esculturas dos orixás flutuando sobre a água."
+  },
+  {
+    "n": "Lagoa do Abaeté",
+    "cat": "verde",
+    "end": "Itapuã",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Lagoa escura cercada de dunas brancas, cantada por Dorival Caymmi.",
+    "busca": [
+      "Parque Metropolitano do Abaeté"
+    ]
+  },
+  {
+    "n": "Farol de Itapuã",
+    "cat": "verde",
+    "end": "Rua da Música, Itapuã",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Farol listrado à beira-mar, eternizado na canção de Vinicius e Toquinho."
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Avenida Antônio Carlos Magalhães, Itaigara",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Grande área verde para caminhar e fugir do calor no meio da cidade.",
+    "busca": [
+      "Parque da Cidade Joventino Silva"
+    ]
+  },
+  {
+    "n": "Acarajé da Dinha",
+    "cat": "comida",
+    "end": "Largo de Santana, Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Tabuleiro de acarajé mais famoso do Rio Vermelho, tradição de família."
+  },
+  {
+    "n": "Acarajé da Cira",
+    "cat": "comida",
+    "end": "Largo da Mariquita, Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Acarajé lendário, frito na hora no Largo da Mariquita."
+  },
+  {
+    "n": "Mercado do Rio Vermelho",
+    "cat": "comida",
+    "end": "Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "A Ceasinha do Rio Vermelho, com boxes de comida baiana, frutas e cerveja gelada.",
+    "busca": [
+      "Ceasinha do Rio Vermelho"
+    ]
+  },
+  {
+    "n": "Casa de Tereza",
+    "cat": "comida",
+    "end": "Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Restaurante de cozinha baiana autoral da chef Tereza Paim."
+  },
+  {
+    "n": "Yemanjá",
+    "cat": "comida",
+    "end": "Avenida Otávio Mangabeira, Jardim Armação",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Restaurante tradicional de moquecas e frutos do mar na orla.",
+    "busca": [
+      "Restaurante Yemanjá"
+    ]
+  },
+  {
+    "n": "Paraíso Tropical",
+    "cat": "comida",
+    "end": "Cabula",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Moquecas com frutas e ingredientes do próprio quintal do chef Beto Pimentel.",
+    "busca": [
+      "Restaurante Paraíso Tropical"
+    ]
+  },
+  {
+    "n": "Cantina da Lua",
+    "cat": "bar",
+    "end": "Terreiro de Jesus, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Bar e restaurante clássico do Terreiro de Jesus, ponto de encontro há décadas."
+  },
+  {
+    "n": "Boteco do França",
+    "cat": "bar",
+    "end": "Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Boteco tradicional do Rio Vermelho, com petiscos caprichados e mesas na calçada."
+  },
+  {
+    "n": "Sorveteria da Ribeira",
+    "cat": "doce",
+    "end": "Praça General Osório, Ribeira",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Sorveteria centenária com sabores de frutas da terra, programa obrigatório na Ribeira."
+  },
+  {
+    "n": "Perini",
+    "cat": "doce",
+    "end": "Graça",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Delicatéssen e padaria baiana tradicional, famosa por pães, doces e salgados.",
+    "busca": [
+      "Perini Graça"
+    ]
+  },
+  {
+    "n": "Cafélier",
+    "cat": "cafe",
+    "end": "Rua do Carmo, Santo Antônio Além do Carmo",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Café charmoso num casarão com varanda debruçada sobre a Baía de Todos-os-Santos."
+  }
+]

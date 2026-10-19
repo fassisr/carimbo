@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Falésias de Canoa Quebrada",
+    "cat": "verde",
+    "end": "Canoa Quebrada",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Falésias avermelhadas com o símbolo da lua e da estrela."
+  },
+  {
+    "n": "Praia de Canoa Quebrada",
+    "cat": "verde",
+    "end": "Canoa Quebrada",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Praia de mar calmo, barracas e passeios de jangada."
+  },
+  {
+    "n": "Duna do Pôr do Sol",
+    "cat": "verde",
+    "end": "Canoa Quebrada",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Duna para ver o sol se pôr sobre as falésias.",
+    "busca": [
+      "Duna do Pôr do Sol Canoa Quebrada"
+    ]
+  },
+  {
+    "n": "Broadway",
+    "cat": "bar",
+    "end": "Rua Dragão do Mar, Canoa Quebrada",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "A rua principal de Canoa, com bares e forró até tarde.",
+    "busca": [
+      "Rua Broadway Canoa Quebrada"
+    ]
+  },
+  {
+    "n": "Praia de Majorlândia",
+    "cat": "verde",
+    "end": "Majorlândia",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Praia de vila de pescadores com falésias coloridas."
+  },
+  {
+    "n": "Praia de Quixaba",
+    "cat": "verde",
+    "end": "Quixaba",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Praia tranquila de falésias, menos movimentada."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Igreja colonial no centro histórico tombado de Aracati.",
+    "busca": [
+      "Igreja Matriz de Aracati"
+    ]
+  },
+  {
+    "n": "Museu Jaguaribano",
+    "cat": "cultura",
+    "end": "Rua Coronel Alexanzito, Centro",
+    "cidade": "Aracati",
+    "uf": "CE",
+    "d": "Sobrado do século XVIII com acervo da história do vale do Jaguaribe."
+  }
+]

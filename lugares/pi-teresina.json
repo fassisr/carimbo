@@ -1,0 +1,113 @@
+[
+  {
+    "n": "Theatro 4 de Setembro",
+    "cat": "cultura",
+    "end": "Praça Pedro II, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Teatro histórico de 1894, o principal palco do Piauí.",
+    "busca": [
+      "Teatro 4 de Setembro"
+    ]
+  },
+  {
+    "n": "Praça Pedro II",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Praça mais famosa da cidade, cercada de prédios históricos."
+  },
+  {
+    "n": "Central de Artesanato Mestre Dezinho",
+    "cat": "cultura",
+    "end": "Praça Pedro II, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Artesanato piauiense em madeira, couro, opala e cajuína."
+  },
+  {
+    "n": "Museu do Piauí",
+    "cat": "cultura",
+    "end": "Praça Marechal Deodoro, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Casa histórica com acervo de arte e história do estado.",
+    "busca": [
+      "Casa de Odylo Costa Filho"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Amparo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Igreja mais antiga da cidade, marco da fundação de Teresina."
+  },
+  {
+    "n": "Igreja de São Benedito",
+    "cat": "cultura",
+    "end": "Av. Frei Serafim, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Igreja imponente no alto da principal avenida da cidade."
+  },
+  {
+    "n": "Parque da Cidadania",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Parque urbano com lagos, pistas e eventos no centro."
+  },
+  {
+    "n": "Parque Ambiental Encontro dos Rios",
+    "cat": "verde",
+    "end": "Poti Velho",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Onde os rios Poti e Parnaíba se encontram, com estátua do Cabeça de Cuia.",
+    "busca": [
+      "Encontro dos Rios"
+    ]
+  },
+  {
+    "n": "Polo Cerâmico do Poti Velho",
+    "cat": "cultura",
+    "end": "Poti Velho",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Ateliês de ceramistas tradicionais à beira do rio."
+  },
+  {
+    "n": "Ponte Estaiada João Isidoro França",
+    "cat": "verde",
+    "end": "Av. Raul Lopes, Ininga",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Ponte com mirante no alto para ver a cidade e o rio Poti.",
+    "busca": [
+      "Ponte Estaiada Teresina"
+    ]
+  },
+  {
+    "n": "Parque Potycabana",
+    "cat": "verde",
+    "end": "Av. Raul Lopes, Noivos",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Parque à beira do Poti para caminhar e praticar esporte."
+  },
+  {
+    "n": "Mercado Central de Teresina",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Mercado popular para provar comida regional e comprar cajuína.",
+    "busca": [
+      "Mercado Velho Teresina"
+    ]
+  }
+]

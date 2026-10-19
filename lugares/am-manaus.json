@@ -1,0 +1,185 @@
+[
+  {
+    "n": "Teatro Amazonas",
+    "cat": "cultura",
+    "end": "Largo de São Sebastião, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Ópera da era da borracha com cúpula de azulejos coloridos."
+  },
+  {
+    "n": "Largo de São Sebastião",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praça com calçadão de ondas que inspirou Copacabana e vida noturna animada."
+  },
+  {
+    "n": "Igreja de São Sebastião",
+    "cat": "cultura",
+    "end": "Largo de São Sebastião, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Igreja de uma torre só, vizinha do Teatro Amazonas."
+  },
+  {
+    "n": "Palácio Rio Negro",
+    "cat": "cultura",
+    "end": "Avenida Sete de Setembro, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Antiga residência de um barão da borracha, hoje centro cultural."
+  },
+  {
+    "n": "Palacete Provincial",
+    "cat": "cultura",
+    "end": "Praça Heliodoro Balbi, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Prédio histórico com vários museus na Praça da Polícia."
+  },
+  {
+    "n": "Catedral Metropolitana de Manaus",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Igreja Matriz de Nossa Senhora da Conceição, perto do porto.",
+    "busca": [
+      "Igreja Matriz de Manaus"
+    ]
+  },
+  {
+    "n": "Alfândega de Manaus",
+    "cat": "cultura",
+    "end": "Rua Marquês de Santa Cruz, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Prédio de pedras trazido da Inglaterra no ciclo da borracha."
+  },
+  {
+    "n": "Mercado Municipal Adolpho Lisboa",
+    "cat": "comida",
+    "end": "Rua dos Barés, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Mercado de ferro de 1883 com peixes, ervas e frutas amazônicas.",
+    "busca": [
+      "Mercadão de Manaus"
+    ]
+  },
+  {
+    "n": "Feira Manaus Moderna",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Feira gigante à beira do rio com peixes, farinhas e frutas regionais.",
+    "busca": [
+      "Feira da Manaus Moderna"
+    ]
+  },
+  {
+    "n": "Feira da Panair",
+    "cat": "comida",
+    "end": "Educandos",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Feira de peixes frescos e lanches regionais junto ao rio."
+  },
+  {
+    "n": "Museu da Amazônia",
+    "cat": "verde",
+    "end": "Cidade de Deus",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Trilhas na floresta e uma torre de observação acima das copas.",
+    "busca": [
+      "MUSA"
+    ]
+  },
+  {
+    "n": "Bosque da Ciência",
+    "cat": "verde",
+    "end": "Petrópolis",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Bosque do INPA com peixe-boi, ariranhas e trilhas na mata."
+  },
+  {
+    "n": "Parque Municipal do Mindu",
+    "cat": "verde",
+    "end": "Parque Dez",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque urbano com trilhas e passarelas suspensas."
+  },
+  {
+    "n": "Praia da Ponta Negra",
+    "cat": "verde",
+    "end": "Ponta Negra",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Calçadão e praia de rio, ótima para o pôr do sol.",
+    "busca": [
+      "Ponta Negra"
+    ]
+  },
+  {
+    "n": "Encontro das Águas",
+    "cat": "verde",
+    "end": "Rio Negro e Rio Solimões",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "As águas escuras e barrentas correm lado a lado sem se misturar."
+  },
+  {
+    "n": "Museu do Seringal Vila Paraíso",
+    "cat": "cultura",
+    "end": "Igarapé São João, Rio Negro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Seringal reconstituído que mostra a vida no ciclo da borracha."
+  },
+  {
+    "n": "Bar do Armando",
+    "cat": "bar",
+    "end": "Rua 10 de Julho, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Boteco boêmio ao lado do Teatro Amazonas, famoso pelo sanduíche de pernil."
+  },
+  {
+    "n": "Tacacá da Gisela",
+    "cat": "comida",
+    "end": "Largo de São Sebastião, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "O tacacá mais famoso da cidade, servido na cuia em frente ao teatro."
+  },
+  {
+    "n": "Banzeiro",
+    "cat": "comida",
+    "end": "Rua Libertador, Nossa Senhora das Graças",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Restaurante premiado de cozinha amazônica criativa."
+  },
+  {
+    "n": "Caxiri",
+    "cat": "comida",
+    "end": "Largo de São Sebastião, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Cozinha amazônica contemporânea com vista para o Teatro Amazonas."
+  },
+  {
+    "n": "Sorveteria Glacial",
+    "cat": "doce",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Sorveteria tradicional com sabores amazônicos como cupuaçu e tucumã."
+  }
+]

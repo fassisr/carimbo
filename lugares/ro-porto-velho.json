@@ -1,0 +1,61 @@
+[
+  {
+    "n": "Complexo da Estrada de Ferro Madeira-Mamoré",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Pátio da ferrovia lendária à beira do Rio Madeira.",
+    "busca": [
+      "Estrada de Ferro Madeira-Mamoré"
+    ]
+  },
+  {
+    "n": "Três Caixas d'Água",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Caixas d'água de ferro de 1910, símbolo da cidade."
+  },
+  {
+    "n": "Catedral Sagrado Coração de Jesus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Catedral da cidade, com vitrais e arquitetura marcante."
+  },
+  {
+    "n": "Palácio Getúlio Vargas",
+    "cat": "cultura",
+    "end": "Praça Getúlio Vargas, Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Antiga sede do governo que abriga o Museu da Memória Rondoniense."
+  },
+  {
+    "n": "Mercado Cultural",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Antigo mercado transformado em espaço de eventos e cultura."
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Porto Velho",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Parque com lago e pista de caminhada."
+  },
+  {
+    "n": "Mercado Central de Porto Velho",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "d": "Mercado para provar peixes do Madeira e comidas regionais."
+  }
+]

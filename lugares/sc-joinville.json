@@ -1,0 +1,94 @@
+[
+  {
+    "n": "Rua das Palmeiras",
+    "cat": "verde",
+    "end": "Alameda Brüstlein, Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Alameda de palmeiras imperiais plantadas em 1873.",
+    "busca": [
+      "Alameda Brüstlein"
+    ]
+  },
+  {
+    "n": "Museu Nacional de Imigração e Colonização",
+    "cat": "cultura",
+    "end": "Rua Rio Branco, 229, Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Antigo Palácio dos Príncipes que conta a imigração europeia.",
+    "busca": [
+      "Museu da Imigração"
+    ]
+  },
+  {
+    "n": "Estação da Memória",
+    "cat": "cultura",
+    "end": "Rua Leite Ribeiro, Anita Garibaldi",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Antiga estação ferroviária restaurada, hoje espaço cultural."
+  },
+  {
+    "n": "Catedral São Francisco Xavier",
+    "cat": "cultura",
+    "end": "Rua do Príncipe, Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Catedral moderna com grande vitral e linhas marcantes.",
+    "busca": [
+      "Catedral de Joinville"
+    ]
+  },
+  {
+    "n": "Mirante de Joinville",
+    "cat": "verde",
+    "end": "Morro da Boa Vista",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Torre no alto do morro com vista para a cidade e a baía da Babitonga."
+  },
+  {
+    "n": "Parque Zoobotânico de Joinville",
+    "cat": "verde",
+    "end": "Morro da Boa Vista",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Parque com animais e mata nativa na encosta do morro.",
+    "busca": [
+      "Zoobotânico Joinville"
+    ]
+  },
+  {
+    "n": "Escola do Teatro Bolshoi no Brasil",
+    "cat": "cultura",
+    "end": "Centreventos Cau Hansen, América",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Única filial do Bolshoi fora da Rússia, com apresentações de balé."
+  },
+  {
+    "n": "Museu Arqueológico de Sambaqui",
+    "cat": "cultura",
+    "end": "Rua Dona Francisca, Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Acervo de sambaquis e objetos dos povos pré-coloniais."
+  },
+  {
+    "n": "Cemitério do Imigrante",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Cemitério histórico dos primeiros colonos, patrimônio nacional."
+  },
+  {
+    "n": "Mercado Público de Joinville",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "d": "Mercado com bares, restaurantes e produtos coloniais."
+  }
+]

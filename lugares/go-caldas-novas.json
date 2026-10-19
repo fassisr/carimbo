@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Parque Estadual da Serra de Caldas Novas",
+    "cat": "verde",
+    "end": "Serra de Caldas",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Serra que alimenta as águas termais, com trilhas e cachoeiras."
+  },
+  {
+    "n": "Lagoa Termas Parque",
+    "cat": "verde",
+    "end": "Lagoa de Pirapitinga",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Lagoa natural de águas quentes que deu fama à região.",
+    "busca": [
+      "Lagoa de Pirapitinga"
+    ]
+  },
+  {
+    "n": "Praça Mestre Orlando",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Praça central e ponto de encontro com feirinha e lanchonetes à noite."
+  },
+  {
+    "n": "diRoma Acqua Park",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Parque aquático de águas termais, um dos mais conhecidos da cidade."
+  },
+  {
+    "n": "Náutico Praia Clube",
+    "cat": "verde",
+    "end": "Caldas Novas",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Clube de águas quentes com piscinas e praia artificial."
+  },
+  {
+    "n": "Jardim Japonês",
+    "cat": "verde",
+    "end": "Caldas Novas",
+    "cidade": "Caldas Novas",
+    "uf": "GO",
+    "d": "Jardim oriental com lago de carpas e pontes, ótimo para um passeio calmo."
+  }
+]

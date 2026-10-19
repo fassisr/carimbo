@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Praia de Tourinhos",
+    "cat": "verde",
+    "end": "Tourinhos",
+    "cidade": "São Miguel do Gostoso",
+    "uf": "RN",
+    "d": "Praia com pedras e piscinas naturais, das mais bonitas do litoral."
+  },
+  {
+    "n": "Ponta do Santo Cristo",
+    "cat": "verde",
+    "end": "Santo Cristo",
+    "cidade": "São Miguel do Gostoso",
+    "uf": "RN",
+    "d": "Ponta de areia com vento forte, paraíso do kitesurf."
+  },
+  {
+    "n": "Praia do Cardeiro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Miguel do Gostoso",
+    "uf": "RN",
+    "d": "Praia tranquila de águas calmas junto à vila."
+  },
+  {
+    "n": "Praia do Maceió",
+    "cat": "verde",
+    "end": "Maceió",
+    "cidade": "São Miguel do Gostoso",
+    "uf": "RN",
+    "d": "Praia de coqueiros e mar calmo, ótima para relaxar."
+  }
+]

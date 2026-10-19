@@ -1,0 +1,96 @@
+[
+  {
+    "n": "Xapuri",
+    "cat": "comida",
+    "end": "Rua Mandacaru, 260, São Luiz",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Comida mineira de fogão a lenha num casarão perto da Pampulha.",
+    "busca": [
+      "Restaurante Xapuri"
+    ]
+  },
+  {
+    "n": "Dona Lucinha",
+    "cat": "comida",
+    "end": "Rua Sergipe, 811, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bufê de comida mineira tradicional, referência na cidade.",
+    "busca": [
+      "Restaurante Dona Lucinha"
+    ]
+  },
+  {
+    "n": "Casa dos Contos",
+    "cat": "comida",
+    "end": "Rua Rio Grande do Norte, 1065, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante tradicional de BH, reduto de boêmios e intelectuais."
+  },
+  {
+    "n": "Maria das Tranças",
+    "cat": "comida",
+    "end": "Rua Professor Morais, 158, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante de família famoso pelo frango ao molho pardo."
+  },
+  {
+    "n": "Bar da Lora",
+    "cat": "bar",
+    "end": "Mercado Central, Avenida Augusto de Lima, 744, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Balcão do Mercado Central famoso pelo fígado com jiló e cerveja gelada."
+  },
+  {
+    "n": "Casa Cheia",
+    "cat": "comida",
+    "end": "Mercado Central, Avenida Augusto de Lima, 744, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante premiado dentro do Mercado Central."
+  },
+  {
+    "n": "Bar Redentor",
+    "cat": "bar",
+    "end": "Rua Fernandes Tourinho, 500, Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar tradicional da Savassi com cervejas e petiscos."
+  },
+  {
+    "n": "Stadt Jever",
+    "cat": "bar",
+    "end": "Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Choperia de inspiração alemã, uma das mais antigas da Savassi."
+  },
+  {
+    "n": "Vecchio Sogno",
+    "cat": "comida",
+    "end": "Rua Martim de Carvalho, 75, Santo Agostinho",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante italiano refinado, um dos mais premiados de BH."
+  },
+  {
+    "n": "Glouton",
+    "cat": "comida",
+    "end": "Rua Bárbara Heliodora, 59, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cozinha franco-mineira do chef Leo Paixão."
+  },
+  {
+    "n": "Mercado Distrital do Cruzeiro",
+    "cat": "comida",
+    "end": "Rua Opala, Cruzeiro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mercado de bairro com bares e comidinhas, animado nos fins de semana."
+  }
+]

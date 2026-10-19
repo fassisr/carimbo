@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Baía dos Golfinhos",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Enseada onde os golfinhos nadam pertinho dos banhistas."
+  },
+  {
+    "n": "Praia do Amor",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Praia de surf com falésias em forma de coração."
+  },
+  {
+    "n": "Chapadão",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Mirante no alto das falésias com vista da Praia do Amor.",
+    "busca": [
+      "Mirante do Chapadão"
+    ]
+  },
+  {
+    "n": "Santuário Ecológico de Pipa",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Reserva de mata atlântica com trilhas e mirantes para o mar."
+  },
+  {
+    "n": "Praia do Centro",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "A praia da vila, com barcos, piscinas naturais e movimento.",
+    "busca": [
+      "Praia do Centro Pipa"
+    ]
+  },
+  {
+    "n": "Praia do Madeiro",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Praia calma de águas claras, boa para ver golfinhos e surfar."
+  },
+  {
+    "n": "Praia de Cacimbinhas",
+    "cat": "verde",
+    "end": "Praia de Pipa",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Praia tranquila de falésias entre o Madeiro e Pipa."
+  },
+  {
+    "n": "Lagoa de Guaraíras",
+    "cat": "verde",
+    "end": "Centro de Tibau do Sul",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Pôr do sol famoso sobre a lagoa, visto das falésias de Tibau.",
+    "busca": [
+      "Laguna de Guaraíras"
+    ]
+  },
+  {
+    "n": "Praia de Sibaúma",
+    "cat": "verde",
+    "end": "Sibaúma",
+    "cidade": "Tibau do Sul",
+    "uf": "RN",
+    "d": "Praia rústica de comunidade quilombola, longe do agito."
+  }
+]

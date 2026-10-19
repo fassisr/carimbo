@@ -1,0 +1,66 @@
+[
+  {
+    "n": "Praça dos Girassóis",
+    "cat": "verde",
+    "end": "Plano Diretor Sul",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Uma das maiores praças do mundo, com o Palácio Araguaia ao centro."
+  },
+  {
+    "n": "Palácio Araguaia",
+    "cat": "cultura",
+    "end": "Praça dos Girassóis",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Sede do governo do Tocantins, símbolo da capital mais nova do país."
+  },
+  {
+    "n": "Memorial Coluna Prestes",
+    "cat": "cultura",
+    "end": "Praça dos Girassóis",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Memorial de Niemeyer sobre a marcha da Coluna Prestes."
+  },
+  {
+    "n": "Praia da Graciosa",
+    "cat": "verde",
+    "end": "Orla do Lago",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Praia no lago da usina com quiosques e pôr do sol."
+  },
+  {
+    "n": "Praia do Prata",
+    "cat": "verde",
+    "end": "Orla do Lago",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Praia de lago tranquila, boa para banho em família."
+  },
+  {
+    "n": "Parque Cesamar",
+    "cat": "verde",
+    "end": "Plano Diretor Sul",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Parque com lago e pista de caminhada no meio da cidade."
+  },
+  {
+    "n": "Cachoeira do Roncador",
+    "cat": "verde",
+    "end": "Taquaruçu",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Uma das cachoeiras mais bonitas da serra de Taquaruçu."
+  },
+  {
+    "n": "Feira da 304 Sul",
+    "cat": "comida",
+    "end": "304 Sul",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "d": "Feira tradicional com comidas regionais e produtos da roça."
+  }
+]

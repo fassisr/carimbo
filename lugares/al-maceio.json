@@ -1,0 +1,201 @@
+[
+  {
+    "n": "Praia de Pajuçara",
+    "cat": "verde",
+    "end": "Avenida Doutor Antônio Gouveia, Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia urbana de mar verde, com jangadas para as piscinas naturais."
+  },
+  {
+    "n": "Piscinas Naturais de Pajuçara",
+    "cat": "verde",
+    "end": "Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Piscinas naturais em alto-mar, alcançadas de jangada na maré baixa."
+  },
+  {
+    "n": "Praia de Ponta Verde",
+    "cat": "verde",
+    "end": "Ponta Verde",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia de águas calmas e coqueirais em plena orla urbana."
+  },
+  {
+    "n": "Praia de Jatiúca",
+    "cat": "verde",
+    "end": "Jatiúca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia com boas ondas e orla cheia de vida."
+  },
+  {
+    "n": "Praia de Garça Torta",
+    "cat": "verde",
+    "end": "Garça Torta",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia tranquila de coqueiros no litoral norte da cidade."
+  },
+  {
+    "n": "Praia de Ipioca",
+    "cat": "verde",
+    "end": "Ipioca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia sossegada de águas mornas no extremo norte de Maceió."
+  },
+  {
+    "n": "Feirinha de Artesanato da Pajuçara",
+    "cat": "cultura",
+    "end": "Avenida Doutor Antônio Gouveia, Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Feira de artesanato alagoano na orla, com rendas, bordados e lembranças.",
+    "busca": [
+      "Feira de Artesanato da Pajuçara"
+    ]
+  },
+  {
+    "n": "Pontal da Barra",
+    "cat": "cultura",
+    "end": "Pontal da Barra",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Bairro das rendeiras de filé, com lojinhas à beira da lagoa Mundaú."
+  },
+  {
+    "n": "Museu Théo Brandão",
+    "cat": "cultura",
+    "end": "Avenida da Paz, 1490, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Museu de antropologia e folclore alagoano num palacete à beira-mar."
+  },
+  {
+    "n": "Museu Palácio Floriano Peixoto",
+    "cat": "cultura",
+    "end": "Praça Floriano Peixoto, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Antigo palácio do governo transformado em museu.",
+    "busca": [
+      "MUPA"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Maceió",
+    "cat": "cultura",
+    "end": "Praça Dom Pedro II, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Catedral de Nossa Senhora dos Prazeres, no centro histórico.",
+    "busca": [
+      "Catedral Nossa Senhora dos Prazeres"
+    ]
+  },
+  {
+    "n": "Teatro Deodoro",
+    "cat": "cultura",
+    "end": "Praça Marechal Deodoro, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Teatro centenário e principal palco de Alagoas."
+  },
+  {
+    "n": "Mercado do Artesanato",
+    "cat": "cultura",
+    "end": "Levada",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Mercado popular com artesanato de toda Alagoas.",
+    "busca": [
+      "Mercado do Artesanato da Levada"
+    ]
+  },
+  {
+    "n": "Mirante de São Gonçalo",
+    "cat": "verde",
+    "end": "Farol",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Mirante com vista panorâmica da cidade e do mar."
+  },
+  {
+    "n": "Memorial Teotônio Vilela",
+    "cat": "cultura",
+    "end": "Avenida Assis Chateaubriand, Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Memorial à beira-mar em homenagem ao político alagoano."
+  },
+  {
+    "n": "Divina Gula",
+    "cat": "comida",
+    "end": "Jatiúca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante tradicional de comida mineira e regional, ícone da cidade."
+  },
+  {
+    "n": "Bodega do Sertão",
+    "cat": "comida",
+    "end": "Jatiúca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante de comida sertaneja em ambiente de casa de interior."
+  },
+  {
+    "n": "Picuí",
+    "cat": "comida",
+    "end": "Jatiúca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante famoso pela carne de sol e pela culinária sertaneja."
+  },
+  {
+    "n": "Wanchako",
+    "cat": "comida",
+    "end": "Jatiúca",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante peruano premiado, referência na gastronomia de Maceió."
+  },
+  {
+    "n": "Imperador dos Camarões",
+    "cat": "comida",
+    "end": "Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante tradicional de frutos do mar na orla da Pajuçara."
+  },
+  {
+    "n": "Mercado da Produção",
+    "cat": "comida",
+    "end": "Levada",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Mercado popular com frutas, peixes e comidas típicas alagoanas."
+  },
+  {
+    "n": "Lopana",
+    "cat": "bar",
+    "end": "Ponta Verde",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Bar na areia da Ponta Verde, clássico para happy hour à beira-mar."
+  },
+  {
+    "n": "Bali Sorvetes",
+    "cat": "doce",
+    "end": "Ponta Verde",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Sorveteria alagoana tradicional com sabores de frutas regionais.",
+    "busca": [
+      "Sorveteria Bali"
+    ]
+  }
+]

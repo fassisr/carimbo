@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Parque Nacional dos Lençóis Maranhenses",
+    "cat": "verde",
+    "end": "Barreirinhas",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Dunas brancas e lagoas de água doce a perder de vista."
+  },
+  {
+    "n": "Lagoa Azul",
+    "cat": "verde",
+    "end": "Lençóis Maranhenses",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Uma das lagoas mais belas do parque, ideal para banho.",
+    "busca": [
+      "Lagoa Azul Lençóis Maranhenses"
+    ]
+  },
+  {
+    "n": "Lagoa Bonita",
+    "cat": "verde",
+    "end": "Lençóis Maranhenses",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Lagoa cercada pelas dunas mais altas do parque.",
+    "busca": [
+      "Lagoa Bonita Lençóis Maranhenses"
+    ]
+  },
+  {
+    "n": "Rio Preguiças",
+    "cat": "verde",
+    "end": "Barreirinhas",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Rio que corta a cidade e leva aos povoados do litoral."
+  },
+  {
+    "n": "Vassouras",
+    "cat": "verde",
+    "end": "Rio Preguiças",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Povoado de dunas à beira do rio com macacos curiosos."
+  },
+  {
+    "n": "Farol de Mandacaru",
+    "cat": "cultura",
+    "end": "Mandacaru",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Farol com vista de 360 graus da foz do Preguiças.",
+    "busca": [
+      "Farol Preguiças"
+    ]
+  },
+  {
+    "n": "Caburé",
+    "cat": "verde",
+    "end": "Caburé",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Faixa de areia entre o rio e o mar, com pousadas rústicas."
+  },
+  {
+    "n": "Orla de Barreirinhas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Barreirinhas",
+    "uf": "MA",
+    "d": "Beira-rio com bares e restaurantes para o fim de tarde.",
+    "busca": [
+      "Beira Rio Barreirinhas"
+    ]
+  }
+]

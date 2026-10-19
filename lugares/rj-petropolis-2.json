@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Cervejaria Bohemia",
+    "cat": "bar",
+    "end": "Rua Alfredo Pachá, 166, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Visita à cervejaria mais antiga do Brasil com degustação ao final.",
+    "busca": [
+      "Bohemia"
+    ]
+  },
+  {
+    "n": "Casa d'Angelo",
+    "cat": "doce",
+    "end": "Rua do Imperador, 700, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Confeitaria de 1914 na rua principal, ótima para um café com doces."
+  },
+  {
+    "n": "Majórica",
+    "cat": "comida",
+    "end": "Rua do Imperador, 754, Centro",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Churrascaria tradicional do Centro de Petrópolis."
+  },
+  {
+    "n": "Locanda della Mimosa",
+    "cat": "comida",
+    "end": "Vale Florido, Fazenda Inglesa",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Restaurante italiano premiado no meio da serra."
+  }
+]

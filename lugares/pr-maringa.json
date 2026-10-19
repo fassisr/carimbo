@@ -1,0 +1,68 @@
+[
+  {
+    "n": "Catedral Basílica Menor Nossa Senhora da Glória",
+    "cat": "cultura",
+    "end": "Praça da Catedral, Zona 1",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Catedral em forma de cone, uma das mais altas da América Latina.",
+    "busca": [
+      "Catedral de Maringá"
+    ]
+  },
+  {
+    "n": "Parque do Ingá",
+    "cat": "verde",
+    "end": "Zona 1",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Parque de mata nativa com lago, trilhas e muitos bichos no centro da cidade."
+  },
+  {
+    "n": "Parque do Japão",
+    "cat": "verde",
+    "end": "Avenida Cerro Azul, Parque das Grevíleas",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Jardim japonês com lago de carpas, ponte e casa de chá."
+  },
+  {
+    "n": "Bosque dos Pioneiros",
+    "cat": "verde",
+    "end": "Zona 2",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Mata nativa preservada com trilha urbana.",
+    "busca": [
+      "Parque Florestal dos Pioneiros",
+      "Bosque II"
+    ]
+  },
+  {
+    "n": "Parque Alfredo Nyffeler",
+    "cat": "verde",
+    "end": "Jardim Aclimação",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Parque com lago e pista de caminhada."
+  },
+  {
+    "n": "Teatro Calil Haddad",
+    "cat": "cultura",
+    "end": "Zona 1",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Principal teatro da cidade, com arquitetura moderna marcante."
+  },
+  {
+    "n": "Mercadão de Maringá",
+    "cat": "comida",
+    "end": "Zona 3",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "d": "Mercado com bancas de comida, frutas e produtos regionais.",
+    "busca": [
+      "Mercado Municipal de Maringá"
+    ]
+  }
+]

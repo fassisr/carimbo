@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Quadrado de Trancoso",
+    "cat": "cultura",
+    "end": "Quadrado, Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Gramado cercado de casinhas coloridas, o coração charmoso de Trancoso.",
+    "busca": [
+      "Quadrado"
+    ]
+  },
+  {
+    "n": "Igreja de São João Batista",
+    "cat": "cultura",
+    "end": "Quadrado, Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Igrejinha branca do século XVII no Quadrado, com o mar ao fundo.",
+    "busca": [
+      "Igreja de São João Batista de Trancoso"
+    ]
+  },
+  {
+    "n": "Capim Santo",
+    "cat": "comida",
+    "end": "Quadrado, Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Restaurante tradicional do Quadrado, com cozinha brasileira em jardim iluminado."
+  },
+  {
+    "n": "Praia dos Nativos",
+    "cat": "verde",
+    "end": "Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Praia tranquila e extensa, logo abaixo do Quadrado."
+  },
+  {
+    "n": "Praia dos Coqueiros",
+    "cat": "verde",
+    "end": "Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Praia de coqueiral com barracas e mar calmo perto da vila."
+  },
+  {
+    "n": "Praia de Itapororoca",
+    "cat": "verde",
+    "end": "Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Praia selvagem e quase deserta, com falésias e água cristalina."
+  },
+  {
+    "n": "Praia do Rio da Barra",
+    "cat": "verde",
+    "end": "Trancoso",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Encontro de rio e mar numa praia larga e sossegada."
+  },
+  {
+    "n": "Praia do Espelho",
+    "cat": "verde",
+    "end": "Curuípe",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Uma das praias mais bonitas da Bahia, com piscinas naturais e falésias."
+  },
+  {
+    "n": "Caraíva",
+    "cat": "verde",
+    "end": "Caraíva",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Vila rústica sem carros entre o rio e o mar, acessível de canoa.",
+    "busca": [
+      "Vila de Caraíva"
+    ]
+  }
+]

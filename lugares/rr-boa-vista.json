@@ -1,0 +1,74 @@
+[
+  {
+    "n": "Praça das Águas",
+    "cat": "verde",
+    "end": "Centro Cívico",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Praça com fontes iluminadas e quiosques de comida à noite."
+  },
+  {
+    "n": "Praça do Centro Cívico",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Ponto de onde partem as avenidas em leque do traçado da cidade."
+  },
+  {
+    "n": "Monumento ao Garimpeiro",
+    "cat": "cultura",
+    "end": "Praça do Centro Cívico",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Estátua que homenageia os garimpeiros que formaram Roraima."
+  },
+  {
+    "n": "Palácio Senador Hélio Campos",
+    "cat": "cultura",
+    "end": "Praça do Centro Cívico",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Sede do governo de Roraima no centro da praça."
+  },
+  {
+    "n": "Orla Taumanan",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Orla à beira do Rio Branco com restaurantes e pôr do sol."
+  },
+  {
+    "n": "Parque Anauá",
+    "cat": "verde",
+    "end": "Aeroporto",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Grande parque urbano com lagos e museu."
+  },
+  {
+    "n": "Catedral Cristo Redentor",
+    "cat": "cultura",
+    "end": "Centro Cívico",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Catedral moderna de Boa Vista."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Igreja de 1892, a mais antiga da cidade."
+  },
+  {
+    "n": "Ponte dos Macuxi",
+    "cat": "cultura",
+    "end": "Rio Branco",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "d": "Ponte sobre o Rio Branco, cartão-postal da cidade."
+  }
+]

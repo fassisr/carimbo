@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Porto das Barcas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Parnaíba",
+    "uf": "PI",
+    "d": "Antigo porto com armazéns históricos, lojas e restaurantes."
+  },
+  {
+    "n": "Casa Grande de Simplício Dias",
+    "cat": "cultura",
+    "end": "Porto das Barcas, Centro",
+    "cidade": "Parnaíba",
+    "uf": "PI",
+    "d": "Casarão do século XVIII que pertenceu a um líder da independência.",
+    "busca": [
+      "Casa Grande Parnaíba"
+    ]
+  },
+  {
+    "n": "Catedral de Nossa Senhora da Graça",
+    "cat": "cultura",
+    "end": "Praça da Graça, Centro",
+    "cidade": "Parnaíba",
+    "uf": "PI",
+    "d": "Catedral histórica na praça mais conhecida da cidade.",
+    "busca": [
+      "Igreja de Nossa Senhora da Graça Parnaíba"
+    ]
+  },
+  {
+    "n": "Praia da Pedra do Sal",
+    "cat": "verde",
+    "end": "Ilha Grande de Santa Isabel",
+    "cidade": "Parnaíba",
+    "uf": "PI",
+    "d": "Praia dividida por pedras, um lado calmo e outro de ondas."
+  },
+  {
+    "n": "Lagoa do Portinho",
+    "cat": "verde",
+    "end": "Portinho",
+    "cidade": "Parnaíba",
+    "uf": "PI",
+    "d": "Lagoa cercada de dunas, boa para banho e passeio."
+  }
+]

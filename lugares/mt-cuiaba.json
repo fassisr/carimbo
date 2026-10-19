@@ -1,0 +1,104 @@
+[
+  {
+    "n": "Catedral Basílica do Senhor Bom Jesus de Cuiabá",
+    "cat": "cultura",
+    "end": "Praça da República, Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Catedral de torres altas no coração do centro histórico.",
+    "busca": [
+      "Catedral de Cuiabá"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário e São Benedito",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Igreja do século XVIII, uma das mais antigas e queridas da cidade."
+  },
+  {
+    "n": "Marco do Centro Geodésico da América do Sul",
+    "cat": "cultura",
+    "end": "Praça Pascoal Moreira Cabral, Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Marco que indica o centro geodésico do continente."
+  },
+  {
+    "n": "Museu do Rio Hid Alfredo Scaff",
+    "cat": "cultura",
+    "end": "Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Museu sobre a vida no Rio Cuiabá, com aquário de peixes da região.",
+    "busca": [
+      "Museu do Rio"
+    ]
+  },
+  {
+    "n": "Sesc Arsenal",
+    "cat": "cultura",
+    "end": "Rua 13 de Junho, Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Antigo arsenal de guerra convertido em centro cultural com shows e feirinha."
+  },
+  {
+    "n": "Casa do Artesão",
+    "cat": "cultura",
+    "end": "Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Casarão com artesanato mato-grossense, viola de cocho e cerâmica."
+  },
+  {
+    "n": "Parque Mãe Bonifácia",
+    "cat": "verde",
+    "end": "Quilombo",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Parque de cerrado com trilhas e muita gente caminhando no fim de tarde."
+  },
+  {
+    "n": "Parque Massairo Okamura",
+    "cat": "verde",
+    "end": "Centro Político Administrativo",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Parque com lagos, pistas e fauna do cerrado."
+  },
+  {
+    "n": "Morro da Luz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Parque urbano no alto do centro, com mata e escadarias."
+  },
+  {
+    "n": "Orla do Porto",
+    "cat": "verde",
+    "end": "Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Calçadão à beira do Rio Cuiabá para ver o pôr do sol."
+  },
+  {
+    "n": "Choppão",
+    "cat": "bar",
+    "end": "Praça 8 de Abril, Goiabeiras",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Chope gelado e a famosa sopa de madrugada, instituição cuiabana."
+  },
+  {
+    "n": "Peixaria Popular",
+    "cat": "comida",
+    "end": "Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Restaurante tradicional de peixes do Pantanal, como pacu e pintado."
+  }
+]

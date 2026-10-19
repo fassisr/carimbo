@@ -1,0 +1,80 @@
+[
+  {
+    "n": "Parque Nacional da Chapada dos Veadeiros",
+    "cat": "verde",
+    "end": "Vila de São Jorge",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Patrimônio natural com cânions, saltos e cerrado de altitude.",
+    "busca": [
+      "Chapada dos Veadeiros"
+    ]
+  },
+  {
+    "n": "Vale da Lua",
+    "cat": "verde",
+    "end": "Estrada para São Jorge",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Rochas esculpidas pelo rio que parecem paisagem lunar."
+  },
+  {
+    "n": "Cachoeira Almécegas",
+    "cat": "verde",
+    "end": "Fazenda São Bento",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Queda alta com mirante e poço de água clara.",
+    "busca": [
+      "Cachoeira Almécegas I"
+    ]
+  },
+  {
+    "n": "Cachoeira São Bento",
+    "cat": "verde",
+    "end": "Fazenda São Bento",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Poço largo e fácil de chegar, ótimo para banho."
+  },
+  {
+    "n": "Cachoeira dos Cristais",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Sequência de pequenas quedas e piscinas naturais perto da cidade."
+  },
+  {
+    "n": "Cachoeira Loquinhas",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Trilha suspensa com várias piscinas de água verde-esmeralda."
+  },
+  {
+    "n": "Mirante da Janela",
+    "cat": "verde",
+    "end": "Vila de São Jorge",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Trilha até uma janela de pedra com vista para o Salto do Rio Preto."
+  },
+  {
+    "n": "Cachoeira do Raizama",
+    "cat": "verde",
+    "end": "Vila de São Jorge",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Cânion e cachoeiras com piscinas em meio às rochas."
+  },
+  {
+    "n": "Jardim de Maytrea",
+    "cat": "verde",
+    "end": "Estrada para São Jorge",
+    "cidade": "Alto Paraíso de Goiás",
+    "uf": "GO",
+    "d": "Planície de veredas e buritis com uma das vistas mais bonitas da Chapada."
+  }
+]

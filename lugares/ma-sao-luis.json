@@ -1,0 +1,182 @@
+[
+  {
+    "n": "Palácio dos Leões",
+    "cat": "cultura",
+    "end": "Av. Dom Pedro II, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Sede do governo com salões históricos abertos à visitação."
+  },
+  {
+    "n": "Catedral da Sé",
+    "cat": "cultura",
+    "end": "Av. Dom Pedro II, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Catedral com altar-mor barroco em talha dourada.",
+    "busca": [
+      "Catedral Metropolitana de São Luís"
+    ]
+  },
+  {
+    "n": "Teatro Arthur Azevedo",
+    "cat": "cultura",
+    "end": "Rua do Sol, 180, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Um dos teatros mais antigos do Brasil, de 1817."
+  },
+  {
+    "n": "Museu Histórico e Artístico do Maranhão",
+    "cat": "cultura",
+    "end": "Rua do Sol, 302, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Solar do século XIX com mobiliário e arte da elite maranhense."
+  },
+  {
+    "n": "Rua Portugal",
+    "cat": "cultura",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Rua de casarões com fachadas de azulejo, cartão-postal da cidade."
+  },
+  {
+    "n": "Casa do Maranhão",
+    "cat": "cultura",
+    "end": "Rua do Trapiche, Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Museu sobre o bumba meu boi e as festas do estado."
+  },
+  {
+    "n": "Centro de Cultura Popular Domingos Vieira Filho",
+    "cat": "cultura",
+    "end": "Rua do Giz, 221, Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Casa da Festa com tambor de crioula, boi e cultura popular."
+  },
+  {
+    "n": "Convento das Mercês",
+    "cat": "cultura",
+    "end": "Rua da Palma, Desterro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Convento do século XVII, hoje centro cultural."
+  },
+  {
+    "n": "Igreja do Desterro",
+    "cat": "cultura",
+    "end": "Desterro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Igreja de origem colonial no bairro mais antigo da cidade."
+  },
+  {
+    "n": "Fonte do Ribeirão",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Fonte colonial de 1796 cercada de lendas sobre túneis."
+  },
+  {
+    "n": "Praia da Ponta d'Areia",
+    "cat": "verde",
+    "end": "Ponta d'Areia",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praia urbana com o Espigão Costeiro para ver o pôr do sol."
+  },
+  {
+    "n": "Espigão Costeiro",
+    "cat": "verde",
+    "end": "Ponta d'Areia",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Passarela sobre o mar, ótimo mirante no fim de tarde."
+  },
+  {
+    "n": "Praia do Calhau",
+    "cat": "verde",
+    "end": "Calhau",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praia larga e movimentada, com barracas e marés enormes."
+  },
+  {
+    "n": "Parque Ecológico da Lagoa da Jansen",
+    "cat": "verde",
+    "end": "Renascença",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Lagoa com calçadão, bares e quadras no meio da cidade.",
+    "busca": [
+      "Lagoa da Jansen"
+    ]
+  },
+  {
+    "n": "Casa das Tulhas",
+    "cat": "comida",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "A Feira da Praia Grande, com cachaça, doces e guaraná Jesus.",
+    "busca": [
+      "Feira da Praia Grande"
+    ]
+  },
+  {
+    "n": "Mercado Central de São Luís",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Mercado popular com camarão seco, juçara e temperos."
+  },
+  {
+    "n": "Cafofinho da Tia Dica",
+    "cat": "comida",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Comida caseira maranhense, com arroz de cuxá e torta de camarão."
+  },
+  {
+    "n": "Restaurante Antigamente",
+    "cat": "comida",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Restaurante em casarão do centro histórico, com música ao vivo.",
+    "busca": [
+      "Antigamente"
+    ]
+  },
+  {
+    "n": "Cabana do Sol",
+    "cat": "comida",
+    "end": "Calhau",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Casa tradicional de carne de sol e comida regional."
+  },
+  {
+    "n": "Bar do Léo",
+    "cat": "bar",
+    "end": "São Luís",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Bar famoso pela enorme coleção de discos de vinil."
+  },
+  {
+    "n": "Chico Discos",
+    "cat": "bar",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Loja de discos com bar, reduto de música no centro histórico."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "n": "Praia Central de Garopaba",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Enseada com barcos de pescadores e o centrinho histórico."
+  },
+  {
+    "n": "Igreja Matriz de São Joaquim de Garopaba",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Igreja do século XIX no alto do centro histórico, de frente para o mar.",
+    "busca": [
+      "Igreja de Garopaba"
+    ]
+  },
+  {
+    "n": "Praia da Ferrugem",
+    "cat": "verde",
+    "end": "Ferrugem",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Praia badalada de surfe e vida noturna."
+  },
+  {
+    "n": "Praia do Silveira",
+    "cat": "verde",
+    "end": "Silveira",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Uma das praias de surfe mais famosas do Brasil, cercada de morros."
+  },
+  {
+    "n": "Praia da Barra",
+    "cat": "verde",
+    "end": "Barra",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Praia tranquila onde a lagoa encontra o mar."
+  },
+  {
+    "n": "Dunas do Siriú",
+    "cat": "verde",
+    "end": "Siriú",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Grandes dunas de areia perfeitas para sandboard.",
+    "busca": [
+      "Dunas da Siriú"
+    ]
+  },
+  {
+    "n": "Praia do Siriú",
+    "cat": "verde",
+    "end": "Siriú",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Praia extensa com dunas e clima de vila."
+  },
+  {
+    "n": "Praia da Gamboa",
+    "cat": "verde",
+    "end": "Gamboa",
+    "cidade": "Garopaba",
+    "uf": "SC",
+    "d": "Vila de pescadores com praia tranquila e paisagem preservada."
+  }
+]

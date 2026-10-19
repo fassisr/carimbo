@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Pico Alto",
+    "cat": "verde",
+    "end": "Guaramiranga",
+    "cidade": "Guaramiranga",
+    "uf": "CE",
+    "d": "Ponto mais alto da serra de Baturité, com vista de tirar o fôlego."
+  },
+  {
+    "n": "Teatro Rachel de Queiroz",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Guaramiranga",
+    "uf": "CE",
+    "d": "Teatrinho charmoso, palco do Festival de Jazz & Blues."
+  },
+  {
+    "n": "Convento dos Capuchinhos",
+    "cat": "cultura",
+    "end": "Guaramiranga",
+    "cidade": "Guaramiranga",
+    "uf": "CE",
+    "d": "Convento em meio à mata da serra, de clima tranquilo.",
+    "busca": [
+      "Convento Sagrado Coração de Jesus Guaramiranga"
+    ]
+  }
+]

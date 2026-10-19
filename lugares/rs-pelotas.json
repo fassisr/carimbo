@@ -1,0 +1,77 @@
+[
+  {
+    "n": "Mercado Público de Pelotas",
+    "cat": "comida",
+    "end": "Praça Coronel Pedro Osório, Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Mercado de 1849 com torre de relógio, bares e restaurantes."
+  },
+  {
+    "n": "Praça Coronel Pedro Osório",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Praça central com chafariz francês cercada por casarões."
+  },
+  {
+    "n": "Theatro Sete de Abril",
+    "cat": "cultura",
+    "end": "Praça Coronel Pedro Osório, Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Um dos teatros mais antigos do Brasil, de 1834."
+  },
+  {
+    "n": "Museu do Doce",
+    "cat": "cultura",
+    "end": "Praça Coronel Pedro Osório, Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Casarão que conta a história dos doces tradicionais de Pelotas."
+  },
+  {
+    "n": "Bibliotheca Pública Pelotense",
+    "cat": "cultura",
+    "end": "Praça Coronel Pedro Osório, Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Biblioteca do século XIX em prédio neoclássico."
+  },
+  {
+    "n": "Catedral São Francisco de Paula",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Catedral histórica com afrescos de Aldo Locatelli."
+  },
+  {
+    "n": "Charqueada São João",
+    "cat": "cultura",
+    "end": "Estrada da Costa",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Antiga charqueada do século XIX à beira do Arroio Pelotas."
+  },
+  {
+    "n": "Praia do Laranjal",
+    "cat": "verde",
+    "end": "Laranjal",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Praia de água doce na Lagoa dos Patos, ótima para o pôr do sol.",
+    "busca": [
+      "Laranjal"
+    ]
+  },
+  {
+    "n": "Café Aquários",
+    "cat": "cafe",
+    "end": "Rua Sete de Setembro, Centro",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "d": "Café tradicional do centro, ponto de encontro histórico dos pelotenses."
+  }
+]

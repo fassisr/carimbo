@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Feira de Caruaru",
+    "cat": "cultura",
+    "end": "Parque 18 de Maio, Centro",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Feira enorme e lendária, patrimônio imaterial do Brasil.",
+    "busca": [
+      "Parque 18 de Maio"
+    ]
+  },
+  {
+    "n": "Alto do Moura",
+    "cat": "cultura",
+    "end": "Alto do Moura",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Maior centro de arte figurativa das Américas, com ateliês de barro."
+  },
+  {
+    "n": "Casa-Museu Mestre Vitalino",
+    "cat": "cultura",
+    "end": "Alto do Moura",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Casa onde viveu Mestre Vitalino, mestre dos bonecos de barro."
+  },
+  {
+    "n": "Pátio de Eventos Luiz Gonzaga",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Palco do São João de Caruaru, a capital do forró.",
+    "busca": [
+      "Pátio do Forró"
+    ]
+  },
+  {
+    "n": "Museu do Barro",
+    "cat": "cultura",
+    "end": "Pátio de Eventos, Centro",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Museu com obras de Vitalino e outros mestres da cerâmica.",
+    "busca": [
+      "Espaço Cultural Tancredo Neves"
+    ]
+  },
+  {
+    "n": "Museu do Forró Luiz Gonzaga",
+    "cat": "cultura",
+    "end": "Pátio de Eventos, Centro",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Museu dedicado ao Rei do Baião e à história do forró."
+  },
+  {
+    "n": "Monte do Bom Jesus",
+    "cat": "verde",
+    "end": "Monte do Bom Jesus",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Mirante com capela e vista panorâmica de Caruaru."
+  },
+  {
+    "n": "Catedral de Nossa Senhora das Dores",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Caruaru",
+    "uf": "PE",
+    "d": "Catedral da padroeira da cidade, no centro de Caruaru."
+  }
+]

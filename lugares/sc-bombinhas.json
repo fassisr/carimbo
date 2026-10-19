@@ -1,0 +1,77 @@
+[
+  {
+    "n": "Praia de Bombinhas",
+    "cat": "verde",
+    "end": "Bombinhas",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Praia de águas calmas e transparentes, a principal da cidade."
+  },
+  {
+    "n": "Praia de Bombas",
+    "cat": "verde",
+    "end": "Bombas",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Praia extensa e movimentada, boa para família."
+  },
+  {
+    "n": "Praia da Sepultura",
+    "cat": "verde",
+    "end": "Bombinhas",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Pequena enseada de mar cristalino, ideal para mergulho."
+  },
+  {
+    "n": "Praia de Quatro Ilhas",
+    "cat": "verde",
+    "end": "Quatro Ilhas",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Praia de surfe com vista para quatro ilhotas."
+  },
+  {
+    "n": "Praia do Mariscal",
+    "cat": "verde",
+    "end": "Mariscal",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Praia longa e selvagem cercada por restinga."
+  },
+  {
+    "n": "Praia da Lagoinha",
+    "cat": "verde",
+    "end": "Lagoinha",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Enseada pequena e tranquila de águas verdes."
+  },
+  {
+    "n": "Praia de Zimbros",
+    "cat": "verde",
+    "end": "Zimbros",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Vila de pescadores com mar calmo e restaurantes de frutos do mar."
+  },
+  {
+    "n": "Mirante do Morro do Macaco",
+    "cat": "verde",
+    "end": "Bombinhas",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Mirante com vista panorâmica para as praias da península.",
+    "busca": [
+      "Morro do Macaco"
+    ]
+  },
+  {
+    "n": "Praia do Retiro dos Padres",
+    "cat": "verde",
+    "end": "Canto Grande",
+    "cidade": "Bombinhas",
+    "uf": "SC",
+    "d": "Pequena praia escondida no Canto Grande, com mar calmo."
+  }
+]

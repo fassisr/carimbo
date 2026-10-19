@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Lago Negro",
+    "cat": "verde",
+    "end": "Rua A. J. Renner",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Lago cercado de árvores trazidas da Floresta Negra, com pedalinhos."
+  },
+  {
+    "n": "Rua Coberta",
+    "cat": "cultura",
+    "end": "Avenida Borges de Medeiros, Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Rua coberta com cafés e restaurantes no centro de Gramado."
+  },
+  {
+    "n": "Igreja Matriz São Pedro",
+    "cat": "cultura",
+    "end": "Avenida Borges de Medeiros, Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Igreja de pedra basalto no coração da cidade.",
+    "busca": [
+      "Igreja São Pedro Gramado"
+    ]
+  },
+  {
+    "n": "Palácio dos Festivais",
+    "cat": "cultura",
+    "end": "Avenida Borges de Medeiros, Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Sede do Festival de Cinema de Gramado."
+  },
+  {
+    "n": "Mini Mundo",
+    "cat": "cultura",
+    "end": "Rua Horácio Cardoso, 291, Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Parque de miniaturas de construções famosas."
+  },
+  {
+    "n": "Parque do Lago Joaquina Rita Bier",
+    "cat": "verde",
+    "end": "Gramado",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Parque com lago, jardins e pontes ao estilo europeu.",
+    "busca": [
+      "Lago Joaquina Rita Bier"
+    ]
+  },
+  {
+    "n": "Belvedere Vale do Quilombo",
+    "cat": "verde",
+    "end": "Vale do Quilombo",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Mirante com vista para o vale verde do Quilombo."
+  },
+  {
+    "n": "Casa da Velha Bruxa",
+    "cat": "doce",
+    "end": "Avenida Borges de Medeiros, Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Chocolateria tradicional com chocolate quente famoso.",
+    "busca": [
+      "Chocolates Prawer"
+    ]
+  },
+  {
+    "n": "Praça Major Nicoletti",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Gramado",
+    "uf": "RS",
+    "d": "Praça central florida e iluminada no Natal Luz."
+  }
+]

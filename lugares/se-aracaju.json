@@ -1,0 +1,131 @@
+[
+  {
+    "n": "Museu da Gente Sergipana",
+    "cat": "cultura",
+    "end": "Avenida Ivo do Prado, 398, Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Museu interativo sobre a cultura e o povo de Sergipe."
+  },
+  {
+    "n": "Palácio-Museu Olímpio Campos",
+    "cat": "cultura",
+    "end": "Praça Fausto Cardoso, Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Antigo palácio do governo transformado em museu."
+  },
+  {
+    "n": "Catedral Metropolitana de Aracaju",
+    "cat": "cultura",
+    "end": "Praça Olímpio Campos, Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Catedral neogótica no centro histórico da cidade."
+  },
+  {
+    "n": "Praça Fausto Cardoso",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Praça cívica histórica, coração do centro de Aracaju."
+  },
+  {
+    "n": "Ponte do Imperador",
+    "cat": "cultura",
+    "end": "Avenida Ivo do Prado, Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Antigo cais onde desembarcou Dom Pedro II, à beira do Rio Sergipe."
+  },
+  {
+    "n": "Mercado Thales Ferraz",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Mercado histórico com artesanato e comidas típicas sergipanas.",
+    "busca": [
+      "Mercados Centrais de Aracaju"
+    ]
+  },
+  {
+    "n": "Mercado Antônio Franco",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Mercado central com boxes de comida regional, frutas e castanhas."
+  },
+  {
+    "n": "Teatro Tobias Barreto",
+    "cat": "cultura",
+    "end": "Rua Vila Cristina, São José",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Principal teatro de Sergipe."
+  },
+  {
+    "n": "Orla de Atalaia",
+    "cat": "verde",
+    "end": "Avenida Santos Dumont, Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Orla com lagos, ciclovia, quadras e os Arcos da Orla."
+  },
+  {
+    "n": "Praia de Atalaia",
+    "cat": "verde",
+    "end": "Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Praia urbana mais conhecida de Aracaju."
+  },
+  {
+    "n": "Oceanário de Aracaju",
+    "cat": "cultura",
+    "end": "Avenida Santos Dumont, Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Aquário do Projeto Tamar com tartarugas marinhas e peixes da costa."
+  },
+  {
+    "n": "Passarela do Caranguejo",
+    "cat": "comida",
+    "end": "Avenida Santos Dumont, Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Trecho da orla com restaurantes de caranguejo e forró.",
+    "busca": [
+      "Passarela do Caranguejo Aracaju"
+    ]
+  },
+  {
+    "n": "Cariri",
+    "cat": "comida",
+    "end": "Passarela do Caranguejo, Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Restaurante de comida nordestina com forró pé de serra ao vivo."
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Avenida Juscelino Kubitschek, Industrial",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Grande parque com mata, zoológico e teleférico no Morro do Urubu.",
+    "busca": [
+      "Parque Governador José Rollemberg Leite"
+    ]
+  },
+  {
+    "n": "Croa do Goré",
+    "cat": "verde",
+    "end": "Rio Vaza-Barris, Mosqueiro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Banco de areia no rio que surge na maré baixa, com bar flutuante."
+  }
+]

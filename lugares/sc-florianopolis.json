@@ -1,0 +1,198 @@
+[
+  {
+    "n": "Ponte Hercílio Luz",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Ponte pênsil de 1926, símbolo maior de Florianópolis."
+  },
+  {
+    "n": "Mercado Público de Florianópolis",
+    "cat": "comida",
+    "end": "Rua Jerônimo Coelho, 60, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Mercado de 1899 com boxes de frutos do mar, chope e artesanato.",
+    "busca": [
+      "Mercado Público"
+    ]
+  },
+  {
+    "n": "Box 32",
+    "cat": "bar",
+    "end": "Mercado Público, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Bar mais famoso do Mercado, ponto de encontro com chope e frutos do mar."
+  },
+  {
+    "n": "Catedral Metropolitana de Florianópolis",
+    "cat": "cultura",
+    "end": "Praça XV de Novembro, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Catedral no alto da praça central, marco da fundação da cidade."
+  },
+  {
+    "n": "Praça XV de Novembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praça histórica com a figueira centenária que é símbolo da cidade.",
+    "busca": [
+      "Figueira da Praça XV"
+    ]
+  },
+  {
+    "n": "Palácio Cruz e Sousa",
+    "cat": "cultura",
+    "end": "Praça XV de Novembro, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Palácio rosado que abriga o Museu Histórico de Santa Catarina.",
+    "busca": [
+      "Museu Histórico de Santa Catarina"
+    ]
+  },
+  {
+    "n": "Casa da Alfândega",
+    "cat": "cultura",
+    "end": "Rua Conselheiro Mafra, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Prédio de 1876 com artesanato e renda de bilro."
+  },
+  {
+    "n": "Lagoa da Conceição",
+    "cat": "verde",
+    "end": "Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Lagoa entre dunas e morros, centro da vida boêmia da ilha."
+  },
+  {
+    "n": "Praia da Joaquina",
+    "cat": "verde",
+    "end": "Joaquina",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de surfe famosa pelas dunas de areia para sandboard."
+  },
+  {
+    "n": "Praia Mole",
+    "cat": "verde",
+    "end": "Praia Mole",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de mar azul cercada de pedras e morros verdes."
+  },
+  {
+    "n": "Praia do Campeche",
+    "cat": "verde",
+    "end": "Campeche",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia extensa com vista para a Ilha do Campeche."
+  },
+  {
+    "n": "Santo Antônio de Lisboa",
+    "cat": "cultura",
+    "end": "Santo Antônio de Lisboa",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Vila açoriana com casario colonial e restaurantes de ostras."
+  },
+  {
+    "n": "Ribeirão da Ilha",
+    "cat": "cultura",
+    "end": "Ribeirão da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Freguesia açoriana com igreja do século XIX e cultivo de ostras."
+  },
+  {
+    "n": "Fortaleza de São José da Ponta Grossa",
+    "cat": "cultura",
+    "end": "Jurerê",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Fortaleza do século XVIII com vista para o mar entre Jurerê e Daniela."
+  },
+  {
+    "n": "Mirante do Morro da Cruz",
+    "cat": "verde",
+    "end": "Morro da Cruz, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Mirante com vista para o centro, as pontes e as duas baías.",
+    "busca": [
+      "Morro da Cruz"
+    ]
+  },
+  {
+    "n": "Lagoinha do Leste",
+    "cat": "verde",
+    "end": "Pântano do Sul",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia selvagem alcançada por trilha, uma das mais bonitas da ilha."
+  },
+  {
+    "n": "Lagoa do Peri",
+    "cat": "verde",
+    "end": "Armação",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Parque com lagoa de água doce, mata atlântica e trilhas."
+  },
+  {
+    "n": "Costa da Lagoa",
+    "cat": "verde",
+    "end": "Costa da Lagoa",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Comunidade acessível de barco ou trilha, com cachoeira e restaurantes."
+  },
+  {
+    "n": "Ostradamus",
+    "cat": "comida",
+    "end": "Ribeirão da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Restaurante famoso pelas ostras frescas à beira-mar no Ribeirão."
+  },
+  {
+    "n": "Bar do Arante",
+    "cat": "comida",
+    "end": "Pântano do Sul",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Restaurante de peixe com paredes cobertas por bilhetes dos visitantes."
+  },
+  {
+    "n": "Armazém Vieira",
+    "cat": "bar",
+    "end": "Saco dos Limões",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Armazém histórico do século XIX, famoso pela cachaça própria."
+  },
+  {
+    "n": "Rancho Açoriano",
+    "cat": "comida",
+    "end": "Ribeirão da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Restaurante tradicional de frutos do mar e culinária açoriana."
+  },
+  {
+    "n": "Café Cultura",
+    "cat": "cafe",
+    "end": "Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Cafeteria catarinense querida pelos cafés especiais e brunch."
+  }
+]

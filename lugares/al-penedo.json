@@ -1,0 +1,91 @@
+[
+  {
+    "n": "Convento de Nossa Senhora dos Anjos",
+    "cat": "cultura",
+    "end": "Praça Rui Barbosa, Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Convento franciscano do século XVII, joia do barroco alagoano.",
+    "busca": [
+      "Igreja e Convento de Santa Maria dos Anjos"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Corrente",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Igreja com azulejos portugueses e altares rococó."
+  },
+  {
+    "n": "Catedral de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Catedral diocesana no alto da cidade histórica.",
+    "busca": [
+      "Catedral Diocesana de Penedo"
+    ]
+  },
+  {
+    "n": "Igreja de São Gonçalo Garcia",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Igreja histórica com fachada barroca no centro de Penedo."
+  },
+  {
+    "n": "Theatro Sete de Setembro",
+    "cat": "cultura",
+    "end": "Avenida Floriano Peixoto, Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Teatro do século XIX, um dos mais antigos de Alagoas."
+  },
+  {
+    "n": "Paço Imperial de Penedo",
+    "cat": "cultura",
+    "end": "Praça Barão de Penedo, Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Casarão onde se hospedou Dom Pedro II, hoje museu."
+  },
+  {
+    "n": "Casa do Penedo",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Museu com acervo sobre a história e a gente de Penedo."
+  },
+  {
+    "n": "Rocheira",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Mirante sobre o rochedo com vista para o Rio São Francisco.",
+    "busca": [
+      "Mirante da Rocheira"
+    ]
+  },
+  {
+    "n": "Orla do Rio São Francisco",
+    "cat": "verde",
+    "end": "Avenida Beira-Rio, Centro",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Calçadão à beira do Velho Chico, com barcos e pôr do sol."
+  },
+  {
+    "n": "Oratório da Forca",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Penedo",
+    "uf": "AL",
+    "d": "Pequeno oratório onde condenados rezavam antes da execução."
+  }
+]

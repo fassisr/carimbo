@@ -1,0 +1,108 @@
+[
+  {
+    "n": "Parque do Povo",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Palco do Maior São João do Mundo, aberto o ano inteiro."
+  },
+  {
+    "n": "Açude Velho",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Cartão-postal da cidade, com calçadão para caminhar ao redor."
+  },
+  {
+    "n": "Museu de Arte Popular da Paraíba",
+    "cat": "cultura",
+    "end": "Açude Velho, Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Os Três Pandeiros de Niemeyer, à beira do Açude Velho.",
+    "busca": [
+      "Museu dos Três Pandeiros"
+    ]
+  },
+  {
+    "n": "Monumento aos Pioneiros da Borborema",
+    "cat": "cultura",
+    "end": "Açude Velho, Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Grandes estátuas que homenageiam o índio, a catadora e o tropeiro.",
+    "busca": [
+      "Os Pioneiros da Borborema"
+    ]
+  },
+  {
+    "n": "Parque Evaldo Cruz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Parque do Açude Novo, área verde no centro da cidade.",
+    "busca": [
+      "Açude Novo"
+    ]
+  },
+  {
+    "n": "Teatro Municipal Severino Cabral",
+    "cat": "cultura",
+    "end": "Av. Floriano Peixoto, Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Principal teatro da cidade, de arquitetura modernista marcante."
+  },
+  {
+    "n": "Catedral de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Catedral da padroeira de Campina Grande, no centro.",
+    "busca": [
+      "Catedral de Campina Grande"
+    ]
+  },
+  {
+    "n": "Museu Histórico e Geográfico de Campina Grande",
+    "cat": "cultura",
+    "end": "Av. Floriano Peixoto, Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Acervo sobre a história da cidade em prédio do século XIX."
+  },
+  {
+    "n": "Museu do Algodão",
+    "cat": "cultura",
+    "end": "Estação Velha, Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Na antiga estação de trem, conta o ciclo do ouro branco.",
+    "busca": [
+      "Estação Velha Campina Grande"
+    ]
+  },
+  {
+    "n": "Parque da Criança",
+    "cat": "verde",
+    "end": "Catolé",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Grande parque com pista de caminhada e área de lazer."
+  },
+  {
+    "n": "Feira Central de Campina Grande",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Campina Grande",
+    "uf": "PB",
+    "d": "Feira centenária e patrimônio, com comida típica e cultura sertaneja.",
+    "busca": [
+      "Feira Central"
+    ]
+  }
+]

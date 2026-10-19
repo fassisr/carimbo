@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Tragaluz",
+    "cat": "comida",
+    "end": "Rua Direita, 52, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Restaurante charmoso de cozinha mineira contemporânea."
+  },
+  {
+    "n": "Viradas do Largo",
+    "cat": "comida",
+    "end": "Rua do Moinho, 11, Centro",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Comida mineira tradicional servida em panelas de pedra.",
+    "busca": [
+      "Restaurante Viradas do Largo"
+    ]
+  },
+  {
+    "n": "Pau de Angu",
+    "cat": "comida",
+    "end": "Estrada Tiradentes-Bichinho",
+    "cidade": "Tiradentes",
+    "uf": "MG",
+    "d": "Restaurante rústico de fogão a lenha a caminho de Bichinho."
+  }
+]

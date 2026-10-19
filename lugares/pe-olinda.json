@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Alto da Sé",
+    "cat": "verde",
+    "end": "Alto da Sé, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Mirante com vista para o casario de Olinda e os prédios do Recife."
+  },
+  {
+    "n": "Igreja da Sé",
+    "cat": "cultura",
+    "end": "Alto da Sé, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Catedral do século XVI no ponto mais alto de Olinda.",
+    "busca": [
+      "Catedral de Olinda",
+      "Igreja do Santíssimo Salvador do Mundo"
+    ]
+  },
+  {
+    "n": "Mosteiro de São Bento",
+    "cat": "cultura",
+    "end": "Rua de São Bento, Varadouro",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Mosteiro barroco com altar-mor folheado a ouro."
+  },
+  {
+    "n": "Convento de São Francisco",
+    "cat": "cultura",
+    "end": "Rua de São Francisco, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Primeiro convento franciscano do Brasil, com claustro de azulejos."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Praça do Carmo, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Igreja carmelita do século XVI, uma das mais antigas do país."
+  },
+  {
+    "n": "Museu de Arte Contemporânea de Pernambuco",
+    "cat": "cultura",
+    "end": "Rua Treze de Maio, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Museu num antigo prédio da Inquisição.",
+    "busca": [
+      "MAC Olinda"
+    ]
+  },
+  {
+    "n": "Mercado da Ribeira",
+    "cat": "cultura",
+    "end": "Rua Bernardo Vieira de Melo, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Antigo mercado colonial com lojinhas de artesanato."
+  },
+  {
+    "n": "Embaixada dos Bonecos Gigantes",
+    "cat": "cultura",
+    "end": "Rua do Amparo, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Exposição dos bonecos gigantes que saem no carnaval de Olinda."
+  },
+  {
+    "n": "Bodega de Véio",
+    "cat": "bar",
+    "end": "Rua do Amparo, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Mercearia e bar tradicional, cheio de petiscos e histórias."
+  },
+  {
+    "n": "Tapiocas do Alto da Sé",
+    "cat": "comida",
+    "end": "Alto da Sé, Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Barraquinhas de tapioca recheada com vista para o mar."
+  },
+  {
+    "n": "Ladeira da Misericórdia",
+    "cat": "verde",
+    "end": "Sítio Histórico",
+    "cidade": "Olinda",
+    "uf": "PE",
+    "d": "Ladeira íngreme de casarões coloridos, símbolo do carnaval de Olinda."
+  }
+]

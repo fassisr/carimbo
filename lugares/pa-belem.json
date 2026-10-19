@@ -1,0 +1,191 @@
+[
+  {
+    "n": "Mercado Ver-o-Peso",
+    "cat": "comida",
+    "end": "Boulevard Castilhos França, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Maior feira livre da América Latina, com açaí, peixes e ervas.",
+    "busca": [
+      "Ver-o-Peso"
+    ]
+  },
+  {
+    "n": "Estação das Docas",
+    "cat": "comida",
+    "end": "Boulevard Castilhos França, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Armazéns do porto com restaurantes e sorvetes à beira da baía."
+  },
+  {
+    "n": "Amazon Beer",
+    "cat": "bar",
+    "end": "Estação das Docas, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Cervejaria com chopes de frutas amazônicas e vista para a Baía do Guajará."
+  },
+  {
+    "n": "Bar do Parque",
+    "cat": "bar",
+    "end": "Praça da República, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Quiosque histórico ao lado do Theatro da Paz, reduto boêmio."
+  },
+  {
+    "n": "Remanso do Bosque",
+    "cat": "comida",
+    "end": "Marco",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante premiado de cozinha paraense dos irmãos Castanho."
+  },
+  {
+    "n": "Sorveteria Cairu",
+    "cat": "doce",
+    "end": "Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Sorveteria paraense famosa pelo sabor Mestiço e frutas da região.",
+    "busca": [
+      "Cairu"
+    ]
+  },
+  {
+    "n": "Filha do Combu",
+    "cat": "doce",
+    "end": "Ilha do Combu",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Fábrica de chocolate artesanal da Dona Nena, no meio da floresta."
+  },
+  {
+    "n": "Theatro da Paz",
+    "cat": "cultura",
+    "end": "Praça da República, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Teatro da época da borracha com interior luxuoso."
+  },
+  {
+    "n": "Praça da República",
+    "cat": "verde",
+    "end": "Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Praça arborizada com feira de artesanato aos domingos."
+  },
+  {
+    "n": "Basílica Santuário de Nazaré",
+    "cat": "cultura",
+    "end": "Praça Santuário, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Basílica de onde sai o Círio de Nazaré, a maior procissão do país.",
+    "busca": [
+      "Basílica de Nazaré"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Belém",
+    "cat": "cultura",
+    "end": "Praça Frei Caetano Brandão, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Catedral da Sé do século XVIII no núcleo histórico.",
+    "busca": [
+      "Catedral da Sé"
+    ]
+  },
+  {
+    "n": "Forte do Presépio",
+    "cat": "cultura",
+    "end": "Praça Frei Caetano Brandão, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Fortaleza de 1616, marco da fundação de Belém.",
+    "busca": [
+      "Forte do Castelo"
+    ]
+  },
+  {
+    "n": "Casa das Onze Janelas",
+    "cat": "cultura",
+    "end": "Praça Frei Caetano Brandão, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Casarão com arte contemporânea e vista para a baía."
+  },
+  {
+    "n": "Mangal das Garças",
+    "cat": "verde",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Parque com viveiro de aves, borboletário e farol mirante."
+  },
+  {
+    "n": "Museu Paraense Emílio Goeldi",
+    "cat": "verde",
+    "end": "Avenida Magalhães Barata, 376, São Brás",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Parque zoobotânico centenário com animais e plantas da Amazônia.",
+    "busca": [
+      "Museu Goeldi"
+    ]
+  },
+  {
+    "n": "Bosque Rodrigues Alves",
+    "cat": "verde",
+    "end": "Avenida Almirante Barroso, Marco",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Pedaço de floresta amazônica preservada dentro da cidade."
+  },
+  {
+    "n": "Parque Estadual do Utinga",
+    "cat": "verde",
+    "end": "Curió-Utinga",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Lagos e trilhas de floresta para caminhar e pedalar.",
+    "busca": [
+      "Parque do Utinga"
+    ]
+  },
+  {
+    "n": "Portal da Amazônia",
+    "cat": "verde",
+    "end": "Jurunas",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Orla extensa à beira do Rio Guamá com pistas e quiosques."
+  },
+  {
+    "n": "Mercado de São Brás",
+    "cat": "cultura",
+    "end": "Praça Floriano Peixoto, São Brás",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Mercado art nouveau de 1911 restaurado."
+  },
+  {
+    "n": "Palacete Bolonha",
+    "cat": "cultura",
+    "end": "Avenida Governador José Malcher, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Palacete art nouveau dos tempos da borracha."
+  },
+  {
+    "n": "Ilha do Combu",
+    "cat": "verde",
+    "end": "Ilha do Combu",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Ilha ribeirinha em frente a Belém, com restaurantes de beira de rio."
+  }
+]

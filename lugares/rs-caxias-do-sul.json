@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Monumento Nacional ao Imigrante",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, Ana Rech",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Monumento aos imigrantes italianos que colonizaram a serra.",
+    "busca": [
+      "Monumento ao Imigrante"
+    ]
+  },
+  {
+    "n": "Catedral Diocesana de Caxias do Sul",
+    "cat": "cultura",
+    "end": "Praça Dante Alighieri, Centro",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Catedral de 1899 na praça central da cidade.",
+    "busca": [
+      "Catedral Santa Teresa"
+    ]
+  },
+  {
+    "n": "Praça Dante Alighieri",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Praça central e ponto de encontro de Caxias."
+  },
+  {
+    "n": "Parque de Exposições Festa da Uva",
+    "cat": "cultura",
+    "end": "Rua Ludovico Cavinato, Nossa Senhora da Saúde",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Pavilhões da Festa da Uva e réplica da Caxias antiga.",
+    "busca": [
+      "Parque da Festa da Uva"
+    ]
+  },
+  {
+    "n": "Parque dos Macaquinhos",
+    "cat": "verde",
+    "end": "Caxias do Sul",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Parque com mata, cachoeiras e trilhas."
+  },
+  {
+    "n": "Museu Municipal de Caxias do Sul",
+    "cat": "cultura",
+    "end": "Rua Visconde de Pelotas, Centro",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Museu sobre a imigração italiana e a história da cidade."
+  },
+  {
+    "n": "Estação Férrea de Caxias do Sul",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Antiga estação ferroviária, hoje espaço de cultura e gastronomia.",
+    "busca": [
+      "Estação Férrea"
+    ]
+  },
+  {
+    "n": "Vila de Ana Rech",
+    "cat": "cultura",
+    "end": "Ana Rech",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "d": "Bairro histórico com igreja e tradições da imigração italiana."
+  }
+]

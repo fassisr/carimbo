@@ -1,0 +1,85 @@
+[
+  {
+    "n": "Casa de Cultura Jorge Amado",
+    "cat": "cultura",
+    "end": "Rua Jorge Amado, 21, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Casarão onde Jorge Amado viveu a juventude, hoje museu sobre sua obra."
+  },
+  {
+    "n": "Bar Vesúvio",
+    "cat": "bar",
+    "end": "Praça Dom Eduardo, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Bar cenário de Gabriela, Cravo e Canela, em frente à catedral.",
+    "busca": [
+      "Vesúvio"
+    ]
+  },
+  {
+    "n": "Bataclan",
+    "cat": "cultura",
+    "end": "Avenida Dois de Julho, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Antigo cabaré dos coronéis do cacau, imortalizado por Jorge Amado."
+  },
+  {
+    "n": "Catedral de São Sebastião",
+    "cat": "cultura",
+    "end": "Praça Dom Eduardo, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Catedral imponente de cúpulas verdes, cartão-postal de Ilhéus."
+  },
+  {
+    "n": "Igreja Matriz de São Jorge",
+    "cat": "cultura",
+    "end": "Praça Rui Barbosa, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Uma das igrejas mais antigas do Brasil, do século XVI."
+  },
+  {
+    "n": "Teatro Municipal de Ilhéus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Teatro histórico da época áurea do cacau."
+  },
+  {
+    "n": "Palácio Paranaguá",
+    "cat": "cultura",
+    "end": "Praça Rui Barbosa, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Sede da prefeitura num belo palácio da era do cacau."
+  },
+  {
+    "n": "Praia do Cristo",
+    "cat": "verde",
+    "end": "Avenida Soares Lopes, Centro",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Praia urbana com a estátua do Cristo voltada para a baía."
+  },
+  {
+    "n": "Praia dos Milionários",
+    "cat": "verde",
+    "end": "Zona Sul",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Praia de coqueiros e barracas, a mais querida da zona sul."
+  },
+  {
+    "n": "Praia de Olivença",
+    "cat": "verde",
+    "end": "Olivença",
+    "cidade": "Ilhéus",
+    "uf": "BA",
+    "d": "Vila de praia com boas ondas e ar de interior."
+  }
+]

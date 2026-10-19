@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Vale dos Vinhedos",
+    "cat": "verde",
+    "end": "Vale dos Vinhedos",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Paisagem de parreirais e vinícolas, berço do enoturismo brasileiro."
+  },
+  {
+    "n": "Vinícola Miolo",
+    "cat": "bar",
+    "end": "Vale dos Vinhedos",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Vinícola famosa com visitas guiadas e degustação.",
+    "busca": [
+      "Miolo"
+    ]
+  },
+  {
+    "n": "Casa Valduga",
+    "cat": "bar",
+    "end": "Vale dos Vinhedos",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Vinícola tradicional de espumantes com degustação e restaurante.",
+    "busca": [
+      "Vinícola Casa Valduga"
+    ]
+  },
+  {
+    "n": "Caminhos de Pedra",
+    "cat": "cultura",
+    "end": "São Pedro",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Roteiro rural com casas de pedra dos imigrantes italianos."
+  },
+  {
+    "n": "Estação Ferroviária de Bento Gonçalves",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Ponto de partida do passeio de Maria Fumaça pela serra.",
+    "busca": [
+      "Maria Fumaça"
+    ]
+  },
+  {
+    "n": "Igreja Cristo Rei",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Igreja matriz com torre marcante no centro da cidade."
+  },
+  {
+    "n": "Pipa Pórtico",
+    "cat": "cultura",
+    "end": "Rua Ramiro Barcelos, Centro",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Portal em forma de pipa de vinho na entrada da cidade."
+  },
+  {
+    "n": "Epopeia Italiana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "d": "Espetáculo que narra a saga dos imigrantes italianos."
+  }
+]

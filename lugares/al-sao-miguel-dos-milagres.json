@@ -1,0 +1,64 @@
+[
+  {
+    "n": "Praia do Toque",
+    "cat": "verde",
+    "end": "Toque",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Praia de águas calmas e coqueirais, com pousadas charmosas."
+  },
+  {
+    "n": "Praia de Porto da Rua",
+    "cat": "verde",
+    "end": "Porto da Rua",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Vila de pescadores com piscinas naturais na maré baixa."
+  },
+  {
+    "n": "Piscinas Naturais de São Miguel dos Milagres",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Piscinas de água clara alcançadas de jangada na maré baixa."
+  },
+  {
+    "n": "Praia de São Miguel dos Milagres",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Praia central da vila, com jangadas e mar tranquilo."
+  },
+  {
+    "n": "Praia do Riacho",
+    "cat": "verde",
+    "end": "Riacho",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Praia de coqueiros onde o riacho encontra o mar."
+  },
+  {
+    "n": "Igreja de São Miguel Arcanjo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Igreja matriz que dá nome à cidade, ligada à lenda dos milagres.",
+    "busca": [
+      "Igreja Matriz de São Miguel dos Milagres"
+    ]
+  },
+  {
+    "n": "Rota Ecológica dos Milagres",
+    "cat": "verde",
+    "end": "AL-101 Norte",
+    "cidade": "São Miguel dos Milagres",
+    "uf": "AL",
+    "d": "Trecho de litoral preservado com praias desertas e mar transparente.",
+    "busca": [
+      "Rota Ecológica"
+    ]
+  }
+]

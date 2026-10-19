@@ -1,0 +1,199 @@
+[
+  {
+    "n": "Forte dos Reis Magos",
+    "cat": "cultura",
+    "end": "Praia do Forte, Santos Reis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Fortaleza em forma de estrela onde a cidade nasceu, em 1599.",
+    "busca": [
+      "Fortaleza dos Reis Magos"
+    ]
+  },
+  {
+    "n": "Morro do Careca",
+    "cat": "verde",
+    "end": "Ponta Negra",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Duna gigante que é o símbolo de Natal, vista da praia."
+  },
+  {
+    "n": "Praia de Ponta Negra",
+    "cat": "verde",
+    "end": "Ponta Negra",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "A praia mais famosa da cidade, com calçadão e barracas."
+  },
+  {
+    "n": "Praia dos Artistas",
+    "cat": "verde",
+    "end": "Praia do Meio",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praia urbana boa para surf e pôr do sol."
+  },
+  {
+    "n": "Parque das Dunas",
+    "cat": "verde",
+    "end": "Av. Alexandrino de Alencar, Tirol",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Grande parque de mata atlântica sobre dunas com trilhas."
+  },
+  {
+    "n": "Parque da Cidade Dom Nivaldo Monte",
+    "cat": "verde",
+    "end": "Candelária",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Parque com torre de Niemeyer e trilhas sobre as dunas.",
+    "busca": [
+      "Parque da Cidade Natal"
+    ]
+  },
+  {
+    "n": "Centro de Turismo de Natal",
+    "cat": "cultura",
+    "end": "Rua Aderbal de Figueiredo, 980, Petrópolis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Antiga cadeia virada polo de artesanato com vista para o mar."
+  },
+  {
+    "n": "Teatro Alberto Maranhão",
+    "cat": "cultura",
+    "end": "Praça Augusto Severo, Ribeira",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Teatro histórico de 1904, joia do bairro da Ribeira."
+  },
+  {
+    "n": "Casa da Ribeira",
+    "cat": "cultura",
+    "end": "Rua Frei Miguelinho, 52, Ribeira",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Teatro e centro cultural em casarão do bairro boêmio."
+  },
+  {
+    "n": "Memorial Câmara Cascudo",
+    "cat": "cultura",
+    "end": "Praça André de Albuquerque, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Homenagem ao grande folclorista potiguar."
+  },
+  {
+    "n": "Ludovicus – Instituto Câmara Cascudo",
+    "cat": "cultura",
+    "end": "Av. Câmara Cascudo, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "A casa onde viveu Câmara Cascudo, com biblioteca e objetos pessoais.",
+    "busca": [
+      "Ludovicus Instituto Câmara Cascudo"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Apresentação",
+    "cat": "cultura",
+    "end": "Praça André de Albuquerque, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "A antiga catedral, marco zero da cidade.",
+    "busca": [
+      "Catedral Antiga de Natal"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Natal",
+    "cat": "cultura",
+    "end": "Av. Deodoro da Fonseca, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Catedral moderna de linhas ousadas, aberta à visitação."
+  },
+  {
+    "n": "Pinacoteca do Estado do Rio Grande do Norte",
+    "cat": "cultura",
+    "end": "Praça Sete de Setembro, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Arte potiguar no antigo Palácio Potengi.",
+    "busca": [
+      "Palácio Potengi"
+    ]
+  },
+  {
+    "n": "Museu Café Filho",
+    "cat": "cultura",
+    "end": "Rua da Conceição, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Sobrado histórico dedicado ao único presidente potiguar."
+  },
+  {
+    "n": "Mercado da Redinha",
+    "cat": "comida",
+    "end": "Redinha",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Lugar clássico para comer ginga com tapioca de frente para o mar."
+  },
+  {
+    "n": "Mercado de Petrópolis",
+    "cat": "comida",
+    "end": "Petrópolis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Mercado de bairro com bares e comida regional."
+  },
+  {
+    "n": "Camarões",
+    "cat": "comida",
+    "end": "Av. Engenheiro Roberto Freire, Ponta Negra",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Restaurante potiguar famoso pelos pratos de camarão.",
+    "busca": [
+      "Camarões Restaurante"
+    ]
+  },
+  {
+    "n": "Mangai",
+    "cat": "comida",
+    "end": "Av. Amintas Barros, 3300, Lagoa Nova",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Bufê farto de comida sertaneja, com carne de sol e doces.",
+    "busca": [
+      "Restaurante Mangai Natal"
+    ]
+  },
+  {
+    "n": "Beco da Lama",
+    "cat": "bar",
+    "end": "Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Reduto boêmio do centro, com botecos, grafites e música."
+  },
+  {
+    "n": "Bar de Nazaré",
+    "cat": "bar",
+    "end": "Beco da Lama, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Boteco tradicional do Beco da Lama, ponto de encontro de artistas."
+  },
+  {
+    "n": "Taverna Pub",
+    "cat": "bar",
+    "end": "Ponta Negra",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Pub medieval em castelinho, clássico da noite de Ponta Negra."
+  }
+]

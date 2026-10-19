@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Banana da Terra",
+    "cat": "comida",
+    "end": "Rua Doutor Samuel Costa, 198, Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Restaurante premiado com cozinha caiçara e ingredientes locais."
+  },
+  {
+    "n": "Margarida Café",
+    "cat": "cafe",
+    "end": "Praça do Chafariz, Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Café e restaurante na entrada do Centro Histórico, com música ao vivo."
+  },
+  {
+    "n": "Casa do Fogo",
+    "cat": "comida",
+    "end": "Centro Histórico",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Restaurante famoso pelos pratos flambados na cachaça de Paraty."
+  },
+  {
+    "n": "Alambique Maria Izabel",
+    "cat": "bar",
+    "end": "Corumbê",
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "d": "Alambique artesanal à beira-mar, ótimo para provar cachaça de Paraty.",
+    "busca": [
+      "Cachaça Maria Izabel"
+    ]
+  }
+]

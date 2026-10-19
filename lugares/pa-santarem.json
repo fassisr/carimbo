@@ -1,0 +1,93 @@
+[
+  {
+    "n": "Ilha do Amor",
+    "cat": "verde",
+    "end": "Alter do Chão",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Faixa de areia branca no Rio Tapajós, a praia mais famosa da região."
+  },
+  {
+    "n": "Serra da Piroca",
+    "cat": "verde",
+    "end": "Alter do Chão",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Trilha curta até um mirante com vista da Ilha do Amor."
+  },
+  {
+    "n": "Praça Sete de Setembro",
+    "cat": "verde",
+    "end": "Alter do Chão",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Praça da vila, animada à noite com artesanato e comida."
+  },
+  {
+    "n": "Lago Verde",
+    "cat": "verde",
+    "end": "Alter do Chão",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Lago de águas verdes para passeios de canoa e igapós."
+  },
+  {
+    "n": "Ponta do Cururu",
+    "cat": "verde",
+    "end": "Alter do Chão",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Praia de rio famosa pelo pôr do sol e pelos botos."
+  },
+  {
+    "n": "Praia de Ponta de Pedras",
+    "cat": "verde",
+    "end": "Ponta de Pedras",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Praia de areia branca e pedras à beira do Tapajós."
+  },
+  {
+    "n": "Orla de Santarém",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Calçadão de onde se vê o encontro dos rios Tapajós e Amazonas."
+  },
+  {
+    "n": "Encontro das Águas",
+    "cat": "verde",
+    "end": "Orla de Santarém",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "As águas azuis do Tapajós e barrentas do Amazonas lado a lado."
+  },
+  {
+    "n": "Catedral Metropolitana de Santarém",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Catedral de Nossa Senhora da Conceição em frente à orla.",
+    "busca": [
+      "Igreja Matriz de Nossa Senhora da Conceição"
+    ]
+  },
+  {
+    "n": "Museu João Fona",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Museu com peças da cerâmica tapajônica e história da cidade."
+  },
+  {
+    "n": "Mercadão 2000",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Santarém",
+    "uf": "PA",
+    "d": "Mercado com peixes do Tapajós, farinhas e frutas regionais."
+  }
+]

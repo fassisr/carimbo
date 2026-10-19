@@ -1,0 +1,85 @@
+[
+  {
+    "n": "Palácio Rio Branco",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Palácio neoclássico com museu sobre a história do Acre."
+  },
+  {
+    "n": "Calçadão da Gameleira",
+    "cat": "verde",
+    "end": "Segundo Distrito",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Calçadão à beira do Rio Acre com casario antigo e a velha gameleira."
+  },
+  {
+    "n": "Passarela Joaquim Macêdo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Passarela sobre o Rio Acre ligando o centro ao Segundo Distrito."
+  },
+  {
+    "n": "Novo Mercado Velho",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Mercado histórico revitalizado, bom para comer e ver o rio.",
+    "busca": [
+      "Mercado Velho"
+    ]
+  },
+  {
+    "n": "Catedral Nossa Senhora de Nazaré",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Catedral de Rio Branco com vitrais bonitos."
+  },
+  {
+    "n": "Parque da Maternidade",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Parque linear que atravessa a cidade, ótimo para caminhar."
+  },
+  {
+    "n": "Memorial dos Autonomistas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Memorial sobre a luta pela autonomia do Acre."
+  },
+  {
+    "n": "Museu da Borracha",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Museu sobre os seringueiros e o ciclo da borracha."
+  },
+  {
+    "n": "Horto Florestal",
+    "cat": "verde",
+    "end": "Vila Ivonete",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Área verde com lago e trilhas na mata."
+  },
+  {
+    "n": "Parque Chico Mendes",
+    "cat": "verde",
+    "end": "Vila Acre",
+    "cidade": "Rio Branco",
+    "uf": "AC",
+    "d": "Parque com mata nativa e memorial ao líder seringueiro."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "n": "Praia da Concha",
+    "cat": "verde",
+    "end": "Concha",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Praia de águas calmas ao lado da vila, perfeita para o fim de tarde."
+  },
+  {
+    "n": "Praia da Tiririca",
+    "cat": "verde",
+    "end": "Itacaré",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Principal praia de surfe de Itacaré, com ondas fortes e clima jovem."
+  },
+  {
+    "n": "Praia do Resende",
+    "cat": "verde",
+    "end": "Itacaré",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Pequena enseada de mata e areia dourada, pertinho do centro."
+  },
+  {
+    "n": "Prainha",
+    "cat": "verde",
+    "end": "Itacaré",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Praia paradisíaca acessível por trilha na Mata Atlântica."
+  },
+  {
+    "n": "Praia da Engenhoca",
+    "cat": "verde",
+    "end": "Rodovia Ilhéus-Itacaré",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Praia de surfe escondida, alcançada por uma trilha curta na mata."
+  },
+  {
+    "n": "Praia de Itacarezinho",
+    "cat": "verde",
+    "end": "Rodovia Ilhéus-Itacaré",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Praia longa e selvagem, com cachoeirinha no canto da areia."
+  },
+  {
+    "n": "Praia do Pontal",
+    "cat": "verde",
+    "end": "Pontal",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Praia na foz do Rio de Contas, de frente para a vila."
+  },
+  {
+    "n": "Igreja de São Miguel",
+    "cat": "cultura",
+    "end": "Pontal",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Igrejinha histórica no alto do Pontal, com vista para o rio e o mar.",
+    "busca": [
+      "Igrejinha de São Miguel"
+    ]
+  },
+  {
+    "n": "Rua Pituba",
+    "cat": "bar",
+    "end": "Centro",
+    "cidade": "Itacaré",
+    "uf": "BA",
+    "d": "Rua principal da vila, com bares, restaurantes e a vida noturna de Itacaré.",
+    "busca": [
+      "Rua João Coutinho"
+    ]
+  }
+]

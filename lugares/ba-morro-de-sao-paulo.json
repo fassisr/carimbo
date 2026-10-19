@@ -1,0 +1,91 @@
+[
+  {
+    "n": "Portaló",
+    "cat": "cultura",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Portão de pedra colonial que recebe quem chega de barco ao Morro.",
+    "busca": [
+      "Portaló Morro de São Paulo"
+    ]
+  },
+  {
+    "n": "Fortaleza do Tapirandu",
+    "cat": "cultura",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Ruínas de fortaleza do século XVII sobre as pedras, ótimas para o pôr do sol.",
+    "busca": [
+      "Fortaleza de Morro de São Paulo"
+    ]
+  },
+  {
+    "n": "Farol do Morro de São Paulo",
+    "cat": "verde",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Farol no alto do morro com vista para todas as praias.",
+    "busca": [
+      "Farol do Morro"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Luz",
+    "cat": "cultura",
+    "end": "Praça Aureliano Lima, Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Igreja colonial na pracinha da vila."
+  },
+  {
+    "n": "Fonte Grande",
+    "cat": "cultura",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Antiga fonte de pedra que abastecia a vila, construída no período colonial."
+  },
+  {
+    "n": "Toca do Morcego",
+    "cat": "bar",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Bar no alto do morro, famoso pelo pôr do sol com música."
+  },
+  {
+    "n": "Primeira Praia",
+    "cat": "verde",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Praia pequena perto da vila, base da tirolesa do Farol."
+  },
+  {
+    "n": "Segunda Praia",
+    "cat": "verde",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Praia mais animada do Morro, com barracas e festas à noite."
+  },
+  {
+    "n": "Terceira Praia",
+    "cat": "verde",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Mar calmo e piscinas naturais, ponto de saída de passeios de barco."
+  },
+  {
+    "n": "Quarta Praia",
+    "cat": "verde",
+    "end": "Morro de São Paulo",
+    "cidade": "Cairu",
+    "uf": "BA",
+    "d": "Praia longa e sossegada, com piscinas naturais na maré baixa."
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Parque Vila Germânica",
+    "cat": "cultura",
+    "end": "Rua Alberto Stein, 199, Velha",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Sede da Oktoberfest, com casas em estilo enxaimel o ano todo.",
+    "busca": [
+      "Vila Germânica"
+    ]
+  },
+  {
+    "n": "Museu da Cerveja",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Pequeno museu sobre a história cervejeira de Blumenau."
+  },
+  {
+    "n": "Castelinho da Moellmann",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Prédio inspirado na prefeitura de Michelstadt, símbolo do centro.",
+    "busca": [
+      "Castelinho Havan"
+    ]
+  },
+  {
+    "n": "Catedral São Paulo Apóstolo",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Catedral moderna de pedra com torre imponente.",
+    "busca": [
+      "Catedral de Blumenau"
+    ]
+  },
+  {
+    "n": "Museu Hering",
+    "cat": "cultura",
+    "end": "Rua Hermann Hering, Bom Retiro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Museu na antiga fábrica da Hering sobre a história têxtil da cidade."
+  },
+  {
+    "n": "Museu de Hábitos e Costumes",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Acervo sobre a vida cotidiana dos imigrantes alemães."
+  },
+  {
+    "n": "Cervejaria Eisenbahn",
+    "cat": "bar",
+    "end": "Rua Bahia, Salto Weissbach",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Cervejaria famosa com bar e visita à fábrica.",
+    "busca": [
+      "Eisenbahn"
+    ]
+  },
+  {
+    "n": "Cafehaus Glória",
+    "cat": "doce",
+    "end": "Rua Sete de Setembro, Centro",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Café colonial tradicional no Hotel Glória, cheio de tortas e cucas."
+  },
+  {
+    "n": "Parque Ramiro Ruediger",
+    "cat": "verde",
+    "end": "Velha",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Parque urbano com lago e área para caminhada."
+  },
+  {
+    "n": "Prainha de Blumenau",
+    "cat": "verde",
+    "end": "Rua Hermann Huscher, Vila Formosa",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "d": "Margem do Rio Itajaí-Açu onde a cidade se reúne no fim de tarde.",
+    "busca": [
+      "Prainha"
+    ]
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "n": "Cidade Histórica de Porto Seguro",
+    "cat": "cultura",
+    "end": "Cidade Alta",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Núcleo colonial no alto da falésia, com casario, igrejas e vista para o mar.",
+    "busca": [
+      "Centro Histórico de Porto Seguro"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Pena",
+    "cat": "cultura",
+    "end": "Cidade Histórica, Cidade Alta",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Igreja matriz colonial no coração da Cidade Histórica."
+  },
+  {
+    "n": "Marco do Descobrimento",
+    "cat": "cultura",
+    "end": "Cidade Histórica, Cidade Alta",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Marco de pedra trazido pelos portugueses, símbolo da chegada de 1500."
+  },
+  {
+    "n": "Museu de Porto Seguro",
+    "cat": "cultura",
+    "end": "Cidade Histórica, Cidade Alta",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Antiga Casa de Câmara e Cadeia que conta a história da região.",
+    "busca": [
+      "Casa de Câmara e Cadeia de Porto Seguro"
+    ]
+  },
+  {
+    "n": "Memorial da Epopeia do Descobrimento",
+    "cat": "cultura",
+    "end": "Avenida Beira-Mar, Orla Norte",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Réplica de nau portuguesa que ajuda a imaginar a viagem de Cabral."
+  },
+  {
+    "n": "Passarela do Álcool",
+    "cat": "bar",
+    "end": "Centro",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Rua mais animada da cidade, com barracas de capeta, artesanato e restaurantes.",
+    "busca": [
+      "Passarela do Descobrimento"
+    ]
+  },
+  {
+    "n": "Praia de Taperapuã",
+    "cat": "verde",
+    "end": "Orla Norte",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Praia agitada de mar calmo, com as grandes barracas de Porto Seguro."
+  },
+  {
+    "n": "Recife de Fora",
+    "cat": "verde",
+    "end": "Parque Natural Municipal do Recife de Fora",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Piscinas naturais em alto-mar, ótimas para mergulho na maré baixa.",
+    "busca": [
+      "Parque Municipal Marinho do Recife de Fora"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora d'Ajuda",
+    "cat": "cultura",
+    "end": "Arraial d'Ajuda",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Igrejinha do século XVI no alto do Arraial, com mirante para o mar.",
+    "busca": [
+      "Igreja Matriz de Arraial d'Ajuda"
+    ]
+  },
+  {
+    "n": "Rua do Mucugê",
+    "cat": "bar",
+    "end": "Arraial d'Ajuda",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Rua charmosa do Arraial, cheia de bares, restaurantes e lojinhas."
+  },
+  {
+    "n": "Praia de Pitinga",
+    "cat": "verde",
+    "end": "Arraial d'Ajuda",
+    "cidade": "Porto Seguro",
+    "uf": "BA",
+    "d": "Praia de falésias coloridas e piscinas naturais no Arraial d'Ajuda."
+  }
+]

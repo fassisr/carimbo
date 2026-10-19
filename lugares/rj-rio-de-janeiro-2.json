@@ -1,0 +1,370 @@
+[
+  {
+    "n": "Confeitaria Colombo",
+    "cat": "doce",
+    "end": "Rua Gonçalves Dias, 32, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Confeitaria de 1894 com espelhos belgas e salão belle époque, um clássico do Centro."
+  },
+  {
+    "n": "Bar Luiz",
+    "cat": "bar",
+    "end": "Rua da Carioca, 39, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar de 1887 famoso pelo chope cremoso e pelos pratos alemães."
+  },
+  {
+    "n": "Bar Urca",
+    "cat": "bar",
+    "end": "Rua Cândido Gaffrée, 205, Urca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Petiscos e cerveja na mureta da Urca com vista para a Baía de Guanabara."
+  },
+  {
+    "n": "Jobi",
+    "cat": "bar",
+    "end": "Avenida Ataulfo de Paiva, 1166, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco tradicional do Leblon, aberto até tarde e cheio de clima carioca."
+  },
+  {
+    "n": "Bracarense",
+    "cat": "bar",
+    "end": "Rua José Linhares, 85, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Botequim lendário do Leblon, famoso pelos bolinhos e pelo chope gelado."
+  },
+  {
+    "n": "Bar do Mineiro",
+    "cat": "bar",
+    "end": "Rua Paschoal Carlos Magno, 99, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Feijoada e pastéis de feijão num boteco querido de Santa Teresa."
+  },
+  {
+    "n": "Nova Capela",
+    "cat": "comida",
+    "end": "Avenida Mem de Sá, 96, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante boêmio da Lapa desde 1903, conhecido pelo cabrito com arroz de brócolis."
+  },
+  {
+    "n": "Bip Bip",
+    "cat": "bar",
+    "end": "Rua Almirante Gonçalves, 50, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar minúsculo e histórico de Copacabana com rodas de samba e choro.",
+    "busca": [
+      "Bar Bip Bip"
+    ]
+  },
+  {
+    "n": "Belmonte",
+    "cat": "bar",
+    "end": "Praia do Flamengo, Flamengo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco original da rede Belmonte, famoso pelos pastéis e pelo chope.",
+    "busca": [
+      "Boteco Belmonte"
+    ]
+  },
+  {
+    "n": "Bar do Momo",
+    "cat": "bar",
+    "end": "Rua General Espírito Santo Cardoso, 50, Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco premiado da Tijuca, conhecido pelos petiscos criativos."
+  },
+  {
+    "n": "Amarelinho",
+    "cat": "bar",
+    "end": "Praça Floriano, Cinelândia",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar tradicional da Cinelândia com mesas na calçada em frente ao Theatro Municipal.",
+    "busca": [
+      "Bar Amarelinho"
+    ]
+  },
+  {
+    "n": "Casa Villarino",
+    "cat": "bar",
+    "end": "Avenida Calógeras, 6, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar onde Tom Jobim e Vinicius de Moraes se conheceram nos anos 1950.",
+    "busca": [
+      "Villarino"
+    ]
+  },
+  {
+    "n": "Rio Scenarium",
+    "cat": "bar",
+    "end": "Rua do Lavradio, 20, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casarão cheio de antiguidades com samba e choro ao vivo na Lapa."
+  },
+  {
+    "n": "Carioca da Gema",
+    "cat": "bar",
+    "end": "Avenida Mem de Sá, 79, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa de samba clássica da Lapa, com música ao vivo toda noite."
+  },
+  {
+    "n": "Churrascaria Palace",
+    "cat": "comida",
+    "end": "Rua Rodolfo Dantas, 16, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Churrascaria tradicional de Copacabana, em funcionamento desde os anos 1950."
+  },
+  {
+    "n": "Marius Degustare",
+    "cat": "comida",
+    "end": "Avenida Atlântica, 290, Leme",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Rodízio de frutos do mar num salão decorado com peças de navio e sucata."
+  },
+  {
+    "n": "Rio Minho",
+    "cat": "comida",
+    "end": "Rua do Ouvidor, 10, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Um dos restaurantes mais antigos do Rio, famoso pela sopa Leão Veloso."
+  },
+  {
+    "n": "Albamar",
+    "cat": "comida",
+    "end": "Praça Marechal Âncora, 184, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante na torre verde do antigo mercado, com vista para a Baía."
+  },
+  {
+    "n": "Aprazível",
+    "cat": "comida",
+    "end": "Rua Aprazível, 62, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cozinha brasileira em casa no alto de Santa Teresa com vista da cidade."
+  },
+  {
+    "n": "Adega Flor de Coimbra",
+    "cat": "comida",
+    "end": "Rua Teotônio Regadas, 34, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa portuguesa de 1938 na Lapa, ótima para bacalhau e vinho."
+  },
+  {
+    "n": "Cosmopolita",
+    "cat": "comida",
+    "end": "Travessa do Mosqueira, 4, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante centenário onde nasceu o filé à Oswaldo Aranha."
+  },
+  {
+    "n": "Café Lamas",
+    "cat": "comida",
+    "end": "Rua Marquês de Abrantes, 18, Flamengo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante de 1874, reduto boêmio e político do Flamengo.",
+    "busca": [
+      "Lamas"
+    ]
+  },
+  {
+    "n": "Pizzaria Guanabara",
+    "cat": "comida",
+    "end": "Avenida Ataulfo de Paiva, 1228, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Pizzaria clássica do Leblon que vira ponto de encontro de madrugada."
+  },
+  {
+    "n": "Bibi Sucos",
+    "cat": "comida",
+    "end": "Avenida Ataulfo de Paiva, 591, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa de sucos e sanduíches que é um ícone do Leblon."
+  },
+  {
+    "n": "Galeto Sat's",
+    "cat": "comida",
+    "end": "Rua Barata Ribeiro, 7, Copacabana",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Galeteria de balcão em Copacabana, aberta até de madrugada."
+  },
+  {
+    "n": "Casa da Feijoada",
+    "cat": "comida",
+    "end": "Rua Prudente de Morais, 10, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Feijoada servida todos os dias em Ipanema, com caipirinha e torresmo."
+  },
+  {
+    "n": "CADEG",
+    "cat": "comida",
+    "end": "Rua Capitão Félix, 110, Benfica",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mercado de Benfica com restaurantes portugueses e flores, famoso aos sábados.",
+    "busca": [
+      "Mercado Municipal do Rio de Janeiro"
+    ]
+  },
+  {
+    "n": "Sobrenatural",
+    "cat": "comida",
+    "end": "Rua Almirante Alexandrino, 432, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante de frutos do mar à beira do trilho do bondinho."
+  },
+  {
+    "n": "Penafiel",
+    "cat": "comida",
+    "end": "Rua Senhor dos Passos, 121, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante português centenário perto da Saara, famoso pelas dobradinhas."
+  },
+  {
+    "n": "Bar do Omar",
+    "cat": "bar",
+    "end": "Morro do Pinto, Santo Cristo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco com laje e vista para a Zona Portuária e a Ponte Rio-Niterói."
+  },
+  {
+    "n": "Bar do David",
+    "cat": "bar",
+    "end": "Ladeira Ary Barroso, Chapéu Mangueira, Leme",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar premiado na comunidade do Chapéu Mangueira, famoso pela feijoada de frutos do mar."
+  },
+  {
+    "n": "Bar da Frente",
+    "cat": "bar",
+    "end": "Rua Barão de Iguatemi, Praça da Bandeira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco premiado da Praça da Bandeira com petiscos de cozinha brasileira."
+  },
+  {
+    "n": "Bar da Dona Maria",
+    "cat": "bar",
+    "end": "Rua Garibaldi, Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco simples da Tijuca com rodas de choro e salgados caseiros."
+  },
+  {
+    "n": "Bar da Portuguesa",
+    "cat": "bar",
+    "end": "Ramos",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco de Ramos famoso pelos petiscos portugueses e pelo samba."
+  },
+  {
+    "n": "Kurt",
+    "cat": "doce",
+    "end": "Rua General Urquiza, 117, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Confeitaria alemã do Leblon conhecida pelas tortas e pelo strudel.",
+    "busca": [
+      "Confeitaria Kurt"
+    ]
+  },
+  {
+    "n": "Talho Capixaba",
+    "cat": "doce",
+    "end": "Avenida Ataulfo de Paiva, 1022, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Padaria e delicatessen clássica do Leblon, ótima para um café da manhã."
+  },
+  {
+    "n": "Mil Frutas",
+    "cat": "doce",
+    "end": "Rua Garcia d'Ávila, 134, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Sorveteria de Ipanema com sabores de frutas brasileiras.",
+    "busca": [
+      "Sorvetes Mil Frutas"
+    ]
+  },
+  {
+    "n": "Chaika",
+    "cat": "doce",
+    "end": "Rua Visconde de Pirajá, 321, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Lanchonete e confeitaria tradicional de Ipanema desde os anos 1960."
+  },
+  {
+    "n": "The Slow Bakery",
+    "cat": "doce",
+    "end": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Padaria de fermentação natural que virou referência de pão no Rio."
+  },
+  {
+    "n": "Curto Café",
+    "cat": "cafe",
+    "end": "Rua São José, 35, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Café especial de preço livre, querido por quem trabalha no Centro."
+  },
+  {
+    "n": "Café do Alto",
+    "cat": "cafe",
+    "end": "Rua Paschoal Carlos Magno, 143, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Café de Santa Teresa famoso pelas tapiocas e pelo café da manhã."
+  },
+  {
+    "n": "Gringo Café",
+    "cat": "cafe",
+    "end": "Rua Barão da Torre, 240, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Café de Ipanema com brunch farto e clima de bairro."
+  },
+  {
+    "n": "Café Secreto",
+    "cat": "cafe",
+    "end": "Rua Álvaro Ramos, Botafogo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Pequeno café de grãos especiais escondido numa rua tranquila de Botafogo."
+  }
+]

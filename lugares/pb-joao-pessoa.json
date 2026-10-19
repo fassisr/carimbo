@@ -1,0 +1,194 @@
+[
+  {
+    "n": "Centro Cultural São Francisco",
+    "cat": "cultura",
+    "end": "Praça São Francisco, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Igreja e convento barrocos, um dos conjuntos mais bonitos do Brasil colonial.",
+    "busca": [
+      "Igreja de São Francisco João Pessoa"
+    ]
+  },
+  {
+    "n": "Catedral Basílica de Nossa Senhora das Neves",
+    "cat": "cultura",
+    "end": "Praça Dom Ulrico, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Catedral da padroeira da cidade, no alto da Cidade Alta.",
+    "busca": [
+      "Catedral de João Pessoa"
+    ]
+  },
+  {
+    "n": "Theatro Santa Roza",
+    "cat": "cultura",
+    "end": "Praça Pedro Américo, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Teatro do fim do século XIX, um dos mais antigos do país.",
+    "busca": [
+      "Teatro Santa Rosa"
+    ]
+  },
+  {
+    "n": "Hotel Globo",
+    "cat": "cultura",
+    "end": "Largo de São Frei Pedro Gonçalves, Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Antigo hotel virado espaço cultural, com pôr do sol sobre o rio Sanhauá."
+  },
+  {
+    "n": "Praça Antenor Navarro",
+    "cat": "verde",
+    "end": "Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Praça de casarões coloridos no coração do centro histórico."
+  },
+  {
+    "n": "Casa da Pólvora",
+    "cat": "cultura",
+    "end": "Ladeira de São Francisco, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Antigo paiol do século XVIII com vista para o Varadouro."
+  },
+  {
+    "n": "Parque Solon de Lucena",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "A famosa Lagoa, cartão-postal do centro cercado de palmeiras imperiais.",
+    "busca": [
+      "Lagoa do Parque Solon de Lucena"
+    ]
+  },
+  {
+    "n": "Parque Zoobotânico Arruda Câmara",
+    "cat": "verde",
+    "end": "Roger",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "A Bica, parque com mata atlântica e zoológico no meio da cidade.",
+    "busca": [
+      "Bica"
+    ]
+  },
+  {
+    "n": "Farol do Cabo Branco",
+    "cat": "verde",
+    "end": "Ponta do Seixas, Cabo Branco",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Farol na ponta mais oriental das Américas, com mirante para o mar."
+  },
+  {
+    "n": "Estação Cabo Branco",
+    "cat": "cultura",
+    "end": "Av. João Cirilo da Silva, Altiplano Cabo Branco",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Centro de ciência e arte projetado por Oscar Niemeyer.",
+    "busca": [
+      "Estação Cabo Branco Ciência, Cultura e Artes"
+    ]
+  },
+  {
+    "n": "Praia de Tambaú",
+    "cat": "verde",
+    "end": "Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Praia urbana com calçadão, coqueiros e barcos para Picãozinho."
+  },
+  {
+    "n": "Praia do Cabo Branco",
+    "cat": "verde",
+    "end": "Cabo Branco",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Orla tranquila com ciclovia, ótima para caminhar no fim de tarde."
+  },
+  {
+    "n": "Mercado de Artesanato Paraibano",
+    "cat": "cultura",
+    "end": "Av. Senador Rui Carneiro, Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Dezenas de lojas de renda, cerâmica e artesanato da Paraíba."
+  },
+  {
+    "n": "Espaço Cultural José Lins do Rego",
+    "cat": "cultura",
+    "end": "Rua Abdias Gomes de Almeida, 800, Tambauzinho",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Grande complexo com teatro, planetário e museus."
+  },
+  {
+    "n": "Usina Cultural Energisa",
+    "cat": "cultura",
+    "end": "Tambiá",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Antiga usina de energia transformada em centro cultural."
+  },
+  {
+    "n": "Sebo Cultural",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Sebo tradicional do centro, cheio de livros, discos e conversa boa."
+  },
+  {
+    "n": "Mangai",
+    "cat": "comida",
+    "end": "Av. General Edson Ramalho, 696, Manaíra",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Bufê de comida nordestina farto e caprichado, parada obrigatória.",
+    "busca": [
+      "Restaurante Mangai"
+    ]
+  },
+  {
+    "n": "Feirinha de Tambaú",
+    "cat": "comida",
+    "end": "Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Barracas de tapioca, cuscuz e comidinhas regionais perto da orla."
+  },
+  {
+    "n": "Mercado Central de João Pessoa",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Mercado popular para provar queijo coalho, frutas e comida de feira.",
+    "busca": [
+      "Mercado Central"
+    ]
+  },
+  {
+    "n": "Vila do Porto",
+    "cat": "bar",
+    "end": "Largo de São Frei Pedro Gonçalves, Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Espaço de música e cerveja num casarão do centro histórico."
+  },
+  {
+    "n": "Canoa dos Camarões",
+    "cat": "comida",
+    "end": "Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Restaurante tradicional de frutos do mar perto da praia."
+  }
+]

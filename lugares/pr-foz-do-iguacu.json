@@ -1,0 +1,94 @@
+[
+  {
+    "n": "Parque Nacional do Iguaçu",
+    "cat": "verde",
+    "end": "Rodovia das Cataratas",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "As Cataratas do Iguaçu, uma das maravilhas naturais do mundo.",
+    "busca": [
+      "Cataratas do Iguaçu"
+    ]
+  },
+  {
+    "n": "Parque das Aves",
+    "cat": "verde",
+    "end": "Rodovia das Cataratas",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Viveiros imersivos na mata com araras, tucanos e aves ameaçadas."
+  },
+  {
+    "n": "Itaipu Binacional",
+    "cat": "cultura",
+    "end": "Avenida Tancredo Neves, 6702",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Uma das maiores hidrelétricas do mundo, com visitas à barragem.",
+    "busca": [
+      "Usina de Itaipu"
+    ]
+  },
+  {
+    "n": "Ecomuseu de Itaipu",
+    "cat": "cultura",
+    "end": "Avenida Tancredo Neves",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Museu sobre a região e a construção da usina."
+  },
+  {
+    "n": "Refúgio Biológico Bela Vista",
+    "cat": "verde",
+    "end": "Avenida Tancredo Neves",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Refúgio da Itaipu com trilhas e animais silvestres resgatados."
+  },
+  {
+    "n": "Marco das Três Fronteiras",
+    "cat": "cultura",
+    "end": "Avenida General Meira, Vila Yolanda",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Obelisco no encontro dos rios Iguaçu e Paraná, com vista para Argentina e Paraguai."
+  },
+  {
+    "n": "Templo Budista Chen Tien",
+    "cat": "cultura",
+    "end": "Jardim Duarte",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Templo com dezenas de estátuas de Buda e vista para o Paraguai.",
+    "busca": [
+      "Templo Budista de Foz do Iguaçu"
+    ]
+  },
+  {
+    "n": "Mesquita Omar Ibn Al-Khattab",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Mesquita de cúpula e minaretes, símbolo da comunidade árabe da cidade."
+  },
+  {
+    "n": "Rafain Churrascaria Show",
+    "cat": "comida",
+    "end": "Avenida das Cataratas",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Churrascaria com show de danças latino-americanas.",
+    "busca": [
+      "Rafain"
+    ]
+  },
+  {
+    "n": "Capitão Bar",
+    "cat": "bar",
+    "end": "Avenida Jorge Schimmelpfeng, Centro",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "d": "Bar tradicional e ponto de encontro da noite de Foz."
+  }
+]

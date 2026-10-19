@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Restaurante Pirão",
+    "cat": "comida",
+    "end": "Rua Joaquim Lírio, 753, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante tradicional da moqueca capixaba em panela de barro.",
+    "busca": [
+      "Pirão"
+    ]
+  },
+  {
+    "n": "Papaguth",
+    "cat": "comida",
+    "end": "Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante clássico de Vitória, conhecido pela moqueca e pela torta capixaba."
+  },
+  {
+    "n": "Atobá",
+    "cat": "comida",
+    "end": "Barro Vermelho",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar com moqueca capixaba tradicional.",
+    "busca": [
+      "Restaurante Atobá"
+    ]
+  },
+  {
+    "n": "Lareira Portuguesa",
+    "cat": "comida",
+    "end": "Avenida Saturnino de Brito, 260, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante português tradicional de Vitória, ótimo para bacalhau."
+  },
+  {
+    "n": "Mercado da Vila Rubim",
+    "cat": "comida",
+    "end": "Vila Rubim",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Mercado popular com temperos, comidas e produtos regionais."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "n": "Restaurante Chafariz",
+    "cat": "comida",
+    "end": "Rua São José, 167, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Bufê de comida mineira num casarão histórico."
+  },
+  {
+    "n": "O Passo",
+    "cat": "comida",
+    "end": "Rua São José, 56, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Pizzas e jazz num casarão à beira do córrego.",
+    "busca": [
+      "O Passo Pizza Jazz"
+    ]
+  },
+  {
+    "n": "Bené da Flauta",
+    "cat": "comida",
+    "end": "Rua São Francisco de Assis, 32, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Restaurante ao lado da Igreja de São Francisco com cozinha mineira."
+  },
+  {
+    "n": "Casa do Ouvidor",
+    "cat": "comida",
+    "end": "Rua Direita, Centro",
+    "cidade": "Ouro Preto",
+    "uf": "MG",
+    "d": "Restaurante tradicional de comida mineira no coração da cidade."
+  }
+]

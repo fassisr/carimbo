@@ -1,0 +1,248 @@
+[
+  {
+    "n": "Catedral Metropolitana de Brasília",
+    "cat": "cultura",
+    "end": "Esplanada dos Ministérios",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Obra-prima de Niemeyer com vitrais coloridos e anjos suspensos sob a coroa de concreto."
+  },
+  {
+    "n": "Congresso Nacional",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "As cúpulas e torres gêmeas mais famosas do país, com visitas guiadas gratuitas."
+  },
+  {
+    "n": "Praça dos Três Poderes",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Coração cívico da capital, com Os Candangos, o Panteão e o Palácio do Planalto."
+  },
+  {
+    "n": "Palácio Itamaraty",
+    "cat": "cultura",
+    "end": "Esplanada dos Ministérios",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Palácio de arcos sobre espelho d'água, com jardins de Burle Marx e acervo de arte.",
+    "busca": [
+      "Palácio do Itamaraty"
+    ]
+  },
+  {
+    "n": "Santuário Dom Bosco",
+    "cat": "cultura",
+    "end": "SEPS 702, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Igreja banhada por luz azul dos vitrais, uma das mais bonitas da cidade."
+  },
+  {
+    "n": "Memorial JK",
+    "cat": "cultura",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Museu e túmulo de Juscelino Kubitschek, o presidente que criou Brasília."
+  },
+  {
+    "n": "Torre de TV de Brasília",
+    "cat": "cultura",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Mirante gratuito com vista do Eixo Monumental e feirinha de artesanato aos pés.",
+    "busca": [
+      "Torre de TV"
+    ]
+  },
+  {
+    "n": "Museu Nacional da República",
+    "cat": "cultura",
+    "end": "Eixo Monumental, Setor Cultural Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cúpula branca de Niemeyer que recebe grandes exposições de arte."
+  },
+  {
+    "n": "Igrejinha Nossa Senhora de Fátima",
+    "cat": "cultura",
+    "end": "EQS 307/308, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Primeira igreja de alvenaria da cidade, com azulejos de Athos Bulcão.",
+    "busca": [
+      "Igrejinha da 308 Sul"
+    ]
+  },
+  {
+    "n": "Centro Cultural Banco do Brasil Brasília",
+    "cat": "cultura",
+    "end": "SCES Trecho 2",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Exposições, cinema e espetáculos num belo projeto de Niemeyer à beira do lago.",
+    "busca": [
+      "CCBB Brasília"
+    ]
+  },
+  {
+    "n": "Ponte JK",
+    "cat": "cultura",
+    "end": "Lago Paranoá",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Ponte de três arcos cruzados sobre o Lago Paranoá, linda ao pôr do sol.",
+    "busca": [
+      "Ponte Juscelino Kubitschek"
+    ]
+  },
+  {
+    "n": "Parque da Cidade Sarah Kubitschek",
+    "cat": "verde",
+    "end": "Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Um dos maiores parques urbanos do mundo, ótimo para caminhar e pedalar.",
+    "busca": [
+      "Parque da Cidade"
+    ]
+  },
+  {
+    "n": "Pontão do Lago Sul",
+    "cat": "verde",
+    "end": "SHIS QL 10, Lago Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Calçadão à beira do lago com restaurantes e um pôr do sol famoso."
+  },
+  {
+    "n": "Ermida Dom Bosco",
+    "cat": "verde",
+    "end": "Lago Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Pequena capela à beira do Paranoá, um dos melhores mirantes do pôr do sol."
+  },
+  {
+    "n": "Jardim Botânico de Brasília",
+    "cat": "verde",
+    "end": "Lago Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Trilhas pelo cerrado nativo e um jardim sensorial cheio de plantas típicas."
+  },
+  {
+    "n": "Parque Nacional de Brasília",
+    "cat": "verde",
+    "end": "Via EPIA, Água Mineral",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "As piscinas de água mineral corrente que todo brasiliense conhece.",
+    "busca": [
+      "Água Mineral"
+    ]
+  },
+  {
+    "n": "Feira da Torre de TV",
+    "cat": "comida",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Artesanato do cerrado e barracas de comida típica aos pés da Torre de TV.",
+    "busca": [
+      "Feira de Artesanato da Torre de TV"
+    ]
+  },
+  {
+    "n": "Bar Beirute",
+    "cat": "bar",
+    "end": "SCLS 109, Bloco A, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Boteco lendário de Brasília desde 1966, com quibe, chope e mesas na calçada."
+  },
+  {
+    "n": "Bar Brasília",
+    "cat": "bar",
+    "end": "SCLS 506, Bloco A, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Boteco de ar antigo com petiscos clássicos e chope bem tirado."
+  },
+  {
+    "n": "Libanus",
+    "cat": "comida",
+    "end": "SCLS 206, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Restaurante e bar árabe tradicional, sempre cheio, famoso pelas esfihas e pelo chope."
+  },
+  {
+    "n": "Martinica Café",
+    "cat": "bar",
+    "end": "SCLN 303, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Bar querido da Asa Norte com drinques, petiscos e clima descontraído."
+  },
+  {
+    "n": "Ernesto Cafés Especiais",
+    "cat": "cafe",
+    "end": "SCLS 115, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cafeteria referência em cafés especiais, com torra própria e ótimo brunch."
+  },
+  {
+    "n": "Objeto Encontrado",
+    "cat": "cafe",
+    "end": "CLN 102, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Café e loja de design com bolos caseiros e um clima aconchegante."
+  },
+  {
+    "n": "Daniel Briand Pâtissier",
+    "cat": "doce",
+    "end": "SCLN 104, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Confeitaria francesa clássica com croissants e doces finos."
+  },
+  {
+    "n": "Belini",
+    "cat": "doce",
+    "end": "SCLS 113, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Padaria e empório tradicional da Asa Sul, ótima para café da manhã.",
+    "busca": [
+      "Belini Pães e Gastronomia"
+    ]
+  },
+  {
+    "n": "Mangai Brasília",
+    "cat": "comida",
+    "end": "Setor de Clubes Esportivos Sul, Trecho 2",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Bufê de comida nordestina farto, à beira do Lago Paranoá.",
+    "busca": [
+      "Mangai"
+    ]
+  },
+  {
+    "n": "Dom Francisco",
+    "cat": "comida",
+    "end": "SCLS 402, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Restaurante tradicional da cidade, conhecido pelos peixes e pela adega."
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "n": "Parque das Nações Indígenas",
+    "cat": "verde",
+    "end": "Avenida Afonso Pena, Jardim Veraneio",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Grande parque com lago, capivaras e pista de caminhada."
+  },
+  {
+    "n": "Bioparque Pantanal",
+    "cat": "cultura",
+    "end": "Parque das Nações Indígenas",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Maior aquário de água doce do mundo, com peixes do Pantanal."
+  },
+  {
+    "n": "Museu das Culturas Dom Bosco",
+    "cat": "cultura",
+    "end": "Parque das Nações Indígenas",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Acervo riquíssimo de culturas indígenas e história natural."
+  },
+  {
+    "n": "Feira Central de Campo Grande",
+    "cat": "comida",
+    "end": "Rua 14 de Julho, Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Feira famosa pelo sobá, herança japonesa que virou prato da cidade.",
+    "busca": [
+      "Feira Central"
+    ]
+  },
+  {
+    "n": "Mercadão Municipal de Campo Grande",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Mercado tradicional com chipa, pastel e produtos do Pantanal.",
+    "busca": [
+      "Mercado Municipal Antônio Valente"
+    ]
+  },
+  {
+    "n": "Morada dos Baís",
+    "cat": "cultura",
+    "end": "Avenida Noroeste, Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Casarão histórico com museu e programação cultural."
+  },
+  {
+    "n": "Memorial da Cultura Indígena",
+    "cat": "cultura",
+    "end": "Aldeia Marçal de Souza, Tiradentes",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Oca gigante em aldeia urbana terena com artesanato indígena."
+  },
+  {
+    "n": "Casa do Artesão",
+    "cat": "cultura",
+    "end": "Avenida Calógeras, Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Artesanato sul-mato-grossense num casarão antigo."
+  },
+  {
+    "n": "Orla Morena",
+    "cat": "verde",
+    "end": "Avenida Noroeste",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Calçadão com quiosques e área de lazer para o fim de tarde."
+  },
+  {
+    "n": "Praça Ary Coelho",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Praça central arborizada, coração da cidade."
+  },
+  {
+    "n": "Relógio da 14",
+    "cat": "cultura",
+    "end": "Rua 14 de Julho com Avenida Afonso Pena, Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Réplica do antigo relógio, símbolo da cidade."
+  }
+]

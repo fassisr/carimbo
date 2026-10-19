@@ -1,0 +1,74 @@
+[
+  {
+    "n": "Gruta do Lago Azul",
+    "cat": "verde",
+    "end": "Rodovia Bonito-Campo dos Índios",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Caverna com um lago de azul intenso, cartão-postal de Bonito."
+  },
+  {
+    "n": "Abismo Anhumas",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Descida de rapel até um lago subterrâneo cristalino."
+  },
+  {
+    "n": "Aquário Natural",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Flutuação em águas transparentes com cardumes de peixes."
+  },
+  {
+    "n": "Rio Sucuri",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Flutuação num dos rios mais transparentes do mundo."
+  },
+  {
+    "n": "Estância Mimosa",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Trilha com várias cachoeiras e poços para banho."
+  },
+  {
+    "n": "Gruta de São Miguel",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Caverna com espeleotemas e passarela suspensa na mata."
+  },
+  {
+    "n": "Balneário Municipal",
+    "cat": "verde",
+    "end": "Rodovia Bonito-Três Morros",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Banho de rio com peixes coloridos a preço popular."
+  },
+  {
+    "n": "Praça da Liberdade",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Praça central animada à noite, com o letreiro e o peixe Piraputanga."
+  },
+  {
+    "n": "Casa do João",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Bonito",
+    "uf": "MS",
+    "d": "Restaurante famoso pela traíra sem espinha e pratos regionais."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Galés de Maragogi",
+    "cat": "verde",
+    "end": "Alto-mar, Maragogi",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Piscinas naturais de águas cristalinas a 6 km da costa, o Caribe brasileiro.",
+    "busca": [
+      "Galés"
+    ]
+  },
+  {
+    "n": "Piscinas Naturais de Taocas",
+    "cat": "verde",
+    "end": "Maragogi",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Piscinas naturais cheias de peixes coloridos, menos lotadas que as Galés."
+  },
+  {
+    "n": "Praia de Antunes",
+    "cat": "verde",
+    "end": "Antunes",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Praia de coqueiral com a ilhota de areia Ponta de Mangue."
+  },
+  {
+    "n": "Praia de Barra Grande",
+    "cat": "verde",
+    "end": "Barra Grande",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Praia calma de águas mornas, boa para família."
+  },
+  {
+    "n": "Praia de Burgalhau",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Praia urbana de Maragogi, ponto de saída dos passeios."
+  },
+  {
+    "n": "Praia de São Bento",
+    "cat": "verde",
+    "end": "São Bento",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Vilarejo de pescadores com mar calmo e coqueiros."
+  },
+  {
+    "n": "Praia de Peroba",
+    "cat": "verde",
+    "end": "Peroba",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Praia rústica e sossegada perto da divisa com Pernambuco."
+  },
+  {
+    "n": "Igreja Matriz de São Bento",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Maragogi",
+    "uf": "AL",
+    "d": "Igreja matriz no centro da cidade."
+  }
+]

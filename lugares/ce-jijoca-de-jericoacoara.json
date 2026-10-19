@@ -1,0 +1,77 @@
+[
+  {
+    "n": "Pedra Furada",
+    "cat": "verde",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "O arco de pedra símbolo de Jeri, ao fim de uma trilha pela praia."
+  },
+  {
+    "n": "Duna do Pôr do Sol",
+    "cat": "verde",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Ponto de encontro para aplaudir o pôr do sol no mar."
+  },
+  {
+    "n": "Praia de Jericoacoara",
+    "cat": "verde",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Praia principal da vila, com dunas, coqueiros e kitesurf."
+  },
+  {
+    "n": "Praia da Malhada",
+    "cat": "verde",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Praia de pedras e ondas boas, caminho para a Pedra Furada."
+  },
+  {
+    "n": "Serrote",
+    "cat": "verde",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Morro com o farol de Jeri e vista ampla da costa.",
+    "busca": [
+      "Farol de Jericoacoara"
+    ]
+  },
+  {
+    "n": "Lagoa do Paraíso",
+    "cat": "verde",
+    "end": "Jijoca de Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Lagoa azul-turquesa com as famosas redes dentro da água."
+  },
+  {
+    "n": "Lagoa Azul",
+    "cat": "verde",
+    "end": "Jijoca de Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Lagoa de água doce cristalina entre dunas."
+  },
+  {
+    "n": "Árvore da Preguiça",
+    "cat": "verde",
+    "end": "Preá",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Árvore curvada pelo vento, ícone dos passeios de buggy."
+  },
+  {
+    "n": "Padaria Santo Antônio",
+    "cat": "doce",
+    "end": "Jericoacoara",
+    "cidade": "Jijoca de Jericoacoara",
+    "uf": "CE",
+    "d": "Padaria famosa por pães e bolos quentinhos de madrugada."
+  }
+]

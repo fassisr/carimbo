@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Praça Horácio de Matos",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Praça central cercada de casarões do tempo do garimpo de diamantes."
+  },
+  {
+    "n": "Rua das Pedras",
+    "cat": "bar",
+    "end": "Centro Histórico",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Rua de pedra cheia de mesinhas, bares e restaurantes à noite.",
+    "busca": [
+      "Rua da Baderna"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Igreja histórica de Lençóis, testemunha do auge do garimpo."
+  },
+  {
+    "n": "Mercado Cultural de Lençóis",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Antigo mercado à beira do rio, com artesanato e cultura local.",
+    "busca": [
+      "Mercado Municipal de Lençóis"
+    ]
+  },
+  {
+    "n": "Serrano",
+    "cat": "verde",
+    "end": "Rio Lençóis",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Poços e lajedos no Rio Lençóis, a poucos minutos a pé do centro."
+  },
+  {
+    "n": "Salão de Areias Coloridas",
+    "cat": "verde",
+    "end": "Rio Lençóis",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Gruta de onde saem as areias coloridas usadas no artesanato local."
+  },
+  {
+    "n": "Poço Halley",
+    "cat": "verde",
+    "end": "Rio Lençóis",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Poço de água escura e cascatinha no caminho do Serrano.",
+    "busca": [
+      "Cachoeirinha"
+    ]
+  },
+  {
+    "n": "Cachoeira da Primavera",
+    "cat": "verde",
+    "end": "Rio Lençóis",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Cachoeira tranquila perto da cidade, boa para um banho refrescante."
+  },
+  {
+    "n": "Ribeirão do Meio",
+    "cat": "verde",
+    "end": "Parque Nacional da Chapada Diamantina",
+    "cidade": "Lençóis",
+    "uf": "BA",
+    "d": "Tobogã natural de pedra que termina num poço para nadar."
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Matriz do século XVIII restaurada, coração da cidade e da Festa do Divino.",
+    "busca": [
+      "Matriz de Pirenópolis"
+    ]
+  },
+  {
+    "n": "Igreja Nosso Senhor do Bonfim",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Igreja colonial singela com altar trazido da Bahia em lombo de burro."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Igrejinha à beira do rio que abriga o Museu de Arte Sacra.",
+    "busca": [
+      "Museu de Arte Sacra de Pirenópolis"
+    ]
+  },
+  {
+    "n": "Museu das Cavalhadas",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Máscaras e trajes da Cavalhada, a festa mais famosa da cidade."
+  },
+  {
+    "n": "Cine Pireneus",
+    "cat": "cultura",
+    "end": "Rua Direita, Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Cinema art déco dos anos 1930 ainda em funcionamento."
+  },
+  {
+    "n": "Rua do Lazer",
+    "cat": "bar",
+    "end": "Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Rua de pedras cheia de bares e restaurantes, agito das noites piriguinas.",
+    "busca": [
+      "Rua Aurora"
+    ]
+  },
+  {
+    "n": "Ponte de Madeira do Rio das Almas",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Ponte sobre o Rio das Almas com vista para a cidade e banho de rio por perto.",
+    "busca": [
+      "Ponte sobre o Rio das Almas"
+    ]
+  },
+  {
+    "n": "Santuário de Vida Silvestre Vagafogo",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Reserva com trilhas, cachoeirinhas e um brunch famoso com produtos da fazenda.",
+    "busca": [
+      "Vagafogo"
+    ]
+  },
+  {
+    "n": "Cachoeira do Abade",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Cachoeira imponente com poço grande, uma das mais visitadas da região."
+  },
+  {
+    "n": "Parque Estadual da Serra dos Pireneus",
+    "cat": "verde",
+    "end": "Serra dos Pireneus",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Serra com o Pico dos Pireneus e capelinha no topo, de vista ampla."
+  },
+  {
+    "n": "Cachoeiras dos Dragões",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Pirenópolis",
+    "uf": "GO",
+    "d": "Circuito de várias quedas d'água em meio ao cerrado."
+  }
+]

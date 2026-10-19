@@ -1,0 +1,330 @@
+[
+  {
+    "n": "Mercearia São Pedro",
+    "cat": "bar",
+    "end": "Rua Rodésia, 34, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar e livraria da Vila Madalena, reduto de artistas e jornalistas.",
+    "busca": [
+      "Bar Mercearia São Pedro"
+    ]
+  },
+  {
+    "n": "Bar Pirajá",
+    "cat": "bar",
+    "end": "Avenida Brigadeiro Faria Lima, 64, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco com jeito carioca em Pinheiros, famoso pelo chope e pelos petiscos.",
+    "busca": [
+      "Pirajá"
+    ]
+  },
+  {
+    "n": "Bar Astor",
+    "cat": "bar",
+    "end": "Rua Delfina, 163, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar inspirado nos cafés dos anos 1950, com chope bem tirado."
+  },
+  {
+    "n": "Bar Riviera",
+    "cat": "bar",
+    "end": "Avenida Paulista, 2584, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar histórico na esquina da Paulista com a Consolação, reaberto com todo o charme."
+  },
+  {
+    "n": "Bar Balcão",
+    "cat": "bar",
+    "end": "Rua Doutor Melo Alves, 150, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar com um enorme balcão em zigue-zague, clássico dos Jardins."
+  },
+  {
+    "n": "Bar dos Arcos",
+    "cat": "bar",
+    "end": "Praça Ramos de Azevedo, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar instalado nos subterrâneos do Theatro Municipal."
+  },
+  {
+    "n": "Cervejaria Nacional",
+    "cat": "bar",
+    "end": "Avenida Pedroso de Morais, 604, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cervejaria artesanal com fábrica própria em Pinheiros."
+  },
+  {
+    "n": "Empanadas Bar",
+    "cat": "bar",
+    "end": "Rua Wisard, 489, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar disputado da Vila Madalena famoso pelas empanadas.",
+    "busca": [
+      "Empanadas"
+    ]
+  },
+  {
+    "n": "Bar do Luiz Fernandes",
+    "cat": "bar",
+    "end": "Rua Augusto Tolle, 610, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco da Zona Norte famoso pelos bolinhos de carne."
+  },
+  {
+    "n": "Paribar",
+    "cat": "bar",
+    "end": "Praça Dom José Gaspar, 42, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar de 1949 ao lado da Biblioteca Mário de Andrade, reduto de intelectuais."
+  },
+  {
+    "n": "Famiglia Mancini",
+    "cat": "comida",
+    "end": "Rua Avanhandava, 81, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina italiana farta numa rua cenográfica do Bixiga."
+  },
+  {
+    "n": "Speranza",
+    "cat": "comida",
+    "end": "Rua Treze de Maio, 1004, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pizzaria tradicional do Bixiga, aberta desde 1958.",
+    "busca": [
+      "Pizzaria Speranza"
+    ]
+  },
+  {
+    "n": "Cantina Castelões",
+    "cat": "comida",
+    "end": "Rua Jairo Góis, 126, Brás",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pizzaria centenária do Brás, considerada uma das mais antigas da cidade.",
+    "busca": [
+      "Castelões"
+    ]
+  },
+  {
+    "n": "Mocotó",
+    "cat": "comida",
+    "end": "Avenida Nossa Senhora do Loreto, 1100, Vila Medeiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante nordestino premiado que nasceu como bar de mocotó."
+  },
+  {
+    "n": "Terraço Itália",
+    "cat": "comida",
+    "end": "Avenida Ipiranga, 344, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante no topo do Edifício Itália com vista panorâmica da cidade."
+  },
+  {
+    "n": "A Figueira Rubaiyat",
+    "cat": "comida",
+    "end": "Rua Haddock Lobo, 1738, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante construído em volta de uma figueira centenária."
+  },
+  {
+    "n": "Jardim de Napoli",
+    "cat": "comida",
+    "end": "Rua Martinico Prado, 463, Higienópolis",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina de 1949 famosa pelo polpettone."
+  },
+  {
+    "n": "Bolinha",
+    "cat": "comida",
+    "end": "Avenida Cidade Jardim, 53, Jardim Europa",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante que é sinônimo de feijoada em São Paulo desde 1946.",
+    "busca": [
+      "Restaurante Bolinha"
+    ]
+  },
+  {
+    "n": "La Casserole",
+    "cat": "comida",
+    "end": "Largo do Arouche, 346, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bistrô francês de 1954 no Largo do Arouche, entre floriculturas."
+  },
+  {
+    "n": "Cantina Roperto",
+    "cat": "comida",
+    "end": "Rua Treze de Maio, 634, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina tradicional do Bixiga com massas fartas e clima de festa."
+  },
+  {
+    "n": "Sujinho",
+    "cat": "comida",
+    "end": "Rua da Consolação, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bisteca enorme servida até de madrugada, clássico da Consolação."
+  },
+  {
+    "n": "Frevo",
+    "cat": "comida",
+    "end": "Rua Oscar Freire, 603, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Lanchonete de 1956 famosa pelo beirute e pelo chope."
+  },
+  {
+    "n": "Pizzaria Camelo",
+    "cat": "comida",
+    "end": "Rua Pamplona, 1873, Jardim Paulista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pizzaria tradicional de massa fina, das mais queridas da cidade."
+  },
+  {
+    "n": "Bráz",
+    "cat": "comida",
+    "end": "Rua Grauçá, 333, Moema",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pizzaria paulistana famosa pela margherita e pelo chope.",
+    "busca": [
+      "Bráz Pizzaria"
+    ]
+  },
+  {
+    "n": "Lamen Aska",
+    "cat": "comida",
+    "end": "Rua Galvão Bueno, 466, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Lámen tradicional da Liberdade com fila na porta."
+  },
+  {
+    "n": "Casa Garabed",
+    "cat": "comida",
+    "end": "Rua José Margarido, 216, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Esfihas e comida armênia assadas no forno a lenha desde 1951."
+  },
+  {
+    "n": "Almanara",
+    "cat": "comida",
+    "end": "Rua Basílio da Gama, 70, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante árabe de 1950 no Centro, com esfihas e kibes."
+  },
+  {
+    "n": "Consulado Mineiro",
+    "cat": "comida",
+    "end": "Praça Benedito Calixto, 74, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Comida mineira farta em frente à feira da Benedito Calixto."
+  },
+  {
+    "n": "Tordesilhas",
+    "cat": "comida",
+    "end": "Alameda Tietê, 489, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante de cozinha brasileira regional da chef Mara Salles."
+  },
+  {
+    "n": "Lellis Trattoria",
+    "cat": "comida",
+    "end": "Rua Bela Cintra, 1849, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina clássica famosa pelo salmão ao molho de maracujá."
+  },
+  {
+    "n": "Casa Búlgara",
+    "cat": "comida",
+    "end": "Rua Silva Pinto, 356, Bom Retiro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa tradicional do Bom Retiro famosa pelas burekas."
+  },
+  {
+    "n": "Hocca Bar",
+    "cat": "comida",
+    "end": "Mercado Municipal, Rua da Cantareira, 306, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Balcão do Mercadão famoso pelo pastel de bacalhau e pelo sanduíche de mortadela."
+  },
+  {
+    "n": "Padaria Basilicata",
+    "cat": "doce",
+    "end": "Rua Treze de Maio, 614, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria italiana centenária do Bixiga com pães de longa fermentação.",
+    "busca": [
+      "Basilicata"
+    ]
+  },
+  {
+    "n": "Casa Mathilde",
+    "cat": "doce",
+    "end": "Praça Antônio Prado, 76, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Confeitaria portuguesa no Centro, famosa pelos pastéis de nata."
+  },
+  {
+    "n": "Padoca do Maní",
+    "cat": "doce",
+    "end": "Rua Joaquim Antunes, 138, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria da chef Helena Rizzo com pães e doces caprichados."
+  },
+  {
+    "n": "Maria Brigadeiro",
+    "cat": "doce",
+    "end": "Rua Capote Valente, 68, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Doceria que transformou o brigadeiro em doce gourmet."
+  },
+  {
+    "n": "Isso é Café",
+    "cat": "cafe",
+    "end": "Rua Carlos Comenale, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Café especial ao lado do MASP, perfeito antes ou depois do museu."
+  },
+  {
+    "n": "Mirante 9 de Julho",
+    "cat": "cafe",
+    "end": "Rua Carlos Comenale, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Café e bar num mirante sobre a Avenida 9 de Julho, atrás do MASP."
+  }
+]

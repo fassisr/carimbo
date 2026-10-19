@@ -1,0 +1,80 @@
+[
+  {
+    "n": "Piscinas Naturais de Porto de Galinhas",
+    "cat": "verde",
+    "end": "Porto de Galinhas",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Piscinas de águas mornas entre os recifes, cheias de peixinhos."
+  },
+  {
+    "n": "Vila de Porto de Galinhas",
+    "cat": "cultura",
+    "end": "Porto de Galinhas",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Vilarejo com ruas de lojinhas, restaurantes e galinhas de artesanato.",
+    "busca": [
+      "Centro de Porto de Galinhas"
+    ]
+  },
+  {
+    "n": "Praia de Porto de Galinhas",
+    "cat": "verde",
+    "end": "Porto de Galinhas",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Praia famosa com jangadas coloridas levando às piscinas naturais."
+  },
+  {
+    "n": "Praia de Maracaípe",
+    "cat": "verde",
+    "end": "Maracaípe",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Praia de surfe com ondas fortes e clima descontraído."
+  },
+  {
+    "n": "Pontal de Maracaípe",
+    "cat": "verde",
+    "end": "Maracaípe",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Encontro do rio com o mar, com passeio de jangada para ver cavalos-marinhos."
+  },
+  {
+    "n": "Praia de Muro Alto",
+    "cat": "verde",
+    "end": "Muro Alto",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Lagoa de águas calmas protegida por uma barreira de arrecifes."
+  },
+  {
+    "n": "Praia do Cupe",
+    "cat": "verde",
+    "end": "Cupe",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Praia extensa e tranquila entre Muro Alto e Porto de Galinhas."
+  },
+  {
+    "n": "Praia de Serrambi",
+    "cat": "verde",
+    "end": "Serrambi",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Praia calma de coqueirais e piscinas naturais."
+  },
+  {
+    "n": "Convento de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro de Ipojuca",
+    "cidade": "Ipojuca",
+    "uf": "PE",
+    "d": "Convento franciscano do século XVII no centro histórico de Ipojuca.",
+    "busca": [
+      "Convento de Santo Antônio de Ipojuca"
+    ]
+  }
+]

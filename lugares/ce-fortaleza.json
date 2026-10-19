@@ -1,0 +1,213 @@
+[
+  {
+    "n": "Theatro José de Alencar",
+    "cat": "cultura",
+    "end": "Praça José de Alencar, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Teatro art nouveau de 1910 com estrutura de ferro escocesa."
+  },
+  {
+    "n": "Centro Dragão do Mar de Arte e Cultura",
+    "cat": "cultura",
+    "end": "Rua Dragão do Mar, 81, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Museus, cinema e planetário num complexo cheio de vida.",
+    "busca": [
+      "Dragão do Mar"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Fortaleza",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Catedral neogótica imponente com belos vitrais.",
+    "busca": [
+      "Catedral da Sé Fortaleza"
+    ]
+  },
+  {
+    "n": "Mercado Central de Fortaleza",
+    "cat": "cultura",
+    "end": "Av. Alberto Nepomuceno, 199, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Centenas de lojas de renda, castanha, cachaça e artesanato."
+  },
+  {
+    "n": "Fortaleza de Nossa Senhora da Assunção",
+    "cat": "cultura",
+    "end": "Av. Alberto Nepomuceno, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Forte que deu nome à cidade, sede da 10ª Região Militar."
+  },
+  {
+    "n": "Museu do Ceará",
+    "cat": "cultura",
+    "end": "Rua São Paulo, 51, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Museu da história cearense no antigo prédio da Assembleia."
+  },
+  {
+    "n": "Centro Cultural Banco do Nordeste",
+    "cat": "cultura",
+    "end": "Rua Conde d'Eu, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Exposições, shows e biblioteca de graça no centro."
+  },
+  {
+    "n": "Cine São Luiz",
+    "cat": "cultura",
+    "end": "Praça do Ferreira, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Cinema de rua luxuoso dos anos 1950, restaurado."
+  },
+  {
+    "n": "Praça do Ferreira",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Coração do centro, famosa pela coluna da hora e pela irreverência."
+  },
+  {
+    "n": "Passeio Público",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "A praça mais antiga da cidade, com árvores centenárias.",
+    "busca": [
+      "Praça dos Mártires"
+    ]
+  },
+  {
+    "n": "Estoril",
+    "cat": "cultura",
+    "end": "Rua dos Tabajaras, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Casarão histórico da Praia de Iracema, hoje espaço cultural."
+  },
+  {
+    "n": "Ponte dos Ingleses",
+    "cat": "verde",
+    "end": "Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Ponte sobre o mar para ver o pôr do sol e, com sorte, golfinhos.",
+    "busca": [
+      "Ponte Metálica"
+    ]
+  },
+  {
+    "n": "Estátua de Iracema Guardiã",
+    "cat": "cultura",
+    "end": "Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Estátua da personagem de José de Alencar na orla."
+  },
+  {
+    "n": "Feirinha da Beira-Mar",
+    "cat": "cultura",
+    "end": "Av. Beira-Mar, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Feira noturna de artesanato e comidinhas no calçadão."
+  },
+  {
+    "n": "Praia do Futuro",
+    "cat": "verde",
+    "end": "Praia do Futuro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praia de mar aberto com as famosas barracas cearenses."
+  },
+  {
+    "n": "Parque do Cocó",
+    "cat": "verde",
+    "end": "Cocó",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Um dos maiores parques urbanos do Brasil, com manguezal e trilhas.",
+    "busca": [
+      "Parque Estadual do Cocó"
+    ]
+  },
+  {
+    "n": "Mercado dos Peixes",
+    "cat": "comida",
+    "end": "Av. Beira-Mar, Mucuripe",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Compre peixe e camarão e mande preparar ali, de frente para os barcos.",
+    "busca": [
+      "Mercado dos Peixes do Mucuripe"
+    ]
+  },
+  {
+    "n": "Chico do Caranguejo",
+    "cat": "comida",
+    "end": "Praia do Futuro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Barraca famosa pela quinta-feira do caranguejo.",
+    "busca": [
+      "Barraca Chico do Caranguejo"
+    ]
+  },
+  {
+    "n": "Crocobeach",
+    "cat": "comida",
+    "end": "Praia do Futuro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Barraca grande e animada, com estrutura completa na areia.",
+    "busca": [
+      "Barraca Crocobeach"
+    ]
+  },
+  {
+    "n": "Colher de Pau",
+    "cat": "comida",
+    "end": "Varjota",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Restaurante clássico de comida cearense, como baião de dois e carne de sol."
+  },
+  {
+    "n": "Cantinho do Faustino",
+    "cat": "comida",
+    "end": "Varjota",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Cozinha regional criativa que é referência na cidade."
+  },
+  {
+    "n": "Pirata Bar",
+    "cat": "bar",
+    "end": "Rua dos Tabajaras, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Famoso pela segunda-feira mais louca do planeta, com forró."
+  },
+  {
+    "n": "50 Sabores",
+    "cat": "doce",
+    "end": "Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Sorveteria tradicional com sabores de frutas regionais.",
+    "busca": [
+      "Sorveteria 50 Sabores"
+    ]
+  }
+]

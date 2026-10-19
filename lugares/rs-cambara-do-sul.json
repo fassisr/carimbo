@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Cânion Itaimbezinho",
+    "cat": "verde",
+    "end": "Parque Nacional de Aparados da Serra",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Cânion de paredões gigantes e cachoeiras, o mais famoso do Sul.",
+    "busca": [
+      "Parque Nacional de Aparados da Serra"
+    ]
+  },
+  {
+    "n": "Cânion Fortaleza",
+    "cat": "verde",
+    "end": "Parque Nacional da Serra Geral",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Cânion imponente com vista até o mar em dias claros.",
+    "busca": [
+      "Parque Nacional da Serra Geral"
+    ]
+  },
+  {
+    "n": "Pedra do Segredo",
+    "cat": "verde",
+    "end": "Parque Nacional da Serra Geral",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Rocha equilibrada sobre uma base pequena, perto do Fortaleza."
+  },
+  {
+    "n": "Cachoeira dos Venâncios",
+    "cat": "verde",
+    "end": "Cambará do Sul",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Cachoeira com poços e corredeiras em meio aos campos."
+  },
+  {
+    "n": "Cachoeira do Tigre Preto",
+    "cat": "verde",
+    "end": "Parque Nacional da Serra Geral",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Cachoeira que despenca no cânion do Fortaleza."
+  },
+  {
+    "n": "Cânion Malacara",
+    "cat": "verde",
+    "end": "Parque Nacional da Serra Geral",
+    "cidade": "Cambará do Sul",
+    "uf": "RS",
+    "d": "Cânion acessível por trilha a partir de Praia Grande ou Cambará."
+  }
+]

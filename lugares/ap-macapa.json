@@ -1,0 +1,72 @@
+[
+  {
+    "n": "Fortaleza de São José de Macapá",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Grande fortaleza do século XVIII à beira do Rio Amazonas."
+  },
+  {
+    "n": "Monumento Marco Zero do Equador",
+    "cat": "cultura",
+    "end": "Zerão",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Monumento sobre a Linha do Equador, onde se pisa nos dois hemisférios.",
+    "busca": [
+      "Marco Zero"
+    ]
+  },
+  {
+    "n": "Igreja de São José de Macapá",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Igreja de 1761, a construção mais antiga da cidade."
+  },
+  {
+    "n": "Museu Sacaca",
+    "cat": "cultura",
+    "end": "Avenida Feliciano Coelho, Trem",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Museu com casas ribeirinhas e cultura dos povos amazônicos."
+  },
+  {
+    "n": "Trapiche Eliezer Levy",
+    "cat": "verde",
+    "end": "Orla, Centro",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Píer que avança sobre o Rio Amazonas, ótimo para o pôr do sol."
+  },
+  {
+    "n": "Orla de Macapá",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Calçadão à beira do Amazonas com quiosques."
+  },
+  {
+    "n": "Estádio Zerão",
+    "cat": "cultura",
+    "end": "Zerão",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Estádio cortado pela Linha do Equador, cada tempo num hemisfério.",
+    "busca": [
+      "Estádio Milton Corrêa"
+    ]
+  },
+  {
+    "n": "Casa do Artesão",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Macapá",
+    "uf": "AP",
+    "d": "Artesanato amapaense com cerâmica e trabalhos indígenas."
+  }
+]

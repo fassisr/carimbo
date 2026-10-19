@@ -1,0 +1,81 @@
+[
+  {
+    "n": "Lago Igapó",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Lago-cartão-postal da cidade, ótimo para caminhar ao pôr do sol.",
+    "busca": [
+      "Lago Igapó I"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Londrina",
+    "cat": "cultura",
+    "end": "Praça Marechal Floriano Peixoto, Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Catedral moderna de linhas marcantes no centro da cidade.",
+    "busca": [
+      "Catedral de Londrina"
+    ]
+  },
+  {
+    "n": "Museu Histórico de Londrina Padre Carlos Weiss",
+    "cat": "cultura",
+    "end": "Rua Benjamin Constant, 900, Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Museu na antiga estação ferroviária que conta a colonização do norte do Paraná.",
+    "busca": [
+      "Museu Histórico de Londrina"
+    ]
+  },
+  {
+    "n": "Teatro Ouro Verde",
+    "cat": "cultura",
+    "end": "Rua Maranhão, 85, Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Teatro histórico dos anos 1950, palco do Festival de Londrina."
+  },
+  {
+    "n": "Bosque Marechal Cândido Rondon",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Bosque central com mata nativa preservada no coração da cidade.",
+    "busca": [
+      "Bosque Central de Londrina"
+    ]
+  },
+  {
+    "n": "Concha Acústica de Londrina",
+    "cat": "cultura",
+    "end": "Praça Primeiro de Maio, Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Palco ao ar livre de shows e eventos culturais."
+  },
+  {
+    "n": "Parque Municipal Arthur Thomas",
+    "cat": "verde",
+    "end": "Jardim Piza",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Grande área de mata atlântica com trilhas e lago.",
+    "busca": [
+      "Parque Arthur Thomas"
+    ]
+  },
+  {
+    "n": "Jardim Botânico de Londrina",
+    "cat": "verde",
+    "end": "Jardim Pinheiros",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "d": "Jardim botânico com trilhas e espécies da flora paranaense."
+  }
+]

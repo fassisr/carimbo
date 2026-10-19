@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Morro da Igreja",
+    "cat": "verde",
+    "end": "Parque Nacional de São Joaquim",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Um dos pontos mais altos do Sul, com vista para a Pedra Furada."
+  },
+  {
+    "n": "Pedra Furada",
+    "cat": "verde",
+    "end": "Parque Nacional de São Joaquim",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Formação rochosa com um grande buraco, símbolo de Urubici."
+  },
+  {
+    "n": "Serra do Corvo Branco",
+    "cat": "verde",
+    "end": "SC-370",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Estrada com o maior corte em rocha do país e vista espetacular."
+  },
+  {
+    "n": "Cascata Véu de Noiva",
+    "cat": "verde",
+    "end": "Urubici",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Cachoeira de queda alta e fina em meio à mata."
+  },
+  {
+    "n": "Cachoeira do Avencal",
+    "cat": "verde",
+    "end": "Avencal",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Cachoeira de 100 metros com mirante e tirolesa."
+  },
+  {
+    "n": "Morro do Campestre",
+    "cat": "verde",
+    "end": "Urubici",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Formações rochosas curiosas com vista dos vales."
+  },
+  {
+    "n": "Inscrições Rupestres de Urubici",
+    "cat": "cultura",
+    "end": "Urubici",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Gravuras indígenas milenares esculpidas na rocha.",
+    "busca": [
+      "Sítio Arqueológico Urubici"
+    ]
+  },
+  {
+    "n": "Cachoeira Rio dos Bugres",
+    "cat": "verde",
+    "end": "Rio dos Bugres",
+    "cidade": "Urubici",
+    "uf": "SC",
+    "d": "Cachoeira com várias quedas e poços para banho."
+  }
+]

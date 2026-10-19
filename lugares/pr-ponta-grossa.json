@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Parque Estadual de Vila Velha",
+    "cat": "verde",
+    "end": "BR-376, Vila Velha",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Formações de arenito esculpidas pelo vento e as furnas gigantes.",
+    "busca": [
+      "Vila Velha"
+    ]
+  },
+  {
+    "n": "Buraco do Padre",
+    "cat": "verde",
+    "end": "Distrito de Itaiacoca",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Furna com cachoeira caindo dentro de uma caverna aberta."
+  },
+  {
+    "n": "Cachoeira da Mariquinha",
+    "cat": "verde",
+    "end": "Distrito de Itaiacoca",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Cachoeira com poço de águas claras, ótima para banho."
+  },
+  {
+    "n": "Catedral de Sant'Ana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Catedral moderna no centro, dedicada à padroeira da cidade.",
+    "busca": [
+      "Catedral Sant'Ana Ponta Grossa"
+    ]
+  },
+  {
+    "n": "Estação Saudade",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Antiga estação ferroviária restaurada, hoje espaço cultural.",
+    "busca": [
+      "Estação Paraná Ponta Grossa"
+    ]
+  },
+  {
+    "n": "Museu Campos Gerais",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Museu sobre a história e a cultura dos Campos Gerais."
+  },
+  {
+    "n": "Parque Ambiental Governador Manoel Ribas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Parque central com lago e área de lazer.",
+    "busca": [
+      "Parque Ambiental Ponta Grossa"
+    ]
+  },
+  {
+    "n": "Capão da Onça",
+    "cat": "verde",
+    "end": "Distrito de Itaiacoca",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "d": "Área natural com trilhas, cânion e cachoeiras."
+  }
+]

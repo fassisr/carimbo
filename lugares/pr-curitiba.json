@@ -1,0 +1,255 @@
+[
+  {
+    "n": "Jardim Botânico de Curitiba",
+    "cat": "verde",
+    "end": "Rua Engenheiro Ostoja Roguski, Jardim Botânico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Estufa de vidro e jardins franceses, o cartão-postal mais famoso da cidade."
+  },
+  {
+    "n": "Ópera de Arame",
+    "cat": "cultura",
+    "end": "Rua João Gava, 970, Abranches",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Teatro de estrutura tubular e vidro sobre um lago, cercado por mata."
+  },
+  {
+    "n": "Museu Oscar Niemeyer",
+    "cat": "cultura",
+    "end": "Rua Marechal Hermes, 999, Centro Cívico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "O famoso Museu do Olho, com arte contemporânea e arquitetura icônica.",
+    "busca": [
+      "MON"
+    ]
+  },
+  {
+    "n": "Parque Tanguá",
+    "cat": "verde",
+    "end": "Pilarzinho",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Antiga pedreira com cascata, túnel e mirante para o pôr do sol."
+  },
+  {
+    "n": "Parque Barigui",
+    "cat": "verde",
+    "end": "Bigorrilho",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "O parque mais querido da cidade, com lago, capivaras e muita gente correndo."
+  },
+  {
+    "n": "Bosque Alemão",
+    "cat": "verde",
+    "end": "Vista Alegre",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bosque com Trilha de João e Maria, oratório e homenagem aos imigrantes alemães."
+  },
+  {
+    "n": "Bosque do Papa",
+    "cat": "verde",
+    "end": "Centro Cívico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casas de troncos da imigração polonesa em meio à mata, lembrando a visita de João Paulo II.",
+    "busca": [
+      "Memorial da Imigração Polonesa"
+    ]
+  },
+  {
+    "n": "Parque Tingui",
+    "cat": "verde",
+    "end": "São João",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Parque à beira do rio com o Memorial Ucraniano e sua igrejinha de madeira."
+  },
+  {
+    "n": "Passeio Público",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Primeiro parque da cidade, de 1886, com lagos, pontes e portão histórico."
+  },
+  {
+    "n": "Largo da Ordem",
+    "cat": "cultura",
+    "end": "São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Coração do centro histórico, com casarões, igrejas e a feira de domingo."
+  },
+  {
+    "n": "Igreja da Ordem Terceira de São Francisco das Chagas",
+    "cat": "cultura",
+    "end": "Largo da Ordem, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "A igreja mais antiga de Curitiba, do século XVIII.",
+    "busca": [
+      "Igreja da Ordem"
+    ]
+  },
+  {
+    "n": "Memorial de Curitiba",
+    "cat": "cultura",
+    "end": "Largo da Ordem, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Espaço cultural que conta a história da cidade em arquitetura moderna."
+  },
+  {
+    "n": "Catedral Basílica Menor de Curitiba",
+    "cat": "cultura",
+    "end": "Praça Tiradentes, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Catedral neogótica na praça onde a cidade nasceu.",
+    "busca": [
+      "Catedral de Curitiba"
+    ]
+  },
+  {
+    "n": "Teatro Guaíra",
+    "cat": "cultura",
+    "end": "Praça Santos Andrade, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Um dos maiores teatros do país, palco do Balé Teatro Guaíra.",
+    "busca": [
+      "Centro Cultural Teatro Guaíra"
+    ]
+  },
+  {
+    "n": "Prédio Histórico da Universidade Federal do Paraná",
+    "cat": "cultura",
+    "end": "Praça Santos Andrade, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Prédio de colunas da primeira universidade do Brasil, símbolo da cidade.",
+    "busca": [
+      "Prédio Histórico da UFPR"
+    ]
+  },
+  {
+    "n": "Paço da Liberdade",
+    "cat": "cultura",
+    "end": "Praça Generoso Marques, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Antiga prefeitura art nouveau, hoje centro cultural do Sesc.",
+    "busca": [
+      "Sesc Paço da Liberdade"
+    ]
+  },
+  {
+    "n": "Museu Paranaense",
+    "cat": "cultura",
+    "end": "Rua Kellers, 289, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Museu centenário com acervo de história, arqueologia e antropologia do Paraná."
+  },
+  {
+    "n": "Torre Panorâmica",
+    "cat": "verde",
+    "end": "Mercês",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Mirante com vista de 360 graus sobre Curitiba.",
+    "busca": [
+      "Torre Panorâmica de Curitiba",
+      "Torre da Telepar"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de Curitiba",
+    "cat": "comida",
+    "end": "Avenida Sete de Setembro, 1865, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Mercadão com bancas de frios, cafés, empórios e um setor de orgânicos."
+  },
+  {
+    "n": "Bar do Alemão",
+    "cat": "bar",
+    "end": "Largo da Ordem, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bar tradicional do Largo, famoso pelo chope com submarino e comida alemã.",
+    "busca": [
+      "Schwarzwald Bar do Alemão"
+    ]
+  },
+  {
+    "n": "Bar Palácio",
+    "cat": "bar",
+    "end": "Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bar e restaurante dos anos 1930, clássico da boemia curitibana."
+  },
+  {
+    "n": "Confeitaria das Famílias",
+    "cat": "doce",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Confeitaria centenária da Rua das Flores, famosa pelos doces e tortas."
+  },
+  {
+    "n": "Restaurante Madalosso",
+    "cat": "comida",
+    "end": "Avenida Manoel Ribas, Santa Felicidade",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Gigantesco restaurante de rodízio italiano, ícone de Santa Felicidade.",
+    "busca": [
+      "Madalosso"
+    ]
+  },
+  {
+    "n": "Restaurante Durski",
+    "cat": "comida",
+    "end": "Rua Jaime Reis, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cozinha eslava com pierogi e pratos ucranianos e poloneses.",
+    "busca": [
+      "Durski"
+    ]
+  },
+  {
+    "n": "Lucca Cafés Especiais",
+    "cat": "cafe",
+    "end": "Batel",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cafeteria pioneira de cafés especiais na cidade."
+  },
+  {
+    "n": "Bar do Victor",
+    "cat": "comida",
+    "end": "São Lourenço",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Restaurante tradicional de frutos do mar perto do Parque São Lourenço."
+  },
+  {
+    "n": "Cervejaria Bodebrown",
+    "cat": "bar",
+    "end": "Hauer",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cervejaria artesanal premiada, referência da cena cervejeira curitibana.",
+    "busca": [
+      "Bodebrown"
+    ]
+  }
+]

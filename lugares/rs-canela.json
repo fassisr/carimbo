@@ -1,0 +1,68 @@
+[
+  {
+    "n": "Parque Estadual do Caracol",
+    "cat": "verde",
+    "end": "Estrada do Caracol",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "A Cascata do Caracol, queda de 131 metros em meio à mata.",
+    "busca": [
+      "Cascata do Caracol",
+      "Parque do Caracol"
+    ]
+  },
+  {
+    "n": "Catedral de Pedra",
+    "cat": "cultura",
+    "end": "Praça João Corrêa, Centro",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Catedral gótica de pedra, símbolo de Canela.",
+    "busca": [
+      "Catedral Nossa Senhora de Lourdes"
+    ]
+  },
+  {
+    "n": "Praça João Corrêa",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Praça central em frente à Catedral de Pedra."
+  },
+  {
+    "n": "Castelinho Caracol",
+    "cat": "cultura",
+    "end": "Estrada do Caracol",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Casa enxaimel de 1913 que virou museu, com strudel famoso."
+  },
+  {
+    "n": "Mundo a Vapor",
+    "cat": "cultura",
+    "end": "Rodovia RS-235",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Museu de máquinas a vapor com fachada do famoso trem acidentado."
+  },
+  {
+    "n": "Parque da Ferradura",
+    "cat": "verde",
+    "end": "Estrada do Caracol",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Cânion em forma de ferradura com mirantes sobre o Rio Santa Cruz."
+  },
+  {
+    "n": "Morro Pelado",
+    "cat": "verde",
+    "end": "Canela",
+    "cidade": "Canela",
+    "uf": "RS",
+    "d": "Mirante natural com vista ampla da serra.",
+    "busca": [
+      "Morro Pelado Canela"
+    ]
+  }
+]

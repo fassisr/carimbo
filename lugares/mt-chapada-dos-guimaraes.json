@@ -1,0 +1,88 @@
+[
+  {
+    "n": "Parque Nacional da Chapada dos Guimarães",
+    "cat": "verde",
+    "end": "MT-251",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Paredões de arenito, cachoeiras e cerrado a poucos quilômetros de Cuiabá."
+  },
+  {
+    "n": "Cachoeira Véu de Noiva",
+    "cat": "verde",
+    "end": "Parque Nacional",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Queda de 86 metros despencando de um paredão vermelho."
+  },
+  {
+    "n": "Cidade de Pedra",
+    "cat": "verde",
+    "end": "Parque Nacional",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Formações rochosas gigantes sobre o vale do Rio Claro."
+  },
+  {
+    "n": "Circuito das Cachoeiras",
+    "cat": "verde",
+    "end": "Parque Nacional",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Trilha com sete cachoeiras e poços para banho."
+  },
+  {
+    "n": "Mirante do Centro Geodésico",
+    "cat": "verde",
+    "end": "Chapada dos Guimarães",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Mirante com vista sem fim da baixada cuiabana.",
+    "busca": [
+      "Mirante da Chapada"
+    ]
+  },
+  {
+    "n": "Portão do Inferno",
+    "cat": "verde",
+    "end": "MT-251",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Paredão impressionante à beira da estrada de chegada."
+  },
+  {
+    "n": "Morro de São Jerônimo",
+    "cat": "verde",
+    "end": "Parque Nacional",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Trilha até o ponto mais alto da Chapada, com vista de 360 graus."
+  },
+  {
+    "n": "Caverna Aroe Jari",
+    "cat": "verde",
+    "end": "Chapada dos Guimarães",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Uma das maiores cavernas de arenito do Brasil, com a Lagoa Azul."
+  },
+  {
+    "n": "Igreja de Nossa Senhora de Sant'Ana",
+    "cat": "cultura",
+    "end": "Praça Dom Wunibaldo, Centro",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Igreja de 1779, uma das mais antigas de Mato Grosso.",
+    "busca": [
+      "Igreja de Sant'Ana"
+    ]
+  },
+  {
+    "n": "Praça Dom Wunibaldo",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Chapada dos Guimarães",
+    "uf": "MT",
+    "d": "Praça charmosa do centro, cercada de cafés e restaurantes."
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "n": "Marco Zero",
+    "cat": "cultura",
+    "end": "Praça Rio Branco, Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Ponto inicial da cidade, de frente para o Parque das Esculturas de Brennand.",
+    "busca": [
+      "Praça Rio Branco"
+    ]
+  },
+  {
+    "n": "Parque das Esculturas Francisco Brennand",
+    "cat": "cultura",
+    "end": "Molhe, Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Esculturas de Brennand sobre o arrecife, com a Torre de Cristal.",
+    "busca": [
+      "Parque das Esculturas"
+    ]
+  },
+  {
+    "n": "Paço do Frevo",
+    "cat": "cultura",
+    "end": "Praça do Arsenal da Marinha, Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu vivo do frevo, patrimônio imaterial da humanidade."
+  },
+  {
+    "n": "Cais do Sertão",
+    "cat": "cultura",
+    "end": "Avenida Alfredo Lisboa, Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu sobre o sertão e Luiz Gonzaga num antigo armazém do porto."
+  },
+  {
+    "n": "Rua do Bom Jesus",
+    "cat": "cultura",
+    "end": "Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Rua histórica de casarões coloridos, com feirinha aos domingos."
+  },
+  {
+    "n": "Sinagoga Kahal Zur Israel",
+    "cat": "cultura",
+    "end": "Rua do Bom Jesus, 197, Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Primeira sinagoga das Américas, do período holandês."
+  },
+  {
+    "n": "Capela Dourada",
+    "cat": "cultura",
+    "end": "Rua do Imperador Dom Pedro II, Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Capela barroca coberta de ouro da Ordem Terceira de São Francisco."
+  },
+  {
+    "n": "Teatro de Santa Isabel",
+    "cat": "cultura",
+    "end": "Praça da República, Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Teatro neoclássico do século XIX, um dos mais bonitos do país."
+  },
+  {
+    "n": "Concatedral de São Pedro dos Clérigos",
+    "cat": "cultura",
+    "end": "Pátio de São Pedro, São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Igreja barroca no Pátio de São Pedro, cercado de casarios."
+  },
+  {
+    "n": "Mercado de São José",
+    "cat": "cultura",
+    "end": "Praça Dom Vital, São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Mercado de ferro do século XIX com artesanato e ervas."
+  },
+  {
+    "n": "Casa da Cultura",
+    "cat": "cultura",
+    "end": "Rua Floriano Peixoto, São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Antiga Casa de Detenção onde as celas viraram lojas de artesanato.",
+    "busca": [
+      "Casa da Cultura de Pernambuco"
+    ]
+  },
+  {
+    "n": "Instituto Ricardo Brennand",
+    "cat": "cultura",
+    "end": "Alameda Antônio Brennand, Várzea",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Castelo com armas medievais, arte e a maior coleção de Frans Post."
+  },
+  {
+    "n": "Oficina Cerâmica Francisco Brennand",
+    "cat": "cultura",
+    "end": "Várzea",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Antiga olaria transformada no universo de esculturas de Brennand.",
+    "busca": [
+      "Oficina Brennand"
+    ]
+  },
+  {
+    "n": "Museu do Homem do Nordeste",
+    "cat": "cultura",
+    "end": "Avenida Dezessete de Agosto, 2187, Casa Forte",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu sobre a formação cultural do povo nordestino."
+  },
+  {
+    "n": "Praia de Boa Viagem",
+    "cat": "verde",
+    "end": "Avenida Boa Viagem, Boa Viagem",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Orla mais famosa do Recife, com piscinas naturais nos arrecifes."
+  },
+  {
+    "n": "Parque da Jaqueira",
+    "cat": "verde",
+    "end": "Avenida Rui Barbosa, Jaqueira",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Parque arborizado com pista de cooper e capela do século XVIII."
+  },
+  {
+    "n": "Parque Dona Lindu",
+    "cat": "verde",
+    "end": "Avenida Boa Viagem, Boa Viagem",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Parque à beira-mar projetado por Oscar Niemeyer."
+  },
+  {
+    "n": "Restaurante Leite",
+    "cat": "comida",
+    "end": "Praça Joaquim Nabuco, 147, Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Restaurante mais antigo em funcionamento no Brasil, desde 1882."
+  },
+  {
+    "n": "Parraxaxá",
+    "cat": "comida",
+    "end": "Casa Forte",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Restaurante de comida sertaneja com decoração de cangaço."
+  },
+  {
+    "n": "Chica Pitanga",
+    "cat": "comida",
+    "end": "Boa Viagem",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Restaurante de comida por quilo caprichada, queridinho dos recifenses."
+  },
+  {
+    "n": "Entre Amigos o Bode",
+    "cat": "comida",
+    "end": "Espinheiro",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Casa tradicional de bode assado e comida regional."
+  },
+  {
+    "n": "Mercado da Boa Vista",
+    "cat": "comida",
+    "end": "Rua da Santa Cruz, Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Mercado com bares e comidinhas, ponto de encontro boêmio no centro."
+  },
+  {
+    "n": "Mercado da Madalena",
+    "cat": "comida",
+    "end": "Madalena",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Mercado de bairro com boxes de comida regional e cerveja gelada."
+  },
+  {
+    "n": "Bar Central",
+    "cat": "bar",
+    "end": "Rua Mamede Simões, Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Bar clássico da Rua Mamede Simões, reduto boêmio do centro."
+  },
+  {
+    "n": "Burburinho",
+    "cat": "bar",
+    "end": "Bairro do Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Bar tradicional do Recife Antigo, com música ao vivo e clima descontraído."
+  }
+]

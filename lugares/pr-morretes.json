@@ -1,0 +1,89 @@
+[
+  {
+    "n": "Igreja Matriz Nossa Senhora do Porto",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Igreja do século XIX que domina o casario colonial à beira do rio.",
+    "busca": [
+      "Igreja Matriz de Morretes"
+    ]
+  },
+  {
+    "n": "Igreja de São Benedito",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Pequena igreja histórica erguida no século XVIII."
+  },
+  {
+    "n": "Estação Ferroviária de Morretes",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Parada do famoso trem da Serra do Mar que vem de Curitiba.",
+    "busca": [
+      "Estação de Morretes"
+    ]
+  },
+  {
+    "n": "Ponte Velha",
+    "cat": "cultura",
+    "end": "Rio Nhundiaquara, Centro",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Ponte de ferro sobre o Rio Nhundiaquara, cenário clássico da cidade.",
+    "busca": [
+      "Ponte de Ferro Morretes"
+    ]
+  },
+  {
+    "n": "Rua das Flores",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Rua à beira do rio com casarões, restaurantes de barreado e lojinhas."
+  },
+  {
+    "n": "Restaurante Madalozo",
+    "cat": "comida",
+    "end": "Centro Histórico",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Restaurante tradicional à beira do rio, famoso pelo barreado.",
+    "busca": [
+      "Madalozo Morretes"
+    ]
+  },
+  {
+    "n": "Porto de Cima",
+    "cat": "cultura",
+    "end": "Porto de Cima",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Vila histórica com casario antigo e o rio cristalino ao lado."
+  },
+  {
+    "n": "Parque Estadual Pico do Marumbi",
+    "cat": "verde",
+    "end": "Serra do Mar",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Parque com trilhas para o Marumbi, montanha símbolo da Serra do Mar.",
+    "busca": [
+      "Parque Estadual do Marumbi"
+    ]
+  },
+  {
+    "n": "Estrada da Graciosa",
+    "cat": "verde",
+    "end": "Serra do Mar",
+    "cidade": "Morretes",
+    "uf": "PR",
+    "d": "Estrada histórica de paralelepípedos entre hortênsias e mata atlântica."
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "n": "Mercado Público de Porto Alegre",
+    "cat": "comida",
+    "end": "Largo Glênio Peres, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Mercado de 1869 com bancas, restaurantes e erva-mate.",
+    "busca": [
+      "Mercado Público"
+    ]
+  },
+  {
+    "n": "Banca 40",
+    "cat": "doce",
+    "end": "Mercado Público, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Banca do Mercado famosa pela bomba royal de sorvete e frutas."
+  },
+  {
+    "n": "Gambrinus",
+    "cat": "comida",
+    "end": "Mercado Público, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Restaurante mais antigo da cidade, servindo peixe dentro do Mercado."
+  },
+  {
+    "n": "Bar Naval",
+    "cat": "bar",
+    "end": "Mercado Público, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Bar centenário do Mercado, clássico da boemia porto-alegrense."
+  },
+  {
+    "n": "Chalé da Praça XV",
+    "cat": "bar",
+    "end": "Praça XV de Novembro, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Chalé de 1885 com chope e mesas na praça.",
+    "busca": [
+      "Chalé da Praça Quinze"
+    ]
+  },
+  {
+    "n": "Bar Ocidente",
+    "cat": "bar",
+    "end": "Avenida Osvaldo Aranha, Bom Fim",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Casarão boêmio dos anos 1980, ícone da noite gaúcha."
+  },
+  {
+    "n": "Lancheria do Parque",
+    "cat": "comida",
+    "end": "Avenida Osvaldo Aranha, Bom Fim",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Lancheria tradicional em frente à Redenção, famosa pelos sucos e xis."
+  },
+  {
+    "n": "Restaurante Copacabana",
+    "cat": "comida",
+    "end": "Praça Garibaldi, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Cantina tradicional de 1940 com pratos fartos.",
+    "busca": [
+      "Copacabana"
+    ]
+  },
+  {
+    "n": "Bar Tuim",
+    "cat": "bar",
+    "end": "Rua General Câmara, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Pequeno bar histórico de esquina, famoso pelo chope e pela pequenez."
+  },
+  {
+    "n": "Usina do Gasômetro",
+    "cat": "cultura",
+    "end": "Avenida Presidente João Goulart, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Antiga usina à beira do Guaíba, ponto clássico do pôr do sol."
+  },
+  {
+    "n": "Casa de Cultura Mario Quintana",
+    "cat": "cultura",
+    "end": "Rua dos Andradas, 736, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Antigo hotel onde viveu o poeta, hoje centro cultural rosa.",
+    "busca": [
+      "CCMQ"
+    ]
+  },
+  {
+    "n": "Fundação Iberê Camargo",
+    "cat": "cultura",
+    "end": "Avenida Padre Cacique, 2000, Cristal",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Museu de Álvaro Siza à beira do Guaíba dedicado a Iberê Camargo.",
+    "busca": [
+      "Fundação Iberê"
+    ]
+  },
+  {
+    "n": "Museu de Arte do Rio Grande do Sul",
+    "cat": "cultura",
+    "end": "Praça da Alfândega, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Principal museu de arte do estado, em prédio histórico.",
+    "busca": [
+      "MARGS"
+    ]
+  },
+  {
+    "n": "Farol Santander",
+    "cat": "cultura",
+    "end": "Rua Sete de Setembro, 1028, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Centro cultural em antigo prédio bancário de 1927.",
+    "busca": [
+      "Santander Cultural"
+    ]
+  },
+  {
+    "n": "Theatro São Pedro",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Teatro de 1858, um dos mais antigos do país."
+  },
+  {
+    "n": "Catedral Metropolitana de Porto Alegre",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Catedral de cúpula imponente no alto do centro.",
+    "busca": [
+      "Catedral Metropolitana Nossa Senhora Mãe de Deus"
+    ]
+  },
+  {
+    "n": "Palácio Piratini",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Sede do governo gaúcho, com murais de Aldo Locatelli."
+  },
+  {
+    "n": "Parque Farroupilha",
+    "cat": "verde",
+    "end": "Farroupilha",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "A Redenção, parque mais tradicional da cidade, com o Brique aos domingos.",
+    "busca": [
+      "Redenção"
+    ]
+  },
+  {
+    "n": "Parque Moinhos de Vento",
+    "cat": "verde",
+    "end": "Moinhos de Vento",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "O Parcão, com moinho decorativo e lago no bairro nobre.",
+    "busca": [
+      "Parcão"
+    ]
+  },
+  {
+    "n": "Orla do Guaíba",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Calçadão à beira do lago com o pôr do sol mais famoso da cidade.",
+    "busca": [
+      "Orla Moacyr Scliar"
+    ]
+  },
+  {
+    "n": "Rua Gonçalo de Carvalho",
+    "cat": "verde",
+    "end": "Independência",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Considerada a rua mais bonita do mundo, um túnel verde de tipuanas."
+  },
+  {
+    "n": "Jardim Botânico de Porto Alegre",
+    "cat": "verde",
+    "end": "Rua Doutor Salvador França, 1427, Jardim Botânico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Jardim com coleções de plantas nativas e trilhas."
+  }
+]

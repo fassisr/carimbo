@@ -1,0 +1,98 @@
+[
+  {
+    "n": "Baía do Sancho",
+    "cat": "verde",
+    "end": "Parque Nacional Marinho",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Eleita várias vezes a praia mais bonita do mundo, acessada por escada na rocha."
+  },
+  {
+    "n": "Baía dos Porcos",
+    "cat": "verde",
+    "end": "Parque Nacional Marinho",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Pequena enseada com piscinas naturais e vista do Morro Dois Irmãos."
+  },
+  {
+    "n": "Mirante dos Golfinhos",
+    "cat": "verde",
+    "end": "Parque Nacional Marinho",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Mirante onde se avistam os golfinhos-rotadores pela manhã."
+  },
+  {
+    "n": "Baía do Sueste",
+    "cat": "verde",
+    "end": "Sueste",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Baía de águas calmas para nadar com tartarugas."
+  },
+  {
+    "n": "Praia do Leão",
+    "cat": "verde",
+    "end": "Parque Nacional Marinho",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Praia selvagem de desova das tartarugas marinhas."
+  },
+  {
+    "n": "Praia da Conceição",
+    "cat": "verde",
+    "end": "Vila dos Remédios",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Praia com vista para o Morro do Pico, ótima para o pôr do sol."
+  },
+  {
+    "n": "Praia do Cachorro",
+    "cat": "verde",
+    "end": "Vila dos Remédios",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Pequena praia junto à vila, com piscinas naturais."
+  },
+  {
+    "n": "Mirante do Boldró",
+    "cat": "verde",
+    "end": "Boldró",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Mirante clássico para o pôr do sol com o Morro Dois Irmãos."
+  },
+  {
+    "n": "Forte de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Vila dos Remédios",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Ruínas de forte do século XVIII com vista para as praias do norte."
+  },
+  {
+    "n": "Igreja de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Vila dos Remédios",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Igreja histórica no centrinho da ilha."
+  },
+  {
+    "n": "Porto de Santo Antônio",
+    "cat": "verde",
+    "end": "Santo Antônio",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Porto da ilha, de onde saem os passeios de barco e mergulho."
+  },
+  {
+    "n": "Bar do Meio",
+    "cat": "bar",
+    "end": "Praia do Meio",
+    "cidade": "Fernando de Noronha",
+    "uf": "PE",
+    "d": "Bar à beira-mar famoso pelo pôr do sol com música."
+  }
+]

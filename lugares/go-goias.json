@@ -1,0 +1,99 @@
+[
+  {
+    "n": "Casa de Cora Coralina",
+    "cat": "cultura",
+    "end": "Rua Dom Cândido, 20, Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Casa da poetisa à beira do Rio Vermelho, hoje museu.",
+    "busca": [
+      "Museu Casa de Cora Coralina"
+    ]
+  },
+  {
+    "n": "Museu das Bandeiras",
+    "cat": "cultura",
+    "end": "Praça Brasil Ramos Caiado, Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Antiga Casa de Câmara e Cadeia do século XVIII."
+  },
+  {
+    "n": "Chafariz de Cauda",
+    "cat": "cultura",
+    "end": "Largo do Chafariz, Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Chafariz colonial de 1778 em frente ao Museu das Bandeiras."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Boa Morte",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Igreja que abriga o Museu de Arte Sacra com obras de Veiga Valle.",
+    "busca": [
+      "Museu de Arte Sacra da Boa Morte"
+    ]
+  },
+  {
+    "n": "Igreja de São Francisco de Paula",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Igreja do século XVIII no alto de uma escadaria, com vista para o casario."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Igreja neogótica que se destaca no cenário colonial."
+  },
+  {
+    "n": "Palácio Conde dos Arcos",
+    "cat": "cultura",
+    "end": "Praça do Coreto, Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Antiga sede do governo da capitania, hoje museu."
+  },
+  {
+    "n": "Cruz do Anhanguera",
+    "cat": "cultura",
+    "end": "Margem do Rio Vermelho, Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Marco que lembra a chegada do bandeirante Anhanguera."
+  },
+  {
+    "n": "Mercado Municipal da Cidade de Goiás",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Mercado para provar empadão e levar alfenim e doces cristalizados.",
+    "busca": [
+      "Mercado Municipal de Goiás"
+    ]
+  },
+  {
+    "n": "Cachoeira das Andorinhas",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Cachoeira próxima à cidade, cercada por mata e pedras."
+  },
+  {
+    "n": "Parque Estadual da Serra Dourada",
+    "cat": "verde",
+    "end": "Serra Dourada",
+    "cidade": "Goiás",
+    "uf": "GO",
+    "d": "Serra de areias coloridas e paisagens de cerrado."
+  }
+]

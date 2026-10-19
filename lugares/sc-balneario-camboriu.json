@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Cristo Luz",
+    "cat": "cultura",
+    "end": "Rua Indonésia, Nações",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Estátua do Cristo com 33 metros e vista para a cidade iluminada à noite."
+  },
+  {
+    "n": "Parque Unipraias",
+    "cat": "verde",
+    "end": "Avenida Atlântica, Barra Sul",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Bondinho que liga a Praia Central à Praia de Laranjeiras pela mata.",
+    "busca": [
+      "Unipraias"
+    ]
+  },
+  {
+    "n": "Praia Central de Balneário Camboriú",
+    "cat": "verde",
+    "end": "Avenida Atlântica, Centro",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "A praia dos arranha-céus, com faixa de areia alargada e calçadão.",
+    "busca": [
+      "Praia Central"
+    ]
+  },
+  {
+    "n": "Praia de Laranjeiras",
+    "cat": "verde",
+    "end": "Laranjeiras",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Praia de águas calmas acessível pelo bondinho ou pela Interpraias."
+  },
+  {
+    "n": "Praia do Estaleiro",
+    "cat": "verde",
+    "end": "Estaleiro",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Praia tranquila de mar azul, cercada pela mata atlântica."
+  },
+  {
+    "n": "Praia do Pinho",
+    "cat": "verde",
+    "end": "Praia do Pinho",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Primeira praia de naturismo oficial do Brasil."
+  },
+  {
+    "n": "Molhe da Barra Sul",
+    "cat": "verde",
+    "end": "Barra Sul",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Passeio sobre o molhe com vista para a cidade e o pôr do sol."
+  },
+  {
+    "n": "Parque Natural Municipal Raimundo Gonçalez Malta",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Área de mata no meio da cidade com trilhas e mirante.",
+    "busca": [
+      "Parque Raimundo Malta"
+    ]
+  },
+  {
+    "n": "Praia dos Amores",
+    "cat": "verde",
+    "end": "Praia dos Amores",
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "d": "Praia de surfe na divisa com Itajaí, cercada de verde."
+  }
+]

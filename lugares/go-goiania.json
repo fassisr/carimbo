@@ -1,0 +1,147 @@
+[
+  {
+    "n": "Praça Cívica",
+    "cat": "verde",
+    "end": "Praça Dr. Pedro Ludovico Teixeira, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Marco zero de Goiânia, cercada de prédios art déco tombados.",
+    "busca": [
+      "Praça Dr. Pedro Ludovico Teixeira"
+    ]
+  },
+  {
+    "n": "Palácio das Esmeraldas",
+    "cat": "cultura",
+    "end": "Praça Cívica, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Sede do governo goiano, um dos marcos do art déco da cidade."
+  },
+  {
+    "n": "Museu Zoroastro Artiaga",
+    "cat": "cultura",
+    "end": "Praça Cívica, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Museu em prédio art déco com acervo sobre a história e a natureza de Goiás."
+  },
+  {
+    "n": "Teatro Goiânia",
+    "cat": "cultura",
+    "end": "Avenida Tocantins, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Teatro art déco dos anos 1940, um dos símbolos da capital."
+  },
+  {
+    "n": "Estação Ferroviária de Goiânia",
+    "cat": "cultura",
+    "end": "Praça do Trabalhador, Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Antiga estação art déco com painéis de Frei Confaloni."
+  },
+  {
+    "n": "Torre do Relógio",
+    "cat": "cultura",
+    "end": "Avenida Goiás, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Relógio art déco no canteiro da Avenida Goiás, cartão-postal do centro."
+  },
+  {
+    "n": "Centro Cultural Oscar Niemeyer",
+    "cat": "cultura",
+    "end": "Avenida Deputado Jamel Cecílio, Jardim Goiás",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Conjunto de Niemeyer com museu, teatro e esplanada para eventos."
+  },
+  {
+    "n": "Catedral Metropolitana de Goiânia",
+    "cat": "cultura",
+    "end": "Rua 10, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Catedral do centro com belos vitrais e painéis de Frei Nazareno Confaloni."
+  },
+  {
+    "n": "Parque Vaca Brava",
+    "cat": "verde",
+    "end": "Setor Bueno",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque com lago no meio dos prédios, ponto de encontro dos goianienses."
+  },
+  {
+    "n": "Bosque dos Buritis",
+    "cat": "verde",
+    "end": "Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Bosque centenário de buritis com lagos, ao lado da Assembleia."
+  },
+  {
+    "n": "Parque Flamboyant",
+    "cat": "verde",
+    "end": "Jardim Goiás",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque com lagos e pista de caminhada cercado de prédios."
+  },
+  {
+    "n": "Lago das Rosas",
+    "cat": "verde",
+    "end": "Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque tradicional com lago e o zoológico da cidade ao lado.",
+    "busca": [
+      "Parque Lago das Rosas"
+    ]
+  },
+  {
+    "n": "Feira Hippie",
+    "cat": "cultura",
+    "end": "Praça do Trabalhador, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Uma das maiores feiras ao ar livre da América Latina, todo domingo."
+  },
+  {
+    "n": "Mercado Central de Goiânia",
+    "cat": "comida",
+    "end": "Rua 3, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Mercado tradicional onde se come o empadão goiano e se compram pequi e doces."
+  },
+  {
+    "n": "Mercado Popular da 74",
+    "cat": "comida",
+    "end": "Rua 74, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Mercado querido para comer pamonha, empadão e caldos em clima de boteco.",
+    "busca": [
+      "Mercado da 74"
+    ]
+  },
+  {
+    "n": "Feira da Lua",
+    "cat": "comida",
+    "end": "Praça Tamandaré, Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Feira noturna de sábado com artesanato e muita comida típica."
+  },
+  {
+    "n": "Piquiras",
+    "cat": "comida",
+    "end": "Setor Marista",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Restaurante clássico de comida goiana, com pequi, galinhada e doces caseiros."
+  }
+]
