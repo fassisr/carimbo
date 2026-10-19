@@ -8,4 +8,4 @@ Crie aqui um arquivo `.json` por cidade (por exemplo `sp-sao-paulo.json`) com a 
 ]
 ```
 
-Categorias: `cafe`, `bar`, `doce`, `verde`, `cultura`. Ao salvar, o GitHub acha a posição de cada lugar e atualiza o mapa do app sozinho.
+Categorias: `cafe`, `bar`, `doce`, `verde`, `cultura`, `comida`. Ao salvar, o GitHub acha a posição de cada lugar e atualiza o mapa do app sozinho.

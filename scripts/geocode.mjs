@@ -46,7 +46,9 @@ async function photon(q) {
       address: { road: f.properties.street, house_number: f.properties.housenumber, city: f.properties.city || f.properties.county, state: f.properties.state } }));
   } catch { return []; }
 }
-const UFS = { RJ: 'rio de janeiro', ES: 'espirito santo', SP: 'sao paulo', MG: 'minas gerais' };
+const UFS = { RJ: 'rio de janeiro', ES: 'espirito santo', SP: 'sao paulo', MG: 'minas gerais', PR: 'parana', SC: 'santa catarina', RS: 'rio grande do sul',
+  BA: 'bahia', SE: 'sergipe', AL: 'alagoas', PE: 'pernambuco', PB: 'paraiba', RN: 'rio grande do norte', CE: 'ceara', PI: 'piaui', MA: 'maranhao',
+  DF: 'distrito federal', GO: 'goias', MT: 'mato grosso', MS: 'mato grosso do sul', AM: 'amazonas', PA: 'para', TO: 'tocantins', RO: 'rondonia', AC: 'acre', AP: 'amapa', RR: 'roraima' };
 // o resultado precisa estar na cidade (ou ao menos no estado) certo
 function inPlace(r, p) {
   const a = r.address || {};

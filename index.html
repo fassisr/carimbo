@@ -1094,6 +1094,7 @@ window.addEventListener('avatar3d-ready', () => {
   window.avatar3d.setHeading(heading);
 });
 const markers = new Map();
+const MAX_PINS = 300;
 
 function pinHTML(p, cls) {
   const coin = p.logo ? `<img src="${esc(p.logo)}" alt="" loading="lazy">` : ic(p.cat);
@@ -1105,10 +1106,12 @@ function pinHTML(p, cls) {
 function pinClass(p) { return 'stop' + (p.dest ? ' dest' : '') + (p.logo ? ' logo' : '') + (st.visits[p.id] ? ' visited' : '') + (dist(p) <= reach() ? ' inrange' : ''); }
 function syncMarkers() {
   if (!map) return;
+  // só desenha as paradas mais próximas (os destaques cobrem o Brasil todo e a busca traz centenas por bairro)
+  const keep = new Set([...places.values()].filter(p => shown(p) && (!me || dist(p) <= 5000))
+    .sort((a, b) => (me ? dist(a) - dist(b) : 0)).slice(0, MAX_PINS).map(p => p.id));
   for (const p of places.values()) {
     let m = markers.get(p.id);
-    // só desenha paradas por perto (os destaques cobrem o Brasil todo)
-    if ((me && dist(p) > 5000) || !shown(p)) { if (m) { m.remove(); markers.delete(p.id); } continue; }
+    if (!keep.has(p.id)) { if (m) { m.remove(); markers.delete(p.id); } continue; }
     const cls = pinClass(p);
     if (!m) {
       const el = document.createElement('button');
@@ -1162,13 +1165,15 @@ function useFallback(why) {
 
 // lugares reais do OpenStreetMap
 function categorize(t) {
-  const a = t.amenity, s = t.shop, tr = t.tourism, l = t.leisure;
-  if (a === 'cafe') return 'cafe';
-  if (a === 'restaurant') return 'comida';
-  if (a === 'bar' || a === 'pub' || a === 'biergarten') return 'bar';
+  const a = t.amenity, s = t.shop, tr = t.tourism, l = t.leisure, h = t.historic;
+  if (a === 'cafe' || s === 'coffee') return 'cafe';
+  if (a === 'restaurant' || a === 'food_court' || a === 'fast_food' && t.cuisine && !/burger|pizza|sandwich|chicken/.test(t.cuisine) && !t.brand) return 'comida';
+  if (a === 'bar' || a === 'pub' || a === 'biergarten' || a === 'nightclub' || s === 'beverages' && /cerve|chope|beer/i.test(t.name || '')) return 'bar';
   if (a === 'ice_cream' || ['bakery', 'confectionery', 'pastry', 'chocolate'].includes(s)) return 'doce';
-  if (l === 'park' || tr === 'viewpoint' || t.natural === 'beach') return 'verde';
-  if (['cinema', 'theatre', 'library', 'arts_centre'].includes(a) || ['books', 'music'].includes(s) || ['museum', 'gallery'].includes(tr)) return 'cultura';
+  if (['park', 'garden', 'nature_reserve'].includes(l) || ['viewpoint', 'zoo', 'theme_park', 'picnic_site'].includes(tr) || ['beach', 'waterfall', 'peak'].includes(t.natural) || t.place === 'square' || t.waterway === 'waterfall') return 'verde';
+  if (['cinema', 'theatre', 'library', 'arts_centre', 'community_centre', 'marketplace'].includes(a) || ['books', 'music'].includes(s) || ['museum', 'gallery', 'aquarium', 'artwork', 'attraction'].includes(tr)
+    || ['monument', 'memorial', 'castle', 'fort', 'ruins', 'church', 'building', 'manor', 'archaeological_site'].includes(h) || a === 'place_of_worship' && (h || t.heritage || t.wikidata || t.tourism)) return 'cultura';
+  if (l === 'stadium' || l === 'sports_centre' && t.wikidata) return 'verde';
   return null;
 }
 async function loadPlaces() {
@@ -1176,16 +1181,21 @@ async function loadPlaces() {
   fetching = true; lastTry = Date.now(); clearTimeout(retryT);
   const c = { lat: me.lat, lng: me.lng };
   const ar = `(around:${RADIUS_FETCH},${c.lat.toFixed(5)},${c.lng.toFixed(5)})`;
-  const q = `[out:json][timeout:20];(
-    nwr${ar}["amenity"~"^(cafe|bar|pub|biergarten|ice_cream|cinema|theatre|library|arts_centre)$"]["name"];
-    nwr${ar}["shop"~"^(bakery|confectionery|pastry|chocolate|books|music)$"]["name"];
-    nwr${ar}["tourism"~"^(museum|gallery|viewpoint)$"]["name"];
-    nwr${ar}["leisure"="park"]["name"];
-    nwr${ar}["natural"="beach"]["name"];
-    nwr${ar}["amenity"="restaurant"]["name"];
-  );out center 700;`;
+  const q = `[out:json][timeout:25];(
+    nwr${ar}["amenity"~"^(cafe|bar|pub|biergarten|nightclub|ice_cream|cinema|theatre|library|arts_centre|marketplace|restaurant|food_court|fast_food)$"]["name"];
+    nwr${ar}["shop"~"^(bakery|confectionery|pastry|chocolate|coffee|books|music)$"]["name"];
+    nwr${ar}["tourism"~"^(museum|gallery|viewpoint|zoo|aquarium|theme_park|attraction|artwork|picnic_site)$"]["name"];
+    nwr${ar}["leisure"~"^(park|garden|nature_reserve|stadium)$"]["name"];
+    nwr${ar}["natural"~"^(beach|waterfall|peak)$"]["name"];
+    nwr${ar}["historic"~"^(monument|memorial|castle|fort|ruins|church|building|manor|archaeological_site)$"]["name"];
+    nwr${ar}["amenity"="place_of_worship"]["name"]["historic"];
+    nwr${ar}["amenity"="place_of_worship"]["name"]["heritage"];
+    nwr${ar}["amenity"="community_centre"]["name"]["wikidata"];
+    nwr${ar}["place"="square"]["name"];
+  );out center 1500;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
-  const ck = `places2:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
+  const ck = `places3:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
+  try { for (const k of Object.keys(localStorage)) if (k.startsWith('places2:')) localStorage.removeItem(k); } catch (e) {}
   let data = null;
   try { const hit = JSON.parse(localStorage.getItem(ck)); if (hit && Date.now() - hit.t < 864e5) data = hit.d; } catch (e) {}
   if (!data) {
@@ -1217,7 +1227,7 @@ async function loadPlaces() {
     if (dupOfDest(lat, lng, t.name)) continue;
     const id = el.type[0] + el.id;
     if (!places.has(id)) n++;
-    places.set(id, { id, n: t.name, cat, kind: t.amenity || t.shop || t.tourism || t.leisure || t.natural || '', lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
+    places.set(id, { id, n: t.name, cat, kind: t.amenity || t.shop || t.tourism || t.leisure || t.natural || t.historic || t.place || '', lat, lng, city: t['addr:city'] || t['addr:suburb'] || '',
       addr: [t['addr:street'], t['addr:housenumber']].filter(Boolean).join(', '), hours: t.opening_hours || '' });
   }
   updateWhere();
