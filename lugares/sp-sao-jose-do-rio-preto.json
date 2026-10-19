@@ -1,0 +1,43 @@
+[
+  {
+    "n": "Represa Municipal",
+    "cat": "verde",
+    "end": "Parque da Represa",
+    "cidade": "São José do Rio Preto",
+    "uf": "SP",
+    "d": "Calçadão à beira da represa, o passeio favorito da cidade.",
+    "busca": [
+      "Represa Municipal de Rio Preto"
+    ]
+  },
+  {
+    "n": "Catedral de São José",
+    "cat": "cultura",
+    "end": "Praça Dom José Marcondes, Centro",
+    "cidade": "São José do Rio Preto",
+    "uf": "SP",
+    "d": "Catedral do padroeiro no centro da cidade.",
+    "busca": [
+      "Catedral de Rio Preto"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de São José do Rio Preto",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "São José do Rio Preto",
+    "uf": "SP",
+    "d": "Mercadão com pastéis, temperos e produtos regionais.",
+    "busca": [
+      "Mercadão de Rio Preto"
+    ]
+  },
+  {
+    "n": "Sesc Rio Preto",
+    "cat": "cultura",
+    "end": "Avenida Francisco das Chagas Oliveira, 1333, Chácara Municipal",
+    "cidade": "São José do Rio Preto",
+    "uf": "SP",
+    "d": "Shows, exposições e lazer numa das maiores unidades do interior."
+  }
+]

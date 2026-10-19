@@ -1,0 +1,82 @@
+[
+  {
+    "n": "Igreja de Nossa Senhora do Bom Despacho",
+    "cat": "cultura",
+    "end": "Morro do Seminário, Prainha",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Igreja neogótica no alto do morro, inspirada em Notre-Dame."
+  },
+  {
+    "n": "Museu de Arte Sacra de Mato Grosso",
+    "cat": "cultura",
+    "end": "Morro do Seminário, Prainha",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Museu no antigo seminário, ao lado da Igreja do Bom Despacho."
+  },
+  {
+    "n": "Palácio Alencastro",
+    "cat": "cultura",
+    "end": "Praça Alencastro, Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Sede da prefeitura de Cuiabá, em frente à praça central."
+  },
+  {
+    "n": "Praça Alencastro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Praça arborizada do centro, ponto de encontro dos cuiabanos."
+  },
+  {
+    "n": "Praça da República",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Praça diante da catedral, com quiosques e sombra."
+  },
+  {
+    "n": "Museu Rondon de Etnologia e Arqueologia",
+    "cat": "cultura",
+    "end": "UFMT, Boa Esperança",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Museu da UFMT com acervo dos povos indígenas de Mato Grosso."
+  },
+  {
+    "n": "Zoológico da UFMT",
+    "cat": "verde",
+    "end": "UFMT, Boa Esperança",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Zoológico gratuito com animais do Pantanal e do cerrado."
+  },
+  {
+    "n": "Parque das Águas",
+    "cat": "verde",
+    "end": "Centro Político Administrativo",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Parque com lagos, chafarizes e pista de caminhada."
+  },
+  {
+    "n": "Aquário Municipal de Cuiabá",
+    "cat": "cultura",
+    "end": "Orla do Porto",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Aquário com peixes do Pantanal e do rio Cuiabá."
+  },
+  {
+    "n": "Cine Teatro Cuiabá",
+    "cat": "cultura",
+    "end": "Avenida Getúlio Vargas, Centro",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "d": "Cine teatro art déco restaurado, palco da cultura cuiabana."
+  }
+]

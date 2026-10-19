@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Catedral do Divino Espírito Santo",
+    "cat": "cultura",
+    "end": "Praça da Catedral, Centro",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Catedral moderna que é o cartão-postal do centro de Divinópolis."
+  },
+  {
+    "n": "Santuário de Santo Antônio",
+    "cat": "cultura",
+    "end": "Divinópolis",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Santuário de grande devoção, ponto de romarias da cidade."
+  },
+  {
+    "n": "Mercado Central de Divinópolis",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Mercado com queijos, doces e comidinhas mineiras de balcão."
+  },
+  {
+    "n": "Parque da Ilha",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Ilha no rio Itapecerica transformada em parque para caminhar e relaxar."
+  },
+  {
+    "n": "Teatro Municipal Usina Gravatá",
+    "cat": "cultura",
+    "end": "Divinópolis",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Antiga usina transformada em teatro, palco da cultura da cidade."
+  },
+  {
+    "n": "Museu Histórico de Divinópolis",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "d": "Acervo sobre a origem ferroviária e a história da cidade."
+  }
+]

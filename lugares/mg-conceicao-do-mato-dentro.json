@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Cachoeira do Tabuleiro",
+    "cat": "verde",
+    "end": "Distrito de Tabuleiro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "A maior cachoeira de Minas, com 273 metros de queda livre.",
+    "busca": [
+      "Parque Natural Municipal do Tabuleiro"
+    ]
+  },
+  {
+    "n": "Mirante da Cachoeira do Tabuleiro",
+    "cat": "verde",
+    "end": "Distrito de Tabuleiro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Mirante com vista frontal da imensa queda do Tabuleiro."
+  },
+  {
+    "n": "Parque Estadual Serra do Intendente",
+    "cat": "verde",
+    "end": "Conceição do Mato Dentro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Serra de campos rupestres e trilhas na porta da Serra do Espinhaço."
+  },
+  {
+    "n": "Santuário do Bom Jesus do Matozinhos",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Santuário que recebe o tradicional Jubileu, uma das festas religiosas mais antigas de Minas."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Matriz colonial da cidade, com interior barroco preservado."
+  },
+  {
+    "n": "Cachoeira Rabo de Cavalo",
+    "cat": "verde",
+    "end": "Conceição do Mato Dentro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Cachoeira em forma de rabo de cavalo, com poço para banho."
+  },
+  {
+    "n": "Capela de Nossa Senhora do Rosário dos Pretos",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Capela colonial ligada às irmandades negras, joia do centro histórico."
+  },
+  {
+    "n": "Cachoeira Três Barras",
+    "cat": "verde",
+    "end": "Conceição do Mato Dentro",
+    "cidade": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "d": "Cachoeira em três quedas com piscinas naturais de águas claras."
+  }
+]

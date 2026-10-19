@@ -1,0 +1,32 @@
+[
+  {
+    "n": "Catedral de São Bento",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Araraquara",
+    "uf": "SP",
+    "d": "Catedral da Morada do Sol, no centro da cidade.",
+    "busca": [
+      "Catedral de Araraquara"
+    ]
+  },
+  {
+    "n": "Teatro Municipal de Araraquara",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Araraquara",
+    "uf": "SP",
+    "d": "Principal palco da cidade, com espetáculos e festivais."
+  },
+  {
+    "n": "Museu Ferroviário Francisco Aureliano de Araújo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Araraquara",
+    "uf": "SP",
+    "d": "Guarda a memória da ferrovia que fez a cidade crescer.",
+    "busca": [
+      "Museu Ferroviário de Araraquara"
+    ]
+  }
+]

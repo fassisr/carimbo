@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Museu da Loucura",
+    "cat": "cultura",
+    "end": "Barbacena",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Museu sobre a história do antigo Hospital Colônia, memória forte e necessária."
+  },
+  {
+    "n": "Basílica de São José Operário",
+    "cat": "cultura",
+    "end": "Barbacena",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Basílica imponente, uma das principais igrejas da cidade."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Piedade",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Matriz colonial da padroeira, marco do centro histórico."
+  },
+  {
+    "n": "Igreja Nossa Senhora da Boa Morte",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Igreja histórica do centro de Barbacena, com bela fachada colonial."
+  },
+  {
+    "n": "Estação Ferroviária de Barbacena",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Antiga estação ferroviária, testemunha dos tempos da estrada de ferro."
+  },
+  {
+    "n": "Praça dos Andradas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Barbacena",
+    "uf": "MG",
+    "d": "Praça central arborizada, ponto de encontro da Cidade das Rosas."
+  }
+]

@@ -1,0 +1,396 @@
+[
+  {
+    "n": "Basílica de Santo Antônio",
+    "cat": "cultura",
+    "end": "Santo Antônio",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Santuário imponente no alto do bairro, com vista para a Baía de Vitória.",
+    "busca": [
+      "Santuário de Santo Antônio"
+    ]
+  },
+  {
+    "n": "Casa Porto das Artes Plásticas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Casarão no porto antigo com exposições de artes visuais capixabas."
+  },
+  {
+    "n": "Centro Cultural Sesc Glória",
+    "cat": "cultura",
+    "end": "Avenida Jerônimo Monteiro, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Antigo Cine Theatro Glória restaurado, com teatro, cinema e exposições.",
+    "busca": [
+      "Sesc Glória",
+      "Theatro Glória"
+    ]
+  },
+  {
+    "n": "Fafi",
+    "cat": "cultura",
+    "end": "Avenida Jerônimo Monteiro, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Escola municipal de teatro e dança em prédio histórico, com espetáculos frequentes.",
+    "busca": [
+      "Escola de Teatro e Dança Fafi"
+    ]
+  },
+  {
+    "n": "Forte São João",
+    "cat": "cultura",
+    "end": "Forte São João",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Ruínas do forte colonial que deu nome ao bairro, à beira da baía.",
+    "busca": [
+      "Fortaleza de São João"
+    ]
+  },
+  {
+    "n": "Galeria Homero Massena",
+    "cat": "cultura",
+    "end": "Rua Pedro Palácios, Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Galeria pública dedicada à arte contemporânea no coração da Cidade Alta."
+  },
+  {
+    "n": "Igreja e Convento de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Conjunto carmelita do período colonial, um dos mais antigos da capital.",
+    "busca": [
+      "Convento do Carmo",
+      "Igreja do Carmo"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Igreja do século 18 erguida por irmandade negra, com escadaria e vista da cidade.",
+    "busca": [
+      "Igreja do Rosário"
+    ]
+  },
+  {
+    "n": "Pedra dos Dois Olhos",
+    "cat": "verde",
+    "end": "Fradinhos",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Mirante no Maciço Central com vista de toda a ilha, início de trilha clássica.",
+    "busca": [
+      "Pedra dos Olhos"
+    ]
+  },
+  {
+    "n": "Píer de Iemanjá",
+    "cat": "verde",
+    "end": "Praia de Camburi",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Píer sobre o mar de Camburi, ótimo para caminhar e ver o pôr do sol."
+  },
+  {
+    "n": "Planetário de Vitória",
+    "cat": "cultura",
+    "end": "Campus da Ufes, Goiabeiras",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Sessões de cúpula e astronomia para todas as idades dentro da Ufes."
+  },
+  {
+    "n": "Praça da Ciência",
+    "cat": "verde",
+    "end": "Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça com experimentos interativos de física ao ar livre, ótima para crianças."
+  },
+  {
+    "n": "Parque Botânico Vale",
+    "cat": "verde",
+    "end": "Avenida dos Expedicionários, Jardim Camburi",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Parque com viveiro, trilhas e jardins temáticos aberto ao público.",
+    "busca": [
+      "Parque da Vale"
+    ]
+  },
+  {
+    "n": "Horto de Maruípe",
+    "cat": "verde",
+    "end": "Avenida Maruípe, Maruípe",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Área verde arborizada com lagos e pistas de caminhada no meio da cidade.",
+    "busca": [
+      "Parque Horto de Maruípe"
+    ]
+  },
+  {
+    "n": "Parque Municipal Manolo Cabral",
+    "cat": "verde",
+    "end": "Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Parque de bairro com quadras e área verde, conhecido como Parque da Petrobras.",
+    "busca": [
+      "Parque da Petrobras"
+    ]
+  },
+  {
+    "n": "Parque Padre Alfonso Pastore",
+    "cat": "verde",
+    "end": "Mata da Praia",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Parque arborizado com pista de cooper, lago e espaço para crianças."
+  },
+  {
+    "n": "Centro Ecológico Projeto Caiman",
+    "cat": "verde",
+    "end": "Jardim Camburi",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Área de restinga e lagoa voltada à educação ambiental e ao jacaré-de-papo-amarelo.",
+    "busca": [
+      "Projeto Caiman"
+    ]
+  },
+  {
+    "n": "Teatro Universitário da Ufes",
+    "cat": "cultura",
+    "end": "Campus da Ufes, Goiabeiras",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Teatro do campus com programação de música, dança e artes cênicas.",
+    "busca": [
+      "Teatro da Ufes"
+    ]
+  },
+  {
+    "n": "Teatro Sesi",
+    "cat": "cultura",
+    "end": "Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Teatro com programação variada de peças, shows e espetáculos infantis.",
+    "busca": [
+      "Teatro do Sesi"
+    ]
+  },
+  {
+    "n": "Viaduto Caramuru",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Viaduto histórico de 1925 que liga a Cidade Alta ao Parque Moscoso."
+  },
+  {
+    "n": "Sambão do Povo",
+    "cat": "cultura",
+    "end": "Mário Cypreste",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Sambódromo de Vitória, palco dos desfiles das escolas de samba capixabas."
+  },
+  {
+    "n": "Ilha do Frade",
+    "cat": "verde",
+    "end": "Ilha do Frade",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Ilha residencial com orla tranquila, pedras e vista para a Terceira Ponte."
+  },
+  {
+    "n": "Praça Oito de Setembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça histórica do centro, marco da fundação de Vitória."
+  },
+  {
+    "n": "Praça Getúlio Vargas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça junto ao porto, cercada de prédios históricos do centro."
+  },
+  {
+    "n": "Praça João Clímaco",
+    "cat": "verde",
+    "end": "Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Praça em frente ao Palácio Anchieta, coração da Cidade Alta."
+  },
+  {
+    "n": "Escadaria Maria Ortiz",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Escadaria que homenageia a heroína que enfrentou os holandeses em 1625."
+  },
+  {
+    "n": "Terceira Ponte",
+    "cat": "cultura",
+    "end": "Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Cartão-postal que liga Vitória a Vila Velha, com vista do Convento da Penha.",
+    "busca": [
+      "Ponte Deputado Darcy Castello de Mendonça"
+    ]
+  },
+  {
+    "n": "Ceará Bar",
+    "cat": "bar",
+    "end": "Avenida Paulino Muller, 916, Jucutuquara",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Boteco famoso pelo pastel, incluindo o clássico de siri."
+  },
+  {
+    "n": "Bar do Pezão",
+    "cat": "bar",
+    "end": "Avenida Anísio Fernandes Coelho, 1141, Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Boteco querido de Jardim da Penha, conhecido pelo torresmo."
+  },
+  {
+    "n": "Bar Abertura",
+    "cat": "bar",
+    "end": "Avenida Anísio Fernandes Coelho, 89, Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Bar tradicional que popularizou o kiéber, petisco símbolo de Vitória."
+  },
+  {
+    "n": "Kapo's",
+    "cat": "comida",
+    "end": "Rua Joaquim Lírio, 130, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Lanchonete clássica famosa pela maionese caseira dos sanduíches."
+  },
+  {
+    "n": "Juninho Pão de Queijo",
+    "cat": "comida",
+    "end": "Rua Eugenílio Ramos, 44, Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Lanchonete conhecida pelas coxinhas de frango e de camarão."
+  },
+  {
+    "n": "Quiosque do Alemão",
+    "cat": "comida",
+    "end": "Curva da Jurema, Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Quiosque pé na areia famoso pelo arroz de polvo com camarão."
+  },
+  {
+    "n": "Spetacollo",
+    "cat": "comida",
+    "end": "Avenida Rio Branco, 676, Santa Lúcia",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante conhecido pela feijoada caprichada."
+  },
+  {
+    "n": "Restaurante Caieiras",
+    "cat": "comida",
+    "end": "Rua Felicidade Corrêa dos Santos, 968, Ilha das Caieiras",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Frutos do mar e torta capixaba à beira do manguezal.",
+    "busca": [
+      "Caieiras"
+    ]
+  },
+  {
+    "n": "Enseada Geraldinho",
+    "cat": "comida",
+    "end": "Rua Aleixo Netto, 1603, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante tradicional de moqueca capixaba bem recomendado por chefs locais."
+  },
+  {
+    "n": "Restaurante São Pedro",
+    "cat": "comida",
+    "end": "Rua Desembargador Ferreira Coelho, 98, Praia do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Moqueca tradicional no bairro dos pescadores da Praia do Suá."
+  },
+  {
+    "n": "Alas",
+    "cat": "comida",
+    "end": "Rua da Grécia, 228, Santa Luíza",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante com vista para a baía e cardápio de frutos do mar."
+  },
+  {
+    "n": "Canto do Vinho",
+    "cat": "bar",
+    "end": "Rua Aleixo Netto, 1702, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Bar de vinhos com mesas ao ar livre na Praia do Canto."
+  },
+  {
+    "n": "Épico Beach Bar",
+    "cat": "bar",
+    "end": "Curva da Jurema, Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Bar de praia com drinques e pôr do sol na Curva da Jurema."
+  },
+  {
+    "n": "Coffeetown",
+    "cat": "cafe",
+    "end": "Rua João da Cruz, 42, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Cafeteria de cafés especiais, ponto de encontro na Praia do Canto."
+  },
+  {
+    "n": "Café Bamboo",
+    "cat": "cafe",
+    "end": "Avenida Rio Branco, 1630, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Café charmoso para um lanche ou brunch na Praia do Canto."
+  },
+  {
+    "n": "Monte Líbano",
+    "cat": "doce",
+    "end": "Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Padaria e confeitaria tradicional capixaba, famosa pelos pães e doces.",
+    "busca": [
+      "Padaria Monte Líbano"
+    ]
+  }
+]

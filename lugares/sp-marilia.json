@@ -1,0 +1,32 @@
+[
+  {
+    "n": "Catedral de São Bento",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Marília",
+    "uf": "SP",
+    "d": "Catedral no centro da capital nacional do alimento.",
+    "busca": [
+      "Catedral de Marília"
+    ]
+  },
+  {
+    "n": "Bosque Municipal Rangel Pietraróia",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Marília",
+    "uf": "SP",
+    "d": "Bosque com mata e animais, refúgio verde da cidade.",
+    "busca": [
+      "Bosque Municipal de Marília"
+    ]
+  },
+  {
+    "n": "Museu de Paleontologia de Marília",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Marília",
+    "uf": "SP",
+    "d": "Fósseis de dinossauros encontrados na própria região."
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Pico do Papagaio",
+    "cat": "verde",
+    "end": "Aiuruoca",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Pico símbolo da cidade, com trilha puxada e vista da Mantiqueira."
+  },
+  {
+    "n": "Vale do Matutu",
+    "cat": "verde",
+    "end": "Aiuruoca",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Vale cercado de serras, com cachoeiras e clima de recolhimento."
+  },
+  {
+    "n": "Cachoeira dos Garcias",
+    "cat": "verde",
+    "end": "Aiuruoca",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Cachoeira larga e de fácil acesso, com poço amplo para banho."
+  },
+  {
+    "n": "Cachoeira das Fadas",
+    "cat": "verde",
+    "end": "Aiuruoca",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Queda delicada em meio à mata, perto do centro."
+  },
+  {
+    "n": "Cachoeira Deus Me Livre",
+    "cat": "verde",
+    "end": "Aiuruoca",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Cachoeira de nome curioso com poços de água cristalina."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Aiuruoca",
+    "uf": "MG",
+    "d": "Matriz histórica no centro da pequena e charmosa Aiuruoca.",
+    "busca": [
+      "Paróquia Nossa Senhora da Conceição"
+    ]
+  }
+]

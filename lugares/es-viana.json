@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Praça central, Centro",
+    "cidade": "Viana",
+    "uf": "ES",
+    "d": "Igreja matriz histórica na praça principal da sede.",
+    "busca": [
+      "Igreja Nossa Senhora da Conceição Viana"
+    ]
+  },
+  {
+    "n": "Estação Ferroviária de Viana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Viana",
+    "uf": "ES",
+    "d": "Antiga estação de trem que hoje funciona como museu."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Ajuda",
+    "cat": "cultura",
+    "end": "Araçatiba",
+    "cidade": "Viana",
+    "uf": "ES",
+    "d": "Igreja jesuíta restaurada no antigo conjunto da Fazenda de Araçatiba.",
+    "busca": [
+      "Centro de Interpretação Fazenda de Araçatiba"
+    ]
+  },
+  {
+    "n": "Ruínas da Igreja de Nossa Senhora de Belém",
+    "cat": "cultura",
+    "end": "Jucu",
+    "cidade": "Viana",
+    "uf": "ES",
+    "d": "Ruínas de igreja colonial em meio à zona rural de Viana."
+  },
+  {
+    "n": "Igreja de São Sebastião",
+    "cat": "cultura",
+    "end": "Pedra Mulata",
+    "cidade": "Viana",
+    "uf": "ES",
+    "d": "Capela histórica da comunidade rural de Pedra Mulata."
+  }
+]

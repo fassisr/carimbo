@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Parque Centenário",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Barra Mansa",
+    "uf": "RJ",
+    "d": "Principal parque urbano de Barra Mansa, com lago e área verde."
+  },
+  {
+    "n": "Igreja Matriz de São Sebastião",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barra Mansa",
+    "uf": "RJ",
+    "d": "Matriz histórica do padroeiro, no centro da cidade."
+  },
+  {
+    "n": "Palácio Barão de Guapy",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barra Mansa",
+    "uf": "RJ",
+    "d": "Casarão histórico do século XIX ligado ao Barão de Guapy."
+  }
+]

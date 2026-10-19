@@ -1,0 +1,32 @@
+[
+  {
+    "n": "Parque do Povo",
+    "cat": "verde",
+    "end": "Parque do Povo",
+    "cidade": "Presidente Prudente",
+    "uf": "SP",
+    "d": "Grande parque linear com pistas de caminhada, o coração do lazer na cidade."
+  },
+  {
+    "n": "Catedral São Sebastião",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Presidente Prudente",
+    "uf": "SP",
+    "d": "Catedral do padroeiro no centro de Prudente.",
+    "busca": [
+      "Catedral de Presidente Prudente"
+    ]
+  },
+  {
+    "n": "Sesc Thermas",
+    "cat": "cultura",
+    "end": "Vila Euclides",
+    "cidade": "Presidente Prudente",
+    "uf": "SP",
+    "d": "Unidade do Sesc com piscinas, teatro e programação cultural.",
+    "busca": [
+      "Sesc Thermas Presidente Prudente"
+    ]
+  }
+]

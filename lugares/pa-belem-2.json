@@ -1,0 +1,215 @@
+[
+  {
+    "n": "Igreja de Santo Alexandre",
+    "cat": "cultura",
+    "end": "Praça Frei Caetano Brandão, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Igreja jesuíta que abriga o Museu de Arte Sacra do Pará.",
+    "busca": [
+      "Museu de Arte Sacra do Pará"
+    ]
+  },
+  {
+    "n": "Palácio Antônio Lemos",
+    "cat": "cultura",
+    "end": "Praça Dom Pedro II, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Palácio da prefeitura que abriga o Museu de Arte de Belém.",
+    "busca": [
+      "Museu de Arte de Belém"
+    ]
+  },
+  {
+    "n": "Palácio Lauro Sodré",
+    "cat": "cultura",
+    "end": "Praça Dom Pedro II, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Antigo palácio do governo, hoje Museu do Estado do Pará.",
+    "busca": [
+      "Museu do Estado do Pará"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora das Mercês",
+    "cat": "cultura",
+    "end": "Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Igreja barroca do século XVIII projetada por Antonio Landi."
+  },
+  {
+    "n": "Igreja de Sant'Ana",
+    "cat": "cultura",
+    "end": "Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Igreja de Landi com cúpula marcante no bairro da Campina."
+  },
+  {
+    "n": "Igreja de São João Batista",
+    "cat": "cultura",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Pequena igreja octogonal de Landi, com pinturas internas restauradas."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Igreja colonial com fachada de pedra trazida de Portugal."
+  },
+  {
+    "n": "Mercado de Carne Francisco Bolonha",
+    "cat": "cultura",
+    "end": "Ver-o-Peso, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Mercado de ferro de 1867 dentro do complexo do Ver-o-Peso.",
+    "busca": [
+      "Mercado de Carne"
+    ]
+  },
+  {
+    "n": "Solar da Beira",
+    "cat": "cultura",
+    "end": "Ver-o-Peso, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Prédio histórico de frente para a baía do Guajará, no Ver-o-Peso."
+  },
+  {
+    "n": "Teatro Waldemar Henrique",
+    "cat": "cultura",
+    "end": "Praça da República, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Teatro intimista ao lado do Theatro da Paz, com artistas paraenses."
+  },
+  {
+    "n": "Centur",
+    "cat": "cultura",
+    "end": "Avenida Gentil Bittencourt, 650, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Centro cultural com biblioteca pública, teatro e cinema.",
+    "busca": [
+      "Fundação Cultural do Pará"
+    ]
+  },
+  {
+    "n": "Espaço São José Liberto",
+    "cat": "cultura",
+    "end": "Praça Amazonas, Jurunas",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Antigo presídio transformado em polo joalheiro e museu de gemas.",
+    "busca": [
+      "Polo Joalheiro"
+    ]
+  },
+  {
+    "n": "Cemitério da Soledade",
+    "cat": "cultura",
+    "end": "Batista Campos",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Cemitério do século XIX com túmulos escultóricos e muita história."
+  },
+  {
+    "n": "Praça Batista Campos",
+    "cat": "verde",
+    "end": "Batista Campos",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Praça romântica com coretos, lagos e pontes de ferro."
+  },
+  {
+    "n": "Parque da Residência",
+    "cat": "verde",
+    "end": "São Brás",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Antiga residência dos governadores, com jardim, orquidário e restaurante."
+  },
+  {
+    "n": "Ver-o-Rio",
+    "cat": "verde",
+    "end": "Umarizal",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Orla de lazer à beira da baía do Guajará, boa para ver o pôr do sol."
+  },
+  {
+    "n": "Ilha de Cotijuba",
+    "cat": "verde",
+    "end": "Ilha de Cotijuba",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Ilha sem carros com praias de rio, a uma travessia de barco de Belém."
+  },
+  {
+    "n": "Ilha de Mosqueiro",
+    "cat": "verde",
+    "end": "Mosqueiro",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Distrito de Belém com praias de água doce e casarões antigos.",
+    "busca": [
+      "Mosqueiro"
+    ]
+  },
+  {
+    "n": "Restaurante Lá em Casa",
+    "cat": "comida",
+    "end": "Estação das Docas, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante pioneiro da cozinha paraense, com pato no tucupi e maniçoba."
+  },
+  {
+    "n": "Manjar das Garças",
+    "cat": "comida",
+    "end": "Mangal das Garças, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante dentro do Mangal das Garças, com bufê de comida regional."
+  },
+  {
+    "n": "Boteco das Onze",
+    "cat": "bar",
+    "end": "Casa das Onze Janelas, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Bar com varanda para a baía no complexo da Casa das Onze Janelas."
+  },
+  {
+    "n": "Point do Açaí",
+    "cat": "comida",
+    "end": "Umarizal",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante de comida paraense famoso pelo açaí com peixe frito."
+  },
+  {
+    "n": "Casa do Gilson",
+    "cat": "bar",
+    "end": "Condor",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Bar de choro e samba que recebe músicos paraenses há décadas."
+  },
+  {
+    "n": "Feira do Açaí",
+    "cat": "comida",
+    "end": "Ver-o-Peso, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Feira que movimenta a madrugada com os barcos chegando cheios de açaí."
+  }
+]

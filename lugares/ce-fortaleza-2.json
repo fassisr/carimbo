@@ -1,0 +1,202 @@
+[
+  {
+    "n": "Museu da Indústria",
+    "cat": "cultura",
+    "end": "Rua Dr. João Moreira, 143, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Museu num casarão histórico sobre a industrialização do Ceará."
+  },
+  {
+    "n": "Centro de Turismo de Fortaleza",
+    "cat": "cultura",
+    "end": "Rua Senador Pompeu, 350, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Antiga cadeia pública transformada em mercado de artesanato.",
+    "busca": [
+      "Emcetur",
+      "Antiga Cadeia Pública"
+    ]
+  },
+  {
+    "n": "Praça General Tibúrcio",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praça com leões de bronze e estátua de Rachel de Queiroz.",
+    "busca": [
+      "Praça dos Leões"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Praça General Tibúrcio, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Igreja mais antiga de Fortaleza, erguida no século XVIII."
+  },
+  {
+    "n": "Palácio da Luz",
+    "cat": "cultura",
+    "end": "Praça General Tibúrcio, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Antiga sede do governo, hoje casa da Academia Cearense de Letras."
+  },
+  {
+    "n": "Sobrado Dr. José Lourenço",
+    "cat": "cultura",
+    "end": "Rua Major Facundo, 154, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Primeiro sobrado de Fortaleza, hoje espaço de artes visuais."
+  },
+  {
+    "n": "Museu de Arte da UFC",
+    "cat": "cultura",
+    "end": "Avenida da Universidade, 2854, Benfica",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Museu com xilogravuras, arte popular e obras de artistas cearenses.",
+    "busca": [
+      "MAUC"
+    ]
+  },
+  {
+    "n": "Museu da Fotografia Fortaleza",
+    "cat": "cultura",
+    "end": "Rua Frederico Borges, 545, Varjota",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Acervo de fotografia brasileira e internacional num prédio moderno."
+  },
+  {
+    "n": "Estação das Artes",
+    "cat": "cultura",
+    "end": "Rua 24 de Maio, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Antiga estação ferroviária João Felipe transformada em complexo cultural."
+  },
+  {
+    "n": "Pinacoteca do Ceará",
+    "cat": "cultura",
+    "end": "Rua 24 de Maio, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Pinacoteca estadual dentro do complexo da Estação das Artes."
+  },
+  {
+    "n": "Caixa Cultural Fortaleza",
+    "cat": "cultura",
+    "end": "Avenida Pessoa Anta, 287, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Centro cultural com exposições e teatro em prédio histórico."
+  },
+  {
+    "n": "Biblioteca Pública Estadual do Ceará",
+    "cat": "cultura",
+    "end": "Avenida Presidente Castelo Branco, 255, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Biblioteca moderna com espaços de leitura e eventos."
+  },
+  {
+    "n": "Casa de José de Alencar",
+    "cat": "cultura",
+    "end": "Messejana",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Casa onde nasceu o autor de Iracema, com museu e ruínas de engenho."
+  },
+  {
+    "n": "Ponte Metálica",
+    "cat": "verde",
+    "end": "Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Antiga ponte de desembarque, ótima para ver o pôr do sol.",
+    "busca": [
+      "Ponte Velha"
+    ]
+  },
+  {
+    "n": "Praia de Iracema",
+    "cat": "verde",
+    "end": "Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Bairro boêmio e praia histórica, berço da vida noturna da cidade."
+  },
+  {
+    "n": "Praia do Meireles",
+    "cat": "verde",
+    "end": "Avenida Beira-Mar, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Trecho mais movimentado da orla, com calçadão, jangadas e quiosques."
+  },
+  {
+    "n": "Lagoa de Messejana",
+    "cat": "verde",
+    "end": "Messejana",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Lagoa com a grande estátua de Iracema e calçadão ao redor."
+  },
+  {
+    "n": "Lagoa da Parangaba",
+    "cat": "verde",
+    "end": "Parangaba",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Lagoa urbana com área de lazer e muitas aves."
+  },
+  {
+    "n": "Parque Rio Branco",
+    "cat": "verde",
+    "end": "Joaquim Távora",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Parque arborizado com trilhas no meio da cidade."
+  },
+  {
+    "n": "Praia de Sabiaguaba",
+    "cat": "verde",
+    "end": "Sabiaguaba",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praia de dunas e manguezal, com cara de litoral selvagem."
+  },
+  {
+    "n": "Mercado São Sebastião",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Mercado popular com frutas, carnes e restaurantes de comida regional."
+  },
+  {
+    "n": "Coco Bambu Beira Mar",
+    "cat": "comida",
+    "end": "Avenida Beira-Mar, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Restaurante de frutos do mar nascido em Fortaleza, famoso pelo camarão.",
+    "busca": [
+      "Coco Bambu"
+    ]
+  },
+  {
+    "n": "Santa Clara Café Orgânico",
+    "cat": "cafe",
+    "end": "Centro Dragão do Mar, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Café do Dragão do Mar com grãos orgânicos da serra cearense."
+  }
+]

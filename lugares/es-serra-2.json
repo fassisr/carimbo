@@ -1,0 +1,199 @@
+[
+  {
+    "n": "Praia de Carapebus",
+    "cat": "verde",
+    "end": "Carapebus",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia urbana extensa ao lado da Lagoa de Carapebus."
+  },
+  {
+    "n": "Lagoa de Carapebus",
+    "cat": "verde",
+    "end": "Carapebus",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Lagoa junto à praia, boa para passeio e contemplação."
+  },
+  {
+    "n": "Praia Mole",
+    "cat": "verde",
+    "end": "Carapebus",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia de mar forte cercada de verde, preferida dos surfistas.",
+    "busca": [
+      "Praia Mole Serra"
+    ]
+  },
+  {
+    "n": "Praia de Bicanga",
+    "cat": "verde",
+    "end": "Bicanga",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia tranquila de pescadores na orla norte da Grande Vitória."
+  },
+  {
+    "n": "Praia de Nova Almeida",
+    "cat": "verde",
+    "end": "Nova Almeida",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Orla do vilarejo histórico, com mar calmo e quiosques."
+  },
+  {
+    "n": "Falésias de Nova Almeida",
+    "cat": "verde",
+    "end": "Nova Almeida",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Falésias coloridas onde o Rio Fundão encontra o mar.",
+    "busca": [
+      "Praia das Falésias"
+    ]
+  },
+  {
+    "n": "Lagoa do Juara",
+    "cat": "verde",
+    "end": "Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Lagoa de água escura cercada de verde, boa para passeio de barco.",
+    "busca": [
+      "Lagoa Juara"
+    ]
+  },
+  {
+    "n": "Praia de Capuba",
+    "cat": "verde",
+    "end": "Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia de Jacaraípe com ondas e clima de surf."
+  },
+  {
+    "n": "Ruínas da Igreja de São José do Queimado",
+    "cat": "cultura",
+    "end": "Queimado",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Ruínas da igreja símbolo da Insurreição do Queimado de 1849.",
+    "busca": [
+      "Sítio Histórico do Queimado"
+    ]
+  },
+  {
+    "n": "Museu Histórico da Serra",
+    "cat": "cultura",
+    "end": "Rua Cassiano Castelo, 22, Serra Sede",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Museu que conta a história do município desde a aldeia jesuíta."
+  },
+  {
+    "n": "Santuário de Nossa Senhora das Lágrimas",
+    "cat": "cultura",
+    "end": "Rua Aldari Nunes, 162, São Lourenço",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Santuário conhecido como das Formigas Bordadeiras, local de devoção popular.",
+    "busca": [
+      "Santuário das Formigas Bordadeiras"
+    ]
+  },
+  {
+    "n": "Casa de Pedra",
+    "cat": "cultura",
+    "end": "Rua Nossa Senhora de Lourdes, São Francisco, Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Espaço cultural da Vila das Artes em casa feita de pedras.",
+    "busca": [
+      "Vila das Artes"
+    ]
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Laranjeiras",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Grande parque urbano com lagos, pistas e área de lazer."
+  },
+  {
+    "n": "Jardim Botânico da Serra",
+    "cat": "verde",
+    "end": "Rua dos Estudantes, Serra Sede",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Área verde com trilhas e viveiro aos pés do Mestre Álvaro.",
+    "busca": [
+      "Jardim Botânico Horto da Serra"
+    ]
+  },
+  {
+    "n": "Parque Caminho do Mar",
+    "cat": "verde",
+    "end": "Avenida Meridional, 2129, Cidade Continental",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Parque linear com pistas e áreas verdes a caminho de Bicanga."
+  },
+  {
+    "n": "Quindins de Nova Almeida",
+    "cat": "doce",
+    "end": "Rua Capitão Bley, 920, Nova Almeida",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Quindins artesanais da família Chagas, tradição da vila."
+  },
+  {
+    "n": "Restaurante Ninho da Roxinha",
+    "cat": "comida",
+    "end": "Rua do Limão, 350, São João",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Restaurante em área verde com vista para a baía de Nova Almeida."
+  },
+  {
+    "n": "Espaço Maresias",
+    "cat": "comida",
+    "end": "Avenida Atapoã, 1, Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Moqueca capixaba de frente para o mar de Manguinhos."
+  },
+  {
+    "n": "Enseada de Manguinhos",
+    "cat": "comida",
+    "end": "Avenida Atapoã, 3, Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Restaurante tradicional de moqueca na orla de Manguinhos."
+  },
+  {
+    "n": "Moqueca do Geraldo",
+    "cat": "comida",
+    "end": "Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Endereço clássico da moqueca na vila de Manguinhos."
+  },
+  {
+    "n": "Cabana do Luiz",
+    "cat": "comida",
+    "end": "Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar bem recomendado pela moqueca."
+  },
+  {
+    "n": "Berro d'Água",
+    "cat": "comida",
+    "end": "Avenida Nossa Senhora dos Navegantes, 287, Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Restaurante pé na areia com moqueca de frente para o mar."
+  }
+]

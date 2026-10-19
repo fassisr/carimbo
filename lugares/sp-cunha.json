@@ -1,0 +1,73 @@
+[
+  {
+    "n": "Pedra da Macela",
+    "cat": "verde",
+    "end": "Serra do Mar",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Mirante a mais de 1.800 m com vista para a baía de Paraty."
+  },
+  {
+    "n": "Lavandário",
+    "cat": "verde",
+    "end": "Estrada Cunha-Paraty",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Campos de lavanda com vista da serra, cartão-postal da cidade.",
+    "busca": [
+      "Lavandário Cunha"
+    ]
+  },
+  {
+    "n": "Cachoeira do Pimenta",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Cachoeira de fácil acesso com piscina natural.",
+    "busca": [
+      "Cachoeira das Pimentas"
+    ]
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Matriz setecentista no alto do centro histórico.",
+    "busca": [
+      "Matriz de Cunha"
+    ]
+  },
+  {
+    "n": "Parque Estadual da Serra do Mar Núcleo Cunha",
+    "cat": "verde",
+    "end": "Núcleo Cunha",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Trilhas e cachoeiras em mata atlântica preservada.",
+    "busca": [
+      "Núcleo Cunha"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de Cunha",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Mercado com queijos, pinhão e produtos da roça.",
+    "busca": [
+      "Mercado de Cunha"
+    ]
+  },
+  {
+    "n": "Ateliê Suenaga & Jardineiro",
+    "cat": "cultura",
+    "end": "Cunha",
+    "cidade": "Cunha",
+    "uf": "SP",
+    "d": "Ateliê de cerâmica de alta temperatura em forno noborigama, tradição da cidade."
+  }
+]

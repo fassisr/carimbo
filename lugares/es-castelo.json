@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Gruta do Limoeiro",
+    "cat": "cultura",
+    "end": "Limoeiro",
+    "cidade": "Castelo",
+    "uf": "ES",
+    "d": "Caverna com estalactites e sítio arqueológico pré-histórico."
+  },
+  {
+    "n": "Parque Estadual do Forno Grande",
+    "cat": "verde",
+    "end": "Forno Grande",
+    "cidade": "Castelo",
+    "uf": "ES",
+    "d": "Parque com trilhas e mirantes no pico do Forno Grande."
+  },
+  {
+    "n": "Casarão da Fazenda do Centro",
+    "cat": "cultura",
+    "end": "Fazenda do Centro",
+    "cidade": "Castelo",
+    "uf": "ES",
+    "d": "Casarão de fazenda cafeeira fundada em 1845, aberto à visitação."
+  },
+  {
+    "n": "Cachoeira do Pedregulho",
+    "cat": "verde",
+    "end": "Pedregulho",
+    "cidade": "Castelo",
+    "uf": "ES",
+    "d": "Cachoeira cuidada pela família Furlan, com área de camping.",
+    "busca": [
+      "Cachoeira do Furlan"
+    ]
+  },
+  {
+    "n": "Santuário de Aracuí",
+    "cat": "cultura",
+    "end": "Aracuí",
+    "cidade": "Castelo",
+    "uf": "ES",
+    "d": "Santuário de romaria que recebe milhares de fiéis todos os meses."
+  }
+]

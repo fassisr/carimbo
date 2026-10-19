@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Parque Municipal de Nova Iguaçu",
+    "cat": "verde",
+    "end": "Estrada da Cachoeira, Jardim Iguaçu",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Parque na Serra de Madureira com trilhas, cachoeiras e mirantes.",
+    "busca": [
+      "Parque Natural Municipal de Nova Iguaçu"
+    ]
+  },
+  {
+    "n": "Catedral de Santo Antônio de Jacutinga",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Catedral da diocese de Nova Iguaçu, no centro da cidade."
+  },
+  {
+    "n": "Praça Rui Barbosa",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Praça central de Nova Iguaçu, cheia de movimento."
+  },
+  {
+    "n": "Sesc Nova Iguaçu",
+    "cat": "cultura",
+    "end": "Rua Dom Adriano Hipólito, 10, Moquetá",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Centro cultural e de lazer com teatro e programação variada."
+  },
+  {
+    "n": "Ruínas de Iguassú Velha",
+    "cat": "cultura",
+    "end": "Tinguá",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Ruínas da antiga vila e igreja de Nossa Senhora da Piedade, berço da cidade.",
+    "busca": [
+      "Ruínas da Igreja de Nossa Senhora da Piedade de Iguaçu"
+    ]
+  }
+]

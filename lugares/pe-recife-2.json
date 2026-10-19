@@ -1,0 +1,211 @@
+[
+  {
+    "n": "Embaixada dos Bonecos Gigantes",
+    "cat": "cultura",
+    "end": "Rua do Bom Jesus, 183, Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu com os bonecos gigantes do carnaval de Pernambuco."
+  },
+  {
+    "n": "Torre Malakoff",
+    "cat": "cultura",
+    "end": "Praça do Arsenal da Marinha, Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Torre do século XIX que funciona como observatório e espaço cultural."
+  },
+  {
+    "n": "Praça do Arsenal",
+    "cat": "verde",
+    "end": "Recife Antigo",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Praça histórica do Recife Antigo, palco de shows no carnaval.",
+    "busca": [
+      "Praça do Arsenal da Marinha"
+    ]
+  },
+  {
+    "n": "Igreja Madre de Deus",
+    "cat": "cultura",
+    "end": "Recife Antigo",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Igreja barroca do século XVIII no bairro do Recife."
+  },
+  {
+    "n": "Basílica de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Avenida Dantas Barreto, Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Basílica da padroeira do Recife, com interior barroco."
+  },
+  {
+    "n": "Basílica de Nossa Senhora da Penha",
+    "cat": "cultura",
+    "end": "São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Igreja de cúpula imponente, famosa pela bênção de São Félix às sextas."
+  },
+  {
+    "n": "Pátio de São Pedro",
+    "cat": "cultura",
+    "end": "São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Pátio colonial ao redor da igreja, com bares e eventos culturais."
+  },
+  {
+    "n": "Forte das Cinco Pontas",
+    "cat": "cultura",
+    "end": "São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Forte holandês que abriga o Museu da Cidade do Recife.",
+    "busca": [
+      "Museu da Cidade do Recife"
+    ]
+  },
+  {
+    "n": "Museu do Estado de Pernambuco",
+    "cat": "cultura",
+    "end": "Avenida Rui Barbosa, 960, Graças",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Casarão do século XIX com arte e história pernambucana."
+  },
+  {
+    "n": "Museu de Arte Moderna Aloísio Magalhães",
+    "cat": "cultura",
+    "end": "Rua da Aurora, 265, Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu de arte moderna e contemporânea à beira do Capibaribe.",
+    "busca": [
+      "MAMAM"
+    ]
+  },
+  {
+    "n": "Cinema São Luiz",
+    "cat": "cultura",
+    "end": "Rua da Aurora, 175, Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Cinema de rua de 1952 com vitrais e decoração preservados."
+  },
+  {
+    "n": "Teatro do Parque",
+    "cat": "cultura",
+    "end": "Rua do Hospício, 81, Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Teatro centenário restaurado, com programação popular."
+  },
+  {
+    "n": "Palácio do Campo das Princesas",
+    "cat": "cultura",
+    "end": "Praça da República, Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Sede do governo de Pernambuco, com jardins à beira do rio."
+  },
+  {
+    "n": "Praça da República",
+    "cat": "verde",
+    "end": "Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Praça com baobá e jardins, cercada por palácio, teatro e tribunal."
+  },
+  {
+    "n": "Parque Treze de Maio",
+    "cat": "verde",
+    "end": "Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Parque central arborizado, com lago e pista de caminhada."
+  },
+  {
+    "n": "Praça de Casa Forte",
+    "cat": "verde",
+    "end": "Casa Forte",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Primeiro jardim público projetado por Burle Marx, com plantas aquáticas."
+  },
+  {
+    "n": "Jardim Botânico do Recife",
+    "cat": "verde",
+    "end": "Curado",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Área de mata atlântica com trilhas, orquidário e jardins temáticos."
+  },
+  {
+    "n": "Praia do Pina",
+    "cat": "verde",
+    "end": "Pina",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Praia urbana com piscinas naturais na maré baixa."
+  },
+  {
+    "n": "Rua da Aurora",
+    "cat": "verde",
+    "end": "Boa Vista",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Rua de casarões coloridos à beira do Capibaribe, ótima para caminhar."
+  },
+  {
+    "n": "Museu do Trem",
+    "cat": "cultura",
+    "end": "Estação Central, São José",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Museu ferroviário na antiga Estação Central do Recife."
+  },
+  {
+    "n": "Caixa Cultural Recife",
+    "cat": "cultura",
+    "end": "Avenida Alfredo Lisboa, 505, Recife",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Centro cultural em prédio histórico com exposições gratuitas."
+  },
+  {
+    "n": "Mercado da Encruzilhada",
+    "cat": "comida",
+    "end": "Encruzilhada",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Mercado de bairro com boxes de comida e bares bem animados."
+  },
+  {
+    "n": "Mercado de Casa Amarela",
+    "cat": "comida",
+    "end": "Casa Amarela",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Mercado de ferro do início do século XX, com petiscos e cerveja gelada."
+  },
+  {
+    "n": "Bargaço",
+    "cat": "comida",
+    "end": "Boa Viagem",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Restaurante de frutos do mar e moquecas na orla de Boa Viagem."
+  },
+  {
+    "n": "Bar Biruta",
+    "cat": "bar",
+    "end": "Pina",
+    "cidade": "Recife",
+    "uf": "PE",
+    "d": "Bar à beira-mar no Pina, conhecido pela vista do pôr do sol."
+  }
+]

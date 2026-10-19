@@ -1,0 +1,549 @@
+[
+  {
+    "n": "Museu Catavento",
+    "cat": "cultura",
+    "end": "Avenida Mercúrio, Parque Dom Pedro II, Brás",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu de ciências interativo no belo Palácio das Indústrias, ótimo para todas as idades.",
+    "busca": [
+      "Catavento Cultural e Educacional",
+      "Palácio das Indústrias"
+    ]
+  },
+  {
+    "n": "Sesc Avenida Paulista",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 119, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Exposições, biblioteca e um mirante no último andar com vista da Paulista.",
+    "busca": [
+      "Sesc Paulista"
+    ]
+  },
+  {
+    "n": "Sesc 24 de Maio",
+    "cat": "cultura",
+    "end": "Rua 24 de Maio, 109, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Projeto de Paulo Mendes da Rocha com piscina na cobertura e vista do Centro."
+  },
+  {
+    "n": "Sesc Pinheiros",
+    "cat": "cultura",
+    "end": "Rua Paes Leme, 195, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro, exposições e shows num dos Sescs mais movimentados da zona oeste."
+  },
+  {
+    "n": "Sesc Vila Mariana",
+    "cat": "cultura",
+    "end": "Rua Pelotas, 141, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Programação cultural intensa com teatro, música e exposições."
+  },
+  {
+    "n": "Sesc Belenzinho",
+    "cat": "cultura",
+    "end": "Rua Padre Adelino, 1000, Belém",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga fábrica virou centro cultural e esportivo de referência na zona leste."
+  },
+  {
+    "n": "Sesc Itaquera",
+    "cat": "verde",
+    "end": "Avenida Fernando Espírito Santo Alves de Mattos, 1000, Itaquera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Enorme área verde com parque aquático e atividades ao ar livre na zona leste."
+  },
+  {
+    "n": "Sesc Santana",
+    "cat": "cultura",
+    "end": "Avenida Luiz Dumont Villares, 579, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro e programação variada, ponto de encontro cultural da zona norte."
+  },
+  {
+    "n": "Sesc Interlagos",
+    "cat": "verde",
+    "end": "Avenida Manuel Alves Soares, 1100, Parque Colonial",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande área verde à beira da Guarapiranga, com lagos e trilhas na zona sul."
+  },
+  {
+    "n": "Theatro São Pedro",
+    "cat": "cultura",
+    "end": "Rua Barra Funda, 171, Barra Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro de 1917, casa tradicional de óperas e concertos."
+  },
+  {
+    "n": "Museu de Arte Contemporânea da USP",
+    "cat": "cultura",
+    "end": "Avenida Pedro Álvares Cabral, 1301, Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Acervo de arte moderna e contemporânea e terraço com vista do Ibirapuera.",
+    "busca": [
+      "MAC USP"
+    ]
+  },
+  {
+    "n": "Oca",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "A cúpula branca de Niemeyer recebe grandes exposições no Ibirapuera.",
+    "busca": [
+      "Oca Ibirapuera"
+    ]
+  },
+  {
+    "n": "Estação da Luz",
+    "cat": "cultura",
+    "end": "Praça da Luz, 1, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Estação ferroviária inglesa de 1901, com sua torre do relógio icônica."
+  },
+  {
+    "n": "Edifício Martinelli",
+    "cat": "cultura",
+    "end": "Rua São Bento, 405, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Primeiro arranha-céu da cidade, com terraço de vista panorâmica sobre o Centro."
+  },
+  {
+    "n": "Igreja de São Francisco de Assis",
+    "cat": "cultura",
+    "end": "Largo São Francisco, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Conjunto franciscano colonial ao lado da tradicional Faculdade de Direito.",
+    "busca": [
+      "Igreja de São Francisco"
+    ]
+  },
+  {
+    "n": "Paróquia Nossa Senhora Achiropita",
+    "cat": "cultura",
+    "end": "Rua Treze de Maio, 478, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igreja símbolo do Bixiga italiano, famosa pela festa de agosto.",
+    "busca": [
+      "Igreja Achiropita"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Ó",
+    "cat": "cultura",
+    "end": "Largo da Matriz de Nossa Senhora do Ó, Freguesia do Ó",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Matriz de um dos bairros mais antigos da cidade, no alto do largo.",
+    "busca": [
+      "Matriz da Freguesia do Ó"
+    ]
+  },
+  {
+    "n": "Casa do Bandeirante",
+    "cat": "cultura",
+    "end": "Praça Monteiro Lobato, Butantã",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa de taipa do período bandeirante preservada como museu."
+  },
+  {
+    "n": "Instituto Butantan",
+    "cat": "cultura",
+    "end": "Avenida Vital Brasil, 1500, Butantã",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque e museus sobre serpentes e ciência num instituto centenário."
+  },
+  {
+    "n": "Museu Lasar Segall",
+    "cat": "cultura",
+    "end": "Rua Berta, 111, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga casa e ateliê do pintor modernista, com acervo e cinema."
+  },
+  {
+    "n": "Solar da Marquesa de Santos",
+    "cat": "cultura",
+    "end": "Rua Roberto Simonsen, 136, Sé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Último casarão residencial do século XVIII no Centro Histórico."
+  },
+  {
+    "n": "Galeria do Rock",
+    "cat": "cultura",
+    "end": "Rua 24 de Maio, 62, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Galeria cheia de lojas de discos e cultura alternativa desde os anos 70."
+  },
+  {
+    "n": "Museu da Imagem e do Som",
+    "cat": "cultura",
+    "end": "Avenida Europa, 158, Jardim Europa",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grandes exposições sobre cinema, música e cultura pop.",
+    "busca": [
+      "MIS São Paulo"
+    ]
+  },
+  {
+    "n": "Itaú Cultural",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 149, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Centro cultural gratuito com exposições e acervo de arte brasileira."
+  },
+  {
+    "n": "Museu Judaico de São Paulo",
+    "cat": "cultura",
+    "end": "Rua Martinho Prado, 128, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu instalado em antiga sinagoga que conta a história judaica no Brasil."
+  },
+  {
+    "n": "Centro Cultural da Juventude Ruth Cardoso",
+    "cat": "cultura",
+    "end": "Avenida Deputado Emílio Carlos, 3641, Vila Nova Cachoeirinha",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande centro cultural da zona norte com biblioteca, teatro e oficinas.",
+    "busca": [
+      "CCJ Ruth Cardoso"
+    ]
+  },
+  {
+    "n": "Conjunto Nacional",
+    "cat": "cultura",
+    "end": "Avenida Paulista, 2073, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Edifício modernista clássico da Paulista, com galeria, cinema e livrarias."
+  },
+  {
+    "n": "Capela do Morumbi",
+    "cat": "cultura",
+    "end": "Avenida Morumbi, 5387, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Capela de taipa de pilão que recebe instalações de arte."
+  },
+  {
+    "n": "Parque do Carmo",
+    "cat": "verde",
+    "end": "Avenida Afonso de Sampaio e Sousa, 951, Itaquera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Um dos maiores parques da cidade, famoso pelas cerejeiras na zona leste.",
+    "busca": [
+      "Parque do Carmo Olavo Egydio Setúbal"
+    ]
+  },
+  {
+    "n": "Parque Ecológico do Tietê",
+    "cat": "verde",
+    "end": "Rua Guirá Acangatara, 70, Engenheiro Goulart",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Imensa área verde às margens do Tietê com lagos e ciclovias."
+  },
+  {
+    "n": "Horto Florestal",
+    "cat": "verde",
+    "end": "Rua do Horto, 931, Tremembé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque estadual com lagos e mata na entrada da Serra da Cantareira.",
+    "busca": [
+      "Parque Estadual Alberto Löfgren"
+    ]
+  },
+  {
+    "n": "Pedra Grande",
+    "cat": "verde",
+    "end": "Parque Estadual da Cantareira, Tremembé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mirante de rocha com uma das vistas mais amplas da cidade.",
+    "busca": [
+      "Núcleo Pedra Grande",
+      "Parque Estadual da Cantareira"
+    ]
+  },
+  {
+    "n": "Pico do Jaraguá",
+    "cat": "verde",
+    "end": "Parque Estadual do Jaraguá, Vila Jaraguá",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Ponto mais alto da cidade, com vista panorâmica de toda a capital.",
+    "busca": [
+      "Parque Estadual do Jaraguá"
+    ]
+  },
+  {
+    "n": "Parque da Independência",
+    "cat": "verde",
+    "end": "Avenida Nazaré, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Jardins franceses em frente ao Museu do Ipiranga, onde o Brasil se tornou independente."
+  },
+  {
+    "n": "Parque Buenos Aires",
+    "cat": "verde",
+    "end": "Avenida Angélica, Higienópolis",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pracinha arborizada e charmosa no meio de Higienópolis."
+  },
+  {
+    "n": "Praça Benedito Calixto",
+    "cat": "verde",
+    "end": "Praça Benedito Calixto, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Feira de antiguidades e música aos sábados num dos points de Pinheiros."
+  },
+  {
+    "n": "Praça da República",
+    "cat": "verde",
+    "end": "Praça da República, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Praça arborizada do Centro com feira de artesanato aos fins de semana."
+  },
+  {
+    "n": "Vale do Anhangabaú",
+    "cat": "verde",
+    "end": "Vale do Anhangabaú, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Esplanada histórica entre os viadutos do Chá e Santa Ifigênia."
+  },
+  {
+    "n": "Praça Roosevelt",
+    "cat": "verde",
+    "end": "Praça Roosevelt, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Praça de skatistas e teatros independentes, cheia de vida à noite."
+  },
+  {
+    "n": "Parque Cidade de Toronto",
+    "cat": "verde",
+    "end": "Avenida Cardeal Motta, 84, City América",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque tranquilo com lago e muita natureza na zona noroeste."
+  },
+  {
+    "n": "Parque Anhanguera",
+    "cat": "verde",
+    "end": "Avenida Fortunata Tadiello Natucci, Perus",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "O maior parque municipal da cidade, com trilhas e eucaliptais."
+  },
+  {
+    "n": "Bar Filial",
+    "cat": "bar",
+    "end": "Rua Fidalga, 254, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco clássico da Vila Madalena, famoso pelo chope e petiscos."
+  },
+  {
+    "n": "Bar do Alemão",
+    "cat": "bar",
+    "end": "Avenida Antártica, 554, Água Branca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar tradicional com música ao vivo e o famoso caldo de mocotó.",
+    "busca": [
+      "Bar do Alemão Água Branca"
+    ]
+  },
+  {
+    "n": "Ó do Borogodó",
+    "cat": "bar",
+    "end": "Rua Horácio Lane, 21, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa de samba e choro intimista, uma instituição da boemia paulistana."
+  },
+  {
+    "n": "Bar Pandoro",
+    "cat": "bar",
+    "end": "Avenida Cidade Jardim, 60, Jardim Europa",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar dos anos 50 que popularizou o drinque caju amigo."
+  },
+  {
+    "n": "Drosophyla",
+    "cat": "bar",
+    "end": "Rua Pedro Taques, 80, Consolação",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar alternativo num casarão com quintal, figurinha carimbada da noite."
+  },
+  {
+    "n": "Kintaro",
+    "cat": "bar",
+    "end": "Rua Thomaz Gonzaga, 57, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco japonês da Liberdade, com petiscos e clima de família."
+  },
+  {
+    "n": "Bar do Mané",
+    "cat": "comida",
+    "end": "Mercado Municipal, Rua da Cantareira, 306, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "O tradicional sanduíche de mortadela gigante do Mercadão.",
+    "busca": [
+      "Bar do Mané Mercadão"
+    ]
+  },
+  {
+    "n": "Raful",
+    "cat": "comida",
+    "end": "Rua Comendador Abdo Schahin, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante árabe clássico na região da 25 de Março."
+  },
+  {
+    "n": "Acrópoles",
+    "cat": "comida",
+    "end": "Rua da Graça, 364, Bom Retiro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Taberna grega tradicional onde se escolhe o prato direto na cozinha."
+  },
+  {
+    "n": "A Casa do Porco",
+    "cat": "comida",
+    "end": "Rua Araújo, 124, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante premiado dedicado ao porco, um dos mais famosos do país.",
+    "busca": [
+      "Casa do Porco"
+    ]
+  },
+  {
+    "n": "Mercado de Pinheiros",
+    "cat": "comida",
+    "end": "Rua Pedro Cristi, 89, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mercado municipal com boxes de comida e produtos brasileiros."
+  },
+  {
+    "n": "Mercado Kinjo Yamato",
+    "cat": "comida",
+    "end": "Rua da Cantareira, 377, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mercado vizinho ao Mercadão com pastelarias e lanches baratos."
+  },
+  {
+    "n": "Cantina Capuano",
+    "cat": "comida",
+    "end": "Rua Conselheiro Carrão, 416, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina italiana do Bixiga aberta desde 1907."
+  },
+  {
+    "n": "Pizzaria Veridiana",
+    "cat": "comida",
+    "end": "Rua Dona Veridiana, 661, Higienópolis",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pizzaria em casarão antigo, referência da pizza paulistana."
+  },
+  {
+    "n": "Restaurante Moraes",
+    "cat": "comida",
+    "end": "Praça Júlio Mesquita, 175, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Clássico do Centro, famoso pelo filé com alho desde os anos 30.",
+    "busca": [
+      "Moraes"
+    ]
+  },
+  {
+    "n": "Gato que Ri",
+    "cat": "comida",
+    "end": "Largo do Arouche, 37, República",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina tradicional do Arouche com massas fartas há décadas."
+  },
+  {
+    "n": "Rodeio",
+    "cat": "comida",
+    "end": "Rua Haddock Lobo, 1498, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Churrascaria clássica dos Jardins, famosa pela picanha fatiada."
+  },
+  {
+    "n": "Padaria Barcelona",
+    "cat": "doce",
+    "end": "Rua Armando Penteado, 33, Higienópolis",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria tradicional de Higienópolis, conhecida pelos pães de fermentação natural."
+  },
+  {
+    "n": "Dona Deôla",
+    "cat": "doce",
+    "end": "Pompeia",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria e confeitaria aberta até tarde, com doces e lanches clássicos.",
+    "busca": [
+      "Padaria Dona Deôla"
+    ]
+  },
+  {
+    "n": "Suplicy Cafés Especiais",
+    "cat": "cafe",
+    "end": "Alameda Lorena, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa pioneira dos cafés especiais em São Paulo, com torra própria.",
+    "busca": [
+      "Suplicy Cafés"
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "n": "Praça Padre Miguel",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Praça da Matriz com o famoso orelhão gigante, símbolo dos exageros de Itu.",
+    "busca": [
+      "Praça da Matriz de Itu"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Candelária",
+    "cat": "cultura",
+    "end": "Praça Padre Miguel, Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Matriz barroca com rico interior dourado, joia do centro histórico."
+  },
+  {
+    "n": "Museu Republicano Convenção de Itu",
+    "cat": "cultura",
+    "end": "Rua Barão de Itaim, 67, Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Casarão onde aconteceu a Convenção Republicana de 1873.",
+    "busca": [
+      "Museu Republicano"
+    ]
+  },
+  {
+    "n": "Igreja do Bom Jesus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Igreja histórica do centro de Itu.",
+    "busca": [
+      "Igreja do Senhor Bom Jesus"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Igreja carmelita colonial no centro histórico.",
+    "busca": [
+      "Igreja do Carmo Itu"
+    ]
+  },
+  {
+    "n": "Museu da Energia de Itu",
+    "cat": "cultura",
+    "end": "Rua Paula Souza, 707, Centro",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Casarão do século XIX com exposição sobre a história da energia."
+  },
+  {
+    "n": "Parque do Varvito",
+    "cat": "verde",
+    "end": "Parque Geológico do Varvito",
+    "cidade": "Itu",
+    "uf": "SP",
+    "d": "Antiga pedreira com rochas de origem glacial e lago, monumento geológico.",
+    "busca": [
+      "Parque Geológico do Varvito"
+    ]
+  }
+]

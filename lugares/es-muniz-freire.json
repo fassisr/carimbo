@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Cachoeira de Tombos",
+    "cat": "verde",
+    "end": "Tombos, Piaçu",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Uma das quedas mais bonitas da rota de cachoeiras de Muniz Freire."
+  },
+  {
+    "n": "Cachoeira Santa Rosa",
+    "cat": "verde",
+    "end": "Menino Jesus",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Cachoeira próxima ao distrito de Menino Jesus."
+  },
+  {
+    "n": "Cachoeira da Glória",
+    "cat": "verde",
+    "end": "Fortaleza, Piaçu",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Cachoeira de fácil acesso a partir da rodovia para Piaçu."
+  },
+  {
+    "n": "Igreja da Rosa Mística",
+    "cat": "cultura",
+    "end": "Menino Jesus",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Igreja do distrito de Menino Jesus, ponto de fé do interior."
+  },
+  {
+    "n": "Morro do Cruzeiro",
+    "cat": "verde",
+    "end": "Rua Félix Machado, Centro",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Mirante com vista de toda a sede de Muniz Freire."
+  },
+  {
+    "n": "Cafeteria Alto Fioresi",
+    "cat": "cafe",
+    "end": "Piaçu",
+    "cidade": "Muniz Freire",
+    "uf": "ES",
+    "d": "Cafeteria da Rota dos Cafés, com cafés especiais do Caparaó."
+  }
+]

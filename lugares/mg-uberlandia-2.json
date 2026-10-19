@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Praça Rui Barbosa, Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Igreja histórica no bairro mais antigo da cidade.",
+    "busca": [
+      "Igreja do Rosário Uberlândia"
+    ]
+  },
+  {
+    "n": "Praça Clarimundo Carneiro",
+    "cat": "verde",
+    "end": "Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Praça central do Fundinho, em frente ao Palácio dos Leões."
+  },
+  {
+    "n": "Casa da Cultura de Uberlândia",
+    "cat": "cultura",
+    "end": "Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Casarão histórico com exposições e programação cultural."
+  },
+  {
+    "n": "Praça Sérgio Pacheco",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Praça ampla e arborizada no centro, com biblioteca e eventos."
+  },
+  {
+    "n": "Catedral de Santa Teresinha",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Catedral da cidade, de linhas imponentes no centro."
+  }
+]

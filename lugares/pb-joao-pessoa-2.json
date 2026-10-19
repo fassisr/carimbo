@@ -1,0 +1,141 @@
+[
+  {
+    "n": "Mosteiro de São Bento",
+    "cat": "cultura",
+    "end": "Rua General Osório, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Igreja beneditina do século XVIII com fachada barroca preservada."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Praça Dom Adauto, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Igreja carmelita com fachada barroca rica em detalhes."
+  },
+  {
+    "n": "Igreja da Misericórdia",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Uma das igrejas mais antigas da cidade, do século XVI."
+  },
+  {
+    "n": "Igreja de São Frei Pedro Gonçalves",
+    "cat": "cultura",
+    "end": "Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Igreja no alto do largo de casarões coloridos do Varadouro."
+  },
+  {
+    "n": "Largo de São Frei Pedro Gonçalves",
+    "cat": "verde",
+    "end": "Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Largo histórico com casarios restaurados e vista para o rio Sanhauá."
+  },
+  {
+    "n": "Palácio da Redenção",
+    "cat": "cultura",
+    "end": "Praça João Pessoa, Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Sede do governo da Paraíba num antigo colégio jesuíta."
+  },
+  {
+    "n": "Praça João Pessoa",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Praça cívica arborizada em frente ao Palácio da Redenção."
+  },
+  {
+    "n": "Casarão 34",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Casarão restaurado que abriga exposições e atividades culturais."
+  },
+  {
+    "n": "Fundação Casa de José Américo",
+    "cat": "cultura",
+    "end": "Avenida Cabo Branco, 3336, Cabo Branco",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Casa do escritor José Américo de Almeida à beira-mar, hoje museu."
+  },
+  {
+    "n": "Busto de Tamandaré",
+    "cat": "cultura",
+    "end": "Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Monumento na ponta da orla de Tambaú, ponto de encontro tradicional."
+  },
+  {
+    "n": "Ponta do Seixas",
+    "cat": "verde",
+    "end": "Seixas",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Ponto mais oriental das Américas, com falésias e piscinas naturais."
+  },
+  {
+    "n": "Praia de Manaíra",
+    "cat": "verde",
+    "end": "Manaíra",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Praia urbana de mar calmo com calçadão e quiosques."
+  },
+  {
+    "n": "Praia do Bessa",
+    "cat": "verde",
+    "end": "Bessa",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Praia tranquila de bairro residencial, ótima para caminhar."
+  },
+  {
+    "n": "Piscinas Naturais do Picãozinho",
+    "cat": "verde",
+    "end": "Mar de Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Recifes a poucos quilômetros da costa, com peixes na maré baixa.",
+    "busca": [
+      "Picãozinho"
+    ]
+  },
+  {
+    "n": "Praia da Penha",
+    "cat": "verde",
+    "end": "Penha",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Vila de pescadores com o Santuário da Penha no alto."
+  },
+  {
+    "n": "Jardim Botânico Benjamim Maranhão",
+    "cat": "verde",
+    "end": "Mata do Buraquinho, Jaguaribe",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Uma das maiores matas atlânticas urbanas do país, com trilhas."
+  },
+  {
+    "n": "Mercado de Peixe de Tambaú",
+    "cat": "comida",
+    "end": "Tambaú",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "d": "Mercado de pescados com restaurantes que preparam o peixe na hora."
+  }
+]

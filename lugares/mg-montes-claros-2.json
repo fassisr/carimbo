@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Catedral Metropolitana de Nossa Senhora Aparecida",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Catedral moderna e marcante, símbolo da cidade."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora e São José",
+    "cat": "cultura",
+    "end": "Praça Doutor Chaves, Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Matriz histórica no núcleo de origem de Montes Claros."
+  },
+  {
+    "n": "Praça Doutor Chaves",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "A antiga praça da Matriz, coração histórico da cidade.",
+    "busca": [
+      "Praça da Matriz Montes Claros"
+    ]
+  },
+  {
+    "n": "Parque Municipal da Sapucaia",
+    "cat": "verde",
+    "end": "Montes Claros",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Parque com mirante e vista da cidade, bom para caminhar."
+  },
+  {
+    "n": "Museu Regional do Norte de Minas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Acervo sobre a história e a cultura sertaneja do Norte de Minas."
+  }
+]

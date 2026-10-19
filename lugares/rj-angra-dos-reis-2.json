@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Praia de Dois Rios",
+    "cat": "verde",
+    "end": "Dois Rios, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Praia isolada onde ficava o antigo presídio da Ilha Grande."
+  },
+  {
+    "n": "Ecomuseu Ilha Grande",
+    "cat": "cultura",
+    "end": "Dois Rios, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Museu nas ruínas do presídio sobre a história e a natureza da ilha.",
+    "busca": [
+      "Museu do Cárcere"
+    ]
+  },
+  {
+    "n": "Praia do Aventureiro",
+    "cat": "verde",
+    "end": "Aventureiro, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Praia selvagem com o coqueiro deitado, cartão-postal da ilha."
+  },
+  {
+    "n": "Praia Preta",
+    "cat": "verde",
+    "end": "Vila do Abraão, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Praia de areia escura perto do Abraão, no caminho do aqueduto."
+  },
+  {
+    "n": "Ruínas do Lazareto",
+    "cat": "cultura",
+    "end": "Vila do Abraão, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Restos do antigo lazareto do século XIX ao lado da Praia Preta."
+  },
+  {
+    "n": "Saco do Céu",
+    "cat": "verde",
+    "end": "Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Enseada de águas paradas onde o céu estrelado se reflete no mar."
+  },
+  {
+    "n": "Praia de Palmas",
+    "cat": "verde",
+    "end": "Palmas, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Praia com vila de pescadores no caminho de Lopes Mendes."
+  },
+  {
+    "n": "Igreja de São Sebastião",
+    "cat": "cultura",
+    "end": "Vila do Abraão, Ilha Grande",
+    "cidade": "Angra dos Reis",
+    "uf": "RJ",
+    "d": "Igrejinha branca de frente para o mar, símbolo da Vila do Abraão."
+  }
+]

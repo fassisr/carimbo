@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Catedral de Sant'Ana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barra do Piraí",
+    "uf": "RJ",
+    "d": "Catedral da diocese, no centro da cidade às margens do Paraíba."
+  },
+  {
+    "n": "Ilha dos Mineiros",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Barra do Piraí",
+    "uf": "RJ",
+    "d": "Ilha no Rio Paraíba do Sul transformada em parque e área de lazer."
+  },
+  {
+    "n": "Fazenda Ponte Alta",
+    "cat": "cultura",
+    "end": "Parque Santana",
+    "cidade": "Barra do Piraí",
+    "uf": "RJ",
+    "d": "Fazenda do ciclo do café aberta à visitação, com casarão e senzala."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "n": "Pico da Ibituruna",
+    "cat": "verde",
+    "end": "Rodovia do Pico da Ibituruna",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Pico famoso no mundo do voo livre, com vista de toda a cidade e do Rio Doce.",
+    "busca": [
+      "Pico do Ibituruna"
+    ]
+  },
+  {
+    "n": "Ilha dos Araújos",
+    "cat": "verde",
+    "end": "Ilha dos Araújos",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Bairro-ilha no Rio Doce, bom para remar e caminhar à beira d'água."
+  },
+  {
+    "n": "Catedral de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Catedral da cidade, marco do centro de Governador Valadares."
+  },
+  {
+    "n": "Mercado Municipal Governador Valadares",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Mercado popular com queijos, cachaças e comida mineira.",
+    "busca": [
+      "Mercado Municipal de Governador Valadares"
+    ]
+  },
+  {
+    "n": "Praça dos Pioneiros",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Praça central que homenageia os fundadores da cidade."
+  },
+  {
+    "n": "Parque Natural Municipal",
+    "cat": "verde",
+    "end": "Governador Valadares",
+    "cidade": "Governador Valadares",
+    "uf": "MG",
+    "d": "Área verde da cidade com trilhas e mata preservada.",
+    "busca": [
+      "Parque Natural Municipal de Governador Valadares"
+    ]
+  }
+]

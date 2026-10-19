@@ -1,0 +1,104 @@
+[
+  {
+    "n": "Museu de Arte Contemporânea de Mato Grosso do Sul",
+    "cat": "cultura",
+    "end": "Parque das Nações Indígenas",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Museu com arte sul-mato-grossense dentro do maior parque da cidade.",
+    "busca": [
+      "MARCO"
+    ]
+  },
+  {
+    "n": "Parque dos Poderes",
+    "cat": "verde",
+    "end": "Parque dos Poderes",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Reserva de cerrado com trilhas, onde vivem tamanduás e capivaras."
+  },
+  {
+    "n": "Parque Ecológico do Sóter",
+    "cat": "verde",
+    "end": "Mata do Jacinto",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Parque com lago, mata e pista de caminhada."
+  },
+  {
+    "n": "Horto Florestal",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Área verde histórica no centro, com árvores antigas e lago.",
+    "busca": [
+      "Horto Florestal de Campo Grande"
+    ]
+  },
+  {
+    "n": "Lago do Amor",
+    "cat": "verde",
+    "end": "Cidade Universitária",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Lago no campus da UFMS com capivaras e jacarés."
+  },
+  {
+    "n": "Praça do Rádio Clube",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Praça arborizada do centro, palco de feiras e eventos."
+  },
+  {
+    "n": "Orla Ferroviária",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Calçadão no antigo leito do trem, com bares e food trucks."
+  },
+  {
+    "n": "Obelisco",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Monumento na avenida principal, um dos símbolos da cidade."
+  },
+  {
+    "n": "Estação Ferroviária de Campo Grande",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Estação da Noroeste do Brasil, marco da formação da cidade."
+  },
+  {
+    "n": "Armazém Cultural",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Antigo armazém ferroviário que virou espaço de shows e exposições."
+  },
+  {
+    "n": "Centro Cultural José Octávio Guizzo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Centro cultural com teatro, cinema e exposições."
+  },
+  {
+    "n": "Teatro Glauce Rocha",
+    "cat": "cultura",
+    "end": "Cidade Universitária",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "d": "Teatro da UFMS com programação de música e artes cênicas."
+  }
+]

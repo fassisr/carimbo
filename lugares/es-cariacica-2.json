@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Orla de Cariacica",
+    "cat": "verde",
+    "end": "Porto de Santana",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Nova orla na Baía de Vitória com ciclovia, calçadão e pôr do sol.",
+    "busca": [
+      "Nova Orla de Cariacica"
+    ]
+  },
+  {
+    "n": "Restaurante Maré",
+    "cat": "comida",
+    "end": "Avenida Vale do Rio Doce, 639, Porto de Santana",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar na nova orla, com vista para a baía.",
+    "busca": [
+      "Maré"
+    ]
+  },
+  {
+    "n": "Parque O Cravo e a Rosa",
+    "cat": "verde",
+    "end": "Nova Brasília",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Parque com nascentes, lagoas e fragmentos de Mata Atlântica."
+  },
+  {
+    "n": "Parque Delegado Oswaldo Viola",
+    "cat": "verde",
+    "end": "Jardim América",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Parque de bairro conhecido como Parque da Biquinha.",
+    "busca": [
+      "Parque da Biquinha"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de Cariacica",
+    "cat": "comida",
+    "end": "Itacibá",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Mercado novo com peixaria, lojas e praça de alimentação."
+  },
+  {
+    "n": "Igreja Matriz de São João Batista",
+    "cat": "cultura",
+    "end": "Cariacica Sede",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Primeira igreja da cidade, na praça central da sede.",
+    "busca": [
+      "Igreja São João Batista"
+    ]
+  },
+  {
+    "n": "Santuário Bom Pastor",
+    "cat": "cultura",
+    "end": "Campo Grande",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Santuário de grande devoção no movimentado bairro de Campo Grande."
+  },
+  {
+    "n": "Estádio Kleber Andrade",
+    "cat": "cultura",
+    "end": "Rio Branco",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Maior estádio do Espírito Santo, palco de jogos e shows.",
+    "busca": [
+      "Estádio Estadual Kleber Andrade"
+    ]
+  },
+  {
+    "n": "Estádio Engenheiro Araripe",
+    "cat": "cultura",
+    "end": "Jardim América",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Estádio histórico do futebol capixaba."
+  },
+  {
+    "n": "Roda d'Água",
+    "cat": "cultura",
+    "end": "Roda d'Água, zona rural",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Comunidade rural do Carnaval de Congo de Máscaras e do agroturismo."
+  }
+]

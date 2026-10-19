@@ -1,0 +1,237 @@
+[
+  {
+    "n": "Parque Natural Municipal Morro da Manteigueira",
+    "cat": "verde",
+    "end": "Rua Mourisco, Glória",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Trilhas na Mata Atlântica com mirante sobre a baía e a Terceira Ponte."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Glória",
+    "cat": "cultura",
+    "end": "Praça Pedro dos Santos Valadares, Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Igreja do início do século 20, coração da vila de pescadores."
+  },
+  {
+    "n": "Praia do Barrão",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia principal da Barra do Jucu, cheia de surfistas e clima de vila."
+  },
+  {
+    "n": "Praia da Concha",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Pequena enseada tranquila na Barra do Jucu, boa para banho."
+  },
+  {
+    "n": "Praia da Barrinha",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia rústica perto da foz do Rio Jucu, com pôr do sol bonito."
+  },
+  {
+    "n": "Ponte da Madalena",
+    "cat": "verde",
+    "end": "Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Ponte sobre o Rio Jucu, ótima para ver o entardecer e as garças."
+  },
+  {
+    "n": "Taberna da Madalena",
+    "cat": "comida",
+    "end": "Rua Antônio dos Santos Leão, 82, Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante com vista para o Rio Jucu, conhecido pelo bobó de camarão.",
+    "busca": [
+      "Taberna Madalena"
+    ]
+  },
+  {
+    "n": "Caranguejo do Assis",
+    "cat": "comida",
+    "end": "Praia de Itaparica",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Casa tradicional de caranguejada na orla de Itaparica."
+  },
+  {
+    "n": "Butteco's do Vitalino",
+    "cat": "bar",
+    "end": "Rua Ibitirama, 128, Itaparica",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Boteco animado famoso pelo caranguejo e petiscos de mar."
+  },
+  {
+    "n": "Água de Sal",
+    "cat": "comida",
+    "end": "Avenida Antônio Gil Veloso, 702, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar na avenida da orla da Praia da Costa."
+  },
+  {
+    "n": "Oca do Caranguejo",
+    "cat": "comida",
+    "end": "Rua Cravo, 150, Jardim Colorado",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante popular de caranguejo e frutos do mar."
+  },
+  {
+    "n": "Restaurante Atlântica",
+    "cat": "comida",
+    "end": "Avenida Antônio Gil Veloso, 80, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Clássico da moqueca capixaba e do camarão no coco, de frente para o mar.",
+    "busca": [
+      "Atlântica"
+    ]
+  },
+  {
+    "n": "Vista da Penha",
+    "cat": "cafe",
+    "end": "Rua Coronel Mascarenhas, 13, Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Cafeteria na Prainha com vista para o Convento da Penha."
+  },
+  {
+    "n": "Doceatta",
+    "cat": "doce",
+    "end": "Rua Vasco Coutinho, 47, Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Doceria e café no sítio histórico da Prainha."
+  },
+  {
+    "n": "Prainha Café",
+    "cat": "cafe",
+    "end": "Rua Antônio Ataíde, 421, Centro",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Café aconchegante perto do sítio histórico da Prainha."
+  },
+  {
+    "n": "Colher de Pau Cafeteria e Bistrô",
+    "cat": "cafe",
+    "end": "Rua Rio Branco, 97, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Cafeteria e bistrô querido para café da tarde na Praia da Costa.",
+    "busca": [
+      "Colher de Pau"
+    ]
+  },
+  {
+    "n": "Prefiro Gato",
+    "cat": "cafe",
+    "end": "Rua Castelo Branco, 444, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Café temático com clima descontraído na Praia da Costa."
+  },
+  {
+    "n": "Caffè Lorenzon",
+    "cat": "cafe",
+    "end": "Avenida Hugo Musso, 1243, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Cafeteria de cafés especiais capixabas.",
+    "busca": [
+      "Café Lorenzon"
+    ]
+  },
+  {
+    "n": "Alambique",
+    "cat": "bar",
+    "end": "Rua Rio Branco, 127, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Bar de cachaças no Parque das Castanheiras."
+  },
+  {
+    "n": "Parque das Castanheiras",
+    "cat": "verde",
+    "end": "Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praça arborizada com feirinhas e bares, ponto de encontro da Praia da Costa."
+  },
+  {
+    "n": "Praia da Ponta da Fruta",
+    "cat": "verde",
+    "end": "Ponta da Fruta",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia de águas calmas e piscinas naturais no sul de Vila Velha.",
+    "busca": [
+      "Ponta da Fruta"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora dos Navegantes",
+    "cat": "cultura",
+    "end": "Morro da Igreja, Ponta da Fruta",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Igrejinha no alto do morro com vista ampla do litoral sul."
+  },
+  {
+    "n": "Cabana do Rock",
+    "cat": "comida",
+    "end": "Avenida Antônio Leite, 10, Ponta da Fruta",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante de moqueca de frente para o mar da Ponta da Fruta."
+  },
+  {
+    "n": "Praia de Interlagos",
+    "cat": "verde",
+    "end": "Interlagos",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Faixa de areia extensa e mais tranquila entre Itaparica e a Barra do Jucu."
+  },
+  {
+    "n": "Gruta de Frei Pedro Palácios",
+    "cat": "cultura",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Gruta onde viveu o fundador do Convento da Penha, ao pé do morro."
+  },
+  {
+    "n": "Largo de Frei Pedro Palácios",
+    "cat": "verde",
+    "end": "Prainha",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Largo histórico ao pé do Convento da Penha, ponto de partida das romarias."
+  },
+  {
+    "n": "Penedo",
+    "cat": "verde",
+    "end": "Baía de Vitória, Paul",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Grande rochedo na entrada do porto, marco da paisagem da baía.",
+    "busca": [
+      "Morro do Penedo",
+      "Pedra do Penedo"
+    ]
+  }
+]

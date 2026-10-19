@@ -1,0 +1,60 @@
+[
+  {
+    "n": "Sítio do Picapau Amarelo",
+    "cat": "cultura",
+    "end": "Avenida Monteiro Lobato, Chácara do Visconde",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Chácara onde nasceu Monteiro Lobato, hoje museu e parque temático.",
+    "busca": [
+      "Museu Monteiro Lobato",
+      "Chácara do Visconde"
+    ]
+  },
+  {
+    "n": "Museu Mazzaropi",
+    "cat": "cultura",
+    "end": "Itaim",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Museu dedicado ao ator e cineasta Amácio Mazzaropi, filho da cidade."
+  },
+  {
+    "n": "Catedral de São Francisco das Chagas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Catedral no centro histórico da cidade.",
+    "busca": [
+      "Catedral de Taubaté"
+    ]
+  },
+  {
+    "n": "Convento de Santa Clara",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Convento franciscano do século XVII, um dos mais antigos do Vale."
+  },
+  {
+    "n": "Mercado Municipal de Taubaté",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Mercadão tradicional com produtos do Vale do Paraíba e lanches."
+  },
+  {
+    "n": "Casa do Figureiro",
+    "cat": "cultura",
+    "end": "Rua Imaculada Conceição, Centro",
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "d": "Ateliês das figureiras, artesãs dos famosos presépios de barro de Taubaté.",
+    "busca": [
+      "Rua das Figureiras"
+    ]
+  }
+]

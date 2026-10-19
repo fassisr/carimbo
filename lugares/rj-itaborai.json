@@ -1,0 +1,40 @@
+[
+  {
+    "n": "Igreja Matriz de São João Batista",
+    "cat": "cultura",
+    "end": "Praça Marechal Floriano Peixoto, Centro",
+    "cidade": "Itaboraí",
+    "uf": "RJ",
+    "d": "Matriz colonial no centro histórico de Itaboraí."
+  },
+  {
+    "n": "Casa de Cultura Heloísa Alberto Torres",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itaboraí",
+    "uf": "RJ",
+    "d": "Casarão histórico que hoje abriga a casa de cultura da cidade."
+  },
+  {
+    "n": "Parque Paleontológico de São José de Itaboraí",
+    "cat": "verde",
+    "end": "São José",
+    "cidade": "Itaboraí",
+    "uf": "RJ",
+    "d": "Antiga mina de calcário rica em fósseis, hoje parque natural.",
+    "busca": [
+      "Parque Natural Municipal Paleontológico de São José de Itaboraí"
+    ]
+  },
+  {
+    "n": "Santuário de Porto das Caixas",
+    "cat": "cultura",
+    "end": "Porto das Caixas",
+    "cidade": "Itaboraí",
+    "uf": "RJ",
+    "d": "Santuário de romaria do Senhor Crucificado, que atrai fiéis de todo o estado.",
+    "busca": [
+      "Santuário do Senhor Jesus Crucificado"
+    ]
+  }
+]

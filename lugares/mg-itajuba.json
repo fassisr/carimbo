@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Parque Municipal de Itajubá",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Parque central com lago e árvores, ideal para um passeio a pé."
+  },
+  {
+    "n": "Mercado Municipal de Itajubá",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Mercado com produtos da Serra da Mantiqueira, queijos e doces."
+  },
+  {
+    "n": "Teatro Municipal Christiane Riêra",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Teatro da cidade com programação de música, dança e teatro."
+  },
+  {
+    "n": "Santuário Nossa Senhora da Agonia",
+    "cat": "cultura",
+    "end": "Itajubá",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Santuário de muita devoção, com vista para a cidade."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Soledade",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Matriz da padroeira de Itajubá, no coração da cidade.",
+    "busca": [
+      "Paróquia Nossa Senhora da Soledade"
+    ]
+  },
+  {
+    "n": "Praça Theodomiro Santiago",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Itajubá",
+    "uf": "MG",
+    "d": "Praça central e movimentada, cercada pelo comércio da cidade."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Cristo Redentor",
+    "cat": "cultura",
+    "end": "Serra de São Domingos",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Estátua no alto da serra, com vista panorâmica da cidade.",
+    "busca": [
+      "Cristo Redentor de Poços de Caldas"
+    ]
+  },
+  {
+    "n": "Fonte dos Macacos",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Fonte de água sulfurosa num bosque, parada clássica do passeio pela cidade."
+  },
+  {
+    "n": "Cachoeira Véu das Noivas",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Cachoeira de fácil acesso com mirante e área de lazer."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Saúde",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Matriz neogótica que domina a praça central da cidade."
+  },
+  {
+    "n": "Museu Histórico e Geográfico de Poços de Caldas",
+    "cat": "cultura",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Casarão com acervo sobre a história termal e a formação da cidade."
+  },
+  {
+    "n": "Represa Bortolan",
+    "cat": "verde",
+    "end": "Poços de Caldas",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Represa cercada de verde, boa para caminhar e ver o pôr do sol."
+  },
+  {
+    "n": "Praça Pedro Sanches",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Praça central com jardins, ao lado das Thermas e do Palace Hotel."
+  },
+  {
+    "n": "Mercado Municipal de Poços de Caldas",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Poços de Caldas",
+    "uf": "MG",
+    "d": "Mercado com queijos, doces e cafés do Sul de Minas."
+  }
+]

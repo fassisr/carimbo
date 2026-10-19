@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Torre do Relógio de Paranapiacaba",
+    "cat": "cultura",
+    "end": "Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Relógio inglês que é o símbolo da vila ferroviária na serra.",
+    "busca": [
+      "Relógio de Paranapiacaba"
+    ]
+  },
+  {
+    "n": "Clube União Lyra Serrano",
+    "cat": "cultura",
+    "end": "Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Clube social histórico dos ferroviários, palco do Festival de Inverno."
+  },
+  {
+    "n": "Igreja Bom Jesus de Paranapiacaba",
+    "cat": "cultura",
+    "end": "Parte Alta, Paranapiacaba",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Igrejinha no alto da vila com vista do casario inglês."
+  },
+  {
+    "n": "Sesc Santo André",
+    "cat": "cultura",
+    "end": "Rua Tamarutaca, 302, Vila Guiomar",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Teatro, exposições e esportes no maior centro cultural do ABC."
+  },
+  {
+    "n": "Museu de Santo André",
+    "cat": "cultura",
+    "end": "Rua Senador Fláquer, 470, Centro",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Museu da história da cidade num antigo prédio escolar.",
+    "busca": [
+      "Museu de Santo André Dr. Octaviano Armando Gaiarsa"
+    ]
+  }
+]

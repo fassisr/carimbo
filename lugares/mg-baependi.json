@@ -1,0 +1,64 @@
+[
+  {
+    "n": "Santuário Nhá Chica",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Santuário da beata Nhá Chica, primeira leiga brasileira beatificada.",
+    "busca": [
+      "Santuário Nossa Senhora da Conceição Nhá Chica"
+    ]
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora do Montserrat",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Matriz colonial, uma das mais antigas do Sul de Minas."
+  },
+  {
+    "n": "Praça Monsenhor Marcos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Praça central da cidade, ao lado da Matriz."
+  },
+  {
+    "n": "Cachoeira do Espraiado do Gamarra",
+    "cat": "verde",
+    "end": "Gamarra",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Cachoeira larga no distrito do Gamarra, com poços de banho.",
+    "busca": [
+      "Cachoeira do Gamarra"
+    ]
+  },
+  {
+    "n": "Cachoeira Itaúna",
+    "cat": "verde",
+    "end": "Baependi",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Cachoeira cercada de mata, das mais visitadas da região."
+  },
+  {
+    "n": "Cachoeira do Moinho",
+    "cat": "verde",
+    "end": "Baependi",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Cachoeira com poço tranquilo, boa para um mergulho."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Boa Morte",
+    "cat": "cultura",
+    "end": "Praça Nossa Senhora da Boa Morte, Centro",
+    "cidade": "Baependi",
+    "uf": "MG",
+    "d": "Igreja colonial em praça própria no centro histórico."
+  }
+]

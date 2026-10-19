@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Igreja Matriz de São Gonçalo",
+    "cat": "cultura",
+    "end": "Praça Silviano Brandão, Centro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Matriz histórica no núcleo antigo da cidade, origem de Contagem.",
+    "busca": [
+      "Igreja de São Gonçalo"
+    ]
+  },
+  {
+    "n": "Casa de Cultura Nair Mendes Moreira",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Casarão colonial que guarda a memória e a história de Contagem."
+  },
+  {
+    "n": "CeasaMinas",
+    "cat": "comida",
+    "end": "Rodovia BR-040, Guanabara",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "O grande entreposto de Minas, com mercado livre do produtor e comida de feira.",
+    "busca": [
+      "CEASA de Minas Gerais"
+    ]
+  },
+  {
+    "n": "Mercado Central de Contagem",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Mercado popular com queijos, temperos e lanches típicos."
+  },
+  {
+    "n": "Parque Ecológico do Eldorado",
+    "cat": "verde",
+    "end": "Eldorado",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Área verde com lago e pista de caminhada no bairro mais movimentado da cidade."
+  },
+  {
+    "n": "Praça da Jabuticaba",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Praça que homenageia a fruta símbolo de Contagem."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Pedra da Onça",
+    "cat": "verde",
+    "end": "Itarana",
+    "cidade": "Itarana",
+    "uf": "ES",
+    "d": "Formação rochosa marcante da paisagem de Itarana."
+  },
+  {
+    "n": "Igreja de Nossa Senhora Auxiliadora",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itarana",
+    "uf": "ES",
+    "d": "Igreja da cidade de colonização italiana."
+  },
+  {
+    "n": "Capela de Santa Luzia",
+    "cat": "cultura",
+    "end": "Itarana",
+    "cidade": "Itarana",
+    "uf": "ES",
+    "d": "Capela tradicional do interior de Itarana."
+  }
+]

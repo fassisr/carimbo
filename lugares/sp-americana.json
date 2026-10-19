@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Praia dos Namorados",
+    "cat": "verde",
+    "end": "Represa de Salto Grande",
+    "cidade": "Americana",
+    "uf": "SP",
+    "d": "Orla da represa com quiosques e pôr do sol, o point de lazer da cidade."
+  },
+  {
+    "n": "Parque Ecológico Municipal Cid Almeida Franco",
+    "cat": "verde",
+    "end": "Americana",
+    "cidade": "Americana",
+    "uf": "SP",
+    "d": "Parque com zoológico e área verde, passeio clássico das famílias.",
+    "busca": [
+      "Parque Ecológico de Americana"
+    ]
+  }
+]

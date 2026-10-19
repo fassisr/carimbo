@@ -1,0 +1,626 @@
+[
+  {
+    "n": "Catedral Metropolitana de São Sebastião",
+    "cat": "cultura",
+    "end": "Avenida República do Chile, 245, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Catedral cônica de concreto com vitrais enormes que vão do chão ao teto.",
+    "busca": [
+      "Catedral Metropolitana do Rio de Janeiro"
+    ]
+  },
+  {
+    "n": "Convento de Santo Antônio",
+    "cat": "cultura",
+    "end": "Largo da Carioca, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Convento franciscano do século XVII no alto do morrinho do Largo da Carioca."
+  },
+  {
+    "n": "Igreja de São Francisco da Penitência",
+    "cat": "cultura",
+    "end": "Largo da Carioca, 5, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Interior todo coberto de talha dourada, uma das joias do barroco carioca."
+  },
+  {
+    "n": "Praça XV de Novembro",
+    "cat": "verde",
+    "end": "Praça XV, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praça histórica à beira da baía, palco de séculos da história do Rio.",
+    "busca": [
+      "Praça XV"
+    ]
+  },
+  {
+    "n": "Campo de Santana",
+    "cat": "verde",
+    "end": "Praça da República, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Parque arborizado com cutias, lagos e grutas artificiais no meio do Centro.",
+    "busca": [
+      "Praça da República"
+    ]
+  },
+  {
+    "n": "Passeio Público",
+    "cat": "verde",
+    "end": "Rua do Passeio, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "O jardim público mais antigo das Américas, criado no século XVIII."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo da Antiga Sé",
+    "cat": "cultura",
+    "end": "Rua Primeiro de Março, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antiga capela real onde Dom Pedro I e Dom Pedro II foram coroados.",
+    "busca": [
+      "Antiga Sé"
+    ]
+  },
+  {
+    "n": "Centro Cultural Correios",
+    "cat": "cultura",
+    "end": "Rua Visconde de Itaboraí, 20, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Prédio eclético restaurado com exposições gratuitas ao lado do CCBB.",
+    "busca": [
+      "Centro Cultural dos Correios"
+    ]
+  },
+  {
+    "n": "AquaRio",
+    "cat": "cultura",
+    "end": "Praça Muhammad Ali, Gamboa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Grande aquário marinho da zona portuária, com túnel de tubarões.",
+    "busca": [
+      "Aquário Marinho do Rio de Janeiro"
+    ]
+  },
+  {
+    "n": "Cidade do Samba",
+    "cat": "cultura",
+    "end": "Rua Rivadávia Corrêa, 60, Gamboa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Barracões onde as escolas de samba constroem os carros do Carnaval.",
+    "busca": [
+      "Cidade do Samba Joãosinho Trinta"
+    ]
+  },
+  {
+    "n": "Sambódromo da Marquês de Sapucaí",
+    "cat": "cultura",
+    "end": "Rua Marquês de Sapucaí, Cidade Nova",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "A passarela do samba projetada por Niemeyer, coração do Carnaval carioca.",
+    "busca": [
+      "Sambódromo",
+      "Passarela Professor Darcy Ribeiro"
+    ]
+  },
+  {
+    "n": "Biblioteca Parque Estadual",
+    "cat": "cultura",
+    "end": "Avenida Presidente Vargas, 1261, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Biblioteca moderna e aberta a todos, com acervo, cinema e espaço de leitura.",
+    "busca": [
+      "Biblioteca Parque"
+    ]
+  },
+  {
+    "n": "Casa Lidador",
+    "cat": "bar",
+    "end": "Rua da Assembleia, 65, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Empório de 1924 com balcão para um chope e frios no meio do Centro.",
+    "busca": [
+      "Lidador"
+    ]
+  },
+  {
+    "n": "Ernesto",
+    "cat": "comida",
+    "end": "Largo da Lapa, 41, Lapa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante alemão e português de 1906 em frente aos Arcos da Lapa.",
+    "busca": [
+      "Bar e Restaurante Ernesto"
+    ]
+  },
+  {
+    "n": "Mangue Seco Cachaçaria",
+    "cat": "bar",
+    "end": "Rua do Lavradio, 23, Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cachaçaria com centenas de rótulos e samba na Rua do Lavradio."
+  },
+  {
+    "n": "Taberna da Glória",
+    "cat": "bar",
+    "end": "Rua do Russel, 32, Glória",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco tradicional da Glória, famoso pelos petiscos e chope gelado."
+  },
+  {
+    "n": "Adega Portugália",
+    "cat": "comida",
+    "end": "Largo do Machado, 30, Catete",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Adega portuguesa tradicional com bacalhau e vinhos no Largo do Machado.",
+    "busca": [
+      "Portugália"
+    ]
+  },
+  {
+    "n": "Bar do Arnaudo",
+    "cat": "comida",
+    "end": "Rua Almirante Alexandrino, 316, Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa nordestina de Santa Teresa famosa pela carne de sol com macaxeira."
+  },
+  {
+    "n": "Museu Casa de Rui Barbosa",
+    "cat": "cultura",
+    "end": "Rua São Clemente, 134, Botafogo",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casarão onde viveu Rui Barbosa, com jardim tranquilo aberto ao público.",
+    "busca": [
+      "Fundação Casa de Rui Barbosa"
+    ]
+  },
+  {
+    "n": "Parque Guinle",
+    "cat": "verde",
+    "end": "Rua Gago Coutinho, Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Parque com lago e prédios modernistas de Lucio Costa ao redor."
+  },
+  {
+    "n": "Largo do Boticário",
+    "cat": "cultura",
+    "end": "Rua Cosme Velho, Cosme Velho",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Conjunto de casarões coloniais à beira do Rio Carioca, cenário de filme."
+  },
+  {
+    "n": "Bar do Serafim",
+    "cat": "bar",
+    "end": "Rua Alice, 24, Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco português de Laranjeiras, clássico para bacalhau e cerveja gelada."
+  },
+  {
+    "n": "Bar Veloso",
+    "cat": "bar",
+    "end": "Rua Aristides Espínola, 44, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Boteco do Leblon conhecido pelos pastéis e pela calçada sempre cheia."
+  },
+  {
+    "n": "Bofetada",
+    "cat": "bar",
+    "end": "Rua Farme de Amoedo, 87, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar tradicional da Farme de Amoedo, ponto de encontro animado de Ipanema."
+  },
+  {
+    "n": "Chico & Alaíde",
+    "cat": "bar",
+    "end": "Rua Dias Ferreira, 679, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Botequim de Leblon criado por antigos garçons do Bracarense."
+  },
+  {
+    "n": "Bar Astor",
+    "cat": "bar",
+    "end": "Avenida Vieira Souto, 110, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar de inspiração paulistana de frente para o mar do Arpoador."
+  },
+  {
+    "n": "Fiorentina",
+    "cat": "comida",
+    "end": "Avenida Atlântica, Leme",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cantina italiana do Leme frequentada por artistas desde os anos 1950.",
+    "busca": [
+      "Restaurante Fiorentina"
+    ]
+  },
+  {
+    "n": "Braseiro da Gávea",
+    "cat": "comida",
+    "end": "Praça Santos Dumont, 116, Gávea",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Casa de grelhados e chope da Praça Santos Dumont, clássica da Gávea."
+  },
+  {
+    "n": "Parque da Catacumba",
+    "cat": "verde",
+    "end": "Avenida Epitácio Pessoa, Lagoa",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Trilha curta na mata com esculturas e mirante sobre a Lagoa.",
+    "busca": [
+      "Parque Natural Municipal da Catacumba"
+    ]
+  },
+  {
+    "n": "Jardim de Alah",
+    "cat": "verde",
+    "end": "Avenida Epitácio Pessoa, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Jardim no canal que separa Ipanema do Leblon, ligando a Lagoa ao mar."
+  },
+  {
+    "n": "Mureta da Urca",
+    "cat": "verde",
+    "end": "Avenida João Luís Alves, Urca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Muro à beira da baía para ver o pôr do sol com um petisco na mão."
+  },
+  {
+    "n": "Cobal do Humaitá",
+    "cat": "comida",
+    "end": "Rua Voluntários da Pátria, 446, Humaitá",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mercado de hortifrúti que vira polo de bares e restaurantes à noite."
+  },
+  {
+    "n": "Cobal do Leblon",
+    "cat": "comida",
+    "end": "Rua Gilberto Cardoso, Leblon",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mercado do Leblon com hortifrúti e bares concorridos no fim de tarde."
+  },
+  {
+    "n": "Feira Hippie de Ipanema",
+    "cat": "cultura",
+    "end": "Praça General Osório, Ipanema",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Feira de artesanato de domingo que existe desde 1968.",
+    "busca": [
+      "Praça General Osório"
+    ]
+  },
+  {
+    "n": "Casa Carandaí",
+    "cat": "doce",
+    "end": "Rua Lopes Quintas, 165, Jardim Botânico",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Padaria e empório com pães de fermentação natural e cafés da manhã."
+  },
+  {
+    "n": "Pedra da Gávea",
+    "cat": "verde",
+    "end": "Estrada do Joá, São Conrado",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Um dos maiores monólitos à beira-mar do mundo, com trilha desafiadora."
+  },
+  {
+    "n": "Praia do Leme",
+    "cat": "verde",
+    "end": "Avenida Atlântica, Leme",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Ponta tranquila de Copacabana, aos pés do Morro do Leme."
+  },
+  {
+    "n": "Praia de São Conrado",
+    "cat": "verde",
+    "end": "São Conrado",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praia onde pousam as asas-deltas que saltam da Pedra Bonita.",
+    "busca": [
+      "Praia do Pepino"
+    ]
+  },
+  {
+    "n": "Museu Casa do Pontal",
+    "cat": "cultura",
+    "end": "Barra da Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Maior acervo de arte popular brasileira do país, em sede nova na Barra.",
+    "busca": [
+      "Museu de Arte Popular Casa do Pontal"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal Chico Mendes",
+    "cat": "verde",
+    "end": "Avenida Jarbas de Carvalho, 679, Recreio dos Bandeirantes",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restinga preservada com trilhas, lagoa e jacarés-de-papo-amarelo.",
+    "busca": [
+      "Parque Chico Mendes"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal de Marapendi",
+    "cat": "verde",
+    "end": "Recreio dos Bandeirantes",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restinga e lagoa protegidas entre a Barra e o Recreio.",
+    "busca": [
+      "Parque de Marapendi"
+    ]
+  },
+  {
+    "n": "Praia da Reserva",
+    "cat": "verde",
+    "end": "Avenida Lúcio Costa, Barra da Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Trecho de praia com restinga preservada e pouca construção."
+  },
+  {
+    "n": "Praia do Pepê",
+    "cat": "verde",
+    "end": "Avenida do Pepê, Barra da Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Point da Barra para esportes de vela e pôr do sol."
+  },
+  {
+    "n": "Pedra do Pontal",
+    "cat": "verde",
+    "end": "Recreio dos Bandeirantes",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Pedra no fim do Recreio com subida curta e vista linda da praia."
+  },
+  {
+    "n": "Praia da Macumba",
+    "cat": "verde",
+    "end": "Recreio dos Bandeirantes",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praia de ondas fortes, querida pelos surfistas do Recreio."
+  },
+  {
+    "n": "Bira",
+    "cat": "comida",
+    "end": "Estrada da Vendinha, 68A, Barra de Guaratiba",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Restaurante de frutos do mar com varanda de vista para a restinga.",
+    "busca": [
+      "Bira de Guaratiba",
+      "Restaurante do Bira"
+    ]
+  },
+  {
+    "n": "Praça Saens Peña",
+    "cat": "verde",
+    "end": "Praça Saens Peña, Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praça central da Tijuca, ponto de encontro do bairro."
+  },
+  {
+    "n": "Igreja dos Capuchinhos",
+    "cat": "cultura",
+    "end": "Rua Haddock Lobo, 266, Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Igreja que guarda os restos mortais de Estácio de Sá, fundador do Rio.",
+    "busca": [
+      "Igreja de São Sebastião dos Capuchinhos"
+    ]
+  },
+  {
+    "n": "Salete",
+    "cat": "bar",
+    "end": "Rua Afonso Pena, 189, Tijuca",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar tijucano famoso pela empada, servida há décadas.",
+    "busca": [
+      "Bar e Restaurante Salete"
+    ]
+  },
+  {
+    "n": "Cascatinha Taunay",
+    "cat": "verde",
+    "end": "Estrada da Cascatinha, Alto da Boa Vista",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Cachoeira de 35 metros logo na entrada da Floresta da Tijuca."
+  },
+  {
+    "n": "Capela Mayrink",
+    "cat": "cultura",
+    "end": "Estrada da Cascatinha, Alto da Boa Vista",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Capelinha no meio da Floresta da Tijuca com painéis de Portinari."
+  },
+  {
+    "n": "Pico da Tijuca",
+    "cat": "verde",
+    "end": "Alto da Boa Vista",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Ponto mais alto do maciço, com escadaria esculpida na pedra no fim da trilha."
+  },
+  {
+    "n": "Museu do Samba",
+    "cat": "cultura",
+    "end": "Rua Visconde de Niterói, 1296, Mangueira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Acervo sobre a história do samba carioca, aos pés da Mangueira."
+  },
+  {
+    "n": "Palácio do Samba",
+    "cat": "cultura",
+    "end": "Rua Visconde de Niterói, 1072, Mangueira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Quadra da Estação Primeira de Mangueira, com ensaios abertos.",
+    "busca": [
+      "Quadra da Mangueira"
+    ]
+  },
+  {
+    "n": "Cachambeer",
+    "cat": "bar",
+    "end": "Rua Cachambi, 475, Cachambi",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Bar famoso pela costela no bafo e cerveja gelada no subúrbio."
+  },
+  {
+    "n": "Jardim do Méier",
+    "cat": "verde",
+    "end": "Méier",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praça arborizada e centro da vida do bairro desde o começo do século XX.",
+    "busca": [
+      "Praça Agripino Grieco"
+    ]
+  },
+  {
+    "n": "Imperator",
+    "cat": "cultura",
+    "end": "Rua Dias da Cruz, 170, Méier",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Antigo cinema do Méier transformado em centro cultural com shows.",
+    "busca": [
+      "Centro Cultural João Nogueira"
+    ]
+  },
+  {
+    "n": "Mercadão de Madureira",
+    "cat": "comida",
+    "end": "Avenida Ministro Edgard Romero, 239, Madureira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Mercado popular gigante com comidas, artigos religiosos e de festa."
+  },
+  {
+    "n": "Portela",
+    "cat": "cultura",
+    "end": "Rua Clara Nunes, 81, Madureira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Quadra da Portela, berço da Velha Guarda e da feijoada do samba.",
+    "busca": [
+      "Quadra da Portela",
+      "Portelão"
+    ]
+  },
+  {
+    "n": "Império Serrano",
+    "cat": "cultura",
+    "end": "Avenida Ministro Edgard Romero, 114, Madureira",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Quadra da escola de Serrinha, tradicional em jongo e samba.",
+    "busca": [
+      "Quadra do Império Serrano"
+    ]
+  },
+  {
+    "n": "Praia da Bica",
+    "cat": "verde",
+    "end": "Jardim Guanabara, Ilha do Governador",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Praia mais conhecida da Ilha, com quiosques e vista para a baía."
+  },
+  {
+    "n": "Parque Estadual da Pedra Branca",
+    "cat": "verde",
+    "end": "Estrada do Pau da Fome, 4003, Taquara",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Uma das maiores florestas urbanas do mundo, com trilhas e açudes.",
+    "busca": [
+      "Núcleo Pau da Fome"
+    ]
+  },
+  {
+    "n": "Ponte dos Jesuítas",
+    "cat": "cultura",
+    "end": "Santa Cruz",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Ponte de 1752 erguida pelos jesuítas, monumento tombado da Zona Oeste."
+  },
+  {
+    "n": "Museu Aeroespacial",
+    "cat": "cultura",
+    "end": "Avenida Marechal Fontenelle, 2000, Campo dos Afonsos",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Hangares com aviões históricos, incluindo réplica do 14-Bis."
+  },
+  {
+    "n": "Museu Bispo do Rosario Arte Contemporânea",
+    "cat": "cultura",
+    "end": "Colônia Juliano Moreira, Taquara",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Museu dedicado à obra de Arthur Bispo do Rosario.",
+    "busca": [
+      "Museu Bispo do Rosario"
+    ]
+  },
+  {
+    "n": "Castelo Mourisco",
+    "cat": "cultura",
+    "end": "Avenida Brasil, 4365, Manguinhos",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "d": "Castelo em estilo neomourisco da Fiocruz, visível da Avenida Brasil.",
+    "busca": [
+      "Castelo da Fiocruz"
+    ]
+  }
+]

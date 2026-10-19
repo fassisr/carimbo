@@ -1,0 +1,180 @@
+[
+  {
+    "n": "Praia de Piratininga",
+    "cat": "verde",
+    "end": "Piratininga",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia extensa da Região Oceânica, boa para caminhar e surfar."
+  },
+  {
+    "n": "Praia de Itaipu",
+    "cat": "verde",
+    "end": "Itaipu",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia de pescadores com vista para as ilhas e o Rio ao fundo."
+  },
+  {
+    "n": "Praia de São Francisco",
+    "cat": "verde",
+    "end": "Avenida Quintino Bocaiúva, São Francisco",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia calma da baía com calçadão e bares na orla."
+  },
+  {
+    "n": "Praia de Charitas",
+    "cat": "verde",
+    "end": "Charitas",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia tranquila da baía, ponto de vela e caiaque."
+  },
+  {
+    "n": "Praia de Adão e Eva",
+    "cat": "verde",
+    "end": "Jurujuba",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Duas prainhas escondidas de águas calmas no caminho de Jurujuba."
+  },
+  {
+    "n": "Praia do Sossego",
+    "cat": "verde",
+    "end": "Camboinhas",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Prainha pequena entre costões, acessada por uma trilha curta."
+  },
+  {
+    "n": "Costão de Itacoatiara",
+    "cat": "verde",
+    "end": "Itacoatiara",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Trilha íngreme com vista de 360 graus sobre o mar e a Região Oceânica.",
+    "busca": [
+      "Pedra do Costão"
+    ]
+  },
+  {
+    "n": "Parque Estadual da Serra da Tiririca",
+    "cat": "verde",
+    "end": "Itacoatiara",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Parque de mata atlântica com trilhas como a do Alto Mourão."
+  },
+  {
+    "n": "Horto do Fonseca",
+    "cat": "verde",
+    "end": "Alameda São Boaventura, Fonseca",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Horto botânico centenário, refúgio verde da Zona Norte de Niterói.",
+    "busca": [
+      "Horto Botânico de Niterói"
+    ]
+  },
+  {
+    "n": "Lagoa de Piratininga",
+    "cat": "verde",
+    "end": "Piratininga",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Lagoa com parque orla e ciclovia na Região Oceânica.",
+    "busca": [
+      "Parque Orla Piratininga"
+    ]
+  },
+  {
+    "n": "Museu Janete Costa de Arte Popular",
+    "cat": "cultura",
+    "end": "Rua Presidente Domiciano, 178, Ingá",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Casarão com arte popular brasileira de várias regiões."
+  },
+  {
+    "n": "Museu de Arqueologia de Itaipu",
+    "cat": "cultura",
+    "end": "Itaipu",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Museu nas ruínas de um antigo recolhimento, com sambaquis da região."
+  },
+  {
+    "n": "Museu do Ingá",
+    "cat": "cultura",
+    "end": "Rua Presidente Pedreira, 78, Ingá",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Antigo palácio do governo fluminense com acervo histórico.",
+    "busca": [
+      "Museu de História e Artes do Estado do Rio de Janeiro"
+    ]
+  },
+  {
+    "n": "Igreja de São Lourenço dos Índios",
+    "cat": "cultura",
+    "end": "São Lourenço",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Igreja do século XVII ligada à aldeia de Araribóia, fundador da cidade."
+  },
+  {
+    "n": "Igreja de São Francisco Xavier",
+    "cat": "cultura",
+    "end": "São Francisco",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Igrejinha colonial jesuíta de frente para a praia de São Francisco."
+  },
+  {
+    "n": "Catedral de São João Batista",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Catedral de Niterói, ao lado do Jardim São João no Centro.",
+    "busca": [
+      "Catedral de Niterói"
+    ]
+  },
+  {
+    "n": "Estação Hidroviária de Charitas",
+    "cat": "cultura",
+    "end": "Charitas",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Estação de barcas desenhada por Niemeyer, com vista para a baía."
+  },
+  {
+    "n": "Centro de Artes UFF",
+    "cat": "cultura",
+    "end": "Rua Miguel de Frias, 9, Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Teatro, cinema e galeria da Universidade Federal Fluminense.",
+    "busca": [
+      "Teatro da UFF"
+    ]
+  },
+  {
+    "n": "Caneco Gelado do Mário",
+    "cat": "bar",
+    "end": "Rua Visconde do Uruguai, 288, Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Boteco clássico do Centro de Niterói, famoso pelo chope e pelos frutos do mar."
+  },
+  {
+    "n": "Alcazar",
+    "cat": "bar",
+    "end": "Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Bar tradicional de Icaraí, ponto de encontro há décadas."
+  }
+]

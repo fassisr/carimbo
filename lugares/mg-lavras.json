@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Praça Dr. Augusto Silva",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Praça central arborizada, ponto de encontro da cidade.",
+    "busca": [
+      "Praça Augusto Silva"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Sant'Ana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Matriz da padroeira, com torres que marcam o centro de Lavras."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Igreja colonial do século XVIII, a mais antiga da cidade."
+  },
+  {
+    "n": "Parque Ecológico Quedas do Rio Bonito",
+    "cat": "verde",
+    "end": "Lavras",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Parque com cachoeiras, trilhas e mata nativa perto da cidade."
+  },
+  {
+    "n": "Mercado Municipal de Lavras",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Mercado com queijos, doces e cafés da região."
+  },
+  {
+    "n": "Museu Bi Moreira",
+    "cat": "cultura",
+    "end": "UFLA, Lavras",
+    "cidade": "Lavras",
+    "uf": "MG",
+    "d": "Museu da universidade com acervo de história e cultura regional."
+  }
+]

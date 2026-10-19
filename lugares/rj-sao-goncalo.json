@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Fazenda Colubandê",
+    "cat": "cultura",
+    "end": "Colubandê",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Sede de fazenda colonial com capela, patrimônio tombado da cidade."
+  },
+  {
+    "n": "Igreja Matriz de São Gonçalo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Matriz do padroeiro que dá nome à cidade.",
+    "busca": [
+      "Igreja Matriz de São Gonçalo do Amarante"
+    ]
+  },
+  {
+    "n": "Praça Zé Garoto",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Praça central de São Gonçalo, ponto de encontro e de eventos."
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "n": "Jardim Botânico da UFJF",
+    "cat": "verde",
+    "end": "São Pedro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Grande área de Mata Atlântica com trilhas e estufas dentro da cidade."
+  },
+  {
+    "n": "Museu Ferroviário de Juiz de Fora",
+    "cat": "cultura",
+    "end": "Avenida Brasil, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Antiga estação com locomotivas e peças da história ferroviária."
+  },
+  {
+    "n": "Parque da Lajinha",
+    "cat": "verde",
+    "end": "Lajinha",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Parque com lago, trilhas e muito verde, querido pelas famílias."
+  },
+  {
+    "n": "Fórum da Cultura",
+    "cat": "cultura",
+    "end": "Rua Santo Antônio, 1112, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Casarão da UFJF com exposições, teatro e programação cultural."
+  },
+  {
+    "n": "Calçadão da Rua Halfeld",
+    "cat": "cultura",
+    "end": "Rua Halfeld, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "O calçadão mais movimentado da cidade, coração comercial de Juiz de Fora."
+  },
+  {
+    "n": "Igreja da Glória",
+    "cat": "cultura",
+    "end": "Glória",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Igreja histórica do bairro da Glória, ligada aos imigrantes alemães.",
+    "busca": [
+      "Igreja de Nossa Senhora da Glória"
+    ]
+  },
+  {
+    "n": "Casa d'Itália",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Prédio histórico da colônia italiana, hoje espaço de cultura."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "n": "Ponte de Pedra",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Arco natural de pedra sobre o rio, uma das formações mais bonitas do parque."
+  },
+  {
+    "n": "Gruta dos Viajantes",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Gruta de quartzito com salões amplos, parada clássica do Circuito do Pião."
+  },
+  {
+    "n": "Lago dos Espelhos",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Poço de água escura que reflete o céu, perto da entrada do parque."
+  },
+  {
+    "n": "Prainha",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Remanso de areia no rio, ótimo para um mergulho gelado."
+  },
+  {
+    "n": "Cachoeira dos Macacos",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Cachoeira de fácil acesso no Circuito das Águas do parque."
+  },
+  {
+    "n": "Pico do Pião",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Um dos pontos mais altos do parque, com vista da serra inteira."
+  },
+  {
+    "n": "Cachoeirinha",
+    "cat": "verde",
+    "end": "Parque Estadual do Ibitipoca",
+    "cidade": "Lima Duarte",
+    "uf": "MG",
+    "d": "Pequena queda d'água de águas cor de chá no Circuito das Águas."
+  }
+]

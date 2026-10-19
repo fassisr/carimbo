@@ -1,0 +1,50 @@
+[
+  {
+    "n": "Praia de Itaoca",
+    "cat": "verde",
+    "end": "Itaoca",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Praia calma e rochosa com quiosques e esportes náuticos."
+  },
+  {
+    "n": "Praia de Itaipava",
+    "cat": "verde",
+    "end": "Itaipava",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Vila pesqueira com orla de restaurantes de frutos do mar."
+  },
+  {
+    "n": "Ilha dos Franceses",
+    "cat": "verde",
+    "end": "Itaoca",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Ilha preservada com trilhas e fauna protegida, acessível de barco."
+  },
+  {
+    "n": "Deck's Bar e Restaurante",
+    "cat": "bar",
+    "end": "Praia de Itaoca",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Bar de frente para o mar conhecido pelos frutos do mar."
+  },
+  {
+    "n": "Restaurante Avenida",
+    "cat": "comida",
+    "end": "Itaipava",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Restaurante famoso pelo almoço de domingo com pratos de polvo."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Amparo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itapemirim",
+    "uf": "ES",
+    "d": "Igreja matriz histórica da sede de Itapemirim."
+  }
+]

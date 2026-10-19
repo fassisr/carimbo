@@ -1,0 +1,99 @@
+[
+  {
+    "n": "Praça Olímpio Campos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Praça diante da catedral, coração do centro antigo."
+  },
+  {
+    "n": "Igreja de São Salvador",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Uma das igrejas mais antigas de Aracaju, no centro comercial."
+  },
+  {
+    "n": "Colina de Santo Antônio",
+    "cat": "cultura",
+    "end": "Santo Antônio",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Ponto onde a cidade nasceu, com igreja e vista para o rio Sergipe.",
+    "busca": [
+      "Igreja de Santo Antônio"
+    ]
+  },
+  {
+    "n": "Calçadão da Rua João Pessoa",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Rua de pedestres do comércio tradicional, perto dos mercados."
+  },
+  {
+    "n": "Arcos da Orla de Atalaia",
+    "cat": "cultura",
+    "end": "Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Grandes arcos na orla, cartão-postal e ponto de fotos."
+  },
+  {
+    "n": "Lagos da Orla",
+    "cat": "verde",
+    "end": "Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Lagos com pedalinhos e pistas na orla de Atalaia."
+  },
+  {
+    "n": "Parque da Sementeira",
+    "cat": "verde",
+    "end": "Jardins",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Parque grande com lago, pista de cooper e muita sombra.",
+    "busca": [
+      "Parque Governador Augusto Franco"
+    ]
+  },
+  {
+    "n": "Orla Pôr do Sol",
+    "cat": "verde",
+    "end": "Mosqueiro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Orla à beira do rio Vaza-Barris, famosa pelo pôr do sol."
+  },
+  {
+    "n": "Praia do Refúgio",
+    "cat": "verde",
+    "end": "Mosqueiro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Praia mais afastada e tranquila, perto da foz do Vaza-Barris."
+  },
+  {
+    "n": "Mercado Albano Franco",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Mercado popular com frutas, farinhas e artesanato sergipano."
+  },
+  {
+    "n": "Restaurante O Miguel",
+    "cat": "comida",
+    "end": "Atalaia",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "d": "Restaurante clássico de carne de sol e comida sergipana.",
+    "busca": [
+      "O Miguel"
+    ]
+  }
+]

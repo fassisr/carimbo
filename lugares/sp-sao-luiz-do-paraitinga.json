@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Igreja Matriz São Luiz de Tolosa",
+    "cat": "cultura",
+    "end": "Praça Oswaldo Cruz, Centro",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Matriz reconstruída após a enchente de 2010, símbolo da cidade.",
+    "busca": [
+      "Matriz de São Luiz do Paraitinga"
+    ]
+  },
+  {
+    "n": "Capela das Mercês",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Capela setecentista, uma das construções mais antigas da cidade."
+  },
+  {
+    "n": "Casa Oswaldo Cruz",
+    "cat": "cultura",
+    "end": "Praça Oswaldo Cruz, Centro",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Casa natal do sanitarista Oswaldo Cruz, hoje espaço cultural."
+  },
+  {
+    "n": "Praça Oswaldo Cruz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Praça cercada de casarões coloniais, palco do famoso carnaval de marchinhas."
+  },
+  {
+    "n": "Mercado Municipal de São Luiz do Paraitinga",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Mercado com comidas caipiras e o tradicional afogado."
+  },
+  {
+    "n": "Núcleo Santa Virgínia",
+    "cat": "verde",
+    "end": "Parque Estadual da Serra do Mar",
+    "cidade": "São Luiz do Paraitinga",
+    "uf": "SP",
+    "d": "Trilhas, cachoeiras e rafting em mata atlântica.",
+    "busca": [
+      "Parque Estadual da Serra do Mar Núcleo Santa Virgínia"
+    ]
+  }
+]

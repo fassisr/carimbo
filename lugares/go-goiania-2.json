@@ -1,0 +1,160 @@
+[
+  {
+    "n": "Museu de Arte de Goiânia",
+    "cat": "cultura",
+    "end": "Bosque dos Buritis, Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Museu municipal no Bosque dos Buritis, com arte goiana."
+  },
+  {
+    "n": "Centro Cultural Martim Cererê",
+    "cat": "cultura",
+    "end": "Setor Sul",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Antigos reservatórios de água convertidos em teatros, palco do rock goiano."
+  },
+  {
+    "n": "Centro de Cultura e Convenções de Goiânia",
+    "cat": "cultura",
+    "end": "Rua 4, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Complexo com o Teatro Rio Vermelho, principal palco da cidade.",
+    "busca": [
+      "Teatro Rio Vermelho"
+    ]
+  },
+  {
+    "n": "Grande Hotel",
+    "cat": "cultura",
+    "end": "Avenida Goiás, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Primeiro hotel da capital, prédio art déco símbolo da fundação de Goiânia."
+  },
+  {
+    "n": "Museu Pedro Ludovico Teixeira",
+    "cat": "cultura",
+    "end": "Rua Dona Gercina Borges, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Casa do fundador de Goiânia, preservada com móveis da época."
+  },
+  {
+    "n": "Monumento às Três Raças",
+    "cat": "cultura",
+    "end": "Praça Cívica, Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Escultura que homenageia as raças formadoras do povo goiano."
+  },
+  {
+    "n": "Museu Antropológico da UFG",
+    "cat": "cultura",
+    "end": "Praça Universitária, Setor Universitário",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Museu com acervo indígena e de cultura popular do Centro-Oeste."
+  },
+  {
+    "n": "Memorial do Cerrado",
+    "cat": "cultura",
+    "end": "PUC Goiás, Jardim Mariliza",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Museu ao ar livre com réplicas de aldeia, quilombo e vila do cerrado."
+  },
+  {
+    "n": "Cine Ouro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Cinema de rua histórico do centro, hoje espaço cultural."
+  },
+  {
+    "n": "Planetário da UFG",
+    "cat": "cultura",
+    "end": "Parque Mutirama, Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Planetário com sessões de astronomia para todas as idades."
+  },
+  {
+    "n": "Parque Mutirama",
+    "cat": "verde",
+    "end": "Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque de diversões público às margens do córrego Botafogo."
+  },
+  {
+    "n": "Praça Universitária",
+    "cat": "verde",
+    "end": "Setor Universitário",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Praça ampla com esculturas e clima de bairro estudantil."
+  },
+  {
+    "n": "Parque Areião",
+    "cat": "verde",
+    "end": "Setor Pedro Ludovico",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque de mata nativa com lagos e pista de caminhada."
+  },
+  {
+    "n": "Jardim Botânico Amália Hermano Teixeira",
+    "cat": "verde",
+    "end": "Setor Pedro Ludovico",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Grande área de cerrado com nascentes e trilhas.",
+    "busca": [
+      "Jardim Botânico de Goiânia"
+    ]
+  },
+  {
+    "n": "Zoológico de Goiânia",
+    "cat": "verde",
+    "end": "Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Zoológico ao lado do Lago das Rosas, com animais do cerrado."
+  },
+  {
+    "n": "Parque Cascavel",
+    "cat": "verde",
+    "end": "Jardim Atlântico",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque com lago e orla movimentada no fim de tarde."
+  },
+  {
+    "n": "Praça Tamandaré",
+    "cat": "verde",
+    "end": "Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Praça arborizada cercada de bares e restaurantes."
+  },
+  {
+    "n": "Praça do Sol",
+    "cat": "verde",
+    "end": "Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Praça que recebe a Feira do Sol e encontros de fim de semana."
+  },
+  {
+    "n": "Feira do Sol",
+    "cat": "comida",
+    "end": "Praça do Sol, Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Feira de domingo com barracas de comida típica e artesanato."
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "n": "Palácio La Ravardière",
+    "cat": "cultura",
+    "end": "Avenida Dom Pedro II, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Sede da prefeitura, com o nome do fundador francês de São Luís."
+  },
+  {
+    "n": "Praça Dom Pedro II",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praça diante dos palácios e da catedral, com vista para a baía."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Praça João Lisboa, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Igreja carmelita do século XVII no coração do centro."
+  },
+  {
+    "n": "Praça João Lisboa",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praça movimentada do centro, ao lado do Largo do Carmo."
+  },
+  {
+    "n": "Igreja de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Igreja e convento franciscano entre os mais antigos da cidade."
+  },
+  {
+    "n": "Igreja de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Praça Gonçalves Dias, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Igreja neogótica de frente para o mar, na praça do poeta."
+  },
+  {
+    "n": "Praça Gonçalves Dias",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Mirante com estátua do poeta e vista para a baía de São Marcos."
+  },
+  {
+    "n": "Praça Benedito Leite",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praça arborizada entre a catedral e o centro histórico."
+  },
+  {
+    "n": "Museu de Arte Sacra do Maranhão",
+    "cat": "cultura",
+    "end": "Rua 13 de Maio, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Casarão com imagens e peças sacras dos séculos XVII a XIX."
+  },
+  {
+    "n": "Casa de Nhozinho",
+    "cat": "cultura",
+    "end": "Rua Portugal, Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Museu de brinquedos e cultura popular maranhense."
+  },
+  {
+    "n": "Museu do Reggae",
+    "cat": "cultura",
+    "end": "Rua da Estrela, Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Primeiro museu do reggae fora da Jamaica, celebrando a Jamaica brasileira."
+  },
+  {
+    "n": "Centro de Pesquisa de História Natural e Arqueologia do Maranhão",
+    "cat": "cultura",
+    "end": "Rua do Giz, Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Museu com fósseis e peças arqueológicas do Maranhão."
+  },
+  {
+    "n": "Casa das Minas",
+    "cat": "cultura",
+    "end": "Rua de São Pantaleão, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Terreiro de tambor de mina fundado no século XIX, patrimônio do Brasil."
+  },
+  {
+    "n": "Cafua das Mercês",
+    "cat": "cultura",
+    "end": "Rua Jacinto Maia, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Antigo mercado de escravizados que hoje abriga o Museu do Negro.",
+    "busca": [
+      "Museu do Negro"
+    ]
+  },
+  {
+    "n": "Beco Catarina Mina",
+    "cat": "cultura",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Escadaria de pedra com casarões azulejados, cartão-postal do centro."
+  },
+  {
+    "n": "Fonte das Pedras",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Fonte colonial em área verde onde os franceses teriam se abastecido."
+  },
+  {
+    "n": "Biblioteca Pública Benedito Leite",
+    "cat": "cultura",
+    "end": "Praça do Panteon, Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Biblioteca centenária em frente à praça dos bustos de escritores."
+  },
+  {
+    "n": "Teatro João do Vale",
+    "cat": "cultura",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Teatro no centro histórico dedicado ao compositor maranhense."
+  },
+  {
+    "n": "Solar dos Vasconcelos",
+    "cat": "cultura",
+    "end": "Praia Grande",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Casarão azulejado com exposição sobre o centro histórico."
+  },
+  {
+    "n": "Praia do Olho d'Água",
+    "cat": "verde",
+    "end": "Olho d'Água",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praia larga com falésias e barracas, boa para longas caminhadas."
+  },
+  {
+    "n": "Praia de São Marcos",
+    "cat": "verde",
+    "end": "São Marcos",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Praia com ondas, ponto de surfe e do Forte de São Marcos."
+  },
+  {
+    "n": "Parque Estadual do Bacanga",
+    "cat": "verde",
+    "end": "Bacanga",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Área de mata e manguezal com trilhas e a Fonte do Bispo."
+  },
+  {
+    "n": "Feira do João Paulo",
+    "cat": "comida",
+    "end": "João Paulo",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "d": "Feira tradicional com peixe, camarão seco e café da manhã regional."
+  }
+]

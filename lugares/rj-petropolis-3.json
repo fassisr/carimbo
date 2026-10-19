@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Castelo de Itaipava",
+    "cat": "cultura",
+    "end": "Itaipava",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Castelo em estilo medieval no vale de Itaipava, usado para eventos."
+  },
+  {
+    "n": "Feirinha de Itaipava",
+    "cat": "comida",
+    "end": "Estrada União e Indústria, Itaipava",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Feira de produtores com queijos, doces, embutidos e artesanato da serra."
+  },
+  {
+    "n": "Parador Valencia",
+    "cat": "comida",
+    "end": "Itaipava",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Restaurante espanhol famoso pela paella, endereço clássico da serra."
+  },
+  {
+    "n": "Trutas do Rocio",
+    "cat": "comida",
+    "end": "Rocio",
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "d": "Truticultura e restaurante no meio da mata, com trutas fresquinhas."
+  }
+]

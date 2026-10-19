@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Thermas dos Laranjais",
+    "cat": "verde",
+    "end": "Avenida do Folclore, Olímpia",
+    "cidade": "Olímpia",
+    "uf": "SP",
+    "d": "Um dos maiores parques aquáticos do Brasil, com águas termais."
+  },
+  {
+    "n": "Hot Beach Olímpia",
+    "cat": "verde",
+    "end": "Olímpia",
+    "cidade": "Olímpia",
+    "uf": "SP",
+    "d": "Parque aquático de águas quentes com praia artificial.",
+    "busca": [
+      "Hot Beach"
+    ]
+  },
+  {
+    "n": "Museu de História e Folclore Maria Olímpia",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Olímpia",
+    "uf": "SP",
+    "d": "Museu dedicado ao folclore na capital nacional do festival folclórico."
+  }
+]

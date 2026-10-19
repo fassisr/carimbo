@@ -1,0 +1,58 @@
+[
+  {
+    "n": "Igreja Matriz de Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Matriz colonial do século XVIII no centro histórico tombado do Serro."
+  },
+  {
+    "n": "Igreja de Santa Rita",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Igrejinha no alto de uma escadaria de pedra, cartão-postal do Serro."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Igreja das irmandades negras, palco da tradicional Festa do Rosário."
+  },
+  {
+    "n": "Museu Regional Casa dos Ottoni",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Casarão da família Ottoni com acervo sobre a história da região."
+  },
+  {
+    "n": "Chácara do Barão do Serro",
+    "cat": "cultura",
+    "end": "Serro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Casa senhorial do século XIX com jardins e vista para a cidade."
+  },
+  {
+    "n": "Pico do Itambé",
+    "cat": "verde",
+    "end": "Serra do Espinhaço",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Ponto culminante da Serra do Espinhaço, desafio para quem gosta de trilha."
+  },
+  {
+    "n": "Cachoeira do Moinho",
+    "cat": "verde",
+    "end": "Serro",
+    "cidade": "Serro",
+    "uf": "MG",
+    "d": "Cachoeira de fácil acesso perto da cidade, boa para um banho."
+  }
+]

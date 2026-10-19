@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Paróquia São Pedro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Igreja matriz da cidade às margens do Rio Doce.",
+    "busca": [
+      "Igreja Matriz São Pedro"
+    ]
+  },
+  {
+    "n": "Praça São José",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Praça central e ponto de encontro da cidade."
+  },
+  {
+    "n": "Estação Ferroviária de Baixo Guandu",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Estação da Vitória a Minas, marco da história da cidade."
+  },
+  {
+    "n": "Mercado Municipal de Baixo Guandu",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Mercado com produtos da roça e comida local."
+  },
+  {
+    "n": "Parque da Lagoa",
+    "cat": "verde",
+    "end": "Baixo Guandu",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Parque urbano em torno de lagoa para caminhar e relaxar."
+  },
+  {
+    "n": "Rampa do Monjolo",
+    "cat": "verde",
+    "end": "Monjolo",
+    "cidade": "Baixo Guandu",
+    "uf": "ES",
+    "d": "Rampa de voo livre com vista do vale do Rio Doce."
+  }
+]

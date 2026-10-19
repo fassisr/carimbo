@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Praia de Ponta Negra",
+    "cat": "verde",
+    "end": "Ponta Negra",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Praia de mar aberto com canal e ótima vista do farol."
+  },
+  {
+    "n": "Praia de Jaconé",
+    "cat": "verde",
+    "end": "Jaconé",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Praia selvagem de águas fortes na divisa com Saquarema."
+  },
+  {
+    "n": "Praia da Barra de Maricá",
+    "cat": "verde",
+    "end": "Barra de Maricá",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Praia entre o mar e a lagoa, com restinga preservada."
+  },
+  {
+    "n": "Restinga de Maricá",
+    "cat": "verde",
+    "end": "Barra de Maricá",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Área de proteção ambiental com dunas e vegetação de restinga.",
+    "busca": [
+      "APA de Maricá"
+    ]
+  },
+  {
+    "n": "Lagoa de Maricá",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Lagoa às margens do centro, boa para passeio no fim de tarde."
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Amparo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "d": "Igreja histórica do centro de Maricá, padroeira da cidade."
+  }
+]

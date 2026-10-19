@@ -1,0 +1,117 @@
+[
+  {
+    "n": "Praia de Cruz das Almas",
+    "cat": "verde",
+    "end": "Cruz das Almas",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia de ondas fortes, preferida pelos surfistas da cidade."
+  },
+  {
+    "n": "Praia de Guaxuma",
+    "cat": "verde",
+    "end": "Guaxuma",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia tranquila do litoral norte, cercada de coqueiros."
+  },
+  {
+    "n": "Praia de Riacho Doce",
+    "cat": "verde",
+    "end": "Riacho Doce",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Vila de pescadores com praia calma e jangadas na areia."
+  },
+  {
+    "n": "Praia da Avenida",
+    "cat": "verde",
+    "end": "Jaraguá",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praia urbana ao lado do bairro histórico de Jaraguá."
+  },
+  {
+    "n": "Lagoa Mundaú",
+    "cat": "verde",
+    "end": "Pontal da Barra",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Lagoa famosa pelo sururu e pelos passeios de barco às nove ilhas."
+  },
+  {
+    "n": "Rua Sá e Albuquerque",
+    "cat": "cultura",
+    "end": "Jaraguá",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Rua de casarões históricos do bairro portuário de Jaraguá."
+  },
+  {
+    "n": "Igreja de Nossa Senhora Mãe do Povo",
+    "cat": "cultura",
+    "end": "Jaraguá",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Igreja do século XVIII, uma das mais antigas de Maceió."
+  },
+  {
+    "n": "Museu da Imagem e do Som de Alagoas",
+    "cat": "cultura",
+    "end": "Jaraguá",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Museu em casarão histórico com acervo de fotos e sons de Alagoas.",
+    "busca": [
+      "MISA"
+    ]
+  },
+  {
+    "n": "Instituto Histórico e Geográfico de Alagoas",
+    "cat": "cultura",
+    "end": "Rua do Sol, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Instituto do século XIX com museu de história e etnografia alagoana."
+  },
+  {
+    "n": "Igreja de Bom Jesus dos Martírios",
+    "cat": "cultura",
+    "end": "Praça dos Martírios, Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Igreja com fachada de azulejos ao lado do Palácio Floriano Peixoto."
+  },
+  {
+    "n": "Praça dos Martírios",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praça cívica do centro, entre a igreja dos Martírios e o palácio do governo."
+  },
+  {
+    "n": "Praça Sinimbu",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Praça arborizada e tradicional do centro de Maceió."
+  },
+  {
+    "n": "Teatro Gustavo Leite",
+    "cat": "cultura",
+    "end": "Centro de Convenções, Jaraguá",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Principal teatro de espetáculos de grande porte da cidade."
+  },
+  {
+    "n": "Sete Coqueiros",
+    "cat": "comida",
+    "end": "Pajuçara",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "d": "Restaurante tradicional de comida regional e frutos do mar na orla."
+  }
+]

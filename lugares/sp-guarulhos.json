@@ -1,0 +1,73 @@
+[
+  {
+    "n": "Bosque Maia",
+    "cat": "verde",
+    "end": "Avenida Paulo Faccini, Macedo",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Principal parque da cidade, com lago, pista de caminhada e área de lazer.",
+    "busca": [
+      "Parque Municipal Bosque Maia"
+    ]
+  },
+  {
+    "n": "Lago dos Patos",
+    "cat": "verde",
+    "end": "Vila Galvão",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Lago arborizado e tradicional ponto de passeio na Vila Galvão."
+  },
+  {
+    "n": "Núcleo Cabuçu",
+    "cat": "verde",
+    "end": "Parque Estadual da Cantareira, Cabuçu",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Entrada da Cantareira em Guarulhos, com trilhas e represa antiga.",
+    "busca": [
+      "Parque Estadual da Cantareira Núcleo Cabuçu"
+    ]
+  },
+  {
+    "n": "Catedral Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Praça Tereza Cristina, Centro",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Matriz histórica no coração de Guarulhos.",
+    "busca": [
+      "Catedral de Guarulhos"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Bonsucesso",
+    "cat": "cultura",
+    "end": "Bonsucesso",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Igreja colonial, cenário de uma das festas religiosas mais antigas da região.",
+    "busca": [
+      "Igreja do Bonsucesso"
+    ]
+  },
+  {
+    "n": "Teatro Adamastor",
+    "cat": "cultura",
+    "end": "Avenida Monteiro Lobato, 734, Macedo",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Principal teatro da cidade, com programação de peças e shows.",
+    "busca": [
+      "Teatro Adamastor Centro"
+    ]
+  },
+  {
+    "n": "Sesc Guarulhos",
+    "cat": "cultura",
+    "end": "Rua Guilherme Lino dos Santos, 1200, Jardim Flor do Campo",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Unidade moderna com piscinas, teatro e programação cultural."
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "n": "Palácio da Alvorada",
+    "cat": "cultura",
+    "end": "Setor de Hotéis e Turismo Norte, Lago Paranoá",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Residência oficial da Presidência, com as colunas de Niemeyer à beira do lago."
+  },
+  {
+    "n": "Palácio do Planalto",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Sede do governo federal, com visitas guiadas aos domingos."
+  },
+  {
+    "n": "Panteão da Pátria e da Liberdade Tancredo Neves",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Monumento em forma de pomba que guarda o Livro dos Heróis da Pátria.",
+    "busca": [
+      "Panteão da Pátria"
+    ]
+  },
+  {
+    "n": "Espaço Lucio Costa",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Maquete gigante do Plano Piloto e a história do projeto da capital."
+  },
+  {
+    "n": "Supremo Tribunal Federal",
+    "cat": "cultura",
+    "end": "Praça dos Três Poderes",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Edifício modernista do STF, com a escultura A Justiça na frente.",
+    "busca": [
+      "STF"
+    ]
+  },
+  {
+    "n": "Palácio da Justiça",
+    "cat": "cultura",
+    "end": "Esplanada dos Ministérios",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Palácio de Niemeyer com cascatas de água na fachada."
+  },
+  {
+    "n": "Esplanada dos Ministérios",
+    "cat": "cultura",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Gramado monumental entre os ministérios, o eixo cívico da capital."
+  },
+  {
+    "n": "Biblioteca Nacional de Brasília",
+    "cat": "cultura",
+    "end": "Setor Cultural Sul, Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Biblioteca de Niemeyer ao lado do Museu Nacional, com acervo aberto."
+  },
+  {
+    "n": "Teatro Nacional Cláudio Santoro",
+    "cat": "cultura",
+    "end": "Setor Cultural Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Teatro em forma de pirâmide com fachadas de Athos Bulcão."
+  },
+  {
+    "n": "Memorial dos Povos Indígenas",
+    "cat": "cultura",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Museu circular de Niemeyer dedicado à cultura indígena."
+  },
+  {
+    "n": "Catetinho",
+    "cat": "cultura",
+    "end": "BR-040, Park Way",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Primeira residência de JK em Brasília, um palácio de tábuas no meio do cerrado."
+  },
+  {
+    "n": "Templo da Boa Vontade",
+    "cat": "cultura",
+    "end": "SGAS 915, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Pirâmide de sete faces com um grande cristal no topo, aberta a todas as crenças."
+  },
+  {
+    "n": "Museu Vivo da Memória Candanga",
+    "cat": "cultura",
+    "end": "Núcleo Bandeirante",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Antigo hospital de madeira que conta a história dos construtores de Brasília."
+  },
+  {
+    "n": "Caixa Cultural Brasília",
+    "cat": "cultura",
+    "end": "SBS Quadra 4, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Centro cultural com exposições, teatro e programação gratuita."
+  },
+  {
+    "n": "Clube do Choro",
+    "cat": "cultura",
+    "end": "Eixo Monumental, Setor de Divulgação Cultural",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Casa de shows dedicada ao choro, referência nacional do gênero."
+  },
+  {
+    "n": "Superquadra 308 Sul",
+    "cat": "cultura",
+    "end": "SQS 308, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Superquadra modelo de Lucio Costa, com pilotis, jardins de Burle Marx e a Igrejinha."
+  },
+  {
+    "n": "Concha Acústica de Brasília",
+    "cat": "cultura",
+    "end": "Setor de Clubes Esportivos Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Palco ao ar livre à beira do Lago Paranoá."
+  },
+  {
+    "n": "Torre de TV Digital",
+    "cat": "cultura",
+    "end": "Lago Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Torre de Niemeyer em forma de flor, com mirante sobre a cidade.",
+    "busca": [
+      "Torre Digital de Brasília"
+    ]
+  },
+  {
+    "n": "Parque Olhos d'Água",
+    "cat": "verde",
+    "end": "Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Parque com nascente e trilhas no meio das superquadras."
+  },
+  {
+    "n": "Jardim Zoológico de Brasília",
+    "cat": "verde",
+    "end": "Avenida das Nações, Via L4 Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Zoológico amplo com animais do cerrado e de outros continentes."
+  },
+  {
+    "n": "Prainha do Lago Norte",
+    "cat": "verde",
+    "end": "Lago Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Área de lazer à beira do Lago Paranoá, com quiosques e pôr do sol."
+  },
+  {
+    "n": "Feitiço Mineiro",
+    "cat": "comida",
+    "end": "306 Norte, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Restaurante de comida mineira com música ao vivo, tradicional na Asa Norte."
+  },
+  {
+    "n": "Bar do Calaf",
+    "cat": "bar",
+    "end": "Setor Bancário Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Bar tradicional do Setor Bancário, ponto de encontro de músicos e jornalistas."
+  },
+  {
+    "n": "Pastel Viçosa",
+    "cat": "comida",
+    "end": "Rodoviária do Plano Piloto",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "O pastel com caldo de cana da Rodoviária, programa clássico de Brasília."
+  }
+]

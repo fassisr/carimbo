@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Encontro dos Três Rios",
+    "cat": "verde",
+    "end": "Três Rios",
+    "cidade": "Três Rios",
+    "uf": "RJ",
+    "d": "Ponto onde se encontram os rios Paraíba do Sul, Paraibuna e Piabanha.",
+    "busca": [
+      "Encontro dos Rios"
+    ]
+  },
+  {
+    "n": "Praça São Sebastião",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Três Rios",
+    "uf": "RJ",
+    "d": "Praça central da cidade, com a igreja matriz e muito movimento."
+  }
+]

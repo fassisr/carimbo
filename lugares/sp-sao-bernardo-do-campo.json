@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Cidade da Criança",
+    "cat": "verde",
+    "end": "Rua Tasman, 301, Jardim do Mar",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Parque temático pioneiro do Brasil, com brinquedos e cenários de novela."
+  },
+  {
+    "n": "Parque Estoril",
+    "cat": "verde",
+    "end": "Riacho Grande",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Parque às margens da Represa Billings com tirolesa, lago e zoológico.",
+    "busca": [
+      "Parque Municipal Estoril"
+    ]
+  }
+]

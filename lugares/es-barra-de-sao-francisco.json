@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Igreja Matriz São Francisco de Assis",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Barra de São Francisco",
+    "uf": "ES",
+    "d": "Matriz de 1955 no centro da cidade."
+  },
+  {
+    "n": "Parque Municipal Natural Sombra da Tarde",
+    "cat": "verde",
+    "end": "Barra de São Francisco",
+    "cidade": "Barra de São Francisco",
+    "uf": "ES",
+    "d": "Área de preservação com mata nativa e trilhas curtas."
+  },
+  {
+    "n": "Mirante da Torre",
+    "cat": "verde",
+    "end": "Barra de São Francisco",
+    "cidade": "Barra de São Francisco",
+    "uf": "ES",
+    "d": "Mirante com vista da cidade e das grandes formações de pedra."
+  }
+]

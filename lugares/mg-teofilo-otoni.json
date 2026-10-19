@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Praça Tiradentes",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teófilo Otoni",
+    "uf": "MG",
+    "d": "A praça central da cidade, cercada de comércio e movimento."
+  },
+  {
+    "n": "Catedral Imaculada Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Teófilo Otoni",
+    "uf": "MG",
+    "d": "Catedral da cidade, com torres que se destacam no centro.",
+    "busca": [
+      "Catedral Metropolitana de Teófilo Otoni"
+    ]
+  },
+  {
+    "n": "Mercado Municipal",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Teófilo Otoni",
+    "uf": "MG",
+    "d": "Mercado popular com produtos do Vale do Mucuri e comida de roça.",
+    "busca": [
+      "Mercado Municipal de Teófilo Otoni"
+    ]
+  },
+  {
+    "n": "Praça Germânica",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teófilo Otoni",
+    "uf": "MG",
+    "d": "Praça que lembra a imigração alemã que ajudou a fundar a cidade."
+  },
+  {
+    "n": "Santuário do Senhor Bom Jesus",
+    "cat": "cultura",
+    "end": "Teófilo Otoni",
+    "cidade": "Teófilo Otoni",
+    "uf": "MG",
+    "d": "Santuário de devoção popular e romarias na cidade."
+  }
+]

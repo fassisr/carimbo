@@ -1,0 +1,403 @@
+[
+  {
+    "n": "Museu Inimá de Paula",
+    "cat": "cultura",
+    "end": "Rua da Bahia, 1201, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Casarão art déco com a obra do pintor Inimá de Paula e mostras temporárias."
+  },
+  {
+    "n": "Centro Cultural UFMG",
+    "cat": "cultura",
+    "end": "Avenida Santos Dumont, 174, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Prédio histórico da universidade com exposições, shows e cinema a preço camarada."
+  },
+  {
+    "n": "Teatro Francisco Nunes",
+    "cat": "cultura",
+    "end": "Parque Municipal, Avenida Afonso Pena, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Teatro modernista escondido entre as árvores do Parque Municipal."
+  },
+  {
+    "n": "Museu Casa Kubitschek",
+    "cat": "cultura",
+    "end": "Avenida Otacílio Negrão de Lima, 4188, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Casa de veraneio de JK projetada por Niemeyer, com jardins de Burle Marx."
+  },
+  {
+    "n": "Feira Hippie",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "A maior feira de artesanato a céu aberto do país, todo domingo na Afonso Pena.",
+    "busca": [
+      "Feira de Artes, Artesanato e Produtores de Variedades de Belo Horizonte"
+    ]
+  },
+  {
+    "n": "Edifício Niemeyer",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Prédio residencial de curvas famosas, ícone da arquitetura moderna em BH."
+  },
+  {
+    "n": "Espaço do Conhecimento UFMG",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Museu de ciência com planetário e fachada que vira telão à noite."
+  },
+  {
+    "n": "Centro de Arte Popular",
+    "cat": "cultura",
+    "end": "Rua Gonçalves Dias, 1608, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Acervo de arte popular mineira, do barro do Jequitinhonha às carrancas.",
+    "busca": [
+      "Centro de Arte Popular Cemig"
+    ]
+  },
+  {
+    "n": "Museu dos Brinquedos",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, 2564, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Casarão cheio de brinquedos antigos que encanta crianças e adultos nostálgicos."
+  },
+  {
+    "n": "Museu de Ciências Naturais PUC Minas",
+    "cat": "cultura",
+    "end": "Avenida Dom José Gaspar, 290, Coração Eucarístico",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Fósseis da megafauna e réplicas de animais pré-históricos achados em Minas."
+  },
+  {
+    "n": "Museu Brasileiro do Futebol",
+    "cat": "cultura",
+    "end": "Avenida Antônio Abrahão Caram, 1001, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Museu dentro do Mineirão que conta a história do futebol mineiro e brasileiro.",
+    "busca": [
+      "Museu do Futebol Mineirão"
+    ]
+  },
+  {
+    "n": "Funarte MG",
+    "cat": "cultura",
+    "end": "Rua Januária, 68, Floresta",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Galpões históricos que viraram palco de teatro, música e artes visuais.",
+    "busca": [
+      "Complexo Cultural Funarte MG"
+    ]
+  },
+  {
+    "n": "Teatro Marília",
+    "cat": "cultura",
+    "end": "Avenida Professor Alfredo Balena, 586, Santa Efigênia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Teatro municipal tradicional, casa da cena teatral independente de BH."
+  },
+  {
+    "n": "Museu da Moda de Belo Horizonte",
+    "cat": "cultura",
+    "end": "Rua da Bahia, 1149, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Museu da moda instalado num castelinho neogótico na Rua da Bahia.",
+    "busca": [
+      "MUMO"
+    ]
+  },
+  {
+    "n": "Conservatório UFMG",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, 1534, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Prédio histórico com recitais e concertos frequentes e gratuitos."
+  },
+  {
+    "n": "Livraria Ouvidor",
+    "cat": "cultura",
+    "end": "Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Livraria de rua querida pelos leitores de BH, com atendimento de quem entende."
+  },
+  {
+    "n": "Igreja de Santa Tereza e Santa Teresinha",
+    "cat": "cultura",
+    "end": "Praça Duque de Caxias, Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Igreja matriz do bairro mais boêmio de BH, no coração da praça.",
+    "busca": [
+      "Paróquia Santa Tereza e Santa Teresinha"
+    ]
+  },
+  {
+    "n": "Praça Raul Soares",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Praça circular com fonte luminosa no cruzamento de quatro avenidas do Centro."
+  },
+  {
+    "n": "Praça Diogo de Vasconcelos",
+    "cat": "verde",
+    "end": "Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "O coração da Savassi, cercado de bares, cafés e lojas.",
+    "busca": [
+      "Praça da Savassi"
+    ]
+  },
+  {
+    "n": "Praça Marília de Dirceu",
+    "cat": "verde",
+    "end": "Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Praça arborizada de Lourdes, cercada de restaurantes e boa para caminhar."
+  },
+  {
+    "n": "Praça JK",
+    "cat": "verde",
+    "end": "Sion",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Praça ampla no Sion com pista de caminhada e vista da Serra do Curral.",
+    "busca": [
+      "Praça Juscelino Kubitschek"
+    ]
+  },
+  {
+    "n": "Praça Carlos Chagas",
+    "cat": "verde",
+    "end": "Santo Agostinho",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Praça em frente à Assembleia Legislativa, ponto de encontro e de feiras.",
+    "busca": [
+      "Praça da Assembleia"
+    ]
+  },
+  {
+    "n": "Praça Floriano Peixoto",
+    "cat": "verde",
+    "end": "Santa Efigênia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Praça arborizada e tranquila no bairro Santa Efigênia, perto do Hospital Militar."
+  },
+  {
+    "n": "Parque da Serra do Curral",
+    "cat": "verde",
+    "end": "Avenida José do Patrocínio Pontes, Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Trilhas e mirantes no alto da serra símbolo de BH, com vista da cidade inteira."
+  },
+  {
+    "n": "Parque Ecológico Jacques Cousteau",
+    "cat": "verde",
+    "end": "Betânia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Parque verde na região Oeste com lagos, trilhas e muita sombra."
+  },
+  {
+    "n": "Parque Municipal Aggeo Pio Sobrinho",
+    "cat": "verde",
+    "end": "Buritis",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mata preservada no Buritis com trilhas e nascentes no meio da cidade."
+  },
+  {
+    "n": "Bar do Orlando",
+    "cat": "bar",
+    "end": "Rua Alvinópolis, 460, Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Considerado o bar mais antigo de BH, aberto desde 1919 em Santa Tereza."
+  },
+  {
+    "n": "Parada do Cardoso",
+    "cat": "bar",
+    "end": "Rua Dores do Indaiá, 409, Santa Tereza",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco de Santa Tereza famoso pelos petiscos e pelo clima de bairro."
+  },
+  {
+    "n": "Albanos",
+    "cat": "bar",
+    "end": "Rua Rio de Janeiro, 2076, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco clássico de BH, com chope gelado e tira-gostos caprichados."
+  },
+  {
+    "n": "A Obra",
+    "cat": "bar",
+    "end": "Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar dançante de porão na Savassi, templo do rock e da música alternativa.",
+    "busca": [
+      "A Obra Bar Dançante"
+    ]
+  },
+  {
+    "n": "Tizé",
+    "cat": "bar",
+    "end": "Rua Curitiba, 2205, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco de Lourdes conhecido pelos petiscos mineiros bem feitos."
+  },
+  {
+    "n": "Bar do Caixote",
+    "cat": "bar",
+    "end": "Rua Nogueira da Gama, 189, Coração Eucarístico",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco raiz de bairro, conhecido pelo clima descontraído e tira-gostos."
+  },
+  {
+    "n": "Distribuidora Goitacazes",
+    "cat": "bar",
+    "end": "Mercado Novo, Avenida Olegário Maciel, 742, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cerveja gelada e balcão de distribuidora no corredor mais animado do Mercado Novo."
+  },
+  {
+    "n": "Juramento 202",
+    "cat": "bar",
+    "end": "Rua Juramento, 202, Saudade",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco premiado com cozinha de raiz e quintal de bairro."
+  },
+  {
+    "n": "Quintal da Jabu",
+    "cat": "bar",
+    "end": "Rua Itamaracá, 296, Concórdia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco de quintal na Concórdia, famoso nos concursos de tira-gosto."
+  },
+  {
+    "n": "Canapé",
+    "cat": "bar",
+    "end": "Rua Major Lopes, 470, São Pedro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar de esquina querido perto da Savassi, bom para um chope sem pressa."
+  },
+  {
+    "n": "Patorroco",
+    "cat": "bar",
+    "end": "Prado",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco tradicional do Prado, conhecido pelo tropeiro e pelo pastel."
+  },
+  {
+    "n": "Café Magri",
+    "cat": "cafe",
+    "end": "Rua Professor Djalma Guimarães, 161, Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cafeteria de cafés especiais com doces caseiros no alto do Mangabeiras."
+  },
+  {
+    "n": "Academia do Café",
+    "cat": "cafe",
+    "end": "Rua Grão Pará, 1024, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Torrefação e cafeteria de referência em cafés especiais mineiros."
+  },
+  {
+    "n": "Café Dois Irmãos",
+    "cat": "cafe",
+    "end": "Mercado Central, Avenida Augusto de Lima, 744, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Balcão de café com pão de queijo no meio do burburinho do Mercado Central."
+  },
+  {
+    "n": "Vianney",
+    "cat": "doce",
+    "end": "Rua dos Aimorés, 200, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Padaria e confeitaria tradicional de BH, famosa pelos pães e doces finos."
+  },
+  {
+    "n": "Panificadora Portugal",
+    "cat": "doce",
+    "end": "Avenida Portugal, 1995, Santa Amélia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Padaria de bairro na Pampulha, cheia de pães, quitandas e doces mineiros."
+  },
+  {
+    "n": "Boníssima",
+    "cat": "doce",
+    "end": "Avenida Raja Gabáglia, 220, Gutierrez",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Padaria e empório querido pelo café da manhã farto e pães artesanais.",
+    "busca": [
+      "Boníssima Raja"
+    ]
+  },
+  {
+    "n": "Taste Vin",
+    "cat": "comida",
+    "end": "Rua Curitiba, 2105, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bistrô francês de longa data, famoso pelos suflês."
+  },
+  {
+    "n": "A Favorita",
+    "cat": "comida",
+    "end": "Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante contemporâneo de Lourdes, endereço certo para uma refeição especial."
+  },
+  {
+    "n": "Feira Coberta do Padre Eustáquio",
+    "cat": "comida",
+    "end": "Padre Eustáquio",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mercado de bairro com hortifrúti, queijos e botecos de balcão."
+  }
+]

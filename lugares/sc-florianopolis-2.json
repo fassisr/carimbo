@@ -1,0 +1,228 @@
+[
+  {
+    "n": "Museu Victor Meirelles",
+    "cat": "cultura",
+    "end": "Rua Victor Meirelles, 59, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Casa natal do pintor da Primeira Missa no Brasil, com obras e exposições."
+  },
+  {
+    "n": "Teatro Álvaro de Carvalho",
+    "cat": "cultura",
+    "end": "Rua Marechal Guilherme, 26, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Teatro do século XIX, o mais antigo de Santa Catarina.",
+    "busca": [
+      "TAC"
+    ]
+  },
+  {
+    "n": "Centro Integrado de Cultura",
+    "cat": "cultura",
+    "end": "Avenida Governador Irineu Bornhausen, 5600, Agronômica",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Complexo com teatro, cinema, museu de arte e planetário.",
+    "busca": [
+      "CIC"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário e São Benedito",
+    "cat": "cultura",
+    "end": "Escadaria do Rosário, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Igreja do século XVIII no alto de uma escadaria florida no centro."
+  },
+  {
+    "n": "Forte Sant'Ana",
+    "cat": "cultura",
+    "end": "Cabeceira insular da Ponte Hercílio Luz, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Pequeno forte colonial bem embaixo da ponte, com vista para a baía."
+  },
+  {
+    "n": "Fortaleza de Santo Antônio de Ratones",
+    "cat": "cultura",
+    "end": "Ilha de Ratones Grande",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Fortaleza do século XVIII numa ilhota da baía, visitada de barco."
+  },
+  {
+    "n": "Igreja de Nossa Senhora das Necessidades",
+    "cat": "cultura",
+    "end": "Santo Antônio de Lisboa",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Igreja açoriana do século XVIII no alto da praça de Santo Antônio de Lisboa."
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Lapa do Ribeirão",
+    "cat": "cultura",
+    "end": "Ribeirão da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Igreja colonial no centrinho açoriano do Ribeirão, de frente para o mar.",
+    "busca": [
+      "Igreja Nossa Senhora da Lapa"
+    ]
+  },
+  {
+    "n": "Projeto Tamar Florianópolis",
+    "cat": "verde",
+    "end": "Barra da Lagoa",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Base de proteção de tartarugas marinhas com tanques e exposição educativa.",
+    "busca": [
+      "Tamar Florianópolis"
+    ]
+  },
+  {
+    "n": "Jardim Botânico de Florianópolis",
+    "cat": "verde",
+    "end": "Itacorubi",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Jardim com lagos, viveiro e trilhas, boa pausa verde perto da UFSC."
+  },
+  {
+    "n": "Parque da Luz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Parque na cabeceira da Ponte Hercílio Luz, com a melhor vista da ponte."
+  },
+  {
+    "n": "Beira-Mar Norte",
+    "cat": "verde",
+    "end": "Avenida Beira-Mar Norte, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Calçadão à beira da baía, cheio de gente correndo e pedalando ao entardecer.",
+    "busca": [
+      "Avenida Beira-Mar Norte"
+    ]
+  },
+  {
+    "n": "Barra da Lagoa",
+    "cat": "verde",
+    "end": "Barra da Lagoa",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Vila de pescadores onde o canal da lagoa encontra o mar, com ponte pênsil e prainha."
+  },
+  {
+    "n": "Praia dos Ingleses",
+    "cat": "verde",
+    "end": "Ingleses",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia larga do norte da ilha, com dunas e mar mais calmo."
+  },
+  {
+    "n": "Praia do Santinho",
+    "cat": "verde",
+    "end": "Santinho",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de surfe com inscrições rupestres nas pedras do costão."
+  },
+  {
+    "n": "Praia de Jurerê Internacional",
+    "cat": "verde",
+    "end": "Jurerê Internacional",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de águas calmas famosa pelos beach clubs e casas de luxo.",
+    "busca": [
+      "Jurerê Internacional"
+    ]
+  },
+  {
+    "n": "Praia da Armação",
+    "cat": "verde",
+    "end": "Armação do Pântano do Sul",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia com igrejinha e ponto de saída para a Ilha do Campeche e o Matadeiro."
+  },
+  {
+    "n": "Praia do Matadeiro",
+    "cat": "verde",
+    "end": "Armação do Pântano do Sul",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Prainha selvagem acessada por trilha curta a partir da Armação."
+  },
+  {
+    "n": "Praia da Galheta",
+    "cat": "verde",
+    "end": "Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia rústica entre a Mole e a Barra, acessada só por trilha."
+  },
+  {
+    "n": "Dunas da Joaquina",
+    "cat": "verde",
+    "end": "Joaquina",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Dunas enormes onde se pratica sandboard, com vista para a praia."
+  },
+  {
+    "n": "Praia do Pântano do Sul",
+    "cat": "verde",
+    "end": "Pântano do Sul",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Vila de pescadores no sul da ilha, com barcos coloridos na areia."
+  },
+  {
+    "n": "Mirante da Lagoa",
+    "cat": "verde",
+    "end": "Rodovia Admar Gonzaga, Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Mirante na estrada do Morro da Lagoa com vista da lagoa e das dunas."
+  },
+  {
+    "n": "Praia de Canasvieiras",
+    "cat": "verde",
+    "end": "Canasvieiras",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de mar calmo no norte da ilha, querida por famílias e argentinos."
+  },
+  {
+    "n": "Chef Fedoca",
+    "cat": "comida",
+    "end": "Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Restaurante de frutos do mar à beira da lagoa, famoso pelas sequências de camarão."
+  },
+  {
+    "n": "Kibelândia",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Lanchonete clássica do centro, conhecida pelo quibe e pelo movimento de décadas."
+  },
+  {
+    "n": "Toca da Garoupa",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Restaurante de frutos do mar tradicional no centro, conhecido pelos pratos de peixe."
+  }
+]

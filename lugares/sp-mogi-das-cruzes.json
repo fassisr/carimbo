@@ -1,0 +1,59 @@
+[
+  {
+    "n": "Pico do Urubu",
+    "cat": "verde",
+    "end": "Serra do Itapeti",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Mirante com vista ampla da cidade, ponto de voo livre."
+  },
+  {
+    "n": "Igrejas do Carmo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Conjunto de igrejas carmelitas do século XVII, patrimônio tombado.",
+    "busca": [
+      "Igreja da Ordem Terceira do Carmo Mogi das Cruzes"
+    ]
+  },
+  {
+    "n": "Catedral de Sant'Ana",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Catedral da padroeira no centro histórico da cidade.",
+    "busca": [
+      "Catedral de Santana Mogi das Cruzes"
+    ]
+  },
+  {
+    "n": "Casarão do Chá",
+    "cat": "cultura",
+    "end": "Cocuera",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Casarão de madeira construído por imigrantes japoneses para processar chá."
+  },
+  {
+    "n": "Theatro Vasques",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Teatro histórico do início do século XX restaurado no centro."
+  },
+  {
+    "n": "Mercado Municipal de Mogi das Cruzes",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "d": "Mercado tradicional com pastéis, verduras e produtos da colônia japonesa.",
+    "busca": [
+      "Mercadão de Mogi"
+    ]
+  }
+]

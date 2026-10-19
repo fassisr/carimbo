@@ -1,0 +1,29 @@
+[
+  {
+    "n": "Pedra de São Domingos",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Pedra com vista ampla da Mantiqueira, um dos mirantes de Monte Verde."
+  },
+  {
+    "n": "Platô",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Trilha curta até um platô com vista do vale, ótima para o pôr do sol.",
+    "busca": [
+      "Trilha do Platô Monte Verde"
+    ]
+  },
+  {
+    "n": "Cachoeira do Rio Jaguari",
+    "cat": "verde",
+    "end": "Monte Verde",
+    "cidade": "Camanducaia",
+    "uf": "MG",
+    "d": "Cachoeira do Rio Jaguari em meio à mata de araucárias."
+  }
+]

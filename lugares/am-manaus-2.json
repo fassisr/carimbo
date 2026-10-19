@@ -1,0 +1,187 @@
+[
+  {
+    "n": "Paço da Liberdade",
+    "cat": "cultura",
+    "end": "Praça Dom Pedro II, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Antigo palácio municipal que abriga o Museu da Cidade de Manaus.",
+    "busca": [
+      "Museu da Cidade de Manaus"
+    ]
+  },
+  {
+    "n": "Praça Dom Pedro II",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praça com coreto de ferro e sítio arqueológico no centro histórico."
+  },
+  {
+    "n": "Centro Cultural Usina Chaminé",
+    "cat": "cultura",
+    "end": "Avenida Lourenço da Silva Braga, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Antiga usina de tratamento de esgoto à beira do Rio Negro, hoje espaço cultural."
+  },
+  {
+    "n": "Biblioteca Pública do Amazonas",
+    "cat": "cultura",
+    "end": "Rua Barroso, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Biblioteca de 1870 com escadaria de ferro inglesa e salões restaurados."
+  },
+  {
+    "n": "Centro Cultural Palácio da Justiça",
+    "cat": "cultura",
+    "end": "Avenida Eduardo Ribeiro, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Palácio neoclássico ao lado do Teatro Amazonas, aberto à visitação."
+  },
+  {
+    "n": "Teatro da Instalação",
+    "cat": "cultura",
+    "end": "Rua Frei José dos Inocentes, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Casarão restaurado onde foi instalada a província do Amazonas."
+  },
+  {
+    "n": "Casa Museu Eduardo Ribeiro",
+    "cat": "cultura",
+    "end": "Rua José Clemente, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Casa do governador que modernizou Manaus no ciclo da borracha."
+  },
+  {
+    "n": "Centro Cultural Povos da Amazônia",
+    "cat": "cultura",
+    "end": "Crespo",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Complexo cultural com museu sobre os povos indígenas da Amazônia."
+  },
+  {
+    "n": "Igreja de Nossa Senhora dos Remédios",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Igreja histórica no centro, ligada à chegada dos imigrantes portugueses."
+  },
+  {
+    "n": "Museu de Ciências Naturais da Amazônia",
+    "cat": "cultura",
+    "end": "Aleixo",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Museu com peixes e insetos amazônicos, em área de mata."
+  },
+  {
+    "n": "Porto Flutuante de Manaus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Cais flutuante inglês do início do século XX, que sobe e desce com o rio.",
+    "busca": [
+      "Porto de Manaus"
+    ]
+  },
+  {
+    "n": "Praça Heliodoro Balbi",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praça arborizada com coreto e lago, conhecida como Praça da Polícia.",
+    "busca": [
+      "Praça da Polícia"
+    ]
+  },
+  {
+    "n": "Praça da Saudade",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praça tradicional do centro, com fontes e muito movimento à noite."
+  },
+  {
+    "n": "Parque Jefferson Péres",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque urbano às margens de um igarapé revitalizado no centro."
+  },
+  {
+    "n": "Ponte Rio Negro",
+    "cat": "verde",
+    "end": "Compensa",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Ponte estaiada sobre o Rio Negro, bonita de ver iluminada à noite."
+  },
+  {
+    "n": "Parque dos Bilhares",
+    "cat": "verde",
+    "end": "Chapada",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque com pista de caminhada, lago e área de lazer."
+  },
+  {
+    "n": "Praia da Lua",
+    "cat": "verde",
+    "end": "Rio Negro, zona oeste",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praia de rio de águas escuras, acessada de barco a partir da Marina do Davi."
+  },
+  {
+    "n": "Praia do Tupé",
+    "cat": "verde",
+    "end": "Reserva do Tupé, Rio Negro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praia de areia branca dentro de reserva, a uma viagem de barco de Manaus."
+  },
+  {
+    "n": "Cachoeira do Tarumã",
+    "cat": "verde",
+    "end": "Tarumã",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Cachoeira em área de mata na zona oeste da cidade."
+  },
+  {
+    "n": "Zoológico do CIGS",
+    "cat": "verde",
+    "end": "São Jorge",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Zoológico do Exército com onças, ariranhas e animais amazônicos."
+  },
+  {
+    "n": "Tambaqui de Banda",
+    "cat": "comida",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Restaurante regional famoso pelo tambaqui assado, perto do Largo de São Sebastião."
+  },
+  {
+    "n": "Feira da Banana",
+    "cat": "comida",
+    "end": "Manaus Moderna, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Feira ao lado do porto, com cachos de banana e frutas regionais."
+  }
+]

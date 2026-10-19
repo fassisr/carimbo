@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Mirante Alto Formoso",
+    "cat": "verde",
+    "end": "Alto Formoso",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Mirante com rampa de voo livre e vista até Cachoeiro e Castelo."
+  },
+  {
+    "n": "Cachoeira do Caiado",
+    "cat": "verde",
+    "end": "Guiomar",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Cachoeira mais próxima do centro, com acesso livre para banho."
+  },
+  {
+    "n": "Cachoeira da Concórdia",
+    "cat": "verde",
+    "end": "Concórdia",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Poços rasos ideais para famílias com crianças."
+  },
+  {
+    "n": "Presépio Mecânico de Jaciguá",
+    "cat": "cultura",
+    "end": "Jaciguá",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Presépio em movimento com cerca de 130 figuras criado em 1956.",
+    "busca": [
+      "Presépio Mecânico"
+    ]
+  },
+  {
+    "n": "Igreja São João Batista",
+    "cat": "cultura",
+    "end": "Jaciguá",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Igreja centenária do distrito de Jaciguá."
+  },
+  {
+    "n": "Reserva Kaetés",
+    "cat": "verde",
+    "end": "Vargem Alta",
+    "cidade": "Vargem Alta",
+    "uf": "ES",
+    "d": "Reserva particular para observação de aves, com torre de 37 metros."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "n": "Pedra do Elefante",
+    "cat": "verde",
+    "end": "APA Pedra do Elefante",
+    "cidade": "Nova Venécia",
+    "uf": "ES",
+    "d": "Monumento de granito em forma de elefante, símbolo da cidade."
+  },
+  {
+    "n": "Pedra da Torre",
+    "cat": "verde",
+    "end": "APA Pedra do Elefante",
+    "cidade": "Nova Venécia",
+    "uf": "ES",
+    "d": "Mirante natural com vista para os pontões do norte capixaba."
+  },
+  {
+    "n": "Casarão da Fazenda Santa Rita",
+    "cat": "cultura",
+    "end": "Córrego Boa Esperança",
+    "cidade": "Nova Venécia",
+    "uf": "ES",
+    "d": "Casarão do século 19 dentro da APA Pedra do Elefante."
+  },
+  {
+    "n": "Santuário da Mãe Peregrina",
+    "cat": "cultura",
+    "end": "Gameleira",
+    "cidade": "Nova Venécia",
+    "uf": "ES",
+    "d": "Santuário no alto do morro com escadaria e gameleira centenária."
+  }
+]

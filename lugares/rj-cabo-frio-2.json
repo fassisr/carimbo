@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Praia das Dunas",
+    "cat": "verde",
+    "end": "Dunas",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Praia de areia branca cercada de dunas, ótima para surfe."
+  },
+  {
+    "n": "Praia do Foguete",
+    "cat": "verde",
+    "end": "Foguete",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Praia de mar aberto e areia branca na divisa com Arraial."
+  },
+  {
+    "n": "Capela de Nossa Senhora da Guia",
+    "cat": "cultura",
+    "end": "Morro da Guia, Centro",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Capela do século XVIII no alto do morro, com vista de toda a cidade.",
+    "busca": [
+      "Morro da Guia"
+    ]
+  },
+  {
+    "n": "Convento de Nossa Senhora dos Anjos",
+    "cat": "cultura",
+    "end": "Largo de Santo Antônio, Centro",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Convento franciscano do século XVII, hoje com museu de arte religiosa."
+  },
+  {
+    "n": "Igreja de São Benedito",
+    "cat": "cultura",
+    "end": "Passagem",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Igreja colonial do bairro histórico da Passagem."
+  },
+  {
+    "n": "Fonte do Itajuru",
+    "cat": "cultura",
+    "end": "Morro da Guia",
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "d": "Antiga fonte de água da cidade, monumento histórico na encosta do morro."
+  }
+]

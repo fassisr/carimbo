@@ -1,0 +1,216 @@
+[
+  {
+    "n": "Museu Júlio de Castilhos",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, 1205, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "O museu mais antigo do estado, com acervo sobre a história gaúcha."
+  },
+  {
+    "n": "Solar dos Câmara",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, 968, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Casarão de 1818, uma das construções residenciais mais antigas da cidade."
+  },
+  {
+    "n": "Pinacoteca Ruben Berta",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, 973, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Pinacoteca municipal num solar histórico, com pintura brasileira e europeia."
+  },
+  {
+    "n": "Igreja Nossa Senhora das Dores",
+    "cat": "cultura",
+    "end": "Rua dos Andradas, 587, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Igreja mais antiga de Porto Alegre, no alto de uma escadaria imponente."
+  },
+  {
+    "n": "Biblioteca Pública do Estado do Rio Grande do Sul",
+    "cat": "cultura",
+    "end": "Rua Riachuelo, 1190, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Prédio eclético com salões decorados, aberto à visitação."
+  },
+  {
+    "n": "Memorial do Rio Grande do Sul",
+    "cat": "cultura",
+    "end": "Praça da Alfândega, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Antigo prédio dos Correios com exposições sobre a história gaúcha."
+  },
+  {
+    "n": "Centro Cultural CEEE Erico Verissimo",
+    "cat": "cultura",
+    "end": "Rua dos Andradas, 1223, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Centro cultural com acervo do escritor Erico Verissimo e exposições."
+  },
+  {
+    "n": "Cinemateca Capitólio",
+    "cat": "cultura",
+    "end": "Rua Demétrio Ribeiro, 1085, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Cinema de rua restaurado, dedicado ao cinema brasileiro e de arte."
+  },
+  {
+    "n": "Paço Municipal de Porto Alegre",
+    "cat": "cultura",
+    "end": "Praça Montevidéu, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Prefeitura de fachada eclética em frente à Fonte Talavera.",
+    "busca": [
+      "Paço dos Açorianos"
+    ]
+  },
+  {
+    "n": "Viaduto Otávio Rocha",
+    "cat": "cultura",
+    "end": "Avenida Borges de Medeiros, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Viaduto art déco com escadarias, um dos símbolos do centro."
+  },
+  {
+    "n": "Museu de Ciências e Tecnologia da PUCRS",
+    "cat": "cultura",
+    "end": "Avenida Ipiranga, 6681, Partenon",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Museu interativo de ciências com centenas de experimentos para tocar."
+  },
+  {
+    "n": "Instituto Ling",
+    "cat": "cultura",
+    "end": "Rua João Caetano, 440, Três Figueiras",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Centro cultural com exposições, cursos e um café agradável."
+  },
+  {
+    "n": "Brique da Redenção",
+    "cat": "cultura",
+    "end": "Avenida José Bonifácio, Farroupilha",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Feira de antiguidades e artesanato aos domingos ao lado do Parque da Redenção."
+  },
+  {
+    "n": "Praça da Matriz",
+    "cat": "verde",
+    "end": "Praça Marechal Deodoro, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Praça cercada pela catedral, o Theatro São Pedro e o Palácio Piratini.",
+    "busca": [
+      "Praça Marechal Deodoro"
+    ]
+  },
+  {
+    "n": "Praça da Alfândega",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Praça arborizada que recebe a Feira do Livro, rodeada de museus."
+  },
+  {
+    "n": "Parque Marinha do Brasil",
+    "cat": "verde",
+    "end": "Praia de Belas",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Parque amplo na beira do Guaíba, com pistas de skate e quadras."
+  },
+  {
+    "n": "Parque Germânia",
+    "cat": "verde",
+    "end": "Jardim Europa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Parque com lago e trilhas, frequentado por famílias e corredores."
+  },
+  {
+    "n": "Parque Natural Morro do Osso",
+    "cat": "verde",
+    "end": "Ipanema",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Morro de mata nativa com trilhas e vista para o Guaíba."
+  },
+  {
+    "n": "Orla de Ipanema",
+    "cat": "verde",
+    "end": "Ipanema",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Calçadão à beira do Guaíba, bom para ver o pôr do sol na zona sul."
+  },
+  {
+    "n": "Cais Embarcadero",
+    "cat": "bar",
+    "end": "Avenida Presidente João Goulart, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Antigo trecho do Cais Mauá com bares e restaurantes à beira do Guaíba."
+  },
+  {
+    "n": "Bar Opinião",
+    "cat": "bar",
+    "end": "Rua José do Patrocínio, 834, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Casa de shows histórica da Cidade Baixa, palco do rock gaúcho."
+  },
+  {
+    "n": "Chopp Stübel",
+    "cat": "bar",
+    "end": "Moinhos de Vento",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Cervejaria de tradição alemã, conhecida pelo chope e pelos petiscos."
+  },
+  {
+    "n": "Churrascaria Barranco",
+    "cat": "comida",
+    "end": "Avenida Protásio Alves, 1578, Petrópolis",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Churrascaria clássica de Porto Alegre, com mesas ao ar livre sob as árvores."
+  },
+  {
+    "n": "Galpão Crioulo",
+    "cat": "comida",
+    "end": "Parque da Harmonia, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Churrascaria com espetáculo de danças tradicionalistas gaúchas."
+  },
+  {
+    "n": "Atelier de Massas",
+    "cat": "comida",
+    "end": "Rua Riachuelo, 1482, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Cantina pequena e lotada do centro, famosa pelas massas frescas."
+  },
+  {
+    "n": "Mercado Bom Fim",
+    "cat": "comida",
+    "end": "Parque Farroupilha, Bom Fim",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Mercadinho com lanchonetes e restaurantes na beira da Redenção."
+  }
+]

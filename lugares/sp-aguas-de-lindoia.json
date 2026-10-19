@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Balneário Municipal de Águas de Lindóia",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Águas de Lindóia",
+    "uf": "SP",
+    "d": "Balneário histórico das águas termais que deram fama à cidade.",
+    "busca": [
+      "Balneário Municipal"
+    ]
+  },
+  {
+    "n": "Morro Pelado",
+    "cat": "verde",
+    "end": "Morro Pelado",
+    "cidade": "Águas de Lindóia",
+    "uf": "SP",
+    "d": "Mirante com vista da cidade e das serras ao redor."
+  }
+]

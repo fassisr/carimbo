@@ -1,0 +1,222 @@
+[
+  {
+    "n": "Rua XV de Novembro",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Primeiro calçadão de pedestres do Brasil, com prédios históricos e muito movimento.",
+    "busca": [
+      "Rua das Flores"
+    ]
+  },
+  {
+    "n": "Praça Tiradentes",
+    "cat": "verde",
+    "end": "Praça Tiradentes, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Marco zero de Curitiba, com a catedral ao lado e vitrine que mostra o calçamento antigo."
+  },
+  {
+    "n": "Ruínas de São Francisco",
+    "cat": "cultura",
+    "end": "Alto São Francisco, Centro Histórico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Ruínas de uma igreja do século XIX que nunca foi concluída, no ponto mais alto do centro."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário de São Benedito",
+    "cat": "cultura",
+    "end": "Largo da Ordem, Centro Histórico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Igreja colonial reconstruída no Largo da Ordem, ligada à história da população negra.",
+    "busca": [
+      "Igreja do Rosário"
+    ]
+  },
+  {
+    "n": "Solar do Barão",
+    "cat": "cultura",
+    "end": "Rua Presidente Carlos Cavalcanti, 533, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casarão do século XIX que abriga museus de gravura, fotografia e histórias em quadrinhos."
+  },
+  {
+    "n": "Capela Santa Maria",
+    "cat": "cultura",
+    "end": "Rua Conselheiro Laurindo, 273, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Antiga capela transformada em sala de concertos de ótima acústica."
+  },
+  {
+    "n": "Teatro Paiol",
+    "cat": "cultura",
+    "end": "Largo Professor Guido Viaro, Prado Velho",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Antigo paiol de pólvora convertido em teatro de arena, inaugurado por Vinicius de Moraes."
+  },
+  {
+    "n": "Pedreira Paulo Leminski",
+    "cat": "cultura",
+    "end": "Rua João Gava, Abranches",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Espaço de shows a céu aberto numa antiga pedreira, ao lado da Ópera de Arame."
+  },
+  {
+    "n": "Museu Egípcio e Rosacruz",
+    "cat": "cultura",
+    "end": "Bacacheri",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Museu com peças e réplicas do Egito antigo, inclusive uma múmia verdadeira."
+  },
+  {
+    "n": "Museu do Holocausto de Curitiba",
+    "cat": "cultura",
+    "end": "Bom Retiro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Primeiro museu do Holocausto do Brasil, com acervo e relatos de sobreviventes."
+  },
+  {
+    "n": "Museu do Expedicionário",
+    "cat": "cultura",
+    "end": "Praça do Expedicionário, Alto da XV",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Acervo sobre a participação brasileira na Segunda Guerra, com avião e tanque na praça."
+  },
+  {
+    "n": "Feira do Largo da Ordem",
+    "cat": "cultura",
+    "end": "Largo da Ordem, Centro Histórico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Feira de artesanato e comidas que toma o centro histórico todo domingo de manhã."
+  },
+  {
+    "n": "Memorial Ucraniano",
+    "cat": "cultura",
+    "end": "Parque Tingui, São João",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Réplica de igreja ucraniana de madeira que homenageia os imigrantes do Paraná."
+  },
+  {
+    "n": "Memorial Árabe",
+    "cat": "cultura",
+    "end": "Praça Gibran Khalil Gibran, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Construção em estilo mourisco que homenageia a imigração árabe em Curitiba."
+  },
+  {
+    "n": "Parque São Lourenço",
+    "cat": "verde",
+    "end": "São Lourenço",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Lago, trilhas e um centro de criatividade instalado numa antiga fábrica de cola."
+  },
+  {
+    "n": "Universidade Livre do Meio Ambiente",
+    "cat": "verde",
+    "end": "Pilarzinho",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bosque com prédio de troncos de eucalipto e mirante sobre um lago de pedreira.",
+    "busca": [
+      "Unilivre"
+    ]
+  },
+  {
+    "n": "Praça do Japão",
+    "cat": "verde",
+    "end": "Água Verde",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Praça com lagos, cerejeiras e casa de chá que celebra a imigração japonesa."
+  },
+  {
+    "n": "Parque Passaúna",
+    "cat": "verde",
+    "end": "Campo Comprido",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Grande parque à beira da represa do Passaúna, ótimo para ver o pôr do sol."
+  },
+  {
+    "n": "Parque Bacacheri",
+    "cat": "verde",
+    "end": "Bacacheri",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Parque de bairro com lago, pedalinhos e muita gente caminhando no fim de semana."
+  },
+  {
+    "n": "Relógio das Flores",
+    "cat": "verde",
+    "end": "Praça Garibaldi, Centro Histórico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Relógio de flores e um dos cartões-postais do Largo da Ordem."
+  },
+  {
+    "n": "Bar Stuart",
+    "cat": "bar",
+    "end": "Praça Generoso Marques, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Um dos bares mais antigos da cidade, famoso pelos petiscos de carne de onça e rã."
+  },
+  {
+    "n": "Hop'n Roll",
+    "cat": "bar",
+    "end": "São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bar de cervejas artesanais com dezenas de torneiras, referência no São Francisco."
+  },
+  {
+    "n": "Jokers Pub Café",
+    "cat": "bar",
+    "end": "São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Pub tradicional do São Francisco, com música ao vivo e clima de bar de rock."
+  },
+  {
+    "n": "Café do Paço",
+    "cat": "cafe",
+    "end": "Praça Generoso Marques, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Café dentro do Paço da Liberdade, prédio art nouveau que foi a antiga prefeitura."
+  },
+  {
+    "n": "Restaurante Bologna",
+    "cat": "comida",
+    "end": "Rua Carlos de Carvalho, 150, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cantina italiana clássica de Curitiba, aberta há décadas e fiel às massas caseiras."
+  },
+  {
+    "n": "Restaurante Família Fadanelli",
+    "cat": "comida",
+    "end": "Santa Felicidade",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casarão italiano de Santa Felicidade com rodízio de massas, frango e polenta.",
+    "busca": [
+      "Família Fadanelli"
+    ]
+  }
+]

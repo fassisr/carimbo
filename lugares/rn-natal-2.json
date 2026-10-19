@@ -1,0 +1,136 @@
+[
+  {
+    "n": "Igreja de Santo Antônio",
+    "cat": "cultura",
+    "end": "Rua Santo Antônio, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Igreja barroca do século XVIII com um galo de bronze no topo da torre.",
+    "busca": [
+      "Igreja do Galo"
+    ]
+  },
+  {
+    "n": "Rua Chile",
+    "cat": "cultura",
+    "end": "Ribeira",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Rua de casarões antigos no bairro histórico da Ribeira, com bares e cultura."
+  },
+  {
+    "n": "Museu Câmara Cascudo",
+    "cat": "cultura",
+    "end": "Avenida Hermes da Fonseca, 1398, Tirol",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Museu da UFRN com acervo de arqueologia, etnografia e um esqueleto de baleia."
+  },
+  {
+    "n": "Instituto Histórico e Geográfico do Rio Grande do Norte",
+    "cat": "cultura",
+    "end": "Rua da Conceição, Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Casarão com documentos e objetos da história potiguar."
+  },
+  {
+    "n": "Capitania das Artes",
+    "cat": "cultura",
+    "end": "Avenida Câmara Cascudo, Ribeira",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Centro cultural municipal com exposições e apresentações."
+  },
+  {
+    "n": "Complexo Cultural Rampa",
+    "cat": "cultura",
+    "end": "Santos Reis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Antiga base de hidroaviões da Segunda Guerra, hoje museu."
+  },
+  {
+    "n": "Ponte Newton Navarro",
+    "cat": "cultura",
+    "end": "Santos Reis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Ponte estaiada sobre o Potengi com vista para o Forte dos Reis Magos."
+  },
+  {
+    "n": "Farol de Mãe Luiza",
+    "cat": "verde",
+    "end": "Mãe Luiza",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Farol no alto das dunas com vista panorâmica da cidade e do mar."
+  },
+  {
+    "n": "Praça André de Albuquerque",
+    "cat": "verde",
+    "end": "Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praça onde Natal nasceu, ao lado da antiga catedral."
+  },
+  {
+    "n": "Praia do Meio",
+    "cat": "verde",
+    "end": "Praia do Meio",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praia urbana com piscinas naturais na maré baixa."
+  },
+  {
+    "n": "Praia da Redinha",
+    "cat": "verde",
+    "end": "Redinha",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praia do outro lado do rio, famosa pela ginga com tapioca."
+  },
+  {
+    "n": "Praia do Forte",
+    "cat": "verde",
+    "end": "Santos Reis",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praia de águas calmas ao lado do Forte dos Reis Magos."
+  },
+  {
+    "n": "Praia de Areia Preta",
+    "cat": "verde",
+    "end": "Areia Preta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Praia urbana entre falésias e prédios, com calçadão."
+  },
+  {
+    "n": "Peixada da Comadre",
+    "cat": "comida",
+    "end": "Praia dos Artistas",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Restaurante tradicional de peixadas com vista para o mar."
+  },
+  {
+    "n": "Casa de Taipa",
+    "cat": "comida",
+    "end": "Ponta Negra",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Tapiocaria famosa em casa de taipa, com recheios regionais."
+  },
+  {
+    "n": "Bardallos",
+    "cat": "bar",
+    "end": "Cidade Alta",
+    "cidade": "Natal",
+    "uf": "RN",
+    "d": "Bar boêmio da Cidade Alta, com música e artistas locais.",
+    "busca": [
+      "Bardallos Comida e Arte"
+    ]
+  }
+]

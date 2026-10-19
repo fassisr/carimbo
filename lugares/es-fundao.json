@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Parque Natural Municipal de Goiapaba-Açu",
+    "cat": "verde",
+    "end": "Irundi",
+    "cidade": "Fundão",
+    "uf": "ES",
+    "d": "Pico a 850 metros com mirante, trilhas e rampa de voo livre."
+  },
+  {
+    "n": "Praia Grande",
+    "cat": "verde",
+    "end": "Praia Grande",
+    "cidade": "Fundão",
+    "uf": "ES",
+    "d": "Balneário de Fundão com orla extensa e clima de veraneio."
+  },
+  {
+    "n": "Moquém da Vila",
+    "cat": "comida",
+    "end": "Rodovia ES-010, Praia Grande",
+    "cidade": "Fundão",
+    "uf": "ES",
+    "d": "Restaurante de moqueca de frente para o mar em Praia Grande."
+  }
+]

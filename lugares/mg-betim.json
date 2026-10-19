@@ -1,0 +1,51 @@
+[
+  {
+    "n": "Casa da Cultura Josephina Bento",
+    "cat": "cultura",
+    "end": "Avenida Padre Osório Braga, 18, Centro",
+    "cidade": "Betim",
+    "uf": "MG",
+    "d": "Casarão histórico com exposições sobre a memória de Betim.",
+    "busca": [
+      "Casa da Cultura de Betim"
+    ]
+  },
+  {
+    "n": "Vale Verde Alambique e Parque Ecológico",
+    "cat": "comida",
+    "end": "Avenida Ary Barbosa da Silva, 950, Vianópolis",
+    "cidade": "Betim",
+    "uf": "MG",
+    "d": "Alambique de cachaça premiada com parque de aves e passeio guiado.",
+    "busca": [
+      "Vale Verde Betim"
+    ]
+  },
+  {
+    "n": "Colônia Santa Isabel",
+    "cat": "cultura",
+    "end": "Citrolândia",
+    "cidade": "Betim",
+    "uf": "MG",
+    "d": "Conjunto arquitetônico histórico de antiga colônia, carregado de memória.",
+    "busca": [
+      "Conjunto Arquitetônico da Colônia Santa Isabel"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Nossa Senhora do Carmo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Betim",
+    "uf": "MG",
+    "d": "Matriz da padroeira de Betim, no centro histórico da cidade."
+  },
+  {
+    "n": "Praça Milton Campos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Betim",
+    "uf": "MG",
+    "d": "Praça central de Betim, ponto de encontro e de eventos da cidade."
+  }
+]

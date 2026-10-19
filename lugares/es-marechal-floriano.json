@@ -1,0 +1,61 @@
+[
+  {
+    "n": "Orquidário Nego Plantas",
+    "cat": "verde",
+    "end": "Avenida Artur Hasse",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Orquidário centenário da família Schunk na entrada da cidade."
+  },
+  {
+    "n": "Cachoeira do Zeca",
+    "cat": "verde",
+    "end": "Santa Maria",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Cachoeira no Sítio Krohling, aberta nos fins de semana."
+  },
+  {
+    "n": "Capela de Santo Antônio",
+    "cat": "cultura",
+    "end": "Araguaia",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Capela de 1891 no distrito de colonização italiana."
+  },
+  {
+    "n": "Centro Cultural Ezequiel Ronchi",
+    "cat": "cultura",
+    "end": "Araguaia",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Memória da imigração italiana no Circuito Araguaya."
+  },
+  {
+    "n": "Casa do Nono",
+    "cat": "cultura",
+    "end": "Araguaia",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Réplica das primeiras casas dos imigrantes italianos."
+  },
+  {
+    "n": "Museu Casa Rosa",
+    "cat": "cultura",
+    "end": "Araguaia",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Casa com móveis e objetos de família ítalo-portuguesa e artesanato."
+  },
+  {
+    "n": "Estação de Araguaya",
+    "cat": "cultura",
+    "end": "Araguaia",
+    "cidade": "Marechal Floriano",
+    "uf": "ES",
+    "d": "Antiga estação ferroviária do distrito de Araguaia.",
+    "busca": [
+      "Estação Ferroviária de Araguaia"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "n": "Praça do Pacificador",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Praça central da cidade, com o monumento a Duque de Caxias."
+  },
+  {
+    "n": "Theatro Raul Cortez",
+    "cat": "cultura",
+    "end": "Praça do Pacificador, Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Teatro municipal da cidade, com programação de peças e shows."
+  },
+  {
+    "n": "Museu Ciência e Vida",
+    "cat": "cultura",
+    "end": "Rua Aílton da Costa, 115, Jardim 25 de Agosto",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Museu de ciências interativo da Fundação Cecierj."
+  },
+  {
+    "n": "Catedral de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Catedral da diocese de Duque de Caxias, no coração da cidade.",
+    "busca": [
+      "Catedral Diocesana de Santo Antônio"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Pilar",
+    "cat": "cultura",
+    "end": "Pilar",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Igreja colonial do século XVIII, uma das mais antigas da Baixada."
+  },
+  {
+    "n": "Museu Vivo do São Bento",
+    "cat": "cultura",
+    "end": "São Bento",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Museu de território com sítio arqueológico e história da Baixada."
+  }
+]

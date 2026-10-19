@@ -1,0 +1,58 @@
+[
+  {
+    "n": "Memorial do ET",
+    "cat": "cultura",
+    "end": "Varginha",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Espaço dedicado ao famoso caso do ET de Varginha de 1996."
+  },
+  {
+    "n": "Disco Voador de Varginha",
+    "cat": "cultura",
+    "end": "Varginha",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Caixa d'água em forma de disco voador, símbolo bem-humorado da cidade."
+  },
+  {
+    "n": "Theatro Capitólio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Teatro histórico restaurado, palco da cultura de Varginha."
+  },
+  {
+    "n": "Estação Ferroviária de Varginha",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Antiga estação ferroviária preservada, hoje espaço cultural."
+  },
+  {
+    "n": "Igreja Matriz do Divino Espírito Santo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Matriz no coração da cidade, de arquitetura imponente."
+  },
+  {
+    "n": "Parque Municipal do Centenário",
+    "cat": "verde",
+    "end": "Varginha",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Parque arborizado para caminhar e descansar."
+  },
+  {
+    "n": "Concha Acústica Mariângela Calil Conde",
+    "cat": "cultura",
+    "end": "Varginha",
+    "cidade": "Varginha",
+    "uf": "MG",
+    "d": "Palco ao ar livre que recebe shows e eventos da cidade."
+  }
+]

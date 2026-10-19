@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Praia da Tartaruga",
+    "cat": "verde",
+    "end": "Armação dos Búzios",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Águas calmas e esverdeadas, boas para mergulho com snorkel."
+  },
+  {
+    "n": "Praia de João Fernandinho",
+    "cat": "verde",
+    "end": "Armação dos Búzios",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Prainha vizinha de João Fernandes, menor e mais tranquila."
+  },
+  {
+    "n": "Praia de Manguinhos",
+    "cat": "verde",
+    "end": "Manguinhos",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Praia de águas calmas, ponto de kitesurf e windsurf."
+  },
+  {
+    "n": "Praia Rasa",
+    "cat": "verde",
+    "end": "Rasa",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Praia longa e rasa, ótima para crianças e esportes de vela."
+  },
+  {
+    "n": "Ponta da Lagoinha",
+    "cat": "verde",
+    "end": "Armação dos Búzios",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Costão de rochas antiquíssimas com piscinas naturais e vista do pôr do sol."
+  },
+  {
+    "n": "Estátua dos Três Pescadores",
+    "cat": "cultura",
+    "end": "Orla Bardot",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Esculturas que homenageiam os pescadores da antiga vila de Búzios.",
+    "busca": [
+      "Estátua dos Pescadores"
+    ]
+  },
+  {
+    "n": "Porto da Barra",
+    "cat": "comida",
+    "end": "Manguinhos",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Polo gastronômico de frente para a lagoa, com vários restaurantes."
+  },
+  {
+    "n": "Chez Michou",
+    "cat": "comida",
+    "end": "Rua das Pedras, 90, Centro",
+    "cidade": "Armação dos Búzios",
+    "uf": "RJ",
+    "d": "Creperia aberta desde os anos 1980, clássico das noites de Búzios."
+  }
+]

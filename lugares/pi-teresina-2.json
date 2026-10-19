@@ -1,0 +1,85 @@
+[
+  {
+    "n": "Palácio de Karnak",
+    "cat": "cultura",
+    "end": "Avenida Antonino Freire, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Sede do governo do Piauí, com jardins de Burle Marx."
+  },
+  {
+    "n": "Catedral de Nossa Senhora das Dores",
+    "cat": "cultura",
+    "end": "Praça Saraiva, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Catedral de Teresina, de frente para a praça mais antiga da cidade."
+  },
+  {
+    "n": "Praça Saraiva",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Praça arborizada em frente à catedral, marco da fundação da cidade."
+  },
+  {
+    "n": "Praça Marechal Deodoro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Praça histórica ao lado do Mercado Central e do Museu do Piauí.",
+    "busca": [
+      "Praça da Bandeira"
+    ]
+  },
+  {
+    "n": "Casa da Cultura de Teresina",
+    "cat": "cultura",
+    "end": "Rua Rui Barbosa, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Casarão com exposições sobre a história e a arte piauiense."
+  },
+  {
+    "n": "Clube dos Diários",
+    "cat": "cultura",
+    "end": "Praça Pedro II, Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Antigo clube social da elite teresinense, hoje espaço cultural."
+  },
+  {
+    "n": "Parque Zoobotânico de Teresina",
+    "cat": "verde",
+    "end": "Zona Leste",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Zoológico e mata nativa na zona leste da cidade."
+  },
+  {
+    "n": "Parque Lagoas do Norte",
+    "cat": "verde",
+    "end": "Zona Norte",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Parque com lagoas e calçadões que revitalizou a zona norte."
+  },
+  {
+    "n": "Mercado do Troca-Troca",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Mercado popular de trocas embaixo da ponte, tradicional na cidade."
+  },
+  {
+    "n": "Mercado da Piçarra",
+    "cat": "comida",
+    "end": "Piçarra",
+    "cidade": "Teresina",
+    "uf": "PI",
+    "d": "Mercado de bairro famoso pelo café da manhã e pela comida piauiense."
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "n": "Museu Afro-Brasileiro",
+    "cat": "cultura",
+    "end": "Terreiro de Jesus, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu na antiga Faculdade de Medicina, com os painéis de orixás de Carybé.",
+    "busca": [
+      "MAFRO"
+    ]
+  },
+  {
+    "n": "Igreja da Ordem Terceira de São Francisco",
+    "cat": "cultura",
+    "end": "Largo do Cruzeiro de São Francisco, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Fachada esculpida em arenito, raríssima no barroco brasileiro."
+  },
+  {
+    "n": "Igreja do Santíssimo Sacramento do Passo",
+    "cat": "cultura",
+    "end": "Rua do Passo, Santo Antônio Além do Carmo",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Igreja no alto da escadaria que virou cenário do filme O Pagador de Promessas.",
+    "busca": [
+      "Escadaria do Passo"
+    ]
+  },
+  {
+    "n": "Mosteiro de São Bento da Bahia",
+    "cat": "cultura",
+    "end": "Largo de São Bento, Centro",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Um dos mosteiros mais antigos das Américas, com museu de arte sacra."
+  },
+  {
+    "n": "Palácio Rio Branco",
+    "cat": "cultura",
+    "end": "Praça Tomé de Souza, Centro",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Antiga sede do governo baiano, ao lado do Elevador Lacerda."
+  },
+  {
+    "n": "Casa do Rio Vermelho",
+    "cat": "cultura",
+    "end": "Rua Alagoinhas, 33, Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Casa onde viveram Jorge Amado e Zélia Gattai, hoje um museu encantador."
+  },
+  {
+    "n": "Museu Carlos Costa Pinto",
+    "cat": "cultura",
+    "end": "Avenida Sete de Setembro, 2490, Vitória",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu com prataria, joias e as famosas pencas de balangandãs."
+  },
+  {
+    "n": "Museu de Arte Sacra da Bahia",
+    "cat": "cultura",
+    "end": "Rua do Sodré, 276, Dois de Julho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Convento do século XVII com um dos maiores acervos de arte sacra do país."
+  },
+  {
+    "n": "Basílica de Nossa Senhora da Conceição da Praia",
+    "cat": "cultura",
+    "end": "Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Igreja com pedras trazidas de Portugal, ponto de partida da Lavagem do Bonfim."
+  },
+  {
+    "n": "Forte de São Marcelo",
+    "cat": "cultura",
+    "end": "Baía de Todos-os-Santos, Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Forte circular construído no meio do mar, em frente ao Mercado Modelo."
+  },
+  {
+    "n": "Plano Inclinado Gonçalves",
+    "cat": "cultura",
+    "end": "Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Funicular que liga a Cidade Baixa ao Pelourinho desde o século XIX."
+  },
+  {
+    "n": "Casa do Carnaval da Bahia",
+    "cat": "cultura",
+    "end": "Praça Ramos de Queiroz, Centro Histórico",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu interativo sobre a história e os ritmos do carnaval baiano."
+  },
+  {
+    "n": "Cidade da Música da Bahia",
+    "cat": "cultura",
+    "end": "Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Museu da música baiana num casarão de frente para a baía."
+  },
+  {
+    "n": "Terreiro de Jesus",
+    "cat": "verde",
+    "end": "Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Praça cercada de igrejas no coração do centro histórico, cheia de música."
+  },
+  {
+    "n": "Largo de Santo Antônio Além do Carmo",
+    "cat": "verde",
+    "end": "Santo Antônio Além do Carmo",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Largo com igreja e vista para a baía, ponto de encontro do bairro boêmio."
+  },
+  {
+    "n": "Ponta de Humaitá",
+    "cat": "verde",
+    "end": "Monte Serrat",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Mirante com farol e igrejinha, um dos melhores pores do sol da cidade."
+  },
+  {
+    "n": "Jardim de Alah",
+    "cat": "verde",
+    "end": "Costa Azul",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Orla com coqueiral e praia, boa para caminhar e pedalar."
+  },
+  {
+    "n": "Parque Metropolitano de Pituaçu",
+    "cat": "verde",
+    "end": "Pituaçu",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Grande parque com lagoa e ciclovia em meio à mata atlântica."
+  },
+  {
+    "n": "Praia do Flamengo",
+    "cat": "verde",
+    "end": "Stella Maris",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Praia de areia clara e barracas, no extremo norte da orla."
+  },
+  {
+    "n": "Praia de Stella Maris",
+    "cat": "verde",
+    "end": "Stella Maris",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Praia larga e com ondas, frequentada por surfistas e famílias."
+  },
+  {
+    "n": "Largo da Mariquita",
+    "cat": "verde",
+    "end": "Rio Vermelho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Largo boêmio do Rio Vermelho, com tabuleiros de acarajé à noite."
+  },
+  {
+    "n": "Feira de São Joaquim",
+    "cat": "comida",
+    "end": "Calçada",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Maior feira livre de Salvador, com frutas, temperos e artigos de candomblé."
+  },
+  {
+    "n": "Restaurante Amado",
+    "cat": "comida",
+    "end": "Avenida Lafayete Coutinho, 660, Comércio",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Restaurante sobre a baía, conhecido pela cozinha baiana contemporânea."
+  },
+  {
+    "n": "Restaurante-Escola Senac Pelourinho",
+    "cat": "comida",
+    "end": "Largo do Pelourinho, 13, Pelourinho",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Bufê de comida baiana preparado por alunos, num casarão histórico.",
+    "busca": [
+      "Senac Pelourinho"
+    ]
+  },
+  {
+    "n": "Sorveteria A Cubana",
+    "cat": "doce",
+    "end": "Centro Histórico",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "d": "Sorveteria tradicional desde os anos 1930, perto do Elevador Lacerda."
+  }
+]

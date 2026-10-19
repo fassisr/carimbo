@@ -1,0 +1,64 @@
+[
+  {
+    "n": "Museu do Colono",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Casarão com objetos e memória da colonização europeia na região."
+  },
+  {
+    "n": "Cachoeira Véu de Noiva",
+    "cat": "verde",
+    "end": "Santa Leopoldina",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Queda d'água alta e bonita com estrutura para visitantes.",
+    "busca": [
+      "Cachoeira Véu da Noiva"
+    ]
+  },
+  {
+    "n": "Vale da Lua Capixaba",
+    "cat": "verde",
+    "end": "Ribeirão dos Pardos",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Formações de pedra esculpidas pela água com piscinas naturais.",
+    "busca": [
+      "Parque Ribeirão dos Pardos"
+    ]
+  },
+  {
+    "n": "Cachoeira Moxafongo",
+    "cat": "verde",
+    "end": "Santa Leopoldina",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Cachoeira com poços para banho e estrutura de pousada e restaurante."
+  },
+  {
+    "n": "Cachoeira das Andorinhas",
+    "cat": "verde",
+    "end": "Santa Leopoldina",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Refúgio refrescante nas montanhas, com quedas e poços."
+  },
+  {
+    "n": "Igreja Sagrada Família",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Igreja no alto do morro com vista do centro e do Rio Santa Maria."
+  },
+  {
+    "n": "Casa Santa Leopoldina",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Santa Leopoldina",
+    "uf": "ES",
+    "d": "Centro de informações com artesanato e produtos da agricultura familiar."
+  }
+]

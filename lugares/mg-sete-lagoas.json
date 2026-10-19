@@ -1,0 +1,66 @@
+[
+  {
+    "n": "Lagoa Paulino",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Lagoa no centro da cidade com orla para caminhar e ver o pôr do sol."
+  },
+  {
+    "n": "Serra de Santa Helena",
+    "cat": "verde",
+    "end": "Santa Helena",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Serra com mirante de onde se vê a cidade e suas lagoas."
+  },
+  {
+    "n": "Capela de Santa Helena",
+    "cat": "cultura",
+    "end": "Serra de Santa Helena",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Capelinha no alto da serra, destino de peregrinos e caminhantes."
+  },
+  {
+    "n": "Gruta Rei do Mato",
+    "cat": "verde",
+    "end": "Rodovia BR-040",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Gruta com estalactites gigantes e pinturas rupestres, aberta à visitação."
+  },
+  {
+    "n": "Lagoa Boa Vista",
+    "cat": "verde",
+    "end": "Boa Vista",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Uma das sete lagoas, com orla arborizada e feira nos fins de semana."
+  },
+  {
+    "n": "Catedral de Santo Antônio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Catedral imponente que domina o centro da cidade."
+  },
+  {
+    "n": "Museu Ferroviário de Sete Lagoas",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Antiga estação ferroviária que conta a história dos trilhos na cidade."
+  },
+  {
+    "n": "Centro Cultural Nhô-Quim Drummond",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Sete Lagoas",
+    "uf": "MG",
+    "d": "Centro cultural da cidade com teatro, mostras e apresentações."
+  }
+]

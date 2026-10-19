@@ -1,0 +1,26 @@
+[
+  {
+    "n": "Pedra Roxa",
+    "cat": "verde",
+    "end": "Pedra Roxa",
+    "cidade": "Ibitirama",
+    "uf": "ES",
+    "d": "Distrito de piscinas naturais e cachoeiras aos pés do Caparaó."
+  },
+  {
+    "n": "Poço do Cristal",
+    "cat": "verde",
+    "end": "Pedra Roxa",
+    "cidade": "Ibitirama",
+    "uf": "ES",
+    "d": "Poço de águas transparentes após curta subida."
+  },
+  {
+    "n": "Cachoeira Dona Romana",
+    "cat": "verde",
+    "end": "Ibitirama",
+    "cidade": "Ibitirama",
+    "uf": "ES",
+    "d": "Cachoeira a poucos quilômetros do centro de Ibitirama."
+  }
+]

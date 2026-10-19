@@ -1,0 +1,21 @@
+[
+  {
+    "n": "Parque Ecológico de Indaiatuba",
+    "cat": "verde",
+    "end": "Parque Ecológico",
+    "cidade": "Indaiatuba",
+    "uf": "SP",
+    "d": "Extenso parque linear com lagos, ciclovia e muita área verde."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Candelária",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Indaiatuba",
+    "uf": "SP",
+    "d": "Matriz histórica no centro de Indaiatuba.",
+    "busca": [
+      "Matriz de Indaiatuba"
+    ]
+  }
+]
