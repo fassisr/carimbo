@@ -1,0 +1,9 @@
+[
+  { "n": "Yup Star", "cat": "verde", "end": "Avenida Rodrigues Alves, Gamboa", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "A maior roda-gigante da América Latina, com vista para a Baía de Guanabara e a Ponte Rio-Niterói.", "busca": ["Rio Star", "Roda-Gigante Rio Star", "Roda Gigante Yup Star"] },
+  { "n": "Mural Etnias", "cat": "cultura", "end": "Boulevard Olímpico, Avenida Rodrigues Alves", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "O enorme grafite de Eduardo Kobra com rostos de povos dos cinco continentes.", "busca": ["Etnias", "Mural Etnias Kobra"] },
+  { "n": "Boulevard Olímpico", "cat": "verde", "end": "Avenida Rodrigues Alves", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "Passeio à beira da baía entre a Praça Mauá e os armazéns do porto.", "busca": ["Orla Prefeito Luiz Paulo Conde", "Orla Conde"] },
+  { "n": "Praça Mauá", "cat": "verde", "end": "Praça Mauá, Centro", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "Praça reformada do porto, entre o Museu do Amanhã e o MAR." },
+  { "n": "Jardim Suspenso do Valongo", "cat": "verde", "end": "Rua Camerino, Saúde", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "Jardim romântico do século XIX no alto de um muro, com estátuas de deuses gregos." },
+  { "n": "Instituto Pretos Novos", "cat": "cultura", "end": "Rua Pedro Ernesto, 32, Gamboa", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "Memorial sobre o cemitério de africanos escravizados achado na Gamboa." },
+  { "n": "Fortaleza da Conceição", "cat": "cultura", "end": "Morro da Conceição", "cidade": "Rio de Janeiro", "uf": "RJ", "d": "Forte do século XVIII no alto do Morro da Conceição, um dos cantos mais antigos do Rio." }
+]
