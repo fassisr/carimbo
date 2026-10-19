@@ -1,0 +1,48 @@
+[
+  {
+    "n": "Espaço Verde Chico Mendes",
+    "cat": "verde",
+    "end": "Avenida Fernando Simonsen, 566, São José",
+    "cidade": "São Caetano do Sul",
+    "uf": "SP",
+    "d": "Maior área verde da cidade, com lagos, trilhas e quadras.",
+    "busca": [
+      "Parque Chico Mendes"
+    ]
+  },
+  {
+    "n": "Pinacoteca Municipal de São Caetano do Sul",
+    "cat": "cultura",
+    "end": "Avenida Doutor Augusto de Toledo, 255, Santa Paula",
+    "cidade": "São Caetano do Sul",
+    "uf": "SP",
+    "d": "Galeria de arte municipal com exposições de artistas da região.",
+    "busca": [
+      "Pinacoteca Municipal"
+    ]
+  },
+  {
+    "n": "Teatro Municipal Paulo Machado de Carvalho",
+    "cat": "cultura",
+    "end": "Alameda Conde de Porto Alegre, 840, Santa Maria",
+    "cidade": "São Caetano do Sul",
+    "uf": "SP",
+    "d": "Teatro da cidade, casa da Filarmônica de São Caetano."
+  },
+  {
+    "n": "Sesc São Caetano",
+    "cat": "cultura",
+    "end": "Rua Piauí, 554, Santa Paula",
+    "cidade": "São Caetano do Sul",
+    "uf": "SP",
+    "d": "Sesc com exposições, comedoria e programação cultural."
+  },
+  {
+    "n": "Roller Dancing",
+    "cat": "verde",
+    "end": "Rua Nelly Pellegrino, 735, Nova Gerti",
+    "cidade": "São Caetano do Sul",
+    "uf": "SP",
+    "d": "Pista de patinação tradicional do ABC, diversão para todas as idades."
+  }
+]

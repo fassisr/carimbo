@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Lagoa das Lágrimas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Lagoa no coração da cidade, o ponto mais visitado de Guarapuava."
+  },
+  {
+    "n": "Parque do Lago",
+    "cat": "verde",
+    "end": "Guarapuava",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Parque com lago e grandes áreas verdes, muito usado para caminhadas e piqueniques.",
+    "busca": [
+      "Parque do Lago das Cerejeiras"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal das Araucárias",
+    "cat": "verde",
+    "end": "Guarapuava",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Parque de mata com araucárias gigantes e trilhas ecológicas.",
+    "busca": [
+      "Parque das Araucárias"
+    ]
+  },
+  {
+    "n": "Salto São Francisco da Esperança",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Cachoeira imensa num cânion de mata nativa, uma das maiores do Sul.",
+    "busca": [
+      "Salto São Francisco"
+    ]
+  },
+  {
+    "n": "Catedral Nossa Senhora de Belém",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Catedral da padroeira da cidade, marco do centro de Guarapuava.",
+    "busca": [
+      "Catedral de Guarapuava"
+    ]
+  },
+  {
+    "n": "Museu Municipal Visconde de Guarapuava",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Museu em casarão histórico com a memória dos campos de Guarapuava."
+  },
+  {
+    "n": "Museu Histórico de Entre Rios",
+    "cat": "cultura",
+    "end": "Distrito de Entre Rios",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Museu da colônia dos suábios do Danúbio, imigrantes que fundaram Entre Rios."
+  },
+  {
+    "n": "Praça 9 de Dezembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "d": "Praça central arborizada, ponto de encontro da cidade."
+  }
+]

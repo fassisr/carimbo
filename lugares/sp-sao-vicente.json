@@ -1,0 +1,84 @@
+[
+  {
+    "n": "Ponte Pênsil",
+    "cat": "cultura",
+    "end": "Japuí",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Ponte pênsil de 1914, cartão-postal da cidade mais antiga do Brasil."
+  },
+  {
+    "n": "Biquinha de Anchieta",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Fonte histórica ligada à memória do padre Anchieta.",
+    "busca": [
+      "Biquinha"
+    ]
+  },
+  {
+    "n": "Teleférico de São Vicente",
+    "cat": "verde",
+    "end": "Avenida Ayrton Senna da Silva, 500, Itararé",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Teleférico que sobe ao Morro do Voturuá com vista da baía."
+  },
+  {
+    "n": "Parque Ecológico Voturuá",
+    "cat": "verde",
+    "end": "Avenida Dona Anita Costa, s/n, Vila Voturuá",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Parque no alto do morro, com animais e trilhas."
+  },
+  {
+    "n": "Parque Cultural Vila de São Vicente",
+    "cat": "cultura",
+    "end": "Praça João Pessoa, s/n, Centro",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Réplica da vila colonial que lembra a fundação da cidade em 1532."
+  },
+  {
+    "n": "Mirante dos 500 Anos",
+    "cat": "verde",
+    "end": "Ilha Porchat",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Mirante de Niemeyer na Ilha Porchat com vista de Santos e São Vicente.",
+    "busca": [
+      "Monumento aos 500 Anos",
+      "Mirante Niemeyer"
+    ]
+  },
+  {
+    "n": "Praia do Gonzaguinha",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Praia calma em frente ao centro, com orla movimentada.",
+    "busca": [
+      "Gonzaguinha"
+    ]
+  },
+  {
+    "n": "Praia do Itararé",
+    "cat": "verde",
+    "end": "Itararé",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Praia mais extensa da cidade, vizinha a Santos."
+  },
+  {
+    "n": "Parque Estadual Xixová-Japuí",
+    "cat": "verde",
+    "end": "Avenida Tupiniquins, 1009, Japuí",
+    "cidade": "São Vicente",
+    "uf": "SP",
+    "d": "Mata Atlântica e trilhas com vista para o mar."
+  }
+]

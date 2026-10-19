@@ -1,0 +1,381 @@
+[
+  {
+    "n": "Mirante do Mangabeiras",
+    "cat": "verde",
+    "end": "Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mirante aos pés da Serra do Curral com uma das vistas mais amplas da cidade.",
+    "busca": [
+      "Mirante Mangabeiras"
+    ]
+  },
+  {
+    "n": "Rua do Amendoim",
+    "cat": "verde",
+    "end": "Rua Professor Otávio Coelho de Magalhães, Mangabeiras",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Ladeira famosa onde o carro desligado parece subir sozinho.",
+    "busca": [
+      "Rua Professor Otávio Coelho de Magalhães"
+    ]
+  },
+  {
+    "n": "Mineirinho",
+    "cat": "cultura",
+    "end": "Avenida Antônio Abrahão Caram, 1000, São Luiz",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Ginásio vizinho ao Mineirão, palco de grandes jogos e shows.",
+    "busca": [
+      "Ginásio Mineirinho",
+      "Estádio Jornalista Felipe Drummond"
+    ]
+  },
+  {
+    "n": "Estádio Independência",
+    "cat": "cultura",
+    "end": "Rua Pitangui, 3230, Horto",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Estádio histórico do Horto, casa do América Mineiro.",
+    "busca": [
+      "Arena Independência",
+      "Independência"
+    ]
+  },
+  {
+    "n": "Arena MRV",
+    "cat": "cultura",
+    "end": "Califórnia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Estádio do Atlético Mineiro inaugurado em 2023, com tour pelas instalações.",
+    "busca": [
+      "Arena MRV Atlético"
+    ]
+  },
+  {
+    "n": "Parque Guanabara",
+    "cat": "verde",
+    "end": "Avenida Otacílio Negrão de Lima, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Parque de diversões tradicional à beira da Lagoa da Pampulha, com roda-gigante.",
+    "busca": [
+      "Parque de Diversões Guanabara"
+    ]
+  },
+  {
+    "n": "Jardim Botânico de Belo Horizonte",
+    "cat": "verde",
+    "end": "Avenida Otacílio Negrão de Lima, 8000, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Jardim botânico com estufas e coleções de plantas na Fundação Zoobotânica.",
+    "busca": [
+      "Jardim Botânico da Fundação Zoobotânica"
+    ]
+  },
+  {
+    "n": "Aquário do Rio São Francisco",
+    "cat": "verde",
+    "end": "Avenida Otacílio Negrão de Lima, 8000, Pampulha",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Aquário dedicado aos peixes do Velho Chico, dentro da Zoobotânica.",
+    "busca": [
+      "Aquário da Bacia do Rio São Francisco"
+    ]
+  },
+  {
+    "n": "Parque da Barragem Santa Lúcia",
+    "cat": "verde",
+    "end": "Avenida Artur Bernardes, Santa Lúcia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Parque em volta de um lago, com pista de caminhada e muito verde.",
+    "busca": [
+      "Parque Municipal Barragem Santa Lúcia"
+    ]
+  },
+  {
+    "n": "Parque Rosinha Cadar",
+    "cat": "verde",
+    "end": "Santo Antônio",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Parque pequeno e arborizado, refúgio tranquilo no Santo Antônio.",
+    "busca": [
+      "Parque Municipal Rosinha Cadar"
+    ]
+  },
+  {
+    "n": "Sala Minas Gerais",
+    "cat": "cultura",
+    "end": "Rua Tenente Brito Melo, 1090, Barro Preto",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Sala de concertos da Filarmônica de Minas Gerais, com acústica premiada."
+  },
+  {
+    "n": "Teatro Sesiminas",
+    "cat": "cultura",
+    "end": "Rua Padre Marinho, 60, Santa Efigênia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Teatro grande e moderno, com musicais e peças de circuito nacional.",
+    "busca": [
+      "Teatro Sesi Minas"
+    ]
+  },
+  {
+    "n": "Galpão Cine Horto",
+    "cat": "cultura",
+    "end": "Rua Pitangui, 3613, Horto",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Centro cultural do Grupo Galpão, com teatro, cursos e espetáculos."
+  },
+  {
+    "n": "Serraria Souza Pinto",
+    "cat": "cultura",
+    "end": "Avenida Assis Chateaubriand, 809, Floresta",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Galpão de ferro do início do século XX que virou espaço de eventos."
+  },
+  {
+    "n": "Cemitério do Bonfim",
+    "cat": "cultura",
+    "end": "Rua Bonfim, 1120, Bonfim",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Primeiro cemitério da capital, com túmulos e esculturas de valor histórico.",
+    "busca": [
+      "Cemitério Nosso Senhor do Bonfim"
+    ]
+  },
+  {
+    "n": "Edifício Acaiaca",
+    "cat": "cultura",
+    "end": "Avenida Afonso Pena, 867, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Arranha-céu art déco com rostos indígenas esculpidos na fachada."
+  },
+  {
+    "n": "Conjunto JK",
+    "cat": "cultura",
+    "end": "Avenida Augusto de Lima, Barro Preto",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Gigante modernista de Niemeyer, um dos maiores prédios residenciais do país.",
+    "busca": [
+      "Edifício JK"
+    ]
+  },
+  {
+    "n": "Nonô O Rei do Caldo de Mocotó",
+    "cat": "bar",
+    "end": "Avenida Amazonas, 840, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar clássico do Centro, famoso pelo caldo de mocotó servido há décadas.",
+    "busca": [
+      "Nonô"
+    ]
+  },
+  {
+    "n": "Bar do Júnior",
+    "cat": "bar",
+    "end": "Rua Ouro Fino, 452, Cruzeiro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco de esquina do Cruzeiro, com tira-gostos caseiros e cerveja gelada."
+  },
+  {
+    "n": "Bar da Cida",
+    "cat": "bar",
+    "end": "Rua Numa Nogueira, 287, Floramar",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco de bairro da Dona Cida, reconhecido entre os bares com alma de BH."
+  },
+  {
+    "n": "Taberna Baltazar",
+    "cat": "bar",
+    "end": "Rua Oriente, 571, Serra",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Taberna aconchegante do bairro Serra, com petiscos e cachaças."
+  },
+  {
+    "n": "Bar do Tatu",
+    "cat": "bar",
+    "end": "Rua Desembargador Ribeiro da Luz, 135, Barreiro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar do Barreiro famoso pelo angu à baiana, o rei da casa.",
+    "busca": [
+      "Bar do Tatu Rei do Angu à Baiana"
+    ]
+  },
+  {
+    "n": "Bar do Valle",
+    "cat": "bar",
+    "end": "Rua Grão Mogol, 426, Carmo",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar tradicional do Carmo, com mesas na calçada e tira-gostos mineiros."
+  },
+  {
+    "n": "Tonel da Pinga",
+    "cat": "bar",
+    "end": "Rua Sergipe, 129, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar antigo de cachaças e petiscos, sobrevivente da boemia da Sergipe."
+  },
+  {
+    "n": "Bar do Baiano",
+    "cat": "bar",
+    "end": "Rua Iara, 912, Pompéia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Boteco raiz da Pompéia, um dos bares com alma da cidade."
+  },
+  {
+    "n": "Bar do Toninho Árabe",
+    "cat": "bar",
+    "end": "Rua Níquel, 246, Serra",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Mercearia e bar com quitutes árabes, quibe e esfirra no balcão.",
+    "busca": [
+      "Bar do Toninho Árabe Mercearia"
+    ]
+  },
+  {
+    "n": "Mercearia 130",
+    "cat": "bar",
+    "end": "Rua Ivaí, 130, Serra",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar e mercearia charmosa no bairro Serra, com comida de boteco caprichada."
+  },
+  {
+    "n": "Florestal",
+    "cat": "bar",
+    "end": "Avenida Assis Chateaubriand, 176, Floresta",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Bar e restaurante animado da Floresta, perto do Viaduto Santa Tereza."
+  },
+  {
+    "n": "Bar e Leiteria Casa Branca",
+    "cat": "bar",
+    "end": "Rua Casa Branca, 251, Pompéia",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Antiga leiteria que virou boteco de bairro, listada entre os bares com alma de BH.",
+    "busca": [
+      "Leiteria Casa Branca"
+    ]
+  },
+  {
+    "n": "Mole Antonelliana",
+    "cat": "doce",
+    "end": "Avenida João Pinheiro, 156, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Confeitaria tradicional com doces finos e salgados de receita italiana."
+  },
+  {
+    "n": "Sorveteria São Domingos",
+    "cat": "doce",
+    "end": "Avenida Getúlio Vargas, 792, Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Sorveteria clássica de BH, com sorvetes de massa de sabores tradicionais."
+  },
+  {
+    "n": "Doces de Portugal",
+    "cat": "doce",
+    "end": "Rua Santa Rita Durão, 949, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Doceria de receitas portuguesas, com pastel de nata e ovos moles."
+  },
+  {
+    "n": "A Pão de Queijaria",
+    "cat": "cafe",
+    "end": "Avenida Álvares Cabral, 356, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Casa especializada em pão de queijo artesanal, quentinho na hora."
+  },
+  {
+    "n": "Belô Café",
+    "cat": "cafe",
+    "end": "Rua Sergipe, 1329, Savassi",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cafeteria de cafés especiais mineiros na Savassi."
+  },
+  {
+    "n": "Restaurante Paladino",
+    "cat": "comida",
+    "end": "Avenida Gildo Macedo Lacerda, 300, Braúnas",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Pizzaria e restaurante tradicional da Pampulha, querido há gerações.",
+    "busca": [
+      "Paladino"
+    ]
+  },
+  {
+    "n": "Pizzaria Olegário",
+    "cat": "comida",
+    "end": "Avenida Olegário Maciel, 1748, Lourdes",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Pizzaria das mais famosas de BH, de massa fina e clima de família."
+  },
+  {
+    "n": "Yun Ton",
+    "cat": "comida",
+    "end": "Rua Marabá, 252, Santo Antônio",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Restaurante chinês tradicional do Santo Antônio, querido há décadas."
+  },
+  {
+    "n": "Cozinha Tupis",
+    "cat": "comida",
+    "end": "Mercado Novo, Avenida Olegário Maciel, 742, Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Comida mineira de raiz no Mercado Novo, com pratos fartos e baratos."
+  },
+  {
+    "n": "Est! Est!! Est!!!",
+    "cat": "comida",
+    "end": "Avenida Getúlio Vargas, 107, Funcionários",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cantina italiana clássica de Belo Horizonte, com massas e clima antigo.",
+    "busca": [
+      "Est Est Est"
+    ]
+  },
+  {
+    "n": "Cantina Piacenza",
+    "cat": "comida",
+    "end": "Rua Rio Grande do Sul, 1236, Santo Agostinho",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "d": "Cantina italiana tradicional com massas frescas e risotos."
+  }
+]

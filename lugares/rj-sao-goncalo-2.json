@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Praia das Pedrinhas",
+    "cat": "verde",
+    "end": "Boa Vista",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Praia da baía em São Gonçalo, ponto de pescadores e pôr do sol."
+  },
+  {
+    "n": "Ilha das Flores",
+    "cat": "cultura",
+    "end": "Avenida Paiva, Neves",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Antiga hospedaria de imigrantes, hoje centro de memória da imigração.",
+    "busca": [
+      "Centro de Memória da Imigração da Ilha das Flores"
+    ]
+  },
+  {
+    "n": "Fazenda Santa Edwiges",
+    "cat": "verde",
+    "end": "Estrada São Tomé, Santa Izabel",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Fazenda histórica rural com acesso ao mirante do Alto do Gaia."
+  },
+  {
+    "n": "Alto do Gaia",
+    "cat": "verde",
+    "end": "Santa Izabel",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Mirante no alto do morro com vista da APA de Guapimirim e da baía."
+  },
+  {
+    "n": "Capela de São João de Itaoca",
+    "cat": "cultura",
+    "end": "Itaoca",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Capela histórica na área rural de Itaoca, ligada às antigas fazendas.",
+    "busca": [
+      "Capela de São João"
+    ]
+  },
+  {
+    "n": "Praça Professora Estephânea de Carvalho",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Praça central junto à Igreja Matriz, ponto de encontro da cidade.",
+    "busca": [
+      "Praça Estephanea de Carvalho"
+    ]
+  },
+  {
+    "n": "Bar da Baiana",
+    "cat": "bar",
+    "end": "Avenida Progresso, Porto do Rosa",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Boteco popular de São Gonçalo, conhecido pelos petiscos e pelo samba."
+  },
+  {
+    "n": "Guima's Bar e Chopperia",
+    "cat": "bar",
+    "end": "Rua Doutor Alfredo Backer, Alcântara",
+    "cidade": "São Gonçalo",
+    "uf": "RJ",
+    "d": "Choperia movimentada de Alcântara, ponto de encontro na noite gonçalense.",
+    "busca": [
+      "Guimas Chopperia"
+    ]
+  }
+]

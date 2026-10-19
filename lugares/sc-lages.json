@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Catedral Diocesana Nossa Senhora dos Prazeres",
+    "cat": "cultura",
+    "end": "Praça João Ribeiro, Centro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Catedral neogótica de pedra de 1922, com vitrais alemães.",
+    "busca": [
+      "Catedral de Lages"
+    ]
+  },
+  {
+    "n": "Morro da Cruz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Mirante no alto da cidade, alcançado por uma escadaria de 500 degraus.",
+    "busca": [
+      "Mirante de Lages"
+    ]
+  },
+  {
+    "n": "Parque Jonas Ramos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Parque central com lago e pedalinhos, conhecido como Tanque.",
+    "busca": [
+      "Tanque"
+    ]
+  },
+  {
+    "n": "Calçadão Praça João Costa",
+    "cat": "verde",
+    "end": "Praça João Costa, Centro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Calçadão central que recebe eventos durante a Festa do Pinhão.",
+    "busca": [
+      "Praça João Costa"
+    ]
+  },
+  {
+    "n": "Monumento ao Tropeiro",
+    "cat": "cultura",
+    "end": "Parque de Exposições Conta Dinheiro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Homenagem aos tropeiros que cruzaram a serra, diante do parque da Festa do Pinhão."
+  },
+  {
+    "n": "Museu Histórico Thiago de Castro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Museu com armas, ferramentas e documentos da história serrana.",
+    "busca": [
+      "Museu Thiago de Castro"
+    ]
+  },
+  {
+    "n": "Igreja de Santa Cruz",
+    "cat": "cultura",
+    "end": "Praça Siqueira Campos, Rua Santa Cruz",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Igreja numa praça triangular que era ponto de encontro dos tropeiros."
+  },
+  {
+    "n": "Parque Natural João José Theodoro da Costa Neto",
+    "cat": "verde",
+    "end": "São Paulo",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Área de mata com trilhas curtas e cachoeira dentro da cidade."
+  },
+  {
+    "n": "Museu do 1º Batalhão Ferroviário",
+    "cat": "cultura",
+    "end": "Lages",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Museu com locomotiva a vapor e um mini trem a vapor funcionando."
+  },
+  {
+    "n": "Coxilha Rica",
+    "cat": "verde",
+    "end": "Coxilha Rica",
+    "cidade": "Lages",
+    "uf": "SC",
+    "d": "Campos de araucárias, fazendas centenárias e antigos caminhos de tropeiros."
+  }
+]

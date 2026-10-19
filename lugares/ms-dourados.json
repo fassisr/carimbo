@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Praça Antônio João",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Praça central arborizada, ponto de encontro da cidade."
+  },
+  {
+    "n": "Parque dos Ipês",
+    "cat": "verde",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "O parque mais tradicional da cidade, cheio de ipês e famílias no fim de semana."
+  },
+  {
+    "n": "Parque Antenor Martins",
+    "cat": "verde",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Parque tranquilo com lago para passeios em família."
+  },
+  {
+    "n": "Catedral Imaculada Conceição",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Catedral principal de Dourados.",
+    "busca": [
+      "Catedral de Dourados"
+    ]
+  },
+  {
+    "n": "Monumento ao Colono",
+    "cat": "cultura",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Monumento em homenagem aos colonos que ocuparam a região."
+  },
+  {
+    "n": "Feira Central Prefeito João Totó da Câmara",
+    "cat": "comida",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Feira central com bancas de comida e produtos regionais.",
+    "busca": [
+      "Feira Central de Dourados"
+    ]
+  },
+  {
+    "n": "Teatro Municipal de Dourados",
+    "cat": "cultura",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Teatro municipal com programação de música, dança e teatro."
+  },
+  {
+    "n": "Museu Histórico de Dourados",
+    "cat": "cultura",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Museu com a história da colonização da Grande Dourados."
+  },
+  {
+    "n": "Estádio Frédis Saldivar",
+    "cat": "cultura",
+    "end": "Dourados",
+    "cidade": "Dourados",
+    "uf": "MS",
+    "d": "Estádio da cidade, conhecido como Douradão.",
+    "busca": [
+      "Douradão"
+    ]
+  }
+]

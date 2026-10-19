@@ -1,0 +1,51 @@
+[
+  {
+    "n": "Cristo Redentor de Colatina",
+    "cat": "cultura",
+    "end": "Bela Vista",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "d": "Estátua no alto do morro com vista para a cidade e o Rio Doce.",
+    "busca": [
+      "Cristo de Colatina"
+    ]
+  },
+  {
+    "n": "Catedral do Sagrado Coração de Jesus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "d": "Catedral da diocese de Colatina, marco do centro da cidade.",
+    "busca": [
+      "Catedral de Colatina"
+    ]
+  },
+  {
+    "n": "Biblioteca Pública Municipal de Colatina",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "d": "Biblioteca instalada no antigo armazém da estação ferroviária.",
+    "busca": [
+      "Antigo Armazém da Estação Ferroviária"
+    ]
+  },
+  {
+    "n": "Ninho das Garças",
+    "cat": "verde",
+    "end": "São Sebastião do Norte",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "d": "Ponto à margem do Rio Doce onde centenas de garças pousam ao entardecer."
+  },
+  {
+    "n": "São Pedro Frio",
+    "cat": "verde",
+    "end": "São Pedro Frio",
+    "cidade": "Colatina",
+    "uf": "ES",
+    "d": "Região montanhosa de clima ameno, com mirantes e trilhas."
+  }
+]

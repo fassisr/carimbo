@@ -1,0 +1,72 @@
+[
+  {
+    "n": "Parque Florestal de Sinop",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Reserva de mata nativa no centro, com lago, ponte de madeira e trilhas.",
+    "busca": [
+      "Parque Natural Municipal Florestal"
+    ]
+  },
+  {
+    "n": "Catedral Sagrado Coração de Jesus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Catedral de Sinop, marco da cidade e da fé dos colonos."
+  },
+  {
+    "n": "Praça da Bíblia",
+    "cat": "verde",
+    "end": "Sinop",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Praça pública conhecida como ponto de encontro e lazer da cidade."
+  },
+  {
+    "n": "Praça Plínio Callegaro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Praça central com área de lazer e eventos."
+  },
+  {
+    "n": "Aquarela das Orlas",
+    "cat": "verde",
+    "end": "Sinop",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Parque linear com lagos e pista de caminhada, cartão-postal de Sinop.",
+    "busca": [
+      "Orla de Sinop"
+    ]
+  },
+  {
+    "n": "Praia do Cortado",
+    "cat": "verde",
+    "end": "Rio Teles Pires",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Praia de rio de areia branca no Teles Pires, ótima para ver o pôr do sol."
+  },
+  {
+    "n": "Museu Histórico de Sinop",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Fotos e objetos dos primeiros anos da colonização da cidade."
+  },
+  {
+    "n": "Estádio Gigante do Norte",
+    "cat": "cultura",
+    "end": "Sinop",
+    "cidade": "Sinop",
+    "uf": "MT",
+    "d": "Principal estádio da cidade, casa do futebol sinopense."
+  }
+]

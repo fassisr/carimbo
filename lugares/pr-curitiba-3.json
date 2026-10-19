@@ -1,0 +1,254 @@
+[
+  {
+    "n": "Bar Mignon",
+    "cat": "bar",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bar quase centenário no calçadão da Rua XV, ponto clássico da boemia curitibana."
+  },
+  {
+    "n": "Bar e Restaurante Triângulo",
+    "cat": "bar",
+    "end": "Rua XV de Novembro, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Vizinho do Mignon, bar antigo de chope e petiscos no coração do Centro.",
+    "busca": [
+      "Bar Triângulo"
+    ]
+  },
+  {
+    "n": "Pote Chopp",
+    "cat": "bar",
+    "end": "Rua Dr. Muricy, esquina com Rua José Loureiro, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Choperia de esquina com mais de 60 anos, refúgio tradicional do Centro."
+  },
+  {
+    "n": "Gato Preto",
+    "cat": "bar",
+    "end": "Rua Ermelino de Leão, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bar de meio século com petiscos simples e clientela fiel no Centro.",
+    "busca": [
+      "Bar Gato Preto"
+    ]
+  },
+  {
+    "n": "Maneko's Bar",
+    "cat": "bar",
+    "end": "Alameda Cabral, 19, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Boteco de quatro décadas, famoso pelo chope gelado e pela turma de sempre.",
+    "busca": [
+      "Manekos Bar"
+    ]
+  },
+  {
+    "n": "Royalty Café",
+    "cat": "cafe",
+    "end": "Rua São Francisco, Centro Histórico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cafeteria de cafés especiais premiada entre as melhores da América do Sul."
+  },
+  {
+    "n": "Rause Café & Vinho",
+    "cat": "cafe",
+    "end": "Rua Riachuelo, 274, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Café e vinho num casarão da Riachuelo, rua que renasceu com bares e cafés.",
+    "busca": [
+      "Rause Café"
+    ]
+  },
+  {
+    "n": "Café do Viajante",
+    "cat": "cafe",
+    "end": "Rua Comendador Fontana, 229, Centro Cívico",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cafeteria de torra própria, referência em café especial na cidade."
+  },
+  {
+    "n": "Padaria América",
+    "cat": "doce",
+    "end": "Rua Presidente Carlos Cavalcanti, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Padaria fundada em 1913 que mantém receitas centenárias de pães e doces."
+  },
+  {
+    "n": "Prestinaria",
+    "cat": "doce",
+    "end": "Rua Euclides da Cunha, 699, Bigorrilho",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casa de pães de fermentação natural querida pelos curitibanos.",
+    "busca": [
+      "Prestinaria Casa de Pães"
+    ]
+  },
+  {
+    "n": "Via Gastronômica de Santa Felicidade",
+    "cat": "comida",
+    "end": "Avenida Manoel Ribas, Santa Felicidade",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bairro de imigração italiana com cantinas, vinícolas e o famoso frango com polenta.",
+    "busca": [
+      "Santa Felicidade"
+    ]
+  },
+  {
+    "n": "Zoológico de Curitiba",
+    "cat": "verde",
+    "end": "Parque Regional do Iguaçu, Alto Boqueirão",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Zoo municipal em meio à mata do Parque Iguaçu, ótimo passeio em família.",
+    "busca": [
+      "Zoo de Curitiba"
+    ]
+  },
+  {
+    "n": "Bosque Gutierrez",
+    "cat": "verde",
+    "end": "Rua Professor Nivaldo Braga, Vista Alegre",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bosque de mata nativa que abriga o Memorial Chico Mendes.",
+    "busca": [
+      "Bosque Chico Mendes"
+    ]
+  },
+  {
+    "n": "Bosque Reinhard Maack",
+    "cat": "verde",
+    "end": "Rua Pastor Carlos Frank, Hauer",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Bosque de araucárias com trilhas e lago na zona sul da cidade."
+  },
+  {
+    "n": "Parque Náutico",
+    "cat": "verde",
+    "end": "Boqueirão",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Parque às margens do Rio Iguaçu com lagos para canoagem e longas pistas de caminhada.",
+    "busca": [
+      "Parque Náutico Iguaçu"
+    ]
+  },
+  {
+    "n": "Praça Santos Andrade",
+    "cat": "verde",
+    "end": "Praça Santos Andrade, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Praça diante do Teatro Guaíra e do prédio histórico da UFPR."
+  },
+  {
+    "n": "Praça Osório",
+    "cat": "verde",
+    "end": "Praça General Osório, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Praça arborizada na ponta da Rua XV, com chafariz e a tradicional Boca Maldita por perto.",
+    "busca": [
+      "Praça General Osório"
+    ]
+  },
+  {
+    "n": "Praça Rui Barbosa",
+    "cat": "verde",
+    "end": "Praça Rui Barbosa, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Grande praça central, cruzamento de linhas de ônibus e da vida urbana da cidade."
+  },
+  {
+    "n": "Museu Alfredo Andersen",
+    "cat": "cultura",
+    "end": "Rua Mateus Leme, 336, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casa-ateliê do pintor norueguês considerado o pai da pintura paranaense.",
+    "busca": [
+      "Casa Alfredo Andersen"
+    ]
+  },
+  {
+    "n": "Biblioteca Pública do Paraná",
+    "cat": "cultura",
+    "end": "Rua Cândido Lopes, 133, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Biblioteca de 1857 em prédio art déco, uma das maiores do país."
+  },
+  {
+    "n": "Cine Passeio",
+    "cat": "cultura",
+    "end": "Rua Riachuelo, 410, Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Cinema de rua municipal em prédio histórico restaurado, com filmes de arte."
+  },
+  {
+    "n": "Casa Romário Martins",
+    "cat": "cultura",
+    "end": "Largo da Ordem, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "A casa mais antiga de Curitiba, do século XVIII, hoje espaço cultural."
+  },
+  {
+    "n": "Estádio Couto Pereira",
+    "cat": "cultura",
+    "end": "Rua Ubaldino do Amaral, 37, Alto da Glória",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Casa do Coritiba, estádio histórico do futebol paranaense.",
+    "busca": [
+      "Couto Pereira",
+      "Estádio Major Antônio Couto Pereira"
+    ]
+  },
+  {
+    "n": "Ligga Arena",
+    "cat": "cultura",
+    "end": "Rua Buenos Aires, 1260, Água Verde",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Estádio do Athletico Paranaense, sede da Copa de 2014, com teto retrátil.",
+    "busca": [
+      "Arena da Baixada",
+      "Estádio Joaquim Américo Guimarães"
+    ]
+  },
+  {
+    "n": "Mesquita Imam Ali ibn Abi Talib",
+    "cat": "cultura",
+    "end": "Rua Kellers, 383, São Francisco",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Mesquita de arquitetura árabe com minaretes, marca da imigração libanesa.",
+    "busca": [
+      "Mesquita de Curitiba"
+    ]
+  },
+  {
+    "n": "Teatro Positivo",
+    "cat": "cultura",
+    "end": "Rua Professor Pedro Viriato Parigot de Souza, 5300, Campo Comprido",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "d": "Um dos maiores teatros do Brasil, palco de grandes shows e espetáculos."
+  }
+]

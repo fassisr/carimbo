@@ -1,0 +1,69 @@
+[
+  {
+    "n": "Catedral de São Mateus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Catedral da diocese mais ao norte do Espírito Santo."
+  },
+  {
+    "n": "Museu Municipal de São Mateus",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Museu sobre a história de uma das cidades mais antigas do estado."
+  },
+  {
+    "n": "Igreja de São Benedito",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Igreja tradicional ligada à devoção e à cultura negra da cidade."
+  },
+  {
+    "n": "Casa de Cabeça pra Baixo",
+    "cat": "cultura",
+    "end": "Loteamento Mar Aberto, Guriri",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Casa montada de ponta-cabeça, atração divertida para fotos em Guriri.",
+    "busca": [
+      "Casa de Cabeça para Baixo"
+    ]
+  },
+  {
+    "n": "Capela Nossa Senhora dos Navegantes",
+    "cat": "cultura",
+    "end": "Orla de Guriri",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Capelinha na orla de Guriri, devoção dos pescadores."
+  },
+  {
+    "n": "Praia do Bosque",
+    "cat": "verde",
+    "end": "Bom Jesus, Guriri",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Praia mais calma e sombreada, alternativa ao movimento de Guriri."
+  },
+  {
+    "n": "Praia de Urussuquara",
+    "cat": "verde",
+    "end": "Urussuquara",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Vila de pescadores com praia quase deserta no litoral norte."
+  },
+  {
+    "n": "Praia de Barra Nova",
+    "cat": "verde",
+    "end": "Barra Nova",
+    "cidade": "São Mateus",
+    "uf": "ES",
+    "d": "Praia rústica na foz do rio, com coqueirais e mar aberto."
+  }
+]

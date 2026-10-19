@@ -1,0 +1,193 @@
+[
+  {
+    "n": "Teatro Popular Oscar Niemeyer",
+    "cat": "cultura",
+    "end": "Caminho Niemeyer, Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Teatro de curvas brancas de Niemeyer na orla, com mural de painel e shows ao ar livre.",
+    "busca": [
+      "Teatro Popular de Niterói"
+    ]
+  },
+  {
+    "n": "Museu Antônio Parreiras",
+    "cat": "cultura",
+    "end": "Rua Tiradentes, 47, Ingá",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Casa e ateliê do pintor Antônio Parreiras, cercados por um belo jardim.",
+    "busca": [
+      "Museu Parreiras"
+    ]
+  },
+  {
+    "n": "Reserva Cultural Niterói",
+    "cat": "cultura",
+    "end": "Avenida Visconde do Rio Branco, 880, São Domingos",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Cinema de arte com café e livraria, vizinho ao Caminho Niemeyer.",
+    "busca": [
+      "Reserva Cultural"
+    ]
+  },
+  {
+    "n": "Estádio Caio Martins",
+    "cat": "cultura",
+    "end": "Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Estádio histórico da cidade, onde o Botafogo mandou jogos e Garrincha brilhou.",
+    "busca": [
+      "Caio Martins"
+    ]
+  },
+  {
+    "n": "Cantareira",
+    "cat": "bar",
+    "end": "Praça Leoni Ramos, São Domingos",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praça boêmia perto da UFF, cheia de bares e estudantes à noite.",
+    "busca": [
+      "Praça Leoni Ramos",
+      "Praça da Cantareira"
+    ]
+  },
+  {
+    "n": "Pedra de Itapuca",
+    "cat": "verde",
+    "end": "Praia de Icaraí, Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Rocha furada no canto de Icaraí, cartão-postal com vista do Rio.",
+    "busca": [
+      "Itapuca"
+    ]
+  },
+  {
+    "n": "Praia da Boa Viagem",
+    "cat": "verde",
+    "end": "Boa Viagem",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Prainha tranquila ao pé do MAC, com vista do Pão de Açúcar."
+  },
+  {
+    "n": "Praia de Gragoatá",
+    "cat": "verde",
+    "end": "Gragoatá",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia pequena junto ao campus da UFF, ótima para ver o pôr do sol."
+  },
+  {
+    "n": "Praia das Flechas",
+    "cat": "verde",
+    "end": "Icaraí",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Enseada urbana entre Icaraí e o Ingá, com calçadão e vista da baía."
+  },
+  {
+    "n": "Praia de Jurujuba",
+    "cat": "verde",
+    "end": "Jurujuba",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Praia de vila de pescadores, com barcos coloridos e restaurantes de frutos do mar."
+  },
+  {
+    "n": "Lagoa de Itaipu",
+    "cat": "verde",
+    "end": "Itaipu",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Lagoa ligada ao mar em Itaipu, com mangue, aves e vista da Serra da Tiririca."
+  },
+  {
+    "n": "Pedra do Elefante",
+    "cat": "verde",
+    "end": "Itacoatiara",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Ponto mais alto da Serra da Tiririca, com vista de praias e lagoas.",
+    "busca": [
+      "Alto Mourão"
+    ]
+  },
+  {
+    "n": "Morro das Andorinhas",
+    "cat": "verde",
+    "end": "Itaipu",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Trilha curta com mirante sobre as praias de Itaipu e Itacoatiara."
+  },
+  {
+    "n": "Gruta de Santo Antônio",
+    "cat": "comida",
+    "end": "Rua Silva Jardim, 148, Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Restaurante português tradicional, famoso pelos bolinhos e pelo arroz de polvo.",
+    "busca": [
+      "Bar de Santo Antônio"
+    ]
+  },
+  {
+    "n": "Cervejaria Noi",
+    "cat": "bar",
+    "end": "Avenida Quintino Bocaiúva, 201, São Francisco",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Cervejaria artesanal de Niterói com varanda de frente para a baía.",
+    "busca": [
+      "Noi"
+    ]
+  },
+  {
+    "n": "Mocellin",
+    "cat": "comida",
+    "end": "Avenida Quintino Bocaiúva, 151, São Francisco",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Churrascaria tradicional na orla de São Francisco, de frente para o mar.",
+    "busca": [
+      "Mocellin Churrascaria"
+    ]
+  },
+  {
+    "n": "Bicho Papão",
+    "cat": "comida",
+    "end": "Avenida Carlos Ermelindo Marins, 1217, Jurujuba",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Restaurante de frutos do mar na vila de pescadores, famoso pelas moquecas."
+  },
+  {
+    "n": "Berbigão",
+    "cat": "comida",
+    "end": "Avenida Carlos Ermelindo Marins, 1275, Jurujuba",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Casa de frutos do mar de Jurujuba que leva o nome do marisco local."
+  },
+  {
+    "n": "Olimpo",
+    "cat": "comida",
+    "end": "Estação Hidroviária de Charitas, Charitas",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Restaurante no alto da estação de Niemeyer, com vista panorâmica da baía."
+  },
+  {
+    "n": "Bistrô MAC",
+    "cat": "cafe",
+    "end": "Mirante da Boa Viagem, Boa Viagem",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "d": "Café sob o disco voador de Niemeyer, para lanchar vendo o mar."
+  }
+]

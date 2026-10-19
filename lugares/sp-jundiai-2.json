@@ -1,0 +1,64 @@
+[
+  {
+    "n": "Ponte Torta",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Ponte de pedra do século XIX, símbolo da cidade."
+  },
+  {
+    "n": "Teatro Polytheama",
+    "cat": "cultura",
+    "end": "Rua Barão de Jundiaí, 176, Centro",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Teatro histórico de 1911 restaurado no centro."
+  },
+  {
+    "n": "Parque Mundo das Crianças",
+    "cat": "verde",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Parque temático infantil com brinquedos e áreas verdes.",
+    "busca": [
+      "Mundo das Crianças"
+    ]
+  },
+  {
+    "n": "Jardim Botânico de Jundiaí",
+    "cat": "verde",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Jardins temáticos com espécies da Serra do Japi."
+  },
+  {
+    "n": "Parque do Engordadouro",
+    "cat": "verde",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Parque com lagos e pistas de caminhada.",
+    "busca": [
+      "Parque Comendador Antonio Carbonari"
+    ]
+  },
+  {
+    "n": "Estádio Jayme Cintra",
+    "cat": "cultura",
+    "end": "Jundiaí",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Estádio do Paulista FC, campeão da Copa do Brasil de 2005."
+  },
+  {
+    "n": "Museu do Vinho",
+    "cat": "cultura",
+    "end": "Caxambu",
+    "cidade": "Jundiaí",
+    "uf": "SP",
+    "d": "Museu sobre a tradição vinícola de Jundiaí, no bairro do Caxambu."
+  }
+]

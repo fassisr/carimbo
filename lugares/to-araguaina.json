@@ -1,0 +1,11 @@
+[
+{"n":"Via Lago","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Calçadão em volta do lago, o lugar preferido para caminhar e ver o pôr do sol.","busca":["Calçadão Via Lago","Lago Azul"]},
+{"n":"Parque Cimba","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Parque urbano com lago, pista de caminhada e muito verde."},
+{"n":"Parque das Águas","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Parque com área de lazer e lagos, bom para passeios em família."},
+{"n":"Cristo Redentor de Araguaína","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Mirante com estátua do Cristo e vista ampla da cidade.","busca":["Cristo Redentor"]},
+{"n":"Santuário Sagrado Coração de Jesus","cat":"cultura","end":"Centro","cidade":"Araguaína","uf":"TO","d":"Igreja de referência da cidade, com grande movimento de fiéis."},
+{"n":"Mercado Municipal de Araguaína","cat":"comida","end":"Centro","cidade":"Araguaína","uf":"TO","d":"Mercado com comidas típicas, queijos e produtos do norte do Tocantins."},
+{"n":"Estádio Leôncio de Souza Miranda","cat":"cultura","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"O Mirandão, estádio do Araguaína Futebol e Regatas.","busca":["Mirandão"]},
+{"n":"Cachoeira Véu de Noiva","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Cachoeira perto da cidade, refresco garantido no calor do cerrado."},
+{"n":"Praia do Garimpinho","cat":"verde","end":"Araguaína","cidade":"Araguaína","uf":"TO","d":"Praia de rio que forma na seca, com barracas e muita gente no verão."}
+]

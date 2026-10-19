@@ -1,0 +1,98 @@
+[
+  {
+    "n": "Santuário Basílica Nossa Senhora Medianeira",
+    "cat": "cultura",
+    "end": "Avenida Medianeira, Medianeira",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Basílica circular moderna, centro da grande romaria da Medianeira em novembro.",
+    "busca": [
+      "Basílica da Medianeira"
+    ]
+  },
+  {
+    "n": "Catedral Metropolitana de Santa Maria",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Catedral de 1909 com afrescos de Aldo Locatelli no interior.",
+    "busca": [
+      "Catedral Imaculada Conceição"
+    ]
+  },
+  {
+    "n": "Catedral do Mediador",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Catedral anglicana de 1906 com torre única de inspiração gótica."
+  },
+  {
+    "n": "Praça Saldanha Marinho",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Praça central com chafariz, árvores antigas e prédios históricos ao redor."
+  },
+  {
+    "n": "Theatro Treze de Maio",
+    "cat": "cultura",
+    "end": "Praça Saldanha Marinho, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Teatro neoclássico de 1890, joia cultural do centro de Santa Maria.",
+    "busca": [
+      "Teatro Treze de Maio"
+    ]
+  },
+  {
+    "n": "Calçadão Salvador Isaia",
+    "cat": "verde",
+    "end": "Rua Dr. Bozano, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Calçadão central com lojas, cafés e movimento o dia todo.",
+    "busca": [
+      "Calçadão de Santa Maria"
+    ]
+  },
+  {
+    "n": "Vila Belga",
+    "cat": "cultura",
+    "end": "Vila Belga, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Conjunto de casas coloridas do início do século XX, construídas para os ferroviários."
+  },
+  {
+    "n": "Gare da Viação Férrea",
+    "cat": "cultura",
+    "end": "Avenida Rio Branco, Centro",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Estação de 1885 com museu ferroviário de locomotivas e vagões.",
+    "busca": [
+      "Museu Ferroviário de Santa Maria",
+      "Estação Férrea de Santa Maria"
+    ]
+  },
+  {
+    "n": "Planetário da UFSM",
+    "cat": "cultura",
+    "end": "Campus da UFSM, Camobi",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Planetário universitário com sessões sobre o céu e a astronomia."
+  },
+  {
+    "n": "Parque Itambé",
+    "cat": "verde",
+    "end": "Santa Maria",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "d": "Parque urbano com quadras e pista, muito procurado para esportes e caminhadas."
+  }
+]

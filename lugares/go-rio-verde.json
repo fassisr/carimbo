@@ -1,0 +1,83 @@
+[
+  {
+    "n": "Igreja Matriz Nossa Senhora das Dores",
+    "cat": "cultura",
+    "end": "Praça da Matriz, Centro",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Igreja do início do século XX, marco da história da cidade.",
+    "busca": [
+      "Matriz de Rio Verde"
+    ]
+  },
+  {
+    "n": "Praça da Matriz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Praça central diante da igreja matriz, coração de Rio Verde."
+  },
+  {
+    "n": "Praça 5 de Agosto",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Praça movimentada do centro, ponto de encontro dos rio-verdenses."
+  },
+  {
+    "n": "Espelho D'Água de Rio Verde",
+    "cat": "verde",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Parque com lago, pista de caminhada e área de lazer para a família.",
+    "busca": [
+      "Espelho d'Água"
+    ]
+  },
+  {
+    "n": "Parque Dona Gercina",
+    "cat": "verde",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Parque urbano arborizado bom para caminhar e relaxar."
+  },
+  {
+    "n": "Silvestre Park",
+    "cat": "verde",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Parque aquático com piscinas e tobogãs para os dias de calor."
+  },
+  {
+    "n": "Parque de Exposições de Rio Verde",
+    "cat": "cultura",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Sede da Expoverde, uma das grandes feiras agropecuárias de Goiás.",
+    "busca": [
+      "Expoverde"
+    ]
+  },
+  {
+    "n": "Feira Coberta do Estádio",
+    "cat": "comida",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Feira coberta com bancas de comida típica e produtos da roça."
+  },
+  {
+    "n": "Estádio Mozart Veloso do Carmo",
+    "cat": "cultura",
+    "end": "Rio Verde",
+    "cidade": "Rio Verde",
+    "uf": "GO",
+    "d": "Estádio municipal, palco do futebol de Rio Verde."
+  }
+]

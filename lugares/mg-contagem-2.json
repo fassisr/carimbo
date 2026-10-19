@@ -1,0 +1,82 @@
+[
+  {
+    "n": "Parque Municipal Gentil Diniz",
+    "cat": "verde",
+    "end": "Rua Maria do Carmo Diniz, 141, Nossa Senhora do Carmo",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Parque com casarão histórico e área verde no centro de Contagem.",
+    "busca": [
+      "Parque Gentil Diniz",
+      "Casarão do Parque Gentil Diniz"
+    ]
+  },
+  {
+    "n": "Parque Tropical",
+    "cat": "verde",
+    "end": "Rua 42, 360, Tropical",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Parque ecológico com lagoa e trilhas, muito usado pelos moradores.",
+    "busca": [
+      "Parque Ecológico Antônio Pereira de Cardoso"
+    ]
+  },
+  {
+    "n": "Parque Sapucaias",
+    "cat": "verde",
+    "end": "Avenida das Tulipas, Sapucaias",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Parque arborizado com pista de caminhada e área de lazer."
+  },
+  {
+    "n": "Parque Sarandi",
+    "cat": "verde",
+    "end": "Avenida Severino Ballesteros, 623, Ressaca",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Parque com playground e área verde perto da divisa com a Pampulha.",
+    "busca": [
+      "Parque Ecológico Sarandi"
+    ]
+  },
+  {
+    "n": "Centro Cultural de Contagem",
+    "cat": "cultura",
+    "end": "Rua Doutor Cassiano, Centro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Conjunto das casas Amarela, Azul e Rosa, com exposições e oficinas.",
+    "busca": [
+      "Centro Cultural Prefeito Francisco Firmo de Matos Filho"
+    ]
+  },
+  {
+    "n": "Casa de Cacos",
+    "cat": "cultura",
+    "end": "Bernardo Monteiro",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Casa decorada com mosaicos de cacos de louça, obra singular de arte popular."
+  },
+  {
+    "n": "Restaurante Tradição da Roça",
+    "cat": "comida",
+    "end": "Avenida Francisco Firmo de Matos, 212, Jardim Riacho das Pedras",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Comida mineira caseira servida no fogão a lenha.",
+    "busca": [
+      "Tradição da Roça"
+    ]
+  },
+  {
+    "n": "Tropeiro do Zezé",
+    "cat": "comida",
+    "end": "Rua Corcovado, 721, Novo Riacho",
+    "cidade": "Contagem",
+    "uf": "MG",
+    "d": "Casa conhecida pelo feijão tropeiro farto e bem temperado."
+  }
+]

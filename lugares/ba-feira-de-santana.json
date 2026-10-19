@@ -1,0 +1,12 @@
+[
+{"n":"Museu Casa do Sertão","cat":"cultura","end":"Universidade Estadual de Feira de Santana, Avenida Transnordestina","cidade":"Feira de Santana","uf":"BA","d":"Museu da UEFS com peças de couro, cordel e memórias da vida sertaneja."},
+{"n":"Museu Parque do Saber","cat":"cultura","end":"Rua Tupinambás, 275, São João","cidade":"Feira de Santana","uf":"BA","d":"Museu de ciências com planetário, ótimo passeio para a família.","busca":["Parque do Saber"]},
+{"n":"Observatório Astronômico Antares","cat":"cultura","end":"Rua da Barra, 925, Jardim Cruzeiro","cidade":"Feira de Santana","uf":"BA","d":"Observatório da UEFS aberto ao público para ver estrelas, planetas e a Lua.","busca":["Observatório Antares"]},
+{"n":"Mercado de Arte Popular","cat":"cultura","end":"Centro","cidade":"Feira de Santana","uf":"BA","d":"Mercado histórico com artesanato em couro, palha e cerâmica do sertão baiano."},
+{"n":"Catedral Metropolitana de Sant'Ana","cat":"cultura","end":"Centro","cidade":"Feira de Santana","uf":"BA","d":"Catedral da padroeira da cidade, centro da festa de Sant'Ana em julho.","busca":["Catedral de Feira de Santana","Igreja Matriz de Sant'Ana"]},
+{"n":"Casarão Fróes da Mota","cat":"cultura","end":"Centro","cidade":"Feira de Santana","uf":"BA","d":"Casarão neoclássico do início do século XX, joia da arquitetura feirense."},
+{"n":"Centro de Cultura Amélio Amorim","cat":"cultura","end":"Avenida Presidente Dutra","cidade":"Feira de Santana","uf":"BA","d":"Centro cultural com teatro, shows e a curiosa construção em forma de abóbora."},
+{"n":"Estádio Alberto Oliveira","cat":"cultura","end":"Feira de Santana","cidade":"Feira de Santana","uf":"BA","d":"O Joia da Princesa, principal estádio da cidade e casa do Fluminense de Feira.","busca":["Joia da Princesa","Jóia da Princesa"]},
+{"n":"Mercadão da Cidade","cat":"comida","end":"Avenida Maria Quitéria, 2011, Ponto Central","cidade":"Feira de Santana","uf":"BA","d":"Polo gastronômico com restaurantes, hamburguerias e docerias num só lugar."},
+{"n":"Cantinho do Bode","cat":"comida","end":"Conjunto Feira VI, Campo Limpo","cidade":"Feira de Santana","uf":"BA","d":"Restaurante famoso pelo bode assado servido com feijão, arroz e farofa."}
+]

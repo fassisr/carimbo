@@ -1,0 +1,89 @@
+[
+  {
+    "n": "Catedral de São Pedro",
+    "cat": "cultura",
+    "end": "Rua Barão de Itapemirim, 36, Centro",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Catedral do padroeiro da cidade, no coração do Centro.",
+    "busca": [
+      "Catedral de Cachoeiro"
+    ]
+  },
+  {
+    "n": "Igreja Matriz Velha",
+    "cat": "cultura",
+    "end": "Rua Padre Mello, 39, Independência",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Igreja do século XIX dedicada a Nosso Senhor dos Passos.",
+    "busca": [
+      "Igreja Matriz Nosso Senhor dos Passos"
+    ]
+  },
+  {
+    "n": "Praça Jerônimo Monteiro",
+    "cat": "verde",
+    "end": "Rua Vinte e Cinco de Março, Centro",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Praça principal da cidade, cercada de prédios históricos."
+  },
+  {
+    "n": "Palácio Bernardino Monteiro",
+    "cat": "cultura",
+    "end": "Praça Jerônimo Monteiro, 28, Centro",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Palacete histórico que abriga a sede da prefeitura."
+  },
+  {
+    "n": "Museu Ferroviário Domingos Lage",
+    "cat": "cultura",
+    "end": "Rua Coronel Francisco Braga, Guandu",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Antiga estação que conta a história da ferrovia no sul capixaba.",
+    "busca": [
+      "Estação Ferroviária de Cachoeiro"
+    ]
+  },
+  {
+    "n": "Teatro Municipal Rubem Braga",
+    "cat": "cultura",
+    "end": "Rua Joaquim Vieira, Guandu",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Teatro que homenageia o cronista mais famoso da cidade."
+  },
+  {
+    "n": "Fábrica de Pios Maurílio Coelho",
+    "cat": "cultura",
+    "end": "Rua Gastão Pimenta Coelho, 51, Ilha da Luz",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Fábrica centenária de pios que imitam cantos de aves, patrimônio da cidade.",
+    "busca": [
+      "Fábrica de Pios"
+    ]
+  },
+  {
+    "n": "Pedra do Frade e a Freira",
+    "cat": "verde",
+    "end": "Gruta, às margens da BR-101",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Formação rochosa famosa que lembra um frade e uma freira se beijando.",
+    "busca": [
+      "Monumento Natural O Frade e a Freira"
+    ]
+  },
+  {
+    "n": "Cachoeira Alta",
+    "cat": "verde",
+    "end": "São Vicente",
+    "cidade": "Cachoeiro de Itapemirim",
+    "uf": "ES",
+    "d": "Cachoeira alta e bonita no interior do município, boa para trilha."
+  }
+]

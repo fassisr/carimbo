@@ -1,0 +1,82 @@
+[
+  {
+    "n": "Estação Memória Zeza Souto",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Antiga estação ferroviária de 1930 que guarda a memória da cidade.",
+    "busca": [
+      "Estação Memória"
+    ]
+  },
+  {
+    "n": "Estação Pouso de Água Limpa",
+    "cat": "cultura",
+    "end": "Ipatinga",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Complexo cultural e turístico com apresentações de música e artes."
+  },
+  {
+    "n": "Estação Ferroviária Intendente Câmara",
+    "cat": "cultura",
+    "end": "Intendente Câmara",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Parada do trem de passageiros da Vitória a Minas.",
+    "busca": [
+      "Estação Intendente Câmara"
+    ]
+  },
+  {
+    "n": "Feira do Canaã",
+    "cat": "cultura",
+    "end": "Avenida Selim José de Sales, Canaã",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Feira popular com comidas, artesanato e muito movimento."
+  },
+  {
+    "n": "Estádio Ipatingão",
+    "cat": "cultura",
+    "end": "Ipatinga",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Estádio do Ipatinga Futebol Clube, palco do futebol do Vale do Aço.",
+    "busca": [
+      "Estádio Municipal João Lamego Netto",
+      "Ipatingão"
+    ]
+  },
+  {
+    "n": "Praça Primeiro de Maio",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Praça central de Ipatinga, ponto de encontro e de eventos.",
+    "busca": [
+      "Praça 1º de Maio"
+    ]
+  },
+  {
+    "n": "Restaurante Tradição",
+    "cat": "comida",
+    "end": "Avenida Carlos Chagas, 294, Cidade Nobre",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Restaurante de comida mineira bem conhecido no Cidade Nobre."
+  },
+  {
+    "n": "Albatroz Butequices",
+    "cat": "bar",
+    "end": "Rua John Kennedy, 284, Cidade Nobre",
+    "cidade": "Ipatinga",
+    "uf": "MG",
+    "d": "Boteco animado do Cidade Nobre, com petiscos e cerveja gelada.",
+    "busca": [
+      "Albatroz"
+    ]
+  }
+]

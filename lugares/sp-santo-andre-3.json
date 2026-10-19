@@ -1,0 +1,54 @@
+[
+  {
+    "n": "Sabina Escola Parque do Conhecimento",
+    "cat": "cultura",
+    "end": "Vila Eldízia",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Parque de ciências interativo com planetário, aquários e um tubarão em tamanho real.",
+    "busca": [
+      "Sabina"
+    ]
+  },
+  {
+    "n": "Planetário Johannes Kepler",
+    "cat": "cultura",
+    "end": "Sabina Escola Parque do Conhecimento, Vila Eldízia",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Planetário e cinedome dentro da Sabina, com sessões sobre o universo.",
+    "busca": [
+      "Planetário e Cinedome Johannes Kepler"
+    ]
+  },
+  {
+    "n": "Parque Central",
+    "cat": "verde",
+    "end": "Rua José Bonifácio, Vila Assunção",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Grande parque urbano de Santo André, com lago e pistas de caminhada.",
+    "busca": [
+      "Parque Central de Santo André"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal do Pedroso",
+    "cat": "verde",
+    "end": "Estrada do Pedroso, 3000, Parque Miami",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Área de Mata Atlântica às margens da Billings, com trilhas e lagos.",
+    "busca": [
+      "Parque do Pedroso"
+    ]
+  },
+  {
+    "n": "Teatro Municipal de Santo André",
+    "cat": "cultura",
+    "end": "Praça IV Centenário, Centro",
+    "cidade": "Santo André",
+    "uf": "SP",
+    "d": "Teatro no conjunto modernista do Paço Municipal."
+  }
+]

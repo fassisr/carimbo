@@ -1,0 +1,12 @@
+[
+{"n":"Parque Histórico Nacional dos Guararapes","cat":"verde","end":"Monte dos Guararapes, Prazeres","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Onde aconteceram as Batalhas dos Guararapes, com mirante para a orla e o Recife.","busca":["Monte dos Guararapes","Mirante Henrique Dias"]},
+{"n":"Igreja de Nossa Senhora dos Prazeres dos Montes Guararapes","cat":"cultura","end":"Rua Monte dos Guararapes, Prazeres","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Igreja do século XVII no alto do monte, erguida em memória das batalhas.","busca":["Santuário de Nossa Senhora dos Prazeres","Igreja dos Prazeres"]},
+{"n":"Praia de Piedade","cat":"verde","end":"Piedade","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Continuação de Boa Viagem, com orla movimentada de bares e restaurantes."},
+{"n":"Igreja de Nossa Senhora da Piedade","cat":"cultura","end":"Avenida Bernardo Vieira de Melo, Piedade","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Igrejinha histórica à beira-mar que deu nome ao bairro e à praia.","busca":["Paróquia Nossa Senhora da Piedade"]},
+{"n":"Praia de Candeias","cat":"verde","end":"Candeias","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Praia com calçadão largo, quiosques e áreas de esporte à beira-mar.","busca":["Calçadão de Candeias"]},
+{"n":"Praia de Barra de Jangada","cat":"verde","end":"Barra de Jangada","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Praia de mar calmo no encontro do rio com o mar, de frente para a Ilha do Amor."},
+{"n":"Lagoa Azul","cat":"verde","end":"Jaboatão dos Guararapes","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Lagoa de água azulada numa antiga pedreira, cenário bonito para fotos."},
+{"n":"Mercado das Mangueiras","cat":"comida","end":"Jaboatão dos Guararapes","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Mercado popular com comidas regionais e o burburinho típico das feiras pernambucanas."},
+{"n":"Casa da Cultura de Jaboatão dos Guararapes","cat":"cultura","end":"Jaboatão Centro","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Espaço cultural no centro histórico com exposições e artesanato local.","busca":["Casa da Cultura de Jaboatão"]},
+{"n":"Cine Teatro Samuel Campelo","cat":"cultura","end":"Jaboatão Centro","cidade":"Jaboatão dos Guararapes","uf":"PE","d":"Cineteatro histórico do centro de Jaboatão, palco de espetáculos e festivais."}
+]

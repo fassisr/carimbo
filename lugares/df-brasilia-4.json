@@ -1,0 +1,63 @@
+[
+  {
+    "n": "Praça do Relógio",
+    "cat": "verde",
+    "end": "Taguatinga Centro, Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Praça símbolo de Taguatinga, com o relógio de quatro faces e muito movimento."
+  },
+  {
+    "n": "Parque Ecológico Saburo Onoyama",
+    "cat": "verde",
+    "end": "Taguatinga Sul, Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Parque com lago, trilhas e área verde muito usada pelos moradores.",
+    "busca": [
+      "Parque Saburo Onoyama"
+    ]
+  },
+  {
+    "n": "Taguaparque",
+    "cat": "verde",
+    "end": "Taguatinga Norte, Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Grande parque entre Taguatinga e Ceilândia, com pistas e espaço para eventos.",
+    "busca": [
+      "Parque Ecológico e Vivencial do Taguaparque"
+    ]
+  },
+  {
+    "n": "Mercado Sul Vive",
+    "cat": "cultura",
+    "end": "QSB 12/13, Taguatinga Sul, Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Antigo mercado de 1958 ocupado por artistas, com samba, teatro e arte de rua.",
+    "busca": [
+      "Mercado Sul",
+      "Beco da Cultura"
+    ]
+  },
+  {
+    "n": "Feira da Praça do Bicalho",
+    "cat": "cultura",
+    "end": "Praça Almirante Tamandaré, Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Feira livre de domingo com uns 300 bancas e comidas nordestinas.",
+    "busca": [
+      "Praça do Bicalho"
+    ]
+  },
+  {
+    "n": "Feira dos Goianos",
+    "cat": "cultura",
+    "end": "Taguatinga",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Feira tradicional de roupas e confecções que atrai gente de todo o DF."
+  }
+]

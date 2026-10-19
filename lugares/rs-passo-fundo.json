@@ -1,0 +1,94 @@
+[
+  {
+    "n": "Catedral Metropolitana Nossa Senhora Aparecida",
+    "cat": "cultura",
+    "end": "Praça Marechal Floriano, Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Catedral de estilo românico com vitrais, painéis e relógio que toca a cada 15 minutos.",
+    "busca": [
+      "Catedral de Passo Fundo"
+    ]
+  },
+  {
+    "n": "Praça Marechal Floriano",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Praça central arborizada com o monumento da Cuia, símbolo do chimarrão.",
+    "busca": [
+      "Monumento da Cuia"
+    ]
+  },
+  {
+    "n": "Praça Tamandaré",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Praça de 1892 sob plátanos, considerada o berço da cidade."
+  },
+  {
+    "n": "Igreja Matriz Nossa Senhora da Conceição",
+    "cat": "cultura",
+    "end": "Praça Tamandaré, Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Igreja de 1908, singela e cheia de história, diante da Praça Tamandaré."
+  },
+  {
+    "n": "Parque da Gare",
+    "cat": "verde",
+    "end": "Avenida Sete de Setembro, Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Maior área de lazer da cidade, com lago, ciclovia, anfiteatro e escorregador gigante."
+  },
+  {
+    "n": "Gare Estação Gastronômica",
+    "cat": "comida",
+    "end": "Avenida Sete de Setembro, Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Antiga estação ferroviária transformada em polo gastronômico.",
+    "busca": [
+      "Gare de Passo Fundo"
+    ]
+  },
+  {
+    "n": "Parque Linear Sétimo Céu",
+    "cat": "verde",
+    "end": "Avenida Rui Barbosa, Petrópolis",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Parque no alto da cidade, com vista panorâmica e belo pôr do sol."
+  },
+  {
+    "n": "Teatro Municipal Múcio de Castro",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Teatro em prédio de 1883 restaurado, parte do Espaço Cultural Roseli Doleski Pretto."
+  },
+  {
+    "n": "Museu Histórico Regional",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Museu sobre a história do planalto gaúcho, no complexo cultural do centro.",
+    "busca": [
+      "Museu Histórico Regional de Passo Fundo"
+    ]
+  },
+  {
+    "n": "Praça do Teixeirinha",
+    "cat": "verde",
+    "end": "Avenida Brasil",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "d": "Praça em homenagem ao cantor Teixeirinha, com escultura de sucata."
+  }
+]

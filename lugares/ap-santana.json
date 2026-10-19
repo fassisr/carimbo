@@ -1,0 +1,10 @@
+[
+{"n":"Praça Cívica de Santana","cat":"verde","end":"Centro","cidade":"Santana","uf":"AP","d":"Praça principal da cidade, palco de eventos e encontro dos santanenses."},
+{"n":"Paróquia Nossa Senhora de Fátima e Sant'Ana","cat":"cultura","end":"Centro","cidade":"Santana","uf":"AP","d":"Igreja da padroeira que dá nome à cidade, centro da festa de Sant'Ana em julho."},
+{"n":"Paróquia Nossa Senhora do Perpétuo Socorro","cat":"cultura","end":"Santana","cidade":"Santana","uf":"AP","d":"Igreja tradicional de Santana, com festejos animados da comunidade."},
+{"n":"Porto de Santana","cat":"cultura","end":"Santana","cidade":"Santana","uf":"AP","d":"Porto no Rio Amazonas de onde saem os barcos para Belém e as ilhas.","busca":["Porto de Santana"]},
+{"n":"Ilha de Santana","cat":"verde","end":"Rio Amazonas","cidade":"Santana","uf":"AP","d":"Ilha em frente à cidade, com vilas ribeirinhas e travessia de barco curtinha."},
+{"n":"Estádio Augusto Antunes","cat":"cultura","end":"Santana","cidade":"Santana","uf":"AP","d":"Estádio da cidade, palco do futebol amapaense fora da capital."},
+{"n":"Balneário do Abel","cat":"verde","end":"Santana","cidade":"Santana","uf":"AP","d":"Balneário de água doce para banho e almoço de fim de semana."},
+{"n":"Parque Aquático do Grego","cat":"verde","end":"Santana","cidade":"Santana","uf":"AP","d":"Parque aquático com piscinas, programa clássico das famílias no calor amapaense."}
+]

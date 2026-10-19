@@ -1,0 +1,162 @@
+[
+  {
+    "n": "Cais das Artes",
+    "cat": "cultura",
+    "end": "Avenida Américo Buaiz, Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Complexo de museu e teatro projetado por Paulo Mendes da Rocha, à beira da baía.",
+    "busca": [
+      "Complexo Cultural Cais das Artes"
+    ]
+  },
+  {
+    "n": "Mercado da Capixaba",
+    "cat": "cultura",
+    "end": "Avenida Jerônimo Monteiro, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Mercado histórico do Centro reaberto após décadas fechado, com eventos e lojas.",
+    "busca": [
+      "Mercado Capixaba"
+    ]
+  },
+  {
+    "n": "Projeto Tamar Vitória",
+    "cat": "verde",
+    "end": "Avenida Nossa Senhora dos Navegantes, 700A, Enseada do Suá",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Base do Tamar com tanques de tartarugas marinhas ao lado da Praça do Papa.",
+    "busca": [
+      "Tamar Vitória",
+      "Centro de Visitantes do Tamar"
+    ]
+  },
+  {
+    "n": "Praça dos Desejos",
+    "cat": "verde",
+    "end": "Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Pracinha vizinha à dos Namorados, boa para passear de frente para o mar."
+  },
+  {
+    "n": "Parque Tancredão",
+    "cat": "verde",
+    "end": "Mário Cypreste",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Grande parque esportivo e de lazer perto do Sambão do Povo.",
+    "busca": [
+      "Parque Municipal Tancredo de Almeida Neves",
+      "Tancredão"
+    ]
+  },
+  {
+    "n": "Palácio da Cultura Sônia Cabral",
+    "cat": "cultura",
+    "end": "Cidade Alta, Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Palacete da Cidade Alta que recebe concertos, saraus e exposições.",
+    "busca": [
+      "Palácio Sônia Cabral",
+      "Casa da Música Sônia Cabral"
+    ]
+  },
+  {
+    "n": "Ilha do Caranguejo",
+    "cat": "comida",
+    "end": "Rua Alcino Pereira Neto, 570, Jardim Camburi",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Casa famosa pela casquinha de siri, caranguejada e moqueca capixaba."
+  },
+  {
+    "n": "Partido Alto",
+    "cat": "comida",
+    "end": "Rua Carlos Eduardo Monteiro de Lemos, 20, Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Restaurante tradicional para provar moqueca e torta capixaba em panela de barro.",
+    "busca": [
+      "Restaurante Partido Alto"
+    ]
+  },
+  {
+    "n": "Bar Copa 70 do David",
+    "cat": "bar",
+    "end": "Avenida Paulino Muller, Jucutuquara",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Boteco antigo frequentado por cronistas do futebol, com moqueca de caranguejo.",
+    "busca": [
+      "Copa 70"
+    ]
+  },
+  {
+    "n": "Divino Botequim",
+    "cat": "bar",
+    "end": "Rua Eugenílio Ramos, 236, Jardim da Penha",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Boteco animado de Jardim da Penha, com petiscos e chope gelado."
+  },
+  {
+    "n": "O Quintal Parrilla Bar",
+    "cat": "bar",
+    "end": "Rua Aleixo Netto, 1158, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Bar com parrilla e mesas no quintal, ponto de encontro da Praia do Canto.",
+    "busca": [
+      "O Quintal"
+    ]
+  },
+  {
+    "n": "Odara Pão e Café",
+    "cat": "cafe",
+    "end": "Rua Aleixo Netto, 834, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Padaria e café com pães de fermentação natural e cafés da manhã caprichados.",
+    "busca": [
+      "Odara Café"
+    ]
+  },
+  {
+    "n": "Café Teugrano",
+    "cat": "cafe",
+    "end": "Rua Joaquim Lírio, 455, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Cafeteria de cafés especiais capixabas no coração da Praia do Canto.",
+    "busca": [
+      "Teugrano"
+    ]
+  },
+  {
+    "n": "Bee",
+    "cat": "doce",
+    "end": "Avenida Nossa Senhora da Penha, 570, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Confeitaria conhecida pela torta de chocolate com nozes, doce símbolo da cidade.",
+    "busca": [
+      "Bee Doces",
+      "Bee Confeitaria"
+    ]
+  },
+  {
+    "n": "D'Belem Doçaria Portuguesa",
+    "cat": "doce",
+    "end": "Rua Chapot Presvot, 364, Praia do Canto",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "d": "Doçaria portuguesa com pastéis de nata saindo do forno.",
+    "busca": [
+      "D'Belem"
+    ]
+  }
+]

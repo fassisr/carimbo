@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Ao Chopp do Gonzaga",
+    "cat": "bar",
+    "end": "Gonzaga",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Choperia aberta em 1962, clássica do bairro do Gonzaga."
+  },
+  {
+    "n": "Último Gole",
+    "cat": "bar",
+    "end": "Gonzaga",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Bar com mais de 30 anos perto da praia do Gonzaga."
+  },
+  {
+    "n": "Bar Heinz",
+    "cat": "bar",
+    "end": "Boqueirão",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Bar e restaurante de mais de 50 anos no Boqueirão."
+  },
+  {
+    "n": "Bonde Turístico de Santos",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Bonde antigo que percorre os principais pontos do centro histórico.",
+    "busca": [
+      "Bonde de Santos"
+    ]
+  },
+  {
+    "n": "Mercado Municipal de Santos",
+    "cat": "cultura",
+    "end": "Praça Iguatemi Martins, Vila Nova",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Mercadão histórico com bancas de peixe, frutas e temperos."
+  },
+  {
+    "n": "Santuário de Santo Antônio do Valongo",
+    "cat": "cultura",
+    "end": "Largo Marquês de Monte Alegre, Valongo",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Igreja franciscana do século XVII ao lado da antiga estação ferroviária.",
+    "busca": [
+      "Igreja do Valongo"
+    ]
+  },
+  {
+    "n": "Catedral de Santos",
+    "cat": "cultura",
+    "end": "Praça Patriarca José Bonifácio, Centro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Catedral neogótica no centro da cidade.",
+    "busca": [
+      "Catedral Nossa Senhora do Rosário"
+    ]
+  },
+  {
+    "n": "Estádio Urbano Caldeira",
+    "cat": "cultura",
+    "end": "Rua Princesa Isabel, 77, Vila Belmiro",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "A Vila Belmiro, casa do Santos e de Pelé.",
+    "busca": [
+      "Vila Belmiro"
+    ]
+  },
+  {
+    "n": "Museu de Pesca",
+    "cat": "cultura",
+    "end": "Avenida Bartolomeu de Gusmão, 192, Ponta da Praia",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Museu com esqueleto de baleia e acervo sobre a vida marinha."
+  },
+  {
+    "n": "Parque Roberto Mário Santini",
+    "cat": "verde",
+    "end": "Emissário Submarino, José Menino",
+    "cidade": "Santos",
+    "uf": "SP",
+    "d": "Mirante sobre o mar no Emissário Submarino, ótimo para ver o pôr do sol.",
+    "busca": [
+      "Emissário Submarino"
+    ]
+  }
+]

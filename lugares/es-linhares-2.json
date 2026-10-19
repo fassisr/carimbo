@@ -1,0 +1,76 @@
+[
+  {
+    "n": "Lagoa Monsarás",
+    "cat": "verde",
+    "end": "Povoação",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Lagoa que encontra o mar em Povoação, cenário raro no litoral capixaba."
+  },
+  {
+    "n": "Praia de Povoação",
+    "cat": "verde",
+    "end": "Povoação",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Praia rústica e deserta na vila de pescadores de Povoação."
+  },
+  {
+    "n": "Lagoa da Viúva",
+    "cat": "verde",
+    "end": "Povoação",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Lagoa de águas escuras perto do litoral, cercada de restinga."
+  },
+  {
+    "n": "Projeto Tamar Regência",
+    "cat": "verde",
+    "end": "Vila de Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Base do Tamar na foz do Rio Doce, área de desova de tartarugas.",
+    "busca": [
+      "Tamar Regência",
+      "Base do Projeto Tamar de Regência"
+    ]
+  },
+  {
+    "n": "Reserva Biológica de Comboios",
+    "cat": "verde",
+    "end": "Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Reserva costeira que protege praias de desova da tartaruga-gigante."
+  },
+  {
+    "n": "Antigo Farol de Regência",
+    "cat": "cultura",
+    "end": "Vila de Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Cúpula do velho farol, símbolo do centro histórico de Regência.",
+    "busca": [
+      "Cúpula do Antigo Farol"
+    ]
+  },
+  {
+    "n": "Museu Histórico de Regência",
+    "cat": "cultura",
+    "end": "Vila de Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Pequeno museu sobre o herói Caboclo Bernardo e a história da vila.",
+    "busca": [
+      "Museu Caboclo Bernardo"
+    ]
+  },
+  {
+    "n": "Praça Caboclo Bernardo",
+    "cat": "verde",
+    "end": "Vila de Regência",
+    "cidade": "Linhares",
+    "uf": "ES",
+    "d": "Praça central de Regência que homenageia o herói local."
+  }
+]

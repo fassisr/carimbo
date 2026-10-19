@@ -1,0 +1,231 @@
+[
+  {
+    "n": "Bar do Beto",
+    "cat": "bar",
+    "end": "Avenida Venâncio Aires, 876, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Bar de 1953 famoso pelos sanduíches e pelo chope até tarde da noite."
+  },
+  {
+    "n": "Boteco Pedrini",
+    "cat": "bar",
+    "end": "Avenida Venâncio Aires, 204, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Boteco de 1960 com chope cremoso e petiscos de família.",
+    "busca": [
+      "Pedrini"
+    ]
+  },
+  {
+    "n": "Cidade Baixa",
+    "cat": "bar",
+    "end": "Rua João Alfredo e Rua da República, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Bairro boêmio de casarões coloridos, cheio de bares, música e gente na calçada."
+  },
+  {
+    "n": "Rua Padre Chagas",
+    "cat": "bar",
+    "end": "Rua Padre Chagas, Moinhos de Vento",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Rua charmosa do Moinhos com bares, cafés e restaurantes sob as árvores."
+  },
+  {
+    "n": "Café do Porto",
+    "cat": "cafe",
+    "end": "Rua Padre Chagas, 293, Moinhos de Vento",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Cafeteria clássica do Moinhos, boa para um café com torta no fim de tarde."
+  },
+  {
+    "n": "Sorveteria Joia",
+    "cat": "doce",
+    "end": "Rua da República, 441, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Sorveteria de 1978, parada obrigatória para um sorvete artesanal na Cidade Baixa."
+  },
+  {
+    "n": "Trianon Lanches",
+    "cat": "comida",
+    "end": "Avenida Protásio Alves, 978, Rio Branco",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Lancheria de 1962, templo do xis, o sanduíche símbolo de Porto Alegre.",
+    "busca": [
+      "Trianon"
+    ]
+  },
+  {
+    "n": "Komka",
+    "cat": "comida",
+    "end": "Avenida Bahia, 1275, São Geraldo",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Galeteria e churrascaria tradicional do bairro São Geraldo.",
+    "busca": [
+      "Churrascaria Komka"
+    ]
+  },
+  {
+    "n": "Sakae's",
+    "cat": "comida",
+    "end": "Rua Castro Alves, 690, Independência",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Restaurante japonês de 1973, um dos pioneiros da culinária nipônica na cidade.",
+    "busca": [
+      "Sakaes"
+    ]
+  },
+  {
+    "n": "Tudo Pelo Social",
+    "cat": "comida",
+    "end": "Rua João Alfredo, 420, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Restaurante de comida caseira farta e barata, instituição da Cidade Baixa."
+  },
+  {
+    "n": "Parque Marechal Mascarenhas de Moraes",
+    "cat": "verde",
+    "end": "Humaitá",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Grande parque da zona norte com lagos, trilhas e muito espaço verde.",
+    "busca": [
+      "Parque Mascarenhas de Moraes"
+    ]
+  },
+  {
+    "n": "Parque Harmonia",
+    "cat": "verde",
+    "end": "Avenida Loureiro da Silva, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Parque à beira do Guaíba, palco do Acampamento Farroupilha em setembro.",
+    "busca": [
+      "Parque Maurício Sirotsky Sobrinho"
+    ]
+  },
+  {
+    "n": "Praça Júlio de Castilhos",
+    "cat": "verde",
+    "end": "Avenida Independência, Independência",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Praça arborizada com monumento e feirinhas, entre o Centro e o Moinhos."
+  },
+  {
+    "n": "Jardim Lutzenberger",
+    "cat": "verde",
+    "end": "Rua dos Andradas, 736, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Jardim suspenso no topo da Casa de Cultura Mario Quintana, com vista do Centro."
+  },
+  {
+    "n": "Praia do Lami",
+    "cat": "verde",
+    "end": "Lami, Zona Sul",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Praia de água doce no extremo sul da cidade, ao lado da Reserva Biológica do Lami."
+  },
+  {
+    "n": "Ilha da Pintada",
+    "cat": "verde",
+    "end": "Arquipélago, Ilha da Pintada",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Ilha de pescadores no Delta do Jacuí, com peixarias e clima de vila."
+  },
+  {
+    "n": "Arena do Grêmio",
+    "cat": "cultura",
+    "end": "Avenida Padre Leopoldo Brentano, 110, Humaitá",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Estádio moderno do Grêmio, com tour e museu do clube.",
+    "busca": [
+      "Arena Grêmio"
+    ]
+  },
+  {
+    "n": "Estádio Beira-Rio",
+    "cat": "cultura",
+    "end": "Avenida Padre Cacique, 891, Praia de Belas",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Casa do Internacional às margens do Guaíba, sede da Copa de 2014.",
+    "busca": [
+      "Estádio José Pinheiro Borda",
+      "Beira-Rio"
+    ]
+  },
+  {
+    "n": "Planetário Professor José Baptista Pereira",
+    "cat": "cultura",
+    "end": "Avenida Ipiranga, 2000, Santana",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Planetário da UFRGS com sessões sob a cúpula para todas as idades.",
+    "busca": [
+      "Planetário da UFRGS"
+    ]
+  },
+  {
+    "n": "Museu de Comunicação Hipólito José da Costa",
+    "cat": "cultura",
+    "end": "Rua dos Andradas, 959, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Museu com acervo de jornais, rádio, TV e fotografia da história gaúcha."
+  },
+  {
+    "n": "Museu Joaquim Felizardo",
+    "cat": "cultura",
+    "end": "Rua João Alfredo, 582, Cidade Baixa",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Solar do século XIX que conta a história de Porto Alegre.",
+    "busca": [
+      "Museu de Porto Alegre Joaquim Felizardo"
+    ]
+  },
+  {
+    "n": "Centro Histórico-Cultural Santa Casa",
+    "cat": "cultura",
+    "end": "Avenida Independência, 75, Independência",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Complexo cultural no hospital mais antigo do estado, com museu e jardins."
+  },
+  {
+    "n": "Auditório Araújo Vianna",
+    "cat": "cultura",
+    "end": "Avenida Osvaldo Aranha, 685, Bom Fim",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Auditório histórico dentro da Redenção, palco de grandes shows.",
+    "busca": [
+      "Araújo Vianna"
+    ]
+  },
+  {
+    "n": "Pórtico Central do Cais Mauá",
+    "cat": "cultura",
+    "end": "Avenida Mauá, Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "d": "Portal histórico de ferro do antigo cais do porto, cartão-postal do Centro.",
+    "busca": [
+      "Cais Mauá"
+    ]
+  }
+]

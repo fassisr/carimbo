@@ -1,0 +1,101 @@
+[
+  {
+    "n": "Ilha do Mel",
+    "cat": "verde",
+    "end": "Ilha do Mel",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Ilha sem carros com praias, trilhas, grutas e vilas de pescadores."
+  },
+  {
+    "n": "Farol das Conchas",
+    "cat": "verde",
+    "end": "Morro das Conchas, Ilha do Mel",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Farol de 1872 no alto do morro, com vista para o mar e as praias da ilha."
+  },
+  {
+    "n": "Fortaleza de Nossa Senhora dos Prazeres",
+    "cat": "cultura",
+    "end": "Ilha do Mel",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Fortaleza de 1767 que guardava a entrada da baía.",
+    "busca": [
+      "Fortaleza da Ilha do Mel",
+      "Fortaleza da Barra"
+    ]
+  },
+  {
+    "n": "Rua da Praia",
+    "cat": "verde",
+    "end": "Rua General Carneiro, Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Orla do Rio Itiberê com casario colonial, bares e saída dos barcos.",
+    "busca": [
+      "Rua General Carneiro"
+    ]
+  },
+  {
+    "n": "Aquário de Paranaguá",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Aquário marinho com tanques de animais do litoral e espécies para tocar.",
+    "busca": [
+      "Aquário Marinho de Paranaguá"
+    ]
+  },
+  {
+    "n": "Museu de Arqueologia e Etnologia da UFPR",
+    "cat": "cultura",
+    "end": "Rua XV de Novembro, 575, Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Museu em antigo colégio jesuíta com mais de 70 mil peças.",
+    "busca": [
+      "MAE UFPR"
+    ]
+  },
+  {
+    "n": "Mercado do Café",
+    "cat": "comida",
+    "end": "Rua da Praia, Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Mercado histórico com bancas de café, peixe frito e barreado.",
+    "busca": [
+      "Mercado Municipal do Café"
+    ]
+  },
+  {
+    "n": "Santuário Nossa Senhora do Rocio",
+    "cat": "cultura",
+    "end": "Rocio",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Santuário da padroeira do Paraná, destino de romarias em novembro."
+  },
+  {
+    "n": "Catedral Nossa Senhora do Rosário",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "A igreja mais antiga do Paraná, fundada no século XVI.",
+    "busca": [
+      "Catedral de Paranaguá"
+    ]
+  },
+  {
+    "n": "Igreja de São Benedito",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "Paranaguá",
+    "uf": "PR",
+    "d": "Pequena igreja colonial do século XVII ligada à irmandade dos negros libertos."
+  }
+]

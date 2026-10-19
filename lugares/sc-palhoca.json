@@ -1,0 +1,80 @@
+[
+  {
+    "n": "Guarda do Embaú",
+    "cat": "verde",
+    "end": "Guarda do Embaú",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Vila de surfe onde o rio encontra o mar, com dunas e travessia de barco até a praia."
+  },
+  {
+    "n": "Praia da Pinheira",
+    "cat": "verde",
+    "end": "Pinheira",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Enseada de águas calmas e areia branca, ótima para famílias."
+  },
+  {
+    "n": "Praia da Gamboa",
+    "cat": "verde",
+    "end": "Gamboa",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Praia rústica de pescadores, tranquila e cercada de morros."
+  },
+  {
+    "n": "Praia do Sonho",
+    "cat": "verde",
+    "end": "Praia do Sonho",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Praia de mar calmo com vista para a Ilha do Papagaio."
+  },
+  {
+    "n": "Praia de Cima",
+    "cat": "verde",
+    "end": "Pinheira",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Praia vizinha da Pinheira, ponto de partida de trilhas pelo litoral."
+  },
+  {
+    "n": "Parque Estadual da Serra do Tabuleiro",
+    "cat": "verde",
+    "end": "Rodovia BR-101, Pinheira",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Maior unidade de conservação de SC, com centro de visitantes e trilhas.",
+    "busca": [
+      "Parque do Tabuleiro"
+    ]
+  },
+  {
+    "n": "Morro do Cambirela",
+    "cat": "verde",
+    "end": "Praia de Fora",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Morro de trilha puxada e vista espetacular da Grande Florianópolis."
+  },
+  {
+    "n": "Rio da Madre",
+    "cat": "verde",
+    "end": "Guarda do Embaú",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Rio de águas escuras que desemboca na Guarda, bom para canoa e stand up."
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário da Enseada de Brito",
+    "cat": "cultura",
+    "end": "Enseada de Brito",
+    "cidade": "Palhoça",
+    "uf": "SC",
+    "d": "Igreja açoriana do século XVIII numa das vilas mais antigas do estado.",
+    "busca": [
+      "Igreja da Enseada de Brito"
+    ]
+  }
+]

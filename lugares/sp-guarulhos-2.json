@@ -1,0 +1,82 @@
+[
+  {
+    "n": "Zoológico Municipal de Guarulhos",
+    "cat": "verde",
+    "end": "Vila Barros",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Zoológico gratuito da cidade, com aves, primatas e felinos.",
+    "busca": [
+      "Zoo de Guarulhos"
+    ]
+  },
+  {
+    "n": "Praça Oito de Dezembro",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Praça central de Guarulhos, ponto de encontro da cidade.",
+    "busca": [
+      "Praça 8 de Dezembro"
+    ]
+  },
+  {
+    "n": "Praça Presidente Getúlio Vargas",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Praça histórica do centro, ao lado da catedral.",
+    "busca": [
+      "Praça Getúlio Vargas"
+    ]
+  },
+  {
+    "n": "Praça Mamonas Assassinas",
+    "cat": "verde",
+    "end": "Guarulhos",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Praça que homenageia a banda guarulhense Mamonas Assassinas."
+  },
+  {
+    "n": "Parque Júlio Fracalanza",
+    "cat": "verde",
+    "end": "Vila Augusta",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Parque urbano com lago, pista de caminhada e playground."
+  },
+  {
+    "n": "Parque Natural Municipal da Candinha",
+    "cat": "verde",
+    "end": "Guarulhos",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Reserva de Mata Atlântica com trilhas e nascentes.",
+    "busca": [
+      "Parque da Candinha"
+    ]
+  },
+  {
+    "n": "Museu Histórico Municipal de Guarulhos",
+    "cat": "cultura",
+    "end": "Guarulhos",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Museu que conta a história da cidade desde os aldeamentos indígenas."
+  },
+  {
+    "n": "Aeroporto Internacional de São Paulo/Guarulhos",
+    "cat": "cultura",
+    "end": "Rodovia Hélio Smidt, Cumbica",
+    "cidade": "Guarulhos",
+    "uf": "SP",
+    "d": "Maior aeroporto do país, porta de entrada do Brasil.",
+    "busca": [
+      "Aeroporto de Guarulhos",
+      "Aeroporto de Cumbica"
+    ]
+  }
+]

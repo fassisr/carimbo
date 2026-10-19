@@ -1,0 +1,91 @@
+[
+  {
+    "n": "Casario do Porto",
+    "cat": "cultura",
+    "end": "Rua Manoel Cavassa, Porto Geral",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Casarões do século XIX à beira do Rio Paraguai, tombados pelo Iphan."
+  },
+  {
+    "n": "Porto Geral",
+    "cat": "verde",
+    "end": "Porto Geral",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Orla do Rio Paraguai com passeios de barco e pôr do sol pantaneiro."
+  },
+  {
+    "n": "Museu de História do Pantanal",
+    "cat": "cultura",
+    "end": "Rua Manoel Cavassa, 275, Porto Geral",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Museu interativo sobre a natureza e os povos do Pantanal.",
+    "busca": [
+      "Muhpan"
+    ]
+  },
+  {
+    "n": "Forte Junqueira",
+    "cat": "cultura",
+    "end": "Corumbá",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Forte do século XIX com canhões e vista para o Rio Paraguai."
+  },
+  {
+    "n": "Cristo Rei do Pantanal",
+    "cat": "verde",
+    "end": "Corumbá",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Estátua do Cristo no alto do morro, com vista para o Pantanal e a Bolívia."
+  },
+  {
+    "n": "Catedral Nossa Senhora da Candelária",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Catedral da padroeira da cidade, no centro histórico.",
+    "busca": [
+      "Catedral de Corumbá"
+    ]
+  },
+  {
+    "n": "Instituto Luiz de Albuquerque",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Centro cultural com museu, biblioteca e exposições sobre a história local.",
+    "busca": [
+      "ILA"
+    ]
+  },
+  {
+    "n": "Praça da Independência",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Grande praça arborizada com coreto e fontes no centro de Corumbá."
+  },
+  {
+    "n": "Casa do Massa Barro",
+    "cat": "cultura",
+    "end": "Corumbá",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Ateliê de cerâmica e artesanato pantaneiro feito por artesãos locais."
+  },
+  {
+    "n": "Estrada Parque Pantanal",
+    "cat": "verde",
+    "end": "MS-184",
+    "cidade": "Corumbá",
+    "uf": "MS",
+    "d": "Estrada de terra com pontes de madeira e muita fauna pantaneira."
+  }
+]

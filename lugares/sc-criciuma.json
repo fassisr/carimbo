@@ -1,0 +1,100 @@
+[
+  {
+    "n": "Parque das Nações Cincinato Naspolini",
+    "cat": "verde",
+    "end": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Grande parque com pistas, lagos e um trenzinho numa estação réplica.",
+    "busca": [
+      "Parque das Nações"
+    ]
+  },
+  {
+    "n": "Parque Centenário",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Parque com monumento às etnias, ao lado da prefeitura e do teatro."
+  },
+  {
+    "n": "Praça Nereu Ramos",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Praça onde a cidade nasceu, com monumento ao mineiro e brique aos sábados."
+  },
+  {
+    "n": "Praça do Congresso",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Praça sombreada por uma grande figueira, com lago e quiosque."
+  },
+  {
+    "n": "Catedral São José",
+    "cat": "cultura",
+    "end": "Praça Nereu Ramos, Centro",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Igreja de 1917 com estátuas na fachada, marco do centro da cidade.",
+    "busca": [
+      "Catedral de Criciúma"
+    ]
+  },
+  {
+    "n": "Mina de Visitação Octávio Fontana",
+    "cat": "cultura",
+    "end": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Mina de carvão aberta a visitas, com passeio de locomotiva subterrânea.",
+    "busca": [
+      "Mina de Visitação"
+    ]
+  },
+  {
+    "n": "Museu Municipal Augusto Casagrande",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Casarão de 1920 com móveis e objetos da família Casagrande."
+  },
+  {
+    "n": "Estádio Heriberto Hülse",
+    "cat": "cultura",
+    "end": "Comerciário",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "O Majestoso, casa do Criciúma Esporte Clube.",
+    "busca": [
+      "Majestoso"
+    ]
+  },
+  {
+    "n": "Mirante Municipal Realdo Santos Guglielmi",
+    "cat": "verde",
+    "end": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Torre de 30 metros com elevador panorâmico e vista de toda a cidade.",
+    "busca": [
+      "Mirante de Criciúma"
+    ]
+  },
+  {
+    "n": "Parque Astronômico Albert Einstein",
+    "cat": "cultura",
+    "end": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "d": "Praça com relógio de sol, telescópios e planetário, em frente ao mirante.",
+    "busca": [
+      "Planetário de Criciúma"
+    ]
+  }
+]

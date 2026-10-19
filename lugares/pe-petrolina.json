@@ -1,0 +1,12 @@
+[
+{"n":"Orla de Petrolina","cat":"verde","end":"Centro","cidade":"Petrolina","uf":"PE","d":"Orla à beira do São Francisco com bares, quiosques e o pôr do sol sobre o rio."},
+{"n":"Catedral do Sagrado Coração de Jesus","cat":"cultura","end":"Praça Dom Malan, Centro","cidade":"Petrolina","uf":"PE","d":"Catedral neogótica de pedra, o principal cartão-postal da cidade.","busca":["Catedral de Petrolina"]},
+{"n":"Praça Dom Malan","cat":"verde","end":"Centro","cidade":"Petrolina","uf":"PE","d":"Praça em frente à Catedral, ponto de encontro do Centro."},
+{"n":"Igreja Matriz Nossa Senhora Rainha dos Anjos","cat":"cultura","end":"Praça Centenária, Centro","cidade":"Petrolina","uf":"PE","d":"A primeira igreja de Petrolina, no coração da parte antiga da cidade.","busca":["Igreja Rainha dos Anjos"]},
+{"n":"Centro de Artes Ana das Carrancas","cat":"cultura","end":"Petrolina","cidade":"Petrolina","uf":"PE","d":"Espaço dedicado à artesã Ana das Carrancas e às famosas carrancas de barro.","busca":["Museu Ana das Carrancas","Ana das Carrancas"]},
+{"n":"Oficina do Artesão Mestre Quincas","cat":"cultura","end":"Petrolina","cidade":"Petrolina","uf":"PE","d":"Oficina e loja de artesanato regional, com carrancas e peças em madeira.","busca":["Oficina do Mestre Quincas"]},
+{"n":"Parque Municipal Josepha Coelho","cat":"verde","end":"Petrolina","cidade":"Petrolina","uf":"PE","d":"Parque urbano com pista de caminhada e área verde para a família.","busca":["Parque Josepha Coelho"]},
+{"n":"Bodódromo","cat":"comida","end":"Petrolina","cidade":"Petrolina","uf":"PE","d":"Polo de restaurantes de bode assado, carne de sol e baião de dois, orgulho local.","busca":["Bodódromo de Petrolina"]},
+{"n":"Ilha do Massangano","cat":"verde","end":"Rio São Francisco","cidade":"Petrolina","uf":"PE","d":"Ilha ribeirinha conhecida pelo Samba de Véio e pela vida simples à beira do rio."},
+{"n":"Parque Aquático Ilha do Sol","cat":"verde","end":"Petrolina","cidade":"Petrolina","uf":"PE","d":"Parque aquático para refrescar do calor do sertão, a uns 10 km do centro.","busca":["Ilha do Sol"]}
+]

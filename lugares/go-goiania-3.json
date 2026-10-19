@@ -1,0 +1,220 @@
+[
+  {
+    "n": "Bar do Dodô",
+    "cat": "bar",
+    "end": "Rua Cerealista, 160, Setor Aeroviário",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Aberto em 1967, é tido como o bar mais antigo de Goiânia em funcionamento."
+  },
+  {
+    "n": "Bar Marronzinho",
+    "cat": "bar",
+    "end": "Rua Pinheiro Chagas, 244, Setor Sudoeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Barzinho de bairro de 1996 que virou um dos botecos mais tradicionais da cidade.",
+    "busca": [
+      "Marronzinho"
+    ]
+  },
+  {
+    "n": "Botequim Mercatto",
+    "cat": "bar",
+    "end": "Rua T-36, 2775, Setor Bueno",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Boteco de bolinho de bacalhau, frutos do mar e cerveja sempre gelada.",
+    "busca": [
+      "Mercatto"
+    ]
+  },
+  {
+    "n": "Glória",
+    "cat": "bar",
+    "end": "Rua 101, 435, Setor Sul",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Bar de tradição com chope caprichado e mais de 150 rótulos de cachaça.",
+    "busca": [
+      "Glória Bar"
+    ]
+  },
+  {
+    "n": "Tia Nair Café",
+    "cat": "cafe",
+    "end": "Rua 4, 486, Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Cafeteria do Centro com quitandas goianas e café passado na hora."
+  },
+  {
+    "n": "Café S/A",
+    "cat": "cafe",
+    "end": "Avenida República do Líbano, 2512, Setor Oeste",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Rede goianiense de cafés especiais com torra própria.",
+    "busca": [
+      "Café SA"
+    ]
+  },
+  {
+    "n": "Café Cariño",
+    "cat": "cafe",
+    "end": "Rua 1136, 530, Setor Marista",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Café charmoso no Marista, bom para um café da tarde demorado."
+  },
+  {
+    "n": "Nina Patisserie",
+    "cat": "doce",
+    "end": "Rua T-38, 368, Setor Bueno",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Confeitaria de doces finos e bolos, com cafeteria no Setor Bueno.",
+    "busca": [
+      "Cafeteria Nina Patisserie"
+    ]
+  },
+  {
+    "n": "Empadinha da Nenen",
+    "cat": "comida",
+    "end": "Avenida 136, 1002, Setor Marista",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Balcão de salgados premiado pela melhor empada de Goiânia."
+  },
+  {
+    "n": "Parque Bernardo Élis",
+    "cat": "verde",
+    "end": "Rua CP-4, Residencial Celina Park",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque charmoso com lago e mata, vizinho do Setor Eldorado."
+  },
+  {
+    "n": "Parque Macambira Anicuns",
+    "cat": "verde",
+    "end": "Faiçalville",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Grande parque linear ao longo do córrego, com pistas e áreas de lazer.",
+    "busca": [
+      "Parque Linear Macambira Anicuns"
+    ]
+  },
+  {
+    "n": "Parque Leolídio di Ramos Caiado",
+    "cat": "verde",
+    "end": "Setor Goiânia 2",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque com lago e pista de caminhada na região norte da cidade.",
+    "busca": [
+      "Parque Leolídio Caiado"
+    ]
+  },
+  {
+    "n": "Parque Carmo Bernardes",
+    "cat": "verde",
+    "end": "Parque Atheneu",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque da zona sudeste com lago, nascentes e área de cerrado."
+  },
+  {
+    "n": "Parque Botafogo",
+    "cat": "verde",
+    "end": "Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Parque central ao lado do Mutirama, com mata ciliar e pista de caminhada."
+  },
+  {
+    "n": "Estádio Serra Dourada",
+    "cat": "cultura",
+    "end": "Avenida Fued José Sebba, Jardim Goiás",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Maior estádio de Goiás, projeto de Paulo Mendes da Rocha.",
+    "busca": [
+      "Serra Dourada"
+    ]
+  },
+  {
+    "n": "Estádio Hailé Pinheiro",
+    "cat": "cultura",
+    "end": "Serrinha",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Casa do Goiás Esporte Clube, conhecido como Estádio da Serrinha.",
+    "busca": [
+      "Estádio da Serrinha"
+    ]
+  },
+  {
+    "n": "Estádio Antônio Accioly",
+    "cat": "cultura",
+    "end": "Setor Campinas",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Estádio do Atlético Goianiense no tradicional bairro de Campinas.",
+    "busca": [
+      "Antônio Accioly"
+    ]
+  },
+  {
+    "n": "Autódromo Internacional Ayrton Senna",
+    "cat": "cultura",
+    "end": "Goiânia",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Autódromo que recebe a MotoGP e grandes provas do automobilismo brasileiro.",
+    "busca": [
+      "Autódromo de Goiânia"
+    ]
+  },
+  {
+    "n": "Igreja Matriz de Campinas",
+    "cat": "cultura",
+    "end": "Praça Joaquim Lúcio, Setor Campinas",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Igreja de Nossa Senhora da Conceição no bairro mais antigo da cidade.",
+    "busca": [
+      "Paróquia Nossa Senhora da Conceição de Campinas"
+    ]
+  },
+  {
+    "n": "Região da 44",
+    "cat": "cultura",
+    "end": "Rua 44, Setor Norte Ferroviário",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Polo de moda popular com centenas de lojas e galerias, famoso em todo o país.",
+    "busca": [
+      "Rua 44"
+    ]
+  },
+  {
+    "n": "Vila Cultural Cora Coralina",
+    "cat": "cultura",
+    "end": "Rua 3, Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Centro cultural com galerias e exposições no coração do Centro.",
+    "busca": [
+      "Vila Cora Coralina"
+    ]
+  },
+  {
+    "n": "Avenida Goiás",
+    "cat": "cultura",
+    "end": "Avenida Goiás, Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "d": "Avenida de prédios art déco que liga a Praça Cívica à antiga estação."
+  }
+]

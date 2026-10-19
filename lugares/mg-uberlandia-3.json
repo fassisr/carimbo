@@ -1,0 +1,109 @@
+[
+  {
+    "n": "Estádio Parque do Sabiá",
+    "cat": "cultura",
+    "end": "Avenida José Roberto Migliorini, Santa Mônica",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Grande estádio da cidade, inaugurado em 1982 dentro do complexo do Sabiá.",
+    "busca": [
+      "Estádio Municipal Parque do Sabiá"
+    ]
+  },
+  {
+    "n": "Igreja Espírito Santo do Cerrado",
+    "cat": "cultura",
+    "end": "Avenida dos Mógnos, 355, Jaraguá",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Igreja projetada por Lina Bo Bardi, joia da arquitetura modernista.",
+    "busca": [
+      "Paróquia Espírito Santo"
+    ]
+  },
+  {
+    "n": "Paróquia Nossa Senhora das Dores",
+    "cat": "cultura",
+    "end": "Rua Dom Barreto, 60, Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Igreja tradicional do Fundinho, bairro mais antigo da cidade.",
+    "busca": [
+      "Igreja Nossa Senhora das Dores"
+    ]
+  },
+  {
+    "n": "Museu do Índio",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, 285, Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Museu da UFU com acervo de culturas indígenas brasileiras.",
+    "busca": [
+      "Museu do Índio UFU"
+    ]
+  },
+  {
+    "n": "Teatro Grande Otelo",
+    "cat": "cultura",
+    "end": "Avenida João Pinheiro, 1789, Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Teatro que homenageia o ator uberlandense Grande Otelo."
+  },
+  {
+    "n": "Parque Municipal Santa Luzia",
+    "cat": "verde",
+    "end": "Avenida Alípio Abrão, 600, Santa Luzia",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Parque de cerrado com trilhas e nascentes no sul da cidade.",
+    "busca": [
+      "Parque Santa Luzia"
+    ]
+  },
+  {
+    "n": "Parque Gávea",
+    "cat": "verde",
+    "end": "Avenida dos Vinhedos, 555, Gávea",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Parque com lago e pista de caminhada na zona sul.",
+    "busca": [
+      "Parque Municipal Gávea"
+    ]
+  },
+  {
+    "n": "Cachoeira Sucupira",
+    "cat": "verde",
+    "end": "Zona rural de Uberlândia",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Cachoeira perto da cidade, programa de fim de semana dos uberlandenses.",
+    "busca": [
+      "Cachoeira da Sucupira"
+    ]
+  },
+  {
+    "n": "Saideira Buteco de Comida",
+    "cat": "bar",
+    "end": "Avenida Princesa Isabel, 816, Fundinho",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Boteco do Fundinho com comida de bar caprichada.",
+    "busca": [
+      "Saideira"
+    ]
+  },
+  {
+    "n": "Restaurante Fogão de Minas",
+    "cat": "comida",
+    "end": "Praça Minas Gerais, 193, Dona Zulmira",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "d": "Comida mineira no fogão a lenha, servida em panelas de ferro.",
+    "busca": [
+      "Fogão de Minas"
+    ]
+  }
+]

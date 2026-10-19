@@ -1,0 +1,140 @@
+[
+  {
+    "n": "Praia das Virtudes",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Pequena enseada de areia monazítica e água cristalina no Centro."
+  },
+  {
+    "n": "Praia da Bacutia",
+    "cat": "verde",
+    "end": "Enseada Azul",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia de mar azul e calmo, com ilha em frente e coqueiros."
+  },
+  {
+    "n": "Praia de Peracanga",
+    "cat": "verde",
+    "end": "Enseada Azul",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia tranquila com piscinas naturais entre a Bacutia e a Enseada Azul."
+  },
+  {
+    "n": "Praia dos Padres",
+    "cat": "verde",
+    "end": "Enseada Azul",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Prainha escondida entre rochas, acessível por uma curta trilha."
+  },
+  {
+    "n": "Praia da Cerca",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia urbana pequena e protegida, perto do Centro histórico."
+  },
+  {
+    "n": "Setibão",
+    "cat": "verde",
+    "end": "Setiba",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Praia de mar aberto dentro da área do Parque Paulo César Vinha.",
+    "busca": [
+      "Praia do Setibão"
+    ]
+  },
+  {
+    "n": "Parque Natural Municipal Morro da Pescaria",
+    "cat": "verde",
+    "end": "Avenida Beira Mar, 30, Praia do Morro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Morro com trilhas, mirantes e piscinas naturais no fim da Praia do Morro.",
+    "busca": [
+      "Morro da Pescaria"
+    ]
+  },
+  {
+    "n": "Lagoa Mãe-Bá",
+    "cat": "verde",
+    "end": "Meaípe",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Grande lagoa entre Guarapari e Anchieta, cercada de restinga."
+  },
+  {
+    "n": "Cachoeira de Buenos Aires",
+    "cat": "verde",
+    "end": "Buenos Aires",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Cachoeira na região serrana de Guarapari, refúgio longe da praia."
+  },
+  {
+    "n": "Acquamania Parque Aquático",
+    "cat": "verde",
+    "end": "Rua das Acácias, Amarelos",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Parque aquático com toboáguas e piscinas, programa clássico do verão.",
+    "busca": [
+      "Acquamania"
+    ]
+  },
+  {
+    "n": "Poço dos Jesuítas",
+    "cat": "cultura",
+    "end": "Rua Álvaro de Freitas Dantas, Centro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Poço colonial ligado aos jesuítas, no Centro histórico da cidade."
+  },
+  {
+    "n": "Cantinho do Curuca",
+    "cat": "comida",
+    "end": "Avenida Beira Mar, 96, Meaípe",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Templo da moqueca capixaba em Meaípe, famoso em todo o estado.",
+    "busca": [
+      "Restaurante Cantinho do Curuca"
+    ]
+  },
+  {
+    "n": "Restaurante Gaeta",
+    "cat": "comida",
+    "end": "Avenida Beira Mar, 47, Meaípe",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Casa tradicional de frutos do mar de frente para a praia de Meaípe.",
+    "busca": [
+      "Gaeta"
+    ]
+  },
+  {
+    "n": "Dal Mare Restaurante",
+    "cat": "comida",
+    "end": "Avenida Praiana, 1076, Praia do Morro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar bem avaliado na orla da Praia do Morro.",
+    "busca": [
+      "Dal Mare"
+    ]
+  },
+  {
+    "n": "Bar do Galo",
+    "cat": "bar",
+    "end": "Avenida Oceânica, 639, Praia do Morro",
+    "cidade": "Guarapari",
+    "uf": "ES",
+    "d": "Boteco querido da Praia do Morro, com petiscos e cerveja gelada."
+  }
+]

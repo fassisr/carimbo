@@ -1,0 +1,92 @@
+[
+  {
+    "n": "Catedral Nossa Senhora Aparecida",
+    "cat": "cultura",
+    "end": "Avenida Brasil, Centro",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Catedral modernista de 1952 com teto de concreto em forma de leque.",
+    "busca": [
+      "Catedral de Cascavel"
+    ]
+  },
+  {
+    "n": "Igreja Ucraniana São Cristóvão",
+    "cat": "cultura",
+    "end": "São Cristóvão",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Igreja de estilo bizantino com cinco cúpulas, herança dos imigrantes ucranianos."
+  },
+  {
+    "n": "Monumento ao Migrante",
+    "cat": "cultura",
+    "end": "Praça do Migrante",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Monumento de lajes de concreto com espelho d'água em homenagem aos migrantes.",
+    "busca": [
+      "Praça do Migrante"
+    ]
+  },
+  {
+    "n": "Casa Dirceu Rosa",
+    "cat": "cultura",
+    "end": "Cascavel",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Antiga casa-ateliê do artista Dirceu Rosa, com esculturas no jardim."
+  },
+  {
+    "n": "Museu de Arte de Cascavel",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Museu municipal com cerca de 365 obras, junto à Biblioteca Pública.",
+    "busca": [
+      "MAC Cascavel"
+    ]
+  },
+  {
+    "n": "Calçadão de Cascavel",
+    "cat": "verde",
+    "end": "Avenida Brasil, Centro",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Cinco quadras de calçadão na Avenida Brasil, com quiosques, feira e shows."
+  },
+  {
+    "n": "Parque Ecológico Paulo Gorski",
+    "cat": "verde",
+    "end": "Cascavel",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "O Lago Municipal, com 111 hectares de mata, ciclovia e muitas capivaras.",
+    "busca": [
+      "Lago Municipal de Cascavel"
+    ]
+  },
+  {
+    "n": "Zoológico Municipal de Cascavel",
+    "cat": "verde",
+    "end": "Parque Municipal Danilo Galafassi",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Zoo e museu de história natural dentro do Parque Danilo Galafassi.",
+    "busca": [
+      "Parque Danilo Galafassi"
+    ]
+  },
+  {
+    "n": "Salto do Portão",
+    "cat": "verde",
+    "end": "BR-277, zona rural",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "d": "Parque com duas cachoeiras, uma de 30 metros, trilhas e mirantes.",
+    "busca": [
+      "Cachoeira da Ponte Molhada"
+    ]
+  }
+]

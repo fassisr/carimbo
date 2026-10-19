@@ -1,0 +1,229 @@
+[
+  {
+    "n": "Balaio Café",
+    "cat": "bar",
+    "end": "CLN 201, Bloco B, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Bar e café alternativo da Asa Norte, com música, arte e comida brasileira."
+  },
+  {
+    "n": "Pinella",
+    "cat": "bar",
+    "end": "CLN 408, Bloco B, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Bar tradicional da Asa Norte, reduto boêmio de estudantes e jornalistas.",
+    "busca": [
+      "Pinella Bistrô",
+      "Bar Pinella"
+    ]
+  },
+  {
+    "n": "Confeitaria Francesa",
+    "cat": "doce",
+    "end": "SCLS 203, Bloco C, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Confeitaria de 1976 com dezenas de doces clássicos de receita francesa."
+  },
+  {
+    "n": "Restaurante Roma",
+    "cat": "comida",
+    "end": "CRS 511, W3 Sul, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cantina de 1960, praticamente da idade de Brasília, com massas tradicionais.",
+    "busca": [
+      "Roma"
+    ]
+  },
+  {
+    "n": "La Chaumière",
+    "cat": "comida",
+    "end": "CLS 408, Bloco A, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Restaurante francês dos anos 1960, um dos mais antigos da capital."
+  },
+  {
+    "n": "Pizzaria Dom Bosco",
+    "cat": "comida",
+    "end": "CLS 107, Bloco D, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Pizzaria de 1968, famosa pela pizza no balcão que atravessa gerações.",
+    "busca": [
+      "Dom Bosco Pizzaria"
+    ]
+  },
+  {
+    "n": "Trattoria da Rosario",
+    "cat": "comida",
+    "end": "SHIS QI 17, Lago Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cantina italiana premiada no Lago Sul, referência em massas frescas."
+  },
+  {
+    "n": "Eixão do Lazer",
+    "cat": "verde",
+    "end": "Eixo Rodoviário, Asa Sul e Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Aos domingos o Eixão fecha para carros e vira pista de lazer a céu aberto.",
+    "busca": [
+      "Eixão"
+    ]
+  },
+  {
+    "n": "Praça dos Cristais",
+    "cat": "verde",
+    "end": "Setor Militar Urbano",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Jardim de Burle Marx com esculturas de concreto que imitam cristais."
+  },
+  {
+    "n": "Cachoeira do Tororó",
+    "cat": "verde",
+    "end": "Santuário de Vida Silvestre do Tororó, Jardim Botânico",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Queda de água de uns 20 metros em meio ao cerrado, perto do Lago Sul.",
+    "busca": [
+      "Salto do Tororó"
+    ]
+  },
+  {
+    "n": "Poço Azul",
+    "cat": "verde",
+    "end": "Brazlândia",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cachoeiras com poços de água azul-turquesa no norte do DF.",
+    "busca": [
+      "Cachoeira do Poço Azul"
+    ]
+  },
+  {
+    "n": "Arena BRB Mané Garrincha",
+    "cat": "cultura",
+    "end": "Eixo Monumental, SRPN",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Estádio da Copa de 2014, palco de grandes jogos e shows.",
+    "busca": [
+      "Estádio Nacional Mané Garrincha",
+      "Estádio Mané Garrincha"
+    ]
+  },
+  {
+    "n": "Planetário de Brasília",
+    "cat": "cultura",
+    "end": "Eixo Monumental, Setor de Divulgação Cultural",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Planetário reformado ao lado da Torre de TV, com sessões e exposições.",
+    "busca": [
+      "Planetário Luiz Cruls"
+    ]
+  },
+  {
+    "n": "Memorial Darcy Ribeiro",
+    "cat": "cultura",
+    "end": "Campus Darcy Ribeiro, UnB, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "O Beijódromo, prédio circular de Lelé que guarda o acervo de Darcy Ribeiro.",
+    "busca": [
+      "Beijódromo"
+    ]
+  },
+  {
+    "n": "Catedral Militar Rainha da Paz",
+    "cat": "cultura",
+    "end": "Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Igreja de Niemeyer em forma de tenda, dedicada às Forças Armadas."
+  },
+  {
+    "n": "Museu de Valores do Banco Central",
+    "cat": "cultura",
+    "end": "Setor Bancário Sul, Quadra 3",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Museu com moedas, cédulas e ouro que contam a história do dinheiro no Brasil."
+  },
+  {
+    "n": "Cine Brasília",
+    "cat": "cultura",
+    "end": "EQS 106/107, Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Cinema de Niemeyer de 1960, casa do Festival de Brasília do Cinema Brasileiro."
+  },
+  {
+    "n": "Rodoviária do Plano Piloto",
+    "cat": "cultura",
+    "end": "Eixo Monumental, Plano Piloto",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Coração do plano de Lucio Costa, onde os eixos se cruzam e a cidade se encontra.",
+    "busca": [
+      "Rodoviária de Brasília"
+    ]
+  },
+  {
+    "n": "Ponte Costa e Silva",
+    "cat": "cultura",
+    "end": "Lago Paranoá, Lago Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Ponte em arcos desenhada por Niemeyer sobre o Lago Paranoá."
+  },
+  {
+    "n": "Vale do Amanhecer",
+    "cat": "cultura",
+    "end": "Planaltina",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Templo místico a céu aberto, com rituais e construções coloridas únicas."
+  },
+  {
+    "n": "Feira dos Importados",
+    "cat": "cultura",
+    "end": "Setor de Indústria e Abastecimento",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Feira gigante de eletrônicos e importados, programa clássico do brasiliense.",
+    "busca": [
+      "Feira do Paraguai"
+    ]
+  },
+  {
+    "n": "Feira do Guará",
+    "cat": "cultura",
+    "end": "Guará",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Feira popular famosa pelas comidas típicas, pastel e caldo de cana."
+  },
+  {
+    "n": "Palácio do Buriti",
+    "cat": "cultura",
+    "end": "Praça do Buriti, Eixo Monumental",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Sede do governo do DF diante da Praça do Buriti, obra modernista."
+  },
+  {
+    "n": "Mesquita do Centro Islâmico do Brasil",
+    "cat": "cultura",
+    "end": "SGAN 912, Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "d": "Mesquita de cúpula e minarete, marco da comunidade muçulmana na capital."
+  }
+]

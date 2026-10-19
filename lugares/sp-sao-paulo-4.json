@@ -1,0 +1,804 @@
+[
+  {
+    "n": "Estádio Conde Rodolfo Crespi",
+    "cat": "cultura",
+    "end": "Rua Comendador Roberto Ugolini, 152, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Templo do Juventus na Rua Javari, um dos estádios mais charmosos e antigos da cidade.",
+    "busca": [
+      "Estádio da Rua Javari",
+      "Rua Javari"
+    ]
+  },
+  {
+    "n": "Esfiha Juventus",
+    "cat": "comida",
+    "end": "Rua Visconde de Laguna, 152, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa clássica da Mooca famosa pelas esfihas abertas assadas no forno."
+  },
+  {
+    "n": "Parque Sabesp Mooca Radialista Fiori Gigliotti",
+    "cat": "verde",
+    "end": "Avenida Paes de Barros, 2107, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque de bairro arborizado, com pista de caminhada e áreas de lazer.",
+    "busca": [
+      "Parque Sabesp Mooca",
+      "Parque da Mooca"
+    ]
+  },
+  {
+    "n": "Cine-Theatro Arthur Azevedo",
+    "cat": "cultura",
+    "end": "Avenida Paes de Barros, 955, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antigo cinema de rua da Mooca, reaberto como teatro municipal.",
+    "busca": [
+      "Teatro Arthur Azevedo"
+    ]
+  },
+  {
+    "n": "Casarão do Vinil",
+    "cat": "cultura",
+    "end": "Rua dos Trilhos, 1212, Mooca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casarão abarrotado de discos de vinil, parada obrigatória para colecionadores."
+  },
+  {
+    "n": "Parque do Piqueri",
+    "cat": "verde",
+    "end": "Rua Tuiuti, 515, Tatuapé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga chácara da família Matarazzo virou parque com lago e muito verde.",
+    "busca": [
+      "Parque Piqueri"
+    ]
+  },
+  {
+    "n": "Parque Ceret",
+    "cat": "verde",
+    "end": "Rua Canuto Abreu, s/n, Jardim Anália Franco",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande parque esportivo da zona leste, com quadras, pistas e bosque.",
+    "busca": [
+      "Centro Esportivo Recreativo e Educativo do Trabalhador",
+      "Parque CERET"
+    ]
+  },
+  {
+    "n": "Casa do Sítio Tatuapé",
+    "cat": "cultura",
+    "end": "Rua Guabiju, 49, Tatuapé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa bandeirista de taipa do século XVII, uma das mais antigas da cidade.",
+    "busca": [
+      "Casa do Tatuapé"
+    ]
+  },
+  {
+    "n": "Memorial do Corinthians",
+    "cat": "cultura",
+    "end": "Rua São Jorge, 777, Parque São Jorge",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Troféus e história do Corinthians na sede social do clube.",
+    "busca": [
+      "Parque São Jorge"
+    ]
+  },
+  {
+    "n": "La Pergoletta",
+    "cat": "comida",
+    "end": "Rua Itapura, 1478, Tatuapé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina italiana tradicional do Tatuapé, com massas fartas."
+  },
+  {
+    "n": "Basílica de Nossa Senhora da Penha",
+    "cat": "cultura",
+    "end": "Penha de França",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Basílica no alto da colina da Penha, centro de devoção e de um dos bairros mais antigos de SP.",
+    "busca": [
+      "Basílica da Penha",
+      "Santuário Nossa Senhora da Penha"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário dos Homens Pretos da Penha",
+    "cat": "cultura",
+    "end": "Largo do Rosário, Penha",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igrejinha do século XVIII erguida por irmandade negra, joia do centro histórico da Penha.",
+    "busca": [
+      "Igreja do Rosário da Penha"
+    ]
+  },
+  {
+    "n": "Teatro Martins Penna",
+    "cat": "cultura",
+    "end": "Largo do Rosário, Penha",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro municipal no centro histórico da Penha."
+  },
+  {
+    "n": "Neo Química Arena",
+    "cat": "cultura",
+    "end": "Avenida Miguel Ignácio Curi, 111, Artur Alvim",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Estádio do Corinthians, sede da abertura da Copa de 2014.",
+    "busca": [
+      "Arena Corinthians",
+      "Itaquerão"
+    ]
+  },
+  {
+    "n": "Planetário do Carmo",
+    "cat": "cultura",
+    "end": "Parque do Carmo, Itaquera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Planetário moderno dentro do Parque do Carmo, com sessões sobre o céu."
+  },
+  {
+    "n": "Parque Raul Seixas",
+    "cat": "verde",
+    "end": "José Bonifácio, Itaquera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque da zona leste que homenageia o roqueiro, com lago e áreas de lazer."
+  },
+  {
+    "n": "Biblioteca de São Paulo",
+    "cat": "cultura",
+    "end": "Avenida Cruzeiro do Sul, 2630, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Biblioteca moderna no Parque da Juventude, onde ficava o Carandiru."
+  },
+  {
+    "n": "Sambódromo do Anhembi",
+    "cat": "cultura",
+    "end": "Avenida Olavo Fontoura, 1209, Santana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Passarela dos desfiles das escolas de samba de São Paulo.",
+    "busca": [
+      "Polo Cultural Grande Otelo",
+      "Sambódromo de São Paulo"
+    ]
+  },
+  {
+    "n": "Parque Lions Club Tucuruvi",
+    "cat": "verde",
+    "end": "Tucuruvi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antiga chácara transformada em parque, com casarão histórico e muito verde.",
+    "busca": [
+      "Parque Tucuruvi"
+    ]
+  },
+  {
+    "n": "Centro Cultural Tendal da Lapa",
+    "cat": "cultura",
+    "end": "Lapa",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Antigo matadouro convertido em centro cultural com oficinas e shows.",
+    "busca": [
+      "Tendal da Lapa"
+    ]
+  },
+  {
+    "n": "Teatro Tuca",
+    "cat": "cultura",
+    "end": "Rua Monte Alegre, 1024, Perdizes",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro da PUC-SP, palco histórico da resistência cultural.",
+    "busca": [
+      "TUCA"
+    ]
+  },
+  {
+    "n": "Allianz Parque",
+    "cat": "cultura",
+    "end": "Avenida Francisco Matarazzo, 1705, Água Branca",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Arena do Palmeiras, palco de jogos e dos maiores shows da cidade.",
+    "busca": [
+      "Arena Palmeiras",
+      "Palestra Itália"
+    ]
+  },
+  {
+    "n": "Estádio do Pacaembu",
+    "cat": "cultura",
+    "end": "Praça Charles Miller, s/n, Pacaembu",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Estádio art déco de 1940, um dos símbolos do futebol paulistano.",
+    "busca": [
+      "Estádio Municipal Paulo Machado de Carvalho",
+      "Mercado Livre Arena Pacaembu"
+    ]
+  },
+  {
+    "n": "Largo da Batata",
+    "cat": "verde",
+    "end": "Avenida Brigadeiro Faria Lima, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande largo de Pinheiros, ponto de encontro e de eventos de rua."
+  },
+  {
+    "n": "Igreja Nossa Senhora de Monte Serrat",
+    "cat": "cultura",
+    "end": "Largo de Pinheiros, Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igreja matriz que marca o nascimento do bairro de Pinheiros.",
+    "busca": [
+      "Paróquia Nossa Senhora de Monte Serrat"
+    ]
+  },
+  {
+    "n": "Bar Genésio",
+    "cat": "bar",
+    "end": "Rua Fidalga, 197, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Boteco querido da Vila Madalena, com petiscos e chope gelado."
+  },
+  {
+    "n": "Bar Posto 6",
+    "cat": "bar",
+    "end": "Rua Aspicuelta, 644, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar de clima carioca, ponto clássico da boemia da Vila.",
+    "busca": [
+      "Posto 6"
+    ]
+  },
+  {
+    "n": "Martín Fierro",
+    "cat": "comida",
+    "end": "Rua Aspicuelta, 683, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parrilla argentina tradicional da Vila Madalena.",
+    "busca": [
+      "Restaurante Martín Fierro"
+    ]
+  },
+  {
+    "n": "Livraria da Vila",
+    "cat": "cultura",
+    "end": "Rua Fradique Coutinho, 915, Vila Madalena",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "A livraria original da rede, com seu labirinto de estantes."
+  },
+  {
+    "n": "Praça do Relógio",
+    "cat": "verde",
+    "end": "Cidade Universitária, Butantã",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Coração da USP, com a torre do relógio e gramados para descansar.",
+    "busca": [
+      "Praça do Relógio Solar da USP"
+    ]
+  },
+  {
+    "n": "Parque Previdência",
+    "cat": "verde",
+    "end": "Rua Pedro Peccinini, 88, Jardim Ademar",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Fragmento de Mata Atlântica com trilhas no Butantã."
+  },
+  {
+    "n": "Biblioteca Brasiliana Guita e José Mindlin",
+    "cat": "cultura",
+    "end": "Rua da Biblioteca, s/n, Cidade Universitária",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Acervo raro sobre o Brasil reunido pelo bibliófilo José Mindlin.",
+    "busca": [
+      "Brasiliana USP"
+    ]
+  },
+  {
+    "n": "Rei das Batidas",
+    "cat": "bar",
+    "end": "Butantã",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar lendário perto da USP, famoso pelas batidas de frutas."
+  },
+  {
+    "n": "Estádio do Morumbi",
+    "cat": "cultura",
+    "end": "Praça Roberto Gomes Pedrosa, 1, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa do São Paulo FC e um dos maiores estádios do país.",
+    "busca": [
+      "Estádio Cícero Pompeu de Toledo",
+      "MorumBIS"
+    ]
+  },
+  {
+    "n": "Palácio dos Bandeirantes",
+    "cat": "cultura",
+    "end": "Avenida Morumbi, 4500, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Sede do governo paulista, com acervo artístico aberto a visitas."
+  },
+  {
+    "n": "Fundação Maria Luisa e Oscar Americano",
+    "cat": "cultura",
+    "end": "Avenida Morumbi, 4077, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa modernista com bosque, acervo de arte e chá da tarde.",
+    "busca": [
+      "Fundação Oscar Americano"
+    ]
+  },
+  {
+    "n": "Parque Alfredo Volpi",
+    "cat": "verde",
+    "end": "Rua Engenheiro Oscar Americano, 480, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mata preservada com trilhas e lagos no Morumbi.",
+    "busca": [
+      "Parque Volpi"
+    ]
+  },
+  {
+    "n": "Casa da Fazenda do Morumbi",
+    "cat": "comida",
+    "end": "Avenida Morumbi, 5594, Morumbi",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante em casarão de fazenda do século XIX."
+  },
+  {
+    "n": "Roda Rico",
+    "cat": "verde",
+    "end": "Parque Cândido Portinari, Alto de Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Maior roda-gigante da América Latina, com vista do Pinheiros e da cidade.",
+    "busca": [
+      "Roda-gigante de São Paulo"
+    ]
+  },
+  {
+    "n": "Parque Cândido Portinari",
+    "cat": "verde",
+    "end": "Alto de Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque à beira do Rio Pinheiros, vizinho do Villa-Lobos."
+  },
+  {
+    "n": "Largo Treze de Maio",
+    "cat": "verde",
+    "end": "Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Coração comercial e histórico de Santo Amaro.",
+    "busca": [
+      "Largo Treze"
+    ]
+  },
+  {
+    "n": "Catedral de Santo Amaro",
+    "cat": "cultura",
+    "end": "Praça Floriano Peixoto, Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Catedral que marca o centro histórico do antigo município de Santo Amaro.",
+    "busca": [
+      "Catedral de Santo Amaro de São Paulo"
+    ]
+  },
+  {
+    "n": "Casa de Cultura de Santo Amaro",
+    "cat": "cultura",
+    "end": "Praça Doutor Francisco Ferreira Lopes, 434, Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casarão histórico com oficinas e exposições."
+  },
+  {
+    "n": "Mercado Municipal de Santo Amaro",
+    "cat": "cultura",
+    "end": "Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mercadão de bairro com bancas de frutas, frios e lanches.",
+    "busca": [
+      "Mercado de Santo Amaro"
+    ]
+  },
+  {
+    "n": "Teatro Paulo Eiró",
+    "cat": "cultura",
+    "end": "Avenida Adolfo Pinheiro, 765, Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro municipal tradicional da zona sul."
+  },
+  {
+    "n": "Sesc Santo Amaro",
+    "cat": "cultura",
+    "end": "Rua Amador Bueno, 505, Santo Amaro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Sesc com piscina, exposições e programação cultural."
+  },
+  {
+    "n": "Autódromo de Interlagos",
+    "cat": "cultura",
+    "end": "Avenida Senador Teotônio Vilela, 261, Interlagos",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Autódromo do Grande Prêmio do Brasil de Fórmula 1.",
+    "busca": [
+      "Autódromo José Carlos Pace"
+    ]
+  },
+  {
+    "n": "Parque Ecológico do Guarapiranga",
+    "cat": "verde",
+    "end": "Estrada da Riviera, Riviera Paulista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Parque às margens da represa, com trilhas e vista para a água."
+  },
+  {
+    "n": "Zoológico de São Paulo",
+    "cat": "verde",
+    "end": "Avenida Miguel Stéfano, 4241, Água Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Maior zoológico do país, em meio à mata do Parque Estadual Fontes do Ipiranga.",
+    "busca": [
+      "Zoo São Paulo",
+      "Fundação Parque Zoológico de São Paulo"
+    ]
+  },
+  {
+    "n": "Zoo Safari",
+    "cat": "verde",
+    "end": "Avenida Miguel Stéfano, 4241, Água Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Safári de carro com animais soltos, vizinho ao zoológico.",
+    "busca": [
+      "Simba Safari"
+    ]
+  },
+  {
+    "n": "Sítio da Ressaca",
+    "cat": "cultura",
+    "end": "Rua Nadra Raffoul Mokodsi, 3, Jabaquara",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa bandeirista do século XVIII que abriga o Acervo da Memória e do Viver Afro-Brasileiro.",
+    "busca": [
+      "Centro Cultural Jabaquara"
+    ]
+  },
+  {
+    "n": "Aquário de São Paulo",
+    "cat": "verde",
+    "end": "Rua Huet Bacelar, 407, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande aquário com tubarões, pinguins e ursos-polares."
+  },
+  {
+    "n": "Monumento à Independência",
+    "cat": "cultura",
+    "end": "Parque da Independência, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Monumento com a cripta imperial onde repousam Dom Pedro I e as imperatrizes.",
+    "busca": [
+      "Cripta Imperial"
+    ]
+  },
+  {
+    "n": "Casa do Grito",
+    "cat": "cultura",
+    "end": "Parque da Independência, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casinha de taipa que lembra o cenário do grito da Independência."
+  },
+  {
+    "n": "Museu de Zoologia da USP",
+    "cat": "cultura",
+    "end": "Avenida Nazaré, 481, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Museu com grande acervo da fauna brasileira.",
+    "busca": [
+      "MZUSP"
+    ]
+  },
+  {
+    "n": "Sesc Ipiranga",
+    "cat": "cultura",
+    "end": "Rua Bom Pastor, 822, Ipiranga",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Sesc de bairro com teatro, piscinas e programação variada."
+  },
+  {
+    "n": "Templo Busshinji",
+    "cat": "cultura",
+    "end": "Rua São Joaquim, 285, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Templo budista zen da comunidade japonesa, aberto a visitas."
+  },
+  {
+    "n": "Igreja Santa Cruz das Almas dos Enforcados",
+    "cat": "cultura",
+    "end": "Praça da Liberdade, 238, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igreja ligada à história dos condenados à forca no antigo Largo da Forca.",
+    "busca": [
+      "Igreja dos Enforcados"
+    ]
+  },
+  {
+    "n": "Capela dos Aflitos",
+    "cat": "cultura",
+    "end": "Rua dos Aflitos, 70, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Capela de 1779, resquício do antigo cemitério dos Aflitos."
+  },
+  {
+    "n": "Rong He",
+    "cat": "comida",
+    "end": "Rua da Glória, 622, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa chinesa famosa pelo lámen puxado à mão e guiozas."
+  },
+  {
+    "n": "Sushi Yassu",
+    "cat": "comida",
+    "end": "Rua Tomás Gonzaga, 98, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Restaurante japonês tradicional da Liberdade."
+  },
+  {
+    "n": "Itiriki",
+    "cat": "doce",
+    "end": "Rua dos Estudantes, 24, Liberdade",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Padaria japonesa com pães doces e salgados típicos.",
+    "busca": [
+      "Padaria Itiriki"
+    ]
+  },
+  {
+    "n": "Teatro Sérgio Cardoso",
+    "cat": "cultura",
+    "end": "Rua Rui Barbosa, 153, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Teatro estadual que é marco cultural do Bixiga."
+  },
+  {
+    "n": "Escadaria do Bixiga",
+    "cat": "verde",
+    "end": "Rua Treze de Maio, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Escadaria grafitada que liga ruas do bairro, cartão-postal do Bixiga."
+  },
+  {
+    "n": "Feira de Antiguidades do Bixiga",
+    "cat": "cultura",
+    "end": "Praça Dom Orione, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Feira de domingo com antiguidades, discos e objetos curiosos.",
+    "busca": [
+      "Feira do Bixiga"
+    ]
+  },
+  {
+    "n": "Cantina Montechiaro",
+    "cat": "comida",
+    "end": "Rua Santo Antônio, 844, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Cantina italiana tradicional do Bixiga."
+  },
+  {
+    "n": "Café Piu Piu",
+    "cat": "bar",
+    "end": "Rua Treze de Maio, 134, Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Bar de música ao vivo histórico no coração do Bixiga."
+  },
+  {
+    "n": "Igreja Bom Jesus do Brás",
+    "cat": "cultura",
+    "end": "Avenida Rangel Pestana, Brás",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igreja histórica do Brás, ligada à imigração italiana.",
+    "busca": [
+      "Paróquia Bom Jesus do Brás"
+    ]
+  },
+  {
+    "n": "Planetário do Ibirapuera",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Primeiro planetário do Brasil, com cúpula para sessões sobre o céu.",
+    "busca": [
+      "Planetário Professor Aristóteles Orsini"
+    ]
+  },
+  {
+    "n": "Monumento às Bandeiras",
+    "cat": "cultura",
+    "end": "Praça Armando Salles de Oliveira, Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Grande escultura de Victor Brecheret na entrada do Ibirapuera."
+  },
+  {
+    "n": "Obelisco de São Paulo",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Obelisco mausoléu dos heróis da Revolução de 1932.",
+    "busca": [
+      "Obelisco Mausoléu aos Heróis de 32"
+    ]
+  },
+  {
+    "n": "Auditório Ibirapuera",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Auditório de Niemeyer com a famosa língua vermelha na fachada.",
+    "busca": [
+      "Auditório Ibirapuera Oscar Niemeyer"
+    ]
+  },
+  {
+    "n": "Pavilhão Japonês",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Pavilhão de arquitetura tradicional japonesa com jardim e lago de carpas."
+  },
+  {
+    "n": "Pavilhão da Bienal",
+    "cat": "cultura",
+    "end": "Parque Ibirapuera",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Prédio de Niemeyer que recebe a Bienal de São Paulo.",
+    "busca": [
+      "Pavilhão Ciccillo Matarazzo"
+    ]
+  },
+  {
+    "n": "Sampa Sky",
+    "cat": "verde",
+    "end": "Edifício Mirante do Vale, Rua Brigadeiro Tobias, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Mirante com caixas de vidro suspensas no alto do Mirante do Vale.",
+    "busca": [
+      "Edifício Mirante do Vale"
+    ]
+  },
+  {
+    "n": "Viaduto do Chá",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Viaduto icônico sobre o Anhangabaú, ligando o centro velho ao novo."
+  },
+  {
+    "n": "Casa Godinho",
+    "cat": "doce",
+    "end": "Rua Líbero Badaró, 340, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Empório centenário, um dos mais antigos da cidade."
+  },
+  {
+    "n": "Casa de Francisca",
+    "cat": "bar",
+    "end": "Rua Quintino Bocaiúva, 22, Sé",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Casa de música em palacete histórico, com shows e bar."
+  },
+  {
+    "n": "Estação Pinacoteca",
+    "cat": "cultura",
+    "end": "Largo General Osório, 66, Luz",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Prédio histórico com exposições da Pinacoteca e o Memorial da Resistência.",
+    "busca": [
+      "Pinacoteca Estação",
+      "Memorial da Resistência"
+    ]
+  },
+  {
+    "n": "Igreja Nossa Senhora do Rosário dos Homens Pretos",
+    "cat": "cultura",
+    "end": "Largo do Paissandu, Centro",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Igreja símbolo da comunidade negra paulistana.",
+    "busca": [
+      "Igreja do Rosário dos Homens Pretos"
+    ]
+  },
+  {
+    "n": "Cinemateca Brasileira",
+    "cat": "cultura",
+    "end": "Largo Senador Raul Cardoso, 207, Vila Mariana",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Guardiã do acervo audiovisual do país, com sessões e jardins."
+  },
+  {
+    "n": "Casa Santa Luzia",
+    "cat": "doce",
+    "end": "Alameda Lorena, 1471, Jardins",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "d": "Empório tradicional dos Jardins, com doces, pães e importados."
+  }
+]

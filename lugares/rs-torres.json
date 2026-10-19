@@ -1,0 +1,97 @@
+[
+  {
+    "n": "Parque Estadual da Guarita",
+    "cat": "verde",
+    "end": "Praia da Guarita",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Falésias de basalto à beira-mar, a paisagem mais famosa do litoral gaúcho.",
+    "busca": [
+      "Parque da Guarita"
+    ]
+  },
+  {
+    "n": "Praia da Guarita",
+    "cat": "verde",
+    "end": "Parque da Guarita",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Praia emoldurada pelas torres de pedra que dão nome à cidade."
+  },
+  {
+    "n": "Praia Grande",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Principal praia da cidade, larga e movimentada no verão."
+  },
+  {
+    "n": "Prainha",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Pequena praia entre o Morro do Farol e o Morro das Furnas, de mar mais calmo."
+  },
+  {
+    "n": "Praia da Cal",
+    "cat": "verde",
+    "end": "Praia da Cal",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Praia aos pés do Morro das Furnas, querida por surfistas."
+  },
+  {
+    "n": "Morro do Farol",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Mirante com farol e vista de toda a orla, ponto de voo livre.",
+    "busca": [
+      "Farol de Torres"
+    ]
+  },
+  {
+    "n": "Ilha dos Lobos",
+    "cat": "verde",
+    "end": "Litoral de Torres",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Única ilha marinha do RS, refúgio de lobos e leões-marinhos.",
+    "busca": [
+      "Refúgio de Vida Silvestre da Ilha dos Lobos"
+    ]
+  },
+  {
+    "n": "Lagoa do Violão",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Lagoa urbana com calçadão para caminhar e ver o pôr do sol."
+  },
+  {
+    "n": "Igreja Matriz São Domingos",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Igreja de 1824 no alto do centro, a mais antiga de Torres.",
+    "busca": [
+      "Igreja São Domingos"
+    ]
+  },
+  {
+    "n": "Molhes do Rio Mampituba",
+    "cat": "verde",
+    "end": "Rio Mampituba",
+    "cidade": "Torres",
+    "uf": "RS",
+    "d": "Molhes na divisa com SC, bons para pescar e ver o encontro do rio com o mar.",
+    "busca": [
+      "Molhes de Torres"
+    ]
+  }
+]

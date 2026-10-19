@@ -1,0 +1,266 @@
+[
+  {
+    "n": "Arena Castelão",
+    "cat": "cultura",
+    "end": "Avenida Alberto Craveiro, Castelão",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Estádio da Copa de 2014, palco dos clássicos entre Ceará e Fortaleza.",
+    "busca": [
+      "Castelão",
+      "Estádio Governador Plácido Castelo"
+    ]
+  },
+  {
+    "n": "Estádio Presidente Vargas",
+    "cat": "cultura",
+    "end": "Benfica",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "O PV, estádio de 1941 no Benfica, cheio de memórias do futebol cearense.",
+    "busca": [
+      "PV",
+      "Estádio PV"
+    ]
+  },
+  {
+    "n": "Calçadão da Beira-Mar",
+    "cat": "verde",
+    "end": "Avenida Beira-Mar, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Orla mais famosa da cidade, ótima para caminhar, pedalar e ver o pôr do sol.",
+    "busca": [
+      "Avenida Beira-Mar",
+      "Orla da Beira-Mar"
+    ]
+  },
+  {
+    "n": "Praia do Mucuripe",
+    "cat": "verde",
+    "end": "Mucuripe",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praia das jangadas e dos pescadores, com o mercado de peixe ali do lado."
+  },
+  {
+    "n": "Farol Velho do Mucuripe",
+    "cat": "cultura",
+    "end": "Vicente Pinzón",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Farol de 1846 construído por escravizados, monumento histórico da cidade.",
+    "busca": [
+      "Farol do Mucuripe",
+      "Farol Velho"
+    ]
+  },
+  {
+    "n": "Mirante do Morro Santa Terezinha",
+    "cat": "verde",
+    "end": "Morro Santa Terezinha, Mucuripe",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Mirante com vista panorâmica do porto, da Beira-Mar e dos prédios da orla.",
+    "busca": [
+      "Mirante do Mucuripe",
+      "Mirante Santa Terezinha"
+    ]
+  },
+  {
+    "n": "Planetário Rubens de Azevedo",
+    "cat": "cultura",
+    "end": "Centro Dragão do Mar, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Planetário do Dragão do Mar, com sessões sobre o céu do sertão e do litoral.",
+    "busca": [
+      "Planetário do Dragão do Mar"
+    ]
+  },
+  {
+    "n": "Centro Cultural Belchior",
+    "cat": "cultura",
+    "end": "Rua dos Pacajús, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Casarão na Praia de Iracema dedicado à música e à memória do cantor Belchior."
+  },
+  {
+    "n": "Mercado dos Pinhões",
+    "cat": "cultura",
+    "end": "Praça Visconde de Pelotas, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Mercado de ferro do fim do século XIX, hoje espaço de shows e chorinho.",
+    "busca": [
+      "Mercado dos Pinhões"
+    ]
+  },
+  {
+    "n": "Igreja do Pequeno Grande",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Igreja neogótica do Colégio da Imaculada Conceição, uma joia do centro antigo.",
+    "busca": [
+      "Igreja de Nossa Senhora do Pequeno Grande"
+    ]
+  },
+  {
+    "n": "Praça José de Alencar",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praça em frente ao Theatro José de Alencar, ponto de encontro do Centro.",
+    "busca": [
+      "Praça José de Alencar"
+    ]
+  },
+  {
+    "n": "Praça Portugal",
+    "cat": "verde",
+    "end": "Aldeota",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praça cartão-postal da Aldeota, cercada de lojas e cafés."
+  },
+  {
+    "n": "Praça Luíza Távora",
+    "cat": "verde",
+    "end": "Avenida Santos Dumont, Aldeota",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Praça com a central de artesanato do Ceará, boa para comprar renda e bordado.",
+    "busca": [
+      "Central de Artesanato Luiza Távora"
+    ]
+  },
+  {
+    "n": "Leão do Sul",
+    "cat": "doce",
+    "end": "Rua Pedro Borges, 193, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Desde 1926 na Praça do Ferreira, famoso pelo caldo de cana com pastel.",
+    "busca": [
+      "Caldo de Cana Leão do Sul"
+    ]
+  },
+  {
+    "n": "Mincharia",
+    "cat": "bar",
+    "end": "Rua dos Pacajús, 5, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Bar de 1986 na Praia de Iracema, reduto boêmio com petiscos e vista do mar.",
+    "busca": [
+      "Bar Mincharia"
+    ]
+  },
+  {
+    "n": "Brazão",
+    "cat": "bar",
+    "end": "Rua João Cordeiro, 43, Praia de Iracema",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Bar tradicional da Praia de Iracema, conhecido pelos petiscos e pela cerveja gelada."
+  },
+  {
+    "n": "Restaurante da Zena",
+    "cat": "comida",
+    "end": "Rua Meton de Alencar, 549, Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Comida caseira cearense há mais de 50 anos no Centro, com pratos do dia fartos."
+  },
+  {
+    "n": "Ponto da Muqueca",
+    "cat": "comida",
+    "end": "Rua Pescador Chico Bindá, 223, Morro Santa Terezinha",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Restaurante no alto do morro com moquecas e uma vista linda da orla."
+  },
+  {
+    "n": "Bar Chá da Égua",
+    "cat": "bar",
+    "end": "Montese",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Bar folclórico do Montese, famoso pelo nome e pelo clima de boteco de bairro.",
+    "busca": [
+      "Chá da Égua"
+    ]
+  },
+  {
+    "n": "Atelier 1913",
+    "cat": "cafe",
+    "end": "Rua Antônio Augusto, 744, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Cafeteria charmosa no Meireles com cafés especiais e doces de vitrine."
+  },
+  {
+    "n": "Vila Alencarina",
+    "cat": "cafe",
+    "end": "Rua Nossa Senhora dos Remédios, 218, Benfica",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Café numa vila antiga do Benfica, cheia de plantas e clima de casa de vó."
+  },
+  {
+    "n": "Musa Padaria Brasileira",
+    "cat": "doce",
+    "end": "Rua República do Líbano, 540, Meireles",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Padaria de fermentação natural com pães e doces que valorizam ingredientes brasileiros.",
+    "busca": [
+      "Musa Padaria"
+    ]
+  },
+  {
+    "n": "Maré Café",
+    "cat": "cafe",
+    "end": "Rua Doutor José Roberto Sales, 4442, Barra do Ceará",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Cafeteria na Barra do Ceará, perto de onde o rio encontra o mar."
+  },
+  {
+    "n": "Praia da Barra do Ceará",
+    "cat": "verde",
+    "end": "Barra do Ceará",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Onde o Rio Ceará encontra o mar, berço da cidade e de pôr do sol famoso.",
+    "busca": [
+      "Barra do Ceará"
+    ]
+  },
+  {
+    "n": "Parque da Liberdade",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "A antiga Cidade da Criança, parque centenário com lago e árvores no Centro.",
+    "busca": [
+      "Cidade da Criança"
+    ]
+  },
+  {
+    "n": "Espaço Cultural Unifor",
+    "cat": "cultura",
+    "end": "Avenida Washington Soares, Edson Queiroz",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "d": "Galeria da Universidade de Fortaleza que recebe grandes exposições de arte.",
+    "busca": [
+      "Espaço Cultural da Unifor"
+    ]
+  }
+]

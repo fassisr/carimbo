@@ -1,0 +1,252 @@
+[
+  {
+    "n": "Estádio Olímpico do Pará",
+    "cat": "cultura",
+    "end": "Mangueirão",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "O Mangueirão, maior estádio do Norte, palco do clássico Re-Pa entre Remo e Paysandu.",
+    "busca": [
+      "Mangueirão",
+      "Estádio Jornalista Edgar Proença"
+    ]
+  },
+  {
+    "n": "Estádio Leônidas Castro",
+    "cat": "cultura",
+    "end": "Marco",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "A Curuzu, casa do Paysandu e caldeirão da torcida bicolor.",
+    "busca": [
+      "Curuzu",
+      "Estádio da Curuzu"
+    ]
+  },
+  {
+    "n": "Estádio Evandro Almeida",
+    "cat": "cultura",
+    "end": "Avenida Almirante Barroso, Marco",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "O Baenão, estádio do Clube do Remo e templo da torcida azulina.",
+    "busca": [
+      "Baenão"
+    ]
+  },
+  {
+    "n": "Centro de Ciências e Planetário do Pará",
+    "cat": "cultura",
+    "end": "Avenida Augusto Montenegro",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "O único planetário fixo da Amazônia, com sessões sobre o céu e a ciência da região.",
+    "busca": [
+      "Planetário do Pará",
+      "Planetário Sebastião Sodré da Gama"
+    ]
+  },
+  {
+    "n": "Parque da Cidade",
+    "cat": "verde",
+    "end": "Antigo Aeroporto Brigadeiro Protásio, Souza",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Grande parque criado para a COP30, com áreas verdes, lagos e espaço de lazer.",
+    "busca": [
+      "Parque da Cidade de Belém"
+    ]
+  },
+  {
+    "n": "Parque Linear da Doca",
+    "cat": "verde",
+    "end": "Avenida Visconde de Souza Franco, Umarizal",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "A Nova Doca, canal requalificado com calçadão, árvores e ciclovia no Umarizal.",
+    "busca": [
+      "Nova Doca",
+      "Doca de Souza Franco"
+    ]
+  },
+  {
+    "n": "Porto Futuro II",
+    "cat": "cultura",
+    "end": "Reduto",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Antigos armazéns do porto à beira da baía, com o Museu das Amazônias e espaços de lazer.",
+    "busca": [
+      "Museu das Amazônias",
+      "Porto Futuro"
+    ]
+  },
+  {
+    "n": "Cine Olympia",
+    "cat": "cultura",
+    "end": "Avenida Presidente Vargas, Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Cinema de 1912, um dos mais antigos do Brasil ainda em funcionamento.",
+    "busca": [
+      "Cinema Olympia"
+    ]
+  },
+  {
+    "n": "Museu do Círio",
+    "cat": "cultura",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Museu dedicado ao Círio de Nazaré, com ex-votos, mantos e a história da festa.",
+    "busca": [
+      "Museu do Círio de Nazaré"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora do Rosário dos Homens Pretos",
+    "cat": "cultura",
+    "end": "Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Igreja histórica da irmandade negra, construída no século XVIII no bairro da Campina.",
+    "busca": [
+      "Igreja do Rosário dos Pretos"
+    ]
+  },
+  {
+    "n": "Fórum Landi",
+    "cat": "cultura",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Centro dedicado à obra do arquiteto Antônio Landi, que desenhou a Belém colonial."
+  },
+  {
+    "n": "Palacete Pinho",
+    "cat": "cultura",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Palacete da era da borracha com azulejos portugueses e salões restaurados."
+  },
+  {
+    "n": "Praça do Carmo",
+    "cat": "verde",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Praça tranquila da Cidade Velha, cercada de casarões e da Igreja do Carmo."
+  },
+  {
+    "n": "Praça Frei Caetano Brandão",
+    "cat": "verde",
+    "end": "Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "O Largo da Sé, entre a Catedral, o Forte e a Casa das Onze Janelas.",
+    "busca": [
+      "Largo da Sé"
+    ]
+  },
+  {
+    "n": "Praça Waldemar Henrique",
+    "cat": "verde",
+    "end": "Reduto",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Praça arborizada na orla do Reduto, com o teatro de mesmo nome ao lado."
+  },
+  {
+    "n": "Remanso do Peixe",
+    "cat": "comida",
+    "end": "Conjunto Celso Malcher, 64, Marco",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Casa escondida numa vila do Marco, famosa pelos peixes amazônicos dos irmãos Castanho."
+  },
+  {
+    "n": "Casa do Saulo Onze Janelas",
+    "cat": "comida",
+    "end": "Rua Siqueira Mendes, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante à beira da baía ao lado da Casa das Onze Janelas, com cozinha paraense.",
+    "busca": [
+      "Casa do Saulo"
+    ]
+  },
+  {
+    "n": "Tacacá da Dona Maria",
+    "cat": "comida",
+    "end": "Avenida Nazaré, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Banca de tacacá perto da Basílica, parada obrigatória no fim da tarde.",
+    "busca": [
+      "Tacacá Dona Maria"
+    ]
+  },
+  {
+    "n": "Varanda Azul",
+    "cat": "comida",
+    "end": "Mercado de São Brás, São Brás",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Restaurante dentro do Mercado de São Brás restaurado, com cozinha regional."
+  },
+  {
+    "n": "Ver o Açaí",
+    "cat": "doce",
+    "end": "Travessa Dom Pedro I, 599, Umarizal",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Açaí paraense de verdade, servido com farinha, peixe ou do jeito que você quiser."
+  },
+  {
+    "n": "Bar do Rubão",
+    "cat": "bar",
+    "end": "Travessa Gurupá, Cidade Velha",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Boteco da Cidade Velha com caranguejo, maniçoba e mesas na calçada, querido de Fafá de Belém."
+  },
+  {
+    "n": "Café Tiquin",
+    "cat": "cafe",
+    "end": "Avenida Serzedelo Corrêa, 514, Batista Campos",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Cafezinho acolhedor em Batista Campos, perto da praça mais bonita da cidade."
+  },
+  {
+    "n": "Gramophone Café",
+    "cat": "cafe",
+    "end": "Avenida Governador Magalhães Barata, 836, São Brás",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Café com clima retrô e discos de vinil, ótimo para uma pausa em São Brás."
+  },
+  {
+    "n": "Amazon Deli Coffee Shop",
+    "cat": "cafe",
+    "end": "Avenida Comandante Brás de Aguiar, 400, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Cafeteria em Nazaré com cafés especiais e doces de frutas amazônicas.",
+    "busca": [
+      "Amazon Deli"
+    ]
+  },
+  {
+    "n": "Pissolati Café e Restaurante",
+    "cat": "cafe",
+    "end": "Travessa Rui Barbosa, 1835, Nazaré",
+    "cidade": "Belém",
+    "uf": "PA",
+    "d": "Café e bistrô em Nazaré, bom para um café da manhã caprichado.",
+    "busca": [
+      "Pissolati"
+    ]
+  }
+]

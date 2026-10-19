@@ -1,0 +1,81 @@
+[
+  {
+    "n": "Catedral Santo Antônio",
+    "cat": "cultura",
+    "end": "Praça Coronel Bertaso, Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Catedral de 1956 com torres de 40 metros e mural sobre a história do oeste.",
+    "busca": [
+      "Catedral de Chapecó"
+    ]
+  },
+  {
+    "n": "Monumento O Desbravador",
+    "cat": "cultura",
+    "end": "Avenida Getúlio Vargas, Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Estátua gigante em homenagem aos colonizadores, símbolo de Chapecó.",
+    "busca": [
+      "O Desbravador"
+    ]
+  },
+  {
+    "n": "Museu de História e Arte de Chapecó",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Museu em prédio dos anos 1940, de frente para a praça central.",
+    "busca": [
+      "MHAC"
+    ]
+  },
+  {
+    "n": "Praça Coronel Bertaso",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Praça arborizada diante da catedral, com fonte iluminada e murais."
+  },
+  {
+    "n": "Arena Condá",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Estádio da Chapecoense, com tour e memoriais às vítimas de 2016.",
+    "busca": [
+      "Estádio Índio Condá"
+    ]
+  },
+  {
+    "n": "Estátua do Índio Condá",
+    "cat": "cultura",
+    "end": "Arena Condá, Centro",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Estátua do cacique Condá com uma onça, símbolo do clube e da cidade."
+  },
+  {
+    "n": "Ecoparque",
+    "cat": "verde",
+    "end": "Avenida Getúlio Vargas",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Parque urbano com lagoa, trilhas, anfiteatro e academia ao ar livre.",
+    "busca": [
+      "Ecoparque de Chapecó"
+    ]
+  },
+  {
+    "n": "Estância das Águas",
+    "cat": "verde",
+    "end": "Marechal Bormann",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "d": "Parque aquático com piscinas e tobogãs a 12 km do centro."
+  }
+]

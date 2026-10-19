@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Reserva Biológica do Tinguá",
+    "cat": "verde",
+    "end": "Tinguá",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Grande reserva de mata atlântica, com rios e nascentes que abastecem a região.",
+    "busca": [
+      "Rebio Tinguá"
+    ]
+  },
+  {
+    "n": "Calçadão de Nova Iguaçu",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Rua de pedestres que concentra o comércio e o vaivém do centro da cidade."
+  },
+  {
+    "n": "Complexo Cultural Mário Marques",
+    "cat": "cultura",
+    "end": "Rua Getúlio Vargas, 51, Centro",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Centro cultural com teatro e exposições no centro de Nova Iguaçu."
+  },
+  {
+    "n": "Feira Iguassú",
+    "cat": "comida",
+    "end": "Rua Getúlio Vargas, Centro",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Feira perto da estação, com comidas, artesanato e produtos regionais."
+  },
+  {
+    "n": "Mercadão Popular de Miguel Couto",
+    "cat": "comida",
+    "end": "Miguel Couto",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Mercado popular com hortifrúti e comidas, tradição no bairro."
+  },
+  {
+    "n": "Ruínas da Fazenda São Bernardino",
+    "cat": "cultura",
+    "end": "Tinguá",
+    "cidade": "Nova Iguaçu",
+    "uf": "RJ",
+    "d": "Ruínas tombadas de um casarão rural do século XIX, cercadas pela mata.",
+    "busca": [
+      "Fazenda São Bernardino"
+    ]
+  }
+]

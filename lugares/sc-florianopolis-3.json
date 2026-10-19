@@ -1,0 +1,225 @@
+[
+  {
+    "n": "Bar do Boni",
+    "cat": "bar",
+    "end": "Avenida Prefeito Acácio Garibaldi São Thiago, 67, Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Bar animado da Lagoa, ponto de encontro com petiscos e chope gelado."
+  },
+  {
+    "n": "Boteco Zé Mané",
+    "cat": "bar",
+    "end": "Rua Desembargador Pedro Silva, 2360, Coqueiros",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Boteco à beira-mar no continente, com pôr do sol de frente para a ilha."
+  },
+  {
+    "n": "P12 Parador Internacional",
+    "cat": "bar",
+    "end": "Jurerê Internacional",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Beach club mais famoso de Jurerê, com festas na areia e clima de verão.",
+    "busca": [
+      "P12 Jurerê"
+    ]
+  },
+  {
+    "n": "Café das Artes",
+    "cat": "cafe",
+    "end": "Rua Esteves Júnior, 734, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Cafeteria querida dos manezinhos, famosa pelas tortas e bolos caprichados."
+  },
+  {
+    "n": "Café Psiquê",
+    "cat": "cafe",
+    "end": "Rua Menino Deus, 63, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Café especial aconchegante no Centro, com cardápio de doces e salgados."
+  },
+  {
+    "n": "O Padeiro de Sevilha",
+    "cat": "doce",
+    "end": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Padaria artesanal de fermentação natural, referência em pães na ilha."
+  },
+  {
+    "n": "Avenida das Rendeiras",
+    "cat": "comida",
+    "end": "Avenida das Rendeiras, Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Orla da Lagoa com restaurantes de frutos do mar e as tradicionais rendeiras de bilro."
+  },
+  {
+    "n": "Praia Brava",
+    "cat": "verde",
+    "end": "Praia Brava, Norte da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de mar aberto cercada por morros, queridinha dos surfistas."
+  },
+  {
+    "n": "Praia da Lagoinha",
+    "cat": "verde",
+    "end": "Ponta das Canas, Norte da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Enseada de águas calmas e transparentes no extremo norte da ilha.",
+    "busca": [
+      "Lagoinha de Ponta das Canas"
+    ]
+  },
+  {
+    "n": "Praia da Daniela",
+    "cat": "verde",
+    "end": "Daniela, Norte da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de águas mornas e rasas, ótima para crianças e pôr do sol.",
+    "busca": [
+      "Praia de Daniela"
+    ]
+  },
+  {
+    "n": "Praia de Naufragados",
+    "cat": "verde",
+    "end": "Naufragados, Sul da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia selvagem no extremo sul, acessível por trilha, com farol e ruínas de forte."
+  },
+  {
+    "n": "Praia do Morro das Pedras",
+    "cat": "verde",
+    "end": "Morro das Pedras, Sul da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Praia de ondas fortes com mirante sobre as pedras e vista da Ilha do Campeche."
+  },
+  {
+    "n": "Praia do Moçambique",
+    "cat": "verde",
+    "end": "Rio Vermelho, Leste da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "A maior praia da ilha, extensa e preservada, ao lado do Parque do Rio Vermelho.",
+    "busca": [
+      "Praia Grande"
+    ]
+  },
+  {
+    "n": "Ilha do Campeche",
+    "cat": "verde",
+    "end": "Ilha do Campeche",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Ilha de águas cristalinas e inscrições rupestres, patrimônio nacional."
+  },
+  {
+    "n": "Parque Ecológico do Córrego Grande",
+    "cat": "verde",
+    "end": "Rua João Pio Duarte Silva, Córrego Grande",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Parque de mata com trilhas, lago e muito verde no meio da cidade."
+  },
+  {
+    "n": "Parque de Coqueiros",
+    "cat": "verde",
+    "end": "Rua Desembargador Pedro Silva, Coqueiros",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Parque à beira-mar no continente, com quadras, playground e vista para a ponte.",
+    "busca": [
+      "Parque Municipal de Coqueiros"
+    ]
+  },
+  {
+    "n": "Sambaqui",
+    "cat": "verde",
+    "end": "Sambaqui, Norte da Ilha",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Vilarejo açoriano de pescadores com cultivo de ostras e pôr do sol lindo."
+  },
+  {
+    "n": "Igreja de São Francisco da Ordem Terceira",
+    "cat": "cultura",
+    "end": "Rua Deodoro, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Igreja colonial do século XIX no coração do Centro Histórico.",
+    "busca": [
+      "Igreja São Francisco"
+    ]
+  },
+  {
+    "n": "Igreja de Nossa Senhora da Conceição da Lagoa",
+    "cat": "cultura",
+    "end": "Lagoa da Conceição",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Igreja de 1751 no alto da Lagoa, com vista para as águas e os morros.",
+    "busca": [
+      "Igreja da Lagoa"
+    ]
+  },
+  {
+    "n": "Museu de Arte de Santa Catarina",
+    "cat": "cultura",
+    "end": "Avenida Governador Irineu Bornhausen, 5600, Agronômica",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Principal museu de arte do estado, dentro do CIC.",
+    "busca": [
+      "MASC"
+    ]
+  },
+  {
+    "n": "Museu do Homem do Sambaqui",
+    "cat": "cultura",
+    "end": "Rua Esteves Júnior, 711, Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Museu no Colégio Catarinense com peças dos antigos povos sambaquieiros."
+  },
+  {
+    "n": "Teatro Pedro Ivo",
+    "cat": "cultura",
+    "end": "Rodovia SC-401, 4600, Saco Grande",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Teatro moderno do estado, palco de concertos e espetáculos."
+  },
+  {
+    "n": "Estádio Orlando Scarpelli",
+    "cat": "cultura",
+    "end": "Estreito",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Casa do Figueirense, estádio tradicional do continente.",
+    "busca": [
+      "Scarpelli"
+    ]
+  },
+  {
+    "n": "Estádio da Ressacada",
+    "cat": "cultura",
+    "end": "Carianos",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "d": "Casa do Avaí no sul da ilha, palco de clássicos do futebol catarinense.",
+    "busca": [
+      "Ressacada",
+      "Estádio Aderbal Ramos da Silva"
+    ]
+  }
+]

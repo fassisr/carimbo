@@ -1,0 +1,234 @@
+[
+  {
+    "n": "Arena da Amazônia",
+    "cat": "cultura",
+    "end": "Avenida Constantino Nery, Flores",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Estádio da Copa de 2014 inspirado num cesto indígena, no lugar do antigo Vivaldão.",
+    "busca": [
+      "Arena da Amazônia Vivaldo Lima",
+      "Vivaldão"
+    ]
+  },
+  {
+    "n": "Mirante Lúcia Almeida",
+    "cat": "verde",
+    "end": "Avenida Sete de Setembro, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Mirante no Centro Histórico com vista ampla do Rio Negro e do porto.",
+    "busca": [
+      "Mirante Lucia Almeida"
+    ]
+  },
+  {
+    "n": "Largo de São Vicente",
+    "cat": "verde",
+    "end": "Avenida Sete de Setembro, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Largo restaurado no início da Sete de Setembro, ponto de origem da cidade.",
+    "busca": [
+      "Largo São Vicente"
+    ]
+  },
+  {
+    "n": "Parque Rio Negro",
+    "cat": "verde",
+    "end": "Rua 5 de Setembro, São Raimundo",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque à beira do Rio Negro com calçadão, quadras e vista para o pôr do sol."
+  },
+  {
+    "n": "Praça dos Remédios",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Praça em frente à Igreja dos Remédios, cercada de comércio e história no Centro."
+  },
+  {
+    "n": "Feira de Artesanato da Eduardo Ribeiro",
+    "cat": "cultura",
+    "end": "Avenida Eduardo Ribeiro, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Feira de domingo ao lado do Teatro Amazonas, com artesanato indígena e comidinhas.",
+    "busca": [
+      "Feira da Eduardo Ribeiro",
+      "Feira de Artesanato da Avenida Eduardo Ribeiro"
+    ]
+  },
+  {
+    "n": "Museu do Índio",
+    "cat": "cultura",
+    "end": "Rua Duque de Caxias, Praça 14 de Janeiro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Museu das irmãs salesianas com objetos e arte de povos indígenas do Alto Rio Negro."
+  },
+  {
+    "n": "Museu Amazônico",
+    "cat": "cultura",
+    "end": "Rua Ramos Ferreira, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Museu da UFAM num casarão antigo, com acervo sobre a história e os povos da Amazônia."
+  },
+  {
+    "n": "Reservatório do Mocó",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Caixa d'água de 1899 com estrutura de ferro, um tesouro da Belle Époque manauara."
+  },
+  {
+    "n": "Sambódromo de Manaus",
+    "cat": "cultura",
+    "end": "Avenida Pedro Teixeira, Dom Pedro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Palco do Carnaval e de grandes festas, dentro do Centro de Convenções da cidade.",
+    "busca": [
+      "Centro de Convenções do Amazonas"
+    ]
+  },
+  {
+    "n": "Peixaria Moronguêtá",
+    "cat": "comida",
+    "end": "Rua J. Chaves, 30, Vila da Felicidade",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Peixaria clássica com tambaqui, pirarucu e caldeirada à moda amazonense.",
+    "busca": [
+      "Moronguêtá"
+    ]
+  },
+  {
+    "n": "Canto da Peixada",
+    "cat": "comida",
+    "end": "Rua Emílio Moreira, 1677, Praça 14 de Janeiro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Casa tradicional de peixe regional, famosa desde que serviu o papa João Paulo II."
+  },
+  {
+    "n": "Peixaria Panela Cheia",
+    "cat": "comida",
+    "end": "Rua Washington Luiz, 292, Dom Pedro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Peixaria de bairro com porções fartas de jaraqui, tambaqui e matrinxã."
+  },
+  {
+    "n": "Peixaria Poraquê",
+    "cat": "comida",
+    "end": "Avenida Constantino Nery, 2500, São Geraldo",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Peixaria popular com peixes do rio assados na brasa."
+  },
+  {
+    "n": "Café Regional Priscila",
+    "cat": "cafe",
+    "end": "Avenida Tancredo Neves, 220, Parque das Laranjeiras",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Café regional com tapioca, pão com tucumã e o famoso X-Caboquinho."
+  },
+  {
+    "n": "Waku Sese",
+    "cat": "doce",
+    "end": "Vieira Alves",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Açaí e frutas amazônicas em versões geladas, boa pedida no calor de Manaus."
+  },
+  {
+    "n": "Bar Caldeira",
+    "cat": "bar",
+    "end": "Rua José Clemente com Rua Lobo D'Almada, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Boteco histórico do Centro, tombado como patrimônio imaterial do Amazonas.",
+    "busca": [
+      "Bar do Caldeira"
+    ]
+  },
+  {
+    "n": "O Jangadeiro",
+    "cat": "bar",
+    "end": "Rua Marquês de Santa Cruz, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Bar com mais de seis décadas perto do porto, patrimônio da boemia manauara.",
+    "busca": [
+      "Bar Jangadeiro"
+    ]
+  },
+  {
+    "n": "Bar do Carvalho",
+    "cat": "bar",
+    "end": "Rua Ipixuna com Avenida Castelo Branco, Cachoeirinha",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Boteco dos anos 1950 na Cachoeirinha, tombado como patrimônio cultural do estado."
+  },
+  {
+    "n": "Bar do Cipriano",
+    "cat": "bar",
+    "end": "Avenida Ayrão com Rua Ferreira Pena, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Bar de 1958, reduto boêmio tradicional e patrimônio imaterial do Amazonas."
+  },
+  {
+    "n": "Parque das Araras",
+    "cat": "verde",
+    "end": "Avenida Tarumã, Praça 14 de Janeiro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque urbano onde bandos de araras aparecem no fim da tarde."
+  },
+  {
+    "n": "Parque Lagoa do Japiim",
+    "cat": "verde",
+    "end": "Avenida General Rodrigo Octávio, Japiim",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque em torno de uma lagoa, com pista de caminhada e lazer para a zona sul.",
+    "busca": [
+      "Parque Lagoa Senador Arthur Virgílio Filho"
+    ]
+  },
+  {
+    "n": "Parque Estadual Sumaúma",
+    "cat": "verde",
+    "end": "Avenida Bacuri, Cidade Nova",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Fragmento de floresta na zona norte, com trilhas e muita fauna amazônica."
+  },
+  {
+    "n": "Mirage Park",
+    "cat": "verde",
+    "end": "Avenida Mário Ypiranga, 3951, Parque 10 de Novembro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Parque de diversões com brinquedos para a família, programa clássico da criançada."
+  },
+  {
+    "n": "Bistrô Fitz Carraldo",
+    "cat": "comida",
+    "end": "Rua 10 de Julho, 315, Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "d": "Bistrô no Hotel Villa Amazônia, pertinho do Teatro Amazonas, com cozinha regional.",
+    "busca": [
+      "Fitz Carraldo"
+    ]
+  }
+]

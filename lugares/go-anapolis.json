@@ -1,0 +1,86 @@
+[
+  {
+    "n": "Parque Ecológico JK",
+    "cat": "verde",
+    "end": "Rua Renata, 11",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Parque com lago, pedalinhos, pista de caminhada e pista de skate.",
+    "busca": [
+      "Parque JK"
+    ]
+  },
+  {
+    "n": "Parque Ambiental Ipiranga",
+    "cat": "verde",
+    "end": "Rua Maximiliano Alves da Cunha, Jundiaí",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Parque com lagos, mirante e a Feira das Águas nas noites de sábado.",
+    "busca": [
+      "Parque Ipiranga"
+    ]
+  },
+  {
+    "n": "Jardim Botânico de Anápolis",
+    "cat": "verde",
+    "end": "Avenida Professora Zenaide Roriz, 102",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Trilhas pelo cerrado e o Memorial Ipiranga em meio às árvores nativas."
+  },
+  {
+    "n": "Praça Bom Jesus",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Praça histórica com fonte luminosa e o antigo paço art déco, hoje galeria de arte."
+  },
+  {
+    "n": "Catedral Bom Jesus da Lapa",
+    "cat": "cultura",
+    "end": "Praça Bom Jesus, Centro",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Catedral do padroeiro da cidade, marco do centro de Anápolis.",
+    "busca": [
+      "Catedral de Anápolis"
+    ]
+  },
+  {
+    "n": "Mercado Municipal Carlos de Pina",
+    "cat": "cultura",
+    "end": "Rua General Joaquim Inácio, Centro",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Mercado art déco de 1951, tombado, com bancas de comida e produtos goianos.",
+    "busca": [
+      "Mercado Municipal de Anápolis"
+    ]
+  },
+  {
+    "n": "Estádio Jonas Duarte",
+    "cat": "cultura",
+    "end": "Anápolis",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Estádio tradicional da cidade, casa dos clubes anapolinos."
+  },
+  {
+    "n": "Morro da Capuava",
+    "cat": "verde",
+    "end": "Anápolis",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Morro com vista panorâmica da cidade, ótimo para o pôr do sol."
+  },
+  {
+    "n": "Jardim Secreto Café",
+    "cat": "cafe",
+    "end": "Rua Antônio Souza Ramos, 175, Jundiaí",
+    "cidade": "Anápolis",
+    "uf": "GO",
+    "d": "Café florido com pergolado e cantinhos feitos para fotos."
+  }
+]

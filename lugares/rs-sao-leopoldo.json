@@ -1,0 +1,45 @@
+[
+  {
+    "n": "Museu Histórico Visconde de São Leopoldo",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "d": "Acervo sobre a fundação da cidade, berço da imigração alemã no Brasil."
+  },
+  {
+    "n": "Casa do Imigrante",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "d": "Museu sobre os primeiros colonos alemães que chegaram em 1824."
+  },
+  {
+    "n": "Museu do Trem",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "d": "Museu na antiga estação da primeira ferrovia gaúcha, de 1874.",
+    "busca": [
+      "Museu do Trem de São Leopoldo"
+    ]
+  },
+  {
+    "n": "Centro Cultural José Pedro Boéssio",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "d": "Centro cultural com exposições de arte, teatro e shows."
+  },
+  {
+    "n": "Parque Imperatriz Leopoldina",
+    "cat": "verde",
+    "end": "São Leopoldo",
+    "cidade": "São Leopoldo",
+    "uf": "RS",
+    "d": "Parque para caminhadas, piqueniques e esportes ao ar livre."
+  }
+]

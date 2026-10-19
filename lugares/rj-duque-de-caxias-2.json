@@ -1,0 +1,68 @@
+[
+  {
+    "n": "Quadra da Acadêmicos do Grande Rio",
+    "cat": "cultura",
+    "end": "Rua Almirante Barroso, 5, Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Quadra da escola campeã do carnaval de 2022, com ensaios animados.",
+    "busca": [
+      "G.R.E.S. Acadêmicos do Grande Rio",
+      "Grande Rio"
+    ]
+  },
+  {
+    "n": "Praça do Zeca Pagodinho",
+    "cat": "verde",
+    "end": "Avenida Venância, 15, Vila Santa Alice",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Praça com estátua de Zeca Pagodinho, filho ilustre de Xerém e Caxias."
+  },
+  {
+    "n": "Tributo a Zumbi dos Palmares",
+    "cat": "cultura",
+    "end": "Rua José de Alvarenga, 262, Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Monumento em homenagem a Zumbi, marco da cultura negra na Baixada.",
+    "busca": [
+      "Monumento a Zumbi dos Palmares"
+    ]
+  },
+  {
+    "n": "Museu Histórico de Duque de Caxias",
+    "cat": "cultura",
+    "end": "Avenida Automóvel Clube, Taquara",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Museu com documentos e objetos da história do município."
+  },
+  {
+    "n": "Parque Natural Municipal da Taquara",
+    "cat": "verde",
+    "end": "Estrada Cachoeira das Dores, 3465, Imbariê",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Parque de mata atlântica com trilhas e cachoeiras no pé da serra."
+  },
+  {
+    "n": "Cachoeira de Xerém",
+    "cat": "verde",
+    "end": "Rua João Aires, Xerém",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Cachoeira de águas frias em Xerém, refresco na serra para quem mora na Baixada.",
+    "busca": [
+      "Trilha da Cachoeira de Xerém"
+    ]
+  },
+  {
+    "n": "Feira do Calçadão",
+    "cat": "comida",
+    "end": "Rua José de Alvarenga, Centro",
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "d": "Feira popular no calçadão do centro, com comidas, roupas e utilidades."
+  }
+]

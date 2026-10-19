@@ -1,0 +1,103 @@
+[
+  {
+    "n": "Mercado Público de Itajaí",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Mercado histórico com artesanato, pastéis, frutos do mar e shows no pátio.",
+    "busca": [
+      "Mercado Público Municipal de Itajaí"
+    ]
+  },
+  {
+    "n": "Igreja Matriz do Santíssimo Sacramento",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Catedral neogótica de 1955, com rica decoração interna e vitrais.",
+    "busca": [
+      "Catedral de Itajaí"
+    ]
+  },
+  {
+    "n": "Palácio Marcos Konder",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Palácio de 1925 que abriga o Museu Histórico de Itajaí.",
+    "busca": [
+      "Museu Histórico de Itajaí"
+    ]
+  },
+  {
+    "n": "Estádio Hercílio Luz",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Casa do Marcílio Dias, estádio tradicional do futebol catarinense."
+  },
+  {
+    "n": "Morro da Cruz",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Mirante com vista para a foz do rio, o porto e as praias da cidade.",
+    "busca": [
+      "Mirante do Morro da Cruz"
+    ]
+  },
+  {
+    "n": "Molhes da Barra",
+    "cat": "verde",
+    "end": "Fazenda",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Molhe na foz do Rio Itajaí-Açu para ver os navios entrando no porto.",
+    "busca": [
+      "Molhe de Itajaí"
+    ]
+  },
+  {
+    "n": "Praça Beira Rio",
+    "cat": "verde",
+    "end": "Avenida Ministro Victor Konder, Centro",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Calçadão de mais de um quilômetro à beira do Itajaí-Açu, com portal japonês."
+  },
+  {
+    "n": "Praia Brava",
+    "cat": "verde",
+    "end": "Praia Brava",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Praia de surfe e vida noturna na divisa com Balneário Camboriú.",
+    "busca": [
+      "Praia Brava de Itajaí"
+    ]
+  },
+  {
+    "n": "Praia de Cabeçudas",
+    "cat": "verde",
+    "end": "Cabeçudas",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Praia de mar calmo e casarões antigos, ideal para famílias."
+  },
+  {
+    "n": "Praia de Atalaia",
+    "cat": "verde",
+    "end": "Fazenda",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "d": "Primeira praia depois do molhe, procurada por surfistas.",
+    "busca": [
+      "Praia da Atalaia"
+    ]
+  }
+]

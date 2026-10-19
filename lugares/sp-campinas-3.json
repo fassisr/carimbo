@@ -1,0 +1,181 @@
+[
+  {
+    "n": "Bar Voga",
+    "cat": "bar",
+    "end": "Avenida Anchieta, 35, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Boteco no centro desde 1940, famoso pelo chope e pelos petiscos."
+  },
+  {
+    "n": "Facca Bar",
+    "cat": "bar",
+    "end": "Rua Conceição, 157, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bar dos anos 1950 no centro, ponto clássico do happy hour."
+  },
+  {
+    "n": "Bar do Saulo",
+    "cat": "bar",
+    "end": "Avenida Guarani, 345, Jardim Guarani",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Boteco de bairro aberto desde 1959."
+  },
+  {
+    "n": "Bar Azul",
+    "cat": "bar",
+    "end": "Rua Coronel Quirino, 1768, Cambuí",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bar do Cambuí aberto desde 1954, um dos mais antigos da região."
+  },
+  {
+    "n": "Bar Preste Atenção",
+    "cat": "bar",
+    "end": "Rua Barão Geraldo de Rezende, 52, Vila Itapura",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Boteco tradicional desde 1978."
+  },
+  {
+    "n": "Bar Flor do Minho",
+    "cat": "bar",
+    "end": "Rua Otoniel Mota, 204, Jardim Leonor",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bar de petiscos portugueses aberto desde 1978."
+  },
+  {
+    "n": "Bar do Carioca",
+    "cat": "bar",
+    "end": "Rua Erasmo Braga, 1067, Jardim Chapadão",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Boteco querido aberto desde 1983."
+  },
+  {
+    "n": "Feira Hippie do Cambuí",
+    "cat": "cultura",
+    "end": "Praça Imprensa Fluminense, Cambuí",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Feira de artesanato e comidinhas aos fins de semana.",
+    "busca": [
+      "Feira de Artesanato do Cambuí"
+    ]
+  },
+  {
+    "n": "Estação Anhumas",
+    "cat": "cultura",
+    "end": "Parque Xangrilá",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Ponto de partida da Maria Fumaça que vai até Jaguariúna.",
+    "busca": [
+      "Maria Fumaça Campinas",
+      "Viação Férrea Campinas-Jaguariúna"
+    ]
+  },
+  {
+    "n": "Caravela da Anunciação",
+    "cat": "verde",
+    "end": "Parque Portugal, Taquaral",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Réplica de caravela portuguesa às margens da Lagoa do Taquaral."
+  },
+  {
+    "n": "Planetário de Campinas",
+    "cat": "cultura",
+    "end": "Parque Portugal, Taquaral",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Planetário municipal com sessões para o público."
+  },
+  {
+    "n": "Museu Carlos Gomes",
+    "cat": "cultura",
+    "end": "Rua Bernardino de Campos, 989, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Acervo dedicado ao maestro campineiro Carlos Gomes."
+  },
+  {
+    "n": "Monumento-Túmulo de Carlos Gomes",
+    "cat": "cultura",
+    "end": "Praça Antônio Pompeu, Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Monumento onde repousa o compositor de O Guarani.",
+    "busca": [
+      "Monumento a Carlos Gomes"
+    ]
+  },
+  {
+    "n": "Largo do Rosário",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Largo central de Campinas, cercado de prédios históricos.",
+    "busca": [
+      "Praça Visconde de Indaiatuba"
+    ]
+  },
+  {
+    "n": "Estádio Brinco de Ouro da Princesa",
+    "cat": "cultura",
+    "end": "Avenida Imperatriz Dona Teresa Cristina, 11, Jardim Proença",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Estádio do Guarani, campeão brasileiro de 1978.",
+    "busca": [
+      "Brinco de Ouro"
+    ]
+  },
+  {
+    "n": "Estádio Moisés Lucarelli",
+    "cat": "cultura",
+    "end": "Praça Doutor Francisco Ursaia, 1900, Ponte Preta",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Estádio da Ponte Preta, construído pela própria torcida.",
+    "busca": [
+      "Majestoso"
+    ]
+  },
+  {
+    "n": "Bosque dos Alemães",
+    "cat": "verde",
+    "end": "Jardim Guanabara",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Bosque urbano com mata nativa e playground."
+  },
+  {
+    "n": "Fazenda Tozan",
+    "cat": "cultura",
+    "end": "Campinas",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Fazenda de café histórica com visitas guiadas."
+  },
+  {
+    "n": "Santuário Nossa Senhora Desatadora dos Nós",
+    "cat": "cultura",
+    "end": "Campinas",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Santuário que atrai devotos de todo o país."
+  },
+  {
+    "n": "Joaquim Egídio",
+    "cat": "verde",
+    "end": "Distrito de Joaquim Egídio",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "d": "Distrito rural com casarões, bares e estradas cercadas de verde."
+  }
+]

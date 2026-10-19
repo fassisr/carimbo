@@ -1,0 +1,63 @@
+[
+  {
+    "n": "Parque Eduardo Gomes",
+    "cat": "verde",
+    "end": "Avenida Guilherme Schell, 3600, Centro",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "O Parcão de Canoas, com lagos, pistas e área de lazer junto ao centro.",
+    "busca": [
+      "Parcão de Canoas"
+    ]
+  },
+  {
+    "n": "Parque Getúlio Vargas",
+    "cat": "verde",
+    "end": "Rua Dona Rafaela",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "Mata nativa conhecida como Capão do Corvo, com trilhas e mini zoo.",
+    "busca": [
+      "Capão do Corvo"
+    ]
+  },
+  {
+    "n": "Praça do Avião",
+    "cat": "verde",
+    "end": "Avenida Getúlio Vargas, 4000",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "Praça com um avião em exposição, lembrança da Base Aérea de Canoas."
+  },
+  {
+    "n": "Museu e Arquivo Histórico La Salle",
+    "cat": "cultura",
+    "end": "Avenida Victor Barreto, 2288, Centro",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "Museu da Universidade La Salle com acervo de história e ciências."
+  },
+  {
+    "n": "Arquivo Histórico e Museu de Canoas",
+    "cat": "cultura",
+    "end": "Rua Ipiranga, 105",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "Museu municipal com a memória da cidade e de seus pioneiros.",
+    "busca": [
+      "Museu Hugo Simões Lagranha",
+      "Arquivo Histórico Doutor Sezefredo Azambuja Vieira"
+    ]
+  },
+  {
+    "n": "Museu de Ciências Naturais da Ulbra",
+    "cat": "cultura",
+    "end": "Avenida Farroupilha, 8001, São José",
+    "cidade": "Canoas",
+    "uf": "RS",
+    "d": "Museu com fósseis, animais e coleções de história natural.",
+    "busca": [
+      "Museu de Ciências Naturais ULBRA"
+    ]
+  }
+]

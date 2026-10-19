@@ -1,0 +1,81 @@
+[
+  {
+    "n": "Cidade de Pedra",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Formações rochosas e piscinas de águas termais, uma das maravilhas da cidade.",
+    "busca": [
+      "Parque Águas Quentes Cidade de Pedra"
+    ]
+  },
+  {
+    "n": "Parque Ecológico João Basso",
+    "cat": "verde",
+    "end": "Rondonópolis",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Área de preservação com cachoeiras, grutas e trilhas."
+  },
+  {
+    "n": "Horto Florestal",
+    "cat": "verde",
+    "end": "Rondonópolis",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Área verde da cidade, boa para caminhadas à sombra.",
+    "busca": [
+      "Horto Florestal de Rondonópolis"
+    ]
+  },
+  {
+    "n": "Bosque Municipal Isabel Dias Goulart",
+    "cat": "verde",
+    "end": "Rondonópolis",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Bosque urbano para descanso e lazer em meio às árvores."
+  },
+  {
+    "n": "Complexo Turístico Carimã",
+    "cat": "verde",
+    "end": "Zona rural",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Reserva de cerrado com circuito de nove cachoeiras e trilhas.",
+    "busca": [
+      "Carimã"
+    ]
+  },
+  {
+    "n": "Catedral de Rondonópolis",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Catedral da cidade, principal templo católico de Rondonópolis."
+  },
+  {
+    "n": "Casario de Rondonópolis",
+    "cat": "cultura",
+    "end": "Centro",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Conjunto arquitetônico que guarda a memória dos primeiros tempos da cidade.",
+    "busca": [
+      "Casario"
+    ]
+  },
+  {
+    "n": "Museu Municipal Rosa Bororo",
+    "cat": "cultura",
+    "end": "Rondonópolis",
+    "cidade": "Rondonópolis",
+    "uf": "MT",
+    "d": "Museu com a história e a cultura dos povos Bororo e da cidade.",
+    "busca": [
+      "Museu Rosa Bororo"
+    ]
+  }
+]

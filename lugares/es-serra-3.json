@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Praça Encontro das Águas",
+    "cat": "verde",
+    "end": "Avenida Abido Saad, Parque Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praça à beira-mar onde o rio encontra o oceano em Jacaraípe."
+  },
+  {
+    "n": "Vila das Artes",
+    "cat": "cultura",
+    "end": "Jacaraípe",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Recanto de ateliês e artistas em Jacaraípe, perto da Casa de Pedra."
+  },
+  {
+    "n": "Praia de Costa Bela",
+    "cat": "verde",
+    "end": "Costa Bela",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia de águas tranquilas entre Jacaraípe e Manguinhos."
+  },
+  {
+    "n": "Praia da Baleia",
+    "cat": "verde",
+    "end": "Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia pequena e calma ao lado da vila de Manguinhos.",
+    "busca": [
+      "Praia da Baleia Manguinhos"
+    ]
+  },
+  {
+    "n": "Praia de Castelândia",
+    "cat": "verde",
+    "end": "Castelândia",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Praia extensa e pouco movimentada no litoral da Serra."
+  },
+  {
+    "n": "Espaço Maria Mariana",
+    "cat": "comida",
+    "end": "Manguinhos",
+    "cidade": "Serra",
+    "uf": "ES",
+    "d": "Restaurante charmoso de Manguinhos, com frutos do mar e clima de vila.",
+    "busca": [
+      "Maria Mariana"
+    ]
+  }
+]

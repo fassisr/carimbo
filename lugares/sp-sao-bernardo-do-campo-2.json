@@ -1,0 +1,55 @@
+[
+  {
+    "n": "Parque Caminhos do Mar",
+    "cat": "verde",
+    "end": "Rodovia SP-148, km 42, Riacho Grande",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Estrada Velha de Santos com monumentos históricos, mirantes e trilhas na Serra do Mar.",
+    "busca": [
+      "Estrada Velha de Santos",
+      "Caminhos do Mar"
+    ]
+  },
+  {
+    "n": "Basílica Menor Nossa Senhora da Boa Viagem",
+    "cat": "cultura",
+    "end": "Praça da Matriz, s/n, Centro",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Igreja matriz e basílica no centro de São Bernardo.",
+    "busca": [
+      "Igreja Matriz de São Bernardo do Campo"
+    ]
+  },
+  {
+    "n": "Parque da Juventude Città di Maróstica",
+    "cat": "verde",
+    "end": "Avenida Armando Ítalo Setti, 65, Baeta Neves",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Parque com tabuleiro de xadrez gigante inspirado na cidade italiana irmã.",
+    "busca": [
+      "Parque Cidade Escola da Juventude Città di Maróstica"
+    ]
+  },
+  {
+    "n": "Parque Engenheiro Salvador Arena",
+    "cat": "verde",
+    "end": "Avenida Caminho do Mar, 2980, Rudge Ramos",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Parque arborizado que recebe a tradicional Festa do Cambuci."
+  },
+  {
+    "n": "Prainha do Riacho Grande",
+    "cat": "verde",
+    "end": "Avenida Amazonas, Riacho Grande",
+    "cidade": "São Bernardo do Campo",
+    "uf": "SP",
+    "d": "Prainha às margens da Represa Billings, passeio clássico de fim de semana.",
+    "busca": [
+      "Prainha da Billings"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "n": "Lagoa do Interlagos",
+    "cat": "verde",
+    "end": "Avenida Francisco Peres, Esplanada",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Lagoa urbana com pista de caminhada, ponto de lazer no fim de tarde."
+  },
+  {
+    "n": "Parque das Mangueiras",
+    "cat": "verde",
+    "end": "Avenida Leonel Beirão de Jesus, 70, Morrinhos",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Parque sombreado por mangueiras antigas no bairro Morrinhos.",
+    "busca": [
+      "Parque Nilson Espoletão"
+    ]
+  },
+  {
+    "n": "Corredor Cultural Padre Dudu",
+    "cat": "cultura",
+    "end": "Rua Coronel Celestino, Centro",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Rua do Centro histórico com casarões, museu e atividades culturais."
+  },
+  {
+    "n": "Gosto do Cerrado Sorvetes",
+    "cat": "doce",
+    "end": "Avenida Mestra Fininha, 1180, Jardim São Luiz",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Sorveteria de frutas do cerrado como pequi, cagaita e umbu.",
+    "busca": [
+      "Gosto do Cerrado"
+    ]
+  },
+  {
+    "n": "Casa Amaral",
+    "cat": "comida",
+    "end": "Rua Olímpio Dias de Abreu, 57, Jardim São Luiz",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Restaurante de cozinha regional com carnes e petiscos do norte de Minas."
+  },
+  {
+    "n": "Bar da Jan",
+    "cat": "bar",
+    "end": "Rua Capelinha, 595, Antônio Pimenta",
+    "cidade": "Montes Claros",
+    "uf": "MG",
+    "d": "Bar de bairro querido pela comida farta e pelas carnes bem feitas."
+  }
+]

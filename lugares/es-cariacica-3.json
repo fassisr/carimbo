@@ -1,0 +1,46 @@
+[
+  {
+    "n": "Cachoeira Maricará",
+    "cat": "verde",
+    "end": "Estrada de Maricará, Maricará",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Cachoeira perto da sede do município, boa para banho no verão.",
+    "busca": [
+      "Cachoeira do Maricará"
+    ]
+  },
+  {
+    "n": "Vale do Moxuara",
+    "cat": "verde",
+    "end": "Estrada Wilson Manoel de Freitas, Roças Velhas",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Circuito rural ao pé do Monte Mochuara, com sítios e comida da roça.",
+    "busca": [
+      "Vale do Mochuara"
+    ]
+  },
+  {
+    "n": "Estação Pedro Nolasco",
+    "cat": "cultura",
+    "end": "Jardim América",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Estação de onde parte o trem de passageiros da Vitória a Minas.",
+    "busca": [
+      "Estação Ferroviária Pedro Nolasco"
+    ]
+  },
+  {
+    "n": "Centro Cultural Frei Civitella Del Tronto",
+    "cat": "cultura",
+    "end": "Cariacica",
+    "cidade": "Cariacica",
+    "uf": "ES",
+    "d": "Espaço cultural do município com oficinas, exposições e apresentações.",
+    "busca": [
+      "Centro Cultural Frei Civitella"
+    ]
+  }
+]

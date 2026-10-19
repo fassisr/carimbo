@@ -1,0 +1,12 @@
+[
+{"n":"Orla de Juazeiro","cat":"verde","end":"Centro","cidade":"Juazeiro","uf":"BA","d":"Calçadão à beira do São Francisco com bares, quiosques e vista para Petrolina.","busca":["Orla I","Orla II","Orla de Juazeiro"]},
+{"n":"Ponte Presidente Dutra","cat":"cultura","end":"Centro","cidade":"Juazeiro","uf":"BA","d":"Ponte sobre o Velho Chico que une Juazeiro a Petrolina, cartão-postal das duas cidades.","busca":["Ponte Juazeiro Petrolina"]},
+{"n":"Vapor Saldanha Marinho","cat":"cultura","end":"Orla, Centro","cidade":"Juazeiro","uf":"BA","d":"O Vaporzinho, barco a vapor do século XIX exposto na orla como memória da navegação.","busca":["Vaporzinho","Barco Saldanha Marinho"]},
+{"n":"Monumento do Nego D'Água","cat":"cultura","end":"Angari","cidade":"Juazeiro","uf":"BA","d":"Escultura gigante do ser lendário do São Francisco, saindo das águas do rio.","busca":["Nego d'Água"]},
+{"n":"Catedral Santuário Nossa Senhora das Grotas","cat":"cultura","end":"Praça da Bandeira, Centro","cidade":"Juazeiro","uf":"BA","d":"Catedral da padroeira, cuja imagem segundo a tradição foi achada numa gruta.","busca":["Catedral de Juazeiro"]},
+{"n":"Museu Regional do São Francisco","cat":"cultura","end":"Praça da Bandeira, Centro","cidade":"Juazeiro","uf":"BA","d":"Museu com carrancas, peças sacras e a história do povo ribeirinho."},
+{"n":"Praça da Bandeira","cat":"verde","end":"Centro","cidade":"Juazeiro","uf":"BA","d":"Praça central entre a Catedral e o museu, coração do Centro antigo."},
+{"n":"Parque da Lagoa do Calu","cat":"verde","end":"BR-407","cidade":"Juazeiro","uf":"BA","d":"Parque em volta de uma lagoa, com pista de caminhada e lazer ao ar livre.","busca":["Lagoa do Calu"]},
+{"n":"Ilha do Fogo","cat":"verde","end":"Rio São Francisco","cidade":"Juazeiro","uf":"BA","d":"Ilha rochosa no meio do rio, entre Juazeiro e Petrolina, com vista das duas cidades."},
+{"n":"Ilha do Rodeadouro","cat":"verde","end":"Rio São Francisco","cidade":"Juazeiro","uf":"BA","d":"Ilha de areia fina e água doce com barracas de peixe, programa clássico do fim de semana."}
+]

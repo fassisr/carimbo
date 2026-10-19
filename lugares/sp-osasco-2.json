@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Parque Chico Mendes",
+    "cat": "verde",
+    "end": "Osasco",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Parque mais conhecido de Osasco, com lago, bosque e borboletário.",
+    "busca": [
+      "Parque Municipal Chico Mendes"
+    ]
+  },
+  {
+    "n": "Borboletário de Osasco",
+    "cat": "verde",
+    "end": "Parque Chico Mendes",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Viveiro de borboletas aberto à visitação."
+  },
+  {
+    "n": "Parque Ecológico Dionísio Alvarez Mateos",
+    "cat": "verde",
+    "end": "Osasco",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Parque ecológico com área de mata e lazer."
+  },
+  {
+    "n": "Parque Ecológico do Jardim Bonança",
+    "cat": "verde",
+    "end": "Jardim Bonança",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Parque de bairro com trilhas e mata preservada."
+  },
+  {
+    "n": "Calçadão de Osasco",
+    "cat": "cultura",
+    "end": "Rua Antônio Agu, Centro",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Calçadão comercial, o coração movimentado do centro de Osasco.",
+    "busca": [
+      "Rua Antônio Agu"
+    ]
+  },
+  {
+    "n": "Teatro Municipal Glória Giglio",
+    "cat": "cultura",
+    "end": "Osasco",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Principal teatro da cidade."
+  },
+  {
+    "n": "Estádio Municipal José Liberatti",
+    "cat": "cultura",
+    "end": "Osasco",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Estádio municipal, casa do futebol osasquense."
+  },
+  {
+    "n": "Museu Dimitri Sensaud de Lavaud",
+    "cat": "cultura",
+    "end": "Osasco",
+    "cidade": "Osasco",
+    "uf": "SP",
+    "d": "Museu municipal que lembra o primeiro voo da América Latina, feito em Osasco.",
+    "busca": [
+      "Museu de Osasco"
+    ]
+  }
+]

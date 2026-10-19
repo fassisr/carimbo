@@ -1,0 +1,78 @@
+[
+  {
+    "n": "Museu da Estrada de Ferro Sorocabana",
+    "cat": "cultura",
+    "end": "Rua Doutor Paula Souza, 420, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Acervo sobre a ferrovia que moldou a cidade."
+  },
+  {
+    "n": "Mercado Municipal de Sorocaba",
+    "cat": "cultura",
+    "end": "Praça Comendador Nicolau Scarpa, 82, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Mercadão histórico com bancas de comida e produtos regionais.",
+    "busca": [
+      "Mercadão de Sorocaba"
+    ]
+  },
+  {
+    "n": "Parque Campolim",
+    "cat": "verde",
+    "end": "Parque Campolim",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Parque urbano com lago e pista de caminhada.",
+    "busca": [
+      "Parque Carlos Alberto de Souza"
+    ]
+  },
+  {
+    "n": "Padaria Real",
+    "cat": "doce",
+    "end": "Rua da Penha, 1373, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Padaria tradicional do centro de Sorocaba."
+  },
+  {
+    "n": "Museu de Arte Contemporânea de Sorocaba",
+    "cat": "cultura",
+    "end": "Avenida Doutor Afonso Vergueiro, 280, Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Museu de arte contemporânea na antiga estação ferroviária.",
+    "busca": [
+      "MACS"
+    ]
+  },
+  {
+    "n": "Parque Natural Chico Mendes",
+    "cat": "verde",
+    "end": "Sorocaba",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Área verde com trilhas e animais.",
+    "busca": [
+      "Parque Chico Mendes"
+    ]
+  },
+  {
+    "n": "Parque da Biquinha",
+    "cat": "verde",
+    "end": "Centro",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Parque histórico com a bica onde tropeiros matavam a sede."
+  },
+  {
+    "n": "Teatro Municipal Teotônio Vilela",
+    "cat": "cultura",
+    "end": "Alto da Boa Vista",
+    "cidade": "Sorocaba",
+    "uf": "SP",
+    "d": "Principal teatro da cidade, no Paço Municipal."
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "n": "Centro Histórico de São José",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Casario açoriano à beira da baía, um dos núcleos mais antigos da Grande Florianópolis."
+  },
+  {
+    "n": "Igreja Matriz de São José",
+    "cat": "cultura",
+    "end": "Praça Hercílio Luz, Centro Histórico",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Igreja matriz do século XIX que domina a praça do centro histórico.",
+    "busca": [
+      "Paróquia São José"
+    ]
+  },
+  {
+    "n": "Theatro Municipal Adolpho Mello",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Teatro de 1856, um dos mais antigos de Santa Catarina, ainda em atividade.",
+    "busca": [
+      "Theatro Adolpho Mello",
+      "Teatro Adolpho Mello"
+    ]
+  },
+  {
+    "n": "Museu Histórico de São José",
+    "cat": "cultura",
+    "end": "Centro Histórico",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Casarão colonial com peças que contam a história açoriana da cidade.",
+    "busca": [
+      "Museu Histórico Municipal de São José"
+    ]
+  },
+  {
+    "n": "Praça Hercílio Luz",
+    "cat": "verde",
+    "end": "Centro Histórico",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Praça arborizada em frente à Matriz, coração do centro antigo de São José."
+  },
+  {
+    "n": "Beira-Mar de São José",
+    "cat": "verde",
+    "end": "Avenida Beira-Mar, Praia Comprida",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Orla com ciclovia e pista de caminhada, com vista para a Ilha de Santa Catarina.",
+    "busca": [
+      "Beira Mar de São José"
+    ]
+  },
+  {
+    "n": "Ponta de Baixo",
+    "cat": "verde",
+    "end": "Ponta de Baixo",
+    "cidade": "São José",
+    "uf": "SC",
+    "d": "Comunidade de pescadores com ranchos de canoa e pôr do sol sobre a baía."
+  }
+]

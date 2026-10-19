@@ -1,0 +1,71 @@
+[
+  {
+    "n": "Centro Histórico de Hamburgo Velho",
+    "cat": "cultura",
+    "end": "Hamburgo Velho",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Bairro de casarões enxaimel e ecléticos, berço da colonização alemã na cidade.",
+    "busca": [
+      "Hamburgo Velho"
+    ]
+  },
+  {
+    "n": "Museu Comunitário Casa Schmitt-Presser",
+    "cat": "cultura",
+    "end": "Hamburgo Velho",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Casa enxaimel do século XIX que guarda o cotidiano dos imigrantes alemães.",
+    "busca": [
+      "Casa Schmitt-Presser"
+    ]
+  },
+  {
+    "n": "Fundação Ernesto Frederico Scheffel",
+    "cat": "cultura",
+    "end": "Avenida General Daltro Filho, 911, Hamburgo Velho",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Museu dedicado ao pintor Ernesto Frederico Scheffel, em casarão histórico.",
+    "busca": [
+      "Fundação Scheffel"
+    ]
+  },
+  {
+    "n": "Museu Nacional do Calçado",
+    "cat": "cultura",
+    "end": "Universidade Feevale",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Museu sobre a história do sapato na capital nacional do calçado."
+  },
+  {
+    "n": "Teatro Feevale",
+    "cat": "cultura",
+    "end": "RS-239, 2755, Campus II Feevale",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Um dos maiores teatros do Sul, palco de grandes shows e espetáculos."
+  },
+  {
+    "n": "Parcão de Novo Hamburgo",
+    "cat": "verde",
+    "end": "Rua Barão de Santo Ângelo, Hamburgo Velho",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Parque municipal com lago, pistas e muito verde perto do centro histórico.",
+    "busca": [
+      "Parque Henrique Luís Roessler",
+      "Parcão"
+    ]
+  },
+  {
+    "n": "Lomba Grande",
+    "cat": "verde",
+    "end": "Lomba Grande",
+    "cidade": "Novo Hamburgo",
+    "uf": "RS",
+    "d": "Bairro rural com cafés coloniais, cavalgadas e paisagem de colônia alemã."
+  }
+]

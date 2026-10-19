@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Praia de Santa Cruz",
+    "cat": "verde",
+    "end": "Santa Cruz",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia na foz do Piraquê-Açu, com bares e vida noturna no verão."
+  },
+  {
+    "n": "Praia Formosa",
+    "cat": "verde",
+    "end": "Praia Formosa",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia longa de águas calmas, boa para famílias."
+  },
+  {
+    "n": "Praia do Mar Azul",
+    "cat": "verde",
+    "end": "Mar Azul",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia de vila tranquila no litoral norte de Aracruz.",
+    "busca": [
+      "Praia de Mar Azul"
+    ]
+  },
+  {
+    "n": "Praia dos Quinze",
+    "cat": "verde",
+    "end": "Litoral de Aracruz",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Pequena enseada de mar calmo, cercada de falésias."
+  },
+  {
+    "n": "Praia da Biologia",
+    "cat": "verde",
+    "end": "Coqueiral",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Praia conhecida pelo trabalho de conservação de tartarugas marinhas."
+  },
+  {
+    "n": "Museu Histórico de Santa Cruz",
+    "cat": "cultura",
+    "end": "Santa Cruz",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Museu num casarão do século XX sobre a história da vila de Santa Cruz."
+  },
+  {
+    "n": "Estação Biológica Marinha Augusto Ruschi",
+    "cat": "cultura",
+    "end": "Santa Cruz",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Estação de pesquisa marinha com exposição sobre a fauna do litoral.",
+    "busca": [
+      "Estação Biológica Marinha"
+    ]
+  },
+  {
+    "n": "Aldeia Indígena Piraquê-Açu",
+    "cat": "cultura",
+    "end": "Piraquê-Açu",
+    "cidade": "Aracruz",
+    "uf": "ES",
+    "d": "Aldeia tupiniquim que recebe visitantes para conhecer sua cultura.",
+    "busca": [
+      "Aldeia Temática Piraquê-Açu"
+    ]
+  }
+]

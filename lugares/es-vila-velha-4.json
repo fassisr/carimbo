@@ -1,0 +1,146 @@
+[
+  {
+    "n": "Praia do Ribeiro",
+    "cat": "verde",
+    "end": "Rua Fernando Monteiro Lindenberg, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Prainha escondida entre pedras no fim da Praia da Costa, de águas calmas."
+  },
+  {
+    "n": "Praia da Baleia",
+    "cat": "verde",
+    "end": "Nova Ponta da Fruta",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Praia tranquila de Ponta da Fruta, com piscinas naturais na maré baixa.",
+    "busca": [
+      "Praia da Baleia Ponta da Fruta"
+    ]
+  },
+  {
+    "n": "Lagoa Grande",
+    "cat": "verde",
+    "end": "Ponta da Fruta",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Lagoa de água escura cercada de restinga, ótima para um banho diferente.",
+    "busca": [
+      "Lagoa Grande de Ponta da Fruta"
+    ]
+  },
+  {
+    "n": "Doceminas",
+    "cat": "doce",
+    "end": "Rodovia do Sol, km 21, Interlagos",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Parada clássica na Rodovia do Sol para doces mineiros, queijos e quitutes."
+  },
+  {
+    "n": "Gelateria Barutti",
+    "cat": "doce",
+    "end": "Avenida Antônio Gil Veloso, 1856, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Gelato artesanal de frente para a orla da Praia da Costa.",
+    "busca": [
+      "Barutti"
+    ]
+  },
+  {
+    "n": "Regina Maris",
+    "cat": "comida",
+    "end": "Rua Deolindo Perim, 79, Itapuã",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante de frutos do mar tradicional, conhecido pela moqueca capixaba."
+  },
+  {
+    "n": "Restaurante Espera Maré",
+    "cat": "comida",
+    "end": "Avenida Ana Penha Barcelos, 166, Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Peixe e moqueca com clima de vila de pescadores na Barra do Jucu.",
+    "busca": [
+      "Espera Maré"
+    ]
+  },
+  {
+    "n": "Cantina Vicenza",
+    "cat": "comida",
+    "end": "Rua Professor João Cardoso, 390, Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Cantina italiana aconchegante na Barra do Jucu, com massas caseiras."
+  },
+  {
+    "n": "Caranguejo Três Irmãos",
+    "cat": "comida",
+    "end": "Avenida Fortaleza, 18, Itapuã",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Casa popular para quebrar caranguejo com cerveja gelada em Itapuã.",
+    "busca": [
+      "Três Irmãos"
+    ]
+  },
+  {
+    "n": "Cantinho Gaúcho",
+    "cat": "comida",
+    "end": "Avenida Antônio Gil Veloso, 100, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Restaurante antigo da orla, com churrasco e frutos do mar perto da Sereia.",
+    "busca": [
+      "O Cantinho do Gaúcho"
+    ]
+  },
+  {
+    "n": "Barracústico",
+    "cat": "bar",
+    "end": "Avenida Ana Penha Barcelos, 264, Barra do Jucu",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Bar de música ao vivo na Barra do Jucu, com congo e MPB.",
+    "busca": [
+      "Barracústico Bar e Restaurante"
+    ]
+  },
+  {
+    "n": "Só Santo Botequim",
+    "cat": "bar",
+    "end": "Rua Castelo Branco, 815, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Botequim descontraído com petiscos e chope na Praia da Costa."
+  },
+  {
+    "n": "Barzito",
+    "cat": "bar",
+    "end": "Rua Lúcio Bacelar, 16, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Barzinho perto da praia, bom para um happy hour com petiscos."
+  },
+  {
+    "n": "Castanheira Bar",
+    "cat": "bar",
+    "end": "Rua Rio Branco, 107, Praia da Costa",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Bar de calçada sob as castanheiras, ponto de encontro do bairro."
+  },
+  {
+    "n": "Pangaré Bar e Restaurante",
+    "cat": "bar",
+    "end": "Rua Luiza Grinalda, 555, Centro",
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "d": "Boteco tradicional do Centro de Vila Velha, com tira-gostos fartos.",
+    "busca": [
+      "Pangaré"
+    ]
+  }
+]

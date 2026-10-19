@@ -1,0 +1,115 @@
+[
+  {
+    "n": "Mercado Municipal de Juiz de Fora",
+    "cat": "cultura",
+    "end": "Avenida Getúlio Vargas, 188, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Mercado com queijos, doces e comidinhas mineiras no Centro.",
+    "busca": [
+      "Mercado Municipal"
+    ]
+  },
+  {
+    "n": "Estádio Municipal Radialista Mário Helênio",
+    "cat": "cultura",
+    "end": "Avenida Eugênio do Nascimento, 3837, Aeroporto",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Maior estádio da cidade, casa do Tupi e do Tupynambás.",
+    "busca": [
+      "Estádio Mário Helênio",
+      "Helenão"
+    ]
+  },
+  {
+    "n": "Usina de Marmelos Zero",
+    "cat": "cultura",
+    "end": "Estrada União e Indústria, Granjas Santo Antônio",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Primeira hidrelétrica da América do Sul, hoje museu à beira do Paraibuna.",
+    "busca": [
+      "Museu Usina de Marmelos"
+    ]
+  },
+  {
+    "n": "Memorial da República Presidente Itamar Franco",
+    "cat": "cultura",
+    "end": "Rua Benjamin Constant, 760, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Museu dedicado ao ex-presidente nascido na cidade.",
+    "busca": [
+      "Memorial Itamar Franco"
+    ]
+  },
+  {
+    "n": "Painéis de Portinari",
+    "cat": "cultura",
+    "end": "Edifício Clube, Rua Halfeld, 828, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Painéis As Quatro Estações e Cavalos, de Portinari, no Edifício Clube.",
+    "busca": [
+      "Painéis de Cândido Portinari"
+    ]
+  },
+  {
+    "n": "Centro Cultural Pró-Música",
+    "cat": "cultura",
+    "end": "Avenida Barão do Rio Branco, 2329, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Centro da UFJF com concertos e o tradicional festival de música colonial.",
+    "busca": [
+      "Pró-Música UFJF"
+    ]
+  },
+  {
+    "n": "Museu do Crédito Real",
+    "cat": "cultura",
+    "end": "Avenida Getúlio Vargas, 455, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Museu num prédio de banco histórico, com cofres e objetos antigos."
+  },
+  {
+    "n": "Mirante São Bernardo",
+    "cat": "verde",
+    "end": "Rua Avelino Debortoli, São Bernardo",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Mirante com vista aberta para a cidade, ótimo no fim de tarde."
+  },
+  {
+    "n": "Bar do Futrica",
+    "cat": "bar",
+    "end": "Galeria Hallack, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Bar tradicional escondido numa galeria do Centro, com petiscos e chope.",
+    "busca": [
+      "Bar e Restaurante do Futrica"
+    ]
+  },
+  {
+    "n": "Espaço Café Central",
+    "cat": "cafe",
+    "end": "Galeria Azarias Vilela, 36, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Café na galeria ao lado do Cine-Theatro Central, perfeito antes de um show."
+  },
+  {
+    "n": "Brasão Restaurante",
+    "cat": "comida",
+    "end": "Avenida Barão do Rio Branco, 2262, Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "d": "Restaurante tradicional da Rio Branco, com pratos fartos à moda mineira.",
+    "busca": [
+      "Restaurante Brasão"
+    ]
+  }
+]

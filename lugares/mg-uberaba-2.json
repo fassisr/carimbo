@@ -1,0 +1,89 @@
+[
+  {
+    "n": "Mercado Municipal de Uberaba",
+    "cat": "cultura",
+    "end": "Praça Manoel Terra, 255, Centro",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Mercado com queijos, doces e o famoso pastel do Edmur.",
+    "busca": [
+      "Mercado Municipal"
+    ]
+  },
+  {
+    "n": "Igreja de Santa Rita",
+    "cat": "cultura",
+    "end": "Praça Manoel Terra, Centro",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Igreja colonial que abriga o Museu de Arte Sacra da cidade.",
+    "busca": [
+      "Museu de Arte Sacra de Uberaba"
+    ]
+  },
+  {
+    "n": "Memorial Chico Xavier",
+    "cat": "cultura",
+    "end": "Avenida João XXIII, 2011, Conjunto Margarida Rosa Azevedo",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Memorial com objetos e a história do médium mais famoso do Brasil."
+  },
+  {
+    "n": "Parque Fernando Costa",
+    "cat": "cultura",
+    "end": "São Benedito",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Parque de exposições da ABCZ, palco da Expozebu.",
+    "busca": [
+      "Parque de Exposições Fernando Costa"
+    ]
+  },
+  {
+    "n": "Parque das Acácias",
+    "cat": "verde",
+    "end": "Avenida Claricinda Alves de Rezende, 515, Parque do Mirante",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Parque urbano com lago, pista de caminhada e muito verde."
+  },
+  {
+    "n": "Doceria Mestre Darci",
+    "cat": "doce",
+    "end": "Rua Herman Tormin, 160, Peirópolis",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Doceria caseira de Peirópolis, parada certa depois do Museu dos Dinossauros."
+  },
+  {
+    "n": "Caçarola do Dino",
+    "cat": "comida",
+    "end": "Rua Antônio José Luiz, 40, Peirópolis",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Restaurante de comida mineira no bairro dos dinossauros.",
+    "busca": [
+      "Caçarola do Dino Restaurante"
+    ]
+  },
+  {
+    "n": "Geremia Bar e Petiscaria",
+    "cat": "bar",
+    "end": "Rua Olegário Maciel, 271, Centro",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Bar do Centro com petiscos e chope, ponto de encontro dos uberabenses.",
+    "busca": [
+      "Geremia"
+    ]
+  },
+  {
+    "n": "Dom Café",
+    "cat": "cafe",
+    "end": "Rua Governador Valadares, 369, Centro",
+    "cidade": "Uberaba",
+    "uf": "MG",
+    "d": "Cafeteria do Centro com cafés especiais e quitutes mineiros."
+  }
+]
