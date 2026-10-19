@@ -1198,6 +1198,7 @@ function categorize(t) {
   if (['cinema', 'theatre', 'library', 'arts_centre', 'community_centre', 'marketplace'].includes(a) || ['books', 'music'].includes(s) || ['museum', 'gallery', 'aquarium', 'artwork', 'attraction'].includes(tr)
     || ['monument', 'memorial', 'castle', 'fort', 'ruins', 'church', 'building', 'manor', 'archaeological_site'].includes(h) || a === 'place_of_worship' && (h || t.heritage || t.wikidata || t.tourism)) return 'cultura';
   if (l === 'stadium' || l === 'sports_centre' && t.wikidata) return 'verde';
+  if (['big_wheel', 'roller_coaster', 'amusement_ride'].includes(t.attraction) || ['water_park', 'trampoline_park', 'amusement_arcade'].includes(l)) return 'verde';
   return null;
 }
 async function loadPlaces() {
@@ -1216,6 +1217,8 @@ async function loadPlaces() {
     nwr${ar}["amenity"="place_of_worship"]["name"]["heritage"];
     nwr${ar}["amenity"="community_centre"]["name"]["wikidata"];
     nwr${ar}["place"="square"]["name"];
+    nwr${ar}["attraction"~"^(big_wheel|roller_coaster|amusement_ride)$"]["name"];
+    nwr${ar}["leisure"~"^(water_park|trampoline_park)$"]["name"];
   );out center 1500;`;
   if (!places.size) status('<span class="spin"></span><span>Buscando lugares perto de você…</span>');
   const ck = `places3:${c.lat.toFixed(3)},${c.lng.toFixed(3)}`;
